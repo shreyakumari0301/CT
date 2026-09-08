@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary malicious tools and malware families consistently deployed in this campaign?",
+  "answer": "- Exploit.Win32.Generic (zero-day sandbox escape exploit)\n- Trojan.Win64.Agent\n- Trojan.Win64.Convagent.gen",
+  "llm_timing": {
+    "api_call_seconds": 7.071
+  }
+}

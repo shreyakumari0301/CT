@@ -1,0 +1,11 @@
+{"entity_type": "malware", "canonical_name": "SpectralBlur", "aliases": [], "properties": {"family": "backdoor", "capabilities": ["file upload", "file download", "remote shell execution", "configuration updates", "file deletion", "hibernation", "sleep", "evasion"], "platforms": ["macOS", "Mach-O"], "first_seen": "August 2023"}, "source_chunks": ["BLOG-158::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT38", "aliases": ["TA444", "BlueNoroff", "Lazarus Group sub-cluster", "Bluenoroff", "Stardust Chollima"], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-158::ch0"]}
+{"entity_type": "malware", "canonical_name": "KANDYKORN", "aliases": ["SockRacket"], "properties": {"family": "implant", "capabilities": ["file upload", "file download", "remote shell execution", "configuration updates", "file deletion", "hibernation", "sleep"]}, "source_chunks": ["BLOG-158::ch0"]}
+{"entity_type": "malware", "canonical_name": "RustBucket", "aliases": [], "properties": {"family": "dropper"}, "source_chunks": ["BLOG-158::ch0"]}
+{"entity_type": "malware", "canonical_name": "ObjCShellz", "aliases": [], "properties": {"family": "payload"}, "source_chunks": ["BLOG-158::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Lazarus campaigns", "aliases": [], "properties": {}, "source_chunks": ["BLOG-158::ch0"]}
+{"entity_type": "tool", "canonical_name": "grantpt", "aliases": [], "properties": {"capabilities": ["pseudo-terminal invocation"]}, "source_chunks": ["BLOG-158::ch0"]}
+{"entity_type": "identity", "canonical_name": "macOS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-158::ch0"]}
+{"entity_type": "identity", "canonical_name": "North Korea", "aliases": [], "properties": {"region": "North Korea"}, "source_chunks": ["BLOG-158::ch0"]}
+{"entity_type": "identity", "canonical_name": "Colombia", "aliases": [], "properties": {"region": "Colombia"}, "source_chunks": ["BLOG-158::ch0"]}
+{"entity_type": "identity", "canonical_name": "cryptocurrency and blockchain targets", "aliases": [], "properties": {"sector": "cryptocurrency and blockchain"}, "source_chunks": ["BLOG-158::ch0"]}

@@ -1,0 +1,23 @@
+{
+  "question": "An adversary analyzes a compiled executable to uncover sensitive hard-coded constants, such as literal strings embedded in the file, using static or dynamic reverse-engineering methods. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1552.001.\n- T1552.001 corresponds to retrieving credentials stored in files, mapping CAPEC-191: reading sensitive hard-coded constants within executables via analysis.",
+  "llm_cost": {
+    "input": 0.00076,
+    "cached_input": 0.0,
+    "output": 0.00108,
+    "total": 0.00184,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 608,
+      "cached_input": 0,
+      "output": 108
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5967
+  }
+}

@@ -1,0 +1,20 @@
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Patch Tuesday", "aliases": ["August 2023 Patch Tuesday"], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-36884", "aliases": [], "properties": {"cve_id": "CVE-2023-36884"}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": [], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Office", "aliases": ["Office"], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Mark of the Web bypass", "aliases": ["bypasses the Mark of the Web"], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-38180", "aliases": [], "properties": {"cve_id": "CVE-2023-38180"}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "identity", "canonical_name": ".NET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "identity", "canonical_name": "Visual Studio", "aliases": [], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DDoS", "aliases": ["DDoS attacks"], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Storm-0978", "aliases": ["RomCom", "Underground", "RomCom/Underground"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "malware", "canonical_name": "Industrial Spy", "aliases": ["Industrial Spy ransomware"], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Extortion", "aliases": ["extort victims"], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows", "aliases": [], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "tool", "canonical_name": "Defender Antivirus", "aliases": [], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "tool", "canonical_name": "EDR block mode", "aliases": [], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Attack surface reduction rules", "aliases": ["attack surface reduction rules to block Office-spawned child processes"], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "campaign", "canonical_name": "RomCom campaigns", "aliases": [], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "identity", "canonical_name": "Avertium", "aliases": [], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}
+{"entity_type": "tool", "canonical_name": "Fusion MXDR for Microsoft", "aliases": ["Fusion MXDR"], "properties": {}, "source_chunks": ["BLOG-1::ch0"]}

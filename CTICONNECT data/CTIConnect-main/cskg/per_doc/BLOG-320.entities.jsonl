@@ -1,0 +1,30 @@
+{"entity_type": "identity", "canonical_name": "US Department of Justice", "aliases": ["Department of Justice"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "identity", "canonical_name": "I-SOON", "aliases": ["Chinese contractor I-SOON"], "properties": {"region": "China"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "FishMonger APT", "aliases": ["FishMonger APT team"], "properties": {"primary_motivation": "espionage", "first_seen": "2022"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Operation FishMedley", "aliases": [], "properties": {"objective": "espionage", "first_seen": "2022"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "identity", "canonical_name": "government bodies in Taiwan and Thailand", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwan", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "identity", "canonical_name": "Thailand", "aliases": [], "properties": {"region": "Thailand"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hungarian Catholic organization", "aliases": [], "properties": {"sector": "religious", "region": "Hungary"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "identity", "canonical_name": "Turkish entity", "aliases": [], "properties": {"region": "Turkey"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "identity", "canonical_name": "US-based Catholic charity and NGO", "aliases": [], "properties": {"sector": "non-profit", "region": "United States"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "identity", "canonical_name": "French think tank", "aliases": [], "properties": {"sector": "think tank", "region": "France"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "malware", "canonical_name": "ShadowPad", "aliases": ["ShadowPad backdoor"], "properties": {"capabilities": ["backdoor"]}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "malware", "canonical_name": "ScatterBee", "aliases": ["ScatterBee-packed ShadowPad backdoor"], "properties": {}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "indicator", "canonical_name": "api.googleauthenticatoronline.com:443", "aliases": ["api.googleauthenticatoronline[.]com:443"], "properties": {"ioc_type": "domain", "value": "api.googleauthenticatoronline.com"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "malware", "canonical_name": "Spyder", "aliases": ["Spyder loader"], "properties": {"capabilities": ["loader"]}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "indicator", "canonical_name": "F4E4C69EDEE09E820000000000000000", "aliases": [], "properties": {"ioc_type": "hash", "value": "F4E4C69EDEE09E820000000000000000"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "indicator", "canonical_name": "task.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "task.exe"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "indicator", "canonical_name": "61.238.103.165", "aliases": ["61.238.103[.]165"], "properties": {"ioc_type": "ip", "value": "61.238.103.165"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "malware", "canonical_name": "SodaMaster", "aliases": ["SodaMaster loaders"], "properties": {"capabilities": ["loader"]}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "indicator", "canonical_name": "debug.png", "aliases": [], "properties": {"ioc_type": "hash", "value": "debug.png"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "indicator", "canonical_name": "libvlc.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "libvlc.dll"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "tool", "canonical_name": "Impacket", "aliases": ["Impacket-enabled lateral movement"], "properties": {"capabilities": ["lateral movement"]}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral Movement", "aliases": [], "properties": {"tactic": "Lateral Movement"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "LSASS memory dumping", "aliases": ["LSASS dumps"], "properties": {}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "indicator", "canonical_name": "comsvcs.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "comsvcs.dll"}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Registry hive dumping", "aliases": ["registry hive dumps"], "properties": {}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "tool", "canonical_name": "SprySOCKS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "malware", "canonical_name": "BIOPASS RAT", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-320::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL side-loading", "aliases": ["side-loaded via legitimate DLLs"], "properties": {}, "source_chunks": ["BLOG-320::ch0"]}

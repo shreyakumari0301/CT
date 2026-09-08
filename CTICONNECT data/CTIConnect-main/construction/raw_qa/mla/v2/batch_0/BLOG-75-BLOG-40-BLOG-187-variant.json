@@ -1,0 +1,7 @@
+{
+  "question": "What are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- Conti ransomware\n- Diavol ransomware\n- BazarLoader\n- BUMBLEBEE loader\n- EXOTIC LILY\n- Trickbot",
+  "llm_timing": {
+    "api_call_seconds": 8.3414
+  }
+}

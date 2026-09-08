@@ -1,0 +1,23 @@
+{
+  "question": "A web application\u2019s input validation can be bypassed when an attacker repeats key characters (for example doubling \u201c<\u201d or its URL-encoded forms), causing malicious script tags to slip through and execute in a victim\u2019s browser. Which CAPEC attack pattern exploits this weakness, and why can it succeed against such filtering?",
+  "answer": "- CAPEC-245.\n- CAPEC-245 exploits doubled-character XSS bypass, targeting CWE-85: cross-site scripting enabled by doubled characters evading input validation.",
+  "llm_cost": {
+    "input": 0.000811,
+    "cached_input": 0.0,
+    "output": 0.00114,
+    "total": 0.001951,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 649,
+      "cached_input": 0,
+      "output": 114
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5801
+  }
+}

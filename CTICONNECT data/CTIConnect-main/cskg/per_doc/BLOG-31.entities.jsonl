@@ -1,0 +1,8 @@
+{"entity_type": "identity", "canonical_name": "Mastodon", "aliases": [], "properties": {}, "source_chunks": ["BLOG-31::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-23832", "aliases": [], "properties": {"cve_id": "CVE-2024-23832", "cvss": "9.4", "severity": "critical"}, "source_chunks": ["BLOG-31::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Origin-validation bypass", "aliases": [], "properties": {}, "source_chunks": ["BLOG-31::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Forge authenticated requests", "aliases": [], "properties": {}, "source_chunks": ["BLOG-31::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Account hijacking", "aliases": ["fully hijack accounts"], "properties": {}, "source_chunks": ["BLOG-31::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "TootRoot", "aliases": ["TootRoot flaw"], "properties": {}, "source_chunks": ["BLOG-31::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-36460", "aliases": [], "properties": {"cve_id": "CVE-2023-36460"}, "source_chunks": ["BLOG-31::ch0"]}
+{"entity_type": "malware", "canonical_name": "Web shell", "aliases": ["web shells"], "properties": {}, "source_chunks": ["BLOG-31::ch0"]}

@@ -1,0 +1,11 @@
+{"entity_type": "malware", "canonical_name": "Ngioweb", "aliases": [], "properties": {"first_seen": "early 2024", "capabilities": ["scanning for IoT devices", "credential access via default/weak credentials", "exploitation of firmware vulnerabilities", "deploys loader", "persistence", "encrypted SOCKS5 tunneling", "C2 over HTTPS", "fast-flux C2 domains", "encryption", "obfuscation", "fallback C2 rotation"], "platforms": ["IoT devices", "DVRs", "IP cameras", "home routers"]}, "source_chunks": ["BLOG-314::ch0"]}
+{"entity_type": "campaign", "canonical_name": "NSOCKS", "aliases": ["NSOCKS residential proxy network", "NSOCKS’ tiered subscription service"], "properties": {"objective": "Monetize a residential proxy network of infected IoT nodes to support credential-stuffing, ad fraud, and DDoS-for-hire operations", "first_seen": "early 2024"}, "source_chunks": ["BLOG-314::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scanning the Internet for IoT devices with open Telnet/SSH ports", "aliases": [], "properties": {}, "source_chunks": ["BLOG-314::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploitation of firmware vulnerabilities", "aliases": [], "properties": {}, "source_chunks": ["BLOG-314::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Use of default or weak credentials", "aliases": [], "properties": {}, "source_chunks": ["BLOG-314::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Encrypted SOCKS5 tunneling to proxy infrastructure", "aliases": [], "properties": {}, "source_chunks": ["BLOG-314::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Fast-flux C2 domains over HTTPS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-314::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential stuffing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-314::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Ad fraud", "aliases": [], "properties": {}, "source_chunks": ["BLOG-314::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DDoS-for-hire operations", "aliases": [], "properties": {}, "source_chunks": ["BLOG-314::ch0"]}
+{"entity_type": "identity", "canonical_name": "IoT devices", "aliases": ["IoT assets"], "properties": {"sector": "IoT"}, "source_chunks": ["BLOG-314::ch0"]}

@@ -1,0 +1,27 @@
+{"entity_type": "malware", "canonical_name": "Magniber", "aliases": ["Magniber ransomware", "Magnitude EK successor"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwan", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "South Korea", "aliases": [], "properties": {"region": "South Korea"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "Australia", "aliases": [], "properties": {"region": "Australia"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "Turkey", "aliases": [], "properties": {"region": "Turkey"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "Japan", "aliases": [], "properties": {"region": "Japan"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "education", "aliases": [], "properties": {"sector": "education"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "government", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "healthcare", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "technology", "aliases": [], "properties": {"sector": "technology"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "energy", "aliases": [], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "transportation", "aliases": [], "properties": {"sector": "transportation"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "identity", "canonical_name": "real estate", "aliases": [], "properties": {"sector": "real estate"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2016-0189", "aliases": [], "properties": {"cve_id": "CVE-2016-0189"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2018-8174", "aliases": [], "properties": {"cve_id": "CVE-2018-8174"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-1367", "aliases": [], "properties": {"cve_id": "CVE-2019-1367"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-0968", "aliases": [], "properties": {"cve_id": "CVE-2020-0968"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-26411", "aliases": [], "properties": {"cve_id": "CVE-2021-26411"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-40444", "aliases": [], "properties": {"cve_id": "CVE-2021-40444"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-34527", "aliases": ["PrintNightmare", "PrintNightmare (CVE-2021-34527)"], "properties": {"cve_id": "CVE-2021-34527"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-44698", "aliases": [], "properties": {"cve_id": "CVE-2022-44698"}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "tool", "canonical_name": "NtQuerySystemInformation", "aliases": [], "properties": {"capabilities": ["discovery"]}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "tool", "canonical_name": "Msiexec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "tool", "canonical_name": "Regsvr32", "aliases": [], "properties": {}, "source_chunks": ["BLOG-193::ch0"]}
+{"entity_type": "tool", "canonical_name": "Fodhelper", "aliases": [], "properties": {}, "source_chunks": ["BLOG-193::ch0"]}

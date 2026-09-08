@@ -1,0 +1,7 @@
+{
+  "question": "What are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- Fog ransomware\n- GC2 implant\n- Stowaway\n- Syteca (formerly Ekran) employee-monitoring software\n- Adaptix C2 Agent Beacon\n- Impacket (post-exploitation utilities)\n- cwiper.exe (ransomware loader)\n- ktool.exe (privilege-escalation exploit)\n- Win32.FOG.SMYPEFG (FOG ransomware family detection)\n- .flocked binaries (embedded payloads)\n- stage1.ps1 (multi-stage PowerShell script)",
+  "llm_timing": {
+    "api_call_seconds": 13.5398
+  }
+}

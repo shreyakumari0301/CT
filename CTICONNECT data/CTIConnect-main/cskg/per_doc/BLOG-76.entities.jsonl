@@ -1,0 +1,19 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "campaign", "canonical_name": "CryptoClippy", "aliases": [], "properties": {"objective": "cryptocurrency clipping via SEO poisoning and redirection to malicious domains to trick users into downloading a ZIP/LNK that runs an obfuscated PowerShell chain, injects a clipper into svchost.exe, and replaces copied Bitcoin/Ethereum addresses with actor-controlled wallets"}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SEO poisoning via Google Ads", "aliases": ["SEO poisoning"], "properties": {}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Ads", "aliases": [], "properties": {}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "tool", "canonical_name": "SysWhispers2", "aliases": [], "properties": {}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Ricoly.bat", "aliases": [], "properties": {"ioc_type": "hash", "value": "Ricoly.bat"}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Ricoly.ps1", "aliases": [], "properties": {"ioc_type": "hash", "value": "Ricoly.ps1"}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "identity", "canonical_name": "WhatsApp Web", "aliases": [], "properties": {}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "indicator", "canonical_name": "svchost.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "svchost.exe"}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "identity", "canonical_name": "Portugal", "aliases": ["Portuguese-targeted"], "properties": {"region": "Portugal"}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "identity", "canonical_name": "IT services", "aliases": [], "properties": {"sector": "IT services"}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "identity", "canonical_name": "real estate", "aliases": [], "properties": {"sector": "real estate"}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "identity", "canonical_name": "Advanced URL Filtering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "identity", "canonical_name": "DNS Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-76::ch0"]}
+{"entity_type": "identity", "canonical_name": "Next-Generation Firewall", "aliases": [], "properties": {}, "source_chunks": ["BLOG-76::ch0"]}

@@ -1,0 +1,27 @@
+{"src_type": "malware", "src_name": "FOG ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "technology sector", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "malware", "src_name": "FOG ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "education sector", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "malware", "src_name": "FOG ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing sector", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "malware", "src_name": "FOG ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "transportation sector", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "malware", "src_name": "FOG ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "business services sector", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "malware", "src_name": "FOG ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "healthcare sector", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "malware", "src_name": "FOG ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "retail sector", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "malware", "src_name": "FOG ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "consumer sector", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "malware", "src_name": "FOG ransomware", "predicate": "abuses_references_to", "tgt_type": "identity", "tgt_name": "US Department of Government Efficiency", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "Pay Adjustment.zip", "predicate": "executes", "tgt_type": "indicator", "tgt_name": "stage1.ps1", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "stage1.ps1", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "stage1.ps1", "predicate": "retrieves", "tgt_type": "indicator", "tgt_name": "cwiper.exe", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "stage1.ps1", "predicate": "retrieves", "tgt_type": "indicator", "tgt_name": "ktool.exe", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "stage1.ps1", "predicate": "retrieves", "tgt_type": "indicator", "tgt_name": "lootsubmit.ps1", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "cwiper.exe", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Sandbox evasion", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "cwiper.exe", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "dbgLog.sys", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "cwiper.exe", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "readme.txt", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "cwiper.exe", "predicate": "decrypts_in_memory", "tgt_type": "indicator", "tgt_name": ".flocked", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "cwiper.exe", "predicate": "implements", "tgt_type": "attack_pattern", "tgt_name": "Data encryption for impact", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "cwiper.exe", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "FOG ransomware", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "ktool.exe", "predicate": "leverages", "tgt_type": "indicator", "tgt_name": "iQVW64.sys", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "ktool.exe", "predicate": "uses_hardcoded_key", "tgt_type": "indicator", "tgt_name": "fd6c57fa3852aec8", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "ktool.exe", "predicate": "implements", "tgt_type": "attack_pattern", "tgt_name": "Privilege escalation", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "lootsubmit.ps1", "predicate": "implements", "tgt_type": "attack_pattern", "tgt_name": "System information discovery", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "lootsubmit.ps1", "predicate": "exfiltrates_to", "tgt_type": "indicator", "tgt_name": "hxxps://hilarious-trifle-d9182e.netlify[.]app", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "indicator", "src_name": "lootsubmit.ps1", "predicate": "implements", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration over web service", "source_chunks": ["BLOG-191::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Email phishing", "predicate": "delivers", "tgt_type": "indicator", "tgt_name": "Pay Adjustment.zip", "source_chunks": ["BLOG-191::ch0"]}

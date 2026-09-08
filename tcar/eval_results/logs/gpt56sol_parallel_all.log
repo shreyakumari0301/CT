@@ -1,0 +1,15 @@
+[2026-09-06T07:09:55Z] Parallel all model=gpt-5.6-sol cb=20260904Tgpt56sol_forced_rag_cb cc=20260906Tgpt56sol_forced_rag_cc
+[2026-09-06T07:09:55Z] SKIP ctibench ate (already running)
+[2026-09-06T07:09:55Z] SKIP ctibench rcm (already running)
+[2026-09-06T07:09:55Z] RUN ctibench vanilla_rag mcq
+launched ctibench mcq pid=894
+[2026-09-06T07:09:55Z] RUN ctibench vanilla_rag vsp
+launched ctibench vsp pid=905
+[2026-09-06T07:09:55Z] RUN cticonnect vanilla_rag rcm
+launched cticonnect rcm pid=916
+[2026-09-06T07:09:55Z] RUN cticonnect vanilla_rag ata
+launched cticonnect ata pid=927
+[2026-09-06T07:09:55Z] All launches issued; waiting...
+[2026-09-06T08:26:34Z] DONE cticonnect rcm
+[2026-09-06T08:34:33Z] DONE cticonnect ata
+[2026-09-06T10:47:48Z] Parallel all finish

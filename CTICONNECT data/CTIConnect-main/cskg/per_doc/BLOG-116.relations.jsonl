@@ -1,0 +1,15 @@
+{"src_type": "identity", "src_name": "Aqua Security", "predicate": "has_team", "tgt_type": "identity", "tgt_name": "Nautilus team", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "identity", "src_name": "Nautilus team", "predicate": "uncovered", "tgt_type": "malware", "tgt_name": "Hadooken", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "malware", "src_name": "Hadooken", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Oracle WebLogic servers", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "malware", "src_name": "Hadooken", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential harvesting from SSH directories", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "malware", "src_name": "Hadooken", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Lateral movement", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "malware", "src_name": "Hadooken", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Clear logs", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "malware", "src_name": "Hadooken", "predicate": "drops", "tgt_type": "malware", "tgt_name": "Tsunami", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "malware", "src_name": "Hadooken", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Scheduled task/cron persistence", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "malware", "src_name": "Hadooken", "predicate": "hosted_on", "tgt_type": "indicator", "tgt_name": "German IP address", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "malware", "src_name": "Hadooken", "predicate": "hosted_on", "tgt_type": "indicator", "tgt_name": "inactive IP in Russia", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "malware", "src_name": "Hadooken", "predicate": "linked_to", "tgt_type": "malware", "tgt_name": "Rhombus", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "malware", "src_name": "Hadooken", "predicate": "linked_to", "tgt_type": "malware", "tgt_name": "NoEscape", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "indicator", "src_name": "German IP address", "predicate": "linked_to", "tgt_type": "threat_actor", "tgt_name": "TeamTNT", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "indicator", "src_name": "German IP address", "predicate": "linked_to", "tgt_type": "threat_actor", "tgt_name": "Gang 8220", "source_chunks": ["BLOG-116::ch0"]}
+{"src_type": "malware", "src_name": "Mallox", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-116::ch0"]}

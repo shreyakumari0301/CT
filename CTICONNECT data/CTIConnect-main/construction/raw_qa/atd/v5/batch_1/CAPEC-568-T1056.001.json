@@ -1,0 +1,23 @@
+{
+  "question": "An adversary installs software that records a user\u2019s keystrokes, then reviews the captured input to identify likely passwords or other credential strings. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1056.001.\n- T1056.001 corresponds to keystroke capture, mapping CAPEC-568: deploying a keylogger to collect user-entered credentials.",
+  "llm_cost": {
+    "input": 0.000745,
+    "cached_input": 0.0,
+    "output": 0.00099,
+    "total": 0.001735,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 596,
+      "cached_input": 0,
+      "output": 99
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3546
+  }
+}

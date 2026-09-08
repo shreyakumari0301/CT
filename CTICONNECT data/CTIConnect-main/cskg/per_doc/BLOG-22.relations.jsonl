@@ -1,0 +1,14 @@
+{"src_type": "identity", "src_name": "Apple", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-23222", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "identity", "src_name": "Apple", "predicate": "backported_patches_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-42916", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "identity", "src_name": "Apple", "predicate": "backported_patches_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-42917", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-23222", "predicate": "affects", "tgt_type": "tool", "tgt_name": "WebKit", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-23222", "predicate": "allows", "tgt_type": "attack_pattern", "tgt_name": "arbitrary code execution", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-23222", "predicate": "affects", "tgt_type": "identity", "tgt_name": "iOS 16.7.5+", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-23222", "predicate": "affects", "tgt_type": "identity", "tgt_name": "iPadOS 16.7.5+", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-23222", "predicate": "affects", "tgt_type": "identity", "tgt_name": "macOS Monterey 12.7.3+", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-23222", "predicate": "affects", "tgt_type": "identity", "tgt_name": "tvOS 17.3+", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-23222", "predicate": "affects", "tgt_type": "identity", "tgt_name": "iPhone 8/X", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-23222", "predicate": "affects", "tgt_type": "identity", "tgt_name": "iPad 5th gen", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-23222", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Apple TV HD/4K", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-42916", "predicate": "affects", "tgt_type": "tool", "tgt_name": "WebKit", "source_chunks": ["BLOG-22::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-42917", "predicate": "affects", "tgt_type": "tool", "tgt_name": "WebKit", "source_chunks": ["BLOG-22::ch0"]}

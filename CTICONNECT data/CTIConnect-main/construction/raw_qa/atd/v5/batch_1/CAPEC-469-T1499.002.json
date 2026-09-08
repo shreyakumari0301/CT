@@ -1,0 +1,23 @@
+{
+  "question": "An attacker floods a web application at the HTTP layer by opening many sessions and keeping them alive indefinitely, repeating this to exhaust web server connection threads and resources with relatively few packets. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1499.002.\n- T1499.002 corresponds to HTTP service exhaustion flooding, mapping CAPEC-469: flooding HTTP sessions to deplete web server threads.",
+  "llm_cost": {
+    "input": 0.00081,
+    "cached_input": 0.0,
+    "output": 0.00109,
+    "total": 0.0019,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 648,
+      "cached_input": 0,
+      "output": 109
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.0951
+  }
+}

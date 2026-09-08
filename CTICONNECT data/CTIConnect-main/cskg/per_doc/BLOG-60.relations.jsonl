@@ -1,0 +1,20 @@
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "uses", "tgt_type": "tool", "tgt_name": "BlackTDS", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Keitaro", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Nymaim", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Gozi v3", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "TrickBot", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Gootkit", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Dridex", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "IcedID", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Sage/GandCrab ransomware", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "JSSLoader", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "hands_off_access_to", "tgt_type": "threat_actor", "tgt_name": "FIN7", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "uses", "tgt_type": "tool", "tgt_name": "TeamsPhisher", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0324", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing via Microsoft Teams", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "malware", "src_name": "JSSLoader", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-21715", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "malware", "src_name": "JSSLoader", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Protected-document social engineering", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing via Microsoft Teams", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Microsoft Teams", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft 365 Defender", "predicate": "detects", "tgt_type": "indicator", "tgt_name": "TrojanSpy:MSIL/JSSLoader", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft 365 Defender", "predicate": "detects", "tgt_type": "indicator", "tgt_name": "Trojan:Win32/Gootkit", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft 365 Defender", "predicate": "detects", "tgt_type": "indicator", "tgt_name": "Trojan:Win32/IcedID", "source_chunks": ["BLOG-60::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft 365 Defender", "predicate": "detects", "tgt_type": "indicator", "tgt_name": "Trojan:Win32/Trickbot", "source_chunks": ["BLOG-60::ch0"]}

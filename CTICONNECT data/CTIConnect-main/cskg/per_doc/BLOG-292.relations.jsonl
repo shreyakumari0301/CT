@@ -1,0 +1,14 @@
+{"src_type": "campaign", "src_name": "GodRAT campaign", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "APT41", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "campaign", "src_name": "GodRAT campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "financial institutions", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "campaign", "src_name": "GodRAT campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "trading and brokerage firms", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "campaign", "src_name": "GodRAT campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Skype", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "campaign", "src_name": "GodRAT campaign", "predicate": "distributes", "tgt_type": "malware", "tgt_name": "GodRAT", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "evolved_from", "tgt_type": "malware", "tgt_name": "AwesomePuppet RAT", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "invokes", "tgt_type": "indicator", "tgt_name": "SDL2.dll", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "XOR decoding", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Steganography", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "searches_for_marker", "tgt_type": "indicator", "tgt_name": "godinfo", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "uses_authentication_string", "tgt_type": "indicator", "tgt_name": "GETGOD", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "downloads_packed_with", "tgt_type": "tool", "tgt_name": "UPX", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "launches", "tgt_type": "attack_pattern", "tgt_name": "Browser credential stealing", "source_chunks": ["BLOG-292::ch0"]}
+{"src_type": "malware", "src_name": "AwesomePuppet RAT", "predicate": "derived_from", "tgt_type": "malware", "tgt_name": "Gh0st RAT", "source_chunks": ["BLOG-292::ch0"]}

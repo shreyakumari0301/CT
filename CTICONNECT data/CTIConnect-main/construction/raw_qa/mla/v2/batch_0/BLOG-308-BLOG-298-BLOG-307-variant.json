@@ -1,0 +1,7 @@
+{
+  "question": "What are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- PipeMagic backdoor\n- Rust-based fake ChatGPT loader (Tauri/Tokio)\n- Microsoft Help Index File loader\n- GoogleUpdate.dll hijack variant\n- I/O-completion-port communication plugin\n- 64-bit payload injector via DllRegisterService plugin\n- RansomEXX ransomware\n- Play ransomware",
+  "llm_timing": {
+    "api_call_seconds": 10.1868
+  }
+}

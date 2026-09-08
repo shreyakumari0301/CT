@@ -1,0 +1,15 @@
+{"src_type": "campaign", "src_name": "eXotic Visit", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Virtual Invaders", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "threat_actor", "src_name": "Virtual Invaders", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Pakistan", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "threat_actor", "src_name": "Virtual Invaders", "predicate": "targets", "tgt_type": "identity", "tgt_name": "India", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "threat_actor", "src_name": "Virtual Invaders", "predicate": "distributes_via", "tgt_type": "identity", "tgt_name": "Google Play", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "identity", "src_name": "ESET", "predicate": "discovered", "tgt_type": "campaign", "tgt_name": "eXotic Visit", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "identity", "src_name": "ESET", "predicate": "tracked_as_threat_actor", "tgt_type": "threat_actor", "tgt_name": "Virtual Invaders", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "identity", "src_name": "ESET", "predicate": "partnered_with", "tgt_type": "identity", "tgt_name": "Google", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "identity", "src_name": "Google", "predicate": "removed_apps_from", "tgt_type": "identity", "tgt_name": "Google Play", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "malware", "src_name": "XploitSPY RAT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Firebase", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "malware", "src_name": "WeTalk", "predicate": "bundles", "tgt_type": "malware", "tgt_name": "XploitSPY RAT", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "malware", "src_name": "Dink Messenger", "predicate": "bundles", "tgt_type": "malware", "tgt_name": "XploitSPY RAT", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "malware", "src_name": "Telco DB", "predicate": "bundles", "tgt_type": "malware", "tgt_name": "XploitSPY RAT", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "malware", "src_name": "Sim Info", "predicate": "bundles", "tgt_type": "malware", "tgt_name": "XploitSPY RAT", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "malware", "src_name": "Alpha Chat", "predicate": "bundles", "tgt_type": "malware", "tgt_name": "XploitSPY RAT", "source_chunks": ["BLOG-208::ch0"]}
+{"src_type": "malware", "src_name": "Defcom", "predicate": "bundles", "tgt_type": "malware", "tgt_name": "XploitSPY RAT", "source_chunks": ["BLOG-208::ch0"]}

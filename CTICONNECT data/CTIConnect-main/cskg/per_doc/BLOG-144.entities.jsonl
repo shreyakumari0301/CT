@@ -1,0 +1,17 @@
+{"entity_type": "threat_actor", "canonical_name": "Gamaredon Group", "aliases": ["Shuckworm", "Gamaredon", "Armageddon", "Primitive Bear", "ACTINIUM", "Aqua Blizzard"], "properties": {"country": "Russia", "primary_motivation": "espionage"}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "identity", "canonical_name": "Western nation’s military mission in Ukraine", "aliases": [], "properties": {"sector": "military", "region": "Ukraine"}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "campaign", "canonical_name": "multi-stage PowerShell-centric campaign", "aliases": [], "properties": {"first_seen": "February 2025", "last_seen": "March 2025"}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "malware", "canonical_name": "GammaSteel", "aliases": [], "properties": {"family": "infostealer", "platforms": ["Windows"]}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "tool", "canonical_name": "mshta.exe", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "tool", "canonical_name": "wscript.exe", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "tool", "canonical_name": "certutil", "aliases": [], "properties": {}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "tool", "canonical_name": "cURL", "aliases": [], "properties": {}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "tool", "canonical_name": "Tor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Malicious .lnk file", "aliases": [], "properties": {}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "indicator", "canonical_name": "mil.gov.ua", "aliases": [], "properties": {"ioc_type": "domain", "value": "mil.gov.ua"}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "indicator", "canonical_name": "teletype.in", "aliases": ["Teletype"], "properties": {"ioc_type": "domain", "value": "teletype.in"}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "indicator", "canonical_name": "telegra.ph", "aliases": ["Telegra.ph"], "properties": {"ioc_type": "domain", "value": "telegra.ph"}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "indicator", "canonical_name": "t.me", "aliases": [], "properties": {"ioc_type": "domain", "value": "t.me"}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "indicator", "canonical_name": "check-host.net", "aliases": [], "properties": {"ioc_type": "domain", "value": "check-host.net"}, "source_chunks": ["BLOG-144::ch0"]}
+{"entity_type": "indicator", "canonical_name": "107.189.19.218", "aliases": [], "properties": {"ioc_type": "ip", "value": "107.189.19.218"}, "source_chunks": ["BLOG-144::ch0"]}

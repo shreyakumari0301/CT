@@ -1,0 +1,23 @@
+{
+  "question": "A system initializes a critical resource using an insecure default configuration, leaving it less protected than intended and enabling abuse until it is explicitly hardened. Which CAPEC attack pattern exploits this weakness, and why can it take advantage of insecure-by-default resource initialization?",
+  "answer": "- CAPEC-665.\n- CAPEC-665 exploits insecure default Thunderbolt protection state, targeting CWE-1188: initializing resources with insecure defaults.",
+  "llm_cost": {
+    "input": 0.000859,
+    "cached_input": 0.0,
+    "output": 0.00096,
+    "total": 0.001819,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 687,
+      "cached_input": 0,
+      "output": 96
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.0041
+  }
+}

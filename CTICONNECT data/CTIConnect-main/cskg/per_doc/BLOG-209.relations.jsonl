@@ -1,0 +1,12 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "uncovered", "tgt_type": "malware", "tgt_name": "GravityRAT", "source_chunks": ["BLOG-209::ch0"]}
+{"src_type": "malware", "src_name": "GravityRAT", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "dev.androidadbserver.com", "source_chunks": ["BLOG-209::ch0"]}
+{"src_type": "malware", "src_name": "GravityRAT", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "cld.androidadbserver.com", "source_chunks": ["BLOG-209::ch0"]}
+{"src_type": "malware", "src_name": "GravityRAT", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "ping.androidadbserver.com", "source_chunks": ["BLOG-209::ch0"]}
+{"src_type": "malware", "src_name": "GravityRAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "India", "source_chunks": ["BLOG-209::ch0"]}
+{"src_type": "malware", "src_name": "GravityRAT", "predicate": "steals_from", "tgt_type": "tool", "tgt_name": "WhatsApp", "source_chunks": ["BLOG-209::ch0"]}
+{"src_type": "threat_actor", "src_name": "SpaceCobra", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "GravityRAT", "source_chunks": ["BLOG-209::ch0"]}
+{"src_type": "threat_actor", "src_name": "SpaceCobra", "predicate": "uses", "tgt_type": "tool", "tgt_name": "OMEMO Instant Messenger", "source_chunks": ["BLOG-209::ch0"]}
+{"src_type": "threat_actor", "src_name": "SpaceCobra", "predicate": "uses", "tgt_type": "tool", "tgt_name": "BingeChat", "source_chunks": ["BLOG-209::ch0"]}
+{"src_type": "threat_actor", "src_name": "SpaceCobra", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Chatico", "source_chunks": ["BLOG-209::ch0"]}
+{"src_type": "tool", "src_name": "BingeChat", "predicate": "trojanized_to_deploy", "tgt_type": "malware", "tgt_name": "GravityRAT", "source_chunks": ["BLOG-209::ch0"]}
+{"src_type": "tool", "src_name": "Chatico", "predicate": "trojanized_to_deploy", "tgt_type": "malware", "tgt_name": "GravityRAT", "source_chunks": ["BLOG-209::ch0"]}

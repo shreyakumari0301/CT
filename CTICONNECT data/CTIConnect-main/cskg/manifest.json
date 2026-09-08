@@ -1,0 +1,17 @@
+{
+  "version": "v0.1.0",
+  "n_reports_total": 321,
+  "n_chunks_total": 321,
+  "n_entities_global": 3576,
+  "n_relationships_global": 5414,
+  "entities_by_type": {
+    "threat_actor": 184,
+    "malware": 509,
+    "indicator": 329,
+    "identity": 1187,
+    "campaign": 136,
+    "vulnerability": 212,
+    "attack_pattern": 427,
+    "tool": 592
+  }
+}

@@ -1,0 +1,5 @@
+[2026-09-07T07:08:54Z] RUN forced_rag ctibench/rcm
+counterfactual_ctibench_rcm_20260907Tgpt54mini_forced_rag_cb:   0%|          | 0/1000 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A
+Loading weights:  50%|█████     | 52/103 [00:00<00:00, 513.92it/s][ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 683.94it/s]

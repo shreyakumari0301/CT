@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"CVE-2023-5217 \u2014 heap out-of-bounds write in libvpx (VP8) used by Chromium-based browsers, exploitable via crafted media/WebRTC to achieve memory corruption and potential code execution.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to that CWE, and 3) at what stage do developers typically introduce this issue?",
+  "answer": "1) CWE-787: Out-of-bounds Write.\n2) Mapping Explanation: The vulnerability described involves a heap out-of-bounds write, which directly correlates with CWE-787, as it encompasses issues where memory is written outside the boundaries allocated for that purpose. This out-of-bounds write is a classic example of memory corruption that falls within the scope of this CWE.\n3) Modes_Of_Introduction: Implementation. According to the provided CWE framework reference, this vulnerability is introduced during the implementation phase.",
+  "llm_timing": {
+    "api_call_seconds": 5.6448
+  }
+}

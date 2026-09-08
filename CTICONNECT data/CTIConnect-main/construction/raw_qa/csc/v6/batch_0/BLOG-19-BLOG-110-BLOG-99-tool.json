@@ -1,0 +1,7 @@
+{
+  "question": "What malicious tools or techniques are consistently used by the threat actors across these reports?",
+  "answer": "- Phishing campaigns\n- SIM swapping\n- MFA bombing\n- Social-engineering via help-desk phone calls\n- Exploitation of vulnerabilities in third-party call-center platforms (including self-service password reset portal exploits)\n- Use of AI-assisted amalgamation of PII for highly personalized social-engineering",
+  "llm_timing": {
+    "api_call_seconds": 6.5537
+  }
+}

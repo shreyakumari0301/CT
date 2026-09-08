@@ -1,0 +1,18 @@
+{"entity_type": "identity", "canonical_name": "Symantec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "multiple threat actors", "aliases": [], "properties": {"first_seen": "late May 2022"}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-30190", "aliases": ["MSDT Follina bug", "Follina bug"], "properties": {"cve_id": "CVE-2022-30190"}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution via ms-msdt URI in Word/RTF documents", "aliases": ["ms-msdt URI-based RCE in Word/RTF documents"], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "tool", "canonical_name": "msdt.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "tool", "canonical_name": "sdiagnhost.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "malware", "canonical_name": "AsyncRAT", "aliases": ["AsyncRAT remote access Trojan"], "properties": {"capabilities": ["anti-analysis checks", "collects hardware IDs", "collects user names", "collects execution paths", "collects OS details", "command-and-control communications"]}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "malware", "canonical_name": "browser infostealer", "aliases": [], "properties": {"capabilities": ["steals cookies", "steals saved credentials"]}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "tool", "canonical_name": "Firefox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "tool", "canonical_name": "Edge", "aliases": [], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "identity", "canonical_name": "Symantec customers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "identity", "canonical_name": "Symantec Endpoint", "aliases": [], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "indicator", "canonical_name": "File-based-Downloader-Backdoor:Async", "aliases": [], "properties": {"ioc_type": "hash", "value": "File-based-Downloader-Backdoor:Async"}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "indicator", "canonical_name": "InfoStealer", "aliases": [], "properties": {"ioc_type": "hash", "value": "InfoStealer"}, "source_chunks": ["BLOG-137::ch0"]}
+{"entity_type": "campaign", "canonical_name": "these rapid, damaging campaigns", "aliases": [], "properties": {}, "source_chunks": ["BLOG-137::ch0"]}

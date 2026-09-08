@@ -1,0 +1,7 @@
+{
+  "question": "Based on cross-report analysis, what are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- CL0P (Clop) ransomware\n- Lemurloot web shell\n- Get2 loader\n- SDBOT\n- FlawedAmmyy RAT\n- Cobalt Strike beacon\n- TinyMet reverse shell\n- DEWMODE web shell\n- Truebot\n- LockBit/Clop",
+  "llm_timing": {
+    "api_call_seconds": 12.3011
+  }
+}

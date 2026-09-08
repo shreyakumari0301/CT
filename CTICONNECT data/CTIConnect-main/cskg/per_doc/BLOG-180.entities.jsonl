@@ -1,0 +1,20 @@
+{"entity_type": "identity", "canonical_name": "CrowdStrike", "aliases": [], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "ransomware actors", "aliases": ["threat actors"], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-29499", "aliases": [], "properties": {"cve_id": "CVE-2022-29499", "severity": "critical"}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "identity", "canonical_name": "Linux", "aliases": ["Linux-based"], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mitel", "aliases": ["MITEL"], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mitel MiVoice appliances", "aliases": ["Mitel MiVoice"], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "identity", "canonical_name": "SA 100", "aliases": [], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "identity", "canonical_name": "SA 400", "aliases": [], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "identity", "canonical_name": "Virtual SA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Services", "aliases": ["remote code execution", "reverse shell"], "properties": {"technique_id": "T1021", "tactic": "Lateral Movement"}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploit Public-Facing Application", "aliases": ["external HTTP GET", "injected commands via a malicious URL"], "properties": {"technique_id": "T1190", "tactic": "Initial Access"}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "malware", "canonical_name": "pdf_import.php web shell", "aliases": ["pdf_import.php"], "properties": {"capabilities": ["webshell"]}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chisel", "aliases": ["Chisel tunneling tool"], "properties": {"capabilities": ["tunneling"]}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "tool", "canonical_name": "mkfifo", "aliases": [], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "tool", "canonical_name": "openssl_client", "aliases": [], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "identity", "canonical_name": "VoIP filesystem", "aliases": [], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kevin Beaumont", "aliases": [], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "identity", "canonical_name": "Shodan", "aliases": [], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "indicator", "canonical_name": "http.html_hash:-1971546278", "aliases": [], "properties": {"ioc_type": "hash", "value": "http.html_hash:-1971546278"}, "source_chunks": ["BLOG-180::ch0"]}
+{"entity_type": "identity", "canonical_name": "MiVoice Connect 19.2 SP3", "aliases": ["MiVoice Connect"], "properties": {}, "source_chunks": ["BLOG-180::ch0"]}

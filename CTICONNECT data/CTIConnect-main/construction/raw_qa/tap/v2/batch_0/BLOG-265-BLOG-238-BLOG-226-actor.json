@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: Moses Staff\n- Known Aliases: Cobalt Sapling, Abraham\u2019s Ax\n- Active Since: November 2020\n- Affiliation: Iran-linked hacktivist/APT group\n- Primary Toolset: PyDCrypt loader, DCSrv wiper, StrifeWater RAT, DriveGuard utility\n- Typical Tactics: Exploitation of public-facing server vulnerabilities, lateral movement via PsExec/WMIC/PowerShell, ransomless encryption, data exfiltration and public leaks\n- Key Targets: Israeli organizations and IDF personnel, Saudi Arabia\u2019s Ministry of the Interior, and other politically significant entities",
+  "llm_timing": {
+    "api_call_seconds": 5.0731
+  }
+}

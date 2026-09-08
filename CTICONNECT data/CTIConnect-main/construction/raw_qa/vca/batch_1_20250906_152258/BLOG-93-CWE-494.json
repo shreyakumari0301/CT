@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Victims are led to download and run “virtual meeting” software from attacker-controlled links without verifying authenticity or integrity, enabling execution of malicious shell scripts and droppers.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE framework description, and 3) at what stage do developers typically introduce this issue according to the CWE's modes of introduction?",
+  "answer": "1) CWE-494: Download of Code Without Integrity Check  \n2) Mapping Explanation: The scenario describes users downloading and executing software from attacker-controlled links without verifying authenticity or integrity. This directly matches CWE-494, where code is obtained from an external source and executed without an integrity check, allowing malicious code (e.g., shell scripts or droppers) to run.  \n3) Modes of Introduction (per CWE): Typically introduced during the **Implementation** phase (e.g., failing to implement integrity/authenticity validation for downloaded code). Detection can involve reviewing update/download mechanisms for missing signature/hash verification and testing whether tampered or substituted downloads are accepted and executed on the target platform(s).",
+  "llm_timing": {
+    "api_call_seconds": 6.604
+  }
+}

@@ -1,0 +1,12 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Workspace", "aliases": [], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Cloud Platform", "aliases": ["GCP"], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}
+{"entity_type": "identity", "canonical_name": "Compute Engine", "aliases": [], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}
+{"entity_type": "identity", "canonical_name": "Gmail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Drive", "aliases": ["Drive"], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Calendar", "aliases": ["Calendar"], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Docs", "aliases": ["Docs"], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Recommender API", "aliases": ["Recommender API"], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}
+{"entity_type": "tool", "canonical_name": "Prisma Cloud", "aliases": [], "properties": {}, "source_chunks": ["BLOG-79::ch0"]}

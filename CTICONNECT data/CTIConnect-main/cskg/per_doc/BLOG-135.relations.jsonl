@@ -1,0 +1,24 @@
+{"src_type": "threat_actor", "src_name": "Equation", "predicate": "identified_by", "tgt_type": "identity", "tgt_name": "Kaspersky Lab", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation", "predicate": "tracked_by", "tgt_type": "identity", "tgt_name": "Symantec", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "global organizations", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Infostealer", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Micstus", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Tripfant", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Grayphish", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "EquationDrug", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Lassrv.B", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation", "predicate": "employs", "tgt_type": "tool", "tgt_name": "Grokey", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation", "predicate": "employs", "tgt_type": "malware", "tgt_name": "W32.Fanny", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "identity", "src_name": "Symantec", "predicate": "detects", "tgt_type": "malware", "tgt_name": "Grayphish", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "identity", "src_name": "Symantec", "predicate": "detects", "tgt_type": "malware", "tgt_name": "EquationDrug", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "identity", "src_name": "Symantec", "predicate": "detects", "tgt_type": "malware", "tgt_name": "W32.Fanny", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "detects", "tgt_type": "malware", "tgt_name": "Grayphish", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "detects", "tgt_type": "malware", "tgt_name": "EquationDrug", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "detects", "tgt_type": "malware", "tgt_name": "W32.Fanny", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "malware", "src_name": "Grayphish", "predicate": "predecessor_is", "tgt_type": "malware", "tgt_name": "EquationDrug", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "malware", "src_name": "W32.Fanny", "predicate": "exploits_zero_days_later_used_by", "tgt_type": "malware", "tgt_name": "Stuxnet", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "indicator", "src_name": "Packed.Generic.483", "predicate": "detects", "tgt_type": "malware", "tgt_name": "Grayphish", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "indicator", "src_name": "Packed.Generic.483", "predicate": "detects", "tgt_type": "malware", "tgt_name": "EquationDrug", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "indicator", "src_name": "Packed.Generic.483", "predicate": "detects", "tgt_type": "malware", "tgt_name": "Lassrv.B", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "indicator", "src_name": "Trojan.Grayphish", "predicate": "detects", "tgt_type": "malware", "tgt_name": "Grayphish", "source_chunks": ["BLOG-135::ch0"]}
+{"src_type": "indicator", "src_name": "Trojan.Equdrug", "predicate": "detects", "tgt_type": "malware", "tgt_name": "EquationDrug", "source_chunks": ["BLOG-135::ch0"]}

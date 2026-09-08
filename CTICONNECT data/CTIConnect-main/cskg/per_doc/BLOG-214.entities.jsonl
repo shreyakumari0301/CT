@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": ["ESET researchers"], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "SparklingGoblin", "aliases": ["SparklingGoblin APT"], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "malware", "canonical_name": "SideWalk", "aliases": ["SideWalk backdoor", "SideWalk Linux", "SparklingGoblin APT’s SideWalk backdoor"], "properties": {"platforms": ["Linux"]}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "malware", "canonical_name": "StageClient", "aliases": [], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "malware", "canonical_name": "Specter RAT", "aliases": ["Specter"], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hong Kong university", "aliases": [], "properties": {"sector": "education", "region": "Hong Kong"}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "tool", "canonical_name": "TaskSchedulerMod", "aliases": [], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "tool", "canonical_name": "SysInfoMgr", "aliases": [], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Docs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cloudflare Workers", "aliases": ["Cloudflare workers"], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "malware", "canonical_name": "Motnug", "aliases": [], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "tool", "canonical_name": "ChaCha20 loaders", "aliases": [], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "malware", "canonical_name": "CROSSWALK", "aliases": [], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "malware", "canonical_name": "PlugX", "aliases": ["Korplug/PlugX", "Korplug"], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-214::ch0"]}
+{"entity_type": "indicator", "canonical_name": "66.42.103.222", "aliases": ["66.42.103[.]222"], "properties": {"ioc_type": "ip", "value": "66.42.103.222"}, "source_chunks": ["BLOG-214::ch0"]}

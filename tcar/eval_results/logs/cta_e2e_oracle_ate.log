@@ -1,0 +1,101 @@
+[2026-09-06T09:50:09Z] RUN ctibench oracle ate
+
+=== CTI-ATE | oracle (gold pipeline=reasoning_ate) | n=60 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-ate.tsv
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 503, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 496, in main
+    run_task(t, limit, args.out_dir, args.route_mode, args.workers)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 304, in run_task
+    get_pipeline_runner(gold_pipeline)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 137, in get_pipeline_runner
+    from pipelines import reasoning_ate_pipeline as mod
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 91, in <module>
+    _pipeline_instance = ReasoningATEPipeline()
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 22, in __init__
+    self.vector_db = self._load_vector_db()
+                     ~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 30, in _load_vector_db
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/__init__.py", line 10, in <module>
+    from sentence_transformers.backend import (
+    ...<3 lines>...
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/__init__.py", line 3, in <module>
+    from .load import load_onnx_model, load_openvino_model
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/load.py", line 7, in <module>
+    from transformers.configuration_utils import PretrainedConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/configuration_utils.py", line 32, in <module>
+    from .generation.configuration_utils import GenerationConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/generation/configuration_utils.py", line 62, in <module>
+    from .logits_process import SynthIDTextWatermarkLogitsProcessor, WatermarkLogitsProcessor
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/generation/logits_process.py", line 21, in <module>
+    import torch
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/__init__.py", line 2338, in <module>
+    import torch.nn.intrinsic
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/intrinsic/__init__.py", line 19, in <module>
+    from torch.nn.intrinsic import modules, qat, quantized
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/intrinsic/quantized/__init__.py", line 3, in <module>
+    from torch.nn.intrinsic.quantized import dynamic, modules
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/intrinsic/quantized/dynamic/__init__.py", line 1, in <module>
+    from torch.nn.intrinsic.quantized.dynamic.modules import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/intrinsic/quantized/dynamic/modules/__init__.py", line 1, in <module>
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/intrinsic/quantized/dynamic/modules/linear_relu.py", line 1, in <module>
+    from torch.ao.nn.intrinsic.quantized.dynamic import LinearReLU
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/intrinsic/quantized/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/intrinsic/quantized/modules/__init__.py", line 1, in <module>
+    from .bn_relu import BNReLU2d, BNReLU3d
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/intrinsic/quantized/modules/bn_relu.py", line 6, in <module>
+    import torch.ao.nn.quantized as nnq
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantized/__init__.py", line 1, in <module>
+    from . import functional
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantized/functional.py", line 11, in <module>
+    from .modules.utils import _pair_from_first
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantized/modules/__init__.py", line 9, in <module>
+    import torch.ao.nn.quantizable
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantizable/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantizable/modules/__init__.py", line 1, in <module>
+    from .activation import MultiheadAttention
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1333, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1267, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1292, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1266, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1369, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1412, in _fill_cache
+OSError: [Errno 12] Cannot allocate memory: '/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantizable/modules'
+[2026-09-06T20:02:39Z] RUN ctibench oracle ate
+
+=== CTI-ATE | oracle (gold pipeline=reasoning_ate) | n=60 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-ate.tsv
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1382.01it/s]
+ate:oracle:   0%|          | 0/60 [00:00<?, ?it/s]ate:oracle:   2%|▏         | 1/60 [00:15<15:10, 15.43s/it]ate:oracle:   3%|▎         | 2/60 [00:22<09:53, 10.23s/it]ate:oracle:   5%|▌         | 3/60 [00:29<08:22,  8.81s/it]ate:oracle:   7%|▋         | 4/60 [00:40<09:04,  9.72s/it]ate:oracle:   8%|▊         | 5/60 [00:46<07:52,  8.59s/it]ate:oracle:  10%|█         | 6/60 [00:51<06:32,  7.27s/it]ate:oracle:  12%|█▏        | 7/60 [00:57<06:02,  6.84s/it]ate:oracle:  13%|█▎        | 8/60 [01:07<06:51,  7.91s/it]ate:oracle:  15%|█▌        | 9/60 [01:17<07:18,  8.59s/it]ate:oracle:  17%|█▋        | 10/60 [01:25<06:50,  8.22s/it]ate:oracle:  18%|█▊        | 11/60 [01:34<06:52,  8.41s/it]ate:oracle:  20%|██        | 12/60 [01:46<07:47,  9.73s/it]ate:oracle:  22%|██▏       | 13/60 [01:53<06:51,  8.76s/it]ate:oracle:  23%|██▎       | 14/60 [02:05<07:37,  9.94s/it]ate:oracle:  25%|██▌       | 15/60 [02:12<06:36,  8.80s/it]ate:oracle:  27%|██▋       | 16/60 [02:20<06:21,  8.67s/it]ate:oracle:  28%|██▊       | 17/60 [02:34<07:23, 10.31s/it]ate:oracle:  30%|███       | 18/60 [02:40<06:13,  8.88s/it]ate:oracle:  32%|███▏      | 19/60 [02:46<05:27,  8.00s/it]ate:oracle:  33%|███▎      | 20/60 [02:57<06:05,  9.14s/it]ate:oracle:  35%|███▌      | 21/60 [03:06<05:48,  8.94s/it]ate:oracle:  37%|███▋      | 22/60 [03:15<05:37,  8.89s/it]ate:oracle:  38%|███▊      | 23/60 [03:26<05:59,  9.73s/it]ate:oracle:  40%|████      | 24/60 [03:38<06:09, 10.27s/it]ate:oracle:  42%|████▏     | 25/60 [03:50<06:23, 10.97s/it]ate:oracle:  43%|████▎     | 26/60 [03:55<05:02,  8.89s/it]ate:oracle:  45%|████▌     | 27/60 [03:59<04:05,  7.43s/it]ate:oracle:  47%|████▋     | 28/60 [04:08<04:20,  8.14s/it]ate:oracle:  48%|████▊     | 29/60 [04:21<04:53,  9.47s/it]ate:oracle:  50%|█████     | 30/60 [04:31<04:52,  9.75s/it]ate:oracle:  52%|█████▏    | 31/60 [04:39<04:21,  9.01s/it]ate:oracle:  53%|█████▎    | 32/60 [04:57<05:31, 11.83s/it]ate:oracle:  55%|█████▌    | 33/60 [05:04<04:38, 10.33s/it]ate:oracle:  57%|█████▋    | 34/60 [05:17<04:47, 11.08s/it]ate:oracle:  58%|█████▊    | 35/60 [05:24<04:08,  9.94s/it]ate:oracle:  60%|██████    | 36/60 [05:29<03:22,  8.44s/it]ate:oracle:  62%|██████▏   | 37/60 [05:45<04:07, 10.76s/it]ate:oracle:  63%|██████▎   | 38/60 [05:54<03:47, 10.32s/it]ate:oracle:  65%|██████▌   | 39/60 [06:10<04:08, 11.85s/it]ate:oracle:  67%|██████▋   | 40/60 [06:24<04:14, 12.71s/it]ate:oracle:  68%|██████▊   | 41/60 [06:32<03:33, 11.25s/it]ate:oracle:  70%|███████   | 42/60 [06:38<02:51,  9.55s/it]ate:oracle:  72%|███████▏  | 43/60 [06:47<02:40,  9.44s/it]ate:oracle:  73%|███████▎  | 44/60 [06:54<02:20,  8.75s/it]ate:oracle:  75%|███████▌  | 45/60 [07:09<02:40, 10.69s/it]ate:oracle:  77%|███████▋  | 46/60 [07:19<02:26, 10.47s/it]ate:oracle:  78%|███████▊  | 47/60 [07:26<02:02,  9.42s/it]ate:oracle:  80%|████████  | 48/60 [07:37<01:55,  9.66s/it]ate:oracle:  82%|████████▏ | 49/60 [07:43<01:35,  8.66s/it]ate:oracle:  83%|████████▎ | 50/60 [07:53<01:31,  9.13s/it]ate:oracle:  85%|████████▌ | 51/60 [08:06<01:32, 10.27s/it]ate:oracle:  87%|████████▋ | 52/60 [08:19<01:27, 10.93s/it]ate:oracle:  88%|████████▊ | 53/60 [08:29<01:16, 10.87s/it]ate:oracle:  90%|█████████ | 54/60 [08:37<01:00, 10.03s/it]ate:oracle:  92%|█████████▏| 55/60 [08:46<00:48,  9.68s/it]ate:oracle:  93%|█████████▎| 56/60 [08:56<00:38,  9.58s/it]ate:oracle:  95%|█████████▌| 57/60 [09:07<00:30, 10.15s/it]ate:oracle:  97%|█████████▋| 58/60 [09:13<00:17,  8.94s/it]ate:oracle:  98%|█████████▊| 59/60 [09:24<00:09,  9.58s/it]ate:oracle: 100%|██████████| 60/60 [09:30<00:00,  8.56s/it]ate:oracle: 100%|██████████| 60/60 [09:30<00:00,  9.52s/it]
+CTI-ATE | oracle | Macro-F1 = 0.6985 (n=60, errors=0)
+wrote eval_results/ate_oracle_20260906T202058Z.jsonl
+wrote eval_results/ate_oracle_20260906T202058Z_summary.json
+
+========== ORACLE SUMMARY ==========
+Task           Metric        Score      N
+CTI-ATE        Macro-F1     0.6985     60
+NOTE: CTI-TAA skipped — no GT column.
+NOTE: Router uses classifier/llm_classifier.py (gpt-4o-mini). Generation pipelines unchanged (gpt-4-turbo).
+[2026-09-06T20:21:06Z] DONE ctibench oracle ate
+[2026-09-07T07:08:57Z] RUN ctibench oracle ate
+
+=== CTI-ATE | oracle (gold pipeline=reasoning_ate) | n=60 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-ate.tsv

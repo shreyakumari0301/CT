@@ -1,0 +1,14 @@
+{"src_type": "threat_actor", "src_name": "Storm-842", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "MOIS", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-842", "predicate": "operates_in", "tgt_type": "identity", "tgt_name": "Albania", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-842", "predicate": "operates_in", "tgt_type": "identity", "tgt_name": "Israel", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-842", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Albania’s e-government and border systems", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-842", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israeli infrastructure", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-842", "predicate": "targets", "tgt_type": "identity", "tgt_name": "MEK", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-842", "predicate": "partners_with", "tgt_type": "threat_actor", "tgt_name": "APT34", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-842", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Cl Wiper", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-842", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Partition Wiper", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-842", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "BiBi Wiper", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "uses", "tgt_type": "tool", "tgt_name": "reGeorge", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Karma Shell", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "identity", "src_name": "FBI", "predicate": "issued_advisory_with", "tgt_type": "identity", "tgt_name": "CISA", "source_chunks": ["BLOG-267::ch0"]}
+{"src_type": "malware", "src_name": "Cl Wiper", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ElRawDisk", "source_chunks": ["BLOG-267::ch0"]}

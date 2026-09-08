@@ -1,0 +1,27 @@
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "profiled_by", "tgt_type": "identity", "tgt_name": "Avertium", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "UK architecture practice", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. IT services provider", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "European pharmaceutical company", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "RDP brute-force", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "exfiltrates_via", "tgt_type": "tool", "tgt_name": "FileZilla", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "exfiltrates_via", "tgt_type": "tool", "tgt_name": "WinRAR", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "exfiltrates_via", "tgt_type": "tool", "tgt_name": "WinSCP", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "exfiltrates_via", "tgt_type": "tool", "tgt_name": "RClone", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Domain controller abuse", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "creates_account", "tgt_type": "indicator", "tgt_name": "itadm", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Kerberoasting", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "LaZagne", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SoftPerfect", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Advanced IP Scanner", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerTool", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "uses_malware", "tgt_type": "malware", "tgt_name": "Akira", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "threat_actor", "src_name": "Akira ransomware group", "predicate": "uses_malware", "tgt_type": "malware", "tgt_name": "Megazord", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "malware", "src_name": "Akira", "predicate": "encrypts_files_with_extension", "tgt_type": "indicator", "tgt_name": ".akira", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "malware", "src_name": "Megazord", "predicate": "encrypts_files_with_extension", "tgt_type": "indicator", "tgt_name": ".powerranges", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "malware", "src_name": "Megazord", "predicate": "encrypts_files_with_extension", "tgt_type": "indicator", "tgt_name": ".akiranew", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "identity", "src_name": "FBI", "predicate": "issued_advisory_about", "tgt_type": "threat_actor", "tgt_name": "Akira ransomware group", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "identity", "src_name": "CISA", "predicate": "issued_advisory_about", "tgt_type": "threat_actor", "tgt_name": "Akira ransomware group", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "identity", "src_name": "Europol", "predicate": "issued_advisory_about", "tgt_type": "threat_actor", "tgt_name": "Akira ransomware group", "source_chunks": ["BLOG-3::ch0"]}
+{"src_type": "identity", "src_name": "NCSC-NL", "predicate": "issued_advisory_about", "tgt_type": "threat_actor", "tgt_name": "Akira ransomware group", "source_chunks": ["BLOG-3::ch0"]}

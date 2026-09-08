@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors or regions mentioned across these reports?",
+  "answer": "- Primary region: North America (approximately 95% of victims), with additional attacks reported in Europe\n- Primary target sector: Small and midsize organizations across diverse industries",
+  "llm_timing": {
+    "api_call_seconds": 4.3554
+  }
+}

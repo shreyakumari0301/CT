@@ -1,0 +1,23 @@
+{
+  "question": "An adversary appends extra data to a file to inflate its size beyond what security tools can handle, also altering the file hash to evade known-bad hash detection. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1027.001.\n- T1027.001 corresponds to binary padding, mapping CAPEC-655: adding data to files to evade size limits and hash-based detection.",
+  "llm_cost": {
+    "input": 0.000771,
+    "cached_input": 0.0,
+    "output": 0.00109,
+    "total": 0.001861,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 617,
+      "cached_input": 0,
+      "output": 109
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4765
+  }
+}

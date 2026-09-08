@@ -1,0 +1,10 @@
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "linked_to", "tgt_type": "identity", "tgt_name": "IRGC", "source_chunks": ["BLOG-222::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "conducts", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing", "source_chunks": ["BLOG-222::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "identity", "tgt_name": "U.S. media accounts", "source_chunks": ["BLOG-222::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "conducts", "tgt_type": "attack_pattern", "tgt_name": "Credential Harvesting", "source_chunks": ["BLOG-222::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "custom Android spyware", "source_chunks": ["BLOG-222::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "employs", "tgt_type": "malware", "tgt_name": "lightweight custom malware", "source_chunks": ["BLOG-222::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "BitLocker", "source_chunks": ["BLOG-222::ch0"]}
+{"src_type": "identity", "src_name": "Mandiant", "predicate": "identified", "tgt_type": "threat_actor", "tgt_name": "Charming Kitten", "source_chunks": ["BLOG-222::ch0"]}
+{"src_type": "malware", "src_name": "BitLocker", "predicate": "targets", "tgt_type": "tool", "tgt_name": "Fortinet FortiOS SSL VPN", "source_chunks": ["BLOG-222::ch0"]}
+{"src_type": "malware", "src_name": "BitLocker", "predicate": "targets", "tgt_type": "tool", "tgt_name": "Exchange servers", "source_chunks": ["BLOG-222::ch0"]}

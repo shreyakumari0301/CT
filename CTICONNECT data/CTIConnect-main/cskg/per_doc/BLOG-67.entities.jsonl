@@ -1,0 +1,35 @@
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lazarus Group", "aliases": ["Diamond Sleet", "ZINC", "Hidden Cobra", "Labyrinth Chollima", "Guardians of Peace"], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Andariel", "aliases": ["Onyx Sleet", "PLUTONIUM", "Silent Chollima"], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-42793", "aliases": [], "properties": {"cve_id": "CVE-2023-42793"}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "identity", "canonical_name": "JetBrains", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "identity", "canonical_name": "JetBrains TeamCity", "aliases": ["TeamCity"], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "Forest64.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "ForestTiger", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "indicator", "canonical_name": "uTYNkfKxHiZrx3KJ", "aliases": [], "properties": {"ioc_type": "hash", "value": "uTYNkfKxHiZrx3KJ"}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled Task", "aliases": ["scheduled task"], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "LSASS Memory Dumping", "aliases": ["dumps LSASS memory", "LSASS dumps"], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL Search-Order Hijacking", "aliases": ["DLL search-order hijacking"], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "DSROLE.dll", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "wsmprovhost.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "RollSling", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "wksprt.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "Version.dll", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "clip.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "FeedLoad", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "iexpress.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Create Account", "aliases": ["creates a fake “krtbgt” admin account"], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "indicator", "canonical_name": "krtbgt", "aliases": [], "properties": {"ioc_type": "email", "value": "krtbgt"}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "System Discovery", "aliases": ["system discovery commands"], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Service Stop", "aliases": ["stops the TeamCity service"], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "HazyLoad", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "temp.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "malware", "canonical_name": "ADFSbginetmgr.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Desktop Protocol", "aliases": ["RDP"], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Browser Credential Theft", "aliases": ["harvests credentials from ... browsers"], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Defender Antivirus", "aliases": ["Defender Antivirus"], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft 365 Defender", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "tool", "canonical_name": "Defender Vulnerability Management", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "tool", "canonical_name": "Defender for Endpoint", "aliases": [], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Sentinel", "aliases": ["Sentinel TI"], "properties": {}, "source_chunks": ["BLOG-67::ch0"]}

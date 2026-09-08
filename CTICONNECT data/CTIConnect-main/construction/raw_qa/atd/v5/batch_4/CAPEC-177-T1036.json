@@ -1,0 +1,23 @@
+{
+  "question": "An adversary creates a file with the same name as a protected or privileged file and places it in a directory searched first, causing an OS/application to load the attacker\u2019s file instead of the legitimate one (e.g., libraries or config). Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1036.\n- T1036 corresponds to file name impersonation, mapping CAPEC-177: creating same-named files to be loaded instead of protected ones.",
+  "llm_cost": {
+    "input": 0.000902,
+    "cached_input": 0.0,
+    "output": 0.00121,
+    "total": 0.002112,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 722,
+      "cached_input": 0,
+      "output": 121
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3274
+  }
+}

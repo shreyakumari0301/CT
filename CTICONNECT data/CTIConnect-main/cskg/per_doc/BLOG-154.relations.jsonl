@@ -1,0 +1,8 @@
+{"src_type": "vulnerability", "src_name": "CVE-2023-51467", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Apache OfBiz", "source_chunks": ["BLOG-154::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-51467", "predicate": "incomplete_patch_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-49070", "source_chunks": ["BLOG-154::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-51467", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Bypass authentication by sending empty or invalid USERNAME and PASSWORD parameters with requirePasswordChange=Y", "source_chunks": ["BLOG-154::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-51467", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Server-Side Request Forgery (SSRF)", "source_chunks": ["BLOG-154::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-51467", "predicate": "risk_of", "tgt_type": "attack_pattern", "tgt_name": "Data exfiltration", "source_chunks": ["BLOG-154::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-51467", "predicate": "risk_of", "tgt_type": "attack_pattern", "tgt_name": "System takeover", "source_chunks": ["BLOG-154::ch0"]}
+{"src_type": "identity", "src_name": "SonicWall Capture Labs", "predicate": "discovered", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-51467", "source_chunks": ["BLOG-154::ch0"]}
+{"src_type": "identity", "src_name": "The Shadowserver Foundation", "predicate": "observed_active_exploitation_attempts_against", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-49070", "source_chunks": ["BLOG-154::ch0"]}

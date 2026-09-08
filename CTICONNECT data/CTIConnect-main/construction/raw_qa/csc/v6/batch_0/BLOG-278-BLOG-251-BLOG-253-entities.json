@@ -1,0 +1,7 @@
+{
+  "question": "What malware families and threat actor groups are consistently referenced across these reports, and are there any common vulnerability IDs?",
+  "answer": "- Malware Families: SYSCON backdoor, MaoCheng dropper\n- Threat Actor Groups: Honeybee actor (North Korean\u2013linked, persona snoopykiller)\n- Vulnerability IDs: None identified",
+  "llm_timing": {
+    "api_call_seconds": 4.5472
+  }
+}

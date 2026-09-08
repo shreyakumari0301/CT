@@ -1,0 +1,7 @@
+{
+  "question": "What are the main malicious tools or malware families consistently used in this campaign across the reports?",
+  "answer": "- Exploitation of CVE-2019-18935 to deploy malicious DLLs\n- PowerShell-based RAT (server.ps1)\n- Cobalt Strike beacons for C2 and lateral movement\n- Web shells (notably Godzilla)\n- Privilege escalation exploits: BadPotato, Juicy Potato, SweetPotato\n- HTML/HTA downloaders and stagers\n- Living-off-the-land binaries and open-source scripts\n- Geolocated, short-lived VPS-based C2 infrastructure (via Cloudflare/Azure)",
+  "llm_timing": {
+    "api_call_seconds": 6.8879
+  }
+}

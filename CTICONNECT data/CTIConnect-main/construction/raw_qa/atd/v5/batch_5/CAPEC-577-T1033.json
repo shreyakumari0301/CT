@@ -1,0 +1,23 @@
+{
+  "question": "An adversary leverages legitimate OS features to identify who primarily uses a target system, such as checking login artifacts or file modification times (e.g., inspecting when a user profile file was last updated to infer last login). Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1033.\n- T1033 corresponds to discovering system owners/users, mapping CAPEC-577: footprinting primary users via login artifacts and file modification times.",
+  "llm_cost": {
+    "input": 0.000819,
+    "cached_input": 0.0,
+    "output": 0.00116,
+    "total": 0.001979,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 655,
+      "cached_input": 0,
+      "output": 116
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.8747
+  }
+}

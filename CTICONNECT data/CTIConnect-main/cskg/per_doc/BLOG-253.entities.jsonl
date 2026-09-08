@@ -1,0 +1,18 @@
+{"entity_type": "campaign", "canonical_name": "Operation Honeybee", "aliases": [], "properties": {"first_seen": "early 2018"}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "identity", "canonical_name": "McAfee Advanced Threat Research", "aliases": [], "properties": {}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "identity", "canonical_name": "humanitarian aid groups", "aliases": [], "properties": {}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "identity", "canonical_name": "regional organizations in Vietnam and South Korea", "aliases": [], "properties": {"region": "Vietnam and South Korea"}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "identity", "canonical_name": "Vietnam", "aliases": [], "properties": {"region": "Vietnam"}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "identity", "canonical_name": "South Korea", "aliases": [], "properties": {"region": "South Korea"}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "indicator", "canonical_name": "snoopykiller@mail.ru", "aliases": [], "properties": {"ioc_type": "email", "value": "snoopykiller@mail.ru"}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "indicator", "canonical_name": "navermail.byethost3.com", "aliases": [], "properties": {"ioc_type": "domain", "value": "navermail.byethost3.com"}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "indicator", "canonical_name": "nihon.byethost11.com", "aliases": [], "properties": {"ioc_type": "domain", "value": "nihon.byethost11.com"}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "indicator", "canonical_name": "1113427185.ifastnet.org", "aliases": [], "properties": {"ioc_type": "domain", "value": "1113427185.ifastnet.org"}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Word", "aliases": [], "properties": {}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "tool", "canonical_name": "wusa.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "tool", "canonical_name": "expand.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "tool", "canonical_name": "cliconfg.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "malware", "canonical_name": "NTWDBLIB.dll", "aliases": [], "properties": {}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "malware", "canonical_name": "ipnet.dll", "aliases": [], "properties": {}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "malware", "canonical_name": "MaoCheng", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-253::ch0"]}
+{"entity_type": "identity", "canonical_name": "Adobe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-253::ch0"]}

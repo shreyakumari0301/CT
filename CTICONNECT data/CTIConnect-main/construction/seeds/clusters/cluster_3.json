@@ -1,0 +1,302 @@
+{
+  "cluster_id": 3,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 53,
+      "node": [
+        {
+          "node_text": "April 2024",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "April 2025",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "AzureHound",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Conditional Access",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Evilginx",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Exchange",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "LAUNDRY BEAR",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Microsoft Threat Intelligence",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "NATO member states",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "NGO",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Russia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SharePoint Online",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Ukraine",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Void Blizzard",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "adversary-in-the-middle spear phishing",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "defense organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "government organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "healthcare organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "mailbox auditing",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "media organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "password spray attack",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "phishing-resistant MFA",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "risky sign-ins",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "sign-in risk policies",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "transportation organizations",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " Void Blizzard",
+      "platform": "Microsoft",
+      "type": "threat actor",
+      "publish_date": "2024/4/28"
+    },
+    {
+      "blog_id": 112,
+      "node": [
+        {
+          "node_text": "AzureHound",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Entra ID tenant configurations",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Evilginx framework",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Exchange Online",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Kremlin",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Microsoft Entra login page",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Microsoft Graph",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Microsoft Teams chats",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Microsoft’s latest joint report with Dutch intelligence",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "NATO states",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "SharePoint Online",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Ukraine",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Void Blizzard",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "adversary-in-the-middle spear-phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "malicious QR code",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "password-spraying attacks",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": " Void Blizzard",
+      "platform": "securityweek",
+      "type": "threat actor",
+      "publish_date": "2025/7/28"
+    },
+    {
+      "blog_id": 161,
+      "node": [
+        {
+          "node_text": "AzureHound",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Dutch police account",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Evilginx",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "Exchange Online",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Forest Blizzard",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Microsoft Entra ID",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Microsoft Graph",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Midnight Blizzard",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "NATO member states",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Secret Blizzard",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "September 2024",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "SharePoint Online",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Teams web client",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Ukraine",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Void Blizzard",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Western Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "adversary-in-the-middle spear-phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "malicious QR codes",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "micsrosoftonline[.]com",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "need for hardened Entra ID configurations",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "need for phishing-resistant MFA",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "pass-the-cookie breach",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "password spraying",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "stolen credentials",
+          "node_type": "Indicator"
+        }
+      ],
+      "title": " Void Blizzard",
+      "platform": "thehackernews",
+      "type": "threat actor",
+      "publish_date": "2024/4/28"
+    }
+  ]
+}

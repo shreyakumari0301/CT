@@ -1,0 +1,24 @@
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "exposed", "tgt_type": "threat_actor", "tgt_name": "EXOTIC LILY", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "linked_to", "tgt_type": "threat_actor", "tgt_name": "Wizard Spider", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "linked_to", "tgt_type": "threat_actor", "tgt_name": "FIN12", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-40444", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "exploits", "tgt_type": "tool", "tgt_name": "Microsoft MSHTML", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "BazarLoader", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "BUMBLEBEE", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "targets", "tgt_type": "identity", "tgt_name": "IT sector", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "targets", "tgt_type": "identity", "tgt_name": "cybersecurity sector", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "targets", "tgt_type": "identity", "tgt_name": "healthcare sector", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "RocketReach", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "CrunchBase", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WeTransfer", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "uses", "tgt_type": "tool", "tgt_name": "TransferNow", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "uses", "tgt_type": "tool", "tgt_name": "OneDrive", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "DEV-0413", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "threat_actor", "src_name": "EXOTIC LILY", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Abnormal", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "malware", "src_name": "BazarLoader", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Conti", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "malware", "src_name": "BazarLoader", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Diavol", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "malware", "src_name": "BUMBLEBEE", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Conti", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "malware", "src_name": "BUMBLEBEE", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Diavol", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "malware", "src_name": "BUMBLEBEE", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-40::ch0"]}
+{"src_type": "malware", "src_name": "BUMBLEBEE", "predicate": "fetches", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-40::ch0"]}

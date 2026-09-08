@@ -1,0 +1,15 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "identified", "tgt_type": "malware", "tgt_name": "SideWalk", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "threat_actor", "src_name": "SparklingGoblin", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "Motnug", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "threat_actor", "src_name": "SparklingGoblin", "predicate": "associated_with", "tgt_type": "tool", "tgt_name": "ChaCha20 loaders", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "threat_actor", "src_name": "SparklingGoblin", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "CROSSWALK", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "threat_actor", "src_name": "SparklingGoblin", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PlugX", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "threat_actor", "src_name": "SparklingGoblin", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "malware", "src_name": "SideWalk", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "SparklingGoblin", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "malware", "src_name": "SideWalk", "predicate": "formerly_tracked_as", "tgt_type": "malware", "tgt_name": "StageClient", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "malware", "src_name": "SideWalk", "predicate": "matches", "tgt_type": "malware", "tgt_name": "Specter RAT", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "malware", "src_name": "SideWalk", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Hong Kong university", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "malware", "src_name": "SideWalk", "predicate": "loads_module", "tgt_type": "tool", "tgt_name": "TaskSchedulerMod", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "malware", "src_name": "SideWalk", "predicate": "loads_module", "tgt_type": "tool", "tgt_name": "SysInfoMgr", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "malware", "src_name": "SideWalk", "predicate": "resolves_c2_via", "tgt_type": "identity", "tgt_name": "Google Docs", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "malware", "src_name": "SideWalk", "predicate": "resolves_c2_via", "tgt_type": "identity", "tgt_name": "Cloudflare Workers", "source_chunks": ["BLOG-214::ch0"]}
+{"src_type": "malware", "src_name": "SideWalk", "predicate": "uses_c2_address", "tgt_type": "indicator", "tgt_name": "66.42.103.222", "source_chunks": ["BLOG-214::ch0"]}

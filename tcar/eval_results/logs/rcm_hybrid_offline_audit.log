@@ -1,0 +1,27 @@
+loading retrievers on n=1000 ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1497.67it/s]
+ready in 235.7s
+[100/1000] dense@20=0.540 hybrid@20=0.760 tax@5=0.440 hyb_tax@5=0.600
+[200/1000] dense@20=0.515 hybrid@20=0.770 tax@5=0.425 hyb_tax@5=0.575
+[300/1000] dense@20=0.540 hybrid@20=0.780 tax@5=0.460 hyb_tax@5=0.600
+[400/1000] dense@20=0.555 hybrid@20=0.785 tax@5=0.475 hyb_tax@5=0.625
+[500/1000] dense@20=0.556 hybrid@20=0.770 tax@5=0.474 hyb_tax@5=0.620
+[600/1000] dense@20=0.563 hybrid@20=0.778 tax@5=0.487 hyb_tax@5=0.625
+[700/1000] dense@20=0.549 hybrid@20=0.774 tax@5=0.473 hyb_tax@5=0.621
+[800/1000] dense@20=0.550 hybrid@20=0.775 tax@5=0.477 hyb_tax@5=0.621
+[900/1000] dense@20=0.541 hybrid@20=0.768 tax@5=0.467 hyb_tax@5=0.621
+[1000/1000] dense@20=0.542 hybrid@20=0.771 tax@5=0.469 hyb_tax@5=0.624
+{
+  "n": 1000,
+  "dense_gold@20": 0.542,
+  "dense_gold@5": 0.389,
+  "bm25_mech_gold@20": 0.722,
+  "hybrid_gold@20": 0.771,
+  "taxonomy_on_dense_gold@5": 0.469,
+  "hybrid_then_taxonomy_gold@5": 0.624,
+  "target_hybrid_gold@20": 0.7,
+  "baseline_paper_dense_gold@20": 0.542,
+  "elapsed_s": 502.6
+}
+wrote /mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/rcm_hybrid_offline_audit.json

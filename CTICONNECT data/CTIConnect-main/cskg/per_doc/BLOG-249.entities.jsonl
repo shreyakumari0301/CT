@@ -1,0 +1,17 @@
+{"entity_type": "malware", "canonical_name": "Lynx ransomware", "aliases": ["Lynx"], "properties": {"family": "ransomware", "first_seen": "mid-2024", "capabilities": ["data exfiltration", "double extortion", "file encryption"]}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "identity", "canonical_name": "finance organizations", "aliases": [], "properties": {"sector": "finance"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "identity", "canonical_name": "architecture organizations", "aliases": [], "properties": {"sector": "architecture"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing organizations", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "identity", "canonical_name": "energy organizations", "aliases": [], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "identity", "canonical_name": "APAC retail", "aliases": [], "properties": {"sector": "retail", "region": "APAC"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "tool", "canonical_name": "Nmap", "aliases": [], "properties": {"capabilities": ["network scanning"]}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["phishing emails"], "properties": {"technique_id": "T1566", "tactic": "Initial Access"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SMB/Windows Admin Shares Discovery", "aliases": ["SMB enumeration"], "properties": {"technique_id": "T1135", "tactic": "Discovery"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Services", "aliases": ["AnyDesk-based remote sessions"], "properties": {"technique_id": "T1021", "tactic": "Lateral Movement"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "External Remote Services", "aliases": ["AnyDesk-based remote sessions"], "properties": {"technique_id": "T1133", "tactic": "Initial Access"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Valid Accounts", "aliases": ["exploitation of default “admin”/“administrator” credentials"], "properties": {"technique_id": "T1078", "tactic": "Defense Evasion"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "OS Credential Dumping", "aliases": ["via NTLM and Kerberos"], "properties": {"technique_id": "T1003", "tactic": "Credential Access"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data Exfiltration", "aliases": ["exfiltrate sensitive data", "large uploads"], "properties": {"technique_id": "T1020", "tactic": "Exfiltration"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Encrypted Channel", "aliases": ["NTLM", "Kerberos"], "properties": {"technique_id": "T1573", "tactic": "Command and Control"}, "source_chunks": ["BLOG-249::ch0"]}
+{"entity_type": "indicator", "canonical_name": "wt-prod-euwest1-storm.s3.eu-west-1.amazonaws.com", "aliases": [], "properties": {"ioc_type": "domain", "value": "wt-prod-euwest1-storm.s3.eu-west-1.amazonaws.com"}, "source_chunks": ["BLOG-249::ch0"]}

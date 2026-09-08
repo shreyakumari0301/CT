@@ -1,0 +1,19 @@
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "attributed_to", "tgt_type": "identity", "tgt_name": "FSB", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "hijacks_infrastructure_and_tools_of", "tgt_type": "threat_actor", "tgt_name": "Storm-0156", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Windows environments", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "ministries of foreign affairs", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "embassies", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense departments", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "abuses", "tgt_type": "malware", "tgt_name": "CrimsonRAT", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Arsenal", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "DLL sideloading", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "TwoDash", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "MiniPocket", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "TinyTurla", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Statuezy", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "C2 traffic redirection", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Wainscot", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "exfiltrates_data_from", "tgt_type": "identity", "tgt_name": "Afghan government networks", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "exfiltrates_data_from", "tgt_type": "identity", "tgt_name": "Indian government networks", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0156", "predicate": "uses", "tgt_type": "malware", "tgt_name": "CrimsonRAT", "source_chunks": ["BLOG-295::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0156", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Arsenal", "source_chunks": ["BLOG-295::ch0"]}

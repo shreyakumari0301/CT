@@ -1,0 +1,24 @@
+{"entity_type": "threat_actor", "canonical_name": "UAC-0098", "aliases": [], "properties": {"first_seen": "April 2022", "last_seen": "August 2022", "regions_targeted": ["Ukraine", "Europe", "Eastern Europe"]}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Conti", "aliases": [], "properties": {}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Quantum", "aliases": [], "properties": {}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Wizard Spider", "aliases": ["FIN12", "WIZARD SPIDER", "UNC1878", "TEMP.MixMaster", "Trickbot Gang"], "properties": {}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "malware", "canonical_name": "IcedID", "aliases": ["IcedID banking trojan", "BokBot", "Bokbot"], "properties": {"family": "IcedID"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "malware", "canonical_name": "AnchorMail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "malware", "canonical_name": "LackeyBuilder", "aliases": ["LackeyBuilder SMTP backdoor installer"], "properties": {}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-30190", "aliases": ["Follina"], "properties": {"cve_id": "CVE-2022-30190"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "indicator", "canonical_name": "gov.uz.ua", "aliases": [], "properties": {"ioc_type": "domain", "value": "gov.uz.ua"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "indicator", "canonical_name": "starlinkua.info", "aliases": [], "properties": {"ioc_type": "domain", "value": "starlinkua.info"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "indicator", "canonical_name": "microsoftua.com", "aliases": [], "properties": {"ioc_type": "domain", "value": "microsoftua.com"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "indicator", "canonical_name": "dropfiles.me", "aliases": [], "properties": {"ioc_type": "domain", "value": "dropfiles.me"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ked.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "ked.dll"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "indicator", "canonical_name": "64.190.113.51", "aliases": ["64.190.113.51:8000"], "properties": {"ioc_type": "ip", "value": "64.190.113.51"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "indicator", "canonical_name": "blinkin.top", "aliases": [], "properties": {"ioc_type": "domain", "value": "blinkin.top"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "indicator", "canonical_name": "kompromatua.info", "aliases": [], "properties": {"ioc_type": "domain", "value": "kompromatua.info"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "indicator", "canonical_name": "84.32.190.34", "aliases": [], "properties": {"ioc_type": "ip", "value": "84.32.190.34"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "indicator", "canonical_name": "5.199.173.152", "aliases": [], "properties": {"ioc_type": "ip", "value": "5.199.173.152"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian government", "aliases": [], "properties": {"sector": "government", "region": "Ukraine"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "identity", "canonical_name": "European humanitarian NGOs", "aliases": [], "properties": {"sector": "non-profit", "region": "Europe"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "identity", "canonical_name": "hospitality sector", "aliases": [], "properties": {"sector": "hospitality"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine’s Cyber Police", "aliases": ["Cyber Police"], "properties": {"sector": "law enforcement", "region": "Ukraine"}, "source_chunks": ["BLOG-37::ch0"]}
+{"entity_type": "identity", "canonical_name": "State Tax Service", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-37::ch0"]}

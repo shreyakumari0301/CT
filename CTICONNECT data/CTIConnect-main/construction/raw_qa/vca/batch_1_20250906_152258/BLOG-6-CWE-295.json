@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'A malicious kernel driver (ApcHelper.sys) signed with a stolen certificate was accepted, indicating insufficient revocation/reputation checks or driver-block rules for code-signing trust.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) the potential mitigations for this type of vulnerability (e.g., what's the exact fix such as code change or configuration change).",
+  "answer": "1) CWE-295: Improper Certificate Validation\n2) Mapping Explanation: The vulnerability occurs when a malicious kernel driver was accepted because its certificate, although valid in its signature format, was stolen. This demonstrates that the checks for certificate revocation or reputation (i.e., certificate validation) were insufficient, which directly relates to CWE-295.\n3) Potential Mitigations:\n   1. Certificates should be carefully managed and checked to assure that data are encrypted with the intended owner's public key.\n   2. If certificate pinning is being used, ensure that all relevant properties of the certificate, including the hostname, are fully validated before the certificate is pinned.",
+  "llm_timing": {
+    "api_call_seconds": 6.417
+  }
+}

@@ -1,0 +1,10 @@
+{"entity_type": "malware", "canonical_name": "Magniber", "aliases": ["Magnitude EK successor"], "properties": {"family": "ransomware", "platforms": ["Windows"], "regions_targeted": ["South Korea", "Asia-Pacific"]}, "source_chunks": ["BLOG-176::ch0"]}
+{"entity_type": "tool", "canonical_name": "Magnitude exploit kit", "aliases": ["Magnitude EK"], "properties": {}, "source_chunks": ["BLOG-176::ch0"]}
+{"entity_type": "malware", "canonical_name": "Cerber", "aliases": ["Cerber ransomware"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-176::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2016-0189", "aliases": ["IE memory corruption vulnerability CVE-2016-0189", "IE CVE-2016-0189"], "properties": {"cve_id": "CVE-2016-0189"}, "source_chunks": ["BLOG-176::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Malvertising", "aliases": [], "properties": {}, "source_chunks": ["BLOG-176::ch0"]}
+{"entity_type": "identity", "canonical_name": "South Korea", "aliases": [], "properties": {"region": "South Korea"}, "source_chunks": ["BLOG-176::ch0"]}
+{"entity_type": "identity", "canonical_name": "Asia-Pacific region", "aliases": ["Asia-Pacific", "APAC"], "properties": {"region": "Asia-Pacific"}, "source_chunks": ["BLOG-176::ch0"]}
+{"entity_type": "identity", "canonical_name": "FireEye", "aliases": [], "properties": {}, "source_chunks": ["BLOG-176::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-176::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".ihsdj", "aliases": [], "properties": {"ioc_type": "hash", "value": ".ihsdj"}, "source_chunks": ["BLOG-176::ch0"]}

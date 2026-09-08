@@ -1,0 +1,13 @@
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "successor_of", "tgt_type": "malware", "tgt_name": "INC ransomware", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "derived_from", "tgt_type": "malware", "tgt_name": "INC ransomware", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. energy, oil and gas utilities", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "CONAD retail chain", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Hunter Taubman Fischer & Li", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Zamzows, Inc.", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing: Spearphishing Attachment", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Supply Chain Compromise", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "User Execution: Malicious File", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Command and Scripting Interpreter: PowerShell", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Indicator Removal on Host: Clear Windows Event Logs", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over C2 Channel", "source_chunks": ["BLOG-260::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Data Encrypted for Impact", "source_chunks": ["BLOG-260::ch0"]}

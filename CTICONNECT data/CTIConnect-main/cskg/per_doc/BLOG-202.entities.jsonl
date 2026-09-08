@@ -1,0 +1,11 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-202::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Operation Cronos", "aliases": [], "properties": {}, "source_chunks": ["BLOG-202::ch0"]}
+{"entity_type": "malware", "canonical_name": "LockBit", "aliases": ["LockBit 2.0", "LockBit 3.0", "LockBit Black", "LockBit Green"], "properties": {}, "source_chunks": ["BLOG-202::ch0"]}
+{"entity_type": "malware", "canonical_name": "BlackCat", "aliases": ["ALPHV", "ALPHV/BlackCat", "Noberus"], "properties": {}, "source_chunks": ["BLOG-202::ch0"]}
+{"entity_type": "malware", "canonical_name": "RansomHub", "aliases": [], "properties": {"platforms": ["Windows", "Linux", "ESXi"]}, "source_chunks": ["BLOG-202::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Play", "aliases": [], "properties": {}, "source_chunks": ["BLOG-202::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Medusa", "aliases": [], "properties": {}, "source_chunks": ["BLOG-202::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "BianLian", "aliases": [], "properties": {}, "source_chunks": ["BLOG-202::ch0"]}
+{"entity_type": "malware", "canonical_name": "Knight", "aliases": [], "properties": {}, "source_chunks": ["BLOG-202::ch0"]}
+{"entity_type": "tool", "canonical_name": "EDRKillShifter", "aliases": [], "properties": {"capabilities": ["disable security products", "abuse vulnerable drivers"]}, "source_chunks": ["BLOG-202::ch0"]}
+{"entity_type": "tool", "canonical_name": "Tor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-202::ch0"]}

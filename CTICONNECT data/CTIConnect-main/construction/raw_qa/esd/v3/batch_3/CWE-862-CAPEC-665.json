@@ -1,0 +1,23 @@
+{
+  "question": "A computing device performs sensitive operations without checking whether the requester is permitted to do so, enabling unauthorized access or actions. Which CAPEC attack pattern exploits this weakness, and why can it succeed given the missing permission checks?",
+  "answer": "- CAPEC-665.\n- CAPEC-665 exploits missing authorization checks, targeting CWE-862: failure to verify user permissions before allowing access or actions.",
+  "llm_cost": {
+    "input": 0.000849,
+    "cached_input": 0.0,
+    "output": 0.00091,
+    "total": 0.001759,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 679,
+      "cached_input": 0,
+      "output": 91
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3765
+  }
+}

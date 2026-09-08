@@ -1,0 +1,23 @@
+{
+  "question": "An adversary swaps legitimate system hardware with counterfeit or tampered components during supply-chain distribution, enabling disruption or later compromise after deployment. Which MITRE ATT&CK technique matches this behavior, and why does it map?",
+  "answer": "- T1195.003.\n- T1195.003 corresponds to compromising hardware supply chain, mapping CAPEC-522: replacing legitimate hardware with tampered components to disrupt or enable compromise.",
+  "llm_cost": {
+    "input": 0.00073,
+    "cached_input": 0.0,
+    "output": 0.00098,
+    "total": 0.00171,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 584,
+      "cached_input": 0,
+      "output": 98
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 1.9623
+  }
+}

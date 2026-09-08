@@ -1,0 +1,13 @@
+{"src_type": "identity", "src_name": "Foundation Accounting Software", "predicate": "used_by", "tgt_type": "identity", "tgt_name": "construction sub-industries", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "identity", "src_name": "construction sub-industries", "predicate": "includes", "tgt_type": "identity", "tgt_name": "plumbing", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "identity", "src_name": "construction sub-industries", "predicate": "includes", "tgt_type": "identity", "tgt_name": "HVAC", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "identity", "src_name": "construction sub-industries", "predicate": "includes", "tgt_type": "identity", "tgt_name": "concrete", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "tool", "src_name": "xp_cmdshell", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Lateral Movement", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "tool", "src_name": "xp_cmdshell", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Data Theft", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Brute Force", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Foundation Accounting Software", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "threat_actor", "src_name": "unknown cybercriminals", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Foundation Accounting Software", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "threat_actor", "src_name": "unknown cybercriminals", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Brute Force", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "threat_actor", "src_name": "unknown cybercriminals", "predicate": "targets", "tgt_type": "tool", "tgt_name": "MSSQL", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "threat_actor", "src_name": "unknown cybercriminals", "predicate": "enables", "tgt_type": "tool", "tgt_name": "xp_cmdshell", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "threat_actor", "src_name": "unknown cybercriminals", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Lateral Movement", "source_chunks": ["BLOG-113::ch0"]}
+{"src_type": "threat_actor", "src_name": "unknown cybercriminals", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Data Theft", "source_chunks": ["BLOG-113::ch0"]}

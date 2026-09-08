@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The seeding servers\u2019 FTPS services presented self-signed TLS certificates (example.ru); clients that accept these without proper validation are susceptible to spoofing or man-in-the-middle attacks.\" Please provide: 1) Which CWE category maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) what are the common consequences of this CWE (for example, what business risks such as data integrity issues or authentication bypass might be faced)?",
+  "answer": "1) CWE-295: Improper Certificate Validation\n2) Mapping Explanation: The vulnerability involves the use of self-signed TLS certificates on FTPS services and the failure of clients to validate these certificates properly. This lack of certificate validation allows attackers to spoof the server\u2019s identity or conduct man-in-the-middle attacks, directly aligning with CWE-295.\n3) Common Consequences: \n   - Bypass Protection Mechanism \n   - Gain Privileges or Assume Identity \n   These consequences imply risks such as integrity breaches and authentication failures, potentially leading to unauthorized access or manipulation of data.",
+  "llm_timing": {
+    "api_call_seconds": 6.7967
+  }
+}

@@ -1,0 +1,24 @@
+{"entity_type": "identity", "canonical_name": "ESET Research", "aliases": [], "properties": {}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Qatar World Cup campaign", "aliases": [], "properties": {"first_seen": "2022"}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Arid Viper APT", "aliases": ["Arid Viper", "APT-C-23", "Desert Falcons", "Two-tailed Scorpion"], "properties": {}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "malware", "canonical_name": "AridSpy", "aliases": [], "properties": {"platforms": ["Android"], "capabilities": ["remote data espionage", "collect contacts", "collect messages", "collect device metadata", "collect location", "dynamic code loading", "evasion"]}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "indicator", "canonical_name": "lapizachat.com", "aliases": ["lapizachat[.]com"], "properties": {"ioc_type": "domain", "value": "lapizachat.com"}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "indicator", "canonical_name": "nortirchats.com", "aliases": ["nortirchats[.]com"], "properties": {"ioc_type": "domain", "value": "nortirchats.com"}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "indicator", "canonical_name": "reblychat.com", "aliases": ["reblychat[.]com"], "properties": {"ioc_type": "domain", "value": "reblychat.com"}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "indicator", "canonical_name": "pariberychat.com", "aliases": ["pariberychat[.]com"], "properties": {"ioc_type": "domain", "value": "pariberychat.com"}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "indicator", "canonical_name": "renatchat.com", "aliases": ["renatchat[.]com"], "properties": {"ioc_type": "domain", "value": "renatchat.com"}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "LapizaChat", "aliases": [], "properties": {}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "NortirChat", "aliases": [], "properties": {}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "ReblyChat", "aliases": [], "properties": {}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palestinian Civil Registry", "aliases": [], "properties": {"region": "Palestine"}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "StealthChat", "aliases": [], "properties": {}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "Session", "aliases": [], "properties": {}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "Voxer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "tool", "canonical_name": "myScript.js", "aliases": [], "properties": {"capabilities": ["downloader"]}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zimperium", "aliases": [], "properties": {}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Kora442", "aliases": [], "properties": {"first_seen": "2022"}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palestine", "aliases": [], "properties": {"region": "Palestine"}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "Egypt", "aliases": [], "properties": {"region": "Egypt"}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "360 Beacon Labs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "FOFA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-204::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East", "aliases": [], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-204::ch0"]}

@@ -1,0 +1,51 @@
+{"entity_type": "threat_actor", "canonical_name": "BlackCat", "aliases": [], "properties": {"first_seen": "December 2021", "last_seen": "September 2022", "sectors_targeted": ["finance", "professional", "legal", "technology", "energy", "utilities", "construction", "manufacturing"], "regions_targeted": ["United States"]}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "identity", "canonical_name": "US targets", "aliases": ["US-based"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing sector", "aliases": ["manufacturing detections"], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "identity", "canonical_name": "finance sector", "aliases": [], "properties": {"sector": "finance"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "identity", "canonical_name": "professional sector", "aliases": [], "properties": {"sector": "professional services"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "identity", "canonical_name": "legal sector", "aliases": [], "properties": {"sector": "legal"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "identity", "canonical_name": "technology sector", "aliases": [], "properties": {"sector": "technology"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "identity", "canonical_name": "energy sector", "aliases": [], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "identity", "canonical_name": "utilities sector", "aliases": [], "properties": {"sector": "utilities"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "identity", "canonical_name": "construction sector", "aliases": [], "properties": {"sector": "construction"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-26855", "aliases": [], "properties": {"cve_id": "CVE-2021-26855"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-26857", "aliases": [], "properties": {"cve_id": "CVE-2021-26857"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-26858", "aliases": [], "properties": {"cve_id": "CVE-2021-26858"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-27065", "aliases": [], "properties": {"cve_id": "CVE-2021-27065"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploitation for Public-Facing Application", "aliases": ["T1190"], "properties": {"technique_id": "T1190"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Valid Accounts", "aliases": ["T1078"], "properties": {"technique_id": "T1078"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Impair Defenses: Disable or Modify Tools", "aliases": ["T1562.001"], "properties": {"technique_id": "T1562.001"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Impair Defenses: Safe Mode Boot", "aliases": ["T1562.009"], "properties": {"technique_id": "T1562.009"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "OS Credential Dumping: LSASS Memory", "aliases": ["T1003.001", "LSASS credential dumping"], "properties": {"technique_id": "T1003.001"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Services: SMB/Windows Admin Shares", "aliases": ["T1021.002", "PsExec"], "properties": {"technique_id": "T1021.002"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data Encrypted for Impact", "aliases": ["T1486"], "properties": {"technique_id": "T1486"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Inhibit System Recovery", "aliases": ["T1490", "shadow copy deletion"], "properties": {"technique_id": "T1490"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Service Stop", "aliases": ["T1489"], "properties": {"technique_id": "T1489"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over Alternative Protocol", "aliases": ["T1048"], "properties": {"technique_id": "T1048"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration to Cloud Storage", "aliases": ["T1567"], "properties": {"technique_id": "T1567"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "COBEACON", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "AdFind", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "ADRecon", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "SoftPerfect", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "Process Hacker", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMIC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "Netstat", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "RDP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "MobaXterm", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "BITSAdmin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "ExMatter", "aliases": [], "properties": {"first_seen": "September 2022"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "7-Zip", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rclone", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "MEGASync", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinSCP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "tool", "canonical_name": "FreeFileSync", "aliases": [], "properties": {}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "malware", "canonical_name": "Rust-based ransomware", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ntoskrnl.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "ntoskrnl.exe"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "indicator", "canonical_name": "zzz.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "zzz.exe"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "indicator", "canonical_name": "xxx.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "xxx.exe"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "indicator", "canonical_name": "yyy.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "yyy.exe"}, "source_chunks": ["BLOG-184::ch0"]}
+{"entity_type": "indicator", "canonical_name": "sv.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "sv.exe"}, "source_chunks": ["BLOG-184::ch0"]}

@@ -1,0 +1,12 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": ["ESET researchers"], "properties": {}, "source_chunks": ["BLOG-218::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT-C-60", "aliases": [], "properties": {"regions_targeted": ["East Asia"]}, "source_chunks": ["BLOG-218::ch0"]}
+{"entity_type": "identity", "canonical_name": "South Korea", "aliases": ["South Korea–aligned"], "properties": {"region": "South Korea"}, "source_chunks": ["BLOG-218::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-7262", "aliases": [], "properties": {"cve_id": "CVE-2024-7262"}, "source_chunks": ["BLOG-218::ch0"]}
+{"entity_type": "identity", "canonical_name": "WPS Office for Windows", "aliases": ["WPS Office"], "properties": {}, "source_chunks": ["BLOG-218::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ksoqing://", "aliases": ["ksoqing:// protocol handler"], "properties": {"ioc_type": "url", "value": "ksoqing://"}, "source_chunks": ["BLOG-218::ch0"]}
+{"entity_type": "indicator", "canonical_name": "promecefpluginhost.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "promecefpluginhost.exe"}, "source_chunks": ["BLOG-218::ch0"]}
+{"entity_type": "malware", "canonical_name": "SpyGlace/TaskControler.dll", "aliases": ["SpyGlace", "TaskControler.dll"], "properties": {"family": "SpyGlace"}, "source_chunks": ["BLOG-218::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kingsoft", "aliases": ["Kingsoft’s"], "properties": {}, "source_chunks": ["BLOG-218::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-7263", "aliases": [], "properties": {"cve_id": "CVE-2024-7263"}, "source_chunks": ["BLOG-218::ch0"]}
+{"entity_type": "identity", "canonical_name": "DBAPPSecurity", "aliases": [], "properties": {}, "source_chunks": ["BLOG-218::ch0"]}
+{"entity_type": "indicator", "canonical_name": "%localappdata%\\Temp\\wps\\INetCache\\", "aliases": [], "properties": {"ioc_type": "url", "value": "%localappdata%\\Temp\\wps\\INetCache\\"}, "source_chunks": ["BLOG-218::ch0"]}

@@ -1,0 +1,12 @@
+{"entity_type": "identity", "canonical_name": "HC3", "aliases": [], "properties": {}, "source_chunks": ["BLOG-269::ch0"]}
+{"entity_type": "malware", "canonical_name": "Lorenz", "aliases": ["Lorenz ransomware"], "properties": {"family": "ransomware", "first_seen": "February 2021"}, "source_chunks": ["BLOG-269::ch0"]}
+{"entity_type": "malware", "canonical_name": "sZ40", "aliases": [], "properties": {}, "source_chunks": ["BLOG-269::ch0"]}
+{"entity_type": "malware", "canonical_name": "ThunderCrypt", "aliases": [], "properties": {}, "source_chunks": ["BLOG-269::ch0"]}
+{"entity_type": "identity", "canonical_name": "large healthcare organizations", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-269::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-269::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploitation of known vulnerabilities", "aliases": [], "properties": {}, "source_chunks": ["BLOG-269::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote-access compromise", "aliases": [], "properties": {}, "source_chunks": ["BLOG-269::ch0"]}
+{"entity_type": "malware", "canonical_name": "Hive", "aliases": ["Hive ransomware"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-269::ch0"]}
+{"entity_type": "identity", "canonical_name": "HHS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-269::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-269::ch0"]}
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-269::ch0"]}

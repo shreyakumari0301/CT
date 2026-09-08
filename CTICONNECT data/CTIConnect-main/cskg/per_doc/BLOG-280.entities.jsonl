@@ -1,0 +1,22 @@
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "FSB", "aliases": [], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Magic Hare", "aliases": ["Berserk Bear", "Blue Kraken", "Crouching Yeti", "Dragonfly", "Koala Team", "Energetic Bear", "Iron Liberty"], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco", "aliases": [], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2018-0171", "aliases": [], "properties": {"cve_id": "CVE-2018-0171"}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "critical infrastructure worldwide", "aliases": [], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. critical infrastructure sectors", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Network reconnaissance", "aliases": [], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco Talos", "aliases": [], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Static Tundra", "aliases": [], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecommunications", "aliases": [], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "higher education", "aliases": [], "properties": {"sector": "higher education"}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "Asia", "aliases": [], "properties": {"region": "Asia"}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "Africa", "aliases": [], "properties": {"region": "Africa"}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "tool", "canonical_name": "SNMP tools", "aliases": ["custom SNMP tools"], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "malware", "canonical_name": "SYNful Knock", "aliases": ["SYNful Knock firmware implant"], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "identity", "canonical_name": "FireEye", "aliases": [], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": ["remote code execution"], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Denial of Service", "aliases": ["DoS"], "properties": {}, "source_chunks": ["BLOG-280::ch0"]}

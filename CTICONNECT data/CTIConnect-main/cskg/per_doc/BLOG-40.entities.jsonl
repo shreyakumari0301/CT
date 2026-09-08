@@ -1,0 +1,23 @@
+{"entity_type": "identity", "canonical_name": "Google Threat Analysis Group", "aliases": ["Google’s Threat Analysis Group"], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "EXOTIC LILY", "aliases": [], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "FIN12", "aliases": [], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Wizard Spider", "aliases": ["WIZARD SPIDER", "FIN12/WIZARD SPIDER", "UNC1878", "TEMP.MixMaster", "Trickbot Gang"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft MSHTML", "aliases": [], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-40444", "aliases": [], "properties": {"cve_id": "CVE-2021-40444"}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "malware", "canonical_name": "BazarLoader", "aliases": ["BazarBackdoor", "Bazaar"], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "malware", "canonical_name": "BUMBLEBEE", "aliases": ["“BUMBLEBEE” loader"], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "malware", "canonical_name": "Conti", "aliases": [], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "malware", "canonical_name": "Diavol", "aliases": [], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "identity", "canonical_name": "IT sector", "aliases": [], "properties": {"sector": "IT"}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "identity", "canonical_name": "cybersecurity sector", "aliases": [], "properties": {"sector": "cybersecurity"}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "identity", "canonical_name": "healthcare sector", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "tool", "canonical_name": "RocketReach", "aliases": [], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "tool", "canonical_name": "CrunchBase", "aliases": [], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "tool", "canonical_name": "WeTransfer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "tool", "canonical_name": "TransferNow", "aliases": [], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "tool", "canonical_name": "OneDrive", "aliases": [], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spear-phishing emails"], "properties": {"tactic": "Initial Access"}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMI", "aliases": ["WMI-based data collection"], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "DEV-0413", "aliases": ["Microsoft’s DEV-0413"], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}
+{"entity_type": "identity", "canonical_name": "Abnormal", "aliases": [], "properties": {}, "source_chunks": ["BLOG-40::ch0"]}

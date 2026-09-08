@@ -1,0 +1,18 @@
+{"entity_type": "malware", "canonical_name": "INC ransomware", "aliases": ["INC"], "properties": {"family": "INC"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "malware", "canonical_name": "Lynx ransomware", "aliases": ["Lynx"], "properties": {"platforms": ["Windows"], "capabilities": ["data exfiltration", "double extortion", "file encryption", "kill processes", "encrypt network shares", "delete shadow copies", "delete backups"]}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "indicator", "canonical_name": "lynxblog.net", "aliases": ["lynxblog[.]net"], "properties": {"ioc_type": "domain", "value": "lynxblog.net"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. retail firms", "aliases": [], "properties": {"sector": "retail", "region": "United States"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.K. retail firms", "aliases": [], "properties": {"sector": "retail", "region": "United Kingdom"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. real estate firms", "aliases": [], "properties": {"sector": "real estate", "region": "United States"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.K. real estate firms", "aliases": [], "properties": {"sector": "real estate", "region": "United Kingdom"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. architecture firms", "aliases": [], "properties": {"sector": "architecture", "region": "United States"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.K. architecture firms", "aliases": [], "properties": {"sector": "architecture", "region": "United Kingdom"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. financial service firms", "aliases": [], "properties": {"sector": "financial services", "region": "United States"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.K. financial service firms", "aliases": [], "properties": {"sector": "financial services", "region": "United Kingdom"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. environmental service firms", "aliases": [], "properties": {"sector": "environmental services", "region": "United States"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.K. environmental service firms", "aliases": [], "properties": {"sector": "environmental services", "region": "United Kingdom"}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Malicious downloads", "aliases": [], "properties": {}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "tool", "canonical_name": "Restart Manager API", "aliases": [], "properties": {}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "tool", "canonical_name": "Palo Alto Networks Cortex XDR Anti-Ransomware", "aliases": ["Cortex XDR Anti-Ransomware"], "properties": {}, "source_chunks": ["BLOG-232::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-232::ch0"]}

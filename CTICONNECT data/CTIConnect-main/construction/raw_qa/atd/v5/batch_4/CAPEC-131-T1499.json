@@ -1,0 +1,23 @@
+{
+  "question": "An adversary exploits a resource leak on a target system to steadily deplete available resources, preventing the system from servicing legitimate requests. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1499.\n- T1499 corresponds to endpoint denial of service, mapping CAPEC-131: exploiting resource leaks to exhaust resources and block legitimate requests.",
+  "llm_cost": {
+    "input": 0.000705,
+    "cached_input": 0.0,
+    "output": 0.00097,
+    "total": 0.001675,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 564,
+      "cached_input": 0,
+      "output": 97
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.2528
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "A program relies on a regular expression that can take excessively long to evaluate because its pattern leads to inefficient matching complexity. Which CAPEC attack pattern exploits this weakness, and why can it trigger extreme runtimes with crafted input?",
+  "answer": "- CAPEC-492.\n- CAPEC-492 exploits inefficient regex matching complexity, targeting CWE-1333: inefficient regular expression complexity causing excessive runtime.",
+  "llm_cost": {
+    "input": 0.000759,
+    "cached_input": 0.0,
+    "output": 0.00091,
+    "total": 0.001669,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 607,
+      "cached_input": 0,
+      "output": 91
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4985
+  }
+}

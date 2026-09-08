@@ -1,0 +1,7 @@
+{
+  "question": "What are the main malicious tools or malware families consistently used in this campaign?",
+  "answer": "- LocalOlive web shell\n- Legitimate RMM tools (Atera Agent, Splashtop, ShadowLink)\n- Procdump (for credential harvesting)\n- Rclone, Chisel, Plink (for data exfiltration)\n- Cobalt Strike\n- DarkCrystalRAT\n- OpenSSH backdoors",
+  "llm_timing": {
+    "api_call_seconds": 9.3234
+  }
+}

@@ -1,0 +1,24 @@
+{"entity_type": "threat_actor", "canonical_name": "APT34", "aliases": ["Crambus", "OilRig", "Helix Kitten", "Cobalt Gypsy", "Earth Vetala", "Hazel Sandstorm"], "properties": {"primary_motivation": "espionage", "first_seen": "2023-02", "last_seen": "2023-09"}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle Eastern government", "aliases": [], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "indicator", "canonical_name": "joper.ps1", "aliases": [], "properties": {"ioc_type": "hash", "value": "joper.ps1"}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "tool", "canonical_name": "Plink", "aliases": [], "properties": {}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "indicator", "canonical_name": "msssh.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "msssh.exe"}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "indicator", "canonical_name": "plink.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "plink.exe"}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SSH Port Forwarding", "aliases": ["SSH port-forwarded RDP tunnels"], "properties": {"technique_id": "T1572", "tactic": "Command and Control"}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Services", "aliases": ["RDP"], "properties": {"technique_id": "T1021", "tactic": "Lateral Movement"}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "tool", "canonical_name": "netstat", "aliases": [], "properties": {}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "identity", "canonical_name": "Domain Controllers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "malware", "canonical_name": "Backdoor.Tokel", "aliases": [], "properties": {"capabilities": ["arbitrary PowerShell execution", "command and control"]}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "indicator", "canonical_name": "telecomm.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "telecomm.exe"}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "indicator", "canonical_name": "token.bin", "aliases": [], "properties": {"ioc_type": "hash", "value": "token.bin"}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "malware", "canonical_name": "Trojan.Dirps", "aliases": [], "properties": {"capabilities": ["directory enumeration", "command execution"]}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "indicator", "canonical_name": "virtpackage.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "virtpackage.exe"}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "malware", "canonical_name": "Infostealer.Clipog", "aliases": [], "properties": {"capabilities": ["keystroke capture", "clipboard capture"]}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "indicator", "canonical_name": "poluniq.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "poluniq.exe"}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "malware", "canonical_name": "PowerExchange", "aliases": ["PowerExchange PowerShell backdoor"], "properties": {"capabilities": ["mailbox access", "email-based command and control", "file execution", "data exfiltration"]}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Exchange", "aliases": ["Exchange"], "properties": {}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "tool", "canonical_name": "netsh", "aliases": [], "properties": {}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "tool", "canonical_name": "Nessus", "aliases": [], "properties": {}, "source_chunks": ["BLOG-133::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "Log4j", "aliases": [], "properties": {}, "source_chunks": ["BLOG-133::ch0"]}

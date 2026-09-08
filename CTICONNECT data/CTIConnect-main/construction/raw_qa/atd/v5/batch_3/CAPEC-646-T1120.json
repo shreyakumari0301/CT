@@ -1,0 +1,23 @@
+{
+  "question": "An adversary tries to learn what peripheral devices and components are attached to a computer, such as checking for mobile device backups, inspecting the Windows registry for previously connected USB devices, or using malware to report when a USB device is connected. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1120.\n- T1120 corresponds to peripheral device discovery, mapping CAPEC-646: gathering info on connected peripherals like USB/iOS devices via registry, backups, or malware.",
+  "llm_cost": {
+    "input": 0.000788,
+    "cached_input": 0.0,
+    "output": 0.00124,
+    "total": 0.002027,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 630,
+      "cached_input": 0,
+      "output": 124
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.2697
+  }
+}

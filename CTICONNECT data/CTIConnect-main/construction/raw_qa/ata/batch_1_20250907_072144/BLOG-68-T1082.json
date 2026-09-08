@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Discovery Microsoft has observed Volt Typhoon discovering system information, including file system types; drive names, size, and free space; running processes; and open networks. They also attempt to discover other systems on the compromised network using PowerShell, Windows Management Instrumentation Command-line (WMIC), and the ping command.\" Please provide: 1) the MITRE ATT&CK category that maps to this behavior, 2) an explanation of how the observed activities map to this technique, and 3) the kill chain phase for this technique (i.e., where in the attack lifecycle should we expect this behavior)?",
+  "answer": "1) MITRE ATT&CK Category: System Information Discovery (T1082).\n2) Mapping Explanation: The activity describes collecting details about the compromised host such as file system types, drive names/sizes/free space, running processes, and network information, which aligns with T1082’s focus on discovering system-level configuration and environment details. The use of native utilities like PowerShell and WMIC to query this information is a common implementation of System Information Discovery.\n3) Applicable Platforms: Windows; Kill Chain Phase: Discovery.",
+  "llm_timing": {
+    "api_call_seconds": 5.2238
+  }
+}

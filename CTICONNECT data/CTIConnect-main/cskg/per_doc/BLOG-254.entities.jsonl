@@ -1,0 +1,23 @@
+{"entity_type": "campaign", "canonical_name": "Operation Sharpshooter", "aliases": [], "properties": {"objective": "cyber-espionage", "first_seen": "October 2018", "last_seen": "November 2018"}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "identity", "canonical_name": "McAfee Advanced Threat Research", "aliases": ["McAfee’s Advanced Threat Research team"], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "malware", "canonical_name": "Rising Sun", "aliases": [], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lazarus Group", "aliases": ["Hidden Cobra", "ZINC", "Diamond Sleet", "Labyrinth Chollima", "Guardians of Peace"], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "malware", "canonical_name": "Duuzer Trojan", "aliases": ["Duuzer"], "properties": {"first_seen": "2015"}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Weaponized Office documents", "aliases": [], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Macro-enabled loader", "aliases": [], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "In-memory implant", "aliases": ["in-memory implant"], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Account discovery", "aliases": [], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "File and directory discovery", "aliases": ["file/directory discovery"], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Process discovery", "aliases": [], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "System and network discovery", "aliases": ["system/network discovery"], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Process injection", "aliases": ["process injections"], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Encrypted exfiltration over C2 channels", "aliases": ["automated encrypted exfiltration over C2 channels"], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "indicator", "canonical_name": "34.214.99.20/view_style.php", "aliases": [], "properties": {"ioc_type": "url", "value": "34.214.99.20/view_style.php"}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "indicator", "canonical_name": "8106a30bd35526bded384627d8eebce15da35d17", "aliases": [], "properties": {"ioc_type": "hash", "value": "8106a30bd35526bded384627d8eebce15da35d17"}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "indicator", "canonical_name": "http://208.117.44.112/Strategic Planning Manager.doc", "aliases": ["hxxp://208.117.44.112/Strategic Planning Manager.doc"], "properties": {"ioc_type": "url", "value": "http://208.117.44.112/Strategic Planning Manager.doc"}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "tool", "canonical_name": "McAfee signatures RDN/Generic Downloader.x", "aliases": ["RDN/Generic Downloader.x"], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "tool", "canonical_name": "McAfee signatures Rising-Sun", "aliases": ["Rising-Sun"], "properties": {}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "identity", "canonical_name": "nuclear organizations", "aliases": [], "properties": {"sector": "nuclear"}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense organizations", "aliases": [], "properties": {"sector": "defense"}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "identity", "canonical_name": "energy organizations", "aliases": [], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-254::ch0"]}
+{"entity_type": "identity", "canonical_name": "financial organizations", "aliases": [], "properties": {"sector": "financial"}, "source_chunks": ["BLOG-254::ch0"]}

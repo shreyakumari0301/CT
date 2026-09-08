@@ -1,0 +1,25 @@
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "observed_increase_driven_by", "tgt_type": "campaign", "tgt_name": "APT28 (Fancy Bear) campaign", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "observed_increase_sustained_by", "tgt_type": "threat_actor", "tgt_name": "Charming Kitten", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "disrupted", "tgt_type": "tool", "tgt_name": "Telegram bots", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "uses_defense", "tgt_type": "identity", "tgt_name": "Workspace", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "uses_defense", "tgt_type": "identity", "tgt_name": "Safe Browsing", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "UK university website", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "tool", "tgt_name": "phishing kit", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential Harvesting", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "targets", "tgt_type": "identity", "tgt_name": "academia", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "targets", "tgt_type": "identity", "tgt_name": "journalism", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "targets", "tgt_type": "identity", "tgt_name": "NGOs", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "attempted_to_distribute", "tgt_type": "malware", "tgt_name": "spyware", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "attempted_to_distribute_via", "tgt_type": "identity", "tgt_name": "Google Play Store", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "pursued", "tgt_type": "malware", "tgt_name": "Android C2 apps", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "Munich Security", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "T20 Italy", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "embeds", "tgt_type": "tool", "tgt_name": "JavaScript", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "identity", "src_name": "UK university website", "predicate": "hosts", "tgt_type": "tool", "tgt_name": "phishing kit", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "tool", "src_name": "phishing kit", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Gmail", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "tool", "src_name": "phishing kit", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Yahoo", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "tool", "src_name": "phishing kit", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Hotmail", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "malware", "src_name": "spyware", "predicate": "disguised_as", "tgt_type": "identity", "tgt_name": "VPN", "source_chunks": ["BLOG-43::ch0"]}
+{"src_type": "tool", "src_name": "JavaScript", "predicate": "relays_via", "tgt_type": "tool", "tgt_name": "Telegram bots", "source_chunks": ["BLOG-43::ch0"]}

@@ -1,0 +1,11 @@
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "global phishing and malware campaign", "source_chunks": ["BLOG-310::ch0"]}
+{"src_type": "campaign", "src_name": "global phishing and malware campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Louvre", "source_chunks": ["BLOG-310::ch0"]}
+{"src_type": "campaign", "src_name": "global phishing and malware campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Meta", "source_chunks": ["BLOG-310::ch0"]}
+{"src_type": "campaign", "src_name": "global phishing and malware campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Reuters", "source_chunks": ["BLOG-310::ch0"]}
+{"src_type": "campaign", "src_name": "global phishing and malware campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Typosquatting", "source_chunks": ["BLOG-310::ch0"]}
+{"src_type": "campaign", "src_name": "global phishing and malware campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing", "source_chunks": ["BLOG-310::ch0"]}
+{"src_type": "campaign", "src_name": "global phishing and malware campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing Attachment", "source_chunks": ["BLOG-310::ch0"]}
+{"src_type": "campaign", "src_name": "global phishing and malware campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-310::ch0"]}
+{"src_type": "campaign", "src_name": "global phishing and malware campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential Harvesting", "source_chunks": ["BLOG-310::ch0"]}
+{"src_type": "campaign", "src_name": "global phishing and malware campaign", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Lateral Movement", "source_chunks": ["BLOG-310::ch0"]}
+{"src_type": "campaign", "src_name": "global phishing and malware campaign", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-310::ch0"]}

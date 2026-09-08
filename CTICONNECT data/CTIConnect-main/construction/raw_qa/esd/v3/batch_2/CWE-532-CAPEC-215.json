@@ -1,0 +1,23 @@
+{
+  "question": "An application records secrets such as credentials or other confidential data into its log files. Which CAPEC attack pattern exploits this weakness, and why can it take advantage of these sensitive log entries?",
+  "answer": "- CAPEC-215.\n- CAPEC-215 exploits sensitive data logging, targeting CWE-532: insertion of sensitive information into log files.",
+  "llm_cost": {
+    "input": 0.000774,
+    "cached_input": 0.0,
+    "output": 0.00082,
+    "total": 0.001594,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 619,
+      "cached_input": 0,
+      "output": 82
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.307
+  }
+}

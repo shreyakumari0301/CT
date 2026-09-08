@@ -1,0 +1,7 @@
+{
+  "question": "What malware families, threat actor groups, or vulnerability IDs appear consistently across these reports?",
+  "answer": "- Malware Families: None specified\n- Threat Actor Groups: Scattered Spider (aka 0ktapus, UNC3944, Scatter Swine, Starfraud, Muddled Libra)\n- Vulnerability IDs: None reported",
+  "llm_timing": {
+    "api_call_seconds": 7.8461
+  }
+}

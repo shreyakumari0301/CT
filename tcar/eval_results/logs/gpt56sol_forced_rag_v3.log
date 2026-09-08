@@ -1,0 +1,13 @@
+[2026-09-06T08:30:11Z] Score-lift v3 model=gpt-5.6-sol
+[2026-09-06T08:30:11Z] RUN ctibench mcq stamp=20260906Tgpt56sol_forced_rag_v3
+launched ctibench/mcq pid=2193
+[2026-09-06T08:30:11Z] RUN ctibench vsp stamp=20260906Tgpt56sol_forced_rag_v3
+launched ctibench/vsp pid=2201
+[2026-09-06T08:30:11Z] RUN cticonnect ata stamp=20260906Tgpt56sol_forced_rag_v3_cc
+launched cticonnect/ata pid=2209
+[2026-09-06T08:30:11Z] RUN cticonnect rcm stamp=20260906Tgpt56sol_forced_rag_v3_cc
+launched cticonnect/rcm pid=2217
+[2026-09-06T08:30:12Z] All v3 launches issued; waiting...
+[2026-09-06T08:49:23Z] DONE cticonnect rcm
+[2026-09-06T08:58:25Z] DONE cticonnect ata
+[2026-09-06T10:47:49Z] Score-lift v3 finish

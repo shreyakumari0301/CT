@@ -1,0 +1,23 @@
+{
+  "question": "A hardware design contains logic where concurrent operations can access and manipulate the same resource, and the resulting behavior depends on the timing/order of those accesses. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-26.\n- CAPEC-26 exploits race conditions, targeting CWE-1298: hardware logic has concurrency races where outcomes depend on access ordering.",
+  "llm_cost": {
+    "input": 0.000769,
+    "cached_input": 0.0,
+    "output": 0.00094,
+    "total": 0.001709,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 615,
+      "cached_input": 0,
+      "output": 94
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5378
+  }
+}

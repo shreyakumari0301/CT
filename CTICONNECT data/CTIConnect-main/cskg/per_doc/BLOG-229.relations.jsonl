@@ -1,0 +1,11 @@
+{"src_type": "identity", "src_name": "NCC Group", "predicate": "identified", "tgt_type": "threat_actor", "tgt_name": "SnapMC", "source_chunks": ["BLOG-229::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Acunetix", "source_chunks": ["BLOG-229::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "PrintNightmare", "source_chunks": ["BLOG-229::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "Telerik UI for ASPX.NET RCE", "source_chunks": ["BLOG-229::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "exploits", "tgt_type": "attack_pattern", "tgt_name": "SQL injection", "source_chunks": ["BLOG-229::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "tool", "tgt_name": "7zip", "source_chunks": ["BLOG-229::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "tool", "tgt_name": "MinIO client", "source_chunks": ["BLOG-229::ch0"]}
+{"src_type": "identity", "src_name": "Coveware", "predicate": "advises_against_paying_ransoms_in_context_of", "tgt_type": "malware", "tgt_name": "REvil", "source_chunks": ["BLOG-229::ch0"]}
+{"src_type": "identity", "src_name": "Coveware", "predicate": "advises_against_paying_ransoms_in_context_of", "tgt_type": "malware", "tgt_name": "Netwalker", "source_chunks": ["BLOG-229::ch0"]}
+{"src_type": "identity", "src_name": "Coveware", "predicate": "advises_against_paying_ransoms_in_context_of", "tgt_type": "malware", "tgt_name": "Mespinoza", "source_chunks": ["BLOG-229::ch0"]}
+{"src_type": "identity", "src_name": "Coveware", "predicate": "advises_against_paying_ransoms_in_context_of", "tgt_type": "malware", "tgt_name": "Conti", "source_chunks": ["BLOG-229::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The Evilginx server allowed Star Blizzard to perform an adversary-in-the-middle (AiTM) attack on an authentication session to an email provider, enabling the actor to receive the necessary information to perform subsequent sign-ins to the target\u2019s email account, including the username, password, and MFA token, if MFA is used by the target.\" Additionally, \"This session follows a redirection chain ending at actor-controlled Evilginx infrastructure that is configured with a 'phishlet' for the intended targets\u2019 email provider.\" Please identify the MITRE ATT&CK category that maps to this activity, explain the mapping, and state which telemetry or logs (data sources) can catch this behavior according to the MITRE reference.",
+  "answer": "1) MITRE ATT&CK category: Multi-Factor Authentication Interception (T1111). 2) Mapping Explanation: The attack employed Evilginx to perform an adversary-in-the-middle attack, intercepting critical authentication credentials including MFA tokens during a user's sign-in process. This directly aligns with T1111, which involves intercepting multi-factor authentication responses. 3) Data Sources: The associated x_mitre_data_sources include: Driver: Driver Load; Process: OS API Execution; and Windows Registry: Windows Registry Key Modification.",
+  "llm_timing": {
+    "api_call_seconds": 7.4795
+  }
+}

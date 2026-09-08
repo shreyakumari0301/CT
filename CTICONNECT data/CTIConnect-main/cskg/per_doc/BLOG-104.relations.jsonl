@@ -1,0 +1,8 @@
+{"src_type": "threat_actor", "src_name": "APT38", "predicate": "uses", "tgt_type": "malware", "tgt_name": "SpectralBlur", "source_chunks": ["BLOG-104::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT38", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Apple users", "source_chunks": ["BLOG-104::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT38", "predicate": "targets", "tgt_type": "identity", "tgt_name": "cryptocurrency sector", "source_chunks": ["BLOG-104::ch0"]}
+{"src_type": "malware", "src_name": "SpectralBlur", "predicate": "code_overlaps_with", "tgt_type": "malware", "tgt_name": "KandyKorn", "source_chunks": ["BLOG-104::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "KandyKorn", "source_chunks": ["BLOG-104::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "blockchain engineers", "source_chunks": ["BLOG-104::ch0"]}
+{"src_type": "identity", "src_name": "Greg Lesnewich", "predicate": "works_for", "tgt_type": "identity", "tgt_name": "Proofpoint", "source_chunks": ["BLOG-104::ch0"]}
+{"src_type": "identity", "src_name": "Greg Lesnewich", "predicate": "identified_code_overlaps_between", "tgt_type": "malware", "tgt_name": "SpectralBlur", "source_chunks": ["BLOG-104::ch0"]}

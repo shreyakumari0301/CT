@@ -1,0 +1,20 @@
+{"src_type": "identity", "src_name": "CrowdStrike", "predicate": "uncovered_activity_by", "tgt_type": "threat_actor", "tgt_name": "ransomware actors", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "threat_actor", "src_name": "ransomware actors", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-29499", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "threat_actor", "src_name": "ransomware actors", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Mitel MiVoice appliances", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "threat_actor", "src_name": "ransomware actors", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exploit Public-Facing Application", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "threat_actor", "src_name": "ransomware actors", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Remote Services", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "threat_actor", "src_name": "ransomware actors", "predicate": "uses", "tgt_type": "tool", "tgt_name": "mkfifo", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "threat_actor", "src_name": "ransomware actors", "predicate": "uses", "tgt_type": "tool", "tgt_name": "openssl_client", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "threat_actor", "src_name": "ransomware actors", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "pdf_import.php web shell", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "threat_actor", "src_name": "ransomware actors", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Chisel", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "threat_actor", "src_name": "ransomware actors", "predicate": "deletes_evidence_from", "tgt_type": "identity", "tgt_name": "VoIP filesystem", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-29499", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Mitel MiVoice appliances", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "identity", "src_name": "Mitel", "predicate": "vendor_of", "tgt_type": "identity", "tgt_name": "Mitel MiVoice appliances", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "identity", "src_name": "Mitel", "predicate": "releases_patches_for", "tgt_type": "identity", "tgt_name": "MiVoice Connect 19.2 SP3", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "identity", "src_name": "Mitel MiVoice appliances", "predicate": "runs_on", "tgt_type": "identity", "tgt_name": "Linux", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "identity", "src_name": "SA 100", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "Mitel MiVoice appliances", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "identity", "src_name": "SA 400", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "Mitel MiVoice appliances", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "identity", "src_name": "Virtual SA", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "Mitel MiVoice appliances", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "identity", "src_name": "Kevin Beaumont", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Shodan", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "identity", "src_name": "Shodan", "predicate": "identified_by_query", "tgt_type": "indicator", "tgt_name": "http.html_hash:-1971546278", "source_chunks": ["BLOG-180::ch0"]}
+{"src_type": "indicator", "src_name": "http.html_hash:-1971546278", "predicate": "indicates_exposed", "tgt_type": "identity", "tgt_name": "Mitel", "source_chunks": ["BLOG-180::ch0"]}

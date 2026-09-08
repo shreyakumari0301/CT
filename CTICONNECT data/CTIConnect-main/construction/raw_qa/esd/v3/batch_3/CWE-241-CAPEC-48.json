@@ -1,0 +1,23 @@
+{
+  "question": "An application fails to correctly handle unexpected data types, treating an input of one type as if it were another, leading to unsafe behavior. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-48.\n- CAPEC-48 exploits unexpected type confusion, targeting CWE-241: improper handling of unexpected data types.",
+  "llm_cost": {
+    "input": 0.000785,
+    "cached_input": 0.0,
+    "output": 0.00087,
+    "total": 0.001655,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 628,
+      "cached_input": 0,
+      "output": 87
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7014
+  }
+}

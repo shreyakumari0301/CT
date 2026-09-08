@@ -1,0 +1,22 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-38831", "aliases": [], "properties": {"cve_id": "CVE-2023-38831"}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinRAR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "identity", "canonical_name": "RARLabs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "spear-phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "campaign", "canonical_name": "drive-by campaigns", "aliases": [], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Sandworm Team", "aliases": ["FROZENBARENTS", "SANDWORM", "Sandworm", "Voodoo Bear", "BlackEnergy Group", "Telebots", "ELECTRUM", "IRIDIUM", "Seashell Blizzard"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "identity", "canonical_name": "energy sector", "aliases": [], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "identity", "canonical_name": "financial targets", "aliases": [], "properties": {"sector": "financial"}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "malware", "canonical_name": "Rhadamanthys", "aliases": [], "properties": {"family": "infostealer"}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT28", "aliases": ["FROZENLAKE", "Fancy Bear", "Sofacy", "Sednit", "STRONTIUM", "Pawn Storm", "Forest Blizzard", "Tsar Team"], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "identity", "canonical_name": "Razumkov Centre", "aliases": [], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "reverse SSH shell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "malware", "canonical_name": "IRONJAW", "aliases": [], "properties": {"family": "stealer"}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "ISLANDDREAMS", "aliases": ["APT40"], "properties": {"country": "China"}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "identity", "canonical_name": "Papua New Guinea", "aliases": [], "properties": {"region": "Papua New Guinea"}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "tool", "canonical_name": "Dropbox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL sideloading", "aliases": ["sideload"], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "tool", "canonical_name": "Donut", "aliases": [], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "malware", "canonical_name": "BOXRAT", "aliases": [], "properties": {"family": "backdoor"}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Safe Browsing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}
+{"entity_type": "tool", "canonical_name": "Gmail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-49::ch0"]}

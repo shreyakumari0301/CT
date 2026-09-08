@@ -1,0 +1,23 @@
+{
+  "question": "An application generates security-sensitive values like session identifiers using randomness that is too predictable or has too little variability, making the values guessable. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-59.\n- CAPEC-59 exploits predictable session identifiers from low randomness, targeting CWE-331: insufficient entropy makes security values guessable.",
+  "llm_cost": {
+    "input": 0.000686,
+    "cached_input": 0.0,
+    "output": 0.00091,
+    "total": 0.001596,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 549,
+      "cached_input": 0,
+      "output": 91
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6
+  }
+}

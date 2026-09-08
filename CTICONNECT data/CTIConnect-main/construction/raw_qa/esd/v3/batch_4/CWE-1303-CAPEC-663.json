@@ -1,0 +1,23 @@
+{
+  "question": "A system shares CPU microarchitectural resources between security domains without clear isolation or visibility, so low-level state changes can be observed indirectly. Which CAPEC attack pattern exploits this weakness, and why can it leverage these shared microarchitectural effects to expose sensitive data or bypass access controls?",
+  "answer": "- CAPEC-663.\n- CAPEC-663 exploits covert leakage via shared microarchitectural state, targeting CWE-1303: non-transparent sharing of microarchitectural resources.",
+  "llm_cost": {
+    "input": 0.000777,
+    "cached_input": 0.0,
+    "output": 0.00108,
+    "total": 0.001857,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 622,
+      "cached_input": 0,
+      "output": 108
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5647
+  }
+}

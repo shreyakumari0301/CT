@@ -1,0 +1,23 @@
+{
+  "question": "A web application sets sensitive session cookies without properly using the SameSite attribute, allowing those cookies to be sent with cross-site requests. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-62.\n- CAPEC-62 exploits missing/weak SameSite on sensitive cookies, targeting CWE-1275: sensitive cookie has improper SameSite attribute.",
+  "llm_cost": {
+    "input": 0.000831,
+    "cached_input": 0.0,
+    "output": 0.00093,
+    "total": 0.001761,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 665,
+      "cached_input": 0,
+      "output": 93
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.0166
+  }
+}

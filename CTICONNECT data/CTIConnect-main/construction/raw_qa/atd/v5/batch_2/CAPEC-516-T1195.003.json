@@ -1,0 +1,23 @@
+{
+  "question": "During product development and baseline creation, an adversary with access swaps a legitimate hardware component with a maliciously altered one so later calibrations accommodate it, undermining final deployed behavior. Which MITRE ATT&CK technique matches this, and why does it map?",
+  "answer": "- T1195.003.\n- T1195.003 corresponds to hardware supply chain compromise, mapping CAPEC-516: substituting malicious hardware during baselining to affect final deployed behavior.",
+  "llm_cost": {
+    "input": 0.000775,
+    "cached_input": 0.0,
+    "output": 0.00108,
+    "total": 0.001855,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 620,
+      "cached_input": 0,
+      "output": 108
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.3776
+  }
+}

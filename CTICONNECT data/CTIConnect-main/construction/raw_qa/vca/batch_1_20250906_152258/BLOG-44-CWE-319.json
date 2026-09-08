@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The tool communicates with its C2 over HTTP and posts host and activity details in cleartext, exposing sensitive system and operational data to interception.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE category, and 3) describe the modes of introduction for this CWE. At what stage do developers typically introduce this issue?",
+  "answer": "1) CWE-319: Cleartext Transmission of Sensitive Information\n2) Mapping Explanation: The blog describes a scenario where sensitive host and activity details are transmitted in cleartext over HTTP. This aligns directly with CWE-319, as it involves the unprotected transmission of sensitive information, making it vulnerable to interception.\n3) Modes of Introduction:\n   1. Architecture and Design \u2013 The issue can be introduced due to an omission of necessary security tactics during the design phase, including cases where the design does not adequately plan for physical access scenarios in hardware.\n   2. Operation \u2013 The vulnerability can also emerge during the operational phase as insecure practices persist in live deployments.\n   3. System Configuration \u2013 Inadequate system configuration may further expose the system to this weakness.",
+  "llm_timing": {
+    "api_call_seconds": 5.8371
+  }
+}

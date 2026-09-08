@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "Accenture Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Q3 2021 proliferation of Karakurt", "aliases": [], "properties": {"first_seen": "Q3 2021"}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Karakurt", "aliases": [], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "identity", "canonical_name": "North American organizations", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Establish Persistence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["Cobalt Strike beacons", "CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Dumping", "aliases": ["harvesting administrator privileges"], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "tool", "canonical_name": "7zip", "aliases": [], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinZip", "aliases": [], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over Web Service", "aliases": ["exfiltrate it to Mega.io"], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "indicator", "canonical_name": "mega.io", "aliases": ["Mega.io"], "properties": {"ioc_type": "domain", "value": "mega.io"}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rclone", "aliases": [], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}
+{"entity_type": "tool", "canonical_name": "FileZilla", "aliases": [], "properties": {}, "source_chunks": ["BLOG-225::ch0"]}

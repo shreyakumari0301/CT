@@ -1,0 +1,23 @@
+{
+  "question": "An application allows its security version number to be changed so it can be set back to an older version. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-176.\n- CAPEC-176 exploits environment manipulation, targeting CWE-1328: security version number can be changed to older versions.",
+  "llm_cost": {
+    "input": 0.000715,
+    "cached_input": 0.0,
+    "output": 0.00084,
+    "total": 0.001555,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 572,
+      "cached_input": 0,
+      "output": 84
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 1.9164
+  }
+}

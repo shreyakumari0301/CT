@@ -1,0 +1,13 @@
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "APT34", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "shows_overlaps_with", "tgt_type": "threat_actor", "tgt_name": "Rocket Kitten", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "shows_overlaps_with", "tgt_type": "threat_actor", "tgt_name": "Charming Kitten", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "energy organizations", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government organizations", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "technology organizations", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Saudi Arabia", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "PupyRAT", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "reuses_domains_and_tools_with", "tgt_type": "campaign", "tgt_name": "Shamoon 2 wiper campaign", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "uses_lures_mimicking_communications_from", "tgt_type": "identity", "tgt_name": "Ministry of Health and Commerce", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "analyzed", "tgt_type": "campaign", "tgt_name": "Magic Hound", "source_chunks": ["BLOG-259::ch0"]}
+{"src_type": "identity", "src_name": "SecureWorks", "predicate": "analyzed", "tgt_type": "campaign", "tgt_name": "Magic Hound", "source_chunks": ["BLOG-259::ch0"]}

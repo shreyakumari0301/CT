@@ -1,0 +1,354 @@
+{
+  "cluster_id": 23,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 303,
+      "node": [
+        {
+          "node_text": "AHK Bot",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "C-drive serial number",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "C2",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Cisco Talos",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "FULL DOCUMENT.js",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "Invoke-Expression",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "LNK startup shortcuts",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "Organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "PS1Bot",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "SEO-poisoned archives",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "SetWindowsHookEx keylogger",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Skitnet",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "WMI-based antivirus reconnaissance module",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "WMIComputerCSHARP system survey",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "a sophisticated threat actor",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "anomalous PowerShell execution",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "browser credentials",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "crypto wallet credentials",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "dynamic C# screen-capture module",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "early 2025",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "espionage",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "financial theft",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "grabber",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "malvertising",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "malvertising indicators",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "multi-stage PowerShell/C# malware framework",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "mutex checks",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "ntu.ps1",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "ongoing campaign",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "randomized %PROGRAMDATA% directories",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "unexpected WMI queries",
+          "node_type": "Indicator Type"
+        }
+      ],
+      "title": "ForumTroll",
+      "platform": "kaspersky",
+      "type": "campaign",
+      "publish_date": "2025/3/25"
+    },
+    {
+      "blog_id": 290,
+      "node": [
+        {
+          "node_text": "2021",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ESET",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FishMonger",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "I-SOON",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Microsoft Office",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Mozilla-style User-Agent header",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "NGOs",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SilentBreeze",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Southeast Asia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Spyder loader",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "command-and-control servers",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "compromised third-party proxies",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "counter-detection tactics",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "credentials",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "encrypted channels",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "government institutions",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "hxxps://cdn-storage.cloud-service.site/updates.php",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "months",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "network traffic patterns",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "scheduled PowerShell task",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "sensitive diplomatic and policy-related data",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "spear-phishing emails",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "toolset modifications",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "ForumTroll",
+      "platform": "cybersecuritynews",
+      "type": "campaign",
+      "publish_date": "2025/3/26"
+    },
+    {
+      "blog_id": 305,
+      "node": [
+        {
+          "node_text": "2013–present campaign",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "7-zip",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "American Express",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Blackberry",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "CNN",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Fin7",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Fin7-linked hosts",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Malwarebytes",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "May 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Microsoft 365",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "PuTTY",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Python",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Stark Industries Solutions platform",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Zoom",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "booby-trapped ads",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "domains targeting Louvre tourists",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "domains targeting Olympic tourists",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "eSentire",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "malicious browser extensions",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "spear-phishing domains",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "sponsored Google ads pushing phony extensions",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "typosquatting",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "typosquatting-based malware intrusion",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "victim organizations",
+          "node_type": "Organization"
+        }
+      ],
+      "title": "ForumTroll",
+      "platform": "securelist",
+      "type": "campaign",
+      "publish_date": "2025/3/25"
+    }
+  ]
+}

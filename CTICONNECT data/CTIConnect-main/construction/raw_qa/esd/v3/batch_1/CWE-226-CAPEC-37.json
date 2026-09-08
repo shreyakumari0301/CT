@@ -1,0 +1,23 @@
+{
+  "question": "A system reuses a resource (such as memory, storage, or objects) without clearing previously stored sensitive data, allowing leftover confidential information to be exposed to subsequent users or processes. Which CAPEC attack pattern exploits this weakness, and why can it succeed?",
+  "answer": "- CAPEC-37.\n- CAPEC-37 exploits leftover embedded sensitive data exposure, targeting CWE-226: sensitive information in a resource not removed before reuse.",
+  "llm_cost": {
+    "input": 0.000706,
+    "cached_input": 0.0,
+    "output": 0.001,
+    "total": 0.001706,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 565,
+      "cached_input": 0,
+      "output": 100
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.536
+  }
+}

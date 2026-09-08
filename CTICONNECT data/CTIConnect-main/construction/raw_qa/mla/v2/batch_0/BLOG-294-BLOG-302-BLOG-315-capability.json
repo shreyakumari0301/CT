@@ -1,0 +1,7 @@
+{
+  "question": "What is the most notable new capability that appeared in later PS1Bot variants compared to the initial 2023 version?",
+  "answer": "- Initial 2023 variant: employed obfuscated JavaScript and a PowerShell loader using double Base64 and AES encryption, in-memory payload injection (T1059.001, T1055), HTTPS C2 channels, and basic credential harvesting\n- 2025 variants: shifted to malvertising via SEO-styled ZIPs, JavaScript/VBScript downloaders, PowerShell Invoke-Expression for in-memory C# and PS1 modules, persistence through randomized ProgramData scripts and Startup LNKs, plus WMI-based AV reconnaissance, dynamic screen capture, and keylogging\n- Most Notable New Capability: Advanced crypto wallet extraction modules that scan for multilingual seed-phrase wordlists and harvest over 40 wallet credentials",
+  "llm_timing": {
+    "api_call_seconds": 11.1436
+  }
+}

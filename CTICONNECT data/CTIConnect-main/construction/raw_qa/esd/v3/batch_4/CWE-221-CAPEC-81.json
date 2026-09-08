@@ -1,0 +1,23 @@
+{
+  "question": "A system fails to record or retains incomplete critical information, allowing important events to be lost or omitted from its records. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-81.\n- CAPEC-81 exploits missing or incomplete recorded information, targeting CWE-221: information can be lost or omitted from records.",
+  "llm_cost": {
+    "input": 0.000767,
+    "cached_input": 0.0,
+    "output": 0.00087,
+    "total": 0.001638,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 614,
+      "cached_input": 0,
+      "output": 87
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4635
+  }
+}

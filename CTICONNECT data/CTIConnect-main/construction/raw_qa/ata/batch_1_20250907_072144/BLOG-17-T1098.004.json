@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"the configuration of backdoor access using OpenSSH with unique public keys.\" Can you identify the MITRE ATT&CK category associated with this behavior, explain how the behavior maps to that category, and answer what kill chain phase we would expect this behavior in?",
+  "answer": "1) MITRE ATT&CK Category: SSH Authorized Keys (T1098.004).\n2) Mapping Explanation: The described “configuration of backdoor access using OpenSSH with unique public keys” aligns with T1098.004 because it involves adding or modifying SSH authorized keys to enable an attacker to authenticate via SSH without using stolen passwords. This is a form of account manipulation that maintains or expands access by establishing persistent SSH key-based logins.\n3) Applicable Platforms: Linux, macOS; Kill Chain Phase: Persistence.",
+  "llm_timing": {
+    "api_call_seconds": 4.6403
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: Jumpy Pisces\n- Aliases Resolved: Andariel, Onyx Sleet\n- Sponsoring Entity: North Korean state-sponsored actor (Reconnaissance General Bureau)\n- Primary Tools/Malware: Sliver C2 beacon, custom DTrack infostealer, bespoke Mimikatz variant, trojanized browser-data stealer\n- Known Collaboration: Play ransomware (Fiddling Scorpius)",
+  "llm_timing": {
+    "api_call_seconds": 11.4568
+  }
+}

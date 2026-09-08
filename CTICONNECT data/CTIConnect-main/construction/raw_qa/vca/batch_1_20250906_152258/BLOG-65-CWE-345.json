@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Recipients and some controls trust superficially legitimate artifacts (e.g., Safe Links-wrapped URLs copied by the actor, lookalike sender identities/templates) without robust verification of origin and link integrity.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) what the detection methods for the CWE are (e.g., do we need manual testing or red-team activity to confirm, or is automated analysis sufficient)?",
+  "answer": "1) CWE-345: Insufficient Verification of Data Authenticity\n2) Mapping Explanation: The vulnerability described involves trusting artifacts that appear legitimate without robust verification of their origin and integrity. This directly corresponds to CWE-345, which addresses issues arising from inadequate validation of data authenticity.\n3) Detection Methods: \n   - Automated Static Analysis (Static Application Security Testing - SAST) is recommended, which involves building a data and control flow model to detect vulnerable patterns without executing the code. This method is considered highly effective.",
+  "llm_timing": {
+    "api_call_seconds": 5.3001
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "An adversary overwhelms a web service at the application layer by sending large volumes of legitimate, session-based HTTP GET requests, consuming server resources and denying access to real users, while being difficult to detect because the traffic looks normal. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1499.002.\n- T1499.002 corresponds to service exhaustion flooding, mapping CAPEC-488: overwhelming servers via legitimate HTTP GET sessions to deny access.",
+  "llm_cost": {
+    "input": 0.000764,
+    "cached_input": 0.0,
+    "output": 0.0012,
+    "total": 0.001964,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 611,
+      "cached_input": 0,
+      "output": 120
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7361
+  }
+}

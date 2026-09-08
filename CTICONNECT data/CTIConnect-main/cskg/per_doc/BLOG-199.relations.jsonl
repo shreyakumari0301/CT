@@ -1,0 +1,36 @@
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "first_detected", "tgt_type": "malware", "tgt_name": "Trigona ransomware", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Turkey", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Philippines", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Brazil", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Germany", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Thailand", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government entities", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "technology sector", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "retail sector", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "FMCG sector", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "banking sector", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "finance firms", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "United States", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "United Kingdom", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "AU", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-40539", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "turnoff.bat", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "deoff.bat", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Splashtop", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "LogMeIn", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ScreenConnect", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "TeamViewer", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "MHYPROTINST", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "deploys", "tgt_type": "indicator", "tgt_name": "nt.exe", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "escalates_privileges_on", "tgt_type": "identity", "tgt_name": "MSSQL", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "runs_on", "tgt_type": "identity", "tgt_name": "Windows", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "runs_on", "tgt_type": "identity", "tgt_name": "Linux", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "mitigated_by", "tgt_type": "identity", "tgt_name": "Trend Micro Vision One", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "mitigated_by", "tgt_type": "identity", "tgt_name": "Deep Discovery Email Inspector", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "mitigated_by", "tgt_type": "identity", "tgt_name": "Cloud One Workload Security", "source_chunks": ["BLOG-199::ch0"]}
+{"src_type": "malware", "src_name": "Trigona ransomware", "predicate": "mitigated_by", "tgt_type": "identity", "tgt_name": "Apex One", "source_chunks": ["BLOG-199::ch0"]}

@@ -1,0 +1,24 @@
+{"entity_type": "identity", "canonical_name": "Google Threat Analysis Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "identity", "canonical_name": "The Citizen Lab", "aliases": [], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "identity", "canonical_name": "Intellexa", "aliases": [], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "identity", "canonical_name": "Egypt", "aliases": [], "properties": {"region": "Egypt"}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Man-in-the-middle injection on HTTP traffic", "aliases": ["man-in-the-middle injection", "MITM"], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "indicator", "canonical_name": "c.betly.me", "aliases": ["c.betly[.]me"], "properties": {"ioc_type": "domain", "value": "c.betly.me"}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "indicator", "canonical_name": "sec-flare.com", "aliases": ["sec-flare[.]com"], "properties": {"ioc_type": "domain", "value": "sec-flare.com"}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "malware", "canonical_name": "Predator spyware", "aliases": ["Predator"], "properties": {"family": "Predator"}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "tool", "canonical_name": "Safari", "aliases": [], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-41993", "aliases": [], "properties": {"cve_id": "CVE-2023-41993"}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Safari RCE", "aliases": [], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-41991", "aliases": [], "properties": {"cve_id": "CVE-2023-41991"}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Certificate validation bypass", "aliases": [], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-41992", "aliases": [], "properties": {"cve_id": "CVE-2023-41992"}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "XNU kernel local privilege escalation", "aliases": ["local privilege escalation"], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "tool", "canonical_name": "iOS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "tool", "canonical_name": "iOS 16.7", "aliases": [], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "tool", "canonical_name": "iOS 17.0.1", "aliases": [], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "tool", "canonical_name": "Android", "aliases": [], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-4762", "aliases": [], "properties": {"cve_id": "CVE-2023-4762"}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Chrome renderer RCE", "aliases": ["renderer RCE"], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chrome’s HTTPS-First Mode", "aliases": ["HTTPS-First Mode"], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}
+{"entity_type": "campaign", "canonical_name": "in-the-wild exploit chain", "aliases": ["this chain", "exploit chain", "this campaign"], "properties": {}, "source_chunks": ["BLOG-42::ch0"]}

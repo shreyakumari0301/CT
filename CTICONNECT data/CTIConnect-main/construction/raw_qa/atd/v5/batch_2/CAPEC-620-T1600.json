@@ -1,0 +1,23 @@
+{
+  "question": "An attacker deliberately forces a system or connection to use a lower encryption level so they can successfully attack the protected data. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1600.\n- T1600 corresponds to weakening cryptography, mapping CAPEC-620: forcing encryption to a lower level to enable attacks.",
+  "llm_cost": {
+    "input": 0.000697,
+    "cached_input": 0.0,
+    "output": 0.00088,
+    "total": 0.001577,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 558,
+      "cached_input": 0,
+      "output": 88
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6425
+  }
+}

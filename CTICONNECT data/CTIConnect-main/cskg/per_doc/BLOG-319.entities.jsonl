@@ -1,0 +1,24 @@
+{"entity_type": "identity", "canonical_name": "ESET Research", "aliases": [], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Operation AkaiRyū", "aliases": [], "properties": {"first_seen": "Q2 2024", "last_seen": "Q3 2024", "objective": "cyberespionage"}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spearphishing-driven"], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT10", "aliases": ["MenuPass", "Stone Panda", "Bronze Riverside", "Cicada", "Red Apollo", "ChessMaster"], "properties": {"country": "China"}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "MirrorFace", "aliases": [], "properties": {"country": "China"}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "identity", "canonical_name": "Central European diplomatic institute", "aliases": [], "properties": {"region": "Central Europe", "sector": "diplomatic"}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Expo 2025", "aliases": [], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "tool", "canonical_name": "OneDrive", "aliases": [], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "LNK-based execution", "aliases": ["LNK-based PowerShell loaders"], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "VBA macros", "aliases": ["VBA-macro"], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "malware", "canonical_name": "ANEL", "aliases": ["ANEL backdoor"], "properties": {"family": "ANEL", "first_seen": "Q2 2024"}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "tool", "canonical_name": "McAfee", "aliases": [], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "tool", "canonical_name": "JustSystems", "aliases": [], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "malware", "canonical_name": "AsyncRAT", "aliases": [], "properties": {"family": "AsyncRAT"}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "tool", "canonical_name": "Windows Sandbox", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "tool", "canonical_name": "Visual Studio Code", "aliases": ["Visual Studio Code remote tunnels"], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "malware", "canonical_name": "HiddenFace", "aliases": ["HiddenFace backdoor"], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "File exfiltration", "aliases": ["persistent file exfiltration"], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "indicator", "canonical_name": "wlrmdr.exe", "aliases": ["WMI/wlrmdr.exe"], "properties": {"ioc_type": "hash", "value": "wlrmdr.exe"}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "indicator", "canonical_name": "tmp.docx", "aliases": [], "properties": {"ioc_type": "hash", "value": "tmp.docx"}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "indicator", "canonical_name": "normal_.dotm", "aliases": [], "properties": {"ioc_type": "hash", "value": "normal_.dotm"}, "source_chunks": ["BLOG-319::ch0"]}
+{"entity_type": "identity", "canonical_name": "JSAC January 2025", "aliases": ["JSAC"], "properties": {}, "source_chunks": ["BLOG-319::ch0"]}

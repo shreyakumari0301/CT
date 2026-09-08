@@ -1,0 +1,13 @@
+{"src_type": "identity", "src_name": "Symantec", "predicate": "identified", "tgt_type": "threat_actor", "tgt_name": "Budworm APT", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "threat_actor", "src_name": "Budworm APT", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "SysUpdate", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "threat_actor", "src_name": "Budworm APT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "DLL sideloading", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "threat_actor", "src_name": "Budworm APT", "predicate": "sideloads_via", "tgt_type": "tool", "tgt_name": "INISafeWebSSO", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "threat_actor", "src_name": "Budworm APT", "predicate": "compromises", "tgt_type": "identity", "tgt_name": "Middle Eastern telecom", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "threat_actor", "src_name": "Budworm APT", "predicate": "compromises", "tgt_type": "identity", "tgt_name": "Asian government", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "threat_actor", "src_name": "Budworm APT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential harvesting", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "threat_actor", "src_name": "Budworm APT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AdFind", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "threat_actor", "src_name": "Budworm APT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Curl", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "threat_actor", "src_name": "Budworm APT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SecretsDump", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "threat_actor", "src_name": "Budworm APT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PasswordDumper", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "malware", "src_name": "SysUpdate", "predicate": "has_indicator", "tgt_type": "indicator", "tgt_name": "inicore_v2.3.30.dll", "source_chunks": ["BLOG-131::ch0"]}
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "spotted", "tgt_type": "malware", "tgt_name": "SysUpdate", "source_chunks": ["BLOG-131::ch0"]}

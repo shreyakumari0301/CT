@@ -1,0 +1,15 @@
+{"entity_type": "campaign", "canonical_name": "TAOTH campaign", "aliases": ["TAOTH"], "properties": {"first_seen": "mid-2025"}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "indicator", "canonical_name": "sogouzhuyin.com", "aliases": ["sogouzhuyin[.]com"], "properties": {"ioc_type": "domain", "value": "sogouzhuyin.com"}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "malware", "canonical_name": "TOSHIS", "aliases": [], "properties": {"capabilities": ["loader", "patches PE entry points", "API resolution via Adler-32", "language-ID checks"]}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "malware", "canonical_name": "DESFY", "aliases": [], "properties": {"capabilities": ["harvests filenames for profiling"]}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "malware", "canonical_name": "GTELAM", "aliases": [], "properties": {"capabilities": ["AES-encrypts document names", "exfiltration"]}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "malware", "canonical_name": "C6DOOR", "aliases": [], "properties": {"capabilities": ["backdoor", "system reconnaissance", "file transfer", "SSH", "port scanning", "screenshot capture", "shellcode injection"]}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Drive", "aliases": [], "properties": {}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spear-phishing"], "properties": {}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwan", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "identity", "canonical_name": "China", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hong Kong", "aliases": [], "properties": {"region": "Hong Kong"}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "identity", "canonical_name": "Japan", "aliases": [], "properties": {"region": "Japan"}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "identity", "canonical_name": "South Korea", "aliases": [], "properties": {"region": "South Korea"}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "identity", "canonical_name": "overseas Taiwanese communities", "aliases": [], "properties": {"region": "overseas Taiwanese communities"}, "source_chunks": ["BLOG-318::ch0"]}
+{"entity_type": "tool", "canonical_name": "Trend Vision One", "aliases": ["Trend Vision One™"], "properties": {}, "source_chunks": ["BLOG-318::ch0"]}

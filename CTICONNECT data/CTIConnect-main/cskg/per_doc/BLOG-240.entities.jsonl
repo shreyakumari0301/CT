@@ -1,0 +1,16 @@
+{"entity_type": "threat_actor", "canonical_name": "Charming Kitten", "aliases": ["APT42", "TA453", "Mint Sandstorm", "APT35", "Phosphorus", "Newscaster"], "properties": {"regions_targeted": ["Europe", "Middle East"], "first_seen": "November 2024"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing Attachment", "aliases": ["spear-phishing lures with malicious RTF attachments"], "properties": {"technique_id": "T1566.001", "tactic": "Initial Access"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "malware", "canonical_name": "ChainDoor RAT", "aliases": ["ChainDoor"], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Application Layer Protocol: Web Protocols", "aliases": ["HTTPS-based C2 channels"], "properties": {"technique_id": "T1071.001", "tactic": "Command and Control"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SQL Injection", "aliases": ["zero-day SQL injection"], "properties": {"technique_id": "T1190", "tactic": "Initial Access"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploit Public-Facing Application", "aliases": ["against public-facing web portals"], "properties": {"technique_id": "T1190", "tactic": "Initial Access"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {"capabilities": ["credential dumping"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Dumping", "aliases": ["credential harvesting"], "properties": {"technique_id": "T1003", "tactic": "Credential Access"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral Movement", "aliases": [], "properties": {"tactic": "Lateral Movement"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over C2 Channel", "aliases": ["exfiltrating over 3.5 TB of sensitive PII and policy documents"], "properties": {"technique_id": "T1041", "tactic": "Exfiltration"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Steganography", "aliases": ["hiding stolen data via steganography in JPEGs"], "properties": {"technique_id": "T1027.003", "tactic": "Defense Evasion"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "malware", "canonical_name": "coin-miner payloads", "aliases": ["coin-miner"], "properties": {}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "identity", "canonical_name": "government ministries", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "identity", "canonical_name": "critical infrastructure", "aliases": [], "properties": {"sector": "critical infrastructure"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-240::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East", "aliases": [], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-240::ch0"]}

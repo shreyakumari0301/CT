@@ -1,0 +1,7 @@
+{"entity_type": "threat_actor", "canonical_name": "BlackCat ransomware operators", "aliases": ["BlackCat"], "properties": {}, "source_chunks": ["BLOG-71::ch0"]}
+{"entity_type": "malware", "canonical_name": "BlackCat", "aliases": ["ALPHV", "ALPHV/BlackCat", "Noberus"], "properties": {"family": "ransomware", "platforms": ["Rust"]}, "source_chunks": ["BLOG-71::ch0"]}
+{"entity_type": "tool", "canonical_name": "Munchkin", "aliases": [], "properties": {"capabilities": ["propagation", "lateral movement", "credential harvesting", "encrypt network shares"], "platforms": ["VM", "Alpine Linux (ISO)", "VirtualBox"]}, "source_chunks": ["BLOG-71::ch0"]}
+{"entity_type": "tool", "canonical_name": "VirtualBox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-71::ch0"]}
+{"entity_type": "tool", "canonical_name": "tmux", "aliases": [], "properties": {}, "source_chunks": ["BLOG-71::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral movement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-71::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential harvesting", "aliases": [], "properties": {}, "source_chunks": ["BLOG-71::ch0"]}

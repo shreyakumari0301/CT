@@ -1,0 +1,53 @@
+{
+  "description": "Filtered structured CTI knowledge-base snapshots used as the retrieval corpus for Entity Linking and Entity Attribution tasks.",
+  "snapshot_date": "2025-09-01",
+  "note": "Each file is a JSONL export of the named knowledge base, filtered to entries referenced by the benchmark. Provenance: official MITRE/NVD sources.",
+  "sources": {
+    "cve.jsonl": {
+      "source": "NVD / MITRE CVE List",
+      "url": "https://nvd.nist.gov/"
+    },
+    "cwe.jsonl": {
+      "source": "MITRE CWE",
+      "url": "https://cwe.mitre.org/"
+    },
+    "capec.jsonl": {
+      "source": "MITRE CAPEC",
+      "url": "https://capec.mitre.org/"
+    },
+    "mitre.jsonl": {
+      "source": "MITRE ATT&CK",
+      "url": "https://attack.mitre.org/"
+    }
+  },
+  "files": {
+    "capec.jsonl": {
+      "lines": 615,
+      "bytes": 2027533,
+      "sha256": "55e0ef116393ba2c3006e1518f49e1eff3c814d8a61c6ca2621e686f891424ba",
+      "source": "MITRE CAPEC",
+      "url": "https://capec.mitre.org/"
+    },
+    "cve.jsonl": {
+      "lines": 3011,
+      "bytes": 7842132,
+      "sha256": "bbff0d6f1dc6d44a1fd37f60a76e5d0358bce2613a3e296b5c6a03290e7e8f29",
+      "source": "NVD / MITRE CVE List",
+      "url": "https://nvd.nist.gov/"
+    },
+    "cwe.jsonl": {
+      "lines": 1342,
+      "bytes": 1982803,
+      "sha256": "3b9f9770c362162372a1f624bbce28fa1847b86351fd1af03c8a7b4008d5b00b",
+      "source": "MITRE CWE",
+      "url": "https://cwe.mitre.org/"
+    },
+    "mitre.jsonl": {
+      "lines": 1076,
+      "bytes": 968562,
+      "sha256": "0a8baf003dbcbecd79b0e7ad1ba344cf16558f4169acb9b84b783d9bf2512b6c",
+      "source": "MITRE ATT&CK",
+      "url": "https://attack.mitre.org/"
+    }
+  }
+}

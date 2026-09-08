@@ -1,0 +1,346 @@
+{
+  "cluster_id": 15,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 39,
+      "node": [
+        {
+          "node_text": "0f6b9d2ada67…",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "37c52481711631a5c73a6341bd8bea302ad57f02199db7624b580058547fb5a9",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "45.133.216[.]15:3000/ws",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "COLDRIVER",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Enhanced Safe Browsing",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "IOCs",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "NATO governments",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "NGOs",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "November 2022",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Proton-decrypter.exe",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "SPICA",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "TAG",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Ukraine",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "YARA rule",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "academic institutions",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "backdoor",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "browser cookie theft",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "credential phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "document exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "file upload/download",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "filesystem enumeration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "obfuscated PowerShell scheduled task",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "shell execution",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "systems",
+          "node_type": "System"
+        }
+      ],
+      "title": " coldriver",
+      "platform": " Google_TAG",
+      "type": "threat actor",
+      "publish_date": "2025/3/28"
+    },
+    {
+      "blog_id": 65,
+      "node": [
+        {
+          "node_text": "AiTM spear-phishing campaigns",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Bitly",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Cuttly",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "DNS obfuscation",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Evilginx",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "FBI",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "GMO Internet",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Hostinger",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "HubSpot",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "MailerLite",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Microsoft 365 Safe Links",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Microsoft Threat Intelligence",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Microsoft’s Digital Crimes Unit",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "NSA",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "NameCheap",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "ProtonMail",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "RealTime Register",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Star Blizzard",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "UK NCSC",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "altered OneDrive file-share notifications",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "detection evasion",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "mechengsys[.]net",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "multi-stage redirection chains",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "password-protected PDFs",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "randomized DGAs",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "server-side fingerprinting scripts",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "vidmemax[.]com",
+          "node_type": "Indicator"
+        }
+      ],
+      "title": " star-blizzard",
+      "platform": " Microsoft",
+      "type": "threat actor",
+      "publish_date": "2025/1/28"
+    },
+    {
+      "blog_id": 105,
+      "node": [
+        {
+          "node_text": "2017",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "BlueCharlie",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Callisto Group",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Coldriver",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "December 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Evilginx",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "HubSpot",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Let’s Encrypt TLS certificates",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "MI6",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "MailerLite",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Microsoft",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "NATO-aligned NGOs",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Namecheap",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Recorded Future",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Seaborgium",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Star Blizzard",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "U.S. grants-management portals",
+          "node_type": "System"
+        },
+        {
+          "node_text": "U.S. nuclear labs",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Ukraine supporters",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "academic institutions",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "credential harvesting",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "credential-theft campaigns",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "domain generation algorithm",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "hack-and-leak influence tactics",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "influence campaigns",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "server-side JavaScript",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "think tanks",
+          "node_type": "Organization"
+        }
+      ],
+      "title": " star-blizzard",
+      "platform": " darkreading",
+      "type": "threat actor",
+      "publish_date": "2022/8/28"
+    }
+  ]
+}

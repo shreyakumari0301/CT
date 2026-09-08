@@ -1,0 +1,26 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Agonizing Serpens", "aliases": ["Agrius"], "properties": {"country": "Iran", "first_seen": "2020", "sectors_targeted": ["higher education", "technology"], "regions_targeted": ["Israel"]}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israeli higher education organizations", "aliases": [], "properties": {"sector": "higher education", "region": "Israel"}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israeli tech organizations", "aliases": [], "properties": {"sector": "technology", "region": "Israel"}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "malware", "canonical_name": "ASPXSpy", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "malware", "canonical_name": "Uploader.aspx", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "Nbtscan", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "indicator", "canonical_name": "systems.txt", "aliases": [], "properties": {"ioc_type": "hash", "value": "systems.txt"}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinEggDrop", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "NimScan", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "Plink", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "Sqlextractor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "7za", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "7zG", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinSCP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "pscp", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "malware", "canonical_name": "MultiLayer", "aliases": [], "properties": {"family": "wiper", "capabilities": ["timestomping", "shadow copy deletion", "boot-sector overwrite", "self-deletion"], "platforms": [".NET"]}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "malware", "canonical_name": "PartialWasher", "aliases": [], "properties": {"family": "wiper"}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "malware", "canonical_name": "BFG Agonizer", "aliases": [], "properties": {"family": "wiper"}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "malware", "canonical_name": "Apostle", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "malware", "canonical_name": "IPsec Helper", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "malware", "canonical_name": "Fantasy", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}
+{"entity_type": "tool", "canonical_name": "XSIAM", "aliases": [], "properties": {}, "source_chunks": ["BLOG-69::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary tool or malware family consistently used by this threat actor across these reports?",
+  "answer": "- Primary Malware Family: Custom destructive wipers\n- Notable Variants: CI Wiper, CL Wiper, BiBi Wiper (including LowEraser and ElRawDisk-based partition wipers)",
+  "llm_timing": {
+    "api_call_seconds": 14.2406
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "cluster_id": 21,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 284,
+      "node": [
+        {
+          "node_text": "2003",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "2004",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "2007",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "2015",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "2016",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "2017",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "2022",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "2023 MITRE ATT&CK evaluation",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Advanced URL Filtering",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Capibar/GAMEDAY MOF-based backdoor",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ComRAT/Agent.btz",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cortex XDR",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Crutch backdoor",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DLL hijacking",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DNS Security",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Dropbox",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Exchange servers",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Kazuar",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Kopiluwak JavaScript downloader",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "P2P C2",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Palo Alto Networks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "QUIETCANARY/Tunnus",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "RC4-encrypted C2",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Russian FSB",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Snake backdoor",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Turla",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Ukraine’s defense sector",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "VM driver privilege escalation",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WildFire",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "data exfiltration",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "espionage campaigns",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "kernel-level stealth",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "multilayered droppers",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "persistence",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "reconnaissance",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "remote plugin loading",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "scheduled tasks",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Scattered Spider",
+      "platform": "crowdstrike",
+      "type": "threat actor",
+      "publish_date": "2025/7/2"
+    },
+    {
+      "blog_id": 309,
+      "node": [
+        {
+          "node_text": "CVE-2025-29824",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ChatGPT desktop app",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Microsoft",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Middle East",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PipeMagic",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "RansomEXX",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "South America",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Storm-2460",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "US",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Windows",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "early 2025",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "memory forensics",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "named pipes",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "pipeline-level monitoring",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "zero-day",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Scattered Spider",
+      "platform": "securityweek",
+      "type": "threat actor",
+      "publish_date": "2025/7/30"
+    },
+    {
+      "blog_id": 285,
+      "node": [
+        {
+          "node_text": "ADExplorer",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "ADRecon.ps1",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "AWS S3",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Active Directory reconnaissance",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Chisel",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "CrowdStrike Falcon Next-Gen SIEM",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "CrowdStrike Services",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "DNS logs",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "ESXi logs",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "ESXi ransomware",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "Get-ADUser",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Microsoft Entra ID",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "MobaXterm",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Pinggy",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Q2 2025",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Rsocx",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "S3 Browser",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "SCATTERED SPIDER",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "SSO",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "SaaS platforms",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Teleport",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "U.S. airlines",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "VDI",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "VMware vCenter",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "VMware vCenter logs",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "cloud security",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "correlation rules",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "firewall logs",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "help-desk voice phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "insurance campaigns",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "ngrok",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "retail campaigns",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "unmanaged virtual machines",
+          "node_type": "System"
+        },
+        {
+          "node_text": "web proxy logs",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "Scattered Spider",
+      "platform": "csoonline",
+      "type": "threat actor",
+      "publish_date": "2025/7/11"
+    }
+  ]
+}

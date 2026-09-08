@@ -1,0 +1,11 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "analyzed", "tgt_type": "campaign", "tgt_name": "Operation Cronos", "source_chunks": ["BLOG-202::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Cronos", "predicate": "targeted", "tgt_type": "malware", "tgt_name": "LockBit", "source_chunks": ["BLOG-202::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Cronos", "predicate": "targeted", "tgt_type": "malware", "tgt_name": "BlackCat", "source_chunks": ["BLOG-202::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "linked_to", "tgt_type": "threat_actor", "tgt_name": "Play", "source_chunks": ["BLOG-202::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "linked_to", "tgt_type": "threat_actor", "tgt_name": "Medusa", "source_chunks": ["BLOG-202::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "linked_to", "tgt_type": "threat_actor", "tgt_name": "BianLian", "source_chunks": ["BLOG-202::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "repurposes_source_code_from", "tgt_type": "malware", "tgt_name": "Knight", "source_chunks": ["BLOG-202::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "delivers", "tgt_type": "tool", "tgt_name": "EDRKillShifter", "source_chunks": ["BLOG-202::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "communicates_over", "tgt_type": "tool", "tgt_name": "Tor", "source_chunks": ["BLOG-202::ch0"]}
+{"src_type": "tool", "src_name": "EDRKillShifter", "predicate": "disables", "tgt_type": "identity", "tgt_name": "ESET", "source_chunks": ["BLOG-202::ch0"]}
+{"src_type": "tool", "src_name": "EDRKillShifter", "predicate": "delivered_via", "tgt_type": "malware", "tgt_name": "RansomHub", "source_chunks": ["BLOG-202::ch0"]}

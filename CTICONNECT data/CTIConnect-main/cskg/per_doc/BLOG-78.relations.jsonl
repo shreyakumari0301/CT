@@ -1,0 +1,14 @@
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "clones_repositories_on", "tgt_type": "identity", "tgt_name": "GitHub", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "extracts", "tgt_type": "indicator", "tgt_name": "AWS IAM keys", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "AWS reconnaissance (DescribeRegions)", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Create security groups", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Launch EC2 instances across regions via VPN", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "cryptojacks_for", "tgt_type": "identity", "tgt_name": "Monero", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "employs", "tgt_type": "malware", "tgt_name": "custom mining software", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "miners", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "identity", "src_name": "Unit42", "predicate": "tracks", "tgt_type": "malware", "tgt_name": "miners", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "identity", "src_name": "Unit42", "predicate": "leverages", "tgt_type": "identity", "tgt_name": "Prisma Cloud HoneyCloud project", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "identity", "src_name": "Unit42", "predicate": "obtained_full_visibility_informing", "tgt_type": "identity", "tgt_name": "Prisma Cloud Secrets Security", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "identity", "src_name": "Unit42", "predicate": "obtained_full_visibility_informing", "tgt_type": "identity", "tgt_name": "Cortex XDR", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Launch EC2 instances across regions via VPN", "predicate": "uses", "tgt_type": "tool", "tgt_name": "VPN", "source_chunks": ["BLOG-78::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Launch EC2 instances across regions via VPN", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Amazon EC2", "source_chunks": ["BLOG-78::ch0"]}

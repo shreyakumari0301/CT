@@ -1,0 +1,9 @@
+{"entity_type": "identity", "canonical_name": "Google Threat Analysis Group", "aliases": ["Google’s Threat Analysis Group", "TAG"], "properties": {}, "source_chunks": ["BLOG-38::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT37", "aliases": ["ScarCruft", "Reaper", "Group123", "Ricochet Chollima"], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-38::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-41128", "aliases": [], "properties": {"cve_id": "CVE-2022-41128"}, "source_chunks": ["BLOG-38::ch0"]}
+{"entity_type": "identity", "canonical_name": "Internet Explorer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-38::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Office", "aliases": [], "properties": {}, "source_chunks": ["BLOG-38::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows", "aliases": ["Windows hosts"], "properties": {}, "source_chunks": ["BLOG-38::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-38::ch0"]}
+{"entity_type": "indicator", "canonical_name": "word-template.net", "aliases": ["word-template[.]net"], "properties": {"ioc_type": "domain", "value": "word-template.net"}, "source_chunks": ["BLOG-38::ch0"]}
+{"entity_type": "indicator", "canonical_name": "openxmlformat.org", "aliases": ["openxmlformat[.]org"], "properties": {"ioc_type": "domain", "value": "openxmlformat.org"}, "source_chunks": ["BLOG-38::ch0"]}

@@ -1,0 +1,23 @@
+{
+  "question": "An application retrieves or exposes a protected asset first, then performs the permission check afterward, meaning unauthorized users may access the asset before enforcement happens. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-180.\n- CAPEC-180 exploits misapplied access controls, targeting CWE-1280: access control check occurs after the asset is accessed.",
+  "llm_cost": {
+    "input": 0.000772,
+    "cached_input": 0.0,
+    "output": 0.00094,
+    "total": 0.001713,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 618,
+      "cached_input": 0,
+      "output": 94
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5898
+  }
+}

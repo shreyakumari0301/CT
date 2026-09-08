@@ -1,0 +1,11 @@
+{"entity_type": "malware", "canonical_name": "Ryuk", "aliases": [], "properties": {"first_seen": "August 2018", "capabilities": ["encrypt data for ransom"]}, "source_chunks": ["BLOG-197::ch0"]}
+{"entity_type": "malware", "canonical_name": "TrickBot", "aliases": ["TrickLoader"], "properties": {}, "source_chunks": ["BLOG-197::ch0"]}
+{"entity_type": "malware", "canonical_name": "Emotet", "aliases": ["Geodo", "Heodo", "Mealybug"], "properties": {}, "source_chunks": ["BLOG-197::ch0"]}
+{"entity_type": "malware", "canonical_name": "BazarLoader", "aliases": ["BazarBackdoor", "Bazaar"], "properties": {"capabilities": ["dropper"]}, "source_chunks": ["BLOG-197::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["phishing emails with malicious attachments or links"], "properties": {}, "source_chunks": ["BLOG-197::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral Movement", "aliases": ["move laterally"], "properties": {}, "source_chunks": ["BLOG-197::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "EternalBlue", "aliases": [], "properties": {}, "source_chunks": ["BLOG-197::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "Zerologon", "aliases": [], "properties": {}, "source_chunks": ["BLOG-197::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-197::ch0"]}
+{"entity_type": "identity", "canonical_name": "US government contractor", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-197::ch0"]}
+{"entity_type": "identity", "canonical_name": "three New York hospitals", "aliases": ["New York hospitals"], "properties": {"sector": "healthcare", "region": "New York"}, "source_chunks": ["BLOG-197::ch0"]}

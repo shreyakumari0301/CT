@@ -1,0 +1,10 @@
+{"entity_type": "threat_actor", "canonical_name": "Flax Typhoon", "aliases": ["Ethereal Panda"], "properties": {"country": "China", "primary_motivation": "espionage", "regions_targeted": ["Taiwan"], "first_seen": "mid-2021"}, "source_chunks": ["BLOG-58::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwanese organizations", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-58::ch0"]}
+{"entity_type": "malware", "canonical_name": "China Chopper", "aliases": ["China Chopper web shell"], "properties": {}, "source_chunks": ["BLOG-58::ch0"]}
+{"entity_type": "tool", "canonical_name": "Juicy Potato", "aliases": [], "properties": {"capabilities": ["privilege escalation"]}, "source_chunks": ["BLOG-58::ch0"]}
+{"entity_type": "tool", "canonical_name": "BadPotato", "aliases": [], "properties": {"capabilities": ["privilege escalation"]}, "source_chunks": ["BLOG-58::ch0"]}
+{"entity_type": "tool", "canonical_name": "SoftEther VPN", "aliases": ["SoftEther VPN bridge"], "properties": {"capabilities": ["tunneling", "command-and-control"]}, "source_chunks": ["BLOG-58::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinRM", "aliases": [], "properties": {"capabilities": ["remote execution", "lateral movement"]}, "source_chunks": ["BLOG-58::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMIC", "aliases": [], "properties": {"capabilities": ["system discovery", "remote execution", "lateral movement"]}, "source_chunks": ["BLOG-58::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {"capabilities": ["credential dumping"]}, "source_chunks": ["BLOG-58::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Pass-the-Hash", "aliases": ["pass-the-hash attacks"], "properties": {}, "source_chunks": ["BLOG-58::ch0"]}

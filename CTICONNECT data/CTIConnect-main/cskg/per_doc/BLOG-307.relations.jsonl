@@ -1,0 +1,16 @@
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-29824", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "joint_analysis_with", "tgt_type": "identity", "tgt_name": "BI.ZONE", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-29824", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "evolution_of", "tgt_type": "campaign", "tgt_name": "RansomExx campaign", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "uses_loader_disguised_as", "tgt_type": "tool", "tgt_name": "ChatGPT", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "127.0.0.1", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "downloads_plugins_from", "tgt_type": "indicator", "tgt_name": "aaaaabbbbbbb.eastus.cloudapp.azure.com", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Brazil", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "campaign", "src_name": "RansomExx campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Southeast Asian industrial firms", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "campaign", "src_name": "RansomExx campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2017-0144", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft Help Index File", "predicate": "executed_through", "tgt_type": "tool", "tgt_name": "MSBuild", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft Help Index File", "predicate": "uses", "tgt_type": "tool", "tgt_name": "EnumDeviceMonitor", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft Help Index File", "predicate": "uses_rc4_key", "tgt_type": "indicator", "tgt_name": "4829468622e6b82ff056e3c945dd99c94a1f0264d980774828aadda326b775e5", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "indicator", "src_name": "GoogleUpdate.dll", "predicate": "uses_aes_cbc_key", "tgt_type": "indicator", "tgt_name": "9C3BA5B2D3222FE5863C14D51340D7F9", "source_chunks": ["BLOG-307::ch0"]}
+{"src_type": "indicator", "src_name": "GoogleUpdate.dll", "predicate": "uses_aes_cbc_iv", "tgt_type": "indicator", "tgt_name": "221BA50915042098AF5F8EE40E5559C8", "source_chunks": ["BLOG-307::ch0"]}

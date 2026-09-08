@@ -1,0 +1,10 @@
+{"entity_type": "malware", "canonical_name": "Kazuar", "aliases": [], "properties": {"platforms": [".NET"], "first_seen": "2017", "capabilities": ["backdoor", "C2 command execution", "stealth", "anti-analysis", "system profiling", "data collection", "credential theft", "process injection", "encryption"]}, "source_chunks": ["BLOG-80::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Turla", "aliases": ["Pensive Ursa", "Snake", "Venomous Bear", "Waterbug", "Krypton", "Secret Blizzard"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-80::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine’s defense sector", "aliases": [], "properties": {"sector": "defense", "region": "Ukraine"}, "source_chunks": ["BLOG-80::ch0"]}
+{"entity_type": "malware", "canonical_name": "Capibar", "aliases": [], "properties": {"capabilities": ["loader"]}, "source_chunks": ["BLOG-80::ch0"]}
+{"entity_type": "identity", "canonical_name": "FSB", "aliases": ["Russian FSB"], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-80::ch0"]}
+{"entity_type": "tool", "canonical_name": "Palo Alto Networks NGFW Advanced Threat Prevention", "aliases": [], "properties": {}, "source_chunks": ["BLOG-80::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR/XSIAM", "aliases": ["Cortex XDR", "XSIAM"], "properties": {}, "source_chunks": ["BLOG-80::ch0"]}
+{"entity_type": "tool", "canonical_name": "WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-80::ch0"]}
+{"entity_type": "identity", "canonical_name": "Unit 42 Incident Response", "aliases": ["Unit 42"], "properties": {}, "source_chunks": ["BLOG-80::ch0"]}
+{"entity_type": "identity", "canonical_name": "Signal", "aliases": [], "properties": {}, "source_chunks": ["BLOG-80::ch0"]}

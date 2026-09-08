@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Successful exploitation enables threat actors to execute arbitrary malicious code on devices running vulnerable iOS, macOS, and tvOS versions after opening a malicious web page.\" and \"processing maliciously crafted web content may lead to arbitrary code execution.\" Please provide: 1) which MITRE ATT&CK category maps to this behavior, 2) an explanation of how this behavior maps to the technique, and 3) what are the data sources (telemetry/logs) specified in the MITRE ATT&CK entry?",
+  "answer": "1) MITRE ATT&CK Category: Exploitation for Client Execution (T1658). 2) Explanation: The behavior described in the blog\u2014where opening or processing malicious web content triggers arbitrary code execution on vulnerable devices\u2014is a clear instance of exploiting a software vulnerability in client-located components, which aligns with the defined technique T1658. 3) Data Sources: The MITRE entry does not specify any particular data sources (x_mitre_data_sources is null).",
+  "llm_timing": {
+    "api_call_seconds": 4.3853
+  }
+}

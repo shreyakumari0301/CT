@@ -1,0 +1,27 @@
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "executed", "tgt_type": "campaign", "tgt_name": "targeted espionage campaign", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Backdoor.Graphican", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "rolled_out", "tgt_type": "malware", "tgt_name": "Ketrican", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "EWSTEW", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Pypykatz", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Safetykatz", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "LaZagne", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Quarks PwDump", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SharpSecDump", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "K8Tools", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "EHole", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AntSword", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Behinder", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "China Chopper", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Godzilla", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT15", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-1472", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "campaign", "src_name": "targeted espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "foreign ministries in the Americas", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "campaign", "src_name": "targeted espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "finance department", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "campaign", "src_name": "targeted espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "regional products firm", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "campaign", "src_name": "targeted espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "European victim", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "malware", "src_name": "Backdoor.Graphican", "predicate": "abuses_for_c2", "tgt_type": "tool", "tgt_name": "Microsoft Graph API", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "malware", "src_name": "Backdoor.Graphican", "predicate": "abuses_for_c2", "tgt_type": "tool", "tgt_name": "OneDrive", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "malware", "src_name": "Backdoor.Graphican", "predicate": "derived_from", "tgt_type": "malware", "tgt_name": "Ketrican", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "malware", "src_name": "Backdoor.Graphican", "predicate": "disables_first_run_wizard_of", "tgt_type": "tool", "tgt_name": "Internet Explorer 10", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "malware", "src_name": "Backdoor.Graphican", "predicate": "runs", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-138::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2020-1472", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Privilege Escalation", "source_chunks": ["BLOG-138::ch0"]}

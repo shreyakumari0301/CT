@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Domain\u2011wide delegation bridges GCP and Google Workspace so that Workspace user data becomes accessible to GCP identities outside the intended administrative sphere, enabling lateral movement and data access across the boundary.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation on how the vulnerability maps to the CWE category, and 3) what are the detection methods for this CWE (e.g., do we need manual testing or red-team activity to confirm)?",
+  "answer": "1) CWE-668: Exposure of Resource to Wrong Sphere\n2) Mapping Explanation: The vulnerability occurs due to domain\u2011wide delegation bridging two systems. This results in the unintended exposure of sensitive user data to identities outside the intended administrative sphere, which aligns with CWE-668 as it involves the exposure of resources to the wrong trust domain.\n3) Detection Methods: The CWE reference does not provide specific detection methods; as such, manual testing or red-team activities might be considered to assess this vulnerability, but no explicit guidance is provided.",
+  "llm_timing": {
+    "api_call_seconds": 4.9068
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "An adversary encodes potentially harmful input or content using alternate encoding standards so an application fails to validate or detect it. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1027.\n- T1027 corresponds to obfuscating information via alternate encoding, mapping CAPEC-267: using encoding to bypass ineffective input/content validation.",
+  "llm_cost": {
+    "input": 0.000713,
+    "cached_input": 0.0,
+    "output": 0.00092,
+    "total": 0.001633,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 570,
+      "cached_input": 0,
+      "output": 92
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.2944
+  }
+}

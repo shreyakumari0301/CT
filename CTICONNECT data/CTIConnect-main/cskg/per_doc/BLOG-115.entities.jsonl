@@ -1,0 +1,20 @@
+{"entity_type": "identity", "canonical_name": "Check Point", "aliases": [], "properties": {}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Magnet Goblin", "aliases": [], "properties": {"first_seen": "2022", "primary_motivation": "financial"}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-24086", "aliases": [], "properties": {"cve_id": "CVE-2022-24086"}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "identity", "canonical_name": "Magento", "aliases": [], "properties": {}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ivanti VPNs", "aliases": ["Ivanti"], "properties": {}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-46805", "aliases": [], "properties": {"cve_id": "CVE-2023-46805"}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-21887", "aliases": [], "properties": {"cve_id": "CVE-2024-21887"}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-21888", "aliases": [], "properties": {"cve_id": "CVE-2024-21888"}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-21893", "aliases": [], "properties": {"cve_id": "CVE-2024-21893"}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "identity", "canonical_name": "Qlik Sense", "aliases": [], "properties": {}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-41265", "aliases": [], "properties": {"cve_id": "CVE-2023-41265"}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-41266", "aliases": [], "properties": {"cve_id": "CVE-2023-41266"}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-48365", "aliases": [], "properties": {"cve_id": "CVE-2023-48365"}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apache ActiveMQ", "aliases": [], "properties": {}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "malware", "canonical_name": "NerbianRAT", "aliases": [], "properties": {"platforms": ["Linux"], "capabilities": ["backdoor", "command execution", "system reconnaissance"]}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "malware", "canonical_name": "MiniNerbian", "aliases": [], "properties": {"platforms": ["Linux"], "capabilities": ["backdoor", "command execution", "system reconnaissance"]}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "malware", "canonical_name": "Warpwire", "aliases": ["Warpwire JavaScript credential stealer"], "properties": {"capabilities": ["credential theft"]}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "tool", "canonical_name": "Ligolo", "aliases": [], "properties": {"capabilities": ["tunneling"]}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "tool", "canonical_name": "ScreenConnect", "aliases": [], "properties": {}, "source_chunks": ["BLOG-115::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-115::ch0"]}

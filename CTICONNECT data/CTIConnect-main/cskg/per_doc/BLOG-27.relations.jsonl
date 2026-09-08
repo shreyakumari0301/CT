@@ -1,0 +1,12 @@
+{"src_type": "identity", "src_name": "GitHub", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-0200", "source_chunks": ["BLOG-27::ch0"]}
+{"src_type": "identity", "src_name": "GitHub", "predicate": "released_fixes_for", "tgt_type": "identity", "tgt_name": "GitHub Enterprise Server", "source_chunks": ["BLOG-27::ch0"]}
+{"src_type": "identity", "src_name": "GitHub", "predicate": "recommends_pulling_keys_via", "tgt_type": "identity", "tgt_name": "API", "source_chunks": ["BLOG-27::ch0"]}
+{"src_type": "identity", "src_name": "GitHub", "predicate": "requires_new_public_keys_for", "tgt_type": "identity", "tgt_name": "Actions", "source_chunks": ["BLOG-27::ch0"]}
+{"src_type": "identity", "src_name": "GitHub", "predicate": "requires_new_public_keys_for", "tgt_type": "identity", "tgt_name": "Codespaces", "source_chunks": ["BLOG-27::ch0"]}
+{"src_type": "identity", "src_name": "GitHub", "predicate": "requires_new_public_keys_for", "tgt_type": "identity", "tgt_name": "Dependabot", "source_chunks": ["BLOG-27::ch0"]}
+{"src_type": "identity", "src_name": "GitHub’s Bug Bounty Program", "predicate": "flagged", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-0200", "source_chunks": ["BLOG-27::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-0200", "predicate": "affects", "tgt_type": "identity", "tgt_name": "GitHub.com", "source_chunks": ["BLOG-27::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-0200", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Remote Code Execution", "source_chunks": ["BLOG-27::ch0"]}
+{"src_type": "identity", "src_name": "GitHub Enterprise Server", "predicate": "remediates", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-0507", "source_chunks": ["BLOG-27::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-0507", "predicate": "exploitable_by", "tgt_type": "identity", "tgt_name": "Management Console", "source_chunks": ["BLOG-27::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-0507", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Privilege Escalation", "source_chunks": ["BLOG-27::ch0"]}

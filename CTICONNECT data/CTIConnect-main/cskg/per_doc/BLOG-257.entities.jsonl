@@ -1,0 +1,15 @@
+{"entity_type": "identity", "canonical_name": "NCC Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "SnapMC", "aliases": [], "properties": {"primary_motivation": "extortion"}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-18935", "aliases": [], "properties": {"cve_id": "CVE-2019-18935"}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "identity", "canonical_name": "Telerik UI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploit Public-Facing Application", "aliases": ["T1190"], "properties": {"technique_id": "T1190"}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Archive via Utility", "aliases": ["T1560.001"], "properties": {"technique_id": "T1560.001"}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration to Cloud Storage", "aliases": ["T1567.002"], "properties": {"technique_id": "T1567.002"}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["reconnaissance", "command execution"]}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "tool", "canonical_name": "Invoke-Nightmare", "aliases": [], "properties": {"capabilities": ["privilege escalation"]}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "tool", "canonical_name": "JuicyPotato", "aliases": [], "properties": {"capabilities": ["privilege escalation"]}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "tool", "canonical_name": "7zip", "aliases": [], "properties": {"capabilities": ["data compression", "archiving"]}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "tool", "canonical_name": "Invoke-SQLcmd", "aliases": [], "properties": {"capabilities": ["database query execution", "data collection"]}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "tool", "canonical_name": "MinIO client", "aliases": ["mc.exe"], "properties": {"capabilities": ["data exfiltration to cloud storage"]}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "indicator", "canonical_name": "config.json", "aliases": [], "properties": {"ioc_type": "hash", "value": "config.json"}, "source_chunks": ["BLOG-257::ch0"]}
+{"entity_type": "indicator", "canonical_name": "C:\\Windows\\Temp", "aliases": [], "properties": {"ioc_type": "hash", "value": "C:\\Windows\\Temp"}, "source_chunks": ["BLOG-257::ch0"]}

@@ -1,0 +1,290 @@
+{
+  "cluster_id": 43,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 277,
+      "node": [
+        {
+          "node_text": "CVE-2019-18935",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2019-7418",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2021-1609",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Cisco VPN routers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "NCC Group",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "SQL injection flaws",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "SnapMC Group",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "SonicWall",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Telerik UI for ASPX.NET",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "accelerated data-extortion attacks",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "cloud access security broker controls",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "extortion",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "incident response plan",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "mc.exe exfiltration tool",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "smash-and-grab model",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "unpatched VPNs",
+          "node_type": "System"
+        },
+        {
+          "node_text": "webserver apps",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "zero-trust network access policies",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "SnapMC",
+      "platform": "threatPost",
+      "type": "threat actor",
+      "publish_date": "2021/10/13"
+    },
+    {
+      "blog_id": 229,
+      "node": [
+        {
+          "node_text": "30 minutes",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "7zip",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Acunetix",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Conti",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Mespinoza",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "MinIO client",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "NCC Group",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Netwalker",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "PrintNightmare LPE",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "SQL injection",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "SnapMC",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Sodinokibi",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Telerik UI for ASPX.NET",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Telerik UI for ASPX.NET RCE",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "VPN applications",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Web application firewalls",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "backup-based recovery",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "data theft",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "file encryption",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "public data sale",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "web-server applications",
+          "node_type": "Application"
+        }
+      ],
+      "title": "SnapMC",
+      "platform": "BleepingComputer",
+      "type": "threat actor",
+      "publish_date": "2021/10/12"
+    },
+    {
+      "blog_id": 257,
+      "node": [
+        {
+          "node_text": "24-hour contact window",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "72-hour negotiation period",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "7zip",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "C:\\Windows\\Temp",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "CVE-2019-18935",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Invoke-Nightmare",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Invoke-SQLcmd",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "JuicyPotato",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "MinIO client",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "NCC Group’s RIFT team",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "SQL injection",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "SnapMC",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "T1190",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "T1560.001",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "T1567.002",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "config.json",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "data breach attacks",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "data-only extortion",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "detection and incident response processes",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "extortion emails",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "media",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "public-facing vulnerabilities",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "ransomware",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "reverse shell",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": "SnapMC",
+      "platform": "nccgroup",
+      "type": "threat actor",
+      "publish_date": "2021/10/11"
+    }
+  ]
+}

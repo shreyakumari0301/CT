@@ -1,0 +1,12 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-90::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "BladedFeline", "aliases": [], "properties": {"country": "Iran", "first_seen": "September 2017", "last_seen": "2023–2024", "primary_motivation": "espionage", "regions_targeted": ["Kurdistan", "Iraq"], "sectors_targeted": ["government"]}, "source_chunks": ["BLOG-90::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT34", "aliases": ["OilRig", "Helix Kitten", "Cobalt Gypsy", "Earth Vetala", "Hazel Sandstorm"], "properties": {}, "source_chunks": ["BLOG-90::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kurdish government networks", "aliases": [], "properties": {"sector": "government", "region": "Kurdistan"}, "source_chunks": ["BLOG-90::ch0"]}
+{"entity_type": "identity", "canonical_name": "Iraqi government networks", "aliases": [], "properties": {"sector": "government", "region": "Iraq"}, "source_chunks": ["BLOG-90::ch0"]}
+{"entity_type": "malware", "canonical_name": "Shahmaran", "aliases": ["Shahmaran backdoor"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-90::ch0"]}
+{"entity_type": "malware", "canonical_name": "Whisper", "aliases": ["Whisper backdoor"], "properties": {}, "source_chunks": ["BLOG-90::ch0"]}
+{"entity_type": "malware", "canonical_name": "PrimeCache", "aliases": ["PrimeCache IIS module"], "properties": {}, "source_chunks": ["BLOG-90::ch0"]}
+{"entity_type": "malware", "canonical_name": "VideoSRV", "aliases": ["VideoSRV reverse shell"], "properties": {}, "source_chunks": ["BLOG-90::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": ["PowerShell executors"], "properties": {}, "source_chunks": ["BLOG-90::ch0"]}
+{"entity_type": "malware", "canonical_name": "RDAT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-90::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Reverse Shell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-90::ch0"]}

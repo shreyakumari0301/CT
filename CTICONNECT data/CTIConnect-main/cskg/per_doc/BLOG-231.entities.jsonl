@@ -1,0 +1,18 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Andariel", "aliases": ["Jumpy Pisces", "Onyx Sleet", "Silent Chollima", "PLUTONIUM"], "properties": {"country": "North Korea", "first_seen": "May 2024", "last_seen": "early September 2024"}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "identity", "canonical_name": "North Korean", "aliases": [], "properties": {"region": "North Korea"}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "malware", "canonical_name": "Sliver", "aliases": ["Sliver C2", "Sliver C2 beacon"], "properties": {}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "indicator", "canonical_name": "172.96.137.224", "aliases": [], "properties": {"ioc_type": "ip", "value": "172.96.137.224"}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "indicator", "canonical_name": "americajobmail.site", "aliases": [], "properties": {"ioc_type": "domain", "value": "americajobmail.site"}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "malware", "canonical_name": "DTrack", "aliases": ["DTrack infostealer"], "properties": {"family": "DTrack"}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "tool", "canonical_name": "Impacket", "aliases": ["secretsdump.py", "Impacket’s secretsdump.py"], "properties": {}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "indicator", "canonical_name": "KB0722.log", "aliases": [], "properties": {"ioc_type": "hash", "value": "KB0722.log"}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "tool", "canonical_name": "TokenPlayer", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "malware", "canonical_name": "Play ransomware", "aliases": [], "properties": {"family": "Play"}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Fiddling Scorpius", "aliases": [], "properties": {}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced URL Filtering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-231::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced DNS Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-231::ch0"]}

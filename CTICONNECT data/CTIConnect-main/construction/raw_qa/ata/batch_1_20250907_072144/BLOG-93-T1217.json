@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The Contagious Interview attack chains are designed to drop JavaScript-based malware 'BeaverTail,' which delivers a Python backdoor known as InvisibleFerret, and harvests sensitive data from Web browsers and crypto wallets.\" Please identify: 1) Which MITRE ATT&CK category maps to this behavior? 2) Explain how the attack activity maps to the chosen MITRE ATT&CK technique. 3) Which operating systems are affected (as specified in the x_mitre_platforms detail)?",
+  "answer": "1) MITRE ATT&CK category: Browser Information Discovery (T1217). 2) Mapping Explanation: The activity of harvesting sensitive data from web browsers directly aligns with the Browser Information Discovery technique, which involves gathering information from a browser environment. 3) Affected platforms: Linux, Windows, macOS.",
+  "llm_timing": {
+    "api_call_seconds": 5.1941
+  }
+}

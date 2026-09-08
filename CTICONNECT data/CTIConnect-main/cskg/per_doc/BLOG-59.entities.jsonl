@@ -1,0 +1,9 @@
+{"entity_type": "identity", "canonical_name": "Indian Android users", "aliases": [], "properties": {"region": "India"}, "source_chunks": ["BLOG-59::ch0"]}
+{"entity_type": "tool", "canonical_name": "WhatsApp", "aliases": [], "properties": {}, "source_chunks": ["BLOG-59::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram", "aliases": [], "properties": {}, "source_chunks": ["BLOG-59::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Social engineering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-59::ch0"]}
+{"entity_type": "malware", "canonical_name": "Android trojans", "aliases": ["trojans"], "properties": {"platforms": ["Android"]}, "source_chunks": ["BLOG-59::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Rewards plus campaigns", "aliases": ["Rewards plus"], "properties": {}, "source_chunks": ["BLOG-59::ch0"]}
+{"entity_type": "indicator", "canonical_name": "biogenetic-flake.000webhostapp.com/add.php", "aliases": ["biogenetic-flake[.]000webhostapp.com/add.php"], "properties": {"ioc_type": "url", "value": "biogenetic-flake.000webhostapp.com/add.php"}, "source_chunks": ["BLOG-59::ch0"]}
+{"entity_type": "indicator", "canonical_name": "biogenetic-flake.000webhostapp.com/save_sms.php", "aliases": ["save_sms.php"], "properties": {"ioc_type": "url", "value": "biogenetic-flake.000webhostapp.com/save_sms.php"}, "source_chunks": ["BLOG-59::ch0"]}
+{"entity_type": "indicator", "canonical_name": "6812a82edcb49131a990acd88ed5f6d73da9f536b60ee751184f27265ea769ee", "aliases": [], "properties": {"ioc_type": "hash", "value": "6812a82edcb49131a990acd88ed5f6d73da9f536b60ee751184f27265ea769ee"}, "source_chunks": ["BLOG-59::ch0"]}

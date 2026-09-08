@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Overly permissive remote administration paths (e.g., WMI/PSExec) and service permissions facilitated lateral movement once credentials were obtained.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation for how this vulnerability maps to that CWE, and 3) what are the modes of introduction for this CWE, particularly at what stage developers typically introduce this issue.",
+  "answer": "1) CWE-284: Improper Access Control\n2) Mapping Explanation: The vulnerability, which involves overly permissive remote administration paths and service permissions, allows unauthorized lateral movement after credential compromise. This reflects a failure in enforcing proper access control, which directly maps to CWE-284.\n3) Modes of Introduction:\n   1. Architecture and Design\n   2. Implementation (Realization: This weakness is caused during the implementation of an architectural security tactic)\n   3. Operation",
+  "llm_timing": {
+    "api_call_seconds": 5.9854
+  }
+}

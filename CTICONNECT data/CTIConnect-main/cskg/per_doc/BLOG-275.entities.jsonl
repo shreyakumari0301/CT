@@ -1,0 +1,3 @@
+{"entity_type": "campaign", "canonical_name": "Operation Triangulation", "aliases": [], "properties": {}, "source_chunks": ["BLOG-275::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kubernetes", "aliases": [], "properties": {}, "source_chunks": ["BLOG-275::ch0"]}
+{"entity_type": "identity", "canonical_name": "iOS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-275::ch0"]}

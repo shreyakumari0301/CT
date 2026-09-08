@@ -1,0 +1,334 @@
+{
+  "cluster_id": 7,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 17,
+      "node": [
+        {
+          "node_text": "Active Directory reconnaissance",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "AdFind",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "August 2021",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "BazarLoader",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Cobalt Strike Beacon",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "ConnectWise",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "DDoS",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Fivehands",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "KeeThief",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "SoftPerfect Network Scanner",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Thieflock",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "U.S. financial firms",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Yanluowang ransomware-as-a-service operation",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "attackers",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "data deletion",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "file encryption",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "registry-based RDP",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "secretdump.exe",
+          "node_type": "Application"
+        }
+      ],
+      "title": " BadPilot",
+      "platform": "BleepingComputer",
+      "type": "campaign",
+      "publish_date": "2025/7/28"
+    },
+    {
+      "blog_id": 89,
+      "node": [
+        {
+          "node_text": "2018 Olympic disruptions",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "BadPilot",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "CVE-2021-34473",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2022-41352",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-23397",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-48788",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2024-1709",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Denmark",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "GRU",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "LocalOlive",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "NotPetya",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Sandworm",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Seashell Blizzard",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "ShadowLink",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Tor hidden services",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Ukraine",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "attack on Denmark’s energy sector",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "credential harvesting",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "data exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "late 2021",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "power-grid outages",
+          "node_type": "Campaign"
+        }
+      ],
+      "title": " BadPilot",
+      "platform": "darkreading",
+      "type": "campaign",
+      "publish_date": "2025/2/12"
+    },
+    {
+      "blog_id": 51,
+      "node": [
+        {
+          "node_text": "2021",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "2021-2023",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "2023",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Australia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "BadPilot",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2021-34473",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2022-41352",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-23397",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-32315",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-42793",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-48788",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2024-1709",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Canada",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Central/South Asia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cobalt Strike",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ConnectWise ScreenConnect",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DarkCrystalRAT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Exchange",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FortiClient EMS",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Microsoft's research",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Middle East",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "OpenFire",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Outlook",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Russian GRU",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Seashell Blizzard",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "TeamCity",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Ukraine",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "United Kingdom",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "United States",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Zimbra",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "credential harvesting",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "destructive cyberattacks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "stealthy persistence",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " BadPilot",
+      "platform": "Microsoft",
+      "type": "campaign",
+      "publish_date": "2022/4/28"
+    }
+  ]
+}

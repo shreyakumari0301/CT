@@ -1,0 +1,29 @@
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "observed_rise_in_attacks_by", "tgt_type": "threat_actor", "tgt_name": "Evil Corp", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "malware", "src_name": "WastedLocker", "predicate": "encrypts_files_with_extension", "tgt_type": "indicator", "tgt_name": ".<victim_name>wasted", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "malware", "src_name": "WastedLocker", "predicate": "appends_ransom_note", "tgt_type": "indicator", "tgt_name": ".<victim_name>wasted_info", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "conducts_attacks_using", "tgt_type": "malware", "tgt_name": "WastedLocker", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "known_for", "tgt_type": "malware", "tgt_name": "Dridex", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "targets", "tgt_type": "identity", "tgt_name": "large U.S. organizations", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "targets", "tgt_type": "identity", "tgt_name": "legal services", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "initial_compromise_via", "tgt_type": "attack_pattern", "tgt_name": "Masquerading as legitimate updates", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Privilege escalation", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "disables", "tgt_type": "tool", "tgt_name": "Windows Defender", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Delete shadow copies", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Masquerading as legitimate updates", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "SocGholish", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "tool", "src_name": "SocGholish", "predicate": "invokes", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "executes", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "tool", "src_name": "WMI", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Lateral movement", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "tool", "src_name": "PsExec", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Lateral movement", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "indicator", "src_name": ".<victim_name>wasted_info", "predicate": "includes_contact_address_on", "tgt_type": "identity", "tgt_name": "ProtonMail", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "indicator", "src_name": ".<victim_name>wasted_info", "predicate": "includes_contact_address_on", "tgt_type": "identity", "tgt_name": "Airmail", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "provides", "tgt_type": "tool", "tgt_name": "WildFire", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "provides", "tgt_type": "tool", "tgt_name": "Cortex XDR", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "provides", "tgt_type": "tool", "tgt_name": "NGFW DNS signatures", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "provides", "tgt_type": "tool", "tgt_name": "AutoFocus", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "tool", "src_name": "WildFire", "predicate": "detects_and_prevents", "tgt_type": "malware", "tgt_name": "WastedLocker", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "tool", "src_name": "Cortex XDR", "predicate": "detects_and_prevents", "tgt_type": "malware", "tgt_name": "WastedLocker", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "tool", "src_name": "NGFW DNS signatures", "predicate": "detects_and_prevents", "tgt_type": "malware", "tgt_name": "WastedLocker", "source_chunks": ["BLOG-234::ch0"]}
+{"src_type": "tool", "src_name": "AutoFocus", "predicate": "tags", "tgt_type": "malware", "tgt_name": "WastedLocker", "source_chunks": ["BLOG-234::ch0"]}

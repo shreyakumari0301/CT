@@ -1,0 +1,23 @@
+{
+  "question": "A system fails to properly prevent modification of hardware or firmware lock bits, allowing an attacker to change protection settings and bypass intended restrictions. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-680.\n- CAPEC-680 exploits register access control failures, targeting CWE-1231: improper prevention of lock bit modification enabling protection changes.",
+  "llm_cost": {
+    "input": 0.0007,
+    "cached_input": 0.0,
+    "output": 0.00091,
+    "total": 0.00161,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 560,
+      "cached_input": 0,
+      "output": 91
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5488
+  }
+}

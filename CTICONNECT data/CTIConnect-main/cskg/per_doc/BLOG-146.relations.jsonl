@@ -1,0 +1,9 @@
+{"src_type": "campaign", "src_name": "Insta-Phish-A-Gram", "predicate": "harvests", "tgt_type": "identity", "tgt_name": "Instagram", "source_chunks": ["BLOG-146::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2020-14883", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Oracle WebLogic", "source_chunks": ["BLOG-146::ch0"]}
+{"src_type": "threat_actor", "src_name": "8220 Gang", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-14883", "source_chunks": ["BLOG-146::ch0"]}
+{"src_type": "threat_actor", "src_name": "8220 Gang", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Oracle WebLogic", "source_chunks": ["BLOG-146::ch0"]}
+{"src_type": "malware", "src_name": "Agent Tesla", "predicate": "injected_into", "tgt_type": "tool", "tgt_name": "RegAsm.exe", "source_chunks": ["BLOG-146::ch0"]}
+{"src_type": "malware", "src_name": "Agent Tesla", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2017-11882", "source_chunks": ["BLOG-146::ch0"]}
+{"src_type": "malware", "src_name": "DarkGate", "predicate": "targets", "tgt_type": "identity", "tgt_name": "technology sector", "source_chunks": ["BLOG-146::ch0"]}
+{"src_type": "malware", "src_name": "RedLine", "predicate": "targets", "tgt_type": "identity", "tgt_name": "hospitality sector", "source_chunks": ["BLOG-146::ch0"]}
+{"src_type": "malware", "src_name": "Vidar", "predicate": "targets", "tgt_type": "identity", "tgt_name": "hospitality sector", "source_chunks": ["BLOG-146::ch0"]}

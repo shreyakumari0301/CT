@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Compromised credentials from spear-phishing were sufficient to access mailboxes and services (lack of MFA was a key enabler)\". Could you please provide 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability relates to that CWE, and 3) the suggested potential mitigations (including any exact fix such as a code or configuration change) from the CWE framework?",
+  "answer": "1) CWE-308: Use of Single-factor Authentication (as indicated by the provided CWE entry with id '448' and cwe_id '308').\n2) Mapping Explanation: The vulnerability arises because the system relied solely on a single-factor (password) authentication, which is directly related to CWE-308. The lack of MFA allowed compromised credentials to be sufficient for unauthorized access, aligning with the CWE's description of the risks of using only one factor for authentication.\n3) Potential Mitigations:\n   1. Use multiple independent authentication schemes (i.e., implement Multi-Factor Authentication) so that if one method is compromised, the system remains secure.\n   2. Consider architectural and design changes that enforce the use of additional factors beyond passwords, such as time-based tokens or biometric authentication.",
+  "llm_timing": {
+    "api_call_seconds": 6.1077
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary tool or framework consistently used by this threat actor across these reports?",
+  "answer": "- Primary tool/framework: Evilginx (open-source adversary-in-the-middle phishing framework)\n- Supporting tool: AzureHound (for Microsoft Entra ID tenant enumeration)\n- Initial credential source: stolen credentials from commodity infostealer markets used in password-spraying attacks",
+  "llm_timing": {
+    "api_call_seconds": 9.2125
+  }
+}

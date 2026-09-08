@@ -1,0 +1,11 @@
+{"src_type": "malware", "src_name": "Ngioweb", "predicate": "targets", "tgt_type": "identity", "tgt_name": "IoT devices", "source_chunks": ["BLOG-314::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Scanning the Internet for IoT devices with open Telnet/SSH ports", "source_chunks": ["BLOG-314::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Use of default or weak credentials", "source_chunks": ["BLOG-314::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exploitation of firmware vulnerabilities", "source_chunks": ["BLOG-314::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb", "predicate": "establishes", "tgt_type": "attack_pattern", "tgt_name": "Encrypted SOCKS5 tunneling to proxy infrastructure", "source_chunks": ["BLOG-314::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb", "predicate": "connects_to", "tgt_type": "attack_pattern", "tgt_name": "Fast-flux C2 domains over HTTPS", "source_chunks": ["BLOG-314::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb", "predicate": "registers_nodes_for", "tgt_type": "campaign", "tgt_name": "NSOCKS", "source_chunks": ["BLOG-314::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb", "predicate": "establishes_tunnels_to", "tgt_type": "campaign", "tgt_name": "NSOCKS", "source_chunks": ["BLOG-314::ch0"]}
+{"src_type": "campaign", "src_name": "NSOCKS", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Credential stuffing", "source_chunks": ["BLOG-314::ch0"]}
+{"src_type": "campaign", "src_name": "NSOCKS", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Ad fraud", "source_chunks": ["BLOG-314::ch0"]}
+{"src_type": "campaign", "src_name": "NSOCKS", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "DDoS-for-hire operations", "source_chunks": ["BLOG-314::ch0"]}

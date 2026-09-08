@@ -1,0 +1,7 @@
+{
+  "question": "Based on the cross-report analysis of these security reports, what is the single most notable new capability introduced in the later variants compared to earlier ones?",
+  "answer": "- In-memory, modular plugin injection (e.g., loading a FileManager plugin for file enumeration/manipulation and 7zip-based extraction) introduced in the later GodRAT variants beyond earlier AwesomePuppet-derived backdoor behavior.",
+  "llm_timing": {
+    "api_call_seconds": 13.2076
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Credential Stealing A crucial phase of the attack consisted of obtaining credentials of users with administrative privileges. To do so, the attackers tried multiple methods to obtain credentials, which were prevented by the Cortex XDR platform: - Mimikatz (filename: Mimi.exe) - SMB password spraying - SMB password brute force (shown in Figure 7) - Dumping the SAM file (shown in Figure 8)\". Please provide: 1) which MITRE ATT&CK technique this behavior maps to, 2) an explanation of the mapping, and 3) the telemetry or logs that can capture this activity based on the MITRE ATT&CK data sources.",
+  "answer": "1) T1110.003 - Password Spraying. 2) Mapping Explanation: The blog mentions the use of SMB password spraying among other methods for credential stealing; SMB password spraying is directly aligned with the MITRE ATT&CK technique T1110.003, which involves attempting common passwords across many accounts to gain access. 3) Data Sources: User Account: User Account Authentication, Application Log: Application Log Content.",
+  "llm_timing": {
+    "api_call_seconds": 6.2275
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "n_rows": 1000,
+  "n_pairs": 4336,
+  "gold_at_20": 0.542,
+  "weights": {
+    "dense_score": 0.4580487791254432,
+    "taxonomy_score": 1.0338987936093167,
+    "mech_overlap": 1.3140991086815914,
+    "jaccard": 1.4098126640320654
+  },
+  "bias": 6.195156630126104,
+  "out": "/mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/rcm_specialist_reranker.pkl",
+  "stamp": "2026-09-07T08:27:11.417889+00:00"
+}

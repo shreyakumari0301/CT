@@ -1,0 +1,28 @@
+{"entity_type": "threat_actor", "canonical_name": "Star Blizzard", "aliases": [], "properties": {"country": "Russia", "first_seen": "2022", "last_seen": "2024-11"}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Threat Intelligence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Digital Crimes Unit", "aliases": ["Microsoft’s Digital Crimes Unit"], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "UK NCSC", "aliases": [], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "NSA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "tool", "canonical_name": "Evilginx", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft 365 Safe Links", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "OneDrive", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "ProtonMail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "NameCheap", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hostinger", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "RealTime Register", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "GMO Internet", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "Bitly", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cuttly", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "HubSpot", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "MailerLite", "aliases": [], "properties": {}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "campaign", "canonical_name": "AiTM spear-phishing campaigns", "aliases": [], "properties": {"objective": "harvest email credentials, including MFA tokens", "first_seen": "2024-11"}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing via Service", "aliases": ["AiTM spear-phishing", "spear-phishing campaigns"], "properties": {"technique_id": "T1566.003", "tactic": "Initial Access"}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Adversary-in-the-Middle", "aliases": ["AiTM"], "properties": {"technique_id": "T1557", "tactic": "Credential Access"}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Domain Generation Algorithms", "aliases": ["DGAs", "randomized DGAs"], "properties": {"technique_id": "T1568.002", "tactic": "Command and Control"}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "indicator", "canonical_name": "mechengsys.net", "aliases": ["mechengsys[.]net"], "properties": {"ioc_type": "domain", "value": "mechengsys.net"}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "indicator", "canonical_name": "vidmemax.com", "aliases": ["vidmemax[.]com"], "properties": {"ioc_type": "domain", "value": "vidmemax.com"}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "politics", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "diplomacy", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "NGOs", "aliases": [], "properties": {"sector": "non-profit"}, "source_chunks": ["BLOG-65::ch0"]}
+{"entity_type": "identity", "canonical_name": "think tanks", "aliases": [], "properties": {"sector": "research"}, "source_chunks": ["BLOG-65::ch0"]}

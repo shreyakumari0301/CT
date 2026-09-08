@@ -1,0 +1,15 @@
+{"src_type": "campaign", "src_name": "Operation Texonto", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "ua-minagro.com", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Texonto", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "minuaregionbecareful.com", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Texonto", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "uamtu.com", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Texonto", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian speakers", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Texonto", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Russian dissidents", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "targets", "tgt_type": "identity", "tgt_name": "major Ukrainian defense company", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "targets", "tgt_type": "identity", "tgt_name": "an EU agency", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "it.[redacted]@gmail.com", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "login.microsoftidonline.com", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "choicelive149200.com", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "harvests_credentials_via", "tgt_type": "attack_pattern", "tgt_name": "Credential Phishing", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Credential Phishing", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "login.microsoftidonline.com", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Credential Phishing", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "choicelive149200.com", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Domain Masquerading", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "login.microsoftidonline.com", "source_chunks": ["BLOG-216::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Domain Masquerading", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "choicelive149200.com", "source_chunks": ["BLOG-216::ch0"]}

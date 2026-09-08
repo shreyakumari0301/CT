@@ -1,0 +1,23 @@
+{
+  "question": "An adversary exploits a web server\u2019s reliance on filenames or file extensions to decide how to handle requests, causing the server to misclassify a file type and trigger unexpected processing sequences. This can lead to resource exhaustion, disclosure of debug/system data, or binding the attacker to a remote process. Which MITRE ATT&CK technique corresponds to this attack pattern, and why does it map?",
+  "answer": "- T1036.006.\n- T1036.006 corresponds to filename-based masquerading, mapping CAPEC-11: forcing web servers to misclassify file types via filenames/extensions.",
+  "llm_cost": {
+    "input": 0.000776,
+    "cached_input": 0.0,
+    "output": 0.00133,
+    "total": 0.002106,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 621,
+      "cached_input": 0,
+      "output": 133
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.0696
+  }
+}

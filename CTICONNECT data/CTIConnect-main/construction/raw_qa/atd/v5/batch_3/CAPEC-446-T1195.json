@@ -1,0 +1,23 @@
+{
+  "question": "An adversary carries out a supply chain attack by adding an insecure third-party component into a product or codebase, potentially bundling a malicious driver/component before shipment to the customer. Which MITRE ATT&CK technique matches this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.\n- T1195 corresponds to compromising products via third-party components, mapping CAPEC-446: inserting malicious logic through included third-party components before shipment.",
+  "llm_cost": {
+    "input": 0.000756,
+    "cached_input": 0.0,
+    "output": 0.00108,
+    "total": 0.001836,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 605,
+      "cached_input": 0,
+      "output": 108
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6383
+  }
+}

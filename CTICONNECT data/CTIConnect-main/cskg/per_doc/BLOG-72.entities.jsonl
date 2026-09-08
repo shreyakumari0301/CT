@@ -1,0 +1,24 @@
+{"entity_type": "malware", "canonical_name": "Blitz", "aliases": [], "properties": {"platforms": ["Windows"], "capabilities": ["downloader", "persistence", "keylogging", "screenshot capture", "denial-of-service attacks"], "first_seen": "2024"}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "sw1zzx", "aliases": [], "properties": {"regions_targeted": ["Russia"], "last_seen": "May 2025"}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Nerest_CrackBy@sw1zzx_dev.zip", "aliases": [], "properties": {"ioc_type": "hash", "value": "Nerest_CrackBy@sw1zzx_dev.zip"}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Elysium_CrackBy@sw1zzx_dev.zip", "aliases": [], "properties": {"ioc_type": "hash", "value": "Elysium_CrackBy@sw1zzx_dev.zip"}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ieapfltr.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "ieapfltr.dll"}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "indicator", "canonical_name": "pastebin", "aliases": [], "properties": {"ioc_type": "domain", "value": "pastebin"}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "indicator", "canonical_name": "paste.rs", "aliases": [], "properties": {"ioc_type": "domain", "value": "paste.rs"}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Virtualization/Sandbox Evasion", "aliases": ["anti-sandbox and VM detection checks"], "properties": {"technique_id": "T1497", "tactic": "Defense Evasion"}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Boot or Logon Initialization Scripts: Logon Script (Windows)", "aliases": ["HKCU\\Environment\\UserInitMprLogonScript"], "properties": {"technique_id": "T1037.001", "tactic": "Persistence"}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Registry Run Keys / Startup Folder", "aliases": ["HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"], "properties": {"technique_id": "T1547.001", "tactic": "Persistence"}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "tool", "canonical_name": "FastAPI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hugging Face Space", "aliases": ["Hugging Face Spaces", "Hugging Face"], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram", "aliases": [], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "tool", "canonical_name": "XMRig", "aliases": ["XMRig Monero miner"], "properties": {"capabilities": ["cryptocurrency mining"]}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "identity", "canonical_name": "Monero", "aliases": [], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "tool", "canonical_name": "URL Filtering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "tool", "canonical_name": "DNS Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "tool", "canonical_name": "Threat Prevention", "aliases": [], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "tool", "canonical_name": "XSIAM", "aliases": [], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-72::ch0"]}

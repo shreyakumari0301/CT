@@ -1,0 +1,26 @@
+{"src_type": "identity", "src_name": "Symantec Threat Hunter Team", "predicate": "linked", "tgt_type": "malware", "tgt_name": "Sidewalk", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "malware", "src_name": "Sidewalk", "predicate": "evolution_of", "tgt_type": "malware", "tgt_name": "Crosswalk/Backdoor.Motnug", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "malware", "src_name": "Sidewalk", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "APT41", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Sidewalk", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Trojan.Chattak", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecom targets", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "targets", "tgt_type": "identity", "tgt_name": "IT targets", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "targets", "tgt_type": "identity", "tgt_name": "media targets", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "targets", "tgt_type": "identity", "tgt_name": "finance targets", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Taiwan", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Vietnam", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "targets", "tgt_type": "identity", "tgt_name": "United States", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Mexico", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "tool", "src_name": "installutil.exe", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Sidewalk", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "tool", "src_name": "Mimikatz", "predicate": "has_sha256", "tgt_type": "indicator", "tgt_name": "b3eb783b017da32e33d19670b39eae0b11de8e983891dd4feb873d6e9333608d", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "campaign", "src_name": "recent campaign", "predicate": "exploited", "tgt_type": "tool", "tgt_name": "Microsoft Exchange", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "campaign", "src_name": "recent campaign", "predicate": "exploited", "tgt_type": "tool", "tgt_name": "MySQL", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "campaign", "src_name": "recent campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "campaign", "src_name": "recent campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "certutil", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "campaign", "src_name": "recent campaign", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Sidewalk", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "campaign", "src_name": "recent campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "installutil.exe", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "campaign", "src_name": "recent campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMIC", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "campaign", "src_name": "recent campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-139::ch0"]}
+{"src_type": "identity", "src_name": "Chengdu 404", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "APT41", "source_chunks": ["BLOG-139::ch0"]}

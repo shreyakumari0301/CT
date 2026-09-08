@@ -1,0 +1,410 @@
+{
+  "cluster_id": 38,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 267,
+      "node": [
+        {
+          "node_text": ".BiBi",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "APT34",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Albania",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Albanian border systems",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Albanian e-government systems",
+          "node_type": "System"
+        },
+        {
+          "node_text": "BiBi Wiper",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Cl Wiper",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "ElRawDisk",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "FBI/CISA advisory",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "Homeland Justice",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "IDS/IPS monitoring",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Israel",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Israeli infrastructure",
+          "node_type": "System"
+        },
+        {
+          "node_text": "July 2022",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Karma",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Karma Shell",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "MOIS",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "OilRig",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Partition Wiper",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "RDP",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "SOCKS C2 channels",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "SSH",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Scarred Manticore",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "September 2022",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Storm-842",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Void Manticore",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "credential harvesting",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "environment mapping",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "files",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "influence operations",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "multi-factor authentication",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "network segmentation",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "offline backups",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "partitions",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "patch management",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "phishing-resistant email filtering",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "reGeorge",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "real-time threat intelligence integration",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "recovery drills",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "recovery mechanisms",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "role-based access",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "shadow copies",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "stolen data",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "vulnerability management",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "web filtering",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "Void Manticore",
+      "platform": "socradar",
+      "type": "threat actor",
+      "publish_date": "2024/12/27"
+    },
+    {
+      "blog_id": 242,
+      "node": [
+        {
+          "node_text": "C2 communications",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "CVE-2024-4113",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CyberMaterial’s report",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "ManticoreShell",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "March 2, 2025",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "PSExec",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Storm-0842",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "Storm-1811",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "TOR",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "Void Manticore",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "VoidLoader",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "WMI",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "aerospace organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "backdoor",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "credential harvesting",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "defense organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "domain generation algorithm",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "espionage campaign",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "government organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "late 2024",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "privilege escalation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "signed kernel-mode driver exploit",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "spear-phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "system outages",
+          "node_type": "System"
+        }
+      ],
+      "title": "Void Manticore",
+      "platform": "cybermaterial",
+      "type": "threat actor",
+      "publish_date": "2025/3/2"
+    },
+    {
+      "blog_id": 235,
+      "node": [
+        {
+          "node_text": "2022 Albania campaign",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "2023–2024 Israel attacks",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "BiBi Wiper",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "CI Wiper",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "CL Wiper",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "CVE-2019-0604",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Check Point Research",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Foxshell",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Homeland Justice",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Karma",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "LionHead",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Liontail",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "MOIS",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Scarred Manticore",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Void Manticore",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "coordinated espionage",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "destructive wiping",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "espionage and destructive wiping operations",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "over a year",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "partition-table LowEraser",
+          "node_type": "Malware"
+        }
+      ],
+      "title": "Void Manticore",
+      "platform": "checkpoint",
+      "type": "threat actor",
+      "publish_date": "2024/5/20"
+    }
+  ]
+}

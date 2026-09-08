@@ -1,0 +1,17 @@
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "derived_from", "tgt_type": "malware", "tgt_name": "INC ransomware", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. retail firms", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.K. retail firms", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. real estate firms", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.K. real estate firms", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. architecture firms", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.K. architecture firms", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. financial service firms", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.K. financial service firms", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. environmental service firms", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.K. environmental service firms", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "delivered_via", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "delivered_via", "tgt_type": "attack_pattern", "tgt_name": "Malicious downloads", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "Restart Manager API", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "publishes_exfiltrated_data_on", "tgt_type": "indicator", "tgt_name": "lynxblog.net", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "mitigated_by", "tgt_type": "tool", "tgt_name": "Palo Alto Networks Cortex XDR Anti-Ransomware", "source_chunks": ["BLOG-232::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "mitigated_by", "tgt_type": "tool", "tgt_name": "Advanced WildFire", "source_chunks": ["BLOG-232::ch0"]}

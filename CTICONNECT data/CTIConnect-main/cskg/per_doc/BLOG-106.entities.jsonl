@@ -1,0 +1,13 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-37580", "aliases": [], "properties": {"cve_id": "CVE-2023-37580"}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zimbra Collaboration Suite", "aliases": [], "properties": {}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Cross-site scripting (XSS)", "aliases": ["reflected XSS"], "properties": {}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing via malicious URL link", "aliases": ["malicious URLs", "phishing-style XSS link", "unique exploit links"], "properties": {}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Email auto-forwarding rule", "aliases": ["auto-forward rules"], "properties": {}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Winter Vivern", "aliases": ["Winter Vivern’s APT"], "properties": {}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "identity", "canonical_name": "government organizations worldwide", "aliases": [], "properties": {"sector": "government", "region": "worldwide"}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "identity", "canonical_name": "Greece", "aliases": [], "properties": {"region": "Greece"}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "identity", "canonical_name": "Moldova", "aliases": [], "properties": {"region": "Moldova"}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "identity", "canonical_name": "Tunisia", "aliases": [], "properties": {"region": "Tunisia"}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "identity", "canonical_name": "Vietnam", "aliases": [], "properties": {"region": "Vietnam"}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "identity", "canonical_name": "Pakistan", "aliases": [], "properties": {"region": "Pakistan"}, "source_chunks": ["BLOG-106::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Threat Analysis Group", "aliases": ["Google’s Threat Analysis Group"], "properties": {}, "source_chunks": ["BLOG-106::ch0"]}

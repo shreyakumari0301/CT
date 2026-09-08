@@ -1,0 +1,15 @@
+{"entity_type": "threat_actor", "canonical_name": "APT3", "aliases": ["Buckeye", "Gothic Panda", "TG-0110", "UPS"], "properties": {"primary_motivation": "espionage", "regions_targeted": ["Hong Kong", "Belgium", "Luxembourg", "the Philippines", "Vietnam"], "first_seen": "March 2016", "last_seen": "September 2018"}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "tool", "canonical_name": "Trojan.Bemstour", "aliases": ["Bemstour"], "properties": {}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2017-0143", "aliases": [], "properties": {"cve_id": "CVE-2017-0143"}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-0703", "aliases": [], "properties": {"cve_id": "CVE-2019-0703"}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Equation Group", "aliases": ["EQGRP"], "properties": {}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "malware", "canonical_name": "DoublePulsar", "aliases": ["Backdoor.DoublePulsar"], "properties": {"capabilities": ["backdoor", "persistence"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Shadow Brokers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hong Kong", "aliases": [], "properties": {"region": "Hong Kong"}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "identity", "canonical_name": "Belgium", "aliases": [], "properties": {"region": "Belgium"}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "identity", "canonical_name": "Luxembourg", "aliases": [], "properties": {"region": "Luxembourg"}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "identity", "canonical_name": "Philippines", "aliases": ["the Philippines"], "properties": {"region": "Philippines"}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "identity", "canonical_name": "Vietnam", "aliases": [], "properties": {"region": "Vietnam"}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "identity", "canonical_name": "Symantec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-130::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": ["U.S."], "properties": {"region": "United States"}, "source_chunks": ["BLOG-130::ch0"]}

@@ -1,0 +1,20 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": ["ESET researchers"], "properties": {}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "malware", "canonical_name": "WinorDLL64.dll", "aliases": [], "properties": {"capabilities": ["backdoor", "in-memory execution", "system profiling", "file exfiltration", "file overwrite", "file deletion", "process management", "RDP session management", "PowerShell execution", "directory compression", "connection latency measurement"]}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "malware", "canonical_name": "Wslink loader", "aliases": ["WinorLoaderDLL64.dll"], "properties": {}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "tool", "canonical_name": "MemoryModule", "aliases": [], "properties": {"capabilities": ["in-memory module loading"]}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "tool", "canonical_name": "Oreans Code Virtualizer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "identity", "canonical_name": "Central Europe", "aliases": [], "properties": {"region": "Central Europe"}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East", "aliases": [], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "identity", "canonical_name": "South Korea", "aliases": ["South Korean"], "properties": {"region": "South Korea"}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "identity", "canonical_name": "VirusTotal", "aliases": [], "properties": {}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "tool", "canonical_name": "YARA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Encrypted Channel: Symmetric Cryptography", "aliases": ["AES-256-CBC encrypted TCP channel"], "properties": {"technique_id": "T1573.001", "tactic": "Command and Control"}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "System Information Discovery", "aliases": ["comprehensive system profiling"], "properties": {"technique_id": "T1082", "tactic": "Discovery"}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over C2 Channel", "aliases": ["secure file exfiltration"], "properties": {"technique_id": "T1041", "tactic": "Exfiltration"}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Command and Scripting Interpreter: PowerShell", "aliases": ["unrestricted PowerShell execution"], "properties": {"technique_id": "T1059.001", "tactic": "Execution"}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Archive Collected Data", "aliases": ["directory compression for data theft"], "properties": {"technique_id": "T1560", "tactic": "Collection"}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lazarus Group", "aliases": ["Lazarus", "HIDDEN COBRA", "Hidden Cobra", "ZINC", "Diamond Sleet", "Labyrinth Chollima", "Guardians of Peace"], "properties": {"country": "North Korea", "regions_targeted": ["South Korea"]}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "malware", "canonical_name": "GhostSecret", "aliases": [], "properties": {}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "indicator", "canonical_name": "FE887FCAB66D7D7F79F05E0266C0649F0114BA7C", "aliases": [], "properties": {"ioc_type": "hash", "value": "FE887FCAB66D7D7F79F05E0266C0649F0114BA7C"}, "source_chunks": ["BLOG-217::ch0"]}
+{"entity_type": "malware", "canonical_name": "Bankshot", "aliases": [], "properties": {}, "source_chunks": ["BLOG-217::ch0"]}

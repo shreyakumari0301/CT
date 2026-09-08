@@ -1,0 +1,9 @@
+{"entity_type": "threat_actor", "canonical_name": "Scattered Spider", "aliases": ["Octo Tempest", "0ktapus", "UNC3944", "Scatter Swine", "Roasted 0ktapus", "Muddled Libra", "Storm-0875"], "properties": {"first_seen": "May 2022"}, "source_chunks": ["BLOG-285::ch0"]}
+{"entity_type": "tool", "canonical_name": "ngrok", "aliases": [], "properties": {}, "source_chunks": ["BLOG-285::ch0"]}
+{"entity_type": "tool", "canonical_name": "AWS Systems Manager Session Manager", "aliases": ["Session Manager"], "properties": {}, "source_chunks": ["BLOG-285::ch0"]}
+{"entity_type": "tool", "canonical_name": "EC2 Serial Console", "aliases": [], "properties": {}, "source_chunks": ["BLOG-285::ch0"]}
+{"entity_type": "tool", "canonical_name": "Teleport", "aliases": [], "properties": {}, "source_chunks": ["BLOG-285::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-285::ch0"]}
+{"entity_type": "identity", "canonical_name": "MGM Resorts", "aliases": [], "properties": {}, "source_chunks": ["BLOG-285::ch0"]}
+{"entity_type": "identity", "canonical_name": "Marks & Spencer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-285::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hawaiian Airlines", "aliases": [], "properties": {}, "source_chunks": ["BLOG-285::ch0"]}

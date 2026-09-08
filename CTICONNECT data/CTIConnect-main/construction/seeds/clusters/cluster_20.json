@@ -1,0 +1,254 @@
+{
+  "cluster_id": 20,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 318,
+      "node": [
+        {
+          "node_text": ".LNK shortcuts",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "12DE1212-167D-45BA-1284-780DA98CF901",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Confuser-Core",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DPRK",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Dansweit_Hk65-PSAccerdle",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Daum",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Dropbox",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "European embassies",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Google Drive",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Kimsuky",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "March and July 2025",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Seoul",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "XenoRAT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "onf.txt",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ongoing campaign",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "scheduled tasks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "spear-phishing attacks",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "TAOTH",
+      "platform": "trendmicro",
+      "type": "campaign",
+      "publish_date": "2025/8/28"
+    },
+    {
+      "blog_id": 288,
+      "node": [
+        {
+          "node_text": "Afghanistan’s Ministry of Foreign Affairs",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "C2 infrastructures",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "CrimsonRAT",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "DLL sideloading",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "GDI",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Hazel Sandstorm",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Indian military institutions",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "MiniPocket fetcher",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Secret Blizzard",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Statuezy",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Storm-0156",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Storm-0473",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "TinyTurla variant",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "TwoDash downloader",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Ukraine",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Wainscot",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Windows service",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "batch files",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "diplomatic and defense networks",
+          "node_type": "System"
+        },
+        {
+          "node_text": "exfiltration",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": "TAOTH",
+      "platform": "cyberpress",
+      "type": "campaign",
+      "publish_date": "2025/8/29"
+    },
+    {
+      "blog_id": 316,
+      "node": [
+        {
+          "node_text": "Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "HTTPS-encrypted C2 channels",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "July 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "PS1Bot campaign",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "PS1Bot payload",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "T1055",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "T1059.001",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "cybercrime group",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "exfiltrated metadata",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "financially motivated threat actor",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "first-stage PowerShell loader",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "malvertising",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "obfuscated JavaScript",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "retail and financial sector endpoints",
+          "node_type": "System"
+        },
+        {
+          "node_text": "system credentials",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "user credentials",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "TAOTH",
+      "platform": "thehackernews",
+      "type": "campaign",
+      "publish_date": "2025/8/29"
+    }
+  ]
+}

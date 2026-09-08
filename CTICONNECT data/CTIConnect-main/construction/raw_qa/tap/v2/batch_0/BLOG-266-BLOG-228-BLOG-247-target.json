@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors and geographic regions targeted by the Salt Typhoon threat actor across these reports?",
+  "answer": "- Primary Target Sectors:\n  \u2022 Telecommunications providers (including backbone, edge routers and ISPs)\n  \u2022 Government networks and agencies (federal and state units)\n  \u2022 Transportation infrastructure\n  \u2022 Lodging and hospitality networks\n  \u2022 Military networks (e.g., National Guard)\n\n- Primary Geographic Regions:\n  \u2022 United States (major focus on carriers, National Guard and cable/broadband ISPs)\n  \u2022 Canada\n  \u2022 United Kingdom\n  \u2022 Australia\n  \u2022 New Zealand\n  \u2022 Broad global impact, affecting hundreds of organizations in over 80 countries",
+  "llm_timing": {
+    "api_call_seconds": 7.3763
+  }
+}

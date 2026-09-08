@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Remote management surfaces (SMB admin shares, RPC/WMI) and services were exposed across flat/internal segments, facilitating lateral movement and remote command execution.\" Please identify the CWE category that maps to this vulnerability, explain how this vulnerability maps to the CWE, and comment on how often attackers might actually exploit this vulnerability in real attacks.",
+  "answer": "1) CWE-668: Exposure of Resource to Wrong Sphere (Reference ID: 797)\n2) Mapping Explanation: The vulnerability is a clear example of exposure of sensitive remote management surfaces (such as SMB admin shares, RPC/WMI) to parts of the network (wrong sphere) where they are not intended to be accessible, enabling attackers to move laterally and execute remote commands.\n3) Likelihood of Exploit: The CWE framework does not specify a likelihood of exploit (the Likelihood_Of_Exploit field is null), so the specific frequency of exploitation in real attacks is not provided in this reference.",
+  "llm_timing": {
+    "api_call_seconds": 4.3227
+  }
+}

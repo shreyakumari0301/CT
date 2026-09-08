@@ -1,0 +1,2 @@
+[2026-09-07T07:08:54Z] RUN forced_rag ctibench/mcq
+counterfactual_ctibench_mcq_20260907Tgpt54mini_forced_rag_cb:   0%|          | 0/2500 [00:00<?, ?it/s]

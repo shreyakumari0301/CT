@@ -1,0 +1,49 @@
+loading retrievers on n=1000 ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5064.04it/s]
+ready in 226.7s
+[100/1000] dense@20=0.540 bm25@20=0.680 union@20=0.830 rrf@20=0.760 hyb_tax@5=0.600
+[200/1000] dense@20=0.515 bm25@20=0.690 union@20=0.835 rrf@20=0.770 hyb_tax@5=0.575
+[300/1000] dense@20=0.540 bm25@20=0.700 union@20=0.837 rrf@20=0.780 hyb_tax@5=0.600
+[400/1000] dense@20=0.555 bm25@20=0.718 union@20=0.838 rrf@20=0.785 hyb_tax@5=0.625
+[500/1000] dense@20=0.556 bm25@20=0.712 union@20=0.828 rrf@20=0.770 hyb_tax@5=0.620
+[600/1000] dense@20=0.563 bm25@20=0.717 union@20=0.832 rrf@20=0.778 hyb_tax@5=0.625
+[700/1000] dense@20=0.549 bm25@20=0.717 union@20=0.827 rrf@20=0.774 hyb_tax@5=0.621
+[800/1000] dense@20=0.550 bm25@20=0.723 union@20=0.834 rrf@20=0.775 hyb_tax@5=0.621
+[900/1000] dense@20=0.541 bm25@20=0.721 union@20=0.830 rrf@20=0.768 hyb_tax@5=0.621
+[1000/1000] dense@20=0.542 bm25@20=0.722 union@20=0.833 rrf@20=0.771 hyb_tax@5=0.624
+{
+  "n": 1000,
+  "stages": {
+    "dense_recall@20": 0.542,
+    "bm25_recall@20": 0.722,
+    "dense_union_bm25_recall@20": 0.833,
+    "rrf_recall@20": 0.771,
+    "taxonomy_on_dense_recall@5": 0.469,
+    "hybrid_then_taxonomy_recall@5": 0.624,
+    "dense_recall@5": 0.389
+  },
+  "dense_gold@20": 0.542,
+  "bm25_mech_gold@20": 0.722,
+  "union_gold@20": 0.833,
+  "hybrid_gold@20": 0.771,
+  "taxonomy_on_dense_gold@5": 0.469,
+  "hybrid_then_taxonomy_gold@5": 0.624,
+  "gold_in_union_lost_by_rrf": 62,
+  "gold_in_union_lost_by_rrf_rate": 0.062,
+  "baselines": {
+    "prior_dense_gold@20": 0.542,
+    "prior_taxonomy_gold@5": 0.455
+  },
+  "gate": {
+    "min_hybrid_recall@20": 0.6,
+    "min_taxonomy_recall@5": 0.455,
+    "pass": true,
+    "reasons": {
+      "hybrid@20_ok": true,
+      "taxonomy@5_ok": true
+    }
+  },
+  "elapsed_s": 454.4
+}
+wrote /mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/rcm_hybrid_offline_audit.json gate_pass=True

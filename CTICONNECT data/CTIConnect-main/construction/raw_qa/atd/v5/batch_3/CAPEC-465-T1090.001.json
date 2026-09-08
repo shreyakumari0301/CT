@@ -1,0 +1,23 @@
+{
+  "question": "An adversary abuses an intermediary network component that invisibly intercepts all client requests to the internet and forwards them, also intercepting and forwarding all responses back to the client. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1090.001.\n- T1090.001 corresponds to internal proxying, mapping CAPEC-465: abusing a transparent proxy that intercepts and forwards client traffic.",
+  "llm_cost": {
+    "input": 0.000753,
+    "cached_input": 0.0,
+    "output": 0.0011,
+    "total": 0.001852,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 602,
+      "cached_input": 0,
+      "output": 110
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4317
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "What malware families, threat actor groups, or vulnerability IDs appear consistently across these reports?",
+  "answer": "- Malware Families: None appear in all reports\n- Threat Actor Groups: BadPilot, Seashell Blizzard\n- Vulnerability IDs: CVE-2021-34473, CVE-2022-41352, CVE-2023-23397, CVE-2024-1709, CVE-2023-48788",
+  "llm_timing": {
+    "api_call_seconds": 20.2328
+  }
+}

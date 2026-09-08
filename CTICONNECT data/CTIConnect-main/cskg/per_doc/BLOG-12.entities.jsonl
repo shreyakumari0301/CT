@@ -1,0 +1,22 @@
+{"entity_type": "malware", "canonical_name": "Ragnar Locker", "aliases": [], "properties": {"first_seen": "December 2019"}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Double extortion", "aliases": ["double-extortion"], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Desktop Protocol (RDP) brute force", "aliases": ["RDP access via brute-force"], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Use of stolen credentials", "aliases": ["stolen credentials"], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2017-0213", "aliases": [], "properties": {"cve_id": "CVE-2017-0213"}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "tool", "canonical_name": "VirtualBox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows XP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Defense evasion via virtual machine execution", "aliases": ["deployment of a VirtualBox VM running Windows XP to execute encryption, thereby evading host defenses"], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Delete Volume Shadow Copies", "aliases": ["delete shadow copies"], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "tool", "canonical_name": "Sophos", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "tool", "canonical_name": "Veeam", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "tool", "canonical_name": "Kaseya", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "tool", "canonical_name": "ConnectWise", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "identity", "canonical_name": "CIS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "identity", "canonical_name": "Campari Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "identity", "canonical_name": "Energias de Portugal", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "identity", "canonical_name": "Capcom", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "identity", "canonical_name": "Dassault Falcon Jet", "aliases": [], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "identity", "canonical_name": "food/agriculture", "aliases": ["food/agriculture sector"], "properties": {"sector": "food/agriculture"}, "source_chunks": ["BLOG-12::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Multi-factor authentication (MFA)", "aliases": ["MFA"], "properties": {}, "source_chunks": ["BLOG-12::ch0"]}

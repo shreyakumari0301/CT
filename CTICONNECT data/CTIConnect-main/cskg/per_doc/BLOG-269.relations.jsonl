@@ -1,0 +1,7 @@
+{"src_type": "identity", "src_name": "HC3", "predicate": "warns_of", "tgt_type": "malware", "tgt_name": "Lorenz", "source_chunks": ["BLOG-269::ch0"]}
+{"src_type": "malware", "src_name": "Lorenz", "predicate": "targets", "tgt_type": "identity", "tgt_name": "large healthcare organizations", "source_chunks": ["BLOG-269::ch0"]}
+{"src_type": "malware", "src_name": "Lorenz", "predicate": "linked_to", "tgt_type": "malware", "tgt_name": "sZ40", "source_chunks": ["BLOG-269::ch0"]}
+{"src_type": "malware", "src_name": "Lorenz", "predicate": "linked_to", "tgt_type": "malware", "tgt_name": "ThunderCrypt", "source_chunks": ["BLOG-269::ch0"]}
+{"src_type": "identity", "src_name": "HHS", "predicate": "issued_warning_about", "tgt_type": "malware", "tgt_name": "Hive", "source_chunks": ["BLOG-269::ch0"]}
+{"src_type": "identity", "src_name": "FBI", "predicate": "issued_warning_about", "tgt_type": "malware", "tgt_name": "Hive", "source_chunks": ["BLOG-269::ch0"]}
+{"src_type": "identity", "src_name": "CISA", "predicate": "issued_warning_about", "tgt_type": "malware", "tgt_name": "Hive", "source_chunks": ["BLOG-269::ch0"]}

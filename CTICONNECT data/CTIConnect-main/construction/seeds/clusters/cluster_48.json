@@ -1,0 +1,242 @@
+{
+  "cluster_id": 48,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 251,
+      "node": [
+        {
+          "node_text": "1113427185.ifastnet.org",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "Argentina",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "August 2017",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Canada",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Document_Open() macro",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Honeybee",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Indonesia",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Japan",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Korean-themed MS Word documents",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "March 2018",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "NTWDBLIB.dll",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Operation Honeybee",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "SYSCON backdoor",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Singapore",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "South Korea",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "User Access Control",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Vietnam",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Visual Basic macros",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Win32 executable dropper",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "cliconfg.exe",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "encoded CAB file",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "government entities",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "humanitarian aid organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "stolen Adobe Systems certificate",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "system information",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "system privileges",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "unique SYSCON key",
+          "node_type": "Indicator"
+        }
+      ],
+      "title": "Honeybee",
+      "platform": "gbhackers",
+      "type": "campaign",
+      "publish_date": "2018/3/6"
+    },
+    {
+      "blog_id": 278,
+      "node": [
+        {
+          "node_text": "CSS error",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "TrellixThrive",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "content delivery",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "exploitation techniques",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "observed IOC timelines",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "specific malware names",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "tactics",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "threat actors",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Honeybee",
+      "platform": "trellix",
+      "type": "campaign",
+      "publish_date": "2025/8/6"
+    },
+    {
+      "blog_id": 253,
+      "node": [
+        {
+          "node_text": "1113427185.ifastnet.org",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "COMSysApp",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Honeybee",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "January 15, 2018",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "MaoCheng",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "McAfee Advanced Threat Research",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "NTWDBLIB.dll",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Operation Honeybee",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "South Korea",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Vietnam",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Xero",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "expand.exe",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "ipnet.dll",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "navermail.byethost3.com",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "nihon.byethost11.com",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "snoopykiller@mail.ru",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "wusa.exe",
+          "node_type": "Application"
+        }
+      ],
+      "title": "Honeybee",
+      "platform": "mcafee",
+      "type": "campaign",
+      "publish_date": "2018/3/2"
+    }
+  ]
+}

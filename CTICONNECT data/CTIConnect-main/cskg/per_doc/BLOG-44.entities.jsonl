@@ -1,0 +1,11 @@
+{"entity_type": "identity", "canonical_name": "Google Threat Analysis Group", "aliases": ["Google’s TAG", "TAG"], "properties": {}, "source_chunks": ["BLOG-44::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Charming Kitten", "aliases": ["Iranian APT35", "APT35", "Phosphorus", "Mint Sandstorm", "Newscaster", "TA453", "APT42"], "properties": {"regions_targeted": ["Iran"]}, "source_chunks": ["BLOG-44::ch0"]}
+{"entity_type": "tool", "canonical_name": "HYPERSCRAPE", "aliases": [], "properties": {"platforms": ["Windows", ".NET"], "capabilities": ["email collection", "credential-based account access", "C2 communication over HTTP POST", "user-agent spoofing", "account setting modification", "deletion of security alerts", "system metadata collection", "download of emails as .eml", "Google Takeout automation"]}, "source_chunks": ["BLOG-44::ch0"]}
+{"entity_type": "identity", "canonical_name": "Gmail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-44::ch0"]}
+{"entity_type": "identity", "canonical_name": "Yahoo!", "aliases": [], "properties": {}, "source_chunks": ["BLOG-44::ch0"]}
+{"entity_type": "identity", "canonical_name": "Outlook", "aliases": [], "properties": {}, "source_chunks": ["BLOG-44::ch0"]}
+{"entity_type": "identity", "canonical_name": "Iran", "aliases": [], "properties": {"region": "Iran"}, "source_chunks": ["BLOG-44::ch0"]}
+{"entity_type": "indicator", "canonical_name": "136.243.108.14", "aliases": [], "properties": {"ioc_type": "ip", "value": "136.243.108.14"}, "source_chunks": ["BLOG-44::ch0"]}
+{"entity_type": "indicator", "canonical_name": "173.209.51.54", "aliases": [], "properties": {"ioc_type": "ip", "value": "173.209.51.54"}, "source_chunks": ["BLOG-44::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Advanced Protection Program", "aliases": ["Google’s Advanced Protection Program"], "properties": {}, "source_chunks": ["BLOG-44::ch0"]}
+{"entity_type": "identity", "canonical_name": "Enhanced Safe Browsing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-44::ch0"]}

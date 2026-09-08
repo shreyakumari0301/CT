@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Attackers leveraged elevated/domain privileges to modify Active Directory passwords and push payloads domain-wide via PsExec/PowerShell.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) at what stage do developers typically introduce this issue?",
+  "answer": "1) CWE-269: Improper Privilege Management  \n2) Mapping Explanation: The scenario describes attackers using elevated/domain privileges to change Active Directory passwords and deploy payloads broadly, indicating that privileged capabilities were not properly managed or restricted. This aligns with CWE-269 because the system allowed use or abuse of privileges in a way that enabled unauthorized or unsafe actions at a high privilege level.  \n3) Modes of Introduction: Typically introduced during architecture/design and implementation when privilege boundaries, role assignments, and access controls for administrative functions are defined or configured incorrectly (e.g., overly broad admin rights or insufficient restriction/oversight of privileged operations).",
+  "llm_timing": {
+    "api_call_seconds": 4.3947
+  }
+}

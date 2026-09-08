@@ -1,0 +1,282 @@
+{
+  "cluster_id": 11,
+  "cluster_size": 3,
+  "cluster_type": "malware",
+  "blogs": [
+    {
+      "blog_id": 176,
+      "node": [
+        {
+          "node_text": ".ihsdj",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Asia-Pacific region",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2016-0189",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cerber ransomware",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FireEye",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "GetSystemDefaultUILanguage check",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "IE memory corruption vulnerability",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Magniber",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Magnitude exploit kit",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "October 15, 2017",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "South Korea",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Trend Micro",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ad blockers",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "malvertising",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " Magniber",
+      "platform": "threatPost",
+      "type": "malware",
+      "publish_date": "2017/10/21"
+    },
+    {
+      "blog_id": 193,
+      "node": [
+        {
+          "node_text": "2022",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Attackers",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Australia",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "CVE-2016-0189",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2018-8174",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2019-1367",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2020-0968",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2021-26411",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2021-40444",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2022-44698",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Fodhelper scripts",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Japan",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "MSHTML/Regsvr32 proxy execution",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Magniber",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Magniber ransomware attacks",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Mark-of-the-Web bypass",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "NtQuerySystemInformation",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "PrintNightmare (CVE-2021-34527)",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "September",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "South Korea",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Taiwan",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Turkey",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "exploit kits",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "fake CPL installers",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "fake MSI installers",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "process injection",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "public-facing flaws",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "ransomware",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "shadow copies",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "thread execution hijacking",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": " Magniber",
+      "platform": "trendmicro",
+      "type": "malware",
+      "publish_date": "2022/10/28"
+    },
+    {
+      "blog_id": 45,
+      "node": [
+        {
+          "node_text": "Attackers",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "CVE-2022-44698",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-24880",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Google’s Threat Analysis Group",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "January 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "MSI installers",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Magniber",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Magniber ransomware operators",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Microsoft",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Patch Tuesday fix",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "Qakbot",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "SPC_INDIRECT_DATA_OBJID ASN.1 identifier",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "SmartScreen",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "end-to-end certificate validation",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "holistic hardening",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "late 2022",
+          "node_type": "Time"
+        }
+      ],
+      "title": " Magniber",
+      "platform": "google_tag",
+      "type": "malware",
+      "publish_date": "2025/3/28"
+    }
+  ]
+}

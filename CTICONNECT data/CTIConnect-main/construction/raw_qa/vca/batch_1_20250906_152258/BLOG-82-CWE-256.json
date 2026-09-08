@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Attackers searched registries, local drives, and shares for cleartext \u201cpassword\u201d artifacts, indicating plaintext secrets stored in files/scripts/configs.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE according to the description, and 3) at what stage do developers typically introduce this issue (i.e., what are the modes of introduction for this CWE)?",
+  "answer": "1) CWE-256: Plaintext Storage of a Password\n2) Mapping Explanation: The vulnerability is due to storing passwords in cleartext in files, scripts, and configurations, which directly correlates with CWE-256 as it specifically addresses plaintext storage of passwords, thereby increasing the risk when attackers access these files.\n3) Modes of Introduction: The issue is typically introduced during the 'Architecture and Design' phase, mainly due to the omission of security tactics during the design process.",
+  "llm_timing": {
+    "api_call_seconds": 6.3491
+  }
+}

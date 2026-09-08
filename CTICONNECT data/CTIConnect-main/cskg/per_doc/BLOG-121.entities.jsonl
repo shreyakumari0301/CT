@@ -1,0 +1,3 @@
+{"entity_type": "identity", "canonical_name": "Python Package Index (PyPI)", "aliases": ["PyPI"], "properties": {}, "source_chunks": ["BLOG-121::ch0"]}
+{"entity_type": "identity", "canonical_name": "Checkmarx", "aliases": ["Checkmarx researchers"], "properties": {}, "source_chunks": ["BLOG-121::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "typo-squatting", "aliases": [], "properties": {}, "source_chunks": ["BLOG-121::ch0"]}

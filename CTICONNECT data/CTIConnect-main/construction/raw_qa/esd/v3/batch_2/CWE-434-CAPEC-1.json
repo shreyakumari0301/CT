@@ -1,0 +1,23 @@
+{
+  "question": "A web application lets users upload files without sufficiently restricting file types, allowing dangerous content to be stored on the server. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-1.\n- CAPEC-1 exploits missing authorization constraints, targeting CWE-434: unrestricted upload of files with dangerous types.",
+  "llm_cost": {
+    "input": 0.000826,
+    "cached_input": 0.0,
+    "output": 0.00084,
+    "total": 0.001666,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 661,
+      "cached_input": 0,
+      "output": 84
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 1.9411
+  }
+}

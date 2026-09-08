@@ -1,0 +1,11 @@
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "behind", "tgt_type": "malware", "tgt_name": "Dridex", "source_chunks": ["BLOG-239::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "indicted_by", "tgt_type": "identity", "tgt_name": "US DOJ", "source_chunks": ["BLOG-239::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "uses", "tgt_type": "malware", "tgt_name": "WastedLocker", "source_chunks": ["BLOG-239::ch0"]}
+{"src_type": "malware", "src_name": "WastedLocker", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US organizations", "source_chunks": ["BLOG-239::ch0"]}
+{"src_type": "malware", "src_name": "WastedLocker", "predicate": "delivers_payload_via", "tgt_type": "tool", "tgt_name": "SocGholish", "source_chunks": ["BLOG-239::ch0"]}
+{"src_type": "malware", "src_name": "WastedLocker", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-239::ch0"]}
+{"src_type": "malware", "src_name": "WastedLocker", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Reconnaissance", "source_chunks": ["BLOG-239::ch0"]}
+{"src_type": "malware", "src_name": "WastedLocker", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Credential theft", "source_chunks": ["BLOG-239::ch0"]}
+{"src_type": "malware", "src_name": "WastedLocker", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Privilege escalation (DLL hijacking)", "source_chunks": ["BLOG-239::ch0"]}
+{"src_type": "malware", "src_name": "WastedLocker", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Lateral movement", "source_chunks": ["BLOG-239::ch0"]}
+{"src_type": "malware", "src_name": "WastedLocker", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Garmin", "source_chunks": ["BLOG-239::ch0"]}

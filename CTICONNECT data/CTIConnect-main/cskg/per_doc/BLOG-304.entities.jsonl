@@ -1,0 +1,23 @@
+{"entity_type": "threat_actor", "canonical_name": "FIN7", "aliases": ["Fin7", "Carbanak Group", "Carbon Spider", "Sangria Tempest", "ATK32"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. authorities", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "Blackberry", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "Silent Push", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zach Edwards", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "tool", "canonical_name": "Stark Industries Solutions", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Typosquatting", "aliases": ["typosquatting-based"], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Malvertising", "aliases": ["booby-trapped ads", "sponsored Google ads"], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Malicious Browser Extension", "aliases": ["malicious browser extensions", "phony extensions"], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spear-phishing domains"], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "American Express", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft 365", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "CNN", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zoom", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "tool", "canonical_name": "7-zip", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "tool", "canonical_name": "PuTTY", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "tool", "canonical_name": "Python", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "eSentire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "Malwarebytes", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "Louvre", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "identity", "canonical_name": "Olympic tourists", "aliases": [], "properties": {}, "source_chunks": ["BLOG-304::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Fin7 2013–present campaign", "aliases": [], "properties": {"first_seen": "2013", "objective": "extortion"}, "source_chunks": ["BLOG-304::ch0"]}

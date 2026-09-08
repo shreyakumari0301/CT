@@ -1,0 +1,12 @@
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-302::ch0"]}
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "dropped_by", "tgt_type": "indicator", "tgt_name": "chapter 8 medicare benefit policy manual.zip", "source_chunks": ["BLOG-302::ch0"]}
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Invoke-Expression", "source_chunks": ["BLOG-302::ch0"]}
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-302::ch0"]}
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "infrastructure_overlaps_with", "tgt_type": "malware", "tgt_name": "AHK Bot", "source_chunks": ["BLOG-302::ch0"]}
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "infrastructure_overlaps_with", "tgt_type": "malware", "tgt_name": "Skitnet", "source_chunks": ["BLOG-302::ch0"]}
+{"src_type": "campaign", "src_name": "PS1Bot campaign", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PS1Bot", "source_chunks": ["BLOG-302::ch0"]}
+{"src_type": "identity", "src_name": "Cisco Talos", "predicate": "reports_infrastructure_overlap_with", "tgt_type": "malware", "tgt_name": "AHK Bot", "source_chunks": ["BLOG-302::ch0"]}
+{"src_type": "identity", "src_name": "Cisco Talos", "predicate": "reports_infrastructure_overlap_with", "tgt_type": "malware", "tgt_name": "Skitnet", "source_chunks": ["BLOG-302::ch0"]}
+{"src_type": "indicator", "src_name": "chapter 8 medicare benefit policy manual.zip", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "FULL DOCUMENT.js", "source_chunks": ["BLOG-302::ch0"]}
+{"src_type": "indicator", "src_name": "FULL DOCUMENT.js", "predicate": "writes_and_executes", "tgt_type": "indicator", "tgt_name": "ntu.ps1", "source_chunks": ["BLOG-302::ch0"]}
+{"src_type": "indicator", "src_name": "ntu.ps1", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Invoke-Expression", "source_chunks": ["BLOG-302::ch0"]}

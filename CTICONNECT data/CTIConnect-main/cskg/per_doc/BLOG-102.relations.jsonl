@@ -1,0 +1,12 @@
+{"src_type": "identity", "src_name": "Cyfirma", "predicate": "exposed", "tgt_type": "threat_actor", "tgt_name": "Anonymous Arabic", "source_chunks": ["BLOG-102::ch0"]}
+{"src_type": "threat_actor", "src_name": "Anonymous Arabic", "predicate": "linked_to", "tgt_type": "identity", "tgt_name": "Turkey", "source_chunks": ["BLOG-102::ch0"]}
+{"src_type": "threat_actor", "src_name": "Anonymous Arabic", "predicate": "linked_to", "tgt_type": "identity", "tgt_name": "Syria", "source_chunks": ["BLOG-102::ch0"]}
+{"src_type": "threat_actor", "src_name": "Anonymous Arabic", "predicate": "run_by", "tgt_type": "identity", "tgt_name": "Dangerous silver", "source_chunks": ["BLOG-102::ch0"]}
+{"src_type": "threat_actor", "src_name": "Anonymous Arabic", "predicate": "run_by", "tgt_type": "identity", "tgt_name": "Monstermc", "source_chunks": ["BLOG-102::ch0"]}
+{"src_type": "threat_actor", "src_name": "Anonymous Arabic", "predicate": "created", "tgt_type": "malware", "tgt_name": "SilverRAT v1", "source_chunks": ["BLOG-102::ch0"]}
+{"src_type": "threat_actor", "src_name": "Anonymous Arabic", "predicate": "markets_via", "tgt_type": "tool", "tgt_name": "Telegram", "source_chunks": ["BLOG-102::ch0"]}
+{"src_type": "threat_actor", "src_name": "Anonymous Arabic", "predicate": "markets_via", "tgt_type": "identity", "tgt_name": "Turkhackteam", "source_chunks": ["BLOG-102::ch0"]}
+{"src_type": "threat_actor", "src_name": "Anonymous Arabic", "predicate": "markets_via", "tgt_type": "identity", "tgt_name": "1877", "source_chunks": ["BLOG-102::ch0"]}
+{"src_type": "threat_actor", "src_name": "Anonymous Arabic", "predicate": "markets_via", "tgt_type": "identity", "tgt_name": "Russian forums", "source_chunks": ["BLOG-102::ch0"]}
+{"src_type": "threat_actor", "src_name": "Anonymous Arabic", "predicate": "leverages", "tgt_type": "malware", "tgt_name": "BossNet", "source_chunks": ["BLOG-102::ch0"]}
+{"src_type": "threat_actor", "src_name": "Anonymous Arabic", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Middle East underground markets", "source_chunks": ["BLOG-102::ch0"]}

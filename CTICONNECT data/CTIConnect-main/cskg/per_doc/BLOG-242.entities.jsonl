@@ -1,0 +1,20 @@
+{"entity_type": "identity", "canonical_name": "CyberMaterial", "aliases": [], "properties": {}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Void Manticore", "aliases": ["Storm-0842"], "properties": {}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Storm-1811", "aliases": [], "properties": {}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "campaign", "canonical_name": "coordinated espionage campaign", "aliases": [], "properties": {"objective": "espionage", "first_seen": "late 2024"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "identity", "canonical_name": "aerospace organizations", "aliases": [], "properties": {"sector": "aerospace"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense organizations", "aliases": [], "properties": {"sector": "defense"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "identity", "canonical_name": "government organizations", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing Attachment", "aliases": ["spear-phishing emails embedding weaponized RTFs"], "properties": {"technique_id": "T1566.001", "tactic": "Initial Access"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-4113", "aliases": [], "properties": {"cve_id": "CVE-2024-4113"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "malware", "canonical_name": "VoidLoader", "aliases": ["custom loader"], "properties": {"family": "VoidLoader"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "malware", "canonical_name": "ManticoreShell", "aliases": ["backdoor", "ManticoreShell backdoor"], "properties": {"family": "ManticoreShell"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {"capabilities": ["credential harvesting"]}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["PSExec", "psexec.exe"], "properties": {"capabilities": ["lateral movement"]}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMI", "aliases": [], "properties": {"capabilities": ["lateral movement"]}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled Task/Job: Scheduled Task", "aliases": ["scheduled tasks"], "properties": {"technique_id": "T1053.005", "tactic": "Persistence"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder", "aliases": ["registry Run keys"], "properties": {"technique_id": "T1547.001", "tactic": "Persistence"}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "tool", "canonical_name": "Tor", "aliases": ["TOR"], "properties": {}, "source_chunks": ["BLOG-242::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-242::ch0"]}

@@ -1,0 +1,9 @@
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "Microsoft", "source_chunks": ["BLOG-285::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ngrok", "source_chunks": ["BLOG-285::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "AWS Systems Manager Session Manager", "source_chunks": ["BLOG-285::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "EC2 Serial Console", "source_chunks": ["BLOG-285::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses_for_persistence", "tgt_type": "tool", "tgt_name": "Teleport", "source_chunks": ["BLOG-285::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "inflicts_operational_disruption_on", "tgt_type": "identity", "tgt_name": "MGM Resorts", "source_chunks": ["BLOG-285::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "inflicts_operational_disruption_on", "tgt_type": "identity", "tgt_name": "Marks & Spencer", "source_chunks": ["BLOG-285::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "inflicts_operational_disruption_on", "tgt_type": "identity", "tgt_name": "Hawaiian Airlines", "source_chunks": ["BLOG-285::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "intervenes_in_response_to", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-285::ch0"]}

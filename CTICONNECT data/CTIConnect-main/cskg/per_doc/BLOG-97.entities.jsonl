@@ -1,0 +1,8 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2017-11882", "aliases": ["CVE-2017-11882 Microsoft Office RCE vulnerability"], "properties": {"cve_id": "CVE-2017-11882"}, "source_chunks": ["BLOG-97::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing Attachment", "aliases": ["malicious Excel attachments in socially engineered “orders” and “invoices” emails"], "properties": {"technique_id": "T1566.001", "tactic": "Initial Access"}, "source_chunks": ["BLOG-97::ch0"]}
+{"entity_type": "malware", "canonical_name": "Agent Tesla", "aliases": ["Agent Tesla RAT"], "properties": {"capabilities": ["keylogging", "screen capture", "credential theft", "data exfiltration"]}, "source_chunks": ["BLOG-97::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-97::ch0"]}
+{"entity_type": "tool", "canonical_name": "RegAsm.exe", "aliases": [], "properties": {"capabilities": ["code execution"]}, "source_chunks": ["BLOG-97::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram", "aliases": ["Telegram bots"], "properties": {"capabilities": ["command and control", "data exfiltration"]}, "source_chunks": ["BLOG-97::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zscaler", "aliases": ["Zscaler’s"], "properties": {}, "source_chunks": ["BLOG-97::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Office", "aliases": ["Office"], "properties": {}, "source_chunks": ["BLOG-97::ch0"]}

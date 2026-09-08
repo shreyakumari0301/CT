@@ -1,0 +1,12 @@
+{"src_type": "malware", "src_name": "CryptNet", "predicate": "derived_from", "tgt_type": "malware", "tgt_name": "Chaos", "source_chunks": ["BLOG-10::ch0"]}
+{"src_type": "malware", "src_name": "CryptNet", "predicate": "derived_from", "tgt_type": "malware", "tgt_name": "Yashma", "source_chunks": ["BLOG-10::ch0"]}
+{"src_type": "malware", "src_name": "Mallox", "predicate": "exploits", "tgt_type": "attack_pattern", "tgt_name": "MS-SQL exploitation", "source_chunks": ["BLOG-10::ch0"]}
+{"src_type": "malware", "src_name": "Mallox", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-0618", "source_chunks": ["BLOG-10::ch0"]}
+{"src_type": "malware", "src_name": "Mallox", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-1068", "source_chunks": ["BLOG-10::ch0"]}
+{"src_type": "malware", "src_name": "Mallox", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Brute Force", "source_chunks": ["BLOG-10::ch0"]}
+{"src_type": "malware", "src_name": "Mallox", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-10::ch0"]}
+{"src_type": "malware", "src_name": "Mallox", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-10::ch0"]}
+{"src_type": "malware", "src_name": "Xollam", "predicate": "offshoot_of", "tgt_type": "malware", "tgt_name": "TargetCompany/Mallox", "source_chunks": ["BLOG-10::ch0"]}
+{"src_type": "malware", "src_name": "Xollam", "predicate": "shifts_from", "tgt_type": "attack_pattern", "tgt_name": "MS-SQL exploitation", "source_chunks": ["BLOG-10::ch0"]}
+{"src_type": "malware", "src_name": "Xollam", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "OneNote phishing", "source_chunks": ["BLOG-10::ch0"]}
+{"src_type": "malware", "src_name": "Xollam", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-10::ch0"]}

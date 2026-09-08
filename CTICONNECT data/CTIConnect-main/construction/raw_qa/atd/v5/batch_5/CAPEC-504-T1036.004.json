@@ -1,0 +1,23 @@
+{
+  "question": "An adversary uses a previously installed malicious application to impersonate an expected or routine system task, aiming to steal sensitive information or exploit a user's privileges. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1036.004.\n- T1036.004 corresponds to masquerading a task/service, mapping CAPEC-504: malicious app impersonates routine task to steal data or leverage privileges.",
+  "llm_cost": {
+    "input": 0.000719,
+    "cached_input": 0.0,
+    "output": 0.00108,
+    "total": 0.001799,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 575,
+      "cached_input": 0,
+      "output": 108
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7174
+  }
+}

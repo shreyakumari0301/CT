@@ -1,0 +1,23 @@
+{
+  "question": "An adversary secretly listens to and records conversations by intercepting raw audio via software microphones, recording hardware, or physical proximity, to obtain sensitive information outside network traffic. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1111.\n- T1111 corresponds to intercepting authentication factors, mapping CAPEC-651: covertly intercepting communications to capture sensitive information outside network channels.",
+  "llm_cost": {
+    "input": 0.000841,
+    "cached_input": 0.0,
+    "output": 0.00106,
+    "total": 0.001901,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 673,
+      "cached_input": 0,
+      "output": 106
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.2065
+  }
+}

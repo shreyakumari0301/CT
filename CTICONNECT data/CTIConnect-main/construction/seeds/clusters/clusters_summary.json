@@ -1,0 +1,755 @@
+{
+  "total_clusters": 50,
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "size": 3,
+      "type": "event",
+      "blog_ids": [
+        19,
+        99,
+        110
+      ],
+      "titles": [
+        " Qantas",
+        " Qantas",
+        " Qantas"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        18,
+        93,
+        148
+      ],
+      "titles": [
+        " Contagious Interview",
+        " Contagious Interview",
+        " Contagious Interview"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        53,
+        112,
+        161
+      ],
+      "titles": [
+        " Void Blizzard",
+        " Void Blizzard",
+        " Void Blizzard"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        109,
+        136,
+        191
+      ],
+      "titles": [
+        " Fog",
+        " Fog",
+        " Fog"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        90,
+        147,
+        201
+      ],
+      "titles": [
+        " BladedFeline",
+        " BladedFeline",
+        " BladedFeline"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        142,
+        196,
+        202
+      ],
+      "titles": [
+        " RansomHub",
+        " RansomHub",
+        " RansomHub"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        17,
+        89,
+        51
+      ],
+      "titles": [
+        " BadPilot",
+        " BadPilot",
+        " BadPilot"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        20,
+        111,
+        203
+      ],
+      "titles": [
+        " RoundPress",
+        " RoundPress",
+        " RoundPress"
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        175,
+        4,
+        192
+      ],
+      "titles": [
+        " LockBit",
+        " Cactus",
+        " LockBit"
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        0,
+        71,
+        184
+      ],
+      "titles": [
+        " BlackCat",
+        " BlackCat",
+        " BlackCat"
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        176,
+        193,
+        45
+      ],
+      "titles": [
+        " Magniber",
+        " Magniber",
+        " Magniber"
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        108,
+        150,
+        78
+      ],
+      "titles": [
+        " EleKtra-Leak",
+        " EleKtra-Leak",
+        " Exposed-IAM-Keys"
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        75,
+        187,
+        40
+      ],
+      "titles": [
+        " Conti",
+        " Conti",
+        " Conti"
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        2,
+        101,
+        157
+      ],
+      "titles": [
+        " Silent Skimming",
+        " Silent Skimmer",
+        " Silent Skimmer"
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        39,
+        65,
+        105
+      ],
+      "titles": [
+        " coldriver",
+        " star-blizzard",
+        " star-blizzard"
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        185,
+        132,
+        73
+      ],
+      "titles": [
+        " Clop",
+        " Clop",
+        " Clop-Seeds"
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        306,
+        313,
+        292
+      ],
+      "titles": [
+        "GodRaT",
+        "GodRaT",
+        "GodRaT"
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        281,
+        314,
+        279
+      ],
+      "titles": [
+        "Ngioweb",
+        "Ngioweb",
+        "Ngioweb"
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        286,
+        299,
+        280
+      ],
+      "titles": [
+        "Static Tundra",
+        "Static Tundra",
+        "Static Tundra"
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        318,
+        288,
+        316
+      ],
+      "titles": [
+        "TAOTH",
+        "TAOTH",
+        "TAOTH"
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        284,
+        309,
+        285
+      ],
+      "titles": [
+        "Scattered Spider",
+        "Scattered Spider",
+        "Scattered Spider"
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        317,
+        301,
+        291
+      ],
+      "titles": [
+        "GitHub C2 Espionage",
+        "GitHub C2 Espionage",
+        "GitHub C2 Espionage"
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        303,
+        290,
+        305
+      ],
+      "titles": [
+        "ForumTroll",
+        "ForumTroll",
+        "ForumTroll"
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        319,
+        300,
+        311
+      ],
+      "titles": [
+        "AkaiRyu",
+        "AkaiRyu",
+        "AkaiRyu"
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        283,
+        287,
+        295
+      ],
+      "titles": [
+        "Turla",
+        "Secret Blizzard",
+        "Secret Blizzard"
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        293,
+        297,
+        282
+      ],
+      "titles": [
+        "Lotus Blossom",
+        "Lotus Blossom",
+        "Lotus Blossom"
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        320,
+        289,
+        296
+      ],
+      "titles": [
+        "FishMonger",
+        "FishMonger",
+        "FishMonger"
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        312,
+        304,
+        310
+      ],
+      "titles": [
+        "FIN7",
+        "FIN7",
+        "FIN7"
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        302,
+        294,
+        315
+      ],
+      "titles": [
+        "PS1Bot",
+        "PS1Bot",
+        "PS1Bot"
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        308,
+        307,
+        298
+      ],
+      "titles": [
+        "PipeMagic",
+        "PipeMagic",
+        "PipeMagic"
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        249,
+        232,
+        260
+      ],
+      "titles": [
+        "Lynx",
+        "Lynx",
+        "Lynx"
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        273,
+        231,
+        268
+      ],
+      "titles": [
+        "Jumpy Pisces",
+        "Jumpy Pisces",
+        "Jumpy Pisces"
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        274,
+        252,
+        244
+      ],
+      "titles": [
+        "Slow Pisces",
+        "Slow Pisces",
+        "Slow Pisces"
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        265,
+        238,
+        226
+      ],
+      "titles": [
+        "Moses Staff",
+        "Moses Staff",
+        "Moses Staff"
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        227,
+        241,
+        243
+      ],
+      "titles": [
+        "MuddyWatter",
+        "MuddyWatter",
+        "MuddyWatter"
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        233,
+        259,
+        264
+      ],
+      "titles": [
+        "Magic Hound",
+        "Magic Hound",
+        "Magic Hound"
+      ]
+    },
+    {
+      "cluster_id": 37,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        240,
+        222,
+        271
+      ],
+      "titles": [
+        "APT42",
+        "APT42",
+        "APT42"
+      ]
+    },
+    {
+      "cluster_id": 38,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        267,
+        242,
+        235
+      ],
+      "titles": [
+        "Void Manticore",
+        "Void Manticore",
+        "Void Manticore"
+      ]
+    },
+    {
+      "cluster_id": 39,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        272,
+        224,
+        263
+      ],
+      "titles": [
+        "Hexane",
+        "Hexane",
+        "Hexane"
+      ]
+    },
+    {
+      "cluster_id": 40,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        247,
+        228,
+        266
+      ],
+      "titles": [
+        "Salt Typhoon",
+        "Salt Typhoon",
+        "Salt Typhoon"
+      ]
+    },
+    {
+      "cluster_id": 41,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        221,
+        246,
+        269
+      ],
+      "titles": [
+        "Lorenz",
+        "Lorenz",
+        "Lorenz"
+      ]
+    },
+    {
+      "cluster_id": 42,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        225,
+        256,
+        220
+      ],
+      "titles": [
+        "Karakurt",
+        "Karakurt",
+        "Karakurt"
+      ]
+    },
+    {
+      "cluster_id": 43,
+      "size": 3,
+      "type": "threat actor",
+      "blog_ids": [
+        277,
+        229,
+        257
+      ],
+      "titles": [
+        "SnapMC",
+        "SnapMC",
+        "SnapMC"
+      ]
+    },
+    {
+      "cluster_id": 44,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        262,
+        255,
+        219
+      ],
+      "titles": [
+        "FiveHands",
+        "FiveHands",
+        "FiveHands"
+      ]
+    },
+    {
+      "cluster_id": 45,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        245,
+        239,
+        234
+      ],
+      "titles": [
+        "Wastedlocker",
+        "Wastedlocker",
+        "Wastedlocker"
+      ]
+    },
+    {
+      "cluster_id": 46,
+      "size": 3,
+      "type": "malware",
+      "blog_ids": [
+        250,
+        237,
+        230
+      ],
+      "titles": [
+        "FrostyGoop",
+        "FrostyGoop",
+        "FrostyGoop"
+      ]
+    },
+    {
+      "cluster_id": 47,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        223,
+        261,
+        236
+      ],
+      "titles": [
+        "CuckooBees",
+        "CuckooBees",
+        "CuckooBees"
+      ]
+    },
+    {
+      "cluster_id": 48,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        251,
+        278,
+        253
+      ],
+      "titles": [
+        "Honeybee",
+        "Honeybee",
+        "Honeybee"
+      ]
+    },
+    {
+      "cluster_id": 49,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        276,
+        270,
+        254
+      ],
+      "titles": [
+        "Sharpshooter",
+        "Sharpshooter",
+        "Sharpshooter"
+      ]
+    },
+    {
+      "cluster_id": 50,
+      "size": 3,
+      "type": "campaign",
+      "blog_ids": [
+        248,
+        275,
+        258
+      ],
+      "titles": [
+        "Triangulation",
+        "Triangulation",
+        "Triangulation"
+      ]
+    }
+  ]
+}

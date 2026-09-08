@@ -1,0 +1,16 @@
+{"entity_type": "campaign", "canonical_name": "Insta-Phish-A-Gram", "aliases": [], "properties": {}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zscaler ThreatLabz", "aliases": [], "properties": {}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "identity", "canonical_name": "Fortinet FortiGuard", "aliases": [], "properties": {}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "identity", "canonical_name": "McAfee Labs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2017-11882", "aliases": [], "properties": {"cve_id": "CVE-2017-11882", "cvss": "7.8"}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-14883", "aliases": [], "properties": {"cve_id": "CVE-2020-14883", "cvss": "7.2"}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "8220 Gang", "aliases": [], "properties": {}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "malware", "canonical_name": "Agent Tesla", "aliases": ["Agent Tesla keylogger/RAT"], "properties": {"platforms": [".NET"]}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "malware", "canonical_name": "DarkGate", "aliases": ["DarkGate MaaS"], "properties": {}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "malware", "canonical_name": "RedLine", "aliases": [], "properties": {}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "malware", "canonical_name": "Vidar", "aliases": [], "properties": {}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "tool", "canonical_name": "RegAsm.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "identity", "canonical_name": "Oracle WebLogic", "aliases": [], "properties": {}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "identity", "canonical_name": "technology sector", "aliases": [], "properties": {"sector": "technology"}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "identity", "canonical_name": "hospitality sector", "aliases": [], "properties": {"sector": "hospitality"}, "source_chunks": ["BLOG-146::ch0"]}
+{"entity_type": "identity", "canonical_name": "Instagram", "aliases": [], "properties": {}, "source_chunks": ["BLOG-146::ch0"]}

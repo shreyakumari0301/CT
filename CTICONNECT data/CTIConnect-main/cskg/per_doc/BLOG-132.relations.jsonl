@@ -1,0 +1,10 @@
+{"src_type": "identity", "src_name": "Symantec", "predicate": "warned_about", "tgt_type": "threat_actor", "tgt_name": "TA505", "source_chunks": ["BLOG-132::ch0"]}
+{"src_type": "identity", "src_name": "Symantec", "predicate": "mitigates", "tgt_type": "malware", "tgt_name": "Lemurloot", "source_chunks": ["BLOG-132::ch0"]}
+{"src_type": "identity", "src_name": "Symantec", "predicate": "hardens", "tgt_type": "identity", "tgt_name": "MS SQL", "source_chunks": ["BLOG-132::ch0"]}
+{"src_type": "identity", "src_name": "Symantec", "predicate": "hardens", "tgt_type": "identity", "tgt_name": "IIS", "source_chunks": ["BLOG-132::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA505", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-34362", "source_chunks": ["BLOG-132::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA505", "predicate": "targets", "tgt_type": "identity", "tgt_name": "MOVEit Transfer", "source_chunks": ["BLOG-132::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA505", "predicate": "conducts", "tgt_type": "attack_pattern", "tgt_name": "Supply chain attack", "source_chunks": ["BLOG-132::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA505", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Lemurloot", "source_chunks": ["BLOG-132::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-34362", "predicate": "is_sql_injection", "tgt_type": "attack_pattern", "tgt_name": "SQL injection", "source_chunks": ["BLOG-132::ch0"]}
+{"src_type": "malware", "src_name": "Lemurloot", "predicate": "exfiltrates", "tgt_type": "identity", "tgt_name": "Azure", "source_chunks": ["BLOG-132::ch0"]}

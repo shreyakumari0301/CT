@@ -1,0 +1,23 @@
+{
+  "question": "An attacker tampers with a product or component during manufacturing, altering hardware, firmware, software composition, or design specs to embed malicious functionality before it reaches customers. Which MITRE ATT&CK technique matches this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.\n- T1195 corresponds to supply chain compromise, mapping CAPEC-438: modifying products during manufacture to embed malicious hardware, firmware, or software.",
+  "llm_cost": {
+    "input": 0.000857,
+    "cached_input": 0.0,
+    "output": 0.00104,
+    "total": 0.001897,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 686,
+      "cached_input": 0,
+      "output": 104
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5682
+  }
+}

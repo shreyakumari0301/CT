@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Corporate credentials cached on BYOD/personal devices were harvested by infostealers (e.g., Raccoon, RedLine)\". Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) what are the applicable platforms of the CWE (e.g., does this affect our specific stack such as Java, Python, or web frameworks)?",
+  "answer": "1) CWE-522, titled 'Insufficiently Protected Credentials'.\n2) Mapping Explanation: The vulnerability is due to corporate credentials being cached on BYOD/personal devices, making them accessible to infostealers. This behavior directly reflects insufficient protection of sensitive credentials as outlined by CWE-522.\n3) Applicable Platforms: The CWE framework reference indicates that the issue is Not Language-Specific, and for technology it falls under the ICS/OT category. This means it is not limited to any specific programming language or web framework stack.",
+  "llm_timing": {
+    "api_call_seconds": 5.2925
+  }
+}

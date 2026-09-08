@@ -1,0 +1,23 @@
+{
+  "question": "A program lets an attacker-controlled numeric value exceed its allowed range, causing it to wrap around to a small or negative number and be used as a size or offset. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-92.\n- CAPEC-92 exploits integer overflow/wraparound, targeting CWE-190: out-of-range arithmetic causes wraparound to incorrect values.",
+  "llm_cost": {
+    "input": 0.000766,
+    "cached_input": 0.0,
+    "output": 0.00099,
+    "total": 0.001756,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 613,
+      "cached_input": 0,
+      "output": 99
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6885
+  }
+}

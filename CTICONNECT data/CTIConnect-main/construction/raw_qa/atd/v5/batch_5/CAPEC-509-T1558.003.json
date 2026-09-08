@@ -1,0 +1,23 @@
+{
+  "question": "An authenticated adversary requests Kerberos service tickets for accounts with SPNs in Active Directory, extracts the tickets, then brute-forces the RC4-encrypted portions to recover service account credentials and abuse their privileges. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1558.003.\n- T1558.003 corresponds to Kerberos service-ticket hash cracking, mapping CAPEC-509: request SPN tickets, extract, brute-force hashes for service credentials.",
+  "llm_cost": {
+    "input": 0.000833,
+    "cached_input": 0.0,
+    "output": 0.00118,
+    "total": 0.002012,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 666,
+      "cached_input": 0,
+      "output": 118
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.088
+  }
+}

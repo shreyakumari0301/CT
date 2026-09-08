@@ -1,0 +1,24 @@
+{"src_type": "identity", "src_name": "Marc Newlin", "predicate": "affiliated_with", "tgt_type": "identity", "tgt_name": "SkySafe", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "identity", "src_name": "Marc Newlin", "predicate": "disclosed", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-45866", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "identity", "src_name": "Marc Newlin", "predicate": "informed", "tgt_type": "identity", "tgt_name": "Apple", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "identity", "src_name": "Marc Newlin", "predicate": "informed", "tgt_type": "identity", "tgt_name": "Google", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "identity", "src_name": "Marc Newlin", "predicate": "informed", "tgt_type": "identity", "tgt_name": "Canonical", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "identity", "src_name": "Marc Newlin", "predicate": "informed", "tgt_type": "identity", "tgt_name": "Bluetooth SIG", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "exploits_unauthenticated_pairing_mechanism_in", "tgt_type": "identity", "tgt_name": "Bluetooth", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "affects", "tgt_type": "identity", "tgt_name": "macOS", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "affects", "tgt_type": "identity", "tgt_name": "iOS", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Android", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Linux BlueZ", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "bypasses_protection", "tgt_type": "identity", "tgt_name": "Lockdown Mode", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "affects_device", "tgt_type": "identity", "tgt_name": "Pixel 7", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "affects_device", "tgt_type": "identity", "tgt_name": "Pixel 6", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "affects_device", "tgt_type": "identity", "tgt_name": "Pixel 4a", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "affects_device", "tgt_type": "identity", "tgt_name": "Pixel 2", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "affects_device", "tgt_type": "identity", "tgt_name": "Nexus 5", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "affects_device", "tgt_type": "identity", "tgt_name": "BLU DASH", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-45866", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Ubuntu", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "identity", "src_name": "Android", "predicate": "mitigated_by_patch", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-45866", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "identity", "src_name": "Linux BlueZ", "predicate": "mitigated_by_patch", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-45866", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "identity", "src_name": "Linux BlueZ", "predicate": "patched_via", "tgt_type": "identity", "tgt_name": "GitHub", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "tool", "src_name": "Python", "predicate": "used_in_exploit_script_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-45866", "source_chunks": ["BLOG-91::ch0"]}
+{"src_type": "identity", "src_name": "Apple", "predicate": "has_yet_to_announce_timeline_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-42929", "source_chunks": ["BLOG-91::ch0"]}

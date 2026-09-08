@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target industries or regions mentioned across these reports?",
+  "answer": "- Government entities (national and regional bodies)\n- Military units\n- Defense contractors\n- Critical infrastructure operators\n- Key regions: Eastern Europe (Ukraine, Bulgaria, Romania), Europe (Greece, Serbia, France), Africa (Cameroon), South America (Ecuador)",
+  "llm_timing": {
+    "api_call_seconds": 7.1188
+  }
+}

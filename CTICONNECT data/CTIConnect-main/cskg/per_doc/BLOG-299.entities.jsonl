@@ -1,0 +1,10 @@
+{"entity_type": "threat_actor", "canonical_name": "Magic Hare", "aliases": ["Static Tundra", "Energetic Bear", "Berserk Bear", "Dragonfly", "Crouching Yeti", "Iron Liberty"], "properties": {"country": "Russia", "primary_motivation": "espionage", "regions_targeted": ["worldwide"]}, "source_chunks": ["BLOG-299::ch0"]}
+{"entity_type": "identity", "canonical_name": "FSB Center 16", "aliases": [], "properties": {}, "source_chunks": ["BLOG-299::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2018-0171", "aliases": [], "properties": {"cve_id": "CVE-2018-0171", "cvss": "9.8"}, "source_chunks": ["BLOG-299::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco", "aliases": [], "properties": {}, "source_chunks": ["BLOG-299::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco Talos", "aliases": [], "properties": {}, "source_chunks": ["BLOG-299::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-299::ch0"]}
+{"entity_type": "malware", "canonical_name": "SYNful Knock", "aliases": ["SYNful Knock IOS firmware implant"], "properties": {}, "source_chunks": ["BLOG-299::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing sector", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-299::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecommunications sector", "aliases": [], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-299::ch0"]}
+{"entity_type": "identity", "canonical_name": "higher-education sector", "aliases": [], "properties": {"sector": "higher-education"}, "source_chunks": ["BLOG-299::ch0"]}

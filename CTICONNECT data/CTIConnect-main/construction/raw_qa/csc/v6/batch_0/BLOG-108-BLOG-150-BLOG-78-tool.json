@@ -1,0 +1,7 @@
+{
+  "question": "What are the main malicious tools or malware components consistently used in this EleKtra-Leak cryptojacking campaign?",
+  "answer": "- Automated scripts for real-time cloning of public GitHub repositories and harvesting exposed AWS IAM credentials  \n- Custom Monero cryptomining software (bespoke miner)  \n- c5a.24xlarge EC2 instances launched via VPN tunnels for mining operations  \n- Google Drive as a hosting platform for fetching the mining payload",
+  "llm_timing": {
+    "api_call_seconds": 8.7476
+  }
+}

@@ -1,0 +1,28 @@
+{"entity_type": "threat_actor", "canonical_name": "Contagious Interview", "aliases": ["CL-STA-0240", "DeceptiveDevelopment", "Famous Chollima"], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "North Korea", "aliases": ["DPRK"], "properties": {"region": "North Korea"}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russia", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian professionals", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "US FBI", "aliases": ["FBI"], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "campaign", "canonical_name": "ClickFake Interview", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Wagemole", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "BlockNovas LLC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "Angeloper Agency", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "SoftGlide LLC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "malware", "canonical_name": "BeaverTail", "aliases": ["BeaverTail JavaScript stealer/loader"], "properties": {"platforms": ["Windows", "Linux", "macOS"]}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "malware", "canonical_name": "InvisibleFerret", "aliases": ["InvisibleFerret Python backdoor"], "properties": {"platforms": ["Windows", "Linux", "macOS"]}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "malware", "canonical_name": "OtterCookie", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "malware", "canonical_name": "FROSTYFERRET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "malware", "canonical_name": "GolangGhost", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "tool", "canonical_name": "Hashtopolis", "aliases": ["Hashtopolis password-cracking system"], "properties": {"capabilities": ["password cracking"]}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "tool", "canonical_name": "Astrill VPN", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "indicator", "canonical_name": "lianxinxiao.com", "aliases": ["lianxinxiao[.]com"], "properties": {"ioc_type": "domain", "value": "lianxinxiao.com"}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "indicator", "canonical_name": "mail.blocknovas.com", "aliases": ["mail.blocknovas[.]com"], "properties": {"ioc_type": "domain", "value": "mail.blocknovas.com"}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "indicator", "canonical_name": "attisscmo.com", "aliases": ["attisscmo[.]com"], "properties": {"ioc_type": "domain", "value": "attisscmo.com"}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "indicator", "canonical_name": "blocknovas.com", "aliases": [], "properties": {"ioc_type": "domain", "value": "blocknovas.com"}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "MetaMask", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "LinkedIn", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "Facebook", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "Khasan", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-148::ch0"]}
+{"entity_type": "identity", "canonical_name": "Khabarovsk", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-148::ch0"]}

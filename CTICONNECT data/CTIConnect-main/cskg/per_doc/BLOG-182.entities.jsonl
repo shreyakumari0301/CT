@@ -1,0 +1,4 @@
+{"entity_type": "identity", "canonical_name": "Black Lotus Labs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-182::ch0"]}
+{"entity_type": "malware", "canonical_name": "ZuoRAT", "aliases": [], "properties": {"family": "RAT"}, "source_chunks": ["BLOG-182::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-26878", "aliases": [], "properties": {"cve_id": "CVE-2020-26878"}, "source_chunks": ["BLOG-182::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-26879", "aliases": [], "properties": {"cve_id": "CVE-2020-26879"}, "source_chunks": ["BLOG-182::ch0"]}

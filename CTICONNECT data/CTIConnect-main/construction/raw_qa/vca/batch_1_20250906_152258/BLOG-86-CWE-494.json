@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Initial downloader retrieves and executes additional EXE/DLL stages from attacker C2 (unsigned, in-memory) without verifying integrity or authenticity.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to that CWE category, and 3) what are the detection methods recommended for this CWE? For example, do we need manual testing or red-team activity to confirm?",
+  "answer": "1) CWE-494: Download of Code Without Integrity Check  \n2) Mapping Explanation: The described behavior downloads additional executable code (EXE/DLL stages) and executes it without verifying its integrity or authenticity. This directly matches CWE-494, which concerns retrieving code from an external source and running it without performing an integrity check (e.g., signature or trusted verification).  \n3) Detection Methods / Modes of Introduction / Platforms: Detection typically involves security code review and architecture/design review to confirm that downloaded code is authenticated and integrity-checked before execution, plus dynamic analysis/testing to observe whether the application retrieves and runs remote code without verification. Manual testing and red-team activity can help validate the runtime behavior (e.g., intercepting/altering downloads to see if tampered code is accepted), especially where in-memory execution or staged payload delivery is involved.",
+  "llm_timing": {
+    "api_call_seconds": 5.3585
+  }
+}

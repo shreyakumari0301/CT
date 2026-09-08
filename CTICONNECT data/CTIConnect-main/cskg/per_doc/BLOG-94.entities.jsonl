@@ -1,0 +1,10 @@
+{"entity_type": "identity", "canonical_name": "Chinese C.Rufus Security Team", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-94::ch0"]}
+{"entity_type": "malware", "canonical_name": "Gh0st RAT", "aliases": [], "properties": {"family": "RAT", "platforms": ["Windows"], "first_seen": "March 2008"}, "source_chunks": ["BLOG-94::ch0"]}
+{"entity_type": "malware", "canonical_name": "SugarGh0st RAT", "aliases": [], "properties": {"family": "RAT", "capabilities": ["system information discovery", "remote access", "process manipulation", "file manipulation", "log removal", "keylogging", "screenshot capture", "camera access", "arbitrary command execution"], "platforms": ["Windows"], "first_seen": "late August 2023"}, "source_chunks": ["BLOG-94::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "China-linked actor", "aliases": [], "properties": {"regions_targeted": ["South Korea", "Uzbekistan"]}, "source_chunks": ["BLOG-94::ch0"]}
+{"entity_type": "identity", "canonical_name": "South Korean targets", "aliases": [], "properties": {"region": "South Korea"}, "source_chunks": ["BLOG-94::ch0"]}
+{"entity_type": "identity", "canonical_name": "Uzbekistan’s Ministry of Foreign Affairs", "aliases": ["Uzbekistan's Ministry of Foreign Affairs"], "properties": {"region": "Uzbekistan"}, "source_chunks": ["BLOG-94::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {"tactic": "Initial Access"}, "source_chunks": ["BLOG-94::ch0"]}
+{"entity_type": "tool", "canonical_name": "Windows .LNK shortcuts", "aliases": [".LNK shortcuts"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-94::ch0"]}
+{"entity_type": "tool", "canonical_name": "JavaScript", "aliases": [], "properties": {}, "source_chunks": ["BLOG-94::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco Talos", "aliases": [], "properties": {}, "source_chunks": ["BLOG-94::ch0"]}

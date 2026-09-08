@@ -1,0 +1,13 @@
+{"entity_type": "identity", "canonical_name": "Dragos", "aliases": [], "properties": {}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine’s CSSC", "aliases": ["CSSC"], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "malware", "canonical_name": "FrostyGoop", "aliases": [], "properties": {"capabilities": ["Modbus TCP read/write operations on operational technology"], "first_seen": "April"}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploit Public-Facing Application", "aliases": ["exploiting a MikroTik router vulnerability"], "properties": {"technique_id": "T1190", "tactic": "Initial Access"}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "identity", "canonical_name": "MikroTik router", "aliases": ["MikroTik"], "properties": {}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Server Software Component: Web Shell", "aliases": ["deployed a webshell on the router’s web server"], "properties": {"technique_id": "T1505.003", "tactic": "Persistence"}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "tool", "canonical_name": "Tor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credentials from Password Stores: Security Account Manager", "aliases": ["dumping the SAM registry hive"], "properties": {"technique_id": "T1003.002", "tactic": "Credential Access"}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "identity", "canonical_name": "Lviv apartment buildings", "aliases": ["over 600 Lviv apartment buildings"], "properties": {"region": "Lviv"}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "identity", "canonical_name": "Moscow", "aliases": ["Moscow-based"], "properties": {"region": "Moscow"}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "identity", "canonical_name": "ENCO heating controllers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Network Segmentation", "aliases": ["poor network segmentation", "immediate network segmentation"], "properties": {}, "source_chunks": ["BLOG-237::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploit Public-Facing Application (ICS/OT)", "aliases": ["unpatched ICS CVEs"], "properties": {}, "source_chunks": ["BLOG-237::ch0"]}

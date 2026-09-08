@@ -1,0 +1,13 @@
+{"entity_type": "identity", "canonical_name": "CERT-UA", "aliases": ["Ukraine’s CERT-UA"], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "campaign", "canonical_name": "January 2024 PurpleFox campaign", "aliases": [], "properties": {"first_seen": "January 2024"}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "malware", "canonical_name": "PurpleFox", "aliases": ["DirtyMoe"], "properties": {"family": "PurpleFox", "platforms": ["Windows"], "capabilities": ["rootkit", "persistence", "download second-stage payloads", "backdoor access", "DDoS"], "first_seen": "2018"}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Brute-forcing credentials", "aliases": [], "properties": {"tactic": "Credential Access"}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "identity", "canonical_name": "Avast", "aliases": [], "properties": {}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "identity", "canonical_name": "TrendMicro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "UAC-0027", "aliases": [], "properties": {}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram", "aliases": ["Telegram desktop app"], "properties": {}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "tool", "canonical_name": "Avast Free AV", "aliases": [], "properties": {}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "tool", "canonical_name": "lsblk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "tool", "canonical_name": "fdisk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "tool", "canonical_name": "mount", "aliases": [], "properties": {}, "source_chunks": ["BLOG-33::ch0"]}
+{"entity_type": "tool", "canonical_name": "rm", "aliases": [], "properties": {}, "source_chunks": ["BLOG-33::ch0"]}

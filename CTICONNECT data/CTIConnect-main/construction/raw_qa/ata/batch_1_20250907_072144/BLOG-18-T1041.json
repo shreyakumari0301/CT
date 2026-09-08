@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Finally, the attackers drop a cross-platform (Windows, macOS, Linux) keylogger tool that hooks into low-level input events and performs real-time surveillance and data exfiltration.\" What is the MITRE ATT&CK category that maps to this behavior, and please explain how this mapping is made? Additionally, how can we detect this activity in our SOC using logs, sensors, or NDR tools based on the MITRE ATT&CK detection recommendations?",
+  "answer": "1) MITRE ATT&CK Category: T1041 - Exfiltration Over C2 Channel. 2) Mapping Explanation: The deployment of the keylogger tool for real-time surveillance and data exfiltration maps to T1041 because the tool is used to capture and send sensitive data from the victim\u2019s machine back to the attacker over command and control (C2) channels. 3) Detection Methods (x_mitre_detection): Analysts should analyze network data for unusual data flows, such as a client sending significantly more data than it receives from a server, and inspect packet contents to detect communications that deviate from expected protocol behaviors on the used port.",
+  "llm_timing": {
+    "api_call_seconds": 4.9243
+  }
+}

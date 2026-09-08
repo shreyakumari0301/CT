@@ -1,0 +1,15 @@
+{"entity_type": "identity", "canonical_name": "Kaspersky", "aliases": [], "properties": {}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "malware", "canonical_name": "Necro", "aliases": ["Necro Trojan"], "properties": {"family": "Necro", "capabilities": ["exfiltrate device/app data", "command and control (C2)", "download payloads", "download modules", "display ads", "click ads", "execute JavaScript", "download executables", "download third-party apps", "proxy traffic through compromised devices", "subscribe victims to premium services"], "first_seen": "2019"}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "campaign", "canonical_name": "2019 CamScanner compromise", "aliases": [], "properties": {"first_seen": "2019"}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "identity", "canonical_name": "CamScanner", "aliases": [], "properties": {}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Play", "aliases": [], "properties": {}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "identity", "canonical_name": "Wuta Camera", "aliases": [], "properties": {}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "identity", "canonical_name": "Max Browser", "aliases": [], "properties": {}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "identity", "canonical_name": "Spotify", "aliases": [], "properties": {}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "identity", "canonical_name": "WhatsApp", "aliases": [], "properties": {}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "tool", "canonical_name": "Firebase Remote Config", "aliases": [], "properties": {"capabilities": ["remote configuration", "command and control (C2)"]}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russia", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "identity", "canonical_name": "Brazil", "aliases": [], "properties": {"region": "Brazil"}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "identity", "canonical_name": "Vietnam", "aliases": [], "properties": {"region": "Vietnam"}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ecuador", "aliases": [], "properties": {"region": "Ecuador"}, "source_chunks": ["BLOG-118::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mexico", "aliases": [], "properties": {"region": "Mexico"}, "source_chunks": ["BLOG-118::ch0"]}

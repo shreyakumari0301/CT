@@ -1,0 +1,23 @@
+{
+  "question": "A program checks a filesystem link or file and then later uses it, but an attacker can exploit the timing window to swap the link so the program follows a different target. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-26.\n- CAPEC-26 exploits race condition enabling link following, targeting CWE-363: link target can be swapped between check and use.",
+  "llm_cost": {
+    "input": 0.000769,
+    "cached_input": 0.0,
+    "output": 0.00099,
+    "total": 0.001759,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 615,
+      "cached_input": 0,
+      "output": 99
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4054
+  }
+}

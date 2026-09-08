@@ -1,0 +1,25 @@
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "investigated", "tgt_type": "threat_actor", "tgt_name": "Agonizing Serpens", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israeli higher education organizations", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israeli tech organizations", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "ASPXSpy", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Uploader.aspx", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Nbtscan", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WinEggDrop", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "uses", "tgt_type": "tool", "tgt_name": "NimScan", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Plink", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Sqlextractor", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "uses", "tgt_type": "tool", "tgt_name": "7za", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "uses", "tgt_type": "tool", "tgt_name": "7zG", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "exfiltrates_via", "tgt_type": "tool", "tgt_name": "WinSCP", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "exfiltrates_via", "tgt_type": "tool", "tgt_name": "pscp", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "uses", "tgt_type": "malware", "tgt_name": "MultiLayer", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PartialWasher", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agonizing Serpens", "predicate": "uses", "tgt_type": "malware", "tgt_name": "BFG Agonizer", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "tool", "src_name": "Nbtscan", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "systems.txt", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "tool", "src_name": "Cortex XDR", "predicate": "blocks", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "malware", "src_name": "MultiLayer", "predicate": "code_overlaps_with", "tgt_type": "malware", "tgt_name": "Apostle", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "malware", "src_name": "MultiLayer", "predicate": "code_overlaps_with", "tgt_type": "malware", "tgt_name": "IPsec Helper", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "malware", "src_name": "MultiLayer", "predicate": "code_overlaps_with", "tgt_type": "malware", "tgt_name": "Fantasy", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "tool", "src_name": "XDR", "predicate": "detects_and_prevents", "tgt_type": "threat_actor", "tgt_name": "Agonizing Serpens", "source_chunks": ["BLOG-69::ch0"]}
+{"src_type": "tool", "src_name": "XSIAM", "predicate": "detects_and_prevents", "tgt_type": "threat_actor", "tgt_name": "Agonizing Serpens", "source_chunks": ["BLOG-69::ch0"]}

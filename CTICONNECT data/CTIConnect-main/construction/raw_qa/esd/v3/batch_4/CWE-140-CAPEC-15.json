@@ -1,0 +1,23 @@
+{
+  "question": "An application accepts user input that may include special delimiter characters but fails to properly neutralize those delimiters before using the input in commands. This can let an attacker append extra commands onto legitimate ones. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-15.\n- CAPEC-15 exploits unneutralized command delimiters, targeting CWE-140: improper neutralization of delimiters enabling concatenated attacker-controlled commands.",
+  "llm_cost": {
+    "input": 0.0008,
+    "cached_input": 0.0,
+    "output": 0.00108,
+    "total": 0.00188,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 640,
+      "cached_input": 0,
+      "output": 108
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.9761
+  }
+}

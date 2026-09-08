@@ -1,0 +1,12 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "novel crimeware campaign", "source_chunks": ["BLOG-211::ch0"]}
+{"src_type": "campaign", "src_name": "novel crimeware campaign", "predicate": "active_in", "tgt_type": "identity", "tgt_name": "Czechia", "source_chunks": ["BLOG-211::ch0"]}
+{"src_type": "campaign", "src_name": "novel crimeware campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "three Czech banks", "source_chunks": ["BLOG-211::ch0"]}
+{"src_type": "campaign", "src_name": "novel crimeware campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Social engineering", "source_chunks": ["BLOG-211::ch0"]}
+{"src_type": "campaign", "src_name": "novel crimeware campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-211::ch0"]}
+{"src_type": "campaign", "src_name": "novel crimeware campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Deceptive SMS links", "source_chunks": ["BLOG-211::ch0"]}
+{"src_type": "campaign", "src_name": "novel crimeware campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Progressive Web App (PWA) abuse", "source_chunks": ["BLOG-211::ch0"]}
+{"src_type": "campaign", "src_name": "novel crimeware campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "WebAPK abuse", "source_chunks": ["BLOG-211::ch0"]}
+{"src_type": "campaign", "src_name": "novel crimeware campaign", "predicate": "harvests_via", "tgt_type": "attack_pattern", "tgt_name": "Credential harvesting", "source_chunks": ["BLOG-211::ch0"]}
+{"src_type": "campaign", "src_name": "novel crimeware campaign", "predicate": "uses", "tgt_type": "malware", "tgt_name": "NGate", "source_chunks": ["BLOG-211::ch0"]}
+{"src_type": "campaign", "src_name": "novel crimeware campaign", "predicate": "uses_fallback_tactic", "tgt_type": "attack_pattern", "tgt_name": "Illicit bank-to-bank transfers", "source_chunks": ["BLOG-211::ch0"]}
+{"src_type": "malware", "src_name": "NGate", "predicate": "incorporates", "tgt_type": "tool", "tgt_name": "NFCGate", "source_chunks": ["BLOG-211::ch0"]}

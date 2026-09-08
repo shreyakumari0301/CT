@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Historically, a PlugX infection begins by hijacking a known and trusted, digitally signed software application to load an actor-created encrypted payload. This technique has been used since 2010 and is listed in the MITRE ATT&CK techniques as Hijack execution flow DLL-Side loading ID: T1574.002 Sub-technique T1574.\" Please provide: 1) the MITRE ATT&CK technique category that maps to this behavior, 2) an explanation of how the described behavior maps to this technique, and 3) what the x_mitre_data_sources are for this technique according to the MITRE ATT&CK framework.",
+  "answer": "1) T1574.002 - DLL Side-Loading.\n2) Mapping Explanation: The behavior described in the blog involves hijacking a trusted, digitally signed application to load a malicious payload, which aligns with the DLL Side-Loading technique where an attacker leverages a legitimate process to execute a malicious DLL. This is directly referenced by the blog as the method used in this PlugX infection.\n3) x_mitre_data_sources: null. This implies that no specific telemetry or log sources are detailed in the MITRE ATT&CK entry for this technique.",
+  "llm_timing": {
+    "api_call_seconds": 5.2845
+  }
+}

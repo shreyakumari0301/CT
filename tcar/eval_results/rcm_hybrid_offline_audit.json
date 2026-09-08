@@ -1,0 +1,34 @@
+{
+  "n": 1000,
+  "stages": {
+    "dense_recall@20": 0.542,
+    "bm25_recall@20": 0.722,
+    "dense_union_bm25_recall@20": 0.833,
+    "rrf_recall@20": 0.771,
+    "taxonomy_on_dense_recall@5": 0.469,
+    "hybrid_then_taxonomy_recall@5": 0.624,
+    "dense_recall@5": 0.389
+  },
+  "dense_gold@20": 0.542,
+  "bm25_mech_gold@20": 0.722,
+  "union_gold@20": 0.833,
+  "hybrid_gold@20": 0.771,
+  "taxonomy_on_dense_gold@5": 0.469,
+  "hybrid_then_taxonomy_gold@5": 0.624,
+  "gold_in_union_lost_by_rrf": 62,
+  "gold_in_union_lost_by_rrf_rate": 0.062,
+  "baselines": {
+    "prior_dense_gold@20": 0.542,
+    "prior_taxonomy_gold@5": 0.455
+  },
+  "gate": {
+    "min_hybrid_recall@20": 0.6,
+    "min_taxonomy_recall@5": 0.455,
+    "pass": true,
+    "reasons": {
+      "hybrid@20_ok": true,
+      "taxonomy@5_ok": true
+    }
+  },
+  "elapsed_s": 454.4
+}

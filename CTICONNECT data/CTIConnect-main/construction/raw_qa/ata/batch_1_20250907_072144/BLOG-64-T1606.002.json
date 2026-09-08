@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"In a March 2023 intrusion, Peach Sandstorm conducted a Golden SAML attack to access a target\u2019s cloud resources. In a Golden SAML attack, an adversary steals private keys from a target\u2019s on-premises Active Directory Federated Services (AD FS) server and use the stolen keys to mint a SAML token trusted by a target\u2019s Microsoft 365 environment.\" Please identify: 1) the MITRE ATT&CK category that this attack maps to, 2) explain how the attack behavior maps to that category, and 3) which platforms are applicable according to the MITRE ATT&CK framework (e.g., operating systems such as Linux, macOS, Windows, ESXi)?",
+  "answer": "1) T1606.002 - SAML Tokens. 2) Mapping Explanation: The attack involves the misuse of SAML tokens by stealing private keys from an AD FS server to mint trusted tokens, directly aligning with the technique T1606.002 which focuses on the abuse of SAML tokens in cloud environments. 3) Applicable Platforms: SaaS, Windows, IaaS, Office Suite, Identity Provider.",
+  "llm_timing": {
+    "api_call_seconds": 5.9397
+  }
+}

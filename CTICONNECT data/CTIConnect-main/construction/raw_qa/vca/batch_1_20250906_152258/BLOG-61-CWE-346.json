@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'External collaboration/Teams settings allowed unsolicited chats from untrusted tenants; insufficient validation/allow\u2010listing of trusted organizations enabled spoofed \u201csupport\u201d messages to reach users.' Can you identify the CWE category that this vulnerability maps to and explain how it relates to the CWE criteria? Also, how often do attackers actually exploit this type of vulnerability in real attacks?",
+  "answer": "1) CWE Category: CWE-346 (Origin Validation Error)\n2) Mapping Explanation: The vulnerability stems from insufficient validation of origin in external collaboration settings, allowing untrusted or spoofed messages. This directly corresponds to CWE-346, which addresses errors in verifying the origin of requests or messages, leading to potential exploitation.\n3) Likelihood of Exploit: The CWE entry does not provide a specific likelihood of exploit (value is null).",
+  "llm_timing": {
+    "api_call_seconds": 4.2418
+  }
+}

@@ -1,0 +1,87 @@
+You are a Cyber Threat Intelligence (CTI) entity extractor.
+
+Given a passage from a vendor threat report, identify every named entity that
+falls into one of the following 9 STIX-aligned types. Return the result as a
+single JSON object — no prose, no code fences.
+
+## Entity Types
+
+- `threat_actor`: a named adversary or APT group (e.g., "APT29", "Lazarus Group", "Scattered Spider").
+  Properties: country, primary_motivation, sectors_targeted (list), regions_targeted (list), first_seen, last_seen.
+
+- `campaign`: a named adversarial operation over a finite time window (e.g., "Operation Aurora", "EleKtra-Leak").
+  Properties: objective, first_seen, last_seen.
+
+- `malware`: a malicious software family or instance (e.g., "LockBit", "QakBot", "Stuxnet").
+  Properties: family, capabilities (list), platforms (list), first_seen.
+
+- `tool`: a legitimate or dual-use tool used offensively (e.g., "PsExec", "Mimikatz", "AnyDesk", "Cobalt Strike" when used by adversaries).
+  Properties: capabilities (list), platforms (list).
+
+- `attack_pattern`: an offensive behaviour, typically mappable to a MITRE ATT&CK technique (e.g., "Spearphishing Attachment", "Credential Dumping").
+  Properties: technique_id (e.g., "T1566.001"), tactic.
+
+- `vulnerability`: a specific software flaw identified by a CVE ID (e.g., "CVE-2024-3400").
+  Properties: cve_id (required), cvss, severity.
+
+- `weakness`: a weakness class identified by a CWE ID (e.g., "CWE-79", "CWE-787").
+  Properties: cwe_id (required).
+
+- `indicator`: an observable IoC — IP address, domain, URL, file hash, email address.
+  Properties: ioc_type (one of: ip, domain, url, hash, email), value (the IoC itself).
+
+- `identity`: a victim entity (organisation, sector, or geographic region).
+  Properties: sector, region.
+
+## Extraction Rules
+
+1. Extract ENTITIES MENTIONED IN THE PASSAGE only. Do NOT invent facts from outside knowledge.
+2. For each entity, prefer the most canonical surface form for `canonical_name` and put alternative surface forms (in the passage) in `aliases`. If only one form appears, leave `aliases` empty.
+3. If a property is not stated in the passage, OMIT it from the JSON. Do not write `"unknown"` or `null`.
+4. Defang and refang are EQUIVALENT: treat `evil[.]com` and `evil.com` as the same indicator. Always output the refanged (un-defanged) form.
+5. Specific CVE IDs always become `vulnerability` entities; specific CWE IDs always become `weakness` entities. Tactic names (e.g., "Initial Access") are NOT attack_patterns — only specific techniques are.
+6. If the passage contains no entities, return `{"entities": []}`.
+
+## Output JSON Schema
+
+```
+{
+  "entities": [
+    {
+      "entity_type": "<one of the 9 types>",
+      "canonical_name": "<string>",
+      "aliases": ["<string>", ...],
+      "properties": { "<key>": "<value>", ... }
+    },
+    ...
+  ]
+}
+```
+
+## Example
+
+Input passage:
+"APT29 (also known as Cozy Bear and Nobelium) is a Russian state-sponsored group attributed to the SVR. In 2020, the group used the WellMess malware to target the U.S. healthcare sector. The campaign exploited CVE-2020-5902 in F5 BIG-IP devices and routed C2 traffic through 198.51.100.42."
+
+Output:
+```
+{
+  "entities": [
+    {"entity_type": "threat_actor", "canonical_name": "APT29",
+     "aliases": ["Cozy Bear", "Nobelium"],
+     "properties": {"country": "Russia", "primary_motivation": "espionage"}},
+    {"entity_type": "malware", "canonical_name": "WellMess",
+     "aliases": [], "properties": {}},
+    {"entity_type": "vulnerability", "canonical_name": "CVE-2020-5902",
+     "aliases": [], "properties": {"cve_id": "CVE-2020-5902"}},
+    {"entity_type": "identity", "canonical_name": "U.S. healthcare sector",
+     "aliases": [], "properties": {"sector": "healthcare", "region": "United States"}},
+    {"entity_type": "indicator", "canonical_name": "198.51.100.42",
+     "aliases": [], "properties": {"ioc_type": "ip", "value": "198.51.100.42"}}
+  ]
+}
+```
+
+## Passage
+
+{PASSAGE}

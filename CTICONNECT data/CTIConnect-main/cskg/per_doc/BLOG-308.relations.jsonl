@@ -1,0 +1,13 @@
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "analyzed", "tgt_type": "malware", "tgt_name": "PipeMagic", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-29824", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "targets", "tgt_type": "identity", "tgt_name": "South America", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PipeMagic", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "linked_to", "tgt_type": "malware", "tgt_name": "RansomEXX", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-29824", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "targets", "tgt_type": "identity", "tgt_name": "South America", "source_chunks": ["BLOG-308::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-308::ch0"]}

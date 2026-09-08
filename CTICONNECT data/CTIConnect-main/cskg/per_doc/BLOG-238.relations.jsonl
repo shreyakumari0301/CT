@@ -1,0 +1,30 @@
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "politically motivated sabotage campaigns", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israeli organizations", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "targets", "tgt_type": "identity", "tgt_name": "India", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Germany", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S.", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Italy", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Chile", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Turkey", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "targets", "tgt_type": "identity", "tgt_name": "UAE", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "exploits", "tgt_type": "tool", "tgt_name": "Microsoft Exchange", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMIC", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "PyDCrypt", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "DCSrv", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "StrifeWater RAT", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "campaign", "src_name": "politically motivated sabotage campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israeli organizations", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "campaign", "src_name": "politically motivated sabotage campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "India", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "campaign", "src_name": "politically motivated sabotage campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Germany", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "campaign", "src_name": "politically motivated sabotage campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S.", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "campaign", "src_name": "politically motivated sabotage campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Italy", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "campaign", "src_name": "politically motivated sabotage campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Chile", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "campaign", "src_name": "politically motivated sabotage campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Turkey", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "campaign", "src_name": "politically motivated sabotage campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "UAE", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "malware", "src_name": "PyDCrypt", "predicate": "installs", "tgt_type": "malware", "tgt_name": "DCSrv", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "malware", "src_name": "DCSrv", "predicate": "derived_from", "tgt_type": "malware", "tgt_name": "DiskCryptor", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "malware", "src_name": "StrifeWater RAT", "predicate": "masquerades_as", "tgt_type": "tool", "tgt_name": "calc.exe", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "tool", "src_name": "EDR", "predicate": "detects", "tgt_type": "malware", "tgt_name": "PyDCrypt", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "tool", "src_name": "EDR", "predicate": "detects", "tgt_type": "malware", "tgt_name": "DCSrv", "source_chunks": ["BLOG-238::ch0"]}
+{"src_type": "tool", "src_name": "EDR", "predicate": "detects", "tgt_type": "malware", "tgt_name": "StrifeWater RAT", "source_chunks": ["BLOG-238::ch0"]}

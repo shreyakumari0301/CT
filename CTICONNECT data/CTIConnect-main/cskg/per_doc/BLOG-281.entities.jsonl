@@ -1,0 +1,12 @@
+{"entity_type": "threat_actor", "canonical_name": "Ngioweb threat cluster", "aliases": ["Ngioweb"], "properties": {"first_seen": "2018", "last_seen": "early 2023"}, "source_chunks": ["BLOG-281::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2017-5638", "aliases": [], "properties": {"cve_id": "CVE-2017-5638", "severity": "high"}, "source_chunks": ["BLOG-281::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-19781", "aliases": [], "properties": {"cve_id": "CVE-2019-19781", "severity": "high"}, "source_chunks": ["BLOG-281::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-5902", "aliases": [], "properties": {"cve_id": "CVE-2020-5902", "severity": "high"}, "source_chunks": ["BLOG-281::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-44228", "aliases": ["Log4Shell"], "properties": {"cve_id": "CVE-2021-44228", "severity": "high"}, "source_chunks": ["BLOG-281::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["fileless execution", "in-memory execution", "loader"]}, "source_chunks": ["BLOG-281::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {"capabilities": ["credential theft"]}, "source_chunks": ["BLOG-281::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {"capabilities": ["command and control", "beaconing"]}, "source_chunks": ["BLOG-281::ch0"]}
+{"entity_type": "tool", "canonical_name": "Tor", "aliases": [], "properties": {"capabilities": ["anonymized command and control"]}, "source_chunks": ["BLOG-281::ch0"]}
+{"entity_type": "malware", "canonical_name": "WebLock", "aliases": [], "properties": {"family": "ransomware", "first_seen": "early 2023"}, "source_chunks": ["BLOG-281::ch0"]}
+{"entity_type": "identity", "canonical_name": "Southeast Asian financial institutions", "aliases": [], "properties": {"sector": "financial", "region": "Southeast Asia"}, "source_chunks": ["BLOG-281::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SMB lateral movement", "aliases": ["anomalous SMB lateral movements"], "properties": {"tactic": "Lateral Movement"}, "source_chunks": ["BLOG-281::ch0"]}

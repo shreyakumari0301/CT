@@ -1,0 +1,342 @@
+{
+  "cluster_id": 29,
+  "cluster_size": 3,
+  "cluster_type": "malware",
+  "blogs": [
+    {
+      "blog_id": 302,
+      "node": [
+        {
+          "node_text": "+08:00",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "1e10203174fb1fcfb47bb00cac2fe6ffe660660839b7a2f53d8c0892845b0029",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "CTI report",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "China",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Chinese holidays",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Confuser Core 1.6.0",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Daum",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Dropbox",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "GZIP header manipulation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "GitHub",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "GitHub API uploads",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Kimsuky",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "LNK/Downloader.ZRD",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "Monday-Friday",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "T1059.001",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "T1566.001",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "T1567.002",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Trellix",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "XenoRAT",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "XenoRAT payloads",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "XenoRAT/Packed.A",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "authoritative lures",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "cf2cba1859b2df4e927b8d52c630ce7ab6700babf9c7b4030f8243981b1a04fa",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "file transfers",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "foreign embassies",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "full system control",
+          "node_type": "System"
+        },
+        {
+          "node_text": "keystroke logging",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "malicious Windows shortcuts",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "multi-stage espionage operation",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "obfuscated PowerShell scripts",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "private GitHub repositories",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "scheduled tasks",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "screenshots",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "spear-phishing emails",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "system reconnaissance",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": "PS1Bot",
+      "platform": "gbhackers",
+      "type": "malware",
+      "publish_date": "2025/8/14"
+    },
+    {
+      "blog_id": 294,
+      "node": [
+        {
+          "node_text": "APAC government targets",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Billbug",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Chrome cookie stealers",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "Dropbox",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Lotus Blossom APT",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Lotus Panda",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "RAR",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Sagerunex",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Sagerunex variants",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Spring Dragon",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Twitter status updates",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Venom proxies",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Windows Management Instrumentation",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Windows Registry",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Zimbra draft emails",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "behavior-based EDR",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "breach-and-attack simulation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "public-facing application flaws",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "remote command execution",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "spear-phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "stealthy post-exploitation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "watering-hole attacks",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "zero-trust network segmentation",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "PS1Bot",
+      "platform": "cybersecuritynews",
+      "type": "malware",
+      "publish_date": "2025/8/15"
+    },
+    {
+      "blog_id": 315,
+      "node": [
+        {
+          "node_text": "DDoS-for-hire operations",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Go-based loader",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "IoT devices",
+          "node_type": "System"
+        },
+        {
+          "node_text": "NSOCKS residential proxy network",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Ngioweb",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "SSH ports",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Telnet ports",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "actors behind Ngioweb",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "ad fraud",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "credential-stuffing campaigns",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "early 2024",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "encryption",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "fallback C2 domains",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "fast-flux C2 domains",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "firmware vulnerabilities",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "obfuscation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "persistent agent",
+          "node_type": "Application"
+        }
+      ],
+      "title": "PS1Bot",
+      "platform": "thehackernews",
+      "type": "malware",
+      "publish_date": "2025/8/13"
+    }
+  ]
+}

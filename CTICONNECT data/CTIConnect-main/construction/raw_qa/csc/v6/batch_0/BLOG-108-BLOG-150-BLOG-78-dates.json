@@ -1,0 +1,7 @@
+{
+  "question": "What is the time span of the EleKtra-Leak campaign based on the earliest and latest report dates?",
+  "answer": "- Earliest report date: December 2020\n- Latest report date: October 6, 2023",
+  "llm_timing": {
+    "api_call_seconds": 5.0224
+  }
+}

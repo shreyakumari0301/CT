@@ -1,0 +1,10 @@
+id,gold,hybrid_pred,hybrid_correct,vanilla_rag_correct,prompt_top3,gold_rank_in_prompt3,gold_rank_official_pool,gold_in_prompt_top3,gold_in_pool_top5,effect,confusion_class
+rcm-20,CWE-77,CWE-78,False,False,CWE-78|CWE-77|CWE-74,2,2,True,True,neutral_wrong,correct_mechanism_wrong_abstraction
+rcm-26,CWE-22,CWE-23,False,False,CWE-22|CWE-36|CWE-23,1,1,True,True,damage,correct_mechanism_wrong_abstraction
+rcm-46,CWE-74,CWE-94,False,True,CWE-106|CWE-74|CWE-94,2,3,True,True,neutral_wrong,catalogue_candidate_overrides_kb_analogy
+rcm-58,CWE-120,CWE-121,False,False,CWE-120|CWE-121|CWE-131,1,1,True,True,neutral_wrong,correct_mechanism_wrong_abstraction
+rcm-93,CWE-120,CWE-121,False,False,CWE-120|CWE-121|CWE-131,1,1,True,True,neutral_wrong,correct_mechanism_wrong_abstraction
+rcm-103,CWE-120,CWE-805,False,False,CWE-120|CWE-805|CWE-131,1,1,True,True,neutral_wrong,catalogue_override_or_other
+rcm-116,CWE-190,CWE-680,False,False,CWE-190|CWE-680|CWE-192,1,1,True,True,damage,catalogue_override_or_other
+rcm-162,CWE-24,CWE-22,False,False,CWE-22|CWE-23|CWE-24,3,4,True,True,neutral_wrong,correct_mechanism_wrong_abstraction
+rcm-172,CWE-131,CWE-754,False,False,CWE-131|CWE-781|CWE-754,1,4,True,True,neutral_wrong,catalogue_override_or_other

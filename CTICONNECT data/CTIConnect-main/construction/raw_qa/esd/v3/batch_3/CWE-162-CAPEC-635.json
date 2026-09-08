@@ -1,0 +1,23 @@
+{
+  "question": "A system determines how to handle a file based on its name, but it fails to properly neutralize trailing special elements in the filename, allowing deception of the intended interpretation. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-635.\n- CAPEC-635 exploits deceptive filenames, targeting CWE-162: improper neutralization of trailing special elements in filenames.",
+  "llm_cost": {
+    "input": 0.000725,
+    "cached_input": 0.0,
+    "output": 0.00096,
+    "total": 0.001685,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 580,
+      "cached_input": 0,
+      "output": 96
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.1437
+  }
+}

@@ -1,0 +1,15 @@
+{"src_type": "identity", "src_name": "McAfee Mobile Research Team", "predicate": "uncovered", "tgt_type": "malware", "tgt_name": "Xamalicious", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "malware", "src_name": "Xamalicious", "predicate": "built_with", "tgt_type": "tool", "tgt_name": "Xamarin", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "malware", "src_name": "Xamalicious", "predicate": "embedded_in", "tgt_type": "identity", "tgt_name": "Google Play", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "malware", "src_name": "Xamalicious", "predicate": "associated_with", "tgt_type": "campaign", "tgt_name": "Cash Magnet", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "malware", "src_name": "Xamalicious", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Brazil", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "malware", "src_name": "Xamalicious", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Argentina", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "malware", "src_name": "Xamalicious", "predicate": "targets", "tgt_type": "identity", "tgt_name": "UK", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "malware", "src_name": "Xamalicious", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Australia", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "malware", "src_name": "Xamalicious", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "malware", "src_name": "Xamalicious", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Mexico", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "malware", "src_name": "Xamalicious", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "tool", "src_name": "Google Play Protect", "predicate": "blocks_or_removes", "tgt_type": "malware", "tgt_name": "Xamalicious", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "campaign", "src_name": "WhatsApp-based phishing campaign in India", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WhatsApp", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "campaign", "src_name": "WhatsApp-based phishing campaign in India", "predicate": "targets", "tgt_type": "identity", "tgt_name": "India", "source_chunks": ["BLOG-162::ch0"]}
+{"src_type": "campaign", "src_name": "WhatsApp-based phishing campaign in India", "predicate": "distributes", "tgt_type": "malware", "tgt_name": "fake SBI APKs", "source_chunks": ["BLOG-162::ch0"]}

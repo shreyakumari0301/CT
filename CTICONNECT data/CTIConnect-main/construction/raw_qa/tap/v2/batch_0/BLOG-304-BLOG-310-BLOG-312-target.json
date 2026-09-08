@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors or regions mentioned across these reports?",
+  "answer": "- Financial institutions and finance-related organizations (e.g., banks, payment brands, finance keywords)\n- Hospitality and tourism entities (e.g., hotels, tourist sites like the Louvre and Olympic visitors)\n- Automotive industry (e.g., major automotive firms)\n- Technology and media companies (e.g., tech platforms and news outlets)",
+  "llm_timing": {
+    "api_call_seconds": 8.0008
+  }
+}

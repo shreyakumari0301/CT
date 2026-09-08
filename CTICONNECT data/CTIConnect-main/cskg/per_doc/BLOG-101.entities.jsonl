@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "BlackBerry", "aliases": ["BlackBerry researchers"], "properties": {}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Silent Skimmer", "aliases": [], "properties": {"first_seen": "May 2023", "regions_targeted": ["Asia/Pacific", "North America", "Latin America"]}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Silent Skimmer campaign", "aliases": [], "properties": {"objective": "payment card data theft"}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-18935", "aliases": [], "properties": {"cve_id": "CVE-2019-18935"}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "identity", "canonical_name": "Progress Software", "aliases": ["Progress Software’s"], "properties": {}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "identity", "canonical_name": "Telerik UI", "aliases": ["Progress Software’s Telerik UI"], "properties": {}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Hafnium", "aliases": ["China’s Hafnium"], "properties": {"country": "China"}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "XE Group", "aliases": ["Vietnam’s XE Group"], "properties": {"country": "Vietnam"}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "tool", "canonical_name": "IIS", "aliases": ["IIS servers"], "properties": {}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "malware", "canonical_name": "malicious DLL", "aliases": [], "properties": {"platforms": ["Windows"], "capabilities": ["remote code execution"]}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": [], "properties": {}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Azure", "aliases": ["Microsoft Azure VPS-based C2 servers", "Microsoft Azure VPS"], "properties": {}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Magecart", "aliases": ["Magecart tactics"], "properties": {}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "identity", "canonical_name": "British Airways", "aliases": [], "properties": {}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ticketmaster", "aliases": [], "properties": {}, "source_chunks": ["BLOG-101::ch0"]}
+{"entity_type": "identity", "canonical_name": "Newegg", "aliases": [], "properties": {}, "source_chunks": ["BLOG-101::ch0"]}

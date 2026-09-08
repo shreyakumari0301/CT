@@ -1,0 +1,31 @@
+{"entity_type": "malware", "canonical_name": "RansomHub", "aliases": [], "properties": {"first_seen": "February 2024", "family": "Knight ransomware family", "capabilities": ["credential harvesting", "remote system discovery", "lateral movement", "persistence", "defense evasion", "data exfiltration", "file encryption"], "platforms": ["Windows", "ESXi"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "malware", "canonical_name": "Knight", "aliases": [], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {"capabilities": ["remote execution"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["scripting", "execution"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "Python", "aliases": ["Python scripts"], "properties": {"capabilities": ["scripting", "execution"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {"capabilities": ["credential dumping"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "LaZagne", "aliases": [], "properties": {"capabilities": ["credential harvesting"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "malware", "canonical_name": "SecretServerSecretStealer", "aliases": [], "properties": {"capabilities": ["credential stealing"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-27532", "aliases": [], "properties": {"cve_id": "CVE-2023-27532"}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "identity", "canonical_name": "Veeam Backup & Replication", "aliases": [], "properties": {}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "indicator", "canonical_name": "disableAV.bat", "aliases": [], "properties": {"ioc_type": "hash", "value": "disableAV.bat"}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "indicator", "canonical_name": "BAT.KAPROCHANDLER.A", "aliases": [], "properties": {"ioc_type": "hash", "value": "BAT.KAPROCHANDLER.A"}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "malware", "canonical_name": "STONESTOP", "aliases": ["STONESTOP binary"], "properties": {}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "malware", "canonical_name": "POORTRY", "aliases": ["POORTRY driver"], "properties": {}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "TDSSKiller", "aliases": [], "properties": {"capabilities": ["security tool misuse"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "EDR Kill Shifter", "aliases": [], "properties": {"capabilities": ["defense evasion"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Bring Your Own Vulnerable Driver (BYOVD)", "aliases": ["BYOVD"], "properties": {}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "IOBit Unlocker", "aliases": [], "properties": {"capabilities": ["defense evasion"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "Impacket", "aliases": ["Impacket-based SMB spreader"], "properties": {"capabilities": ["SMB lateral movement"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "identity", "canonical_name": "vCenter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "Atera", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "Splashtop", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "Ngrok", "aliases": [], "properties": {"capabilities": ["tunneling"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "Screen Connect", "aliases": ["ScreenConnect"], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "Remmina", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "tool", "canonical_name": "RClone", "aliases": [], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": ["U.S."], "properties": {"region": "United States"}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "identity", "canonical_name": "Malaysia", "aliases": [], "properties": {"region": "Malaysia"}, "source_chunks": ["BLOG-196::ch0"]}
+{"entity_type": "identity", "canonical_name": "small educational enterprises", "aliases": [], "properties": {"sector": "education"}, "source_chunks": ["BLOG-196::ch0"]}

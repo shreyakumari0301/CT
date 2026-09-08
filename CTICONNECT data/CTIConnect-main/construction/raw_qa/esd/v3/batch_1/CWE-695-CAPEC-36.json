@@ -1,0 +1,23 @@
+{
+  "question": "A system exposes low-level internal interfaces or functionality that developers did not intend to be publicly available. An attacker may discover and invoke these hidden entry points, especially if they lack authentication, to trigger unauthorized actions. Which CAPEC attack pattern exploits this weakness, and why can it take advantage of it?",
+  "answer": "- CAPEC-36.\n- CAPEC-36 exploits access to unpublished interfaces, targeting CWE-695: reliance on low-level functionality that exposes unintended internal entry points.",
+  "llm_cost": {
+    "input": 0.000704,
+    "cached_input": 0.0,
+    "output": 0.00109,
+    "total": 0.001794,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 563,
+      "cached_input": 0,
+      "output": 109
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3859
+  }
+}

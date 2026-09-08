@@ -1,0 +1,7 @@
+{
+  "question": "What are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- PS1Bot\n- AHK Bot\n- Skitnet",
+  "llm_timing": {
+    "api_call_seconds": 5.6103
+  }
+}

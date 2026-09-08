@@ -1,0 +1,28 @@
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "shifted_from_registrar", "tgt_type": "identity", "tgt_name": "NameCheap", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses_registrar", "tgt_type": "identity", "tgt_name": "Hostinger", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses_registrar", "tgt_type": "identity", "tgt_name": "RealTime Register", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses_registrar", "tgt_type": "identity", "tgt_name": "GMO Internet", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "embeds", "tgt_type": "tool", "tgt_name": "Microsoft 365 Safe Links", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Evilginx", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "AiTM spear-phishing campaigns", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses", "tgt_type": "identity", "tgt_name": "OneDrive", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses", "tgt_type": "identity", "tgt_name": "ProtonMail", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "politics", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "diplomacy", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "NGOs", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "think tanks", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses", "tgt_type": "identity", "tgt_name": "HubSpot", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses", "tgt_type": "identity", "tgt_name": "MailerLite", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Domain Generation Algorithms", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "publicly_exposed", "tgt_type": "threat_actor", "tgt_name": "Star Blizzard", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Digital Crimes Unit", "predicate": "disrupted_infrastructure_of", "tgt_type": "threat_actor", "tgt_name": "Star Blizzard", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Digital Crimes Unit", "predicate": "collaborates_with", "tgt_type": "identity", "tgt_name": "UK NCSC", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Digital Crimes Unit", "predicate": "collaborates_with", "tgt_type": "identity", "tgt_name": "NSA", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Digital Crimes Unit", "predicate": "collaborates_with", "tgt_type": "identity", "tgt_name": "FBI", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "tool", "src_name": "Evilginx", "predicate": "hosted_on", "tgt_type": "indicator", "tgt_name": "vidmemax.com", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft 365 Safe Links", "predicate": "passes_through", "tgt_type": "identity", "tgt_name": "Bitly", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft 365 Safe Links", "predicate": "passes_through", "tgt_type": "identity", "tgt_name": "Cuttly", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft 365 Safe Links", "predicate": "passes_through", "tgt_type": "indicator", "tgt_name": "mechengsys.net", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft 365 Safe Links", "predicate": "redirects_to", "tgt_type": "indicator", "tgt_name": "vidmemax.com", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "campaign", "src_name": "AiTM spear-phishing campaigns", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Adversary-in-the-Middle", "source_chunks": ["BLOG-65::ch0"]}
+{"src_type": "campaign", "src_name": "AiTM spear-phishing campaigns", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing via Service", "source_chunks": ["BLOG-65::ch0"]}

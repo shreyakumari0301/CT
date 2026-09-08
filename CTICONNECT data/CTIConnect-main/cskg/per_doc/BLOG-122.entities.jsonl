@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "Avast", "aliases": [], "properties": {}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lazarus Group", "aliases": ["Lazarus group", "Lazarus", "Hidden Cobra", "ZINC", "Diamond Sleet", "Labyrinth Chollima", "Guardians of Peace"], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "malware", "canonical_name": "FudModule", "aliases": ["FudModule rootkit"], "properties": {"capabilities": ["rootkit", "defense evasion"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "malware", "canonical_name": "remote access trojan", "aliases": ["RAT"], "properties": {"capabilities": ["remote access", "persistence"]}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-21338", "aliases": [], "properties": {"cve_id": "CVE-2024-21338"}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "tool", "canonical_name": "AppLocker", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "indicator", "canonical_name": "appid.sys", "aliases": ["AppLocker “appid.sys” driver"], "properties": {"ioc_type": "hash", "value": "appid.sys"}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privilege Escalation", "aliases": ["Windows zero-day privilege escalation"], "properties": {"tactic": "Privilege Escalation"}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Bring Your Own Vulnerable Driver (BYOVD)", "aliases": ["BYOVD"], "properties": {}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Fileless Attack", "aliases": ["fileless kernel attack"], "properties": {}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Rootkit", "aliases": ["rootkit"], "properties": {}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "identity", "canonical_name": "AhnLab V3", "aliases": [], "properties": {}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "identity", "canonical_name": "Defender", "aliases": [], "properties": {}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "identity", "canonical_name": "CrowdStrike Falcon", "aliases": [], "properties": {}, "source_chunks": ["BLOG-122::ch0"]}
+{"entity_type": "identity", "canonical_name": "HitmanPro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-122::ch0"]}

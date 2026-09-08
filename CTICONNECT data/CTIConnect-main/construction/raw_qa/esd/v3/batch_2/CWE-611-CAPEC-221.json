@@ -1,0 +1,23 @@
+{
+  "question": "An application parses serialized data like XML and allows external entity references without properly restricting them. An attacker can supply crafted entities pointing to URIs that trigger excessive resource consumption. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-221.\n- CAPEC-221 exploits unrestricted external entity resolution, targeting CWE-611: improper restriction of XML external entity references.",
+  "llm_cost": {
+    "input": 0.000753,
+    "cached_input": 0.0,
+    "output": 0.00095,
+    "total": 0.001703,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 602,
+      "cached_input": 0,
+      "output": 95
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4349
+  }
+}

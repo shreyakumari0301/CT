@@ -1,0 +1,230 @@
+{
+  "cluster_id": 49,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 276,
+      "node": [
+        {
+          "node_text": "Duuzer",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Germany",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Lazarus Group",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "McAfee",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Microsoft Word",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "October 25",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Operation Sharpshooter",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Rising Sun",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "September 2017",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Turkey",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "United Kingdom",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "United States",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "command-and-control servers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "reconnaissance",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "system data",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "Sharpshooter",
+      "platform": "threatPost",
+      "type": "campaign",
+      "publish_date": "2019/3/3"
+    },
+    {
+      "blog_id": 270,
+      "node": [
+        {
+          "node_text": "Lazarus Group",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "McAfee",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Microsoft Word",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "October–November 2018",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Operation Sharpshooter",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Rising Sun",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "United States",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "command server",
+          "node_type": "System"
+        },
+        {
+          "node_text": "critical-infrastructure organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "in-memory downloader",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "social-engineering vectors",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "weaponized document",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "weaponized macros",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "Sharpshooter",
+      "platform": "techtarget",
+      "type": "campaign",
+      "publish_date": "2018/12/13"
+    },
+    {
+      "blog_id": 254,
+      "node": [
+        {
+          "node_text": "34.214.99.20/view_style.php",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "8106a30bd35526bded384627d8eebce15da35d17",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "Duuzer Trojan",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Lazarus Group",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "McAfee Advanced Threat Research team",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "October to November 2018",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Operation Sharpshooter",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Rising Sun",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "account discovery",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "automated encrypted exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "defense organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "energy organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "file/directory discovery",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "financial organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "hxxp://208.117.44.112/Strategic Planning Manager.doc",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "in-memory implant",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "macro-enabled loader",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "nuclear organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "process discovery",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "process injection",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "system/network discovery",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": "Sharpshooter",
+      "platform": "mcafee",
+      "type": "campaign",
+      "publish_date": "2018/12/12"
+    }
+  ]
+}

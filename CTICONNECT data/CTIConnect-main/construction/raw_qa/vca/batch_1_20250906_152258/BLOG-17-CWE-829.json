@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Supply-chain compromises of regional MSPs/IT providers let attackers inherit trusted access into multiple client environments.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) at what stage developers typically introduce this issue?",
+  "answer": "1) CWE-829: Inclusion of Functionality from Untrusted Control Sphere  \n2) Mapping Explanation: This scenario describes a supply-chain compromise where functionality/services originating outside the intended trust boundary (a third-party MSP/IT provider) become effectively trusted within multiple client environments. That aligns with CWE-829 because attackers can introduce or control functionality from an untrusted control sphere and have it operate with inherited trusted access.  \n3) Modes of Introduction / Stage: Typically introduced during procurement/vendor selection and system integration/deployment, when organizations decide to rely on and connect external providers’ tools, agents, or remote management capabilities into internal environments without sufficiently constraining that external control sphere.",
+  "llm_timing": {
+    "api_call_seconds": 4.6028
+  }
+}

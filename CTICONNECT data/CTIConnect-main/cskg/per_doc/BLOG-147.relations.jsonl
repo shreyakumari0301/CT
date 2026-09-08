@@ -1,0 +1,18 @@
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "subcluster_of", "tgt_type": "threat_actor", "tgt_name": "APT34", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Kurdish government entities", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Iraqi government entities", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "initially_compromised", "tgt_type": "identity", "tgt_name": "KRG", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "initially_compromised", "tgt_type": "identity", "tgt_name": "Uzbekistan telecom provider", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Social engineering", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Flog", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Shahmaran", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Whisper", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Spearal", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Optimizer", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Slippery Snakelet", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Laret", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Pinar", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "leverages", "tgt_type": "malware", "tgt_name": "PrimeCache", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "leverages", "tgt_type": "malware", "tgt_name": "Hawking Listener", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "malware", "src_name": "Spearal", "predicate": "has_optimized_variant", "tgt_type": "malware", "tgt_name": "Optimizer", "source_chunks": ["BLOG-147::ch0"]}
+{"src_type": "malware", "src_name": "PrimeCache", "predicate": "akin_to", "tgt_type": "malware", "tgt_name": "RDAT", "source_chunks": ["BLOG-147::ch0"]}

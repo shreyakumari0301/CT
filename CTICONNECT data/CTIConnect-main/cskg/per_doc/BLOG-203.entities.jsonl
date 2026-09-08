@@ -1,0 +1,24 @@
+{"entity_type": "campaign", "canonical_name": "Operation RoundPress", "aliases": [], "properties": {"first_seen": "2023"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT28", "aliases": ["Sednit", "Fancy Bear", "Sednit group", "Sofacy", "STRONTIUM", "Pawn Storm", "Forest Blizzard", "Tsar Team"], "properties": {}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spear-phishing emails", "aliases": ["spear-phishing"], "properties": {}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Cross-site scripting (XSS)", "aliases": ["XSS exploits", "XSS"], "properties": {}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "malware", "canonical_name": "SpyPress", "aliases": ["SpyPress JavaScript"], "properties": {"capabilities": ["credential theft", "data exfiltration", "email content collection", "contact list theft", "persistence"]}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration over HTTP POST", "aliases": ["exfiltrates credentials, contacts and email content via HTTP POST"], "properties": {}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Email forwarding rule persistence (Sieve rules)", "aliases": ["persistent Sieve-based forwarding rules", "server-side mail rules"], "properties": {}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Bypass two-factor authentication", "aliases": ["bypasses two-factor authentication"], "properties": {}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-35730", "aliases": [], "properties": {"cve_id": "CVE-2020-35730"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-11182", "aliases": ["zero-day CVE-2024-11182"], "properties": {"cve_id": "CVE-2024-11182"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-43770", "aliases": [], "properties": {"cve_id": "CVE-2023-43770"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-27443", "aliases": [], "properties": {"cve_id": "CVE-2024-27443"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "Roundcube", "aliases": [], "properties": {}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "MDaemon", "aliases": [], "properties": {}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zimbra", "aliases": [], "properties": {}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "Horde", "aliases": [], "properties": {}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "governmental entities in Eastern Europe", "aliases": ["governmental entities"], "properties": {"sector": "government", "region": "Eastern Europe"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense entities in Eastern Europe", "aliases": ["defense entities"], "properties": {"sector": "defense", "region": "Eastern Europe"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "Bulgaria", "aliases": [], "properties": {"region": "Bulgaria"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "Romania", "aliases": [], "properties": {"region": "Romania"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "Africa", "aliases": [], "properties": {"region": "Africa"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-203::ch0"]}
+{"entity_type": "identity", "canonical_name": "South America", "aliases": [], "properties": {"region": "South America"}, "source_chunks": ["BLOG-203::ch0"]}

@@ -1,0 +1,14 @@
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "North Korea", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "uses", "tgt_type": "malware", "tgt_name": "AppleSeed", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "uses", "tgt_type": "malware", "tgt_name": "AlphaSeed", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Meterpreter", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "uses", "tgt_type": "tool", "tgt_name": "TightVNC", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "uses", "tgt_type": "malware", "tgt_name": "TinyNuke", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "targets", "tgt_type": "identity", "tgt_name": "South Korean entities", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "creates_fraudulent_personas_on", "tgt_type": "tool", "tgt_name": "LinkedIn", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "creates_fraudulent_personas_on", "tgt_type": "tool", "tgt_name": "GitHub", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "malware", "src_name": "AlphaSeed", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "chromedp", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "malware", "src_name": "JavaScript dropper", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "AppleSeed", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "malware", "src_name": "JavaScript dropper", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "AlphaSeed", "source_chunks": ["BLOG-153::ch0"]}
+{"src_type": "identity", "src_name": "U.S.", "predicate": "sanctioned", "tgt_type": "threat_actor", "tgt_name": "Kimsuky", "source_chunks": ["BLOG-153::ch0"]}

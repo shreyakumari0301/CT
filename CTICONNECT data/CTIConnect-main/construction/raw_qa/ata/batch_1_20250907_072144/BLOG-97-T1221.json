@@ -1,0 +1,7 @@
+{
+  "question": "In a security blog I recently read: \"Attackers are exploiting a 6-year-old Microsoft Office remote code execution (RCE) flaw to deliver spyware, in an email campaign weaponized by malicious Excel attachments...\". Please provide: 1) the MITRE ATT&CK category for this attack, 2) an explanation of how this behavior maps to that technique, and 3) what detection methods (x_mitre_detection) are suggested by MITRE ATT&CK. How can we detect this in our SOC using logs, sensors, or NDR tools?",
+  "answer": "1) MITRE ATT&CK Category: T1221 - Template Injection.\n2) Mapping Explanation: Although the blog points to the exploitation of an Office RCE flaw via malicious Excel attachments, this behavior aligns with T1221 in that an attacker can abuse features in document templates to trigger remote code execution. The crafted content in Office documents can be used to modify document behavior (for example, by retrieving external resources), thus mapping to the concept of template injection.\n3) Detection Methods: According to x_mitre_detection, detections should focus on analyzing process behavior associated with user document applications (such as Office). This includes monitoring for network connections, file reads, the spawning of abnormal child processes (like unexpected PowerShell instances), and inspecting .rtf files for modified <code>*\\template</code> control words that might indicate URL resource retrieval.",
+  "llm_timing": {
+    "api_call_seconds": 6.6594
+  }
+}

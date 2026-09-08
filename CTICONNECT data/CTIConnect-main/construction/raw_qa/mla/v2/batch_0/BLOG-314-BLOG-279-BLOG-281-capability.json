@@ -1,0 +1,7 @@
+{
+  "question": "What is the most notable new capability that appeared in later variants compared to earlier ones, based on the provided reports?",
+  "answer": "- 2017: Domain generation algorithm with DNS TXT augmentation for resilient C2\n- 2018\u20132021: Exploitation of Apache Struts, Citrix ADC, F5 BIG-IP and Log4Shell vulnerabilities; fileless PowerShell loaders; Mimikatz credential theft; Cobalt Strike beacons over Tor\n- 2022: JavaScript supply-chain implant leading to mass customer record exfiltration and cryptojacking\n- Early 2023: Introduction of \u201cWebLock\u201d ransomware demanding multimillion-dollar extortion payments\n- Early 2024: Deployment of a lightweight Go-based loader on IoT devices establishing encrypted SOCKS5 tunnels to build a 150,000-node residential proxy network (NSOCKS)\nMost Notable New Capability: Lightweight Go-based loader creating encrypted SOCKS5 residential proxies via compromised IoT devices",
+  "llm_timing": {
+    "api_call_seconds": 13.8504
+  }
+}

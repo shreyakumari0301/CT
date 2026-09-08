@@ -1,0 +1,12 @@
+{"entity_type": "identity", "canonical_name": "Apple", "aliases": [], "properties": {}, "source_chunks": ["BLOG-179::ch0"]}
+{"entity_type": "identity", "canonical_name": "iOS 15.6.1", "aliases": [], "properties": {}, "source_chunks": ["BLOG-179::ch0"]}
+{"entity_type": "identity", "canonical_name": "macOS Monterey 12.5.1", "aliases": [], "properties": {}, "source_chunks": ["BLOG-179::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-32894", "aliases": [], "properties": {"cve_id": "CVE-2022-32894"}, "source_chunks": ["BLOG-179::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-32893", "aliases": [], "properties": {"cve_id": "CVE-2022-32893"}, "source_chunks": ["BLOG-179::ch0"]}
+{"entity_type": "identity", "canonical_name": "WebKit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-179::ch0"]}
+{"entity_type": "identity", "canonical_name": "Safari", "aliases": [], "properties": {}, "source_chunks": ["BLOG-179::ch0"]}
+{"entity_type": "malware", "canonical_name": "Pegasus", "aliases": ["Pegasus-style spyware"], "properties": {"family": "spyware"}, "source_chunks": ["BLOG-179::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google", "aliases": [], "properties": {}, "source_chunks": ["BLOG-179::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-179::ch0"]}
+{"entity_type": "identity", "canonical_name": "journalists", "aliases": [], "properties": {}, "source_chunks": ["BLOG-179::ch0"]}
+{"entity_type": "identity", "canonical_name": "activists", "aliases": [], "properties": {}, "source_chunks": ["BLOG-179::ch0"]}

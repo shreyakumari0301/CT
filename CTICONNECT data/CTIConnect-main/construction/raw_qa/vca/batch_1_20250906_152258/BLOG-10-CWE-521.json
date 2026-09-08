@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Successful brute-force attacks against exposed MS-SQL services indicate weak or guessable credentials.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this incident maps to that CWE, and 3) what are the common consequences (e.g., what business risks do we face such as account takeover or unauthorized access)?",
+  "answer": "1) CWE-521: Weak Password Requirements\n2) Mapping Explanation: The vulnerability described in the blog stems from insufficient password strength requirements, allowing brute-force attacks to succeed against MS-SQL services. This directly maps to CWE-521 since it highlights the risks associated with weak or guessable passwords.\n3) Common Consequences:\n   1. Scope: Access Control\n   2. Impact: Gain Privileges or Assume Identity\n   3. Note: Attackers could easily guess user passwords, leading to unauthorized access or account takeover.",
+  "llm_timing": {
+    "api_call_seconds": 5.0758
+  }
+}

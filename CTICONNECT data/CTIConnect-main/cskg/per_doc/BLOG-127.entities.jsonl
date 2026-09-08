@@ -1,0 +1,8 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-28085", "aliases": ["WallEscape"], "properties": {"cve_id": "CVE-2024-28085"}, "source_chunks": ["BLOG-127::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ubuntu 22.04", "aliases": [], "properties": {}, "source_chunks": ["BLOG-127::ch0"]}
+{"entity_type": "identity", "canonical_name": "Debian Bookworm", "aliases": [], "properties": {}, "source_chunks": ["BLOG-127::ch0"]}
+{"entity_type": "identity", "canonical_name": "CentOS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-127::ch0"]}
+{"entity_type": "identity", "canonical_name": "Red Hat", "aliases": [], "properties": {}, "source_chunks": ["BLOG-127::ch0"]}
+{"entity_type": "tool", "canonical_name": "sudo", "aliases": [], "properties": {}, "source_chunks": ["BLOG-127::ch0"]}
+{"entity_type": "tool", "canonical_name": "OpenSSH", "aliases": [], "properties": {}, "source_chunks": ["BLOG-127::ch0"]}
+{"entity_type": "identity", "canonical_name": "NIST", "aliases": [], "properties": {}, "source_chunks": ["BLOG-127::ch0"]}

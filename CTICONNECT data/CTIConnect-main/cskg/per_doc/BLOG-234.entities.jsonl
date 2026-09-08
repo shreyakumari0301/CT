@@ -1,0 +1,26 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "malware", "canonical_name": "WastedLocker", "aliases": [], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Evil Corp", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "malware", "canonical_name": "Dridex", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "identity", "canonical_name": "large U.S. organizations", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "identity", "canonical_name": "legal services", "aliases": [], "properties": {"sector": "legal services"}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Masquerading as legitimate updates", "aliases": ["ZIP files masquerading as legitimate updates"], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "tool", "canonical_name": "SocGholish", "aliases": [], "properties": {"platforms": ["JavaScript"]}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral movement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privilege escalation", "aliases": ["elevate privileges"], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "tool", "canonical_name": "Windows Defender", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Delete shadow copies", "aliases": ["delete shadow copies"], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".<victim_name>wasted", "aliases": [], "properties": {"ioc_type": "hash", "value": ".<victim_name>wasted"}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".<victim_name>wasted_info", "aliases": [], "properties": {"ioc_type": "hash", "value": ".<victim_name>wasted_info"}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "identity", "canonical_name": "ProtonMail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "identity", "canonical_name": "Airmail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "tool", "canonical_name": "WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "tool", "canonical_name": "NGFW DNS signatures", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}
+{"entity_type": "tool", "canonical_name": "AutoFocus", "aliases": [], "properties": {}, "source_chunks": ["BLOG-234::ch0"]}

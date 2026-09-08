@@ -1,0 +1,20 @@
+{"entity_type": "malware", "canonical_name": "RansomEXX", "aliases": [], "properties": {"family": "ransomware", "first_seen": "2021-03-31"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "campaign", "canonical_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "aliases": [], "properties": {"first_seen": "2021-03-31", "last_seen": "2022-03-31"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing sector", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "identity", "canonical_name": "education sector", "aliases": [], "properties": {"sector": "education"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "identity", "canonical_name": "banking sector", "aliases": [], "properties": {"sector": "banking"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S.", "aliases": ["United States"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "identity", "canonical_name": "France", "aliases": [], "properties": {"region": "France"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "identity", "canonical_name": "Brazil", "aliases": [], "properties": {"region": "Brazil"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwanese hardware manufacturer", "aliases": [], "properties": {"sector": "hardware", "region": "Taiwan"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Impair Defenses: Disable or Modify Tools", "aliases": ["disabling tools (T1562.001)"], "properties": {"technique_id": "T1562.001"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data Encrypted for Impact", "aliases": ["maximize impact (T1486)"], "properties": {"technique_id": "T1486"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Inhibit System Recovery", "aliases": ["maximize impact (T1490)"], "properties": {"technique_id": "T1490"}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "malware", "canonical_name": "IcedID", "aliases": ["BokBot", "Bokbot"], "properties": {}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "malware", "canonical_name": "TrickBot", "aliases": ["TrickLoader"], "properties": {}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["Cobalt Strike beacons", "CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "malware", "canonical_name": "PyXie RAT", "aliases": ["PyXie"], "properties": {}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "malware", "canonical_name": "VATET loader", "aliases": ["VATET"], "properties": {}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "tool", "canonical_name": "LaZagne", "aliases": [], "properties": {}, "source_chunks": ["BLOG-195::ch0"]}
+{"entity_type": "tool", "canonical_name": "Trend Micro Vision One", "aliases": ["Trend Micro Vision One™"], "properties": {}, "source_chunks": ["BLOG-195::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name across these reports, resolving any aliases mentioned, and what are its key affiliations and tools used in its global espionage campaigns?",
+  "answer": "- Canonical Threat Actor Name: FishMonger\n- Aliases: Aquatic Panda\n- Affiliation: iSoon APT contractor (Axun Information Technology) operating under China's Ministry of Public Security, Ministry of State Security and PLA\n- Primary Campaign: FishMedley (Operation FishMedley)\n- Tools/Malware: ShadowPad backdoor, Spyder loader, SodaMaster loader, RPipeCommander reverse shell, SilentBreeze backdoor\n- Tactics: Phishing and credential theft to harvest high-privilege accounts, template-injected Office documents, scheduled PowerShell tasks, DLL side-loading, use of third-party proxies for C2\n- Targets: Government bodies, Catholic charities, NGOs and think tanks in Taiwan, Thailand, Hungary, Turkey, the US and France",
+  "llm_timing": {
+    "api_call_seconds": 10.0363
+  }
+}

@@ -1,0 +1,10 @@
+{"src_type": "malware", "src_name": "Android trojans", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Indian Android users", "source_chunks": ["BLOG-59::ch0"]}
+{"src_type": "malware", "src_name": "Android trojans", "predicate": "exfiltrates_to", "tgt_type": "indicator", "tgt_name": "biogenetic-flake.000webhostapp.com/add.php", "source_chunks": ["BLOG-59::ch0"]}
+{"src_type": "malware", "src_name": "Android trojans", "predicate": "exfiltrates_to", "tgt_type": "indicator", "tgt_name": "biogenetic-flake.000webhostapp.com/save_sms.php", "source_chunks": ["BLOG-59::ch0"]}
+{"src_type": "malware", "src_name": "Android trojans", "predicate": "evolves_from", "tgt_type": "campaign", "tgt_name": "Rewards plus campaigns", "source_chunks": ["BLOG-59::ch0"]}
+{"src_type": "campaign", "src_name": "Rewards plus campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Indian Android users", "source_chunks": ["BLOG-59::ch0"]}
+{"src_type": "campaign", "src_name": "Rewards plus campaigns", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WhatsApp", "source_chunks": ["BLOG-59::ch0"]}
+{"src_type": "campaign", "src_name": "Rewards plus campaigns", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Telegram", "source_chunks": ["BLOG-59::ch0"]}
+{"src_type": "campaign", "src_name": "Rewards plus campaigns", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Social engineering", "source_chunks": ["BLOG-59::ch0"]}
+{"src_type": "campaign", "src_name": "Rewards plus campaigns", "predicate": "distributes", "tgt_type": "malware", "tgt_name": "Android trojans", "source_chunks": ["BLOG-59::ch0"]}
+{"src_type": "indicator", "src_name": "6812a82edcb49131a990acd88ed5f6d73da9f536b60ee751184f27265ea769ee", "predicate": "indicator_of", "tgt_type": "malware", "tgt_name": "Android trojans", "source_chunks": ["BLOG-59::ch0"]}

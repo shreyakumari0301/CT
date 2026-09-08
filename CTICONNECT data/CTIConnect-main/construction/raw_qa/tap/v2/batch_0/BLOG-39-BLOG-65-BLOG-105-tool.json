@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary tool or malware family consistently used by this threat actor across these reports?",
+  "answer": "- Primary Tool/Malware Family: SPICA, a custom Rust-based backdoor",
+  "llm_timing": {
+    "api_call_seconds": 6.8539
+  }
+}

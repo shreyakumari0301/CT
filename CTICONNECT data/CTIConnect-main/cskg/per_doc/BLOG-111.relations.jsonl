@@ -1,0 +1,12 @@
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukraine’s government", "source_chunks": ["BLOG-111::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense firms in Bulgaria", "source_chunks": ["BLOG-111::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense firms in Romania", "source_chunks": ["BLOG-111::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "targets", "tgt_type": "identity", "tgt_name": "French organizations", "source_chunks": ["BLOG-111::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-35730", "source_chunks": ["BLOG-111::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-43770", "source_chunks": ["BLOG-111::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-11182", "source_chunks": ["BLOG-111::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses", "tgt_type": "malware", "tgt_name": "SpyPress", "source_chunks": ["BLOG-111::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "APT28", "source_chunks": ["BLOG-111::ch0"]}
+{"src_type": "malware", "src_name": "SpyPress", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-35730", "source_chunks": ["BLOG-111::ch0"]}
+{"src_type": "malware", "src_name": "SpyPress", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-43770", "source_chunks": ["BLOG-111::ch0"]}
+{"src_type": "malware", "src_name": "SpyPress", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-11182", "source_chunks": ["BLOG-111::ch0"]}

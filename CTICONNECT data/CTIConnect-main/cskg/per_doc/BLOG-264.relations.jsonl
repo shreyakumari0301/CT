@@ -1,0 +1,12 @@
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "energy organizations in and around Saudi Arabia", "source_chunks": ["BLOG-264::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government organizations in and around Saudi Arabia", "source_chunks": ["BLOG-264::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "technology organizations in and around Saudi Arabia", "source_chunks": ["BLOG-264::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Saudi Arabia", "source_chunks": ["BLOG-264::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-264::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Pupy RAT", "source_chunks": ["BLOG-264::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "linked_to", "tgt_type": "threat_actor", "tgt_name": "Rocket Kitten", "source_chunks": ["BLOG-264::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "APT34", "source_chunks": ["BLOG-264::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "shares_infrastructure_with", "tgt_type": "campaign", "tgt_name": "Shamoon 2 campaign", "source_chunks": ["BLOG-264::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "shares_initial_breach_methods_with", "tgt_type": "campaign", "tgt_name": "Shamoon 2 campaign", "source_chunks": ["BLOG-264::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "code_similarities_tie_to", "tgt_type": "threat_actor", "tgt_name": "Charming Kitten", "source_chunks": ["BLOG-264::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "tool", "tgt_name": "MacDownloader", "source_chunks": ["BLOG-264::ch0"]}

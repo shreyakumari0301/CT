@@ -1,0 +1,23 @@
+{
+  "question": "A system uses special bit fields intended to be write-once, but it does not properly prevent later modifications after the first write. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-680.\n- CAPEC-680 exploits modifiable write-once bit fields, targeting CWE-1224: improper restriction of write-once bit fields.",
+  "llm_cost": {
+    "input": 0.000704,
+    "cached_input": 0.0,
+    "output": 0.00093,
+    "total": 0.001634,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 563,
+      "cached_input": 0,
+      "output": 93
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4642
+  }
+}

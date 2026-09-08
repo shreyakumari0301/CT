@@ -1,0 +1,155 @@
+{
+  "attack_bundle": {
+    "path": "/mnt/c/Users/SK/CTI-Chatbot/data/ctibench_taa/enterprise-attack.json",
+    "n_relationships": 21262,
+    "attack_spec_version": "3.3.0",
+    "matrix_version": "2.0",
+    "matrix_modified": "2026-07-31T18:48:31.315Z"
+  },
+  "summaries": {
+    "damages": {
+      "label": "damages",
+      "n": 50,
+      "pred_rel_dist": {
+        "generic": 12,
+        "group": 9,
+        "software": 6,
+        "mitigation": 9,
+        "datasource": 7,
+        "tactic": 5,
+        "detection": 1,
+        "platform": 1
+      },
+      "relation_classification_proxy_acc": 0.16,
+      "gold_option_evidence_coverage_pred": 0.22,
+      "gold_option_evidence_coverage_best_rel": 0.3,
+      "unique_supported_option_rate": 0.18,
+      "unique_correct_rate": 0.16,
+      "unique_wrong_rate": 0.02,
+      "damages_fixed": 8,
+      "rescues_threatened": 0,
+      "both_wrong_recovered": 0,
+      "sim_acc": 0.16,
+      "rag_acc": 0.0
+    },
+    "rescues": {
+      "label": "rescues",
+      "n": 227,
+      "pred_rel_dist": {
+        "mitigation": 34,
+        "software": 34,
+        "group": 60,
+        "detection": 9,
+        "generic": 59,
+        "datasource": 20,
+        "tactic": 9,
+        "platform": 2
+      },
+      "relation_classification_proxy_acc": 0.11894273127753303,
+      "gold_option_evidence_coverage_pred": 0.13215859030837004,
+      "gold_option_evidence_coverage_best_rel": 0.2511013215859031,
+      "unique_supported_option_rate": 0.11013215859030837,
+      "unique_correct_rate": 0.09691629955947137,
+      "unique_wrong_rate": 0.013215859030837005,
+      "damages_fixed": 0,
+      "rescues_threatened": 3,
+      "both_wrong_recovered": 0,
+      "sim_acc": 0.986784140969163,
+      "rag_acc": 1.0
+    },
+    "both_wrong": {
+      "label": "both_wrong",
+      "n": 483,
+      "pred_rel_dist": {
+        "datasource": 38,
+        "group": 62,
+        "generic": 190,
+        "mitigation": 99,
+        "software": 47,
+        "detection": 29,
+        "tactic": 13,
+        "platform": 5
+      },
+      "relation_classification_proxy_acc": 0.07660455486542443,
+      "gold_option_evidence_coverage_pred": 0.09937888198757763,
+      "gold_option_evidence_coverage_best_rel": 0.16770186335403728,
+      "unique_supported_option_rate": 0.07453416149068323,
+      "unique_correct_rate": 0.060041407867494824,
+      "unique_wrong_rate": 0.014492753623188406,
+      "damages_fixed": 0,
+      "rescues_threatened": 0,
+      "both_wrong_recovered": 29,
+      "sim_acc": 0.060041407867494824,
+      "rag_acc": 0.0
+    },
+    "design_subset": {
+      "label": "design_among_eval",
+      "n": 672,
+      "pred_rel_dist": {
+        "generic": 229,
+        "group": 115,
+        "software": 74,
+        "mitigation": 125,
+        "datasource": 61,
+        "tactic": 24,
+        "detection": 36,
+        "platform": 8
+      },
+      "relation_classification_proxy_acc": 0.09970238095238096,
+      "gold_option_evidence_coverage_pred": 0.12202380952380952,
+      "gold_option_evidence_coverage_best_rel": 0.20684523809523808,
+      "unique_supported_option_rate": 0.09821428571428571,
+      "unique_correct_rate": 0.08333333333333333,
+      "unique_wrong_rate": 0.01488095238095238,
+      "damages_fixed": 8,
+      "rescues_threatened": 2,
+      "both_wrong_recovered": 26,
+      "sim_acc": 0.34523809523809523,
+      "rag_acc": 0.2976190476190476
+    },
+    "holdout_subset": {
+      "label": "holdout_among_eval",
+      "n": 88,
+      "pred_rel_dist": {
+        "group": 16,
+        "datasource": 4,
+        "mitigation": 17,
+        "generic": 32,
+        "software": 13,
+        "detection": 3,
+        "tactic": 3
+      },
+      "relation_classification_proxy_acc": 0.056818181818181816,
+      "gold_option_evidence_coverage_pred": 0.07954545454545454,
+      "gold_option_evidence_coverage_best_rel": 0.1590909090909091,
+      "unique_supported_option_rate": 0.045454545454545456,
+      "unique_correct_rate": 0.03409090909090909,
+      "unique_wrong_rate": 0.011363636363636364,
+      "damages_fixed": 0,
+      "rescues_threatened": 1,
+      "both_wrong_recovered": 3,
+      "sim_acc": 0.32954545454545453,
+      "rag_acc": 0.3068181818181818
+    }
+  },
+  "acceptance": {
+    "damages_fixed": 8,
+    "damages_target": "15-20",
+    "both_wrong_recovered": 29,
+    "both_wrong_target": "15-20",
+    "rescues_threatened": 3,
+    "rescues_max_loss": "3-5",
+    "net_additional_correct": 34,
+    "need_for_80pct": 33,
+    "projected_rag_if_apply_deterministic": 0.8004,
+    "pass_damage_bar": false,
+    "pass_both_wrong_bar": true,
+    "pass_rescue_bar": true,
+    "note": "Offline STIX-unique deterministic swaps only. LLM regen accuracy on unresolved items is not claimed."
+  },
+  "holdout": {
+    "n": 300,
+    "seed": 20260908,
+    "method": "random_shuffle_ids"
+  }
+}

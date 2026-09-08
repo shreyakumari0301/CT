@@ -1,0 +1,25 @@
+{"entity_type": "malware", "canonical_name": "DarkSide", "aliases": ["Darkside", "Ransom.Win32.DARKSIDE.YXAH-THA", "DarkSide ransomware"], "properties": {"family": "ransomware", "capabilities": ["encrypts files", "threatens public data leaks"]}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "malware", "canonical_name": "Maze", "aliases": ["ChaCha"], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "malware", "canonical_name": "Nefilim", "aliases": [], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "identity", "canonical_name": "medical sector", "aliases": [], "properties": {"sector": "medical"}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "identity", "canonical_name": "education sector", "aliases": [], "properties": {"sector": "education"}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "identity", "canonical_name": "non-profit sector", "aliases": [], "properties": {"sector": "non-profit"}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "identity", "canonical_name": "government sector", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "tool", "canonical_name": "Toolbox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "tool", "canonical_name": "NirSoft RDP PassView", "aliases": ["RDP PassView"], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "tool", "canonical_name": "Hash Suite Tools", "aliases": [], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "malware", "canonical_name": "Crysis/Dharma", "aliases": ["Crysis", "Dharma"], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Negasteal/Agent Tesla campaigns", "aliases": [], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "malware", "canonical_name": "Negasteal", "aliases": ["TrojanSpy.MSIL.NEGASTEAL.DYSGXT"], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "malware", "canonical_name": "Agent Tesla", "aliases": [], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2017-11882", "aliases": [], "properties": {"cve_id": "CVE-2017-11882"}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "identity", "canonical_name": "Krung Thai Bank", "aliases": [], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "malware", "canonical_name": "Monero coinminer", "aliases": ["Coinminer.Win32.MALXMR.THHADBO"], "properties": {"capabilities": ["cryptocurrency mining"]}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "tool", "canonical_name": "TeamViewer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rufus", "aliases": [], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "tool", "canonical_name": "YTD Video Downloader", "aliases": [], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "indicator", "canonical_name": "pastebin", "aliases": [], "properties": {"ioc_type": "domain", "value": "pastebin"}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "indicator", "canonical_name": "monerohash.com:3333", "aliases": [], "properties": {"ioc_type": "domain", "value": "monerohash.com:3333"}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "tool", "canonical_name": "Apex One", "aliases": [], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}
+{"entity_type": "tool", "canonical_name": "XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-188::ch0"]}

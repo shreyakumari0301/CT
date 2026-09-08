@@ -1,0 +1,18 @@
+{"entity_type": "threat_actor", "canonical_name": "BladedFeline", "aliases": [], "properties": {"first_seen": "September 2017", "primary_motivation": "espionage"}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT34", "aliases": ["OilRig", "OilRig APT", "Helix Kitten", "Cobalt Gypsy", "Earth Vetala", "Hazel Sandstorm"], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "identity", "canonical_name": "KRG", "aliases": ["KRG systems"], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kurdish government entities", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "identity", "canonical_name": "Iraqi government entities", "aliases": [], "properties": {"sector": "government", "region": "Iraq"}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "identity", "canonical_name": "Uzbekistan telecom provider", "aliases": ["a regional Uzbekistan telecom provider"], "properties": {"sector": "telecommunications", "region": "Uzbekistan"}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Social engineering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "malware", "canonical_name": "Flog", "aliases": ["Flog web shell"], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "malware", "canonical_name": "Shahmaran", "aliases": ["Shahmaran backdoor"], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "malware", "canonical_name": "Whisper", "aliases": ["Veaty", "C#/.NET Whisper", "email-based implant"], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "malware", "canonical_name": "Spearal", "aliases": ["DNS-tunneling Spearal"], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "malware", "canonical_name": "Optimizer", "aliases": ["optimized variant"], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "malware", "canonical_name": "Slippery Snakelet", "aliases": ["Slippery Snakelet Python implant"], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "tool", "canonical_name": "Laret", "aliases": [], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "tool", "canonical_name": "Pinar", "aliases": [], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "malware", "canonical_name": "PrimeCache", "aliases": ["malicious IIS module", "PrimeCache—akin to OilRig’s RDAT"], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "malware", "canonical_name": "RDAT", "aliases": ["OilRig’s RDAT"], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}
+{"entity_type": "malware", "canonical_name": "Hawking Listener", "aliases": ["early-stage implant"], "properties": {}, "source_chunks": ["BLOG-147::ch0"]}

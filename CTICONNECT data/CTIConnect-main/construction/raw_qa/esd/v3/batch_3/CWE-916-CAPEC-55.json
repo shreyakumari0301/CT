@@ -1,0 +1,23 @@
+{
+  "question": "A system stores user passwords as hashes, but the hashing approach is too fast and lacks sufficient computational cost, making offline guessing efficient once hashes are obtained. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-55.\n- CAPEC-55 exploits low-work-factor password hashing, targeting CWE-916: use of password hash with insufficient computational effort.",
+  "llm_cost": {
+    "input": 0.000726,
+    "cached_input": 0.0,
+    "output": 0.00094,
+    "total": 0.001666,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 581,
+      "cached_input": 0,
+      "output": 94
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6373
+  }
+}

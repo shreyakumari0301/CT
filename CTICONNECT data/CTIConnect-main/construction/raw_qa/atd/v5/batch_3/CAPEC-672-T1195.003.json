@@ -1,0 +1,23 @@
+{
+  "question": "An adversary with access during chip manufacturing alters the chip\u2019s programmed logic so deployed hardware executes attacker-intended effects, potentially enabling remote control. Which MITRE ATT&CK technique matches this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.003.\n- T1195.003 corresponds to hardware supply chain compromise, mapping CAPEC-672: implant malicious logic during chip programming to enable attacker control.",
+  "llm_cost": {
+    "input": 0.000785,
+    "cached_input": 0.0,
+    "output": 0.00102,
+    "total": 0.001805,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 628,
+      "cached_input": 0,
+      "output": 102
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3471
+  }
+}

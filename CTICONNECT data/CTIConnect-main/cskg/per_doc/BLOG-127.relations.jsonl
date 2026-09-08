@@ -1,0 +1,7 @@
+{"src_type": "vulnerability", "src_name": "CVE-2024-28085", "predicate": "present_by_default_on", "tgt_type": "identity", "tgt_name": "Ubuntu 22.04", "source_chunks": ["BLOG-127::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-28085", "predicate": "present_by_default_on", "tgt_type": "identity", "tgt_name": "Debian Bookworm", "source_chunks": ["BLOG-127::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-28085", "predicate": "not_present_on", "tgt_type": "identity", "tgt_name": "CentOS", "source_chunks": ["BLOG-127::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-28085", "predicate": "not_present_on", "tgt_type": "identity", "tgt_name": "Red Hat", "source_chunks": ["BLOG-127::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-28085", "predicate": "leaks_passwords_during", "tgt_type": "tool", "tgt_name": "sudo", "source_chunks": ["BLOG-127::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-28085", "predicate": "leaks_passwords_during", "tgt_type": "tool", "tgt_name": "OpenSSH", "source_chunks": ["BLOG-127::ch0"]}
+{"src_type": "identity", "src_name": "NIST", "predicate": "describes_exploitation_impact_of", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-28085", "source_chunks": ["BLOG-127::ch0"]}

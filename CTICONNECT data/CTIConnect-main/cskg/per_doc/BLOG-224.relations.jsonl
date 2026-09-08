@@ -1,0 +1,25 @@
+{"src_type": "identity", "src_name": "Dragos", "predicate": "detailed", "tgt_type": "campaign", "tgt_name": "protracted campaign (since April 2018)", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "identity", "src_name": "SecureWorks", "predicate": "detailed", "tgt_type": "campaign", "tgt_name": "protracted campaign (since April 2018)", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "campaign", "src_name": "protracted campaign (since April 2018)", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Lyceum", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East critical infrastructure", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Password Spraying", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Brute Force", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Malicious Macros", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "malware", "tgt_name": "DanBot", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PoshC2", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Decrypt-RDCMan.ps1", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential Dumping", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Get-LAPSP.ps1", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "LDAP", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Discovery", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Lateral Movement", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "potentially_pivots_into", "tgt_type": "identity", "tgt_name": "OT/ICS environments", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malicious Macros", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "DanBot", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "tool", "src_name": "PoshC2", "predicate": "sources_scripts_for", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "tool", "src_name": "Decrypt-RDCMan.ps1", "predicate": "extracts_passwords_from", "tgt_type": "tool", "tgt_name": "RDCMan", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Credential Dumping", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Discovery", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Credential Dumping", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Lateral Movement", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "tool", "src_name": "Get-LAPSP.ps1", "predicate": "harvests_credentials_from", "tgt_type": "identity", "tgt_name": "Active Directory", "source_chunks": ["BLOG-224::ch0"]}
+{"src_type": "tool", "src_name": "Get-LAPSP.ps1", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "LDAP", "source_chunks": ["BLOG-224::ch0"]}

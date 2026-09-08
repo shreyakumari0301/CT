@@ -1,0 +1,23 @@
+{
+  "question": "During early system startup, a hardware device capable of direct memory access is allowed to perform DMA before the boot process has finished setting up protections, potentially exposing memory to unintended access. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-180.\n- CAPEC-180 exploits misconfigured access control levels, targeting CWE-1190: DMA device enabled too early during boot phase.",
+  "llm_cost": {
+    "input": 0.00077,
+    "cached_input": 0.0,
+    "output": 0.001,
+    "total": 0.00177,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 616,
+      "cached_input": 0,
+      "output": 100
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.454
+  }
+}

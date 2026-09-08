@@ -1,0 +1,23 @@
+{
+  "question": "An adversary probes a remote device or server with specially crafted network packets that violate normal protocol semantics, then analyzes distinctive responses to determine the operating system or firmware version. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1082.\n- T1082 corresponds to system information discovery, mapping CAPEC-312: probing targets to fingerprint OS or firmware versions via unique responses.",
+  "llm_cost": {
+    "input": 0.000866,
+    "cached_input": 0.0,
+    "output": 0.00104,
+    "total": 0.001906,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 693,
+      "cached_input": 0,
+      "output": 104
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4906
+  }
+}

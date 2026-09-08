@@ -1,0 +1,15 @@
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "runs_campaign", "tgt_type": "campaign", "tgt_name": "CuckooBees", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "targets", "tgt_type": "identity", "tgt_name": "technology firms", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing firms", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Asia", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Deploylog", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Winnti malware", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "maintains_persistence_with", "tgt_type": "malware", "tgt_name": "VBScript WebShell", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WinRM", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "MFSDLL.exe", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "mktzx64.dll", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "campaign", "src_name": "CuckooBees", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WinRAR", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "tool", "src_name": "WinRAR", "predicate": "renamed_as", "tgt_type": "indicator", "tgt_name": "rundll32.exe", "source_chunks": ["BLOG-261::ch0"]}
+{"src_type": "indicator", "src_name": "MFSDLL.exe", "predicate": "loads", "tgt_type": "indicator", "tgt_name": "mktzx64.dll", "source_chunks": ["BLOG-261::ch0"]}

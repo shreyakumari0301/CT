@@ -1,0 +1,7 @@
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "discovered", "tgt_type": "malware", "tgt_name": "P2PInfect", "source_chunks": ["BLOG-83::ch0"]}
+{"src_type": "malware", "src_name": "P2PInfect", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-0543", "source_chunks": ["BLOG-83::ch0"]}
+{"src_type": "malware", "src_name": "P2PInfect", "predicate": "compromises", "tgt_type": "identity", "tgt_name": "Redis", "source_chunks": ["BLOG-83::ch0"]}
+{"src_type": "malware", "src_name": "P2PInfect", "predicate": "distributes", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-83::ch0"]}
+{"src_type": "malware", "src_name": "P2PInfect", "predicate": "not_linked_to", "tgt_type": "threat_actor", "tgt_name": "PurpleUrchin", "source_chunks": ["BLOG-83::ch0"]}
+{"src_type": "malware", "src_name": "P2PInfect", "predicate": "not_linked_to", "tgt_type": "threat_actor", "tgt_name": "TeamTNT", "source_chunks": ["BLOG-83::ch0"]}
+{"src_type": "malware", "src_name": "P2PInfect", "predicate": "not_linked_to", "tgt_type": "threat_actor", "tgt_name": "Kinsing", "source_chunks": ["BLOG-83::ch0"]}

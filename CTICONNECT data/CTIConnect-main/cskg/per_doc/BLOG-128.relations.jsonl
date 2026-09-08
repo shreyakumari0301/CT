@@ -1,0 +1,21 @@
+{"src_type": "threat_actor", "src_name": "LockBit affiliate", "predicate": "uses", "tgt_type": "tool", "tgt_name": "gpresult", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "threat_actor", "src_name": "LockBit affiliate", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "threat_actor", "src_name": "LockBit affiliate", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "threat_actor", "src_name": "LockBit affiliate", "predicate": "uses", "tgt_type": "tool", "tgt_name": "whoami", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "threat_actor", "src_name": "LockBit affiliate", "predicate": "uses", "tgt_type": "tool", "tgt_name": "netstat", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "threat_actor", "src_name": "LockBit affiliate", "predicate": "uses", "tgt_type": "tool", "tgt_name": "quser", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "threat_actor", "src_name": "LockBit affiliate", "predicate": "uses", "tgt_type": "tool", "tgt_name": "net view", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "threat_actor", "src_name": "LockBit affiliate", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Wput", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "threat_actor", "src_name": "LockBit affiliate", "predicate": "attempted_to_deploy", "tgt_type": "malware", "tgt_name": "LockBit", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "threat_actor", "src_name": "LockBit affiliate", "predicate": "pivoted_to", "tgt_type": "malware", "tgt_name": "3AM", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "threat_actor", "src_name": "LockBit affiliate", "predicate": "uses", "tgt_type": "malware", "tgt_name": "3AM", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "uses", "tgt_type": "tool", "tgt_name": "net stop", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "uses", "tgt_type": "tool", "tgt_name": "wbadmin", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "uses", "tgt_type": "tool", "tgt_name": "bcdedit", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "uses", "tgt_type": "tool", "tgt_name": "wmic", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "uses", "tgt_type": "tool", "tgt_name": "vssadmin.exe", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "drops", "tgt_type": "tool", "tgt_name": "Tor", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "associated_with", "tgt_type": "indicator", "tgt_name": "185.202.0.111", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "associated_with", "tgt_type": "indicator", "tgt_name": "212.18.104.6", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "associated_with", "tgt_type": "indicator", "tgt_name": "85.159.229.62", "source_chunks": ["BLOG-128::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "mitigated_by", "tgt_type": "identity", "tgt_name": "Symantec/Broadcom", "source_chunks": ["BLOG-128::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Multiple targeted artifacts (e.g., Windows unattended files, Git/Cloud app configs, browser stores) keep tokens/credentials in readable/plaintext files that Kazuar\u2019s steal/unattend tasks exfiltrate.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to that CWE, and 3) at what stage do developers typically introduce this issue?",
+  "answer": "1) CWE-312: Cleartext Storage of Sensitive Information\n2) Mapping Explanation: The vulnerability involves storing tokens and credentials in plaintext, which directly aligns with CWE-312 because sensitive information is not being adequately protected in storage.\n3) Modes_Of_Introduction: This issue is typically introduced during the Architecture and Design phase when a security tactic is omitted.",
+  "llm_timing": {
+    "api_call_seconds": 3.4013
+  }
+}

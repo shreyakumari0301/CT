@@ -1,0 +1,23 @@
+{
+  "question": "An application accepts serialized objects from external sources and deserializes them without adequate validation or trust boundaries, allowing an attacker to inject malicious object content and potentially alter execution. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-586.\n- CAPEC-586 exploits unsafe deserialization, targeting CWE-502: deserializing untrusted data allows malicious object injection and harmful processing outcomes.",
+  "llm_cost": {
+    "input": 0.000769,
+    "cached_input": 0.0,
+    "output": 0.00101,
+    "total": 0.001779,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 615,
+      "cached_input": 0,
+      "output": 101
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3564
+  }
+}

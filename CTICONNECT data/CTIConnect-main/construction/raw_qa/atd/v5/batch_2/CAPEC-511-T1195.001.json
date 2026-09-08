@@ -1,0 +1,23 @@
+{
+  "question": "An adversary infiltrates a manufacturer\u2019s integrated development environment via common delivery mechanisms like email attachments or removable media, implants malware to control the development environment, then exfiltrates or manipulates sensitive information while concealing these actions to enable downstream supply chain compromise. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.001.\n- T1195.001 corresponds to compromising development tools, mapping CAPEC-511: infiltrating an IDE to implant malware and enable supply-chain compromise.",
+  "llm_cost": {
+    "input": 0.00081,
+    "cached_input": 0.0,
+    "output": 0.00128,
+    "total": 0.00209,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 648,
+      "cached_input": 0,
+      "output": 128
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.2164
+  }
+}

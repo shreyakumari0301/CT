@@ -1,0 +1,20 @@
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "linked_to", "tgt_type": "identity", "tgt_name": "Russian FSB", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "military", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "research", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "critical infrastructure", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "most_recently_targets", "tgt_type": "identity", "tgt_name": "Ukraine’s defense sector", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Snake backdoor", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "uses", "tgt_type": "malware", "tgt_name": "ComRAT", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Crutch", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Kopiluwak", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Kazuar", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "uses", "tgt_type": "malware", "tgt_name": "QUIETCANARY", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Capibar", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "malware", "src_name": "Crutch", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "DLL hijacking", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "malware", "src_name": "Crutch", "predicate": "uses_for_c2", "tgt_type": "tool", "tgt_name": "Dropbox", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "detects_and_blocks", "tgt_type": "threat_actor", "tgt_name": "Turla", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "tool", "src_name": "Cortex XDR", "predicate": "detects_and_blocks", "tgt_type": "threat_actor", "tgt_name": "Turla", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "tool", "src_name": "Advanced URL Filtering", "predicate": "detects_and_blocks", "tgt_type": "threat_actor", "tgt_name": "Turla", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "tool", "src_name": "DNS Security", "predicate": "detects_and_blocks", "tgt_type": "threat_actor", "tgt_name": "Turla", "source_chunks": ["BLOG-283::ch0"]}
+{"src_type": "tool", "src_name": "WildFire", "predicate": "detects_and_blocks", "tgt_type": "threat_actor", "tgt_name": "Turla", "source_chunks": ["BLOG-283::ch0"]}

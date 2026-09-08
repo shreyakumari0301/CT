@@ -1,0 +1,15 @@
+{"src_type": "identity", "src_name": "Fortra", "predicate": "issued_advisory_on", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-0204", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-0204", "predicate": "authentication_bypass_in", "tgt_type": "identity", "tgt_name": "GoAnywhere MFT 7.x", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "identity", "src_name": "Horizon3’s Attack Team", "predicate": "released_poc_exploit_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-0204", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "identity", "src_name": "Horizon3’s Attack Team", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "Path Traversal", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "identity", "src_name": "Horizon3’s Attack Team", "predicate": "targets_endpoint", "tgt_type": "indicator", "tgt_name": "/InitialAccountSetup.xhtml", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "identity", "src_name": "Horizon3’s Attack Team", "predicate": "creates", "tgt_type": "attack_pattern", "tgt_name": "Authentication Bypass", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Path Traversal", "predicate": "accesses", "tgt_type": "indicator", "tgt_name": "/InitialAccountSetup.xhtml", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "campaign", "src_name": "Clop’s January 2023 campaign", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "Clop", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "campaign", "src_name": "Clop’s January 2023 campaign", "predicate": "abused", "tgt_type": "attack_pattern", "tgt_name": "Remote Code Execution", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "campaign", "src_name": "Clop’s January 2023 campaign", "predicate": "exploited", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-0669", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "campaign", "src_name": "Clop’s January 2023 campaign", "predicate": "breached", "tgt_type": "identity", "tgt_name": "Community Health Systems", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "campaign", "src_name": "Clop’s January 2023 campaign", "predicate": "breached", "tgt_type": "identity", "tgt_name": "Procter & Gamble", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "campaign", "src_name": "Clop’s January 2023 campaign", "predicate": "breached", "tgt_type": "identity", "tgt_name": "Rubrik", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "campaign", "src_name": "Clop’s January 2023 campaign", "predicate": "breached", "tgt_type": "identity", "tgt_name": "City of Toronto", "source_chunks": ["BLOG-29::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Remote Code Execution", "predicate": "associated_with", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-0669", "source_chunks": ["BLOG-29::ch0"]}

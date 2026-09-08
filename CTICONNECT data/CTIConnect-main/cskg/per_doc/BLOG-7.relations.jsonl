@@ -1,0 +1,10 @@
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "associated_with", "tgt_type": "campaign", "tgt_name": "2016 DNC and WADA breaches", "source_chunks": ["BLOG-7::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing", "source_chunks": ["BLOG-7::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential Harvesting", "source_chunks": ["BLOG-7::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-30190", "source_chunks": ["BLOG-7::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian targets", "source_chunks": ["BLOG-7::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Seduploader", "source_chunks": ["BLOG-7::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses", "tgt_type": "malware", "tgt_name": "X-Agent", "source_chunks": ["BLOG-7::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Shunnael", "source_chunks": ["BLOG-7::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Lojax", "source_chunks": ["BLOG-7::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-30190", "predicate": "enables_code_execution_of", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-7::ch0"]}

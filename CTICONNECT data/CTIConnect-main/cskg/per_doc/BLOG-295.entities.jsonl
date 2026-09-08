@@ -1,0 +1,18 @@
+{"entity_type": "threat_actor", "canonical_name": "Turla", "aliases": ["Secret Blizzard", "Snake", "Venomous Bear", "Waterbug", "Pensive Ursa", "Krypton"], "properties": {"country": "Russia", "primary_motivation": "espionage", "first_seen": "November 2022", "last_seen": "October 2023", "sectors_targeted": ["government", "defense", "foreign affairs"], "regions_targeted": ["worldwide"]}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "identity", "canonical_name": "FSB", "aliases": [], "properties": {"sector": "government", "region": "Russia"}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Storm-0156", "aliases": ["SideCopy", "APT36"], "properties": {"country": "Pakistan"}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows environments", "aliases": [], "properties": {}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "identity", "canonical_name": "ministries of foreign affairs", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "identity", "canonical_name": "embassies", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense departments", "aliases": [], "properties": {"sector": "defense"}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "malware", "canonical_name": "CrimsonRAT", "aliases": [], "properties": {"family": "CrimsonRAT"}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "tool", "canonical_name": "Arsenal", "aliases": [], "properties": {}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL sideloading", "aliases": [], "properties": {}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "malware", "canonical_name": "TwoDash", "aliases": [], "properties": {"family": "TwoDash"}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "malware", "canonical_name": "MiniPocket", "aliases": [], "properties": {"family": "MiniPocket"}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "malware", "canonical_name": "TinyTurla", "aliases": ["TinyTurla variant"], "properties": {"family": "TinyTurla"}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "malware", "canonical_name": "Statuezy", "aliases": ["Statuezy clipboard monitor"], "properties": {"family": "Statuezy", "capabilities": ["clipboard monitoring"]}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "C2 traffic redirection", "aliases": [], "properties": {}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "malware", "canonical_name": "Wainscot", "aliases": [], "properties": {"family": "Wainscot", "platforms": ["Linux"], "capabilities": ["command execution", "file transfer", "screenshots", "keylogging"], "first_seen": "October 2023"}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "identity", "canonical_name": "Afghan government networks", "aliases": [], "properties": {"sector": "government", "region": "Afghanistan"}, "source_chunks": ["BLOG-295::ch0"]}
+{"entity_type": "identity", "canonical_name": "Indian government networks", "aliases": [], "properties": {"sector": "government", "region": "India"}, "source_chunks": ["BLOG-295::ch0"]}

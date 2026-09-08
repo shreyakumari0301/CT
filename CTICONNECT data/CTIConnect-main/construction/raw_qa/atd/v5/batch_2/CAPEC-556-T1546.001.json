@@ -1,0 +1,23 @@
+{
+  "question": "An attacker modifies operating system file handler settings so that opening a file with a particular extension launches an arbitrary program instead of the normal application. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1546.001.\n- T1546.001 corresponds to changing file associations, mapping CAPEC-556: modify file handlers so extensions open attacker-chosen programs.",
+  "llm_cost": {
+    "input": 0.000748,
+    "cached_input": 0.0,
+    "output": 0.00101,
+    "total": 0.001757,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 598,
+      "cached_input": 0,
+      "output": 101
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.1478
+  }
+}

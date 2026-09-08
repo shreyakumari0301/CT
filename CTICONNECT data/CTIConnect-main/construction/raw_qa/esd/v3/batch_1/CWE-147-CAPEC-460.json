@@ -1,0 +1,23 @@
+{
+  "question": "A web application fails to properly neutralize user-controlled terminators or delimiters in input, allowing an attacker to prematurely end a parameter value and inject additional delimiters to create extra parameters. Which CAPEC attack pattern exploits this weakness, and why can it leverage these injected terminators to alter application behavior or bypass validation?",
+  "answer": "- CAPEC-460.\n- CAPEC-460 exploits injected query delimiters, targeting CWE-147: improper neutralization of input terminators enabling delimiter injection and parameter manipulation.",
+  "llm_cost": {
+    "input": 0.000721,
+    "cached_input": 0.0,
+    "output": 0.00115,
+    "total": 0.001871,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 577,
+      "cached_input": 0,
+      "output": 115
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.0874
+  }
+}

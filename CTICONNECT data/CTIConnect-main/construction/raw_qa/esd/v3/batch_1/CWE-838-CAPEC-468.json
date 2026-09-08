@@ -1,0 +1,23 @@
+{
+  "question": "A web application outputs data into web pages without using the correct encoding for the specific output context, so injected content can be interpreted unexpectedly by the browser. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-468.\n- CAPEC-468 exploits incorrect output-context encoding, targeting CWE-838: inappropriate encoding for output context enabling injected content in responses.",
+  "llm_cost": {
+    "input": 0.000749,
+    "cached_input": 0.0,
+    "output": 0.00095,
+    "total": 0.001699,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 599,
+      "cached_input": 0,
+      "output": 95
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.9637
+  }
+}

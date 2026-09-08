@@ -1,0 +1,25 @@
+{"entity_type": "identity", "canonical_name": "Google Threat Analysis Group", "aliases": ["TAG", "Google’s Threat Analysis Group (TAG)"], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT28", "aliases": ["Fancy Bear", "Sofacy", "Sednit", "STRONTIUM", "Pawn Storm", "Forest Blizzard", "Tsar Team"], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "campaign", "canonical_name": "APT28 (Fancy Bear) campaign", "aliases": ["large APT28 (Fancy Bear) campaign"], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Charming Kitten", "aliases": ["APT35", "Iran-aligned APT35", "Phosphorus", "Mint Sandstorm", "Newscaster", "TA453", "APT42"], "properties": {"regions_targeted": ["Iran"]}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "UK university website", "aliases": [], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "tool", "canonical_name": "phishing kit", "aliases": [], "properties": {"capabilities": ["credential harvesting"]}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "Gmail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "Yahoo", "aliases": [], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hotmail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Harvesting", "aliases": ["credential harvesting"], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "government", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "academia", "aliases": [], "properties": {"sector": "academia"}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "journalism", "aliases": [], "properties": {"sector": "journalism"}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "NGOs", "aliases": [], "properties": {"sector": "non-profit"}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "malware", "canonical_name": "spyware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "VPN", "aliases": [], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Play Store", "aliases": [], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "malware", "canonical_name": "Android C2 apps", "aliases": ["Android C2 app"], "properties": {"platforms": ["Android"], "capabilities": ["command and control"]}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "Munich Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "T20 Italy", "aliases": [], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "tool", "canonical_name": "JavaScript", "aliases": [], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram bots", "aliases": ["Telegram bot", "bots"], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "Workspace", "aliases": ["Workspace admin alerts"], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "identity", "canonical_name": "Safe Browsing", "aliases": ["Safe Browsing domain blocks"], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-43::ch0"]}

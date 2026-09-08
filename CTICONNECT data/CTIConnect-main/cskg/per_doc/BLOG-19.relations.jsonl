@@ -1,0 +1,13 @@
+{"src_type": "identity", "src_name": "Qantas", "predicate": "notified", "tgt_type": "identity", "tgt_name": "Australian Cyber Security Centre", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "identity", "src_name": "Qantas", "predicate": "notified", "tgt_type": "identity", "tgt_name": "Office of the Australian Information Commissioner", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "identity", "src_name": "Qantas", "predicate": "notified", "tgt_type": "identity", "tgt_name": "Australian Federal Police", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "identity", "src_name": "Qantas", "predicate": "breach_shares_hallmarks_with", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "SIM swapping", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "MFA bombing", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Help-desk phone calls", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Hawaiian Airlines", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "targets", "tgt_type": "identity", "tgt_name": "WestJet", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "identity", "src_name": "WestJet", "predicate": "breached_via", "tgt_type": "attack_pattern", "tgt_name": "Self-service password reset exploit", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Intelligence Group", "predicate": "published_hardening_guides_for", "tgt_type": "attack_pattern", "tgt_name": "Self-service password reset exploit", "source_chunks": ["BLOG-19::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "published_hardening_guides_for", "tgt_type": "attack_pattern", "tgt_name": "Self-service password reset exploit", "source_chunks": ["BLOG-19::ch0"]}

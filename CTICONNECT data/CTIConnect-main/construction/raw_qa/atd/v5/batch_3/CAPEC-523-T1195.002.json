@@ -1,0 +1,23 @@
+{
+  "question": "An attacker implants malicious software into a product while it is still in the supply chain distribution channel, intending to cause disruption or enable further compromise once deployed. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1195.002.\n- T1195.002 corresponds to software supply chain compromise, mapping CAPEC-523: implanting malicious software in distribution before deployment for disruption or compromise.",
+  "llm_cost": {
+    "input": 0.00072,
+    "cached_input": 0.0,
+    "output": 0.00103,
+    "total": 0.00175,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 576,
+      "cached_input": 0,
+      "output": 103
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.1707
+  }
+}

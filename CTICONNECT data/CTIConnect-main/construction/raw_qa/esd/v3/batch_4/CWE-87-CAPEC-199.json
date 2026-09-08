@@ -1,0 +1,23 @@
+{
+  "question": "A web application\u2019s filtering only blocks standard forms of dangerous scripting markup but fails to neutralize alternate representations (e.g., mixed-case tags, entities, or other variant syntax), allowing script execution in users\u2019 browsers. Which CAPEC attack pattern exploits this weakness, and why can it bypass the filter?",
+  "answer": "- CAPEC-199.\n- CAPEC-199 exploits alternate-syntax XSS, targeting CWE-87: improper neutralization of alternate XSS syntax enabling filter bypass and script execution.",
+  "llm_cost": {
+    "input": 0.000849,
+    "cached_input": 0.0,
+    "output": 0.00114,
+    "total": 0.001989,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 679,
+      "cached_input": 0,
+      "output": 114
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6096
+  }
+}

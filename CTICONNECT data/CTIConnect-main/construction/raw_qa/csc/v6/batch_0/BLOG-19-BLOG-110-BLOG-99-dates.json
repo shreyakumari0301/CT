@@ -1,0 +1,7 @@
+{
+  "question": "What is the time span of this campaign based on the earliest and latest report dates?",
+  "answer": "- Earliest report date: June 30, 2025  \n- Latest report date: July 7, 2025",
+  "llm_timing": {
+    "api_call_seconds": 6.7242
+  }
+}

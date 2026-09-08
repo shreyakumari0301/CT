@@ -1,0 +1,23 @@
+{
+  "question": "An adversary leverages legitimate functionality intended for authorized users to enumerate information about currently running processes on a target system, learning details about the environment for follow-on malicious actions. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1057.\n- T1057 corresponds to discovering running processes, mapping CAPEC-573: enumerating active processes to learn the target environment.",
+  "llm_cost": {
+    "input": 0.000735,
+    "cached_input": 0.0,
+    "output": 0.00103,
+    "total": 0.001765,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 588,
+      "cached_input": 0,
+      "output": 103
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.0462
+  }
+}

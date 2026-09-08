@@ -1,0 +1,27 @@
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "composed_in_part_of_former_affiliates_of", "tgt_type": "threat_actor", "tgt_name": "Conti", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "initial_access_broker_for", "tgt_type": "threat_actor", "tgt_name": "Conti", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "shares_cryptor_signatures_with", "tgt_type": "threat_actor", "tgt_name": "Conti", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "initial_access_broker_for", "tgt_type": "threat_actor", "tgt_name": "Quantum", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "initial_access_broker_for", "tgt_type": "threat_actor", "tgt_name": "Wizard Spider", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "distributed", "tgt_type": "malware", "tgt_name": "IcedID", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "hosts", "tgt_type": "malware", "tgt_name": "IcedID", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian government", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "targets", "tgt_type": "identity", "tgt_name": "European humanitarian NGOs", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "targets", "tgt_type": "identity", "tgt_name": "hospitality sector", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "uses", "tgt_type": "malware", "tgt_name": "AnchorMail", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "uses", "tgt_type": "malware", "tgt_name": "LackeyBuilder", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "Ukraine’s Cyber Police", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "drops_payloads_via", "tgt_type": "indicator", "tgt_name": "dropfiles.me", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-30190", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "State Tax Service", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "uses_infrastructure", "tgt_type": "indicator", "tgt_name": "blinkin.top", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "uses_infrastructure", "tgt_type": "indicator", "tgt_name": "kompromatua.info", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "uses_infrastructure", "tgt_type": "indicator", "tgt_name": "84.32.190.34", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0098", "predicate": "uses_infrastructure", "tgt_type": "indicator", "tgt_name": "5.199.173.152", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "malware", "src_name": "IcedID", "predicate": "hosted_on", "tgt_type": "indicator", "tgt_name": "gov.uz.ua", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "malware", "src_name": "IcedID", "predicate": "hosted_on", "tgt_type": "indicator", "tgt_name": "starlinkua.info", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "malware", "src_name": "IcedID", "predicate": "hosted_on", "tgt_type": "indicator", "tgt_name": "microsoftua.com", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "malware", "src_name": "LackeyBuilder", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "AnchorMail", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "tool", "src_name": "Cobalt Strike", "predicate": "retrieved_as", "tgt_type": "indicator", "tgt_name": "ked.dll", "source_chunks": ["BLOG-37::ch0"]}
+{"src_type": "indicator", "src_name": "ked.dll", "predicate": "downloaded_from", "tgt_type": "indicator", "tgt_name": "64.190.113.51", "source_chunks": ["BLOG-37::ch0"]}

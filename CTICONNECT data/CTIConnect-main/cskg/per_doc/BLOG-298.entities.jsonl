@@ -1,0 +1,17 @@
+{"entity_type": "identity", "canonical_name": "Microsoft Threat Intelligence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Storm-2460", "aliases": [], "properties": {}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "malware", "canonical_name": "Play ransomware", "aliases": ["Play ransomware group"], "properties": {"family": "Play"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2025-29824", "aliases": [], "properties": {"cve_id": "CVE-2025-29824"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows Common Log File System", "aliases": ["CLFS"], "properties": {}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "identity", "canonical_name": "IT organizations", "aliases": [], "properties": {"sector": "information technology"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "identity", "canonical_name": "financial organizations", "aliases": [], "properties": {"sector": "financial"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "identity", "canonical_name": "real estate organizations", "aliases": [], "properties": {"sector": "real estate"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "identity", "canonical_name": "US", "aliases": ["the US"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "identity", "canonical_name": "South America", "aliases": [], "properties": {"region": "South America"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East", "aliases": ["the Middle East"], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "tool", "canonical_name": "ChatGPT Desktop app", "aliases": ["open-source ChatGPT Desktop app"], "properties": {}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "malware", "canonical_name": "PipeMagic", "aliases": [], "properties": {"capabilities": ["backdoor", "persistence", "lateral movement", "self-update", "command and control"], "first_seen": "December 2022"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "identity", "canonical_name": "Saudi Arabian manufacturing entities", "aliases": [], "properties": {"sector": "manufacturing", "region": "Saudi Arabia"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "identity", "canonical_name": "Brazilian manufacturing entities", "aliases": [], "properties": {"sector": "manufacturing", "region": "Brazil"}, "source_chunks": ["BLOG-298::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Defender for Endpoint", "aliases": [], "properties": {}, "source_chunks": ["BLOG-298::ch0"]}

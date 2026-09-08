@@ -1,0 +1,23 @@
+{
+  "question": "A hardware/software module ships with unsafe default register settings or misconfigured module parameters, creating an insecure initial state. Which CAPEC attack pattern exploits this weakness, and why can it leverage reverting the system to a prior state to benefit from those insecure defaults?",
+  "answer": "- CAPEC-166.\n- CAPEC-166 exploits resetting to prior state, targeting CWE-1221: incorrect default register settings or module parameters create an insecure baseline.",
+  "llm_cost": {
+    "input": 0.000732,
+    "cached_input": 0.0,
+    "output": 0.00101,
+    "total": 0.001743,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 586,
+      "cached_input": 0,
+      "output": 101
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.0699
+  }
+}

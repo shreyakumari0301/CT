@@ -1,0 +1,18 @@
+# LLM API clients
+openai>=1.0.0
+
+# Environment loading
+python-dotenv>=1.0.0
+
+# Data processing (standard library - included for documentation)
+# json
+# pathlib  
+# dataclasses
+# typing
+# abc
+# os
+# sys
+# time
+# re
+# datetime
+# argparse

@@ -1,0 +1,294 @@
+{
+  "cluster_id": 14,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 2,
+      "node": [
+        {
+          "node_text": ".NET/Visual Studio",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": ".NET/Visual Studio patch",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "August 2023 Patch Tuesday",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Avertium",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-36884",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-38180",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-38180 update",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DDoS attacks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Defender Antivirus",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "EDR block mode",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Fusion MXDR for Microsoft service",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "IoCs",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Mark of the Web",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Microsoft",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Microsoft Office",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Office August update",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Office Defense-in-Depth update",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Office-spawned child processes",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Office-to-script execution chains",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "RomCom campaigns",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Storm-0978",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Windows August update",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "attack surface reduction rules",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "cloud-delivered protection",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "continuous vulnerability management",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "network proximity",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " Silent Skimming",
+      "platform": "AVERTIUM",
+      "type": "campaign",
+      "publish_date": "2023/5/28"
+    },
+    {
+      "blog_id": 101,
+      "node": [
+        {
+          "node_text": "BlackBerry researchers",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "British Airways",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "CVE-2019-18935",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Hafnium",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "IIS servers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Latin America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Magecart",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "May 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Microsoft Azure VPS-based C2 servers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Newegg",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Silent Skimmer",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Telerik UI",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Ticketmaster",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "XE Group",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "card-skimming code",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "e-commerce and point-of-sale sites",
+          "node_type": "System"
+        },
+        {
+          "node_text": "malicious DLL",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "multi-stage toolkit",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "organizations across multiple sectors",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "remote code execution",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": " Silent Skimmer",
+      "platform": "darkreading",
+      "type": "campaign",
+      "publish_date": "2023/5/28"
+    },
+    {
+      "blog_id": 157,
+      "node": [
+        {
+          "node_text": "Asia-Pacific",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "BlackBerry Research and Intelligence Team",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Cobalt Strike beacons",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "Internet Information Services vulnerabilities",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Latin America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "PowerShell-based RAT",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "Privilege Escalation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Silent Skimmer",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Sophos",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "dating-app social engineering",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "geolocated VPS C2 servers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "liquidity-mining lures",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "malicious Ethereum contracts",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "online payment and PoS web applications",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "pig butchering",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "reverse proxies",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "web shells",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": " Silent Skimmer",
+      "platform": "thehackernews",
+      "type": "campaign",
+      "publish_date": "2023/10/2"
+    }
+  ]
+}

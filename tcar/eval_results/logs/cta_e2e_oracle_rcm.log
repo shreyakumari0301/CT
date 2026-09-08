@@ -1,0 +1,1206 @@
+[2026-09-06T09:50:09Z] RUN ctibench oracle rcm
+
+=== CTI-RCM | oracle (gold pipeline=understanding) | n=1000 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-rcm.tsv
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1261.77it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:pipelines.understanding_pipeline:Knowledge base vector DB loaded successfully
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  89%|████████▉ | 92/103 [00:00<00:00, 789.96it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 872.24it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+INFO:pipelines.understanding_pipeline:CWE vector DB loaded successfully
+INFO:pipelines.understanding_pipeline:UnderstandingPipeline initialized successfully
+rcm:oracle:   0%|          | 0/1000 [00:00<?, ?it/s]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 1/1000 [00:34<9:29:41, 34.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 2/1000 [00:44<5:32:11, 19.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 3/1000 [00:57<4:38:53, 16.78s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 4/1000 [02:01<9:46:37, 35.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 5/1000 [02:42<10:19:44, 37.37s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 6/1000 [03:47<12:54:34, 46.75s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 7/1000 [04:32<12:45:30, 46.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 8/1000 [05:11<12:10:01, 44.16s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 9/1000 [05:23<9:23:37, 34.12s/it] INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 10/1000 [05:36<7:35:31, 27.61s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 11/1000 [05:47<6:08:02, 22.33s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 12/1000 [05:59<5:17:08, 19.26s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|▏         | 13/1000 [06:09<4:30:23, 16.44s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|▏         | 14/1000 [06:21<4:09:45, 15.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 15/1000 [06:32<3:49:37, 13.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 16/1000 [06:42<3:25:01, 12.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 17/1000 [06:54<3:26:46, 12.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 18/1000 [07:05<3:18:09, 12.11s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 19/1000 [07:14<3:02:49, 11.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 20/1000 [07:22<2:45:45, 10.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 21/1000 [07:31<2:37:58,  9.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 22/1000 [07:41<2:40:05,  9.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 23/1000 [07:52<2:47:48, 10.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 24/1000 [08:01<2:41:40,  9.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▎         | 25/1000 [08:12<2:45:38, 10.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 26/1000 [08:21<2:37:16,  9.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 27/1000 [08:30<2:34:43,  9.54s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 28/1000 [08:41<2:42:01, 10.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 29/1000 [08:52<2:49:07, 10.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 30/1000 [09:01<2:40:54,  9.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 31/1000 [09:16<3:05:56, 11.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 32/1000 [09:32<3:25:15, 12.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 33/1000 [09:40<3:03:05, 11.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 34/1000 [09:51<2:59:04, 11.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▎         | 35/1000 [10:00<2:50:49, 10.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▎         | 36/1000 [10:11<2:53:48, 10.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▎         | 37/1000 [10:20<2:42:25, 10.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 38/1000 [10:29<2:35:17,  9.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 39/1000 [10:37<2:30:26,  9.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 40/1000 [10:47<2:31:44,  9.48s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 41/1000 [10:56<2:27:51,  9.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 42/1000 [11:04<2:22:25,  8.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 43/1000 [11:11<2:14:54,  8.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 44/1000 [11:17<2:01:54,  7.65s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 45/1000 [11:28<2:18:45,  8.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 46/1000 [11:40<2:33:40,  9.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 47/1000 [11:49<2:31:44,  9.55s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 48/1000 [11:59<2:33:44,  9.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 49/1000 [12:07<2:22:32,  8.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▌         | 50/1000 [13:07<6:00:27, 22.77s/it][2026-09-06T20:02:40Z] RUN ctibench oracle rcm
+
+=== CTI-RCM | oracle (gold pipeline=understanding) | n=1000 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-rcm.tsv
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1204.03it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:pipelines.understanding_pipeline:Knowledge base vector DB loaded successfully
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1156.29it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+INFO:pipelines.understanding_pipeline:CWE vector DB loaded successfully
+INFO:pipelines.understanding_pipeline:UnderstandingPipeline initialized successfully
+rcm:oracle:   0%|          | 0/1000 [00:00<?, ?it/s]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 1/1000 [00:24<6:56:01, 24.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 2/1000 [00:31<3:54:25, 14.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 3/1000 [00:39<3:06:10, 11.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 4/1000 [00:46<2:38:03,  9.52s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 5/1000 [00:54<2:31:38,  9.14s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 6/1000 [01:01<2:18:15,  8.35s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 7/1000 [01:05<1:57:09,  7.08s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 8/1000 [01:12<1:56:15,  7.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 9/1000 [01:20<1:59:18,  7.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 10/1000 [01:30<2:14:55,  8.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 11/1000 [01:36<2:03:03,  7.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 12/1000 [01:40<1:46:30,  6.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|▏         | 13/1000 [01:51<2:05:24,  7.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|▏         | 14/1000 [01:59<2:08:57,  7.85s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 15/1000 [02:07<2:08:37,  7.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 16/1000 [02:12<1:57:26,  7.16s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 17/1000 [02:23<2:14:03,  8.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 18/1000 [02:29<2:04:57,  7.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 19/1000 [02:36<1:59:13,  7.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 20/1000 [02:39<1:41:06,  6.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 21/1000 [02:45<1:39:56,  6.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 22/1000 [02:51<1:39:01,  6.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 23/1000 [02:56<1:32:09,  5.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 24/1000 [03:02<1:31:20,  5.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▎         | 25/1000 [03:07<1:30:23,  5.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 26/1000 [03:12<1:26:16,  5.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 27/1000 [03:18<1:28:37,  5.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 28/1000 [03:25<1:39:42,  6.16s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 29/1000 [03:32<1:42:26,  6.33s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 30/1000 [03:39<1:43:06,  6.38s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 31/1000 [03:46<1:49:17,  6.77s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 32/1000 [03:54<1:53:57,  7.06s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 33/1000 [04:04<2:06:06,  7.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 34/1000 [04:10<2:01:02,  7.52s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▎         | 35/1000 [04:16<1:49:43,  6.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▎         | 36/1000 [04:21<1:44:37,  6.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▎         | 37/1000 [04:30<1:55:13,  7.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 38/1000 [04:39<2:02:29,  7.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 39/1000 [04:44<1:48:21,  6.77s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 40/1000 [04:52<1:56:47,  7.30s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 41/1000 [05:00<1:58:52,  7.44s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 42/1000 [05:05<1:46:58,  6.70s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 43/1000 [05:10<1:39:00,  6.21s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 44/1000 [05:14<1:28:52,  5.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 45/1000 [05:21<1:35:15,  5.98s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 46/1000 [05:31<1:54:07,  7.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 47/1000 [05:41<2:07:24,  8.02s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 48/1000 [05:48<2:04:43,  7.86s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 49/1000 [05:55<1:59:35,  7.54s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▌         | 50/1000 [06:01<1:51:25,  7.04s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▌         | 51/1000 [06:06<1:40:52,  6.38s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▌         | 52/1000 [06:11<1:35:17,  6.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▌         | 53/1000 [06:16<1:29:00,  5.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▌         | 54/1000 [06:22<1:31:07,  5.78s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   6%|▌         | 55/1000 [06:28<1:30:22,  5.74s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   6%|▌         | 56/1000 [06:34<1:35:02,  6.04s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   6%|▌         | 57/1000 [06:41<1:40:01,  6.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   6%|▌         | 58/1000 [06:46<1:33:39,  5.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   6%|▌         | 59/1000 [06:54<1:40:36,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   6%|▌         | 60/1000 [07:01<1:44:30,  6.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   6%|▌         | 61/1000 [07:08<1:43:18,  6.60s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   6%|▌         | 62/1000 [07:15<1:45:37,  6.76s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   6%|▋         | 63/1000 [07:22<1:46:57,  6.85s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   6%|▋         | 64/1000 [07:29<1:50:42,  7.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   6%|▋         | 65/1000 [07:36<1:46:07,  6.81s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   7%|▋         | 66/1000 [07:39<1:30:18,  5.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   7%|▋         | 67/1000 [07:48<1:44:38,  6.73s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   7%|▋         | 68/1000 [07:54<1:42:19,  6.59s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   7%|▋         | 69/1000 [08:01<1:43:02,  6.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   7%|▋         | 70/1000 [08:05<1:32:55,  5.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   7%|▋         | 71/1000 [08:13<1:39:25,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   7%|▋         | 72/1000 [08:20<1:40:32,  6.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   7%|▋         | 73/1000 [08:25<1:37:40,  6.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   7%|▋         | 74/1000 [08:32<1:37:01,  6.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   8%|▊         | 75/1000 [08:38<1:35:24,  6.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   8%|▊         | 76/1000 [08:45<1:38:51,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   8%|▊         | 77/1000 [08:50<1:35:00,  6.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   8%|▊         | 78/1000 [08:55<1:27:19,  5.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   8%|▊         | 79/1000 [09:01<1:29:52,  5.85s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   8%|▊         | 80/1000 [09:11<1:48:58,  7.11s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   8%|▊         | 81/1000 [09:17<1:45:43,  6.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   8%|▊         | 82/1000 [09:26<1:54:52,  7.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   8%|▊         | 83/1000 [09:33<1:52:12,  7.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   8%|▊         | 84/1000 [09:41<1:52:07,  7.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   8%|▊         | 85/1000 [09:47<1:46:16,  6.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   9%|▊         | 86/1000 [09:56<1:55:28,  7.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   9%|▊         | 87/1000 [10:05<2:02:29,  8.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   9%|▉         | 88/1000 [10:09<1:46:06,  6.98s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   9%|▉         | 89/1000 [10:17<1:51:02,  7.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   9%|▉         | 90/1000 [10:24<1:47:38,  7.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   9%|▉         | 91/1000 [10:33<1:54:15,  7.54s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   9%|▉         | 92/1000 [10:39<1:46:45,  7.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   9%|▉         | 93/1000 [10:45<1:45:47,  7.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   9%|▉         | 94/1000 [10:54<1:53:18,  7.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  10%|▉         | 95/1000 [11:01<1:48:33,  7.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  10%|▉         | 96/1000 [11:12<2:06:43,  8.41s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  10%|▉         | 97/1000 [11:17<1:53:48,  7.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  10%|▉         | 98/1000 [11:25<1:53:00,  7.52s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  10%|▉         | 99/1000 [11:30<1:44:25,  6.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  10%|█         | 100/1000 [11:37<1:41:57,  6.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  10%|█         | 101/1000 [11:42<1:36:18,  6.43s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  10%|█         | 102/1000 [11:49<1:37:38,  6.52s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  10%|█         | 103/1000 [12:00<1:57:57,  7.89s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  10%|█         | 104/1000 [12:06<1:49:49,  7.35s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  10%|█         | 105/1000 [12:14<1:52:02,  7.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  11%|█         | 106/1000 [12:20<1:45:57,  7.11s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  11%|█         | 107/1000 [12:26<1:38:39,  6.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  11%|█         | 108/1000 [12:34<1:46:43,  7.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  11%|█         | 109/1000 [12:43<1:51:29,  7.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  11%|█         | 110/1000 [12:46<1:34:12,  6.35s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  11%|█         | 111/1000 [12:51<1:25:12,  5.75s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  11%|█         | 112/1000 [12:56<1:24:01,  5.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  11%|█▏        | 113/1000 [13:03<1:30:01,  6.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  11%|█▏        | 114/1000 [13:11<1:37:09,  6.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  12%|█▏        | 115/1000 [13:16<1:28:18,  5.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  12%|█▏        | 116/1000 [13:20<1:22:51,  5.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  12%|█▏        | 117/1000 [13:29<1:34:33,  6.43s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  12%|█▏        | 118/1000 [13:34<1:27:53,  5.98s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  12%|█▏        | 119/1000 [13:39<1:24:44,  5.77s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  12%|█▏        | 120/1000 [13:46<1:31:22,  6.23s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  12%|█▏        | 121/1000 [13:54<1:38:27,  6.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  12%|█▏        | 122/1000 [13:59<1:29:56,  6.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  12%|█▏        | 123/1000 [14:07<1:40:37,  6.88s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  12%|█▏        | 124/1000 [14:15<1:43:59,  7.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  12%|█▎        | 125/1000 [14:25<1:57:33,  8.06s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  13%|█▎        | 126/1000 [14:34<2:00:11,  8.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  13%|█▎        | 127/1000 [14:40<1:51:48,  7.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  13%|█▎        | 128/1000 [14:45<1:38:54,  6.81s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  13%|█▎        | 129/1000 [14:53<1:41:09,  6.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  13%|█▎        | 130/1000 [14:57<1:31:59,  6.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  13%|█▎        | 131/1000 [15:08<1:51:55,  7.73s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  13%|█▎        | 132/1000 [15:15<1:45:11,  7.27s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  13%|█▎        | 133/1000 [15:22<1:46:34,  7.38s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  13%|█▎        | 134/1000 [15:28<1:40:07,  6.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  14%|█▎        | 135/1000 [15:34<1:33:33,  6.49s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  14%|█▎        | 136/1000 [15:38<1:26:13,  5.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  14%|█▎        | 137/1000 [15:42<1:17:30,  5.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  14%|█▍        | 138/1000 [15:49<1:21:33,  5.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  14%|█▍        | 139/1000 [15:58<1:38:12,  6.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  14%|█▍        | 140/1000 [16:07<1:46:19,  7.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  14%|█▍        | 141/1000 [16:15<1:46:31,  7.44s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  14%|█▍        | 142/1000 [16:22<1:46:35,  7.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  14%|█▍        | 143/1000 [16:27<1:37:49,  6.85s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  14%|█▍        | 144/1000 [16:33<1:32:50,  6.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  14%|█▍        | 145/1000 [16:38<1:26:10,  6.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  15%|█▍        | 146/1000 [16:45<1:30:11,  6.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  15%|█▍        | 147/1000 [16:50<1:24:06,  5.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  15%|█▍        | 148/1000 [17:00<1:39:15,  6.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  15%|█▍        | 149/1000 [17:08<1:43:42,  7.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  15%|█▌        | 150/1000 [17:13<1:34:49,  6.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  15%|█▌        | 151/1000 [17:19<1:30:47,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  15%|█▌        | 152/1000 [17:25<1:30:27,  6.40s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  15%|█▌        | 153/1000 [17:33<1:35:02,  6.73s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  15%|█▌        | 154/1000 [17:42<1:46:47,  7.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  16%|█▌        | 155/1000 [17:48<1:39:46,  7.08s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  16%|█▌        | 156/1000 [17:56<1:45:00,  7.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  16%|█▌        | 157/1000 [18:04<1:43:46,  7.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  16%|█▌        | 158/1000 [18:12<1:47:34,  7.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  16%|█▌        | 159/1000 [18:20<1:48:00,  7.71s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  16%|█▌        | 160/1000 [18:26<1:39:55,  7.14s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  16%|█▌        | 161/1000 [18:30<1:30:03,  6.44s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  16%|█▌        | 162/1000 [18:43<1:53:56,  8.16s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  16%|█▋        | 163/1000 [18:47<1:38:39,  7.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  16%|█▋        | 164/1000 [18:59<1:57:29,  8.43s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  16%|█▋        | 165/1000 [19:06<1:54:15,  8.21s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  17%|█▋        | 166/1000 [19:11<1:41:10,  7.28s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  17%|█▋        | 167/1000 [19:19<1:42:59,  7.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  17%|█▋        | 168/1000 [19:26<1:38:26,  7.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  17%|█▋        | 169/1000 [19:32<1:37:14,  7.02s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  17%|█▋        | 170/1000 [19:39<1:33:52,  6.79s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  17%|█▋        | 171/1000 [19:47<1:39:28,  7.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  17%|█▋        | 172/1000 [19:55<1:44:17,  7.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  17%|█▋        | 173/1000 [20:02<1:41:46,  7.38s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  17%|█▋        | 174/1000 [20:08<1:34:39,  6.88s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  18%|█▊        | 175/1000 [20:16<1:40:15,  7.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  18%|█▊        | 176/1000 [20:25<1:48:25,  7.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  18%|█▊        | 177/1000 [20:33<1:47:03,  7.81s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  18%|█▊        | 178/1000 [20:41<1:48:52,  7.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  18%|█▊        | 179/1000 [20:46<1:37:25,  7.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  18%|█▊        | 180/1000 [20:54<1:39:37,  7.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  18%|█▊        | 181/1000 [21:03<1:44:44,  7.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  18%|█▊        | 182/1000 [21:10<1:43:15,  7.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  18%|█▊        | 183/1000 [21:18<1:42:42,  7.54s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  18%|█▊        | 184/1000 [21:24<1:38:39,  7.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  18%|█▊        | 185/1000 [21:30<1:32:40,  6.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  19%|█▊        | 186/1000 [21:35<1:25:45,  6.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  19%|█▊        | 187/1000 [21:43<1:30:13,  6.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  19%|█▉        | 188/1000 [21:49<1:30:05,  6.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  19%|█▉        | 189/1000 [21:54<1:23:30,  6.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  19%|█▉        | 190/1000 [21:59<1:15:57,  5.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  19%|█▉        | 191/1000 [22:09<1:33:37,  6.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  19%|█▉        | 192/1000 [22:16<1:36:21,  7.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  19%|█▉        | 193/1000 [22:22<1:28:49,  6.60s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  19%|█▉        | 194/1000 [22:29<1:33:11,  6.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  20%|█▉        | 195/1000 [22:34<1:23:27,  6.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  20%|█▉        | 196/1000 [22:43<1:33:42,  6.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  20%|█▉        | 197/1000 [22:49<1:32:16,  6.89s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  20%|█▉        | 198/1000 [22:55<1:28:46,  6.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  20%|█▉        | 199/1000 [23:04<1:35:39,  7.17s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  20%|██        | 200/1000 [23:09<1:28:37,  6.65s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  20%|██        | 201/1000 [23:14<1:22:22,  6.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  20%|██        | 202/1000 [23:21<1:23:35,  6.28s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  20%|██        | 203/1000 [23:25<1:16:12,  5.74s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  20%|██        | 204/1000 [23:33<1:22:05,  6.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  20%|██        | 205/1000 [23:38<1:18:08,  5.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  21%|██        | 206/1000 [23:45<1:25:09,  6.44s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  21%|██        | 207/1000 [23:51<1:21:14,  6.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  21%|██        | 208/1000 [24:00<1:32:41,  7.02s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  21%|██        | 209/1000 [24:05<1:22:59,  6.30s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  21%|██        | 210/1000 [24:13<1:30:06,  6.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  21%|██        | 211/1000 [24:20<1:31:23,  6.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  21%|██        | 212/1000 [24:25<1:23:14,  6.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  21%|██▏       | 213/1000 [24:30<1:17:23,  5.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  21%|██▏       | 214/1000 [24:35<1:14:38,  5.70s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  22%|██▏       | 215/1000 [24:41<1:16:37,  5.86s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  22%|██▏       | 216/1000 [24:51<1:31:28,  7.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  22%|██▏       | 217/1000 [25:00<1:38:23,  7.54s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  22%|██▏       | 218/1000 [25:07<1:37:05,  7.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  22%|██▏       | 219/1000 [25:11<1:24:17,  6.48s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  22%|██▏       | 220/1000 [25:17<1:22:28,  6.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  22%|██▏       | 221/1000 [25:22<1:18:29,  6.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  22%|██▏       | 222/1000 [25:33<1:34:27,  7.28s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  22%|██▏       | 223/1000 [25:43<1:45:13,  8.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  22%|██▏       | 224/1000 [25:50<1:40:59,  7.81s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  22%|██▎       | 225/1000 [25:57<1:37:44,  7.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  23%|██▎       | 226/1000 [26:05<1:40:35,  7.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  23%|██▎       | 227/1000 [26:12<1:36:58,  7.53s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  23%|██▎       | 228/1000 [26:21<1:43:59,  8.08s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  23%|██▎       | 229/1000 [26:27<1:32:44,  7.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  23%|██▎       | 230/1000 [26:33<1:30:31,  7.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  23%|██▎       | 231/1000 [26:39<1:24:21,  6.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  23%|██▎       | 232/1000 [26:48<1:34:12,  7.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  23%|██▎       | 233/1000 [26:55<1:33:01,  7.28s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  23%|██▎       | 234/1000 [27:03<1:34:28,  7.40s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  24%|██▎       | 235/1000 [27:11<1:37:40,  7.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  24%|██▎       | 236/1000 [27:20<1:43:46,  8.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  24%|██▎       | 237/1000 [27:30<1:51:26,  8.76s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  24%|██▍       | 238/1000 [27:36<1:37:45,  7.70s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  24%|██▍       | 239/1000 [27:43<1:37:54,  7.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  24%|██▍       | 240/1000 [27:50<1:32:54,  7.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  24%|██▍       | 241/1000 [27:57<1:33:24,  7.38s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  24%|██▍       | 242/1000 [28:05<1:33:54,  7.43s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  24%|██▍       | 243/1000 [28:10<1:25:50,  6.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  24%|██▍       | 244/1000 [28:20<1:36:59,  7.70s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  24%|██▍       | 245/1000 [28:25<1:25:02,  6.76s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  25%|██▍       | 246/1000 [28:31<1:22:12,  6.54s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  25%|██▍       | 247/1000 [28:37<1:22:14,  6.55s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  25%|██▍       | 248/1000 [28:43<1:18:20,  6.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  25%|██▍       | 249/1000 [28:50<1:22:21,  6.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  25%|██▌       | 250/1000 [28:56<1:19:04,  6.33s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  25%|██▌       | 251/1000 [29:03<1:22:01,  6.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  25%|██▌       | 252/1000 [29:10<1:24:13,  6.76s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  25%|██▌       | 253/1000 [29:18<1:29:42,  7.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  25%|██▌       | 254/1000 [29:30<1:44:43,  8.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  26%|██▌       | 255/1000 [29:38<1:43:30,  8.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  26%|██▌       | 256/1000 [29:45<1:40:55,  8.14s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  26%|██▌       | 257/1000 [29:52<1:36:23,  7.78s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  26%|██▌       | 258/1000 [29:58<1:27:06,  7.04s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  26%|██▌       | 259/1000 [30:04<1:22:58,  6.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  26%|██▌       | 260/1000 [30:11<1:25:33,  6.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  26%|██▌       | 261/1000 [30:17<1:21:20,  6.60s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  26%|██▌       | 262/1000 [30:23<1:19:00,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  26%|██▋       | 263/1000 [30:31<1:23:04,  6.76s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  26%|██▋       | 264/1000 [30:38<1:26:11,  7.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  26%|██▋       | 265/1000 [30:43<1:19:16,  6.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  27%|██▋       | 266/1000 [30:51<1:24:49,  6.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  27%|██▋       | 267/1000 [30:57<1:21:18,  6.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  27%|██▋       | 268/1000 [31:03<1:17:50,  6.38s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  27%|██▋       | 269/1000 [31:10<1:20:53,  6.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  27%|██▋       | 270/1000 [31:19<1:26:42,  7.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  27%|██▋       | 271/1000 [31:25<1:24:42,  6.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  27%|██▋       | 272/1000 [31:31<1:18:54,  6.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  27%|██▋       | 273/1000 [31:38<1:23:30,  6.89s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  27%|██▋       | 274/1000 [31:44<1:19:41,  6.59s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  28%|██▊       | 275/1000 [31:51<1:21:18,  6.73s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  28%|██▊       | 276/1000 [31:58<1:20:20,  6.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  28%|██▊       | 277/1000 [32:05<1:22:28,  6.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  28%|██▊       | 278/1000 [32:10<1:15:19,  6.26s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  28%|██▊       | 279/1000 [32:16<1:14:45,  6.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  28%|██▊       | 280/1000 [32:22<1:13:08,  6.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  28%|██▊       | 281/1000 [32:28<1:11:33,  5.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  28%|██▊       | 282/1000 [32:35<1:17:19,  6.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  28%|██▊       | 283/1000 [32:40<1:10:41,  5.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  28%|██▊       | 284/1000 [32:48<1:18:45,  6.60s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  28%|██▊       | 285/1000 [32:54<1:16:33,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  29%|██▊       | 286/1000 [33:01<1:17:21,  6.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  29%|██▊       | 287/1000 [33:06<1:13:47,  6.21s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  29%|██▉       | 288/1000 [33:14<1:19:08,  6.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  29%|██▉       | 289/1000 [33:19<1:12:31,  6.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  29%|██▉       | 290/1000 [33:28<1:24:25,  7.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  29%|██▉       | 291/1000 [33:35<1:22:03,  6.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  29%|██▉       | 292/1000 [33:43<1:25:22,  7.23s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  29%|██▉       | 293/1000 [33:50<1:24:52,  7.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  29%|██▉       | 294/1000 [33:58<1:27:58,  7.48s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  30%|██▉       | 295/1000 [34:03<1:18:09,  6.65s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  30%|██▉       | 296/1000 [34:07<1:10:59,  6.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  30%|██▉       | 297/1000 [34:14<1:14:23,  6.35s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  30%|██▉       | 298/1000 [34:21<1:16:07,  6.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  30%|██▉       | 299/1000 [34:29<1:20:48,  6.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  30%|███       | 300/1000 [34:34<1:11:46,  6.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  30%|███       | 301/1000 [34:42<1:19:48,  6.85s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  30%|███       | 302/1000 [34:49<1:21:06,  6.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  30%|███       | 303/1000 [34:58<1:26:02,  7.41s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  30%|███       | 304/1000 [35:05<1:25:00,  7.33s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  30%|███       | 305/1000 [35:11<1:21:45,  7.06s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  31%|███       | 306/1000 [35:20<1:25:33,  7.40s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  31%|███       | 307/1000 [35:25<1:20:18,  6.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  31%|███       | 308/1000 [35:31<1:17:04,  6.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  31%|███       | 309/1000 [35:39<1:21:30,  7.08s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  31%|███       | 310/1000 [35:44<1:13:06,  6.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  31%|███       | 311/1000 [35:53<1:22:43,  7.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  31%|███       | 312/1000 [36:01<1:23:38,  7.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  31%|███▏      | 313/1000 [36:06<1:14:45,  6.53s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  31%|███▏      | 314/1000 [36:12<1:14:50,  6.55s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  32%|███▏      | 315/1000 [36:20<1:17:45,  6.81s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  32%|███▏      | 316/1000 [36:27<1:19:18,  6.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  32%|███▏      | 317/1000 [36:33<1:16:24,  6.71s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  32%|███▏      | 318/1000 [36:38<1:09:44,  6.14s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  32%|███▏      | 319/1000 [36:44<1:08:38,  6.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  32%|███▏      | 320/1000 [36:53<1:18:15,  6.91s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  32%|███▏      | 321/1000 [36:58<1:14:30,  6.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  32%|███▏      | 322/1000 [37:08<1:25:53,  7.60s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  32%|███▏      | 323/1000 [37:14<1:20:02,  7.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  32%|███▏      | 324/1000 [37:22<1:20:33,  7.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  32%|███▎      | 325/1000 [37:26<1:10:32,  6.27s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  33%|███▎      | 326/1000 [37:34<1:17:49,  6.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  33%|███▎      | 327/1000 [37:42<1:22:07,  7.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  33%|███▎      | 328/1000 [37:50<1:23:41,  7.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  33%|███▎      | 329/1000 [37:56<1:17:04,  6.89s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  33%|███▎      | 330/1000 [38:04<1:19:42,  7.14s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  33%|███▎      | 331/1000 [38:08<1:11:58,  6.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  33%|███▎      | 332/1000 [38:13<1:04:42,  5.81s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  33%|███▎      | 333/1000 [38:18<1:01:47,  5.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  33%|███▎      | 334/1000 [38:26<1:10:05,  6.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  34%|███▎      | 335/1000 [38:31<1:05:50,  5.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  34%|███▎      | 336/1000 [38:37<1:06:44,  6.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  34%|███▎      | 337/1000 [38:42<1:04:03,  5.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  34%|███▍      | 338/1000 [38:50<1:09:37,  6.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  34%|███▍      | 339/1000 [38:55<1:06:01,  5.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  34%|███▍      | 340/1000 [39:03<1:11:44,  6.52s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  34%|███▍      | 341/1000 [39:07<1:04:50,  5.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  34%|███▍      | 342/1000 [39:13<1:03:46,  5.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  34%|███▍      | 343/1000 [39:19<1:05:13,  5.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  34%|███▍      | 344/1000 [39:27<1:12:32,  6.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  34%|███▍      | 345/1000 [39:33<1:08:39,  6.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  35%|███▍      | 346/1000 [39:43<1:20:49,  7.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  35%|███▍      | 347/1000 [39:49<1:15:33,  6.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  35%|███▍      | 348/1000 [39:57<1:20:24,  7.40s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  35%|███▍      | 349/1000 [40:05<1:21:01,  7.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  35%|███▌      | 350/1000 [40:13<1:21:57,  7.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  35%|███▌      | 351/1000 [40:19<1:18:59,  7.30s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  35%|███▌      | 352/1000 [40:25<1:14:53,  6.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  35%|███▌      | 353/1000 [40:32<1:13:50,  6.85s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  35%|███▌      | 354/1000 [40:38<1:10:12,  6.52s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  36%|███▌      | 355/1000 [40:43<1:04:47,  6.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  36%|███▌      | 356/1000 [40:48<1:02:11,  5.79s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  36%|███▌      | 357/1000 [40:54<1:03:14,  5.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  36%|███▌      | 358/1000 [41:01<1:06:30,  6.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  36%|███▌      | 359/1000 [41:06<1:02:08,  5.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  36%|███▌      | 360/1000 [41:13<1:05:56,  6.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  36%|███▌      | 361/1000 [41:20<1:08:31,  6.43s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  36%|███▌      | 362/1000 [41:27<1:11:08,  6.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  36%|███▋      | 363/1000 [41:35<1:13:52,  6.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  36%|███▋      | 364/1000 [41:43<1:16:03,  7.17s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  36%|███▋      | 365/1000 [41:47<1:07:36,  6.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  37%|███▋      | 366/1000 [41:52<1:03:29,  6.01s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  37%|███▋      | 367/1000 [41:58<1:00:58,  5.78s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  37%|███▋      | 368/1000 [42:04<1:03:30,  6.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  37%|███▋      | 369/1000 [42:11<1:05:43,  6.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  37%|███▋      | 370/1000 [42:17<1:05:30,  6.24s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  37%|███▋      | 371/1000 [42:22<59:57,  5.72s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  37%|███▋      | 372/1000 [42:27<59:03,  5.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  37%|███▋      | 373/1000 [42:32<56:11,  5.38s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  37%|███▋      | 374/1000 [42:41<1:07:25,  6.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  38%|███▊      | 375/1000 [42:45<1:00:06,  5.77s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  38%|███▊      | 376/1000 [42:53<1:07:18,  6.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  38%|███▊      | 377/1000 [42:59<1:06:22,  6.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  38%|███▊      | 378/1000 [43:04<1:00:43,  5.86s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  38%|███▊      | 379/1000 [43:12<1:09:04,  6.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  38%|███▊      | 380/1000 [43:18<1:04:06,  6.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  38%|███▊      | 381/1000 [43:26<1:11:46,  6.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  38%|███▊      | 382/1000 [43:34<1:13:17,  7.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  38%|███▊      | 383/1000 [43:41<1:13:21,  7.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  38%|███▊      | 384/1000 [43:49<1:15:13,  7.33s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  38%|███▊      | 385/1000 [43:52<1:03:32,  6.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  39%|███▊      | 386/1000 [44:00<1:06:44,  6.52s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  39%|███▊      | 387/1000 [44:06<1:07:25,  6.60s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  39%|███▉      | 388/1000 [44:13<1:08:53,  6.75s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  39%|███▉      | 389/1000 [44:18<1:01:31,  6.04s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  39%|███▉      | 390/1000 [44:23<59:33,  5.86s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  39%|███▉      | 391/1000 [44:28<57:23,  5.65s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  39%|███▉      | 392/1000 [44:36<1:02:55,  6.21s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  39%|███▉      | 393/1000 [44:43<1:04:26,  6.37s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  39%|███▉      | 394/1000 [44:49<1:03:18,  6.27s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  40%|███▉      | 395/1000 [44:58<1:11:12,  7.06s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  40%|███▉      | 396/1000 [45:04<1:08:36,  6.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  40%|███▉      | 397/1000 [45:11<1:09:14,  6.89s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  40%|███▉      | 398/1000 [45:18<1:08:08,  6.79s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  40%|███▉      | 399/1000 [45:27<1:16:47,  7.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  40%|████      | 400/1000 [45:34<1:13:45,  7.38s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  40%|████      | 401/1000 [45:39<1:07:55,  6.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  40%|████      | 402/1000 [45:48<1:13:02,  7.33s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:pipelines.understanding_pipeline:Error calling OpenAI API: Error code: 400 - {'error': {'message': 'Could not finish the message because max_tokens or model output limit was reached. Please try again with higher max_tokens.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+rcm:oracle:  40%|████      | 403/1000 [45:58<1:21:27,  8.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  40%|████      | 404/1000 [46:05<1:15:54,  7.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  40%|████      | 405/1000 [46:13<1:18:20,  7.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  41%|████      | 406/1000 [46:21<1:17:14,  7.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  41%|████      | 407/1000 [46:27<1:12:04,  7.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  41%|████      | 408/1000 [46:31<1:03:05,  6.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  41%|████      | 409/1000 [46:38<1:04:37,  6.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  41%|████      | 410/1000 [46:46<1:09:13,  7.04s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  41%|████      | 411/1000 [46:52<1:04:40,  6.59s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  41%|████      | 412/1000 [46:59<1:07:51,  6.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  41%|████▏     | 413/1000 [47:06<1:06:17,  6.78s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  41%|████▏     | 414/1000 [47:14<1:10:08,  7.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  42%|████▏     | 415/1000 [47:19<1:03:21,  6.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  42%|████▏     | 416/1000 [47:25<1:02:23,  6.41s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  42%|████▏     | 417/1000 [47:29<55:24,  5.70s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  42%|████▏     | 418/1000 [47:36<59:06,  6.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  42%|████▏     | 419/1000 [47:42<59:07,  6.11s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  42%|████▏     | 420/1000 [47:50<1:03:19,  6.55s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  42%|████▏     | 421/1000 [47:55<59:52,  6.20s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  42%|████▏     | 422/1000 [48:03<1:04:08,  6.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  42%|████▏     | 423/1000 [48:10<1:06:19,  6.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  42%|████▏     | 424/1000 [48:17<1:04:32,  6.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  42%|████▎     | 425/1000 [48:23<1:02:30,  6.52s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  43%|████▎     | 426/1000 [48:29<1:02:52,  6.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  43%|████▎     | 427/1000 [48:35<1:00:40,  6.35s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  43%|████▎     | 428/1000 [48:44<1:07:30,  7.08s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  43%|████▎     | 429/1000 [48:52<1:08:49,  7.23s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  43%|████▎     | 430/1000 [49:00<1:10:54,  7.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  43%|████▎     | 431/1000 [49:08<1:12:50,  7.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  43%|████▎     | 432/1000 [49:17<1:18:17,  8.27s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  43%|████▎     | 433/1000 [49:25<1:16:27,  8.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  43%|████▎     | 434/1000 [49:30<1:07:01,  7.11s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  44%|████▎     | 435/1000 [49:35<1:00:44,  6.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  44%|████▎     | 436/1000 [49:43<1:06:40,  7.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  44%|████▎     | 437/1000 [49:50<1:04:03,  6.83s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  44%|████▍     | 438/1000 [49:58<1:07:55,  7.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  44%|████▍     | 439/1000 [50:04<1:04:33,  6.91s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  44%|████▍     | 440/1000 [50:13<1:11:11,  7.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  44%|████▍     | 441/1000 [50:21<1:09:52,  7.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  44%|████▍     | 442/1000 [50:28<1:09:40,  7.49s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  44%|████▍     | 443/1000 [50:34<1:05:56,  7.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  44%|████▍     | 444/1000 [50:41<1:05:44,  7.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  44%|████▍     | 445/1000 [50:46<1:00:21,  6.52s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  45%|████▍     | 446/1000 [50:57<1:10:32,  7.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  45%|████▍     | 447/1000 [51:02<1:04:47,  7.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  45%|████▍     | 448/1000 [51:09<1:02:50,  6.83s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  45%|████▍     | 449/1000 [51:15<1:00:12,  6.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  45%|████▌     | 450/1000 [51:23<1:06:05,  7.21s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  45%|████▌     | 451/1000 [51:32<1:10:00,  7.65s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  45%|████▌     | 452/1000 [51:41<1:13:19,  8.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  45%|████▌     | 453/1000 [51:51<1:19:39,  8.74s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  45%|████▌     | 454/1000 [51:56<1:07:18,  7.40s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  46%|████▌     | 455/1000 [52:03<1:08:07,  7.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  46%|████▌     | 456/1000 [52:12<1:11:43,  7.91s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  46%|████▌     | 457/1000 [52:17<1:02:12,  6.87s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  46%|████▌     | 458/1000 [52:22<58:19,  6.46s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  46%|████▌     | 459/1000 [52:31<1:05:35,  7.28s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  46%|████▌     | 460/1000 [52:38<1:03:18,  7.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  46%|████▌     | 461/1000 [52:47<1:09:46,  7.77s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  46%|████▌     | 462/1000 [52:55<1:10:01,  7.81s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  46%|████▋     | 463/1000 [53:04<1:13:55,  8.26s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  46%|████▋     | 464/1000 [53:11<1:09:32,  7.78s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  46%|████▋     | 465/1000 [53:17<1:04:48,  7.27s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  47%|████▋     | 466/1000 [53:21<55:00,  6.18s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  47%|████▋     | 467/1000 [53:27<56:02,  6.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  47%|████▋     | 468/1000 [53:38<1:07:21,  7.60s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  47%|████▋     | 469/1000 [53:43<1:01:18,  6.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  47%|████▋     | 470/1000 [53:49<58:08,  6.58s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  47%|████▋     | 471/1000 [53:55<55:17,  6.27s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  47%|████▋     | 472/1000 [53:59<48:37,  5.53s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  47%|████▋     | 473/1000 [54:09<1:01:27,  7.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  47%|████▋     | 474/1000 [54:15<58:22,  6.66s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  48%|████▊     | 475/1000 [54:20<54:46,  6.26s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  48%|████▊     | 476/1000 [54:27<57:04,  6.54s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  48%|████▊     | 477/1000 [54:33<55:35,  6.38s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  48%|████▊     | 478/1000 [54:39<53:36,  6.16s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  48%|████▊     | 479/1000 [54:47<58:10,  6.70s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  48%|████▊     | 480/1000 [54:53<57:20,  6.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  48%|████▊     | 481/1000 [55:01<1:00:18,  6.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  48%|████▊     | 482/1000 [55:08<58:46,  6.81s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  48%|████▊     | 483/1000 [55:14<57:21,  6.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  48%|████▊     | 484/1000 [55:23<1:02:15,  7.24s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  48%|████▊     | 485/1000 [55:30<1:02:59,  7.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  49%|████▊     | 486/1000 [55:34<55:00,  6.42s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  49%|████▊     | 487/1000 [55:38<48:45,  5.70s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  49%|████▉     | 488/1000 [55:45<49:59,  5.86s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  49%|████▉     | 489/1000 [55:52<54:26,  6.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  49%|████▉     | 490/1000 [55:58<52:50,  6.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  49%|████▉     | 491/1000 [56:04<51:44,  6.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  49%|████▉     | 492/1000 [56:11<54:21,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  49%|████▉     | 493/1000 [56:19<57:07,  6.76s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  49%|████▉     | 494/1000 [56:24<53:07,  6.30s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  50%|████▉     | 495/1000 [56:31<55:17,  6.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  50%|████▉     | 496/1000 [56:38<55:52,  6.65s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  50%|████▉     | 497/1000 [56:45<58:03,  6.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  50%|████▉     | 498/1000 [56:52<56:28,  6.75s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  50%|████▉     | 499/1000 [56:57<52:46,  6.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  50%|█████     | 500/1000 [57:03<52:30,  6.30s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  50%|█████     | 501/1000 [57:12<59:28,  7.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  50%|█████     | 502/1000 [57:19<57:51,  6.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  50%|█████     | 503/1000 [57:27<59:18,  7.16s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  50%|█████     | 504/1000 [57:34<59:22,  7.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  50%|█████     | 505/1000 [57:38<52:31,  6.37s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  51%|█████     | 506/1000 [57:42<46:02,  5.59s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  51%|█████     | 507/1000 [57:49<48:39,  5.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  51%|█████     | 508/1000 [57:54<46:56,  5.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  51%|█████     | 509/1000 [58:01<50:42,  6.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  51%|█████     | 510/1000 [58:06<47:18,  5.79s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  51%|█████     | 511/1000 [58:11<45:55,  5.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  51%|█████     | 512/1000 [58:16<44:03,  5.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  51%|█████▏    | 513/1000 [58:24<48:15,  5.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  51%|█████▏    | 514/1000 [58:29<45:48,  5.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  52%|█████▏    | 515/1000 [58:37<52:16,  6.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  52%|█████▏    | 516/1000 [58:44<52:43,  6.54s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  52%|█████▏    | 517/1000 [58:48<47:56,  5.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  52%|█████▏    | 518/1000 [58:58<57:32,  7.16s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  52%|█████▏    | 519/1000 [59:04<55:20,  6.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  52%|█████▏    | 520/1000 [59:09<50:27,  6.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  52%|█████▏    | 521/1000 [59:16<51:54,  6.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  52%|█████▏    | 522/1000 [59:26<59:22,  7.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  52%|█████▏    | 523/1000 [59:36<1:06:06,  8.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  52%|█████▏    | 524/1000 [59:44<1:04:25,  8.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  52%|█████▎    | 525/1000 [59:48<54:23,  6.87s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  53%|█████▎    | 526/1000 [59:57<58:25,  7.40s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  53%|█████▎    | 527/1000 [1:00:02<54:43,  6.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  53%|█████▎    | 528/1000 [1:00:10<55:34,  7.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  53%|█████▎    | 529/1000 [1:00:17<55:58,  7.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  53%|█████▎    | 530/1000 [1:00:24<54:11,  6.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  53%|█████▎    | 531/1000 [1:00:30<52:47,  6.75s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  53%|█████▎    | 532/1000 [1:00:36<52:12,  6.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  53%|█████▎    | 533/1000 [1:00:41<46:01,  5.91s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  53%|█████▎    | 534/1000 [1:00:48<48:56,  6.30s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  54%|█████▎    | 535/1000 [1:00:54<47:30,  6.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  54%|█████▎    | 536/1000 [1:01:00<48:08,  6.23s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  54%|█████▎    | 537/1000 [1:01:06<47:01,  6.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  54%|█████▍    | 538/1000 [1:01:14<51:50,  6.73s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  54%|█████▍    | 539/1000 [1:01:23<57:10,  7.44s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  54%|█████▍    | 540/1000 [1:01:32<1:00:46,  7.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  54%|█████▍    | 541/1000 [1:01:38<55:43,  7.28s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  54%|█████▍    | 542/1000 [1:01:45<55:23,  7.26s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  54%|█████▍    | 543/1000 [1:01:53<57:34,  7.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  54%|█████▍    | 544/1000 [1:02:00<56:18,  7.41s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  55%|█████▍    | 545/1000 [1:02:06<51:12,  6.75s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  55%|█████▍    | 546/1000 [1:02:13<52:26,  6.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  55%|█████▍    | 547/1000 [1:02:20<51:30,  6.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  55%|█████▍    | 548/1000 [1:02:25<47:40,  6.33s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  55%|█████▍    | 549/1000 [1:02:34<55:09,  7.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  55%|█████▌    | 550/1000 [1:02:41<53:46,  7.17s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  55%|█████▌    | 551/1000 [1:02:51<58:41,  7.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  55%|█████▌    | 552/1000 [1:02:56<53:11,  7.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  55%|█████▌    | 553/1000 [1:03:05<56:39,  7.61s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  55%|█████▌    | 554/1000 [1:03:13<58:52,  7.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  56%|█████▌    | 555/1000 [1:03:20<56:12,  7.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  56%|█████▌    | 556/1000 [1:03:31<1:02:47,  8.49s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  56%|█████▌    | 557/1000 [1:03:36<55:33,  7.53s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  56%|█████▌    | 558/1000 [1:03:45<57:50,  7.85s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  56%|█████▌    | 559/1000 [1:03:53<58:47,  8.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  56%|█████▌    | 560/1000 [1:04:00<55:56,  7.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  56%|█████▌    | 561/1000 [1:04:05<50:15,  6.87s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  56%|█████▌    | 562/1000 [1:04:12<50:22,  6.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  56%|█████▋    | 563/1000 [1:04:18<48:51,  6.71s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  56%|█████▋    | 564/1000 [1:04:23<45:28,  6.26s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  56%|█████▋    | 565/1000 [1:04:32<51:11,  7.06s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  57%|█████▋    | 566/1000 [1:04:39<49:13,  6.81s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  57%|█████▋    | 567/1000 [1:04:43<43:16,  6.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  57%|█████▋    | 568/1000 [1:04:47<39:30,  5.49s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  57%|█████▋    | 569/1000 [1:04:54<42:22,  5.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  57%|█████▋    | 570/1000 [1:05:01<45:32,  6.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  57%|█████▋    | 571/1000 [1:05:06<42:06,  5.89s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  57%|█████▋    | 572/1000 [1:05:14<46:51,  6.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  57%|█████▋    | 573/1000 [1:05:25<56:21,  7.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  57%|█████▋    | 574/1000 [1:05:30<49:38,  6.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  57%|█████▊    | 575/1000 [1:05:36<48:01,  6.78s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  58%|█████▊    | 576/1000 [1:05:43<47:29,  6.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  58%|█████▊    | 577/1000 [1:05:49<46:28,  6.59s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  58%|█████▊    | 578/1000 [1:05:55<44:17,  6.30s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  58%|█████▊    | 579/1000 [1:05:58<37:57,  5.41s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  58%|█████▊    | 580/1000 [1:06:03<37:07,  5.30s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  58%|█████▊    | 581/1000 [1:06:11<41:49,  5.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  58%|█████▊    | 582/1000 [1:06:18<43:17,  6.21s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  58%|█████▊    | 583/1000 [1:06:24<43:55,  6.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  58%|█████▊    | 584/1000 [1:06:31<44:32,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  58%|█████▊    | 585/1000 [1:06:39<48:12,  6.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  59%|█████▊    | 586/1000 [1:06:46<49:03,  7.11s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  59%|█████▊    | 587/1000 [1:06:51<44:10,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  59%|█████▉    | 588/1000 [1:06:58<45:13,  6.59s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  59%|█████▉    | 589/1000 [1:07:03<41:24,  6.04s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  59%|█████▉    | 590/1000 [1:07:10<43:06,  6.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  59%|█████▉    | 591/1000 [1:07:18<45:53,  6.73s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  59%|█████▉    | 592/1000 [1:07:24<45:04,  6.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  59%|█████▉    | 593/1000 [1:07:32<48:10,  7.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  59%|█████▉    | 594/1000 [1:07:38<45:45,  6.76s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  60%|█████▉    | 595/1000 [1:07:44<43:21,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  60%|█████▉    | 596/1000 [1:07:51<44:47,  6.65s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  60%|█████▉    | 597/1000 [1:07:57<42:43,  6.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  60%|█████▉    | 598/1000 [1:08:05<46:55,  7.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  60%|█████▉    | 599/1000 [1:08:14<49:46,  7.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  60%|██████    | 600/1000 [1:08:18<42:49,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  60%|██████    | 601/1000 [1:08:23<39:33,  5.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  60%|██████    | 602/1000 [1:08:31<45:14,  6.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  60%|██████    | 603/1000 [1:08:37<42:45,  6.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  60%|██████    | 604/1000 [1:08:43<41:01,  6.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  60%|██████    | 605/1000 [1:08:47<36:34,  5.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  61%|██████    | 606/1000 [1:08:52<35:26,  5.40s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  61%|██████    | 607/1000 [1:08:58<36:50,  5.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  61%|██████    | 608/1000 [1:09:04<36:46,  5.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  61%|██████    | 609/1000 [1:09:10<38:40,  5.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  61%|██████    | 610/1000 [1:09:16<38:36,  5.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  61%|██████    | 611/1000 [1:09:23<40:35,  6.26s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  61%|██████    | 612/1000 [1:09:30<42:07,  6.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  61%|██████▏   | 613/1000 [1:09:38<43:46,  6.79s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  61%|██████▏   | 614/1000 [1:09:41<37:46,  5.87s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  62%|██████▏   | 615/1000 [1:09:47<37:11,  5.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  62%|██████▏   | 616/1000 [1:09:57<45:12,  7.06s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  62%|██████▏   | 617/1000 [1:10:02<41:25,  6.49s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  62%|██████▏   | 618/1000 [1:10:07<38:19,  6.02s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  62%|██████▏   | 619/1000 [1:10:16<42:53,  6.75s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  62%|██████▏   | 620/1000 [1:10:21<40:40,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  62%|██████▏   | 621/1000 [1:10:27<38:24,  6.08s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  62%|██████▏   | 622/1000 [1:10:36<45:01,  7.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  62%|██████▏   | 623/1000 [1:10:45<48:56,  7.79s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  62%|██████▏   | 624/1000 [1:10:50<42:58,  6.86s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  62%|██████▎   | 625/1000 [1:10:56<41:30,  6.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  63%|██████▎   | 626/1000 [1:11:03<41:51,  6.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  63%|██████▎   | 627/1000 [1:11:08<38:20,  6.17s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  63%|██████▎   | 628/1000 [1:11:16<42:18,  6.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  63%|██████▎   | 629/1000 [1:11:21<38:21,  6.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  63%|██████▎   | 630/1000 [1:11:25<33:42,  5.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  63%|██████▎   | 631/1000 [1:11:30<33:17,  5.41s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  63%|██████▎   | 632/1000 [1:11:37<35:54,  5.85s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  63%|██████▎   | 633/1000 [1:11:44<36:51,  6.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  63%|██████▎   | 634/1000 [1:11:48<33:44,  5.53s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  64%|██████▎   | 635/1000 [1:11:54<34:39,  5.70s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  64%|██████▎   | 636/1000 [1:11:59<33:25,  5.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  64%|██████▎   | 637/1000 [1:12:05<34:23,  5.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  64%|██████▍   | 638/1000 [1:12:13<37:46,  6.26s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  64%|██████▍   | 639/1000 [1:12:21<41:33,  6.91s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  64%|██████▍   | 640/1000 [1:12:28<41:59,  7.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  64%|██████▍   | 641/1000 [1:12:37<45:36,  7.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  64%|██████▍   | 642/1000 [1:12:45<44:27,  7.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  64%|██████▍   | 643/1000 [1:12:55<49:20,  8.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  64%|██████▍   | 644/1000 [1:13:00<44:23,  7.48s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  64%|██████▍   | 645/1000 [1:13:08<44:49,  7.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  65%|██████▍   | 646/1000 [1:13:15<42:39,  7.23s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  65%|██████▍   | 647/1000 [1:13:20<39:13,  6.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  65%|██████▍   | 648/1000 [1:13:27<40:13,  6.86s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  65%|██████▍   | 649/1000 [1:13:31<34:51,  5.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  65%|██████▌   | 650/1000 [1:13:36<32:56,  5.65s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  65%|██████▌   | 651/1000 [1:13:41<31:45,  5.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  65%|██████▌   | 652/1000 [1:13:48<34:48,  6.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  65%|██████▌   | 653/1000 [1:13:59<43:19,  7.49s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  65%|██████▌   | 654/1000 [1:14:06<42:27,  7.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  66%|██████▌   | 655/1000 [1:14:12<39:01,  6.79s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  66%|██████▌   | 656/1000 [1:14:18<38:10,  6.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  66%|██████▌   | 657/1000 [1:14:28<43:48,  7.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  66%|██████▌   | 658/1000 [1:14:34<41:20,  7.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  66%|██████▌   | 659/1000 [1:14:39<37:22,  6.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  66%|██████▌   | 660/1000 [1:14:44<34:03,  6.01s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  66%|██████▌   | 661/1000 [1:14:52<36:34,  6.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  66%|██████▌   | 662/1000 [1:14:59<38:09,  6.77s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  66%|██████▋   | 663/1000 [1:15:04<35:37,  6.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  66%|██████▋   | 664/1000 [1:15:08<31:15,  5.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  66%|██████▋   | 665/1000 [1:15:12<27:30,  4.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  67%|██████▋   | 666/1000 [1:15:17<27:28,  4.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  67%|██████▋   | 667/1000 [1:15:22<27:22,  4.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  67%|██████▋   | 668/1000 [1:15:30<33:35,  6.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  67%|██████▋   | 669/1000 [1:15:36<32:05,  5.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  67%|██████▋   | 670/1000 [1:15:44<35:36,  6.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  67%|██████▋   | 671/1000 [1:15:48<31:42,  5.78s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  67%|██████▋   | 672/1000 [1:15:57<37:47,  6.91s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  67%|██████▋   | 673/1000 [1:16:04<37:44,  6.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  67%|██████▋   | 674/1000 [1:16:09<34:39,  6.38s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  68%|██████▊   | 675/1000 [1:16:16<35:04,  6.48s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  68%|██████▊   | 676/1000 [1:16:23<35:53,  6.65s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  68%|██████▊   | 677/1000 [1:16:33<41:35,  7.73s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  68%|██████▊   | 678/1000 [1:16:41<41:38,  7.76s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  68%|██████▊   | 679/1000 [1:16:47<38:08,  7.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  68%|██████▊   | 680/1000 [1:16:52<35:37,  6.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  68%|██████▊   | 681/1000 [1:16:58<33:29,  6.30s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  68%|██████▊   | 682/1000 [1:17:02<30:06,  5.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  68%|██████▊   | 683/1000 [1:17:09<31:40,  6.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  68%|██████▊   | 684/1000 [1:17:18<36:09,  6.87s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  68%|██████▊   | 685/1000 [1:17:25<36:06,  6.88s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  69%|██████▊   | 686/1000 [1:17:33<38:29,  7.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  69%|██████▊   | 687/1000 [1:17:38<34:43,  6.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  69%|██████▉   | 688/1000 [1:17:46<37:00,  7.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  69%|██████▉   | 689/1000 [1:17:52<35:17,  6.81s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  69%|██████▉   | 690/1000 [1:18:02<39:55,  7.73s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  69%|██████▉   | 691/1000 [1:18:07<35:52,  6.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  69%|██████▉   | 692/1000 [1:18:14<35:01,  6.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  69%|██████▉   | 693/1000 [1:18:21<35:45,  6.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  69%|██████▉   | 694/1000 [1:18:27<33:31,  6.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  70%|██████▉   | 695/1000 [1:18:31<30:21,  5.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  70%|██████▉   | 696/1000 [1:18:38<31:03,  6.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  70%|██████▉   | 697/1000 [1:18:46<33:14,  6.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  70%|██████▉   | 698/1000 [1:18:51<31:28,  6.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  70%|██████▉   | 699/1000 [1:18:58<33:01,  6.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  70%|███████   | 700/1000 [1:19:03<30:20,  6.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  70%|███████   | 701/1000 [1:19:07<27:19,  5.48s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  70%|███████   | 702/1000 [1:19:13<26:52,  5.41s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  70%|███████   | 703/1000 [1:19:21<30:21,  6.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  70%|███████   | 704/1000 [1:19:27<30:15,  6.14s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  70%|███████   | 705/1000 [1:19:35<32:59,  6.71s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  71%|███████   | 706/1000 [1:19:42<33:34,  6.85s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  71%|███████   | 707/1000 [1:19:49<33:39,  6.89s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  71%|███████   | 708/1000 [1:19:57<34:58,  7.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  71%|███████   | 709/1000 [1:20:02<31:40,  6.53s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  71%|███████   | 710/1000 [1:20:08<31:13,  6.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  71%|███████   | 711/1000 [1:20:18<36:39,  7.61s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  71%|███████   | 712/1000 [1:20:24<33:00,  6.88s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  71%|███████▏  | 713/1000 [1:20:29<31:13,  6.53s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  71%|███████▏  | 714/1000 [1:20:36<31:59,  6.71s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  72%|███████▏  | 715/1000 [1:20:41<29:04,  6.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  72%|███████▏  | 716/1000 [1:20:50<33:29,  7.08s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  72%|███████▏  | 717/1000 [1:20:59<35:06,  7.44s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  72%|███████▏  | 718/1000 [1:21:06<34:59,  7.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  72%|███████▏  | 719/1000 [1:21:10<30:13,  6.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  72%|███████▏  | 720/1000 [1:21:19<32:56,  7.06s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  72%|███████▏  | 721/1000 [1:21:24<30:29,  6.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  72%|███████▏  | 722/1000 [1:21:33<34:05,  7.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  72%|███████▏  | 723/1000 [1:21:43<37:03,  8.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  72%|███████▏  | 724/1000 [1:21:51<36:40,  7.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  72%|███████▎  | 725/1000 [1:21:56<32:27,  7.08s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  73%|███████▎  | 726/1000 [1:22:02<31:13,  6.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  73%|███████▎  | 727/1000 [1:22:07<28:53,  6.35s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  73%|███████▎  | 728/1000 [1:22:13<28:13,  6.23s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  73%|███████▎  | 729/1000 [1:22:19<28:07,  6.23s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  73%|███████▎  | 730/1000 [1:22:24<25:57,  5.77s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  73%|███████▎  | 731/1000 [1:22:34<31:15,  6.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  73%|███████▎  | 732/1000 [1:22:44<35:12,  7.88s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  73%|███████▎  | 733/1000 [1:22:52<34:40,  7.79s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  73%|███████▎  | 734/1000 [1:22:57<31:53,  7.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  74%|███████▎  | 735/1000 [1:23:04<31:33,  7.14s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  74%|███████▎  | 736/1000 [1:23:09<27:48,  6.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  74%|███████▎  | 737/1000 [1:23:17<30:24,  6.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  74%|███████▍  | 738/1000 [1:23:23<28:56,  6.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  74%|███████▍  | 739/1000 [1:23:30<29:35,  6.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  74%|███████▍  | 740/1000 [1:23:35<27:20,  6.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  74%|███████▍  | 741/1000 [1:23:41<26:46,  6.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  74%|███████▍  | 742/1000 [1:23:48<27:19,  6.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  74%|███████▍  | 743/1000 [1:23:54<26:04,  6.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  74%|███████▍  | 744/1000 [1:23:59<25:27,  5.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  74%|███████▍  | 745/1000 [1:24:05<24:30,  5.77s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  75%|███████▍  | 746/1000 [1:24:10<23:45,  5.61s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  75%|███████▍  | 747/1000 [1:24:18<26:52,  6.37s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  75%|███████▍  | 748/1000 [1:24:24<26:04,  6.21s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  75%|███████▍  | 749/1000 [1:24:30<26:20,  6.30s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  75%|███████▌  | 750/1000 [1:24:36<25:21,  6.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  75%|███████▌  | 751/1000 [1:24:42<25:04,  6.04s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  75%|███████▌  | 752/1000 [1:24:46<23:17,  5.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  75%|███████▌  | 753/1000 [1:24:54<25:42,  6.24s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  75%|███████▌  | 754/1000 [1:25:01<26:20,  6.43s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  76%|███████▌  | 755/1000 [1:25:08<26:46,  6.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  76%|███████▌  | 756/1000 [1:25:15<27:08,  6.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  76%|███████▌  | 757/1000 [1:25:23<28:38,  7.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  76%|███████▌  | 758/1000 [1:25:28<25:39,  6.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  76%|███████▌  | 759/1000 [1:25:32<22:50,  5.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  76%|███████▌  | 760/1000 [1:25:38<23:38,  5.91s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  76%|███████▌  | 761/1000 [1:25:46<25:27,  6.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  76%|███████▌  | 762/1000 [1:25:52<25:05,  6.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  76%|███████▋  | 763/1000 [1:26:01<28:46,  7.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  76%|███████▋  | 764/1000 [1:26:10<30:16,  7.70s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  76%|███████▋  | 765/1000 [1:26:17<29:10,  7.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  77%|███████▋  | 766/1000 [1:26:22<26:05,  6.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  77%|███████▋  | 767/1000 [1:26:25<22:17,  5.74s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  77%|███████▋  | 768/1000 [1:26:31<22:06,  5.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  77%|███████▋  | 769/1000 [1:26:36<21:25,  5.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  77%|███████▋  | 770/1000 [1:26:43<22:51,  5.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  77%|███████▋  | 771/1000 [1:26:50<23:25,  6.14s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  77%|███████▋  | 772/1000 [1:27:00<28:21,  7.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  77%|███████▋  | 773/1000 [1:27:04<23:43,  6.27s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  77%|███████▋  | 774/1000 [1:27:08<21:50,  5.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  78%|███████▊  | 775/1000 [1:27:19<26:55,  7.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  78%|███████▊  | 776/1000 [1:27:24<24:32,  6.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  78%|███████▊  | 777/1000 [1:27:30<23:57,  6.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  78%|███████▊  | 778/1000 [1:27:38<25:59,  7.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  78%|███████▊  | 779/1000 [1:27:44<24:27,  6.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  78%|███████▊  | 780/1000 [1:27:50<23:13,  6.33s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  78%|███████▊  | 781/1000 [1:27:58<25:15,  6.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  78%|███████▊  | 782/1000 [1:28:04<23:50,  6.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  78%|███████▊  | 783/1000 [1:28:10<23:49,  6.59s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  78%|███████▊  | 784/1000 [1:28:15<21:51,  6.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  78%|███████▊  | 785/1000 [1:28:21<21:51,  6.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  79%|███████▊  | 786/1000 [1:28:29<23:39,  6.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  79%|███████▊  | 787/1000 [1:28:33<20:55,  5.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  79%|███████▉  | 788/1000 [1:28:40<21:01,  5.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  79%|███████▉  | 789/1000 [1:28:48<24:04,  6.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  79%|███████▉  | 790/1000 [1:28:54<22:23,  6.40s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  79%|███████▉  | 791/1000 [1:29:03<25:21,  7.28s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  79%|███████▉  | 792/1000 [1:29:09<23:24,  6.75s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  79%|███████▉  | 793/1000 [1:29:14<21:29,  6.23s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  79%|███████▉  | 794/1000 [1:29:19<20:51,  6.08s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  80%|███████▉  | 795/1000 [1:29:27<21:49,  6.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  80%|███████▉  | 796/1000 [1:29:34<22:36,  6.65s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  80%|███████▉  | 797/1000 [1:29:39<21:26,  6.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  80%|███████▉  | 798/1000 [1:29:47<22:58,  6.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  80%|███████▉  | 799/1000 [1:29:56<25:03,  7.48s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  80%|████████  | 800/1000 [1:30:04<25:16,  7.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  80%|████████  | 801/1000 [1:30:09<22:21,  6.74s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  80%|████████  | 802/1000 [1:30:14<20:13,  6.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  80%|████████  | 803/1000 [1:30:21<21:29,  6.55s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  80%|████████  | 804/1000 [1:30:26<20:01,  6.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  80%|████████  | 805/1000 [1:30:33<20:04,  6.17s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  81%|████████  | 806/1000 [1:30:40<21:35,  6.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  81%|████████  | 807/1000 [1:30:46<20:21,  6.33s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  81%|████████  | 808/1000 [1:30:52<20:00,  6.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  81%|████████  | 809/1000 [1:31:00<21:42,  6.82s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  81%|████████  | 810/1000 [1:31:08<22:51,  7.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  81%|████████  | 811/1000 [1:31:13<20:33,  6.53s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  81%|████████  | 812/1000 [1:31:19<19:29,  6.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  81%|████████▏ | 813/1000 [1:31:24<18:06,  5.81s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  81%|████████▏ | 814/1000 [1:31:29<17:56,  5.79s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  82%|████████▏ | 815/1000 [1:31:36<18:14,  5.91s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  82%|████████▏ | 816/1000 [1:31:43<19:26,  6.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  82%|████████▏ | 817/1000 [1:31:53<22:20,  7.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  82%|████████▏ | 818/1000 [1:32:01<22:50,  7.53s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  82%|████████▏ | 819/1000 [1:32:06<21:09,  7.02s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  82%|████████▏ | 820/1000 [1:32:14<21:43,  7.24s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  82%|████████▏ | 821/1000 [1:32:21<21:16,  7.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  82%|████████▏ | 822/1000 [1:32:28<21:03,  7.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  82%|████████▏ | 823/1000 [1:32:32<18:04,  6.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  82%|████████▏ | 824/1000 [1:32:39<19:02,  6.49s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  82%|████████▎ | 825/1000 [1:32:44<17:24,  5.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  83%|████████▎ | 826/1000 [1:32:51<18:27,  6.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  83%|████████▎ | 827/1000 [1:33:01<21:17,  7.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  83%|████████▎ | 828/1000 [1:33:06<19:17,  6.73s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  83%|████████▎ | 829/1000 [1:33:14<20:06,  7.06s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  83%|████████▎ | 830/1000 [1:33:20<18:51,  6.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  83%|████████▎ | 831/1000 [1:33:24<16:46,  5.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  83%|████████▎ | 832/1000 [1:33:31<17:08,  6.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  83%|████████▎ | 833/1000 [1:33:39<18:41,  6.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  83%|████████▎ | 834/1000 [1:33:46<19:08,  6.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  84%|████████▎ | 835/1000 [1:33:50<16:47,  6.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  84%|████████▎ | 836/1000 [1:33:58<18:03,  6.61s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  84%|████████▎ | 837/1000 [1:34:05<17:56,  6.60s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  84%|████████▍ | 838/1000 [1:34:09<16:01,  5.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  84%|████████▍ | 839/1000 [1:34:15<16:08,  6.02s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  84%|████████▍ | 840/1000 [1:34:21<16:11,  6.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  84%|████████▍ | 841/1000 [1:34:26<15:04,  5.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  84%|████████▍ | 842/1000 [1:34:32<14:47,  5.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  84%|████████▍ | 843/1000 [1:34:42<18:02,  6.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  84%|████████▍ | 844/1000 [1:34:48<17:34,  6.76s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  84%|████████▍ | 845/1000 [1:34:54<16:48,  6.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  85%|████████▍ | 846/1000 [1:35:01<16:55,  6.60s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  85%|████████▍ | 847/1000 [1:35:05<14:57,  5.87s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  85%|████████▍ | 848/1000 [1:35:11<15:15,  6.02s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  85%|████████▍ | 849/1000 [1:35:17<14:44,  5.86s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  85%|████████▌ | 850/1000 [1:35:21<13:44,  5.49s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  85%|████████▌ | 851/1000 [1:35:28<14:10,  5.71s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  85%|████████▌ | 852/1000 [1:35:35<14:58,  6.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  85%|████████▌ | 853/1000 [1:35:40<14:18,  5.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  85%|████████▌ | 854/1000 [1:35:45<13:37,  5.60s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  86%|████████▌ | 855/1000 [1:35:52<14:25,  5.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  86%|████████▌ | 856/1000 [1:35:57<13:35,  5.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  86%|████████▌ | 857/1000 [1:36:02<12:56,  5.43s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  86%|████████▌ | 858/1000 [1:36:07<13:10,  5.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  86%|████████▌ | 859/1000 [1:36:14<13:37,  5.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  86%|████████▌ | 860/1000 [1:36:21<14:33,  6.24s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  86%|████████▌ | 861/1000 [1:36:28<15:05,  6.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  86%|████████▌ | 862/1000 [1:36:35<15:01,  6.54s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  86%|████████▋ | 863/1000 [1:36:40<14:21,  6.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  86%|████████▋ | 864/1000 [1:36:47<14:25,  6.37s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  86%|████████▋ | 865/1000 [1:36:56<16:10,  7.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  87%|████████▋ | 866/1000 [1:37:03<15:49,  7.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  87%|████████▋ | 867/1000 [1:37:09<15:09,  6.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  87%|████████▋ | 868/1000 [1:37:13<13:05,  5.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  87%|████████▋ | 869/1000 [1:37:17<11:48,  5.41s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  87%|████████▋ | 870/1000 [1:37:26<13:41,  6.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  87%|████████▋ | 871/1000 [1:37:32<13:21,  6.21s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  87%|████████▋ | 872/1000 [1:37:37<12:37,  5.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  87%|████████▋ | 873/1000 [1:37:44<12:57,  6.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  87%|████████▋ | 874/1000 [1:37:50<12:53,  6.14s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  88%|████████▊ | 875/1000 [1:37:59<15:00,  7.21s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  88%|████████▊ | 876/1000 [1:38:04<13:22,  6.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  88%|████████▊ | 877/1000 [1:38:12<14:03,  6.86s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  88%|████████▊ | 878/1000 [1:38:21<15:17,  7.52s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  88%|████████▊ | 879/1000 [1:38:27<14:17,  7.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  88%|████████▊ | 880/1000 [1:38:34<13:48,  6.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  88%|████████▊ | 881/1000 [1:38:39<12:48,  6.46s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  88%|████████▊ | 882/1000 [1:38:44<11:55,  6.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  88%|████████▊ | 883/1000 [1:38:53<13:26,  6.89s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  88%|████████▊ | 884/1000 [1:39:01<14:03,  7.27s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  88%|████████▊ | 885/1000 [1:39:06<12:48,  6.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  89%|████████▊ | 886/1000 [1:39:17<14:46,  7.78s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  89%|████████▊ | 887/1000 [1:39:22<13:25,  7.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  89%|████████▉ | 888/1000 [1:39:27<12:05,  6.48s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  89%|████████▉ | 889/1000 [1:39:34<12:17,  6.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  89%|████████▉ | 890/1000 [1:39:43<13:03,  7.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  89%|████████▉ | 891/1000 [1:39:49<12:35,  6.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  89%|████████▉ | 892/1000 [1:39:55<11:44,  6.53s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  89%|████████▉ | 893/1000 [1:40:02<11:56,  6.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  89%|████████▉ | 894/1000 [1:40:06<10:46,  6.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  90%|████████▉ | 895/1000 [1:40:11<09:42,  5.55s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  90%|████████▉ | 896/1000 [1:40:15<08:47,  5.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  90%|████████▉ | 897/1000 [1:40:20<08:44,  5.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  90%|████████▉ | 898/1000 [1:40:25<08:31,  5.02s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  90%|████████▉ | 899/1000 [1:40:29<08:11,  4.86s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  90%|█████████ | 900/1000 [1:40:37<09:30,  5.70s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  90%|█████████ | 901/1000 [1:40:46<11:02,  6.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  90%|█████████ | 902/1000 [1:40:54<11:32,  7.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  90%|█████████ | 903/1000 [1:40:59<10:34,  6.54s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  90%|█████████ | 904/1000 [1:41:08<11:45,  7.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  90%|█████████ | 905/1000 [1:41:15<11:32,  7.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  91%|█████████ | 906/1000 [1:41:22<10:59,  7.02s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  91%|█████████ | 907/1000 [1:41:30<11:32,  7.44s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  91%|█████████ | 908/1000 [1:41:36<10:48,  7.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  91%|█████████ | 909/1000 [1:41:46<11:55,  7.87s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  91%|█████████ | 910/1000 [8:56:29<195:45:23, 7830.26s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  91%|█████████ | 911/1000 [8:56:38<135:34:44, 5484.09s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  91%|█████████ | 912/1000 [8:56:45<93:53:21, 3840.93s/it] INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  91%|█████████▏| 913/1000 [8:56:53<65:01:47, 2690.89s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  91%|█████████▏| 914/1000 [8:57:00<45:03:01, 1885.83s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  92%|█████████▏| 915/1000 [8:57:10<31:14:19, 1323.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  92%|█████████▏| 916/1000 [8:57:18<21:39:52, 928.48s/it] INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  92%|█████████▏| 917/1000 [8:57:23<15:01:17, 651.54s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  92%|█████████▏| 918/1000 [8:57:29<10:25:51, 457.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  92%|█████████▏| 919/1000 [8:57:37<7:15:56, 322.92s/it] INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  92%|█████████▏| 920/1000 [8:57:44<5:04:17, 228.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  92%|█████████▏| 921/1000 [8:57:52<3:33:15, 161.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  92%|█████████▏| 922/1000 [8:58:02<2:31:09, 116.28s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  92%|█████████▏| 923/1000 [8:58:12<1:48:31, 84.57s/it] INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  92%|█████████▏| 924/1000 [8:58:19<1:17:25, 61.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  92%|█████████▎| 925/1000 [8:58:25<55:49, 44.66s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  93%|█████████▎| 926/1000 [8:58:33<41:24, 33.58s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  93%|█████████▎| 927/1000 [8:58:42<32:08, 26.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  93%|█████████▎| 928/1000 [8:58:47<23:59, 20.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  93%|█████████▎| 929/1000 [8:58:54<19:04, 16.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  93%|█████████▎| 930/1000 [8:59:01<15:24, 13.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  93%|█████████▎| 931/1000 [8:59:06<12:36, 10.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  93%|█████████▎| 932/1000 [8:59:12<10:42,  9.44s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  93%|█████████▎| 933/1000 [8:59:20<10:05,  9.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  93%|█████████▎| 934/1000 [8:59:26<08:55,  8.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  94%|█████████▎| 935/1000 [8:59:31<07:47,  7.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  94%|█████████▎| 936/1000 [8:59:37<07:12,  6.75s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  94%|█████████▎| 937/1000 [8:59:46<07:40,  7.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  94%|█████████▍| 938/1000 [8:59:52<07:20,  7.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  94%|█████████▍| 939/1000 [8:59:59<07:10,  7.06s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  94%|█████████▍| 940/1000 [9:00:06<06:57,  6.97s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  94%|█████████▍| 941/1000 [9:00:15<07:21,  7.48s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  94%|█████████▍| 942/1000 [9:00:21<06:56,  7.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  94%|█████████▍| 943/1000 [9:00:28<06:39,  7.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  94%|█████████▍| 944/1000 [9:00:33<06:01,  6.45s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  94%|█████████▍| 945/1000 [9:00:39<05:41,  6.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  95%|█████████▍| 946/1000 [9:00:48<06:29,  7.22s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  95%|█████████▍| 947/1000 [9:00:57<06:44,  7.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  95%|█████████▍| 948/1000 [9:01:05<06:38,  7.66s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  95%|█████████▍| 949/1000 [9:01:10<06:02,  7.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  95%|█████████▌| 950/1000 [9:01:15<05:12,  6.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  95%|█████████▌| 951/1000 [9:01:22<05:17,  6.48s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  95%|█████████▌| 952/1000 [9:01:29<05:18,  6.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  95%|█████████▌| 953/1000 [9:01:34<05:00,  6.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  95%|█████████▌| 954/1000 [9:01:40<04:37,  6.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  96%|█████████▌| 955/1000 [9:01:45<04:15,  5.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  96%|█████████▌| 956/1000 [9:01:50<04:04,  5.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  96%|█████████▌| 957/1000 [9:01:57<04:20,  6.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  96%|█████████▌| 958/1000 [9:02:04<04:30,  6.44s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  96%|█████████▌| 959/1000 [9:02:13<04:48,  7.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  96%|█████████▌| 960/1000 [9:02:17<04:12,  6.32s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  96%|█████████▌| 961/1000 [9:02:24<04:13,  6.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  96%|█████████▌| 962/1000 [9:02:30<03:52,  6.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  96%|█████████▋| 963/1000 [9:02:35<03:42,  6.01s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  96%|█████████▋| 964/1000 [9:02:43<03:49,  6.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  96%|█████████▋| 965/1000 [9:02:49<03:39,  6.28s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  97%|█████████▋| 966/1000 [9:02:58<04:03,  7.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  97%|█████████▋| 967/1000 [9:03:07<04:18,  7.83s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  97%|█████████▋| 968/1000 [9:03:15<04:14,  7.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  97%|█████████▋| 969/1000 [9:03:23<04:04,  7.89s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  97%|█████████▋| 970/1000 [9:03:31<03:52,  7.74s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  97%|█████████▋| 971/1000 [9:03:35<03:13,  6.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  97%|█████████▋| 972/1000 [9:03:39<02:44,  5.88s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  97%|█████████▋| 973/1000 [9:03:44<02:31,  5.60s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  97%|█████████▋| 974/1000 [9:03:51<02:37,  6.07s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  98%|█████████▊| 975/1000 [9:03:57<02:32,  6.11s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  98%|█████████▊| 976/1000 [9:04:05<02:37,  6.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:  98%|█████████▊| 977/1000 [9:04:13<02:42,  7.08s/it]/usr/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/loky-2111-1vnwpgyf'}
+  warnings.warn(
+[2026-09-07T07:08:57Z] RUN ctibench oracle rcm
+
+=== CTI-RCM | oracle (gold pipeline=understanding) | n=1000 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-rcm.tsv

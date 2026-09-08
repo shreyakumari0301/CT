@@ -1,0 +1,22 @@
+{"entity_type": "malware", "canonical_name": "Fog ransomware", "aliases": ["Fog"], "properties": {"family": "ransomware", "first_seen": "2024"}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "identity", "canonical_name": "financial institution in Asia", "aliases": [], "properties": {"sector": "financial", "region": "Asia"}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "GC2", "aliases": [], "properties": {"capabilities": ["command-and-control", "exfiltration"]}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Sheets", "aliases": [], "properties": {}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "SharePoint", "aliases": [], "properties": {}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT41", "aliases": ["Barium", "Winnti", "Wicked Panda", "Brass Typhoon", "Double Dragon"], "properties": {"last_seen": "2023"}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "Stowaway", "aliases": [], "properties": {"capabilities": ["proxying"]}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "Syteca", "aliases": ["Ekran"], "properties": {"capabilities": ["screen capture", "keystroke logging"]}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "SMBExec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "FreeFileSync", "aliases": ["Freefilesync"], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "MegaSync", "aliases": [], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "Adaptix C2 Agent Beacon", "aliases": ["Adaptix"], "properties": {"capabilities": ["command-and-control"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "Impacket", "aliases": [], "properties": {}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Exchange Server", "aliases": ["Exchange"], "properties": {}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "identity", "canonical_name": "Veeam Backup & Replication servers", "aliases": ["Veeam Backup & Replication"], "properties": {}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-40711", "aliases": [], "properties": {"cve_id": "CVE-2024-40711"}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {"tactic": "Initial Access"}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Valid Accounts (VPN credentials)", "aliases": ["compromised VPN credentials"], "properties": {"tactic": "Initial Access"}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. education sector", "aliases": [], "properties": {"sector": "education", "region": "United States"}, "source_chunks": ["BLOG-109::ch0"]}
+{"entity_type": "identity", "canonical_name": "Symantec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-109::ch0"]}

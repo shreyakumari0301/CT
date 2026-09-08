@@ -1,0 +1,8 @@
+{"entity_type": "threat_actor", "canonical_name": "FIN7", "aliases": ["Carbanak Group", "Carbon Spider", "Sangria Tempest", "ATK32"], "properties": {"first_seen": "early 2024"}, "source_chunks": ["BLOG-312::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Google Ads hijacking campaign", "aliases": [], "properties": {"first_seen": "early 2024", "objective": "direct victims to spoofed landing pages to deliver malware and establish C2 for credential harvesting and data exfiltration"}, "source_chunks": ["BLOG-312::ch0"]}
+{"entity_type": "malware", "canonical_name": "NetSupport RAT", "aliases": [], "properties": {"capabilities": ["command and control", "credential harvesting", "lateral movement", "data exfiltration"]}, "source_chunks": ["BLOG-312::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["execute commands", "download payloads"]}, "source_chunks": ["BLOG-312::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {"capabilities": ["credential dumping"]}, "source_chunks": ["BLOG-312::ch0"]}
+{"entity_type": "identity", "canonical_name": "finance organizations", "aliases": [], "properties": {"sector": "finance"}, "source_chunks": ["BLOG-312::ch0"]}
+{"entity_type": "identity", "canonical_name": "retail-related keywords", "aliases": ["retail"], "properties": {"sector": "retail"}, "source_chunks": ["BLOG-312::ch0"]}
+{"entity_type": "identity", "canonical_name": "hospitality organizations", "aliases": [], "properties": {"sector": "hospitality"}, "source_chunks": ["BLOG-312::ch0"]}

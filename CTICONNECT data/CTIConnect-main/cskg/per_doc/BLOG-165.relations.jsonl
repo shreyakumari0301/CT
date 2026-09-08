@@ -1,0 +1,21 @@
+{"src_type": "identity", "src_name": "ThreatFabric", "predicate": "identified", "tgt_type": "malware", "tgt_name": "Octo2", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "descendant_of", "tgt_type": "malware", "tgt_name": "Exobot", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "descendant_of", "tgt_type": "malware", "tgt_name": "Coper", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "distributed_in", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "distributed_in", "tgt_type": "identity", "tgt_name": "Italy", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "distributed_in", "tgt_type": "identity", "tgt_name": "Poland", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "distributed_in", "tgt_type": "identity", "tgt_name": "Moldova", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "distributed_in", "tgt_type": "identity", "tgt_name": "Hungary", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "distributed_as", "tgt_type": "indicator", "tgt_name": "com.xsusb_restore3", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "distributed_as", "tgt_type": "indicator", "tgt_name": "com.havirtual06numberresources", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "distributed_as", "tgt_type": "indicator", "tgt_name": "com.handedfastee5", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Architect/goodluck", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Domain Generation Algorithms (DGA)", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "offered_to_customers_of", "tgt_type": "malware", "tgt_name": "Octo1", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "not_distributed_via", "tgt_type": "identity", "tgt_name": "Google Play", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "compromises_via", "tgt_type": "attack_pattern", "tgt_name": "Side-loading", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "malware", "src_name": "Octo2", "predicate": "compromises_via", "tgt_type": "attack_pattern", "tgt_name": "Social engineering", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "tool", "src_name": "Zombinder", "predicate": "binds", "tgt_type": "indicator", "tgt_name": "com.xsusb_restore3", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "tool", "src_name": "Zombinder", "predicate": "binds", "tgt_type": "indicator", "tgt_name": "com.havirtual06numberresources", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "tool", "src_name": "Zombinder", "predicate": "binds", "tgt_type": "indicator", "tgt_name": "com.handedfastee5", "source_chunks": ["BLOG-165::ch0"]}
+{"src_type": "identity", "src_name": "Team Cymru", "predicate": "reported", "tgt_type": "malware", "tgt_name": "Octo2", "source_chunks": ["BLOG-165::ch0"]}

@@ -1,0 +1,21 @@
+{"entity_type": "threat_actor", "canonical_name": "LockBit affiliate", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "malware", "canonical_name": "LockBit", "aliases": ["LockBit 2.0", "LockBit 3.0", "LockBit Black", "LockBit Green"], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "malware", "canonical_name": "3AM", "aliases": [], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "gpresult", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["Cobalt Strike loaders", "CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "Wput", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "whoami", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "netstat", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "quser", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "net view", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "net stop", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "wbadmin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "bcdedit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "wmic", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "vssadmin.exe", "aliases": ["vssadmin.exe delete shadows /all /quiet"], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "tool", "canonical_name": "Tor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "identity", "canonical_name": "Symantec/Broadcom", "aliases": ["Symantec", "Broadcom"], "properties": {}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "indicator", "canonical_name": "185.202.0.111", "aliases": ["185.202.0[.]111"], "properties": {"ioc_type": "ip", "value": "185.202.0.111"}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "indicator", "canonical_name": "212.18.104.6", "aliases": ["212.18.104[.]6"], "properties": {"ioc_type": "ip", "value": "212.18.104.6"}, "source_chunks": ["BLOG-128::ch0"]}
+{"entity_type": "indicator", "canonical_name": "85.159.229.62", "aliases": ["85.159.229[.]62"], "properties": {"ioc_type": "ip", "value": "85.159.229.62"}, "source_chunks": ["BLOG-128::ch0"]}

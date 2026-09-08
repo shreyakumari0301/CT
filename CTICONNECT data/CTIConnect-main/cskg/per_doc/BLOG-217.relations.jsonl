@@ -1,0 +1,19 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "identified", "tgt_type": "malware", "tgt_name": "WinorDLL64.dll", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "backdoor_payload_for", "tgt_type": "malware", "tgt_name": "Wslink loader", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "uses", "tgt_type": "tool", "tgt_name": "MemoryModule", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "protected_by", "tgt_type": "tool", "tgt_name": "Oreans Code Virtualizer", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Encrypted Channel: Symmetric Cryptography", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "System Information Discovery", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over C2 Channel", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Command and Scripting Interpreter: PowerShell", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Archive Collected Data", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "detected_in", "tgt_type": "identity", "tgt_name": "Central Europe", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "detected_in", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "detected_in", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Lazarus Group", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "code_overlap_with", "tgt_type": "malware", "tgt_name": "GhostSecret", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "WinorDLL64.dll", "predicate": "code_overlap_with", "tgt_type": "malware", "tgt_name": "Bankshot", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "identity", "src_name": "VirusTotal", "predicate": "submission_origin", "tgt_type": "identity", "tgt_name": "South Korea", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "tool", "src_name": "YARA", "predicate": "alerted_on", "tgt_type": "malware", "tgt_name": "WinorDLL64.dll", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "South Korea", "source_chunks": ["BLOG-217::ch0"]}
+{"src_type": "malware", "src_name": "GhostSecret", "predicate": "associated_with", "tgt_type": "indicator", "tgt_name": "FE887FCAB66D7D7F79F05E0266C0649F0114BA7C", "source_chunks": ["BLOG-217::ch0"]}

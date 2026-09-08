@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Cookie Theft, also known as “pass-the-cookie attack,” is a session hijacking technique that enables access to user accounts with session cookies stored in the browser.\" Could you please: 1) identify the MITRE ATT&CK technique category that corresponds to this behavior, 2) explain the mapping between the cookie theft behavior and the MITRE technique, and 3) describe the detection methods as provided in the MITRE ATT&CK reference?",
+  "answer": "1) MITRE ATT&CK Category: Steal Web Session Cookie (T1539).  \n2) Mapping Explanation: The described “pass-the-cookie” behavior involves stealing session cookies stored by a user’s browser to impersonate that user’s authenticated web session. This directly maps to T1539, which covers adversaries obtaining web session cookies to hijack sessions and gain access to web applications without needing valid credentials.  \n3) Applicable Platforms: Platforms: Windows, macOS, Linux; also applicable to web browsers and web applications. Detection (per ATT&CK): Monitor for access to browser cookie stores and related files/SQLite DBs, suspicious browser/process reads of cookie data, and anomalous web session activity (e.g., session reuse from new hosts/IPs/UA strings or geolocations) indicating hijacked sessions.",
+  "llm_timing": {
+    "api_call_seconds": 7.7925
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"No enforcement of code-signing for scripts/binaries enables execution of unsigned HTA/PowerShell content and the RemcosRAT loader.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how the lack of enforcement of code-signing maps to the CWE category, and 3) what are the applicable platforms for this CWE (for example, does this affect our specific stack, such as Java, Python, or web frameworks)?",
+  "answer": "1) CWE-347: Improper Verification of Cryptographic Signature\n2) Mapping Explanation: In the described vulnerability, the absence of any code-signing enforcement allows execution of unsigned content. This directly maps to the CWE because the vulnerability arises from failing to correctly verify the cryptographic signature of the code, which could let an attacker execute unauthorized or malicious code.\n3) Applicable Platforms: According to the CWE reference, this vulnerability is Not Language-Specific and its prevalence is Undetermined, meaning it is not tied to a specific programming language or platform.",
+  "llm_timing": {
+    "api_call_seconds": 10.1232
+  }
+}

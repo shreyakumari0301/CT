@@ -1,0 +1,1 @@
+{"entity_type": "threat_actor", "canonical_name": "Charming Kitten", "aliases": ["APT42", "Iranian APT42", "APT35", "Phosphorus", "Mint Sandstorm", "Newscaster", "TA453"], "properties": {"country": "Iran", "primary_motivation": "espionage"}, "source_chunks": ["BLOG-271::ch0"]}

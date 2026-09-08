@@ -1,0 +1,23 @@
+{
+  "question": "An adversary probes a remote target over TCP or UDP to determine which network ports are open and what services may be reachable for communication. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1046.\n- T1046 corresponds to discovering reachable network services, mapping CAPEC-300: scanning remote TCP/UDP ports to identify open services.",
+  "llm_cost": {
+    "input": 0.000724,
+    "cached_input": 0.0,
+    "output": 0.00098,
+    "total": 0.001704,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 579,
+      "cached_input": 0,
+      "output": 98
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4077
+  }
+}

@@ -1,0 +1,9 @@
+{"entity_type": "threat_actor", "canonical_name": "MuddyWater", "aliases": ["SeedWorm", "TEMP.Zagros", "Static Kitten", "Seedworm", "Mango Sandstorm", "MERCURY"], "properties": {"country": "Iran", "primary_motivation": "espionage", "sectors_targeted": ["telecommunications", "government", "oil"], "regions_targeted": ["Middle East", "global"], "first_seen": "2021", "last_seen": "October 2023"}, "source_chunks": ["BLOG-243::ch0"]}
+{"entity_type": "tool", "canonical_name": "Atera Agent", "aliases": [], "properties": {"capabilities": ["remote monitoring and management (RMM)"]}, "source_chunks": ["BLOG-243::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Masquerading", "aliases": ["masquerading as industry-branded webinars and software packages"], "properties": {}, "source_chunks": ["BLOG-243::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data Exfiltration", "aliases": ["covert data exfiltration"], "properties": {}, "source_chunks": ["BLOG-243::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East", "aliases": [], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-243::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecommunications sector", "aliases": [], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-243::ch0"]}
+{"entity_type": "identity", "canonical_name": "government sector", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-243::ch0"]}
+{"entity_type": "identity", "canonical_name": "oil sector", "aliases": [], "properties": {"sector": "oil"}, "source_chunks": ["BLOG-243::ch0"]}
+{"entity_type": "identity", "canonical_name": "Harfang Lab", "aliases": ["Harfang Lab researchers"], "properties": {}, "source_chunks": ["BLOG-243::ch0"]}

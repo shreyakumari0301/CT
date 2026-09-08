@@ -1,0 +1,7 @@
+{
+  "question": "What are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- INC ransomware\n- Lynx ransomware",
+  "llm_timing": {
+    "api_call_seconds": 3.9981
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "An attacker spoofs a legitimate update source to trick a client into running an automated software update from an attacker-controlled location, potentially via scripted mechanisms in a malicious webpage. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1072.\n- T1072 corresponds to abusing software deployment mechanisms, mapping CAPEC-657: spoofed update sources trigger automated downloads of malicious updates.",
+  "llm_cost": {
+    "input": 0.000829,
+    "cached_input": 0.0,
+    "output": 0.00104,
+    "total": 0.001869,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 663,
+      "cached_input": 0,
+      "output": 104
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.8217
+  }
+}

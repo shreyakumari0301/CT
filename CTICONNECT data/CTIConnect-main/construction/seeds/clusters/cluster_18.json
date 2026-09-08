@@ -1,0 +1,218 @@
+{
+  "cluster_id": 18,
+  "cluster_size": 3,
+  "cluster_type": "malware",
+  "blogs": [
+    {
+      "blog_id": 281,
+      "node": [
+        {
+          "node_text": "2015",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "August 2025",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Berserk Bear",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Blue Kraken",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2018-0171",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cisco",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cisco Talos",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Crouching Yeti",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Dragonfly",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FBI",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FSB",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FireEye",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Koala Team",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "November 2021",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SYNful Knock",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Smart Install",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Static Tundra",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "higher education networks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "manufacturing networks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "opportunistic attacks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "public service announcement",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "remote code execution/DoS",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "telecommunications networks",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Ngioweb",
+      "platform": "LevelBlue",
+      "type": "malware",
+      "publish_date": "2024/11/1"
+    },
+    {
+      "blog_id": 314,
+      "node": [
+        {
+          "node_text": "CTI report",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "Kubernetes troubleshooting",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "New GodRAT Trojan",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Trojan",
+          "node_type": "Malware Type"
+        }
+      ],
+      "title": "Ngioweb",
+      "platform": "thehackernews",
+      "type": "malware",
+      "publish_date": "2024/11/19"
+    },
+    {
+      "blog_id": 279,
+      "node": [
+        {
+          "node_text": "API-key exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "CVE-2023-7028",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Canada",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "China",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "France",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Germany",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "GitLab",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "GitLab Community and Enterprise Edition 16.1–16.7",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "India",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Russia",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "ShadowServer",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "US",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "hijack accounts lacking two-factor authentication",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "internet-exposed GitLab instances",
+          "node_type": "System"
+        },
+        {
+          "node_text": "proprietary code exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "send password reset emails to adversary-controlled addresses",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "supply-chain compromise",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "the UK",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "zero-click account-takeover flaw",
+          "node_type": "Vulnerability Type"
+        }
+      ],
+      "title": "Ngioweb",
+      "platform": "BleepingComputer",
+      "type": "malware",
+      "publish_date": "2024/11/19"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "question": "What are the main malicious tools or malware families consistently used in this campaign?",
+  "answer": "- TOSHIS: a stealthy loader/stager injecting shellcode into legitimate Windows binaries\n- DESFY: file-enumeration spyware profiling victims and exfiltrating metadata\n- GTELAM: AES-encrypts document filenames and uploads them to attacker-controlled Google Drive accounts\n- C6DOOR: Go-based backdoor providing OS command execution, screenshots, file transfers, and network scans\n- Cobalt Strike: beacon/backdoor framework used for command and control",
+  "llm_timing": {
+    "api_call_seconds": 11.4525
+  }
+}

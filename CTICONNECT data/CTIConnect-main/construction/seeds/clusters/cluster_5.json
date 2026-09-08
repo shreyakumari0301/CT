@@ -1,0 +1,314 @@
+{
+  "cluster_id": 5,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 90,
+      "node": [
+        {
+          "node_text": "2023–2024",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "APT34/OilRig",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "BladedFeline",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Iraqi government networks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Kurdish government networks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PrimeCache",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "RDAT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "September 2017",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Shahmaran",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "VideoSRV",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Whisper",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "commands",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "internet-facing web server exploit",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "reverse tunnels",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "unencrypted C2 channels",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "unknown initial vectors",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " BladedFeline",
+      "platform": "darkreading",
+      "type": "threat actor",
+      "publish_date": "2017/9/28"
+    },
+    {
+      "blog_id": 147,
+      "node": [
+        {
+          "node_text": "BladedFeline",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "ESET Q4 2023–Q1 2024 report",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "Flog",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Hawking Listener",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Iraqi government entities",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "KRG systems",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Kurdish government entities",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Laret",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "OilRig",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Optimizer",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Pinar",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "PrimeCache",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "RDAT",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "September 2017",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Shahmaran backdoor",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Slippery Snakelet",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Spearal",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Whisper",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "command execution",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "data exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "internet-facing application vulnerability",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "persistent cyber espionage",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "regional Uzbekistan telecom provider",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "remote file manipulation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "social engineering",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": " BladedFeline",
+      "platform": "thehackernews",
+      "type": "threat actor",
+      "publish_date": "2017/9/28"
+    },
+    {
+      "blog_id": 201,
+      "node": [
+        {
+          "node_text": "2017",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "2017-2018",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "2024",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "BladedFeline",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "BladedFeline campaign",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Flog",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "GOI",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Hawking Listener",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "IIS module implantation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Iraqi government",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "January 2018",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "KRG",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Laret",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Lyceum",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "March 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Middle East",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "OilRig",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Pinar",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "PrimeCache",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "RDAT",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "September 2017",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Shahmaran",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Uzbekistan",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "VideoSRV",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Whisper",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "early 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "email-based C&C",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "reverse tunnels",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "webshell exploitation",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": " BladedFeline",
+      "platform": "welivesecurity",
+      "type": "threat actor",
+      "publish_date": "2025/6/5"
+    }
+  ]
+}

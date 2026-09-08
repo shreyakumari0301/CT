@@ -1,0 +1,20 @@
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "campaign", "tgt_name": "0ktapus phishing campaigns", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "evolved_into_affiliate_of", "tgt_type": "malware", "tgt_name": "BlackCat", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "tool", "tgt_name": "NSOCKS", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "tool", "tgt_name": "TrueSocks", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "malware", "tgt_name": "bedevil", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "tool", "tgt_name": "VMware vCenter", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Discord", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Telegram", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "affiliates_with", "tgt_type": "threat_actor", "tgt_name": "DragonForce", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "T1566", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "T1556", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "T1215", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "T1562", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "campaign", "src_name": "0ktapus phishing campaigns", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "malware", "src_name": "bedevil", "predicate": "deployed_on", "tgt_type": "tool", "tgt_name": "VMware vCenter", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "tool", "src_name": "Cortex XSIAM/XDR", "predicate": "mitigates", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "tool", "src_name": "Advanced URL Filtering", "predicate": "mitigates", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "tool", "src_name": "DNS Security", "predicate": "mitigates", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-82::ch0"]}
+{"src_type": "tool", "src_name": "App-ID", "predicate": "mitigates", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-82::ch0"]}

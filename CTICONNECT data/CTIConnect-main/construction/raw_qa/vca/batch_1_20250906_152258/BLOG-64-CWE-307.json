@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Insufficient lockout controls (e.g., missing/weak AD FS extranet lockout) enabled sustained password spray attempts.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to that CWE, and 3) what are the common consequences of the CWE (for example, what business risks such as data exposure or account takeover might we face)?",
+  "answer": "1) CWE-307: Improper Restriction of Excessive Authentication Attempts.\n2) Mapping Explanation: The vulnerability involves missing or weak lockout controls that allow an attacker to repeatedly attempt to authenticate using different passwords (password spraying), which directly aligns with CWE-307's focus on allowing excessive authentication attempts without proper restriction.\n3) Common Consequences: The CWE indicates that an attacker can bypass the protection mechanism by making an arbitrary number of authentication attempts, eventually gaining unauthorized access to targeted accounts (account takeover), thereby posing significant risks such as compromised access control and potential data exposure.",
+  "llm_timing": {
+    "api_call_seconds": 6.0022
+  }
+}

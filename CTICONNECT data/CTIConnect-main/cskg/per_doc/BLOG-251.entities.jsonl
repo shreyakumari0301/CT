@@ -1,0 +1,22 @@
+{"entity_type": "campaign", "canonical_name": "Operation Honeybee", "aliases": [], "properties": {"objective": "cyber-espionage", "first_seen": "August 2017", "last_seen": "March 2018"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Honeybee actor", "aliases": [], "properties": {"primary_motivation": "espionage", "sectors_targeted": ["humanitarian aid", "government"], "regions_targeted": ["South Korea", "Vietnam", "Singapore", "Argentina", "Japan", "Indonesia", "Canada"]}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "malware", "canonical_name": "SYSCON", "aliases": ["SYSCON backdoor"], "properties": {"family": "backdoor"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Visual Basic macros in MS Word documents", "aliases": ["Visual Basic macros", "Document_Open() macro"], "properties": {}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Bypass User Access Control", "aliases": ["bypasses User Access Control"], "properties": {}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privilege Escalation", "aliases": ["escalates privileges"], "properties": {}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over FTP", "aliases": ["exfiltrates system information... over FTP"], "properties": {}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "identity", "canonical_name": "humanitarian aid organizations", "aliases": [], "properties": {"sector": "humanitarian aid"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "identity", "canonical_name": "government entities", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "identity", "canonical_name": "South Korea", "aliases": [], "properties": {"region": "South Korea"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "identity", "canonical_name": "Vietnam", "aliases": [], "properties": {"region": "Vietnam"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "identity", "canonical_name": "Singapore", "aliases": [], "properties": {"region": "Singapore"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "identity", "canonical_name": "Argentina", "aliases": [], "properties": {"region": "Argentina"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "identity", "canonical_name": "Japan", "aliases": [], "properties": {"region": "Japan"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "identity", "canonical_name": "Indonesia", "aliases": [], "properties": {"region": "Indonesia"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "identity", "canonical_name": "Canada", "aliases": [], "properties": {"region": "Canada"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "indicator", "canonical_name": "manual.doc", "aliases": [], "properties": {"ioc_type": "hash", "value": "manual.doc"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "indicator", "canonical_name": "%temp%\\setup.cab", "aliases": [], "properties": {"ioc_type": "hash", "value": "%temp%\\setup.cab"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "indicator", "canonical_name": "NTWDBLIB.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "NTWDBLIB.dll"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "indicator", "canonical_name": "cliconfg.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "cliconfg.exe"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "indicator", "canonical_name": "1113427185.ifastnet.org", "aliases": [], "properties": {"ioc_type": "domain", "value": "1113427185.ifastnet.org"}, "source_chunks": ["BLOG-251::ch0"]}
+{"entity_type": "identity", "canonical_name": "Adobe Systems", "aliases": ["Adobe Systems certificate"], "properties": {}, "source_chunks": ["BLOG-251::ch0"]}

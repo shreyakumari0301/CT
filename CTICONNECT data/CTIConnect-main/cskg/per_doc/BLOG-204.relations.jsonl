@@ -1,0 +1,22 @@
+{"src_type": "identity", "src_name": "ESET Research", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "Qatar World Cup campaign", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "identity", "src_name": "ESET Research", "predicate": "detected_infections_in", "tgt_type": "identity", "tgt_name": "Palestine", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "identity", "src_name": "ESET Research", "predicate": "detected_infections_in", "tgt_type": "identity", "tgt_name": "Egypt", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "campaign", "src_name": "Qatar World Cup campaign", "predicate": "also_known_as", "tgt_type": "campaign", "tgt_name": "Kora442", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "threat_actor", "src_name": "Arid Viper APT", "predicate": "distributes", "tgt_type": "malware", "tgt_name": "AridSpy", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "threat_actor", "src_name": "Arid Viper APT", "predicate": "uses_phishing_site", "tgt_type": "indicator", "tgt_name": "lapizachat.com", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "threat_actor", "src_name": "Arid Viper APT", "predicate": "uses_phishing_site", "tgt_type": "indicator", "tgt_name": "nortirchats.com", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "threat_actor", "src_name": "Arid Viper APT", "predicate": "uses_phishing_site", "tgt_type": "indicator", "tgt_name": "reblychat.com", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "threat_actor", "src_name": "Arid Viper APT", "predicate": "uses_phishing_site", "tgt_type": "indicator", "tgt_name": "pariberychat.com", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "threat_actor", "src_name": "Arid Viper APT", "predicate": "uses_phishing_site", "tgt_type": "indicator", "tgt_name": "renatchat.com", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "threat_actor", "src_name": "Arid Viper APT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "threat_actor", "src_name": "Arid Viper APT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Palestine", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "threat_actor", "src_name": "Arid Viper APT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Egypt", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "malware", "src_name": "AridSpy", "predicate": "uses", "tgt_type": "tool", "tgt_name": "myScript.js", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "malware", "src_name": "AridSpy", "predicate": "evolved_during", "tgt_type": "campaign", "tgt_name": "Qatar World Cup campaign", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "indicator", "src_name": "lapizachat.com", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "LapizaChat", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "indicator", "src_name": "nortirchats.com", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "NortirChat", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "indicator", "src_name": "reblychat.com", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "ReblyChat", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "tool", "src_name": "myScript.js", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Arid Viper APT", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "identity", "src_name": "Zimperium", "predicate": "documented", "tgt_type": "malware", "tgt_name": "AridSpy", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "identity", "src_name": "360 Beacon Labs", "predicate": "first_tied", "tgt_type": "tool", "tgt_name": "myScript.js", "source_chunks": ["BLOG-204::ch0"]}
+{"src_type": "identity", "src_name": "FOFA", "predicate": "first_tied", "tgt_type": "tool", "tgt_name": "myScript.js", "source_chunks": ["BLOG-204::ch0"]}

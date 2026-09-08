@@ -1,0 +1,37 @@
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "malware", "canonical_name": "Trigona ransomware", "aliases": ["Trigona"], "properties": {"platforms": ["Windows", "Linux"], "capabilities": ["file encryption"], "first_seen": "July 2023"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Turkey", "aliases": [], "properties": {"region": "Turkey"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Philippines", "aliases": [], "properties": {"region": "Philippines"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Brazil", "aliases": [], "properties": {"region": "Brazil"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Germany", "aliases": [], "properties": {"region": "Germany"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Thailand", "aliases": [], "properties": {"region": "Thailand"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": ["US"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "United Kingdom", "aliases": ["UK"], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "AU", "aliases": [], "properties": {}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "government entities", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "technology sector", "aliases": ["technology"], "properties": {"sector": "technology"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "retail sector", "aliases": ["retail"], "properties": {"sector": "retail"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "FMCG sector", "aliases": ["FMCG"], "properties": {"sector": "FMCG"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "banking sector", "aliases": ["banking"], "properties": {"sector": "banking"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "finance firms", "aliases": [], "properties": {"sector": "finance"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-40539", "aliases": [], "properties": {"cve_id": "CVE-2021-40539"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "indicator", "canonical_name": "turnoff.bat", "aliases": [], "properties": {"ioc_type": "hash", "value": "turnoff.bat"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "indicator", "canonical_name": "deoff.bat", "aliases": [], "properties": {"ioc_type": "hash", "value": "deoff.bat"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {"capabilities": ["credential dumping"]}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "tool", "canonical_name": "Splashtop", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "tool", "canonical_name": "LogMeIn", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "tool", "canonical_name": "ScreenConnect", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "tool", "canonical_name": "TeamViewer", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {"capabilities": ["command and control", "post-exploitation"]}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "indicator", "canonical_name": "MHYPROTINST", "aliases": [], "properties": {"ioc_type": "hash", "value": "MHYPROTINST"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "indicator", "canonical_name": "nt.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "nt.exe"}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "MSSQL", "aliases": [], "properties": {}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows", "aliases": [], "properties": {}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Linux", "aliases": [], "properties": {}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trend Micro Vision One", "aliases": [], "properties": {}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Deep Discovery Email Inspector", "aliases": [], "properties": {}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cloud One Workload Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-199::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apex One", "aliases": [], "properties": {}, "source_chunks": ["BLOG-199::ch0"]}

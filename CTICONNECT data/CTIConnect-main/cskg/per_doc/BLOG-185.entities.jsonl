@@ -1,0 +1,40 @@
+{"entity_type": "malware", "canonical_name": "Cl0p", "aliases": ["Clop ransomware", "LockBit/Clop", "CL0P", "Clop"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "TA505", "aliases": ["Hive0065", "Chimborazo"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Compromise Active Directory servers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Manipulate Group Policy for persistence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing-delivered HTML attachments", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "malware", "canonical_name": "Get2", "aliases": ["Get2 loader"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "malware", "canonical_name": "SDBOT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "malware", "canonical_name": "FlawedAmmyy", "aliases": ["FlawedAmmyy RATs"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["Cobalt Strike beacons", "CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "tool", "canonical_name": "TinyMet", "aliases": ["TinyMet reverse shells"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral movement via SMB exploits", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "tool", "canonical_name": "DEWMODE", "aliases": ["DEWMODE web shell"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "campaign", "canonical_name": "FIN11’s and FIN7’s twin zero-day campaigns", "aliases": ["twin zero-day campaigns"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "FIN11", "aliases": ["TA505 overlap"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "FIN7", "aliases": ["Carbanak Group", "Carbon Spider", "Sangria Tempest", "ATK32"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kiteworks FTA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-27101", "aliases": [], "properties": {"cve_id": "CVE-2021-27101"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-27102", "aliases": [], "properties": {"cve_id": "CVE-2021-27102"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-27103", "aliases": [], "properties": {"cve_id": "CVE-2021-27103"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-27104", "aliases": [], "properties": {"cve_id": "CVE-2021-27104"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "Fortra GoAnywhere MFT", "aliases": ["GoAnywhere MFT"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "PaperCut", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-27350", "aliases": [], "properties": {"cve_id": "CVE-2023-27350"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "malware", "canonical_name": "Truebot", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "malware", "canonical_name": "LockBit", "aliases": ["LockBit 2.0", "LockBit 3.0", "LockBit Black", "LockBit Green"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "MOVEit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-24362", "aliases": [], "properties": {"cve_id": "CVE-2023-24362"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-35036", "aliases": [], "properties": {"cve_id": "CVE-2023-35036"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SQL injection", "aliases": ["unpatched SQL injection flaw"], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "banking", "aliases": [], "properties": {"sector": "banking"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "retail", "aliases": [], "properties": {"sector": "retail"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "healthcare", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "Türkiye", "aliases": [], "properties": {"region": "Türkiye"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "Canada", "aliases": [], "properties": {"region": "Canada"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "the US", "aliases": ["US"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "identity", "canonical_name": "large enterprises worldwide", "aliases": [], "properties": {}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".ClOP", "aliases": [], "properties": {"ioc_type": "hash", "value": ".ClOP"}, "source_chunks": ["BLOG-185::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Cl0p^_-Leaks", "aliases": ["Cl0p^_-Leaks site"], "properties": {"ioc_type": "domain", "value": "Cl0p^_-Leaks"}, "source_chunks": ["BLOG-185::ch0"]}

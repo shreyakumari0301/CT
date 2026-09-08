@@ -1,0 +1,25 @@
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "executes", "tgt_type": "campaign", "tgt_name": "BadBlood", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spear-phishing", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. academic institutions", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "targets", "tgt_type": "identity", "tgt_name": "French academic institutions", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East academic institutions", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "ProxyShell", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "ttp_overlaps_with", "tgt_type": "malware", "tgt_name": "Momento", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "scans_for", "tgt_type": "vulnerability", "tgt_name": "Log4Shell", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "scans_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-44228", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Magic Hound RAT", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Hyperscrape", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "campaign", "src_name": "BadBlood", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spear-phishing", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "campaign", "src_name": "BadBlood", "predicate": "targets", "tgt_type": "identity", "tgt_name": "oncology researchers in Israel", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "campaign", "src_name": "BadBlood", "predicate": "targets", "tgt_type": "identity", "tgt_name": "genetics researchers in Israel", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "campaign", "src_name": "BadBlood", "predicate": "targets", "tgt_type": "identity", "tgt_name": "neurology researchers in Israel", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "campaign", "src_name": "BadBlood", "predicate": "targets", "tgt_type": "identity", "tgt_name": "oncology researchers in the U.S.", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "campaign", "src_name": "BadBlood", "predicate": "targets", "tgt_type": "identity", "tgt_name": "genetics researchers in the U.S.", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "campaign", "src_name": "BadBlood", "predicate": "targets", "tgt_type": "identity", "tgt_name": "neurology researchers in the U.S.", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "malware", "src_name": "Momento", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-21972", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "malware", "src_name": "Magic Hound RAT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "malware", "src_name": "Hyperscrape", "predicate": "targets_mailbox_of", "tgt_type": "tool", "tgt_name": "Outlook", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "malware", "src_name": "Hyperscrape", "predicate": "targets_mailbox_of", "tgt_type": "tool", "tgt_name": "Gmail", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "malware", "src_name": "Hyperscrape", "predicate": "targets_mailbox_of", "tgt_type": "tool", "tgt_name": "Yahoo!", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "malware", "src_name": "Hyperscrape", "predicate": "dumps_to", "tgt_type": "tool", "tgt_name": "Telegram", "source_chunks": ["BLOG-5::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Digital Crimes Unit", "predicate": "seized_control_of_domains_of", "tgt_type": "threat_actor", "tgt_name": "Charming Kitten", "source_chunks": ["BLOG-5::ch0"]}

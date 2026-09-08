@@ -1,0 +1,39 @@
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "sponsored_by", "tgt_type": "threat_actor", "tgt_name": "TA505", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "appends_extension", "tgt_type": "indicator", "tgt_name": ".ClOP", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Compromise Active Directory servers", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Manipulate Group Policy for persistence", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Phishing-delivered HTML attachments", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Lateral movement via SMB exploits", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "threatens_to_publish_on", "tgt_type": "indicator", "tgt_name": "Cl0p^_-Leaks", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-27350", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Truebot", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "LockBit", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-24362", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-35036", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "exploits", "tgt_type": "attack_pattern", "tgt_name": "SQL injection", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "banking", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "retail", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "healthcare", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Türkiye", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Canada", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "the US", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "large enterprises worldwide", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing-delivered HTML attachments", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Get2", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Get2", "predicate": "downloads", "tgt_type": "malware", "tgt_name": "SDBOT", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Get2", "predicate": "downloads", "tgt_type": "malware", "tgt_name": "FlawedAmmyy", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Get2", "predicate": "downloads", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "malware", "src_name": "Get2", "predicate": "downloads", "tgt_type": "tool", "tgt_name": "TinyMet", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Exfiltration", "predicate": "often_uses", "tgt_type": "tool", "tgt_name": "DEWMODE", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "campaign", "src_name": "FIN11’s and FIN7’s twin zero-day campaigns", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "FIN11", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "campaign", "src_name": "FIN11’s and FIN7’s twin zero-day campaigns", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "FIN7", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "campaign", "src_name": "FIN11’s and FIN7’s twin zero-day campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Kiteworks FTA", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "campaign", "src_name": "FIN11’s and FIN7’s twin zero-day campaigns", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-27101", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "campaign", "src_name": "FIN11’s and FIN7’s twin zero-day campaigns", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-27102", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "campaign", "src_name": "FIN11’s and FIN7’s twin zero-day campaigns", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-27103", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "campaign", "src_name": "FIN11’s and FIN7’s twin zero-day campaigns", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-27104", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "campaign", "src_name": "FIN11’s and FIN7’s twin zero-day campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Fortra GoAnywhere MFT", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-27350", "predicate": "affects", "tgt_type": "identity", "tgt_name": "PaperCut", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-24362", "predicate": "affects", "tgt_type": "identity", "tgt_name": "MOVEit", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-35036", "predicate": "affects", "tgt_type": "identity", "tgt_name": "MOVEit", "source_chunks": ["BLOG-185::ch0"]}
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "detects_activity_of", "tgt_type": "malware", "tgt_name": "Cl0p", "source_chunks": ["BLOG-185::ch0"]}

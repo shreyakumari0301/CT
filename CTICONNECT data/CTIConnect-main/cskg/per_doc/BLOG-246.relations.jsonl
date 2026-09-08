@@ -1,0 +1,25 @@
+{"src_type": "identity", "src_name": "Arctic Wolf", "predicate": "discovered", "tgt_type": "campaign", "tgt_name": "Lorenz ransomware group exploiting CVE-2022-29499 against Mitel MiVoice Connect", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "associated_with", "tgt_type": "campaign", "tgt_name": "Lorenz ransomware group exploiting CVE-2022-29499 against Mitel MiVoice Connect", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-29499", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Reverse shell", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Wget", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "downloads", "tgt_type": "tool", "tgt_name": "Chisel", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Chisel", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "pdf_import_export.php web shell", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential harvesting", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Lateral movement via RDP", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Data exfiltration", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "FileZilla", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "encrypts", "tgt_type": "identity", "tgt_name": "ESXi hosts", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "BitLocker", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lorenz ransomware group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Lorenz ransomware", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "campaign", "src_name": "Lorenz ransomware group exploiting CVE-2022-29499 against Mitel MiVoice Connect", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-29499", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "campaign", "src_name": "Lorenz ransomware group exploiting CVE-2022-29499 against Mitel MiVoice Connect", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Mitel MiVoice Connect VoIP appliances", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "campaign", "src_name": "Lorenz ransomware group exploiting CVE-2022-29499 against Mitel MiVoice Connect", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US SMBs", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "campaign", "src_name": "Lorenz ransomware group exploiting CVE-2022-29499 against Mitel MiVoice Connect", "predicate": "targets", "tgt_type": "identity", "tgt_name": "China", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "campaign", "src_name": "Lorenz ransomware group exploiting CVE-2022-29499 against Mitel MiVoice Connect", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Mexico", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-29499", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Mitel MiVoice Connect VoIP appliances", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "tool", "src_name": "Wget", "predicate": "downloads", "tgt_type": "tool", "tgt_name": "Chisel", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "tool", "src_name": "FileZilla", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Data exfiltration", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "malware", "src_name": "BitLocker", "predicate": "encrypts", "tgt_type": "identity", "tgt_name": "ESXi hosts", "source_chunks": ["BLOG-246::ch0"]}
+{"src_type": "malware", "src_name": "Lorenz ransomware", "predicate": "encrypts", "tgt_type": "identity", "tgt_name": "ESXi hosts", "source_chunks": ["BLOG-246::ch0"]}

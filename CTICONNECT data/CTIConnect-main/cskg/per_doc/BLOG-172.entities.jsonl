@@ -1,0 +1,12 @@
+{"entity_type": "malware", "canonical_name": "ChromeLoader", "aliases": [], "properties": {"platforms": ["Windows", "macOS"], "capabilities": ["browser hijacking", "persistence", "credential harvesting", "spyware deployment"]}, "source_chunks": ["BLOG-172::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows", "aliases": [], "properties": {"region": "Windows"}, "source_chunks": ["BLOG-172::ch0"]}
+{"entity_type": "identity", "canonical_name": "macOS", "aliases": [], "properties": {"region": "macOS"}, "source_chunks": ["BLOG-172::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"platforms": ["Windows"], "capabilities": ["execute encoded commands"]}, "source_chunks": ["BLOG-172::ch0"]}
+{"entity_type": "tool", "canonical_name": "cURL", "aliases": [], "properties": {"capabilities": ["download files"]}, "source_chunks": ["BLOG-172::ch0"]}
+{"entity_type": "tool", "canonical_name": "Windows Task Scheduler", "aliases": [], "properties": {"platforms": ["Windows"], "capabilities": ["scheduled task execution", "persistence"]}, "source_chunks": ["BLOG-172::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chrome", "aliases": [], "properties": {"platforms": ["Windows", "macOS"]}, "source_chunks": ["BLOG-172::ch0"]}
+{"entity_type": "tool", "canonical_name": "Safari", "aliases": [], "properties": {"platforms": ["macOS"]}, "source_chunks": ["BLOG-172::ch0"]}
+{"entity_type": "tool", "canonical_name": "bash", "aliases": ["sh"], "properties": {"platforms": ["macOS"], "capabilities": ["command execution"]}, "source_chunks": ["BLOG-172::ch0"]}
+{"entity_type": "tool", "canonical_name": "zsh", "aliases": [], "properties": {"platforms": ["macOS"], "capabilities": ["command execution"]}, "source_chunks": ["BLOG-172::ch0"]}
+{"entity_type": "identity", "canonical_name": "Malwarebytes Labs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-172::ch0"]}
+{"entity_type": "identity", "canonical_name": "Red Canary", "aliases": [], "properties": {}, "source_chunks": ["BLOG-172::ch0"]}

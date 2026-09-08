@@ -1,0 +1,23 @@
+{
+  "question": "A Windows system fails to properly handle NTFS alternate data streams attached using the filename:streamname syntax, allowing hidden data to be stored with a file without normal utilities showing it. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-168.\n- CAPEC-168 exploits improper handling of NTFS alternate data streams, targeting CWE-69: improper handling of Windows ::DATA alternate data streams.",
+  "llm_cost": {
+    "input": 0.00088,
+    "cached_input": 0.0,
+    "output": 0.00104,
+    "total": 0.00192,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 704,
+      "cached_input": 0,
+      "output": 104
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4298
+  }
+}

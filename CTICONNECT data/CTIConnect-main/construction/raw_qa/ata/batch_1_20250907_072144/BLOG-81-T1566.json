@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The campaign\u2019s infection chain began with a phishing email that contains a malicious ZIP file attachment. An HTML file within this ZIP file redirects the victim to autoridade-tributaria[.]com, a website mimicking a legitimate Portuguese tax authority.\" Can you identify the MITRE ATT&CK category that matches this behavior and explain how the use of a phishing email in the attack maps to that category? Additionally, where in the attack lifecycle should we expect this behavior (i.e., what is the kill chain phase)?",
+  "answer": "1) T1566 - Phishing. 2) Mapping Explanation: The behavior described involves a phishing email with a malicious ZIP file attachment that redirects users to a mimic website, which directly aligns with the MITRE ATT&CK technique T1566, where attackers use phishing to gain initial access to systems by tricking the victims. 3) Kill Chain Phase: initial-access phase.",
+  "llm_timing": {
+    "api_call_seconds": 5.2924
+  }
+}

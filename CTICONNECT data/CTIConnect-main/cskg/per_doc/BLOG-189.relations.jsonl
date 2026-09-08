@@ -1,0 +1,8 @@
+{"src_type": "threat_actor", "src_name": "Earth Berberoka", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PlugX", "source_chunks": ["BLOG-189::ch0"]}
+{"src_type": "threat_actor", "src_name": "Earth Berberoka", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Gh0st RAT", "source_chunks": ["BLOG-189::ch0"]}
+{"src_type": "threat_actor", "src_name": "Earth Berberoka", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PuppetLoader", "source_chunks": ["BLOG-189::ch0"]}
+{"src_type": "threat_actor", "src_name": "Earth Berberoka", "predicate": "uses", "tgt_type": "malware", "tgt_name": "oRAT", "source_chunks": ["BLOG-189::ch0"]}
+{"src_type": "malware", "src_name": "PuppetLoader", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "DLL Search Order Hijacking", "source_chunks": ["BLOG-189::ch0"]}
+{"src_type": "malware", "src_name": "PuppetLoader", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Steganography", "source_chunks": ["BLOG-189::ch0"]}
+{"src_type": "malware", "src_name": "PuppetLoader", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Remote Services", "source_chunks": ["BLOG-189::ch0"]}
+{"src_type": "malware", "src_name": "PuppetLoader", "predicate": "uses_rc4_key", "tgt_type": "indicator", "tgt_name": "2726c6aea9970bb95211304705b5f595", "source_chunks": ["BLOG-189::ch0"]}

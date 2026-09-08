@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Targets open and execute unverified archives/shortcuts from phishing emails, lacking checks such as trusted signatures or provenance validation.' Can you please identify the appropriate CWE category for this vulnerability, explain how the mapping is derived from the description, and clarify whether this CWE affects our specific stack (e.g., Java, Python, web frameworks) or if it is more generic?",
+  "answer": "1) CWE Category: CWE-345, titled 'Insufficient Verification of Data Authenticity'.\n2) Mapping Explanation: The vulnerability arises because the archives/shortcuts are executed without proper verification of trusted signatures or provenance, directly aligning with CWE-345 which describes issues related to inadequate data authenticity verification.\n3) Applicable Platforms: According to the provided reference, this vulnerability is not language-specific (i.e., it does not target specific programming languages such as Java or Python) and it also applies to the ICS/OT technology domain.",
+  "llm_timing": {
+    "api_call_seconds": 7.0096
+  }
+}

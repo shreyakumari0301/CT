@@ -1,0 +1,23 @@
+{
+  "question": "An attacker manipulates a caching mechanism so incorrect or malicious data is stored and later trusted as valid until the cache refreshes, enabling redirection or other harmful outcomes. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1557.002.\n- T1557.002 corresponds to poisoning a public network cache, mapping CAPEC-141: inserting harmful values into ARP/DNS caches trusted until refreshed.",
+  "llm_cost": {
+    "input": 0.000822,
+    "cached_input": 0.0,
+    "output": 0.00111,
+    "total": 0.001933,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 658,
+      "cached_input": 0,
+      "output": 111
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3407
+  }
+}

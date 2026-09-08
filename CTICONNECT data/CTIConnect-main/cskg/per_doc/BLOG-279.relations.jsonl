@@ -1,0 +1,17 @@
+{"src_type": "identity", "src_name": "Lumen", "predicate": "has_subdivision", "tgt_type": "identity", "tgt_name": "Black Lotus Labs", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "identity", "src_name": "Lumen", "predicate": "partners_with", "tgt_type": "identity", "tgt_name": "The ShadowServer Foundation", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "identity", "src_name": "Lumen", "predicate": "blocks_traffic_to", "tgt_type": "indicator", "tgt_name": "nsocks.net", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "identity", "src_name": "Black Lotus Labs", "predicate": "investigated", "tgt_type": "malware", "tgt_name": "Ngioweb botnet", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb botnet", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Domain Generation Algorithms", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb botnet", "predicate": "compromises", "tgt_type": "identity", "tgt_name": "Zyxel", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb botnet", "predicate": "compromises", "tgt_type": "identity", "tgt_name": "Reolink", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb botnet", "predicate": "compromises", "tgt_type": "identity", "tgt_name": "Alpha Technologies", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb botnet", "predicate": "compromises", "tgt_type": "identity", "tgt_name": "Netgear", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "malware", "src_name": "Ngioweb botnet", "predicate": "provides_proxies_for", "tgt_type": "indicator", "tgt_name": "nsocks.net", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "indicator", "src_name": "nsocks.net", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Distributed Denial of Service (DDoS) Amplification", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "indicator", "src_name": "nsocks.net", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Credential Stuffing", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "indicator", "src_name": "nsocks.net", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "indicator", "src_name": "nsocks.net", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Proxying Malware Traffic", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "indicator", "src_name": "nsocks.net", "predicate": "proxies", "tgt_type": "malware", "tgt_name": "Agent Tesla", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses_infrastructure", "tgt_type": "indicator", "tgt_name": "nsocks.net", "source_chunks": ["BLOG-279::ch0"]}
+{"src_type": "identity", "src_name": "The ShadowServer Foundation", "predicate": "blocks_traffic_to", "tgt_type": "indicator", "tgt_name": "nsocks.net", "source_chunks": ["BLOG-279::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors or regions mentioned across these reports?",
+  "answer": "- Financial and insurance sector\n- Retail sector\n- Aviation sector (notably U.S. airlines and Hawaiian Airlines)\n- Hospitality sector (e.g., MGM Resorts)\n- Geographic focus on North America (United States, Canada) and the United Kingdom",
+  "llm_timing": {
+    "api_call_seconds": 6.416
+  }
+}

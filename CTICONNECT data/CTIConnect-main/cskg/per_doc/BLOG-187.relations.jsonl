@@ -1,0 +1,43 @@
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S.", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "retail sector", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "insurance sector", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing sector", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecommunications sector", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "healthcare sectors", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "TrickBot", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "malware", "tgt_name": "BazarLoader", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2018-13379", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2018-13374", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "exploits", "tgt_type": "campaign", "tgt_name": "Exchange ProxyShell", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "whoami", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "nltest", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "net", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ShareFinder", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-1472", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "associated_with", "tgt_type": "campaign", "tgt_name": "Zerologon", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-1675", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "associated_with", "tgt_type": "campaign", "tgt_name": "PrintNightmare", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ProcDump", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "mass-mimikatz", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Rubeus", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Kerberoasting", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "reg save", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Get-GPPPassword", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SharpChrome", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SeatBelt", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "EternalBlue", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Atera", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "GMER", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PC Hunter", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "executes_via", "tgt_type": "malware", "tgt_name": "DontSleep.exe", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "exfiltrates_via", "tgt_type": "tool", "tgt_name": "Rclone", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "exfiltrates_via", "tgt_type": "tool", "tgt_name": "WinSCP", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "malware", "src_name": "BazarLoader", "predicate": "delivered_via", "tgt_type": "tool", "tgt_name": "Google Drive", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "campaign", "src_name": "Zerologon", "predicate": "associated_with", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-1472", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "campaign", "src_name": "PrintNightmare", "predicate": "associated_with", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-1675", "source_chunks": ["BLOG-187::ch0"]}
+{"src_type": "tool", "src_name": "Rclone", "predicate": "uploads_to", "tgt_type": "tool", "tgt_name": "Mega", "source_chunks": ["BLOG-187::ch0"]}

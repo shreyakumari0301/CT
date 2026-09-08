@@ -1,0 +1,23 @@
+{
+  "question": "An application lets users modify parametric data values but fails to enforce write protection, so unauthorized users can change configuration-like parameters. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-1.\n- CAPEC-1 exploits missing authorization constraints, targeting CWE-1314: absent write protection on parametric data values.",
+  "llm_cost": {
+    "input": 0.000828,
+    "cached_input": 0.0,
+    "output": 0.00088,
+    "total": 0.001708,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 662,
+      "cached_input": 0,
+      "output": 88
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6783
+  }
+}

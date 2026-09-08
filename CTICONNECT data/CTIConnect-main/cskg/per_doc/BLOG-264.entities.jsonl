@@ -1,0 +1,12 @@
+{"entity_type": "campaign", "canonical_name": "Magic Hound", "aliases": [], "properties": {"first_seen": "mid-2016", "objective": "espionage"}, "source_chunks": ["BLOG-264::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Shamoon 2 campaign", "aliases": ["Shamoon 2"], "properties": {}, "source_chunks": ["BLOG-264::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Rocket Kitten", "aliases": [], "properties": {"country": "Iran"}, "source_chunks": ["BLOG-264::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT34", "aliases": ["COBALT GYPSY", "OilRig", "Helix Kitten", "Cobalt Gypsy", "Earth Vetala", "Hazel Sandstorm"], "properties": {}, "source_chunks": ["BLOG-264::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Charming Kitten", "aliases": ["Newscaster", "APT35", "Phosphorus", "Mint Sandstorm", "TA453", "APT42"], "properties": {}, "source_chunks": ["BLOG-264::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-264::ch0"]}
+{"entity_type": "malware", "canonical_name": "Pupy RAT", "aliases": ["Pupy"], "properties": {"platforms": ["cross-platform"]}, "source_chunks": ["BLOG-264::ch0"]}
+{"entity_type": "tool", "canonical_name": "MacDownloader", "aliases": [], "properties": {}, "source_chunks": ["BLOG-264::ch0"]}
+{"entity_type": "identity", "canonical_name": "Saudi Arabia", "aliases": [], "properties": {"region": "Saudi Arabia"}, "source_chunks": ["BLOG-264::ch0"]}
+{"entity_type": "identity", "canonical_name": "energy organizations in and around Saudi Arabia", "aliases": [], "properties": {"sector": "energy", "region": "Saudi Arabia"}, "source_chunks": ["BLOG-264::ch0"]}
+{"entity_type": "identity", "canonical_name": "government organizations in and around Saudi Arabia", "aliases": [], "properties": {"sector": "government", "region": "Saudi Arabia"}, "source_chunks": ["BLOG-264::ch0"]}
+{"entity_type": "identity", "canonical_name": "technology organizations in and around Saudi Arabia", "aliases": [], "properties": {"sector": "technology", "region": "Saudi Arabia"}, "source_chunks": ["BLOG-264::ch0"]}

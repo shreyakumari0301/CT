@@ -1,0 +1,63 @@
+You are a Campaign Storyline Construction (CSC) assistant. Generate a (question, answer) pair for RAG benchmarking based on security reports to extract campaign intelligence.
+
+**Use only the provided information. Do not invent facts.**
+
+---
+
+## INPUTS
+
+* {{ SOURCE_NODE.blog_id }}:
+{{ SOURCE_NODE.text }}
+
+{% for blog in TARGET_NODES %}
+* {{ blog.blog_id }}:
+{{ blog.text }}
+{% endfor %}
+
+---
+
+## REQUIREMENTS
+
+1. **Question** (1-2 sentences)
+- Ask to extract campaign intelligence from cross-report analysis.
+{% if ASPECT == "entities" %}
+- Ask to identify cross-report common entities (malware names, threat actor groups, vulnerability IDs).
+e.g., *"What malware families, threat groups, or vulnerability IDs appear consistently across these reports?"*
+{% elif ASPECT == "dates" %}
+- Ask to identify the time span of the campaign (earliest and latest report dates).
+e.g., *"What is the time span of this campaign based on the earliest and latest report dates?"*
+{% elif ASPECT == "targeting" %}
+- Ask to identify the main target industries/regions based on cross-report consensus.
+e.g., *"What are the primary target industries or regions mentioned across these reports?"*
+{% elif ASPECT == "tool" %}
+- Ask to identify the canonical tools/malware used across reports.
+e.g., *"What are the main malicious tools or malware families consistently used in this campaign?"*
+{% endif %}
+
+2. **Answer**
+- Extract campaign intelligence from cross-report analysis.
+- Answer the aspect {{ ASPECT }} based on the provided reports.
+- Do not refer to the blogs by their IDs in the answer.
+* Use bullet points
+
+---
+
+## EXAMPLE
+
+```json
+{
+  "question": "What malware families, threat groups, or vulnerability IDs appear consistently across these blogs?",
+  "answer": "- Malware Families: Emotet, TrickBot\n  - Threat Actor Groups: APT28, Lazarus Group\n  - Vulnerability IDs: CVE-2021-34527, CVE-2020-1472"
+}
+```
+
+---
+
+## OUTPUT FORMAT
+
+Respond with ONLY the JSON object:
+
+{
+  "question": "Your question here",
+  "answer": "Your answer with bullet points"
+}

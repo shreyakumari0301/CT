@@ -1,0 +1,5 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-20720", "aliases": [], "properties": {"cve_id": "CVE-2024-20720", "cvss": "9.1", "severity": "critical"}, "source_chunks": ["BLOG-117::ch0"]}
+{"entity_type": "identity", "canonical_name": "Adobe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-117::ch0"]}
+{"entity_type": "identity", "canonical_name": "Magento", "aliases": [], "properties": {}, "source_chunks": ["BLOG-117::ch0"]}
+{"entity_type": "tool", "canonical_name": "beberlei/assert", "aliases": [], "properties": {}, "source_chunks": ["BLOG-117::ch0"]}
+{"entity_type": "identity", "canonical_name": "Stripe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-117::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"BlackBerry has reported observing Jupyter also targeting crypto-wallets, such as Ethereum Wallet, MyMonero Wallet, and Atomic Wallet, in addition to accessing OpenVPN, Remote Desktop Protocol, and other remote access applications.\" Additionally, \"Once the second payload is decrypted via PowerShell, a backdoor is loaded into memory. This backdoor is then used to execute PowerShell and steal credentials from browsers, steal cryptocurrency wallets or load additional payloads into memory.\" Please provide: 1) the MITRE ATT&CK technique that maps to this behavior, 2) an explanation of how this behavior maps to the technique, and 3) answer what operating systems are affected according to the platform specification.",
+  "answer": "1) T1059.001 - PowerShell. 2) Mapping Explanation: The behavior described in the blog involves decryption and execution of a PowerShell payload to load a backdoor and facilitate further malicious actions, which directly maps to the use of PowerShell as seen in the MITRE ATT&CK technique T1059.001. 3) Applicable Platforms: Windows.",
+  "llm_timing": {
+    "api_call_seconds": 5.5752
+  }
+}

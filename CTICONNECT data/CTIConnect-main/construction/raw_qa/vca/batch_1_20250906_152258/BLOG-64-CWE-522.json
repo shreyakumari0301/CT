@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'AD FS private signing keys were stealable, enabling Golden SAML (forging SAML tokens to access cloud resources).' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how the vulnerability maps to this CWE, and 3) what are the common consequences (e.g., business risks like data exposure or account takeover) as defined in the CWE framework.",
+  "answer": "1) CWE-522: Insufficiently Protected Credentials\n2) Mapping Explanation: The vulnerability involves AD FS private signing keys being stealable. This maps to CWE-522 since the keys are sensitive credentials that were not adequately protected, allowing an attacker to compromise them and forge SAML tokens (Golden SAML), thereby gaining unauthorized access to cloud resources.\n3) Common Consequences: - Gain Privileges or Assume Identity, allowing attackers to access user accounts and sensitive data.",
+  "llm_timing": {
+    "api_call_seconds": 8.1693
+  }
+}

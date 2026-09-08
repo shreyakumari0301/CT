@@ -1,0 +1,28 @@
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "Sandworm Team", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "aligned_with", "tgt_type": "identity", "tgt_name": "Russian GRU", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-34473", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-41352", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-32315", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-42793", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-23397", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-1709", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-48788", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "energy sector", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "oil and gas sector", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecommunications sector", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "shipping sector", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "arms manufacturing sector", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government sector", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "uses", "tgt_type": "malware", "tgt_name": "DarkCrystalRAT", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "conducts_destructive_cyberattacks_in", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Central/South Asia", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "United States", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "United Kingdom", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Canada", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Australia", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "campaign", "src_name": "BadPilot campaign", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Russia", "source_chunks": ["BLOG-51::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "aligned_with", "tgt_type": "identity", "tgt_name": "Russian GRU", "source_chunks": ["BLOG-51::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "What malware families, threat actor groups, or vulnerability IDs appear consistently across these reports?",
+  "answer": "- **Threat actor group:** MirrorFace (assessed as a China-aligned **APT10 subgroup**) appears in both reports.\n- **Malware families/backdoors:**\n  - **ANEL** (aka **UPPERCUT**) backdoor appears in both reports.\n  - **AsyncRAT** (heavily customized variant) appears in both reports.\n  - **HiddenFace** backdoor appears in both reports.\n- **Vulnerability IDs:** None are mentioned in the provided reports.",
+  "llm_timing": {
+    "api_call_seconds": 10.4584
+  }
+}

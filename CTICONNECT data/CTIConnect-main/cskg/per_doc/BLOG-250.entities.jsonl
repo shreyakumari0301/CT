@@ -1,0 +1,10 @@
+{"entity_type": "identity", "canonical_name": "Dragos OT Cyber Threat Intelligence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-250::ch0"]}
+{"entity_type": "malware", "canonical_name": "FrostyGoop", "aliases": [], "properties": {"platforms": ["Windows"], "first_seen": "April 2024"}, "source_chunks": ["BLOG-250::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine’s Cyber Security Situation Center", "aliases": ["CSSC"], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-250::ch0"]}
+{"entity_type": "identity", "canonical_name": "municipal district energy company in Lviv", "aliases": [], "properties": {"sector": "energy", "region": "Lviv"}, "source_chunks": ["BLOG-250::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Modbus TCP commands over port 502", "aliases": ["malicious Modbus commands"], "properties": {}, "source_chunks": ["BLOG-250::ch0"]}
+{"entity_type": "tool", "canonical_name": "Modbus protocol", "aliases": ["Modbus", "Modbus TCP"], "properties": {}, "source_chunks": ["BLOG-250::ch0"]}
+{"entity_type": "identity", "canonical_name": "ENCO controllers", "aliases": ["ENCO assets", "ENCO devices"], "properties": {}, "source_chunks": ["BLOG-250::ch0"]}
+{"entity_type": "identity", "canonical_name": "SANS ICS 5 Critical Controls", "aliases": [], "properties": {}, "source_chunks": ["BLOG-250::ch0"]}
+{"entity_type": "identity", "canonical_name": "Dragos Platform", "aliases": [], "properties": {}, "source_chunks": ["BLOG-250::ch0"]}
+{"entity_type": "identity", "canonical_name": "Knowledge Pack", "aliases": [], "properties": {}, "source_chunks": ["BLOG-250::ch0"]}

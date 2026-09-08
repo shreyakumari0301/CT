@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The threat actors then use VBScript to transfer control to PowerShell, leveraging the server.ps1 RAT. This RAT establishes a connection to a hardcoded C2 server, providing the threat actor with control over the compromised system.\" Please provide: 1) the MITRE ATT&CK category that maps to this behavior, 2) an explanation of how this behavior maps to the technique, and 3) the applicable operating systems affected according to the MITRE ATT&CK framework reference.",
+  "answer": "1) MITRE ATT&CK Category: PowerShell (T1059.001).\n2) Mapping Explanation: The passage describes adversaries transferring execution to PowerShell to run a `.ps1` payload (“server.ps1 RAT”) that connects to a hardcoded C2 and enables control of the system. This aligns with T1059.001, which covers adversaries using PowerShell commands/scripts for execution of malicious code and follow-on actions.\n3) Applicable Platforms: Windows.",
+  "llm_timing": {
+    "api_call_seconds": 4.3037
+  }
+}

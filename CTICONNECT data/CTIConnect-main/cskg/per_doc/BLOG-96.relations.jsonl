@@ -1,0 +1,12 @@
+{"src_type": "malware", "src_name": "Jupyter infostealer", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-96::ch0"]}
+{"src_type": "malware", "src_name": "Jupyter infostealer", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Inno Setup", "source_chunks": ["BLOG-96::ch0"]}
+{"src_type": "malware", "src_name": "Jupyter infostealer", "predicate": "distributed_via", "tgt_type": "attack_pattern", "tgt_name": "SEO poisoning", "source_chunks": ["BLOG-96::ch0"]}
+{"src_type": "malware", "src_name": "Jupyter infostealer", "predicate": "distributed_via", "tgt_type": "attack_pattern", "tgt_name": "Search-engine redirects", "source_chunks": ["BLOG-96::ch0"]}
+{"src_type": "malware", "src_name": "Jupyter infostealer", "predicate": "distributed_via", "tgt_type": "attack_pattern", "tgt_name": "Drive-by downloads", "source_chunks": ["BLOG-96::ch0"]}
+{"src_type": "malware", "src_name": "Jupyter infostealer", "predicate": "distributed_via", "tgt_type": "attack_pattern", "tgt_name": "Phishing-themed executables", "source_chunks": ["BLOG-96::ch0"]}
+{"src_type": "malware", "src_name": "Jupyter infostealer", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Shellcode hollowing", "source_chunks": ["BLOG-96::ch0"]}
+{"src_type": "malware", "src_name": "Jupyter infostealer", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Staged in-memory execution", "source_chunks": ["BLOG-96::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing-themed executables", "predicate": "example", "tgt_type": "indicator", "tgt_name": "An-employers-guide-to-group-health-continuation.exe", "source_chunks": ["BLOG-96::ch0"]}
+{"src_type": "identity", "src_name": "Morphisec", "predicate": "reported_on", "tgt_type": "malware", "tgt_name": "Jupyter infostealer", "source_chunks": ["BLOG-96::ch0"]}
+{"src_type": "identity", "src_name": "BlackBerry", "predicate": "reported_on", "tgt_type": "malware", "tgt_name": "Jupyter infostealer", "source_chunks": ["BLOG-96::ch0"]}
+{"src_type": "identity", "src_name": "VMware", "predicate": "reported_on", "tgt_type": "malware", "tgt_name": "Jupyter infostealer", "source_chunks": ["BLOG-96::ch0"]}

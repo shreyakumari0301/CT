@@ -1,0 +1,20 @@
+{"entity_type": "campaign", "canonical_name": "sustained cyberespionage campaign", "aliases": [], "properties": {"objective": "cyberespionage", "first_seen": "2017", "last_seen": "2024"}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "BladedFeline", "aliases": [], "properties": {"country": "Iran", "primary_motivation": "espionage", "first_seen": "2017", "last_seen": "2024", "sectors_targeted": ["government", "telecommunications", "oil-related infrastructure", "diplomatic"], "regions_targeted": ["Middle East", "Uzbekistan"]}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT34", "aliases": ["OilRig", "Helix Kitten", "Cobalt Gypsy", "Earth Vetala", "Hazel Sandstorm"], "properties": {}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lyceum", "aliases": [], "properties": {}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kurdish Regional Government (KRG)", "aliases": ["KRG"], "properties": {"sector": "government", "region": "Iraq"}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "identity", "canonical_name": "Iraqi government officials", "aliases": [], "properties": {"sector": "government", "region": "Iraq"}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "identity", "canonical_name": "GOI", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecommunications provider in Uzbekistan", "aliases": [], "properties": {"sector": "telecommunications", "region": "Uzbekistan"}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "identity", "canonical_name": "diplomatic officials", "aliases": [], "properties": {"sector": "diplomatic"}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East", "aliases": [], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "malware", "canonical_name": "Shahmaran", "aliases": ["Shahmaran 64-bit backdoor"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "tool", "canonical_name": "Laret", "aliases": [], "properties": {"capabilities": ["reverse tunneling"]}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "tool", "canonical_name": "Pinar", "aliases": [], "properties": {"capabilities": ["reverse tunneling"]}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "malware", "canonical_name": "Whisper", "aliases": ["Exchange-based backdoor"], "properties": {"capabilities": ["email-based command and control"]}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "malware", "canonical_name": "PrimeCache", "aliases": ["malicious IIS module"], "properties": {"capabilities": ["IIS module implantation"]}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "malware", "canonical_name": "RDAT", "aliases": ["OilRig’s RDAT backdoor"], "properties": {}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "malware", "canonical_name": "Flog", "aliases": ["Flog webshell"], "properties": {"capabilities": ["webshell"]}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "malware", "canonical_name": "Hawking Listener", "aliases": [], "properties": {}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "malware", "canonical_name": "VideoSRV", "aliases": ["VideoSRV reverse shell"], "properties": {"capabilities": ["reverse shell"]}, "source_chunks": ["BLOG-201::ch0"]}
+{"entity_type": "indicator", "canonical_name": "HttpModule.pdb", "aliases": [], "properties": {"ioc_type": "hash", "value": "HttpModule.pdb"}, "source_chunks": ["BLOG-201::ch0"]}

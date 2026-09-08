@@ -1,0 +1,23 @@
+{
+  "question": "An adversary uses legitimate system functionality to enumerate domain accounts and their permissions, for example by running built-in commands like \"net user\" or \"dsquery\" to learn what accounts exist. Which MITRE ATT&CK technique corresponds to this attack pattern, and why does it map to it?",
+  "answer": "- T1087.\n- T1087 corresponds to discovering accounts, mapping CAPEC-575: enumerating domain accounts and permissions using built-in commands like net user.",
+  "llm_cost": {
+    "input": 0.000756,
+    "cached_input": 0.0,
+    "output": 0.00109,
+    "total": 0.001846,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 605,
+      "cached_input": 0,
+      "output": 109
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3677
+  }
+}

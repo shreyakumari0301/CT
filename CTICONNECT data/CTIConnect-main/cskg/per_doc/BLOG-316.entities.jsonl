@@ -1,0 +1,10 @@
+{"entity_type": "identity", "canonical_name": "Taiwan", "aliases": ["Taiwan-focused", "Taiwanese"], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-316::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT27", "aliases": [], "properties": {"country": "China", "primary_motivation": "espionage", "regions_targeted": ["Taiwan"]}, "source_chunks": ["BLOG-316::ch0"]}
+{"entity_type": "identity", "canonical_name": "Sogou", "aliases": [], "properties": {}, "source_chunks": ["BLOG-316::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["Cobalt Strike beacon", "CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-316::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {"capabilities": ["credential harvesting"]}, "source_chunks": ["BLOG-316::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Supply Chain Compromise: Compromise Software Supply Chain", "aliases": ["MITRE T1195.002"], "properties": {"technique_id": "T1195.002"}, "source_chunks": ["BLOG-316::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Application Layer Protocol: Web Protocols", "aliases": ["MITRE T1071.001", "HTTP(S)"], "properties": {"technique_id": "T1071.001"}, "source_chunks": ["BLOG-316::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "OS Credential Dumping: LSASS Memory", "aliases": ["T1003.001"], "properties": {"technique_id": "T1003.001"}, "source_chunks": ["BLOG-316::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over C2 Channel", "aliases": ["T1041"], "properties": {"technique_id": "T1041"}, "source_chunks": ["BLOG-316::ch0"]}
+{"entity_type": "indicator", "canonical_name": "SogouZhuyinUpdater.exe", "aliases": ["legitimate SogouZhuyinUpdater.exe"], "properties": {"ioc_type": "hash", "value": "SogouZhuyinUpdater.exe"}, "source_chunks": ["BLOG-316::ch0"]}

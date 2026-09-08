@@ -1,0 +1,23 @@
+{
+  "question": "A system stores user passwords using an encoding or hashing approach that is too weak, making stored password representations easier to reverse or crack. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-55.\n- CAPEC-55 exploits weak password encoding, targeting CWE-261: passwords encoded with weak schemes that enable easier cracking.",
+  "llm_cost": {
+    "input": 0.000719,
+    "cached_input": 0.0,
+    "output": 0.00089,
+    "total": 0.001609,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 575,
+      "cached_input": 0,
+      "output": 89
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4688
+  }
+}

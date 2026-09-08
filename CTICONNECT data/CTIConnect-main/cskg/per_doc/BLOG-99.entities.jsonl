@@ -1,0 +1,9 @@
+{"entity_type": "identity", "canonical_name": "Qantas Airlines", "aliases": ["Qantas"], "properties": {}, "source_chunks": ["BLOG-99::ch0"]}
+{"entity_type": "identity", "canonical_name": "Australians", "aliases": [], "properties": {"region": "Australia"}, "source_chunks": ["BLOG-99::ch0"]}
+{"entity_type": "identity", "canonical_name": "Australia", "aliases": [], "properties": {"region": "Australia"}, "source_chunks": ["BLOG-99::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Scattered Spider", "aliases": ["UNC3944", "0ktapus/Roasted Oktapus", "Scatter Swine", "Octo Tempest", "Muddled Libra", "0ktapus", "Roasted 0ktapus", "Storm-0875"], "properties": {"sectors_targeted": ["aviation"]}, "source_chunks": ["BLOG-99::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-99::ch0"]}
+{"entity_type": "identity", "canonical_name": "CyberCX", "aliases": [], "properties": {}, "source_chunks": ["BLOG-99::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apollo Information Systems", "aliases": [], "properties": {}, "source_chunks": ["BLOG-99::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["follow-on phishing campaigns"], "properties": {}, "source_chunks": ["BLOG-99::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Social engineering", "aliases": ["highly personalized social-engineering"], "properties": {}, "source_chunks": ["BLOG-99::ch0"]}

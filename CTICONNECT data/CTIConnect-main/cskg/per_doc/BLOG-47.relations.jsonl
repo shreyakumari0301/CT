@@ -1,0 +1,28 @@
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "documents_selling", "tgt_type": "identity", "tgt_name": "commercial spyware vendors", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "observed", "tgt_type": "attack_pattern", "tgt_name": "smishing", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "uncovered", "tgt_type": "attack_pattern", "tgt_name": "SMS link campaign", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "commercial spyware vendors", "predicate": "sell", "tgt_type": "attack_pattern", "tgt_name": "0-day exploits", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "commercial spyware vendors", "predicate": "sell", "tgt_type": "attack_pattern", "tgt_name": "n-day exploits", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "commercial spyware vendors", "predicate": "sell_to", "tgt_type": "identity", "tgt_name": "government-backed actors", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "government-backed actors", "predicate": "targets", "tgt_type": "identity", "tgt_name": "dissidents", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "government-backed actors", "predicate": "targets", "tgt_type": "identity", "tgt_name": "journalists", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "government-backed actors", "predicate": "targets", "tgt_type": "identity", "tgt_name": "human rights workers", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "government-backed actors", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Android", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "government-backed actors", "predicate": "targets", "tgt_type": "identity", "tgt_name": "iOS", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "government-backed actors", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Samsung Internet Browser", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-42856", "predicate": "affects", "tgt_type": "identity", "tgt_name": "WebKit", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-3723", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Chrome", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-4135", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Chrome", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-4262", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Chrome", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-3038", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Chrome", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-22706", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Linux kernel", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-0266", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Linux kernel", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cytrox", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Predator", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "malware", "src_name": "Predator", "predicate": "associated_with", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-42856", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "malware", "src_name": "Heliconia", "predicate": "delivers", "tgt_type": "identity", "tgt_name": "Android", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "Sergei Glazunov", "predicate": "analyzed", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-4135", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "identity", "src_name": "Samsung Internet Browser", "predicate": "derived_from", "tgt_type": "identity", "tgt_name": "Chromium", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "attack_pattern", "src_name": "smishing", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "bit.ly", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "attack_pattern", "src_name": "SMS link campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "UAE users", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "attack_pattern", "src_name": "SMS link campaign", "predicate": "delivers_via", "tgt_type": "malware", "tgt_name": "Heliconia", "source_chunks": ["BLOG-47::ch0"]}
+{"src_type": "attack_pattern", "src_name": "SMS link campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Samsung Internet Browser", "source_chunks": ["BLOG-47::ch0"]}

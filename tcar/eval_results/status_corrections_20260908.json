@@ -1,0 +1,107 @@
+{
+  "ATA_v4": {
+    "n": 160,
+    "cb_count": 28,
+    "rag_count": 70,
+    "cb_pct": 17.5,
+    "rag_pct": 43.8,
+    "rescues": 43,
+    "damages": 1,
+    "delta_pp_rounded_half_up_1": 26.3,
+    "delta_pp_exact": 26.25,
+    "formula": "(43-1)/160 = 26.25 pp \u2192 report +26.3 pp (half-up)",
+    "oracle_headroom_note": "branch oracle \u224871/160; v4 \u224870/160; ~1 item headroom",
+    "publication_caveat": "If damage gate was tuned on these 160 gold outcomes, treat as development; need held-out eval for paper claim."
+  },
+  "RCM_matched_200": {
+    "n": 200,
+    "vanilla_missing_ids": 0,
+    "same_200": {
+      "Vanilla": {
+        "CB": 0.665,
+        "RAG": 0.725
+      },
+      "Hybrid": {
+        "CB": 0.655,
+        "RAG": 0.665
+      }
+    },
+    "hybrid_internal_delta_pp": 1.0,
+    "hybrid_vs_vanilla_rag_delta_pp": -6.0,
+    "utilization": {
+      "n_gold_in_top5": 154,
+      "acc_when_gold_in_top5": 0.7792,
+      "n_gold_absent": 46,
+      "acc_when_gold_absent": 0.2826,
+      "incorrect_retrieved_neighbour_count": 32,
+      "incorrect_neighbour_rate_among_gold_at5": 0.2078,
+      "mean_candidate_count": 20.0,
+      "mean_prompt_k": 3.0
+    },
+    "note": "Matched Vanilla is task_prompts_cb turbo on the same 200 hybrid IDs. Do not compare hybrid n=200 to Vanilla full n=1000."
+  },
+  "VSP_matched_75_and_decode_audit": {
+    "n_structured": 75,
+    "n_vanilla_matched": 75,
+    "same_75": {
+      "Vanilla": {
+        "exact_CB": 0.2533,
+        "exact_RAG": 0.2533,
+        "MAD8_CB": 0.2217,
+        "MAD8_RAG": 0.21,
+        "MAD_base_CB": 1.1373,
+        "MAD_base_RAG": 0.9333
+      },
+      "Structured": {
+        "exact_CB": 0.0667,
+        "exact_RAG": 0.08,
+        "MAD8_CB": 0.3283,
+        "MAD8_RAG": 0.3317,
+        "MAD_base_CB": 4.164,
+        "MAD_base_RAG": 4.0373
+      }
+    },
+    "decode_audit": {
+      "missing_field_events": 0,
+      "invalid_categorical_events": 0,
+      "sides_with_uncertain_defaults": 127,
+      "consistency_helped_vs_gold": 35,
+      "consistency_harmed_vs_gold": 21,
+      "counters": {
+        "cb_has_uncertain": 62,
+        "cb_has_raw_facts": 75,
+        "rag_has_uncertain": 65,
+        "rag_has_raw_facts": 75
+      },
+      "note": "Structured CB exact 6.7% vs Vanilla same-75 CB is the key signal of prompt/parser/decoder loss \u2014 not a n=1000 comparison."
+    }
+  },
+  "ATE_metric_correction": {
+    "n": 60,
+    "stamp": "20260902Ttask_prompts_cb",
+    "cf_summary_metric_label": "Macro-F1 (MISLABELED for CF closed_book_score/forced_rag_score)",
+    "what_cf_boolean_actually_is": "exact-set accuracy (instance F1 >= 1)",
+    "exact_set_accuracy": {
+      "CB": 0.0667,
+      "Forced_RAG": 0.3,
+      "verified_recompute_CB": 0.0667,
+      "verified_recompute_RAG": 0.3
+    },
+    "mean_instance_F1": {
+      "CB": 0.4882,
+      "Forced_RAG": 0.8579
+    },
+    "paper_write": "Report Exact-set Acc = 30.0% for Turbo Forced-RAG on this stamp; also report mean instance F1 separately (\u22480.86 here). Do not call the CF Acc column Macro-F1."
+  },
+  "MCQ_v3_merge_status": {
+    "v2_n": 2500,
+    "v2_unique_ids": 2500,
+    "regen_target_n": 1648,
+    "v3_completed_n": 39,
+    "v3_progress_pct": 2.37,
+    "merged_would_have_n": 2500,
+    "partial_merged_acc_if_score_now": 0.786,
+    "note": "Do not report partial merge Acc. Wait until v3_completed_n == regen_target_n, then overlay.",
+    "merge_recipe": "Start from v2 predictions; replace only regen_ids with v3; assert len(unique ids)==2500 before scoring."
+  }
+}

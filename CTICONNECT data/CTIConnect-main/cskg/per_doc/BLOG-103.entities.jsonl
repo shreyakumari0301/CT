@@ -1,0 +1,19 @@
+{"entity_type": "threat_actor", "canonical_name": "APT29", "aliases": ["Cozy Bear", "Nobelium", "The Dukes", "Midnight Blizzard", "UNC2452", "YTTRIUM"], "properties": {"country": "Russia", "first_seen": "September"}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-42793", "aliases": [], "properties": {"cve_id": "CVE-2023-42793", "cvss": "9.8", "severity": "critical"}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "identity", "canonical_name": "JetBrains", "aliases": [], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "identity", "canonical_name": "JetBrains TeamCity", "aliases": ["TeamCity"], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "identity", "canonical_name": "Rapid7", "aliases": [], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "identity", "canonical_name": "SDLC management servers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": ["remote-code-execution"], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Initial Access", "aliases": ["gain initial access"], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privilege Escalation", "aliases": ["escalate privileges"], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral Movement", "aliases": ["move laterally"], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Supply Chain Compromise", "aliases": ["SolarWinds-style supply-chain attacks"], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "identity", "canonical_name": "SolarWinds", "aliases": [], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "identity", "canonical_name": "NSA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lazarus", "aliases": ["North Korea’s Lazarus"], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Andariel", "aliases": ["Silent Chollima", "PLUTONIUM", "Onyx Sleet"], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "identity", "canonical_name": "Fortinet", "aliases": [], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}
+{"entity_type": "identity", "canonical_name": "TeamCity 2023.05.4", "aliases": [], "properties": {}, "source_chunks": ["BLOG-103::ch0"]}

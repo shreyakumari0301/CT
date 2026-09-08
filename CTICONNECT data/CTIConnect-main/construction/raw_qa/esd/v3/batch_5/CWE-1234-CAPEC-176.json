@@ -1,0 +1,23 @@
+{
+  "question": "A device includes internal or debug modes that let someone override lock mechanisms, bypassing intended access restrictions. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-176.\n- CAPEC-176 exploits manipulating debug modes to override locks, targeting CWE-1234: internal/debug hardware modes allow lock overrides.",
+  "llm_cost": {
+    "input": 0.000718,
+    "cached_input": 0.0,
+    "output": 0.00085,
+    "total": 0.001567,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 574,
+      "cached_input": 0,
+      "output": 85
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.1507
+  }
+}

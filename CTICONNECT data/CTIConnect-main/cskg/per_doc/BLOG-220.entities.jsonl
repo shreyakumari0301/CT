@@ -1,0 +1,12 @@
+{"entity_type": "threat_actor", "canonical_name": "Karakurt", "aliases": ["Karakurt Team", "Karakurt Lair"], "properties": {"first_seen": "June 2021", "sectors_targeted": ["small and midsize companies"], "regions_targeted": ["North America", "Europe"]}, "source_chunks": ["BLOG-220::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Conti", "aliases": [], "properties": {"last_seen": "May 19, 2022"}, "source_chunks": ["BLOG-220::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-220::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {"capabilities": ["command and control"]}, "source_chunks": ["BLOG-220::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {"capabilities": ["credential dumping"]}, "source_chunks": ["BLOG-220::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-220::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinZip", "aliases": [], "properties": {}, "source_chunks": ["BLOG-220::ch0"]}
+{"entity_type": "tool", "canonical_name": "7-Zip", "aliases": ["7zip"], "properties": {}, "source_chunks": ["BLOG-220::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rclone", "aliases": [], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-220::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-220::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-220::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Mega.io", "aliases": [], "properties": {"ioc_type": "domain", "value": "mega.io"}, "source_chunks": ["BLOG-220::ch0"]}

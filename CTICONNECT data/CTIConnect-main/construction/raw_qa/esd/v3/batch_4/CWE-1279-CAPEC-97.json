@@ -1,0 +1,23 @@
+{
+  "question": "A system performs encryption or decryption operations before its required supporting components are initialized and ready, potentially weakening how cryptography is applied. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-97.\n- CAPEC-97 exploits crypto applied before supporting units are ready, targeting CWE-1279: cryptographic operations run before supporting units are ready.",
+  "llm_cost": {
+    "input": 0.000835,
+    "cached_input": 0.0,
+    "output": 0.00094,
+    "total": 0.001775,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 668,
+      "cached_input": 0,
+      "output": 94
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7446
+  }
+}

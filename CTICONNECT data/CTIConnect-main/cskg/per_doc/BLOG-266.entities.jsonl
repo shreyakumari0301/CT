@@ -1,0 +1,14 @@
+{"entity_type": "threat_actor", "canonical_name": "Salt Typhoon", "aliases": ["GhostEmperor", "Operator Panda", "RedMike", "UNC5807", "FamousSparrow"], "properties": {"first_seen": "2021", "regions_targeted": ["United States", "Canada", "United Kingdom", "Australia", "New Zealand"], "sectors_targeted": ["telecommunications", "government", "transportation", "lodging", "military"]}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco", "aliases": [], "properties": {}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2018-0171", "aliases": [], "properties": {"cve_id": "CVE-2018-0171"}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-20198", "aliases": [], "properties": {"cve_id": "CVE-2023-20198"}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-20273", "aliases": [], "properties": {"cve_id": "CVE-2023-20273"}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ivanti", "aliases": [], "properties": {}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-21887", "aliases": [], "properties": {"cve_id": "CVE-2024-21887"}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-3400", "aliases": [], "properties": {"cve_id": "CVE-2024-3400"}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chinese intelligence services", "aliases": [], "properties": {}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "identity", "canonical_name": "Sichuan Juxinhe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "identity", "canonical_name": "Beijing Huanyu Tianqiong", "aliases": [], "properties": {}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "identity", "canonical_name": "Sichuan Zhixin Ruijie", "aliases": [], "properties": {}, "source_chunks": ["BLOG-266::ch0"]}
+{"entity_type": "identity", "canonical_name": "US National Guard", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-266::ch0"]}

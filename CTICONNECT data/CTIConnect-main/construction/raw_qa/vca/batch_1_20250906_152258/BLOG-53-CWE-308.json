@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Reliance on single-factor or phishable MFA methods enabled access with stolen credentials; lack of phishing-resistant authentication (e.g., FIDO2/passkeys).\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) what the detection methods for the CWE are (for example, should manual testing or red-team activity be performed?)",
+  "answer": "1) CWE-308: Use of Single-factor Authentication (as referenced by the CWE framework).\n2) Mapping Explanation: The vulnerability described in the blog emphasizes the risks of relying solely on single-factor authentication methods or easily phishable MFA, which directly correlates with CWE-308. The lack of a phishing-resistant authentication method (such as FIDO2/passkeys) demonstrates the specific security failure that CWE-308 intends to highlight.\n3) Detection Methods: The CWE reference does not provide any specific detection methods (Detection_Methods: null). This implies that, beyond the CWE documentation, additional assessments such as manual testing or red-team activities may be required to confirm the presence of this vulnerability.",
+  "llm_timing": {
+    "api_call_seconds": 6.0437
+  }
+}

@@ -1,0 +1,22 @@
+{"entity_type": "threat_actor", "canonical_name": "Storm-0324", "aliases": ["DEV-0324", "TA543", "Sagrid"], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "FIN7", "aliases": ["Sangria Tempest", "ELBRUS", "Carbon Spider", "Carbanak Group", "ATK32"], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "malware", "canonical_name": "Nymaim", "aliases": [], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "malware", "canonical_name": "Gozi v3", "aliases": ["Gozi"], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "malware", "canonical_name": "TrickBot", "aliases": ["Trickbot", "TrickLoader"], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "malware", "canonical_name": "Gootkit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "malware", "canonical_name": "Dridex", "aliases": [], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "malware", "canonical_name": "IcedID", "aliases": ["BokBot", "Bokbot"], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "malware", "canonical_name": "Sage/GandCrab ransomware", "aliases": ["Sage", "GandCrab"], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "malware", "canonical_name": "JSSLoader", "aliases": [], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "tool", "canonical_name": "BlackTDS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "tool", "canonical_name": "Keitaro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "tool", "canonical_name": "TeamsPhisher", "aliases": [], "properties": {"capabilities": ["phishing"]}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-21715", "aliases": [], "properties": {"cve_id": "CVE-2023-21715"}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Protected-document social engineering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing via Microsoft Teams", "aliases": ["phishing lures over Microsoft Teams"], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Teams", "aliases": [], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft 365 Defender", "aliases": ["XDR"], "properties": {}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "indicator", "canonical_name": "TrojanSpy:MSIL/JSSLoader", "aliases": [], "properties": {"ioc_type": "hash", "value": "TrojanSpy:MSIL/JSSLoader"}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Trojan:Win32/Gootkit", "aliases": [], "properties": {"ioc_type": "hash", "value": "Trojan:Win32/Gootkit"}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Trojan:Win32/IcedID", "aliases": [], "properties": {"ioc_type": "hash", "value": "Trojan:Win32/IcedID"}, "source_chunks": ["BLOG-60::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Trojan:Win32/Trickbot", "aliases": [], "properties": {"ioc_type": "hash", "value": "Trojan:Win32/Trickbot"}, "source_chunks": ["BLOG-60::ch0"]}

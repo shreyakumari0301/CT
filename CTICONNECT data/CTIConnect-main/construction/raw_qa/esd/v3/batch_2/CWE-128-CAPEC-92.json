@@ -1,0 +1,23 @@
+{
+  "question": "An application uses integer variables for sizes or offsets, but fails to handle cases where arithmetic increments push the value past its maximum, causing it to wrap into a very small or negative number. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-92.\n- CAPEC-92 exploits forced integer wrap-around, targeting CWE-128: arithmetic overflow causes values to wrap past maximum into incorrect ranges.",
+  "llm_cost": {
+    "input": 0.000764,
+    "cached_input": 0.0,
+    "output": 0.00103,
+    "total": 0.001794,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 611,
+      "cached_input": 0,
+      "output": 103
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4496
+  }
+}

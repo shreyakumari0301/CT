@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"CVE-2023-36884 is a remote code execution vulnerability that allowed attackers to craft Microsoft Office documents in a way that circumvented the Mark of the Web (MoTW) security feature. This allowed the files to be opened without triggering a security warning, ultimately enabling remote code execution.\" Please identify the MITRE ATT&CK category for this behavior, explain the mapping to that category, and also specify which operating systems are affected (e.g., Linux, macOS, Windows, ESXi) based on the provided MITRE reference.",
+  "answer": "1) MITRE ATT&CK Category: Mark-of-the-Web Bypass (T1553.005).\n2) Mapping Explanation: The described activity involves crafting Microsoft Office documents to circumvent the Mark of the Web (MoTW) security feature so the file opens without the usual security warning. This aligns with T1553.005, which covers adversaries bypassing MoTW to evade security controls and enable execution of potentially malicious content.\n3) Applicable Platforms: Windows.",
+  "llm_timing": {
+    "api_call_seconds": 5.7366
+  }
+}

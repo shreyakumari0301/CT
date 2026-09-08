@@ -1,0 +1,13 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "uncovered", "tgt_type": "threat_actor", "tgt_name": "APT-C-60", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT-C-60", "predicate": "aligned_with", "tgt_type": "identity", "tgt_name": "South Korea", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT-C-60", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-7262", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT-C-60", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "ksoqing://", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT-C-60", "predicate": "drops", "tgt_type": "malware", "tgt_name": "SpyGlace/TaskControler.dll", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT-C-60", "predicate": "downloads_libraries_to", "tgt_type": "indicator", "tgt_name": "%localappdata%\\Temp\\wps\\INetCache\\", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-7262", "predicate": "affects", "tgt_type": "identity", "tgt_name": "WPS Office for Windows", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "indicator", "src_name": "ksoqing://", "predicate": "hijacks", "tgt_type": "indicator", "tgt_name": "promecefpluginhost.exe", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "identity", "src_name": "Kingsoft", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-7262", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "identity", "src_name": "Kingsoft", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-7263", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-7263", "predicate": "affects", "tgt_type": "identity", "tgt_name": "WPS Office for Windows", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "identity", "src_name": "DBAPPSecurity", "predicate": "independently_confirmed", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-7262", "source_chunks": ["BLOG-218::ch0"]}
+{"src_type": "identity", "src_name": "DBAPPSecurity", "predicate": "independently_confirmed", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-7263", "source_chunks": ["BLOG-218::ch0"]}

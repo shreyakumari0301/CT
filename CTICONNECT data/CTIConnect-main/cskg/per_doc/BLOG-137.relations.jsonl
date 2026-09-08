@@ -1,0 +1,18 @@
+{"src_type": "identity", "src_name": "Symantec", "predicate": "identified", "tgt_type": "threat_actor", "tgt_name": "multiple threat actors", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "threat_actor", "src_name": "multiple threat actors", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-30190", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "threat_actor", "src_name": "multiple threat actors", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Remote Code Execution via ms-msdt URI in Word/RTF documents", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "threat_actor", "src_name": "multiple threat actors", "predicate": "installs", "tgt_type": "malware", "tgt_name": "AsyncRAT", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "threat_actor", "src_name": "multiple threat actors", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "browser infostealer", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Remote Code Execution via ms-msdt URI in Word/RTF documents", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-30190", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Remote Code Execution via ms-msdt URI in Word/RTF documents", "predicate": "launches", "tgt_type": "tool", "tgt_name": "msdt.exe", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Remote Code Execution via ms-msdt URI in Word/RTF documents", "predicate": "launches", "tgt_type": "tool", "tgt_name": "sdiagnhost.exe", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Remote Code Execution via ms-msdt URI in Word/RTF documents", "predicate": "launches", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "installs", "tgt_type": "malware", "tgt_name": "AsyncRAT", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "malware", "src_name": "browser infostealer", "predicate": "targets", "tgt_type": "tool", "tgt_name": "Firefox", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "malware", "src_name": "browser infostealer", "predicate": "targets", "tgt_type": "tool", "tgt_name": "Chrome", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "malware", "src_name": "browser infostealer", "predicate": "targets", "tgt_type": "tool", "tgt_name": "Edge", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "identity", "src_name": "Symantec customers", "predicate": "should_apply_advisories_from", "tgt_type": "identity", "tgt_name": "Microsoft", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "identity", "src_name": "Symantec customers", "predicate": "should_update_definitions_for", "tgt_type": "identity", "tgt_name": "Symantec Endpoint", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "identity", "src_name": "Symantec customers", "predicate": "should_thwart", "tgt_type": "campaign", "tgt_name": "these rapid, damaging campaigns", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "identity", "src_name": "Symantec Endpoint", "predicate": "detects_as", "tgt_type": "indicator", "tgt_name": "File-based-Downloader-Backdoor:Async", "source_chunks": ["BLOG-137::ch0"]}
+{"src_type": "identity", "src_name": "Symantec Endpoint", "predicate": "detects_as", "tgt_type": "indicator", "tgt_name": "InfoStealer", "source_chunks": ["BLOG-137::ch0"]}

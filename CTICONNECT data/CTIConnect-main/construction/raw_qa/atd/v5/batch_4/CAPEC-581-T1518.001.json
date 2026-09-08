@@ -1,0 +1,23 @@
+{
+  "question": "An adversary tries to enumerate what defensive tools and security-related system features are installed on a host and how they are configured, including built-in protections like firewalls or anti-spyware and third-party security products. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1518.001.\n- T1518.001 corresponds to discovering installed security tools/configurations, mapping CAPEC-581: listing security software and related protective features.",
+  "llm_cost": {
+    "input": 0.000739,
+    "cached_input": 0.0,
+    "output": 0.00117,
+    "total": 0.001909,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 591,
+      "cached_input": 0,
+      "output": 117
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4031
+  }
+}

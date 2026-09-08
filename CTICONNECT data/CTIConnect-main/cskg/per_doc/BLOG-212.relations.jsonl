@@ -1,0 +1,25 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "attributes_campaign_to", "tgt_type": "campaign", "tgt_name": "Outer Space", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "identity", "src_name": "ESET", "predicate": "attributes_campaign_to", "tgt_type": "campaign", "tgt_name": "Juicy Mix", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israel", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "campaign", "src_name": "Outer Space", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Lyceum", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "campaign", "src_name": "Outer Space", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israel", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "campaign", "src_name": "Juicy Mix", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Lyceum", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "campaign", "src_name": "Juicy Mix", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israel", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "APT34", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spear-phishing", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Solar", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Mango", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "uses", "tgt_type": "malware", "tgt_name": "SC5k", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "MKG", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "DanBot", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Shark", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Milan", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Marlin", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lyceum", "predicate": "attributed_to", "tgt_type": "identity", "tgt_name": "Iran", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "malware", "src_name": "Solar", "predicate": "uses", "tgt_type": "malware", "tgt_name": "JupiterX", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "malware", "src_name": "Mango", "predicate": "enhanced_successor_of", "tgt_type": "malware", "tgt_name": "Solar", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "malware", "src_name": "Mango", "predicate": "uses", "tgt_type": "malware", "tgt_name": "JupiterX", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "malware", "src_name": "SC5k", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Microsoft Exchange Web Services API", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "campaign", "src_name": "Out to Sea", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "MKG", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "campaign", "src_name": "DNSpionage", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "MKG", "source_chunks": ["BLOG-212::ch0"]}
+{"src_type": "campaign", "src_name": "HardPass", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "MKG", "source_chunks": ["BLOG-212::ch0"]}

@@ -1,0 +1,23 @@
+{
+  "question": "A vendor ships a product using a build or setup intended for development or testing rather than an official release configuration, potentially weakening integrity controls. Which CAPEC attack pattern exploits this weakness, and why can it take advantage of such a distribution state?",
+  "answer": "- CAPEC-439.\n- CAPEC-439 exploits non-release configuration distribution weakness, targeting CWE-1269: product released in a non-release configuration.",
+  "llm_cost": {
+    "input": 0.000742,
+    "cached_input": 0.0,
+    "output": 0.00096,
+    "total": 0.001703,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 594,
+      "cached_input": 0,
+      "output": 96
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6292
+  }
+}

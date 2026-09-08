@@ -1,0 +1,11 @@
+{"entity_type": "threat_actor", "canonical_name": "UAC-0099", "aliases": [], "properties": {"first_seen": "June 2023", "primary_motivation": "espionage", "regions_targeted": ["Ukraine"]}, "source_chunks": ["BLOG-160::ch0"]}
+{"entity_type": "identity", "canonical_name": "CERT-UA", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-160::ch0"]}
+{"entity_type": "malware", "canonical_name": "LONEPAGE", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-160::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-38831", "aliases": [], "properties": {"cve_id": "CVE-2023-38831", "cvss": "7.8"}, "source_chunks": ["BLOG-160::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinRAR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-160::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-160::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian state entities", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-160::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian media entities", "aliases": [], "properties": {"region": "Ukraine", "sector": "media"}, "source_chunks": ["BLOG-160::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-160::ch0"]}
+{"entity_type": "identity", "canonical_name": "foreign organizations", "aliases": [], "properties": {}, "source_chunks": ["BLOG-160::ch0"]}
+{"entity_type": "identity", "canonical_name": "Deep Instinct", "aliases": [], "properties": {}, "source_chunks": ["BLOG-160::ch0"]}

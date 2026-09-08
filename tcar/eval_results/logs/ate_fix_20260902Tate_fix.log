@@ -1,0 +1,23 @@
+TCAR CTIBench | variant=no_confusion | generator=gpt-4-turbo | k=5 | tasks=['ate']
+
+>>> CTIBench task=ate
+  ate: running 60/60
+ate:no_confusion:   0%|          | 0/60 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A
+
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A[ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 429.47it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1480.10it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2071.33it/s]
+ate:no_confusion:   2%|▏         | 1/60 [04:32<4:28:14, 272.80s/it]ate:no_confusion:   3%|▎         | 2/60 [04:36<1:50:35, 114.40s/it]ate:no_confusion:   5%|▌         | 3/60 [04:36<59:18, 62.43s/it]   ate:no_confusion:   7%|▋         | 4/60 [04:51<40:47, 43.71s/it]ate:no_confusion:  10%|█         | 6/60 [04:52<18:30, 20.57s/it]ate:no_confusion:  12%|█▏        | 7/60 [04:52<13:12, 14.96s/it]ate:no_confusion:  13%|█▎        | 8/60 [04:59<11:02, 12.74s/it]ate:no_confusion:  15%|█▌        | 9/60 [05:02<08:37, 10.15s/it]ate:no_confusion:  17%|█▋        | 10/60 [05:03<06:04,  7.29s/it]ate:no_confusion:  18%|█▊        | 11/60 [05:11<06:10,  7.55s/it]ate:no_confusion:  20%|██        | 12/60 [05:12<04:33,  5.70s/it]ate:no_confusion:  23%|██▎       | 14/60 [05:17<03:15,  4.25s/it]ate:no_confusion:  25%|██▌       | 15/60 [05:23<03:23,  4.52s/it]ate:no_confusion:  28%|██▊       | 17/60 [05:28<02:44,  3.83s/it]ate:no_confusion:  30%|███       | 18/60 [05:31<02:25,  3.47s/it]ate:no_confusion:  33%|███▎      | 20/60 [05:37<02:17,  3.43s/it]ate:no_confusion:  35%|███▌      | 21/60 [05:38<01:54,  2.93s/it]ate:no_confusion:  37%|███▋      | 22/60 [05:45<02:22,  3.74s/it]ate:no_confusion:  38%|███▊      | 23/60 [05:56<03:28,  5.62s/it]ate:no_confusion:  43%|████▎     | 26/60 [05:58<01:43,  3.04s/it]ate:no_confusion:  45%|████▌     | 27/60 [05:58<01:23,  2.53s/it]ate:no_confusion:  47%|████▋     | 28/60 [06:06<01:53,  3.55s/it]ate:no_confusion:  50%|█████     | 30/60 [06:06<01:06,  2.23s/it]ate:no_confusion:  52%|█████▏    | 31/60 [06:15<01:48,  3.73s/it]ate:no_confusion:  53%|█████▎    | 32/60 [06:17<01:34,  3.39s/it]ate:no_confusion:  57%|█████▋    | 34/60 [06:24<01:25,  3.27s/it]ate:no_confusion:  58%|█████▊    | 35/60 [06:25<01:14,  2.97s/it]ate:no_confusion:  62%|██████▏   | 37/60 [06:32<01:09,  3.03s/it]ate:no_confusion:  63%|██████▎   | 38/60 [06:34<01:02,  2.82s/it]ate:no_confusion:  65%|██████▌   | 39/60 [06:34<00:45,  2.19s/it]ate:no_confusion:  67%|██████▋   | 40/60 [06:47<01:39,  4.96s/it]ate:no_confusion:  72%|███████▏  | 43/60 [06:54<01:02,  3.65s/it]ate:no_confusion:  75%|███████▌  | 45/60 [06:59<00:48,  3.24s/it]ate:no_confusion:  77%|███████▋  | 46/60 [07:05<00:52,  3.78s/it]ate:no_confusion:  78%|███████▊  | 47/60 [07:06<00:40,  3.08s/it]ate:no_confusion:  80%|████████  | 48/60 [07:16<00:58,  4.87s/it]ate:no_confusion:  82%|████████▏ | 49/60 [07:17<00:41,  3.73s/it]ate:no_confusion:  83%|████████▎ | 50/60 [07:18<00:30,  3.03s/it]ate:no_confusion:  85%|████████▌ | 51/60 [07:29<00:46,  5.17s/it]ate:no_confusion:  87%|████████▋ | 52/60 [07:30<00:31,  3.98s/it]ate:no_confusion:  90%|█████████ | 54/60 [07:44<00:32,  5.35s/it]ate:no_confusion:  92%|█████████▏| 55/60 [07:48<00:25,  5.08s/it]ate:no_confusion:  95%|█████████▌| 57/60 [07:49<00:09,  3.13s/it]ate:no_confusion:  97%|█████████▋| 58/60 [07:54<00:07,  3.59s/it]ate:no_confusion:  98%|█████████▊| 59/60 [08:00<00:04,  4.23s/it]ate:no_confusion: 100%|██████████| 60/60 [08:00<00:00,  3.21s/it]ate:no_confusion: 100%|██████████| 60/60 [08:00<00:00,  8.01s/it]
+CTI-ATE | tcar/no_confusion | Macro-F1 = 0.7353 (n=60, errors=0, retrieval_admitted=0.6167)
+wrote /mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/ate_tcar_no_confusion_ctibench_20260902Tate_fix.jsonl
+wrote /mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/ate_tcar_no_confusion_ctibench_20260902Tate_fix_summary.json
+
+Scoreboard: /mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/scoreboard_ctibench_no_confusion_20260902Tate_fix.json
+
+========== GATED vs ORIGINAL CTA-RAG (oracle reference) ==========
+  ate    Macro-F1     original=0.9451  gated=0.7353

@@ -1,0 +1,23 @@
+{
+  "question": "An application contains code that is not safe to run concurrently, but it can be invoked again unexpectedly through nested calls, causing unintended reentrant execution. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-74.\n- CAPEC-74 exploits unintended state changes from reentrant nested calls, targeting CWE-1265: unexpected reentrant invocation of non-reentrant code.",
+  "llm_cost": {
+    "input": 0.000861,
+    "cached_input": 0.0,
+    "output": 0.00098,
+    "total": 0.001841,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 689,
+      "cached_input": 0,
+      "output": 98
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.3933
+  }
+}

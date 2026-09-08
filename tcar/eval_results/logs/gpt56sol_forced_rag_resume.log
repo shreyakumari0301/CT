@@ -1,0 +1,8 @@
+[2026-09-06T07:06:31Z] Vanilla RAG v2 workers=2 stamp=20260904Tgpt56sol_forced_rag_cb model=gpt-5.6-sol
+  counterfactual_ctibench_rcm_20260904Tgpt56sol_forced_rag_cb.jsonl: 916/1000 ok
+  counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb.jsonl: 57/60 ok
+  counterfactual_ctibench_mcq_20260904Tgpt56sol_forced_rag_cb.jsonl: 631/2500 ok
+  counterfactual_ctibench_vsp_20260904Tgpt56sol_forced_rag_cb.jsonl: 274/1000 ok
+[2026-09-06T07:06:32Z] Queue: ate rcm mcq vsp
+[2026-09-06T07:06:33Z] RUN vanilla_rag ate stamp=20260904Tgpt56sol_forced_rag_cb
+[2026-09-06T07:06:33Z] RUN vanilla_rag rcm stamp=20260904Tgpt56sol_forced_rag_cb

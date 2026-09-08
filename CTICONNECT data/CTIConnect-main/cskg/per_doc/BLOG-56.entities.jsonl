@@ -1,0 +1,17 @@
+{"entity_type": "identity", "canonical_name": "Microsoft SQL Server", "aliases": ["SQL Server"], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "identity", "canonical_name": "Azure VM", "aliases": [], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "tool", "canonical_name": "xp_cmdshell", "aliases": [], "properties": {"capabilities": ["execute OS-level commands"]}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "tool", "canonical_name": "sp_configure", "aliases": [], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["script execution"]}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SQL injection", "aliases": [], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled Task/Job", "aliases": ["scheduled tasks"], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "OS Credential Dumping", "aliases": ["dump SAM and SECURITY hives"], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over Web Service", "aliases": ["exfiltrate data discreetly using webhook.site"], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral Movement", "aliases": ["lateral movement to additional cloud resources"], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "identity", "canonical_name": "Azure Instance Metadata Service", "aliases": ["IMDS", "Azure Instance Metadata Service (169.254.169.254)", "metadata endpoint"], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "indicator", "canonical_name": "169.254.169.254", "aliases": [], "properties": {"ioc_type": "ip", "value": "169.254.169.254"}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "indicator", "canonical_name": "webhook.site", "aliases": ["webhook[.]site"], "properties": {"ioc_type": "domain", "value": "webhook.site"}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Defender for SQL", "aliases": [], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "identity", "canonical_name": "Defender for Cloud", "aliases": [], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "identity", "canonical_name": "Defender for Endpoint", "aliases": [], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}
+{"entity_type": "identity", "canonical_name": "Defender XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-56::ch0"]}

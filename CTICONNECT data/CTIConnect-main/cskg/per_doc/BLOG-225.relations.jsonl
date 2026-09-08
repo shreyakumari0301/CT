@@ -1,0 +1,17 @@
+{"src_type": "identity", "src_name": "Accenture Security", "predicate": "exposed", "tgt_type": "campaign", "tgt_name": "Q3 2021 proliferation of Karakurt", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "campaign", "src_name": "Q3 2021 proliferation of Karakurt", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "Karakurt", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North American organizations", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Establish Persistence", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential Dumping", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "7zip", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WinZip", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over Web Service", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "exfiltrates_to", "tgt_type": "indicator", "tgt_name": "mega.io", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Rclone", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "FileZilla", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "tool", "src_name": "Rclone", "predicate": "exfiltrates_to", "tgt_type": "indicator", "tgt_name": "mega.io", "source_chunks": ["BLOG-225::ch0"]}
+{"src_type": "tool", "src_name": "FileZilla", "predicate": "exfiltrates_to", "tgt_type": "indicator", "tgt_name": "mega.io", "source_chunks": ["BLOG-225::ch0"]}

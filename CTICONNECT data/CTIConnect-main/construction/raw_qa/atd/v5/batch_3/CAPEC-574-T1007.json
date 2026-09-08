@@ -1,0 +1,23 @@
+{
+  "question": "An adversary runs built-in operating system commands to enumerate which services are registered and running on a target system (e.g., using service-management and task listing utilities) to learn the environment for follow-on activity. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1007.\n- T1007 corresponds to discovering registered/running services, mapping CAPEC-574: enumerating services via system commands to understand the target environment.",
+  "llm_cost": {
+    "input": 0.000777,
+    "cached_input": 0.0,
+    "output": 0.00115,
+    "total": 0.001927,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 622,
+      "cached_input": 0,
+      "output": 115
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7721
+  }
+}

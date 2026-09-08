@@ -1,0 +1,20 @@
+{"src_type": "identity", "src_name": "Symantec", "predicate": "reports_on", "tgt_type": "threat_actor", "tgt_name": "Equation Group", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation Group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Micstus", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation Group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Tripfant", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation Group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Lassrv.B", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation Group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Equdrug", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation Group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "GrayPhish", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation Group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "GroKey", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "threat_actor", "src_name": "Equation Group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "W32.Fanny", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "malware", "src_name": "Packed.Generic.483", "predicate": "used_for", "tgt_type": "threat_actor", "tgt_name": "Equation Group", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "malware", "src_name": "W32.Fanny", "predicate": "exploits_reused_in", "tgt_type": "malware", "tgt_name": "Stuxnet", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "provides_signatures_for", "tgt_type": "malware", "tgt_name": "Micstus", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "provides_signatures_for", "tgt_type": "malware", "tgt_name": "Tripfant", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "provides_signatures_for", "tgt_type": "malware", "tgt_name": "GrayPhish", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "provides_signatures_for", "tgt_type": "malware", "tgt_name": "Equdrug", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "provides_signatures_for", "tgt_type": "malware", "tgt_name": "Lassrv.B", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "provides_signatures_for", "tgt_type": "malware", "tgt_name": "Packed.Generic.483", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "provides_signatures_for", "tgt_type": "tool", "tgt_name": "GroKey", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "provides_signatures_for", "tgt_type": "malware", "tgt_name": "W32.Fanny", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "identity", "src_name": "Norton", "predicate": "provides_ips_rule", "tgt_type": "indicator", "tgt_name": "System Infected: Trojan Equation Activity", "source_chunks": ["BLOG-134::ch0"]}
+{"src_type": "indicator", "src_name": "System Infected: Trojan Equation Activity", "predicate": "detects_activity_of", "tgt_type": "threat_actor", "tgt_name": "Equation Group", "source_chunks": ["BLOG-134::ch0"]}

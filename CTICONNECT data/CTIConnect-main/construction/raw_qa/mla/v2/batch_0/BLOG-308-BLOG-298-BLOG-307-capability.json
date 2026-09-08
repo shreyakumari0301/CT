@@ -1,0 +1,7 @@
+{
+  "question": "What is the most notable new capability that appeared in later variants compared to earlier ones?",
+  "answer": "- Introduction of a zero-day Windows elevation-of-privilege exploit (CVE-2025-29824), enabling SYSTEM-level access and enhanced persistence and lateral movement",
+  "llm_timing": {
+    "api_call_seconds": 15.8877
+  }
+}

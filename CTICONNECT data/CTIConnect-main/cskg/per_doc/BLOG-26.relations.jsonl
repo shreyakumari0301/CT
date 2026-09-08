@@ -1,0 +1,24 @@
+{"src_type": "identity", "src_name": "Fortra", "predicate": "disclosed", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-0204", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-0204", "predicate": "affects", "tgt_type": "identity", "tgt_name": "GoAnywhere MFT", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-0204", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "authentication bypass", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "attack_pattern", "src_name": "authentication bypass", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "create arbitrary admin users", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "attack_pattern", "src_name": "create arbitrary admin users", "predicate": "potentially_leads_to", "tgt_type": "attack_pattern", "tgt_name": "full device takeover", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "attack_pattern", "src_name": "create arbitrary admin users", "predicate": "potentially_leads_to", "tgt_type": "attack_pattern", "tgt_name": "data theft", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "attack_pattern", "src_name": "create arbitrary admin users", "predicate": "potentially_leads_to", "tgt_type": "attack_pattern", "tgt_name": "malware deployment", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "attack_pattern", "src_name": "create arbitrary admin users", "predicate": "potentially_leads_to", "tgt_type": "attack_pattern", "tgt_name": "lateral movement", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "identity", "src_name": "Mohammed Eldeeb", "predicate": "discovered", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-0204", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "identity", "src_name": "Mohammed Eldeeb", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Spark Engineering Consultants", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "identity", "src_name": "Islam Elrfai", "predicate": "discovered", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-0204", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "identity", "src_name": "Islam Elrfai", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Spark Engineering Consultants", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "indicator", "src_name": "InitialAccountSetup.xhtml", "predicate": "mitigates", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-0204", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "threat_actor", "src_name": "Clop", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Cl0p", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "threat_actor", "src_name": "Clop", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-0669", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "threat_actor", "src_name": "Clop", "predicate": "breached", "tgt_type": "identity", "tgt_name": "Crown Resorts", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "threat_actor", "src_name": "Clop", "predicate": "breached", "tgt_type": "identity", "tgt_name": "CHS", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "threat_actor", "src_name": "Clop", "predicate": "breached", "tgt_type": "identity", "tgt_name": "Hatch Bank", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "threat_actor", "src_name": "Clop", "predicate": "breached", "tgt_type": "identity", "tgt_name": "Rubrik", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "threat_actor", "src_name": "Clop", "predicate": "breached", "tgt_type": "identity", "tgt_name": "City of Toronto", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "threat_actor", "src_name": "Clop", "predicate": "breached", "tgt_type": "identity", "tgt_name": "Hitachi Energy", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "threat_actor", "src_name": "Clop", "predicate": "breached", "tgt_type": "identity", "tgt_name": "Procter & Gamble", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "threat_actor", "src_name": "Clop", "predicate": "breached", "tgt_type": "identity", "tgt_name": "Saks Fifth Avenue", "source_chunks": ["BLOG-26::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-0669", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "remote code execution", "source_chunks": ["BLOG-26::ch0"]}

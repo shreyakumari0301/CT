@@ -1,0 +1,23 @@
+{
+  "question": "An adversary alters files in a shared location by inserting malicious programs, scripts, or exploit code into otherwise legitimate content, so it executes when a user opens it. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1080.\n- T1080 corresponds to tainting shared content, mapping CAPEC-562: modifying shared files to trigger malicious execution when opened.",
+  "llm_cost": {
+    "input": 0.000724,
+    "cached_input": 0.0,
+    "output": 0.001,
+    "total": 0.001724,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 579,
+      "cached_input": 0,
+      "output": 100
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.797
+  }
+}

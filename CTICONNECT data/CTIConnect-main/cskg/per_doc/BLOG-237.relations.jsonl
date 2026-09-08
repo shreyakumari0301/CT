@@ -1,0 +1,9 @@
+{"src_type": "identity", "src_name": "Dragos", "predicate": "collaborated_with", "tgt_type": "identity", "tgt_name": "Ukraine’s CSSC", "source_chunks": ["BLOG-237::ch0"]}
+{"src_type": "malware", "src_name": "FrostyGoop", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Lviv apartment buildings", "source_chunks": ["BLOG-237::ch0"]}
+{"src_type": "malware", "src_name": "FrostyGoop", "predicate": "targets", "tgt_type": "identity", "tgt_name": "ENCO heating controllers", "source_chunks": ["BLOG-237::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Exploit Public-Facing Application", "predicate": "targets", "tgt_type": "identity", "tgt_name": "MikroTik router", "source_chunks": ["BLOG-237::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Server Software Component: Web Shell", "predicate": "targets", "tgt_type": "identity", "tgt_name": "MikroTik router", "source_chunks": ["BLOG-237::ch0"]}
+{"src_type": "tool", "src_name": "Tor", "predicate": "communicates_with", "tgt_type": "identity", "tgt_name": "Moscow", "source_chunks": ["BLOG-237::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Credentials from Password Stores: Security Account Manager", "predicate": "targets", "tgt_type": "identity", "tgt_name": "ENCO heating controllers", "source_chunks": ["BLOG-237::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Network Segmentation", "predicate": "mitigates", "tgt_type": "malware", "tgt_name": "FrostyGoop", "source_chunks": ["BLOG-237::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Exploit Public-Facing Application (ICS/OT)", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "FrostyGoop", "source_chunks": ["BLOG-237::ch0"]}

@@ -1,0 +1,27 @@
+{"entity_type": "threat_actor", "canonical_name": "APT15", "aliases": ["Flea", "Nickel", "Flea/Nickel"], "properties": {"country": "China", "primary_motivation": "espionage", "first_seen": "late 2022", "last_seen": "early 2023"}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "campaign", "canonical_name": "targeted espionage campaign", "aliases": [], "properties": {"objective": "espionage", "first_seen": "late 2022", "last_seen": "early 2023"}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "malware", "canonical_name": "Backdoor.Graphican", "aliases": ["Graphican"], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "malware", "canonical_name": "Ketrican", "aliases": ["BS2005"], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Graph API", "aliases": ["Graph API"], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "OneDrive", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "Internet Explorer 10", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "EWSTEW", "aliases": [], "properties": {"capabilities": ["Exchange mail harvesting"]}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "Pypykatz", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "Safetykatz", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "LaZagne", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "Quarks PwDump", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "SharpSecDump", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "K8Tools", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "EHole", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "AntSword", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "Behinder", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "China Chopper", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "Godzilla", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-1472", "aliases": [], "properties": {"cve_id": "CVE-2020-1472"}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privilege Escalation", "aliases": [], "properties": {"tactic": "Privilege Escalation"}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "identity", "canonical_name": "foreign ministries in the Americas", "aliases": [], "properties": {"sector": "government", "region": "Americas"}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "identity", "canonical_name": "finance department", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "identity", "canonical_name": "regional products firm", "aliases": [], "properties": {}, "source_chunks": ["BLOG-138::ch0"]}
+{"entity_type": "identity", "canonical_name": "European victim", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-138::ch0"]}

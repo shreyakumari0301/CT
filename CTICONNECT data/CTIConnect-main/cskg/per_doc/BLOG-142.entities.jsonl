@@ -1,0 +1,20 @@
+{"entity_type": "identity", "canonical_name": "Symantec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "RansomHub", "aliases": ["Greenbottle"], "properties": {"first_seen": "early 2024", "last_seen": "Q3 2024"}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "malware", "canonical_name": "Betruger", "aliases": [], "properties": {"capabilities": ["screenshot capture", "keylogging", "file exfiltration", "network scanning", "privilege escalation", "credential dumping"], "first_seen": "early 2024"}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "indicator", "canonical_name": "mailer.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "mailer.exe"}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "indicator", "canonical_name": "turbomailer.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "turbomailer.exe"}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "tool", "canonical_name": "EDRKillshifter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Bring Your Own Vulnerable Driver (BYOVD)", "aliases": ["BYOVD"], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-24521", "aliases": [], "properties": {"cve_id": "CVE-2022-24521"}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-27532", "aliases": [], "properties": {"cve_id": "CVE-2023-27532"}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "tool", "canonical_name": "Impacket", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "malware", "canonical_name": "SystemBC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rclone", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "tool", "canonical_name": "Stowaway Proxy", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "tool", "canonical_name": "ScreenConnect", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "tool", "canonical_name": "Atera", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "tool", "canonical_name": "Splashtop", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "tool", "canonical_name": "TightVNC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}
+{"entity_type": "identity", "canonical_name": "Veeam", "aliases": [], "properties": {}, "source_chunks": ["BLOG-142::ch0"]}

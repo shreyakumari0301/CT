@@ -1,0 +1,7 @@
+{
+  "question": "What is the operational time span of Operation Triangulation based on the earliest and latest dates mentioned in the reports?",
+  "answer": "- Earliest observed activity: 2019\n- Most recent observation: June 2023",
+  "llm_timing": {
+    "api_call_seconds": 4.7899
+  }
+}

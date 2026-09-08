@@ -1,0 +1,9 @@
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Russian media", "source_chunks": ["BLOG-303::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Russian academic personnel", "source_chunks": ["BLOG-303::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Russian government personnel", "source_chunks": ["BLOG-303::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "previously unknown malware", "source_chunks": ["BLOG-303::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing emails", "source_chunks": ["BLOG-303::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-2783", "source_chunks": ["BLOG-303::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing emails", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "previously unknown malware", "source_chunks": ["BLOG-303::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2025-2783", "predicate": "affects", "tgt_type": "tool", "tgt_name": "Google Chrome", "source_chunks": ["BLOG-303::ch0"]}
+{"src_type": "identity", "src_name": "Google", "predicate": "released_patch_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-2783", "source_chunks": ["BLOG-303::ch0"]}

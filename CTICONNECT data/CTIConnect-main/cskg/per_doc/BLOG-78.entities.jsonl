@@ -1,0 +1,17 @@
+{"entity_type": "campaign", "canonical_name": "EleKtra-Leak", "aliases": [], "properties": {"first_seen": "December 2020", "objective": "Monero cryptojacking via rapid AWS resource provisioning"}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "identity", "canonical_name": "Unit42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "identity", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "identity", "canonical_name": "AWS", "aliases": ["Amazon Web Services"], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "AWS reconnaissance (DescribeRegions)", "aliases": ["DescribeRegions"], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Create security groups", "aliases": [], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Launch EC2 instances across regions via VPN", "aliases": [], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "tool", "canonical_name": "VPN", "aliases": [], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "identity", "canonical_name": "Amazon EC2", "aliases": ["EC2"], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "identity", "canonical_name": "AWS IAM", "aliases": ["IAM"], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "indicator", "canonical_name": "AWS IAM keys", "aliases": ["IAM keys"], "properties": {"ioc_type": "hash", "value": "AWS IAM keys"}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "malware", "canonical_name": "custom mining software", "aliases": [], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "malware", "canonical_name": "miners", "aliases": ["actor-controlled miners"], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "identity", "canonical_name": "Monero", "aliases": [], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "identity", "canonical_name": "Prisma Cloud HoneyCloud project", "aliases": ["HoneyCloud"], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "identity", "canonical_name": "Prisma Cloud Secrets Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-78::ch0"]}

@@ -1,0 +1,28 @@
+{"entity_type": "malware", "canonical_name": "FOG ransomware", "aliases": ["FOG", "Win32.FOG.SMYPEFG"], "properties": {"family": "FOG ransomware"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "identity", "canonical_name": "US Department of Government Efficiency", "aliases": ["DOGE"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Pay Adjustment.zip", "aliases": [], "properties": {"ioc_type": "hash", "value": "Pay Adjustment.zip"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "indicator", "canonical_name": "stage1.ps1", "aliases": [], "properties": {"ioc_type": "hash", "value": "stage1.ps1"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "indicator", "canonical_name": "cwiper.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "cwiper.exe"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ktool.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "ktool.exe"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "indicator", "canonical_name": "iQVW64.sys", "aliases": [], "properties": {"ioc_type": "hash", "value": "iQVW64.sys"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "indicator", "canonical_name": "fd6c57fa3852aec8", "aliases": [], "properties": {"ioc_type": "hash", "value": "fd6c57fa3852aec8"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "indicator", "canonical_name": "lootsubmit.ps1", "aliases": ["lootsubmit.ps1 variants"], "properties": {"ioc_type": "hash", "value": "lootsubmit.ps1"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "indicator", "canonical_name": "hxxps://hilarious-trifle-d9182e.netlify[.]app", "aliases": ["https://hilarious-trifle-d9182e.netlify.app"], "properties": {"ioc_type": "url", "value": "https://hilarious-trifle-d9182e.netlify.app"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".flocked", "aliases": [".flocked binaries"], "properties": {"ioc_type": "hash", "value": ".flocked"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "indicator", "canonical_name": "dbgLog.sys", "aliases": [], "properties": {"ioc_type": "hash", "value": "dbgLog.sys"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "indicator", "canonical_name": "readme.txt", "aliases": ["readme.txt ransom notes"], "properties": {"ioc_type": "hash", "value": "readme.txt"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Email phishing", "aliases": ["email phishing"], "properties": {}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privilege escalation", "aliases": ["privilege-escalation exploit"], "properties": {}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "System information discovery", "aliases": ["harvest system information"], "properties": {}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration over web service", "aliases": ["exfiltrate data to https://hilarious-trifle-d9182e.netlify.app"], "properties": {}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Sandbox evasion", "aliases": ["sandbox-evasion checks"], "properties": {}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data encryption for impact", "aliases": ["encrypt files"], "properties": {}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "identity", "canonical_name": "technology sector", "aliases": [], "properties": {"sector": "technology"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "identity", "canonical_name": "education sector", "aliases": [], "properties": {"sector": "education"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing sector", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "identity", "canonical_name": "transportation sector", "aliases": [], "properties": {"sector": "transportation"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "identity", "canonical_name": "business services sector", "aliases": [], "properties": {"sector": "business services"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "identity", "canonical_name": "healthcare sector", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "identity", "canonical_name": "retail sector", "aliases": [], "properties": {"sector": "retail"}, "source_chunks": ["BLOG-191::ch0"]}
+{"entity_type": "identity", "canonical_name": "consumer sector", "aliases": [], "properties": {"sector": "consumer"}, "source_chunks": ["BLOG-191::ch0"]}

@@ -1,0 +1,18 @@
+{"entity_type": "identity", "canonical_name": "Mandiant Intelligence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "UNC2165", "aliases": [], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Evil Corp", "aliases": [], "properties": {"regions_targeted": ["United States"]}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "FakeUpdates infection chain", "aliases": ["FakeUpdates chains"], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "malware", "canonical_name": "FakeUpdates", "aliases": [], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "malware", "canonical_name": "LockBit", "aliases": ["LockBit ransomware", "LockBit 2.0", "LockBit 3.0", "LockBit Black", "LockBit Green"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "identity", "canonical_name": "OFAC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "malware", "canonical_name": "Dridex", "aliases": [], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "malware", "canonical_name": "WastedLocker", "aliases": ["WastedLocker strain"], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "malware", "canonical_name": "PayloadBin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "HTML redirectors", "aliases": [], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "identity", "canonical_name": "Excel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "malware", "canonical_name": "Hades", "aliases": ["Hades ransomware"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "campaign", "canonical_name": "OFAC sanctions in December 2019", "aliases": ["OFAC sanctions"], "properties": {"first_seen": "December 2019"}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "identity", "canonical_name": "Accenture", "aliases": [], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "identity", "canonical_name": "Bangkok Air", "aliases": [], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "LockBit’s RaaS model", "aliases": ["RaaS model"], "properties": {}, "source_chunks": ["BLOG-175::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. entities", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-175::ch0"]}

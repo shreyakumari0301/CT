@@ -1,0 +1,20 @@
+{"src_type": "identity", "src_name": "RIFT team", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "NCC Group", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "deployed_by", "tgt_type": "threat_actor", "tgt_name": "UNC2447", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mbed TLS", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Windows Restart Manager", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "exploits", "tgt_type": "tool", "tgt_name": "SonicWall VPN appliance", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Metasploit", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "moves_laterally_via", "tgt_type": "attack_pattern", "tgt_name": "Remote Services: Remote Desktop Protocol", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SoftPerfect Netscan", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Advanced Port Scanner", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AllInOnePasswordRecoveryPro", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Remote Utilities", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "uses", "tgt_type": "tool", "tgt_name": "pCloud", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Encryptor.exe", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "tool", "src_name": "SoftPerfect Netscan", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Network Service Discovery", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "tool", "src_name": "Advanced Port Scanner", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Network Service Discovery", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "tool", "src_name": "AllInOnePasswordRecoveryPro", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "OS Credential Dumping: LSASS Memory", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "tool", "src_name": "Remote Utilities", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Remote Access Software", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "tool", "src_name": "pCloud", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration to Cloud Storage", "source_chunks": ["BLOG-255::ch0"]}
+{"src_type": "malware", "src_name": "Encryptor.exe", "predicate": "decrypts_in_memory", "tgt_type": "malware", "tgt_name": "FiveHands", "source_chunks": ["BLOG-255::ch0"]}

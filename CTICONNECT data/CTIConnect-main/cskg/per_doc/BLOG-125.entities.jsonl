@@ -1,0 +1,13 @@
+{"entity_type": "identity", "canonical_name": "JetBrains", "aliases": [], "properties": {}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "tool", "canonical_name": "TeamCity", "aliases": [], "properties": {}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-27198", "aliases": [], "properties": {"cve_id": "CVE-2024-27198", "severity": "critical"}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-27199", "aliases": [], "properties": {"cve_id": "CVE-2024-27199", "severity": "critical"}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "identity", "canonical_name": "Rapid7", "aliases": [], "properties": {}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "identity", "canonical_name": "LeakIX", "aliases": [], "properties": {}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "identity", "canonical_name": "GuidePoint Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "BianLian", "aliases": ["BianLian ransomware group"], "properties": {}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Authentication Bypass", "aliases": ["authentication-bypass flaws"], "properties": {}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Create Account", "aliases": ["create admin accounts"], "properties": {}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Create Access Token", "aliases": ["create admin accounts or tokens"], "properties": {}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data Encrypted for Impact", "aliases": ["file-encryption incidents"], "properties": {}, "source_chunks": ["BLOG-125::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Endpoint Denial of Service", "aliases": ["DDoS-prep compromise"], "properties": {}, "source_chunks": ["BLOG-125::ch0"]}

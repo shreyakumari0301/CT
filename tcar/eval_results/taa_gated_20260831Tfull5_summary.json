@@ -1,0 +1,15 @@
+{
+  "n_total": 50,
+  "n_scored": 50,
+  "n_error": 0,
+  "correct_acc": 0.52,
+  "plausible_acc": 0.8,
+  "n_correct": 26,
+  "n_plausible_only": 14,
+  "n_incorrect": 10,
+  "stamp": "20260831Tfull5",
+  "pred_path": "/mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/taa_gated_20260831Tfull5.jsonl",
+  "mode": "gated",
+  "generator": "gpt-4-turbo gated: closed-book+confidence; high\u2192keep; else candidate-first",
+  "scorer": "CTIBench alias/related BFS + name normalization"
+}

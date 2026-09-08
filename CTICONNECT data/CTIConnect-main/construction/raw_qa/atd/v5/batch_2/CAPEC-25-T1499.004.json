@@ -1,0 +1,23 @@
+{
+  "question": "An adversary intentionally triggers a software deadlock where competing actions wait on each other indefinitely, causing the application to hang and denying service. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1499.004.\n- T1499.004 corresponds to exploiting applications/systems to deny service, mapping CAPEC-25: inducing deadlocks to hang software.",
+  "llm_cost": {
+    "input": 0.000748,
+    "cached_input": 0.0,
+    "output": 0.00101,
+    "total": 0.001757,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 598,
+      "cached_input": 0,
+      "output": 101
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.9643
+  }
+}

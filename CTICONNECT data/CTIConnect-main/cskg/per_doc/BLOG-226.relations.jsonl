@@ -1,0 +1,15 @@
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israeli organizations", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "exploits", "tgt_type": "identity", "tgt_name": "Microsoft Exchange servers", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMIC", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "PyDCrypt", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "posts_stolen_data_on", "tgt_type": "tool", "tgt_name": "Tor", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "posts_stolen_data_on", "tgt_type": "tool", "tgt_name": "Twitter", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "posts_stolen_data_on", "tgt_type": "tool", "tgt_name": "Telegram", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "tactics_reminiscent_of", "tgt_type": "threat_actor", "tgt_name": "Pay2Key", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "tactics_reminiscent_of", "tgt_type": "threat_actor", "tgt_name": "BlackShadow", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "attribution_based_on_submissions", "tgt_type": "tool", "tgt_name": "VirusTotal", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "malware", "src_name": "PyDCrypt", "predicate": "built_atop", "tgt_type": "tool", "tgt_name": "DiskCryptor", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "identity", "src_name": "Check Point", "predicate": "notes", "tgt_type": "malware", "tgt_name": "PyDCrypt", "source_chunks": ["BLOG-226::ch0"]}
+{"src_type": "identity", "src_name": "Check Point", "predicate": "advises_patching", "tgt_type": "identity", "tgt_name": "Microsoft Exchange servers", "source_chunks": ["BLOG-226::ch0"]}

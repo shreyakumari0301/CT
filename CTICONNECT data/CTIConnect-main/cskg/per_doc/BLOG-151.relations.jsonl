@@ -1,0 +1,20 @@
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "identified", "tgt_type": "campaign", "tgt_name": "coordinated campaign", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated campaign", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "APT33", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Defense Industrial Base", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "uses", "tgt_type": "malware", "tgt_name": "FalseFont", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Password spraying", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "malware", "src_name": "FalseFont", "predicate": "supports", "tgt_type": "attack_pattern", "tgt_name": "Data exfiltration", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "identity", "src_name": "Israel’s National Cyber Directorate", "predicate": "attributed_failed_attacks_to", "tgt_type": "threat_actor", "tgt_name": "Agrius", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "identity", "src_name": "Israel’s National Cyber Directorate", "predicate": "attributed_failed_attacks_to", "tgt_type": "threat_actor", "tgt_name": "Lebanese Cedar", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agrius", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ziv Hospital", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agrius", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agrius", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Hatef", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "threat_actor", "src_name": "Agrius", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Hamsa", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lebanese Cedar", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ziv Hospital", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lebanese Cedar", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lebanese Cedar", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Hatef", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lebanese Cedar", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Hamsa", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-46747", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-46747", "predicate": "affects", "tgt_type": "identity", "tgt_name": "F5 BIG-IP", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "malware", "src_name": "Hatef", "predicate": "communicates_with", "tgt_type": "tool", "tgt_name": "Telegram", "source_chunks": ["BLOG-151::ch0"]}
+{"src_type": "malware", "src_name": "Hamsa", "predicate": "communicates_with", "tgt_type": "tool", "tgt_name": "Telegram", "source_chunks": ["BLOG-151::ch0"]}

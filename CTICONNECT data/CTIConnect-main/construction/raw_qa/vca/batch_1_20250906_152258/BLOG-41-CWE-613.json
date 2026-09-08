@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Stolen session cookies remained valid long enough for hijackers to reuse them (\"pass-the-cookie\"), with inadequate revalidation/invalidation after suspicious activity or context change.' Please: 1) Identify the CWE category that maps to this vulnerability, 2) Explain how this vulnerability maps to the chosen CWE category, and 3) Indicate the likelihood of exploit in real attacks.",
+  "answer": "1) CWE-613: Insufficient Session Expiration\n2) Mapping Explanation: The vulnerability described involves stolen session cookies continuing to be valid without proper revalidation or invalidation after suspicious activity or a context change. This directly aligns with CWE-613, which concerns the failure to expire or invalidate sessions appropriately, thereby allowing misuse of valid session tokens.\n3) Likelihood of Exploit: The CWE reference provided does not specify a likelihood of exploit (it is marked as null), so no specific likelihood metric is provided.",
+  "llm_timing": {
+    "api_call_seconds": 6.1979
+  }
+}

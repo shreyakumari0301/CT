@@ -1,0 +1,5 @@
+{"src_type": "malware", "src_name": "FrostyGoop", "predicate": "delivered_via", "tgt_type": "tool", "tgt_name": "MikroTik routers", "source_chunks": ["BLOG-230::ch0"]}
+{"src_type": "malware", "src_name": "FrostyGoop", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian municipal energy provider", "source_chunks": ["BLOG-230::ch0"]}
+{"src_type": "malware", "src_name": "FrostyGoop", "predicate": "disrupts_services_in", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-230::ch0"]}
+{"src_type": "malware", "src_name": "go-encrypt.exe", "predicate": "likely_conceals_configs_for", "tgt_type": "malware", "tgt_name": "FrostyGoop", "source_chunks": ["BLOG-230::ch0"]}
+{"src_type": "malware", "src_name": "go-encrypt.exe", "predicate": "uses_file", "tgt_type": "indicator", "tgt_name": "task_test.json", "source_chunks": ["BLOG-230::ch0"]}

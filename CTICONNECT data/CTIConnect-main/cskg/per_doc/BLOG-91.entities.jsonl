@@ -1,0 +1,23 @@
+{"entity_type": "identity", "canonical_name": "Marc Newlin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "SkySafe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-45866", "aliases": [], "properties": {"cve_id": "CVE-2023-45866", "severity": "critical"}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Bluetooth", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "macOS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "iOS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Lockdown Mode", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Android", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Pixel 7", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Pixel 6", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Pixel 4a", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Pixel 2", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Nexus 5", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "BLU DASH", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Linux BlueZ", "aliases": ["BlueZ"], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ubuntu", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "tool", "canonical_name": "Python", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apple", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Canonical", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "Bluetooth SIG", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "identity", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-91::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-42929", "aliases": [], "properties": {"cve_id": "CVE-2023-42929"}, "source_chunks": ["BLOG-91::ch0"]}

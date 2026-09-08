@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name and what aliases are mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: Lotus Blossom\n- Aliases Resolved: Spring Dragon, Billbug, Thrip, Lotus Panda",
+  "llm_timing": {
+    "api_call_seconds": 6.44
+  }
+}

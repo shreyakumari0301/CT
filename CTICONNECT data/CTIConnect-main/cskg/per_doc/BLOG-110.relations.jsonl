@@ -1,0 +1,3 @@
+{"src_type": "identity", "src_name": "Qantas", "predicate": "collaborating_with", "tgt_type": "identity", "tgt_name": "Australian Cyber Security Centre", "source_chunks": ["BLOG-110::ch0"]}
+{"src_type": "identity", "src_name": "Qantas", "predicate": "collaborating_with", "tgt_type": "identity", "tgt_name": "National Cyber Security Coordinator", "source_chunks": ["BLOG-110::ch0"]}
+{"src_type": "identity", "src_name": "Qantas", "predicate": "collaborating_with", "tgt_type": "identity", "tgt_name": "Australian Federal Police", "source_chunks": ["BLOG-110::ch0"]}

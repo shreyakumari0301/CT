@@ -1,0 +1,15 @@
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "malware", "canonical_name": "FiveHands", "aliases": ["FiveHands ransomware", "FiveHands payload"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "tool", "canonical_name": "SoftPerfect Network Scanner", "aliases": [], "properties": {"capabilities": ["host discovery"]}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {"capabilities": ["remote execution", "payload deployment"]}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "malware", "canonical_name": "ServeManager.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "malware", "canonical_name": "SombRAT", "aliases": ["SombRAT RAT"], "properties": {"family": "RAT"}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "tool", "canonical_name": "RouterScan", "aliases": [], "properties": {}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "tool", "canonical_name": "grabff", "aliases": [], "properties": {}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "tool", "canonical_name": "rclone", "aliases": [], "properties": {}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "tool", "canonical_name": "s3browser", "aliases": [], "properties": {}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerSploit", "aliases": ["PowerSploit modules"], "properties": {"capabilities": ["credential access", "persistence", "token manipulation", "Kerberoasting", "exfiltration"]}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMI", "aliases": [], "properties": {"capabilities": ["remote execution", "system management"]}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data Destruction", "aliases": ["enumerated and deleted Volume Shadow Copies"], "properties": {"technique_id": "T1490"}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Windows Management Instrumentation", "aliases": ["WMI"], "properties": {"technique_id": "T1047"}, "source_chunks": ["BLOG-219::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data Encrypted for Impact", "aliases": ["encrypted recovery folders and user data"], "properties": {"technique_id": "T1486"}, "source_chunks": ["BLOG-219::ch0"]}

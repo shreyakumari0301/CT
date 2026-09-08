@@ -1,0 +1,42 @@
+{"entity_type": "malware", "canonical_name": "Conti", "aliases": ["Conti ransomware"], "properties": {"family": "Conti"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S.", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "identity", "canonical_name": "retail sector", "aliases": [], "properties": {"sector": "retail"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "identity", "canonical_name": "insurance sector", "aliases": [], "properties": {"sector": "insurance"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing sector", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecommunications sector", "aliases": [], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "identity", "canonical_name": "healthcare sectors", "aliases": ["healthcare"], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "malware", "canonical_name": "TrickBot", "aliases": ["Trickbot", "TrickLoader"], "properties": {"family": "TrickBot"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "malware", "canonical_name": "BazarLoader", "aliases": ["BazarBackdoor", "Bazaar"], "properties": {"family": "BazarLoader"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Drive", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "whoami", "aliases": ["Whoami"], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "nltest", "aliases": ["Nltest"], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "net", "aliases": ["Net"], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "ShareFinder", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2018-13379", "aliases": [], "properties": {"cve_id": "CVE-2018-13379"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2018-13374", "aliases": [], "properties": {"cve_id": "CVE-2018-13374"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Exchange ProxyShell", "aliases": ["ProxyShell"], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-1472", "aliases": [], "properties": {"cve_id": "CVE-2020-1472"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Zerologon", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-1675", "aliases": [], "properties": {"cve_id": "CVE-2021-1675"}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "campaign", "canonical_name": "PrintNightmare", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "ProcDump", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "mass-mimikatz", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rubeus", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Kerberoasting", "aliases": ["kerberoasting"], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "reg save", "aliases": ["“reg save,”"], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "Get-GPPPassword", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "SharpChrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "SeatBelt", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "EternalBlue", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["PSExec", "psexec.exe"], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "Atera", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "GMER", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "PC Hunter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "malware", "canonical_name": "DontSleep.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rclone", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mega", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinSCP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-187::ch0"]}

@@ -1,0 +1,262 @@
+{
+  "cluster_id": 25,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 283,
+      "node": [
+        {
+          "node_text": "AutoFocus",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "C2 servers",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Elise",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Hong Kong",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "IPS signature 14358",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Indonesia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "June 16, 2015",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "June 16, 2015 report",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Operation Lotus Blossom",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Taiwan",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Unit 42",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Vietnam",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WildFire",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "government organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "military organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "spearphishing",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "the Philippines",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "three-year",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "virtual-machine analysis",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Turla",
+      "platform": "Unit42",
+      "type": "threat actor",
+      "publish_date": "2023/9/15"
+    },
+    {
+      "blog_id": 287,
+      "node": [
+        {
+          "node_text": "Berserk Bear",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "CVE-2018-0171",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Censys",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Cisco Smart Install",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Dragonfly",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "GRE tunnels",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "SYNful Knock",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Shodan",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Static Tundra",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Ukraine",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "industrial control systems",
+          "node_type": "System"
+        },
+        {
+          "node_text": "infrastructure",
+          "node_type": "System"
+        },
+        {
+          "node_text": "production networks",
+          "node_type": "System"
+        },
+        {
+          "node_text": "remote code execution",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "research networks",
+          "node_type": "System"
+        }
+      ],
+      "title": "Secret Blizzard",
+      "platform": "cyberpress",
+      "type": "threat actor",
+      "publish_date": "2024/12/5"
+    },
+    {
+      "blog_id": 295,
+      "node": [
+        {
+          "node_text": "%PROGRAMDATA%",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "/transform endpoint",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "2025",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "AHK Bot",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "C# components",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "C: drive serial number",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cisco Talos",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FULL DOCUMENT.js",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "HTTP POST",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Invoke-Expression",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "LNK files",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PS1 scripts",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PS1Bot",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Skitnet-linked families",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Windows Startup folder",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "chapter 8 medicare benefit policy manual.zip",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "crypto wallet extractor",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "information stealer",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "keylogger",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "malvertising campaigns",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "screen capture tool",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "seed-phrase wordlists",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Secret Blizzard",
+      "platform": "cybersecuritynews",
+      "type": "threat actor",
+      "publish_date": "2024/12/5"
+    }
+  ]
+}

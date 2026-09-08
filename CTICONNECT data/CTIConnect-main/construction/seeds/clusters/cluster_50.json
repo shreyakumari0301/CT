@@ -1,0 +1,257 @@
+{
+  "cluster_id": 50,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 248,
+      "node": [
+        {
+          "node_text": "$vm debugging feature",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "2019",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "ADJUST TrueType font instruction",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "CVE-2023-32434",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-32435",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-38606",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-41990",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "EDR",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "FaceTime",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "IMAgent",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Kaspersky",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Kaspersky GReAT",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Mach-object kernel exploit",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "NSExpression/NSPredicate payloads",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Operation Triangulation",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Safari",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "TriangleDB",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "hardware PPL bypass via MMIO registers",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "hardware memory protection bypass",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "iMessage",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "iOS attack chain",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "integer overflow",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "malicious iMessage attachment",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "network/forensic backup analysis",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "obfuscated JavaScriptCore exploit",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "physical memory mapping for read/write access",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "remote code execution",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "return-oriented programming",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "shellcode execution",
+          "node_type": "Vulnerability Type"
+        }
+      ],
+      "title": "Triangulation",
+      "platform": "darkreading",
+      "type": "campaign",
+      "publish_date": "2023/12/29"
+    },
+    {
+      "blog_id": 275,
+      "node": [],
+      "title": "Triangulation",
+      "platform": "thehackernews",
+      "type": "campaign",
+      "publish_date": "2023/10/24"
+    },
+    {
+      "blog_id": 258,
+      "node": [
+        {
+          "node_text": "2019",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "BackupAgent data-usage entries",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "BackupAgent process",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "HTTPS downloads from *.icloud-content.com",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "June 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Kaspersky",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Network indicators",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "Operation Triangulation",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Operation Triangulation framework entry",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "SMS attachment directory modifications",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "Threat actors",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Unified Monitoring and Analysis Platform",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "addatamarket.net",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "anomalous WebKit data flows",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "arbitrary code execution",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "backuprabbit.com",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "cloudsponcer.com",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "data exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "encrypted attachment",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "failed iOS updates",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "iMessage exploit",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "iOS 15.7",
+          "node_type": "System"
+        },
+        {
+          "node_text": "plist changes",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "privilege escalation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "root-level APT payload",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "timeline.csv super-timelines",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "vulnerability",
+          "node_type": "Vulnerability"
+        }
+      ],
+      "title": "Triangulation",
+      "platform": "securelist",
+      "type": "campaign",
+      "publish_date": "2023/6/1"
+    }
+  ]
+}

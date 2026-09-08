@@ -1,0 +1,5 @@
+{"entity_type": "threat_actor", "canonical_name": "Slow Pisces", "aliases": [], "properties": {"sectors_targeted": ["software developers"], "regions_targeted": ["North America", "Europe"], "first_seen": "January 2025", "primary_motivation": "intellectual property theft"}, "source_chunks": ["BLOG-244::ch0"]}
+{"entity_type": "tool", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-244::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-244::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-244::ch0"]}
+{"entity_type": "malware", "canonical_name": "PySlowDrop", "aliases": [], "properties": {"family": "PySlowDrop", "platforms": ["Python"], "capabilities": ["backdoor", "fileless installation", "payload decryption", "encrypted command and control", "persistence", "sandbox evasion", "virtual machine detection", "delayed execution", "credential theft", "data exfiltration"], "first_seen": "January 2025"}, "source_chunks": ["BLOG-244::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The password reset token/link (a sensitive authentication secret) was delivered to an attacker-controlled email address.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) the modes of introduction in terms of the development phases where such issues are typically introduced.",
+  "answer": "1) CWE-200: Exposure of Sensitive Information to an Unauthorized Actor\n\n2) Mapping Explanation: The password reset token/link is sensitive information that enables authentication-related actions. Delivering it to an attacker-controlled email address exposes this sensitive information to an unauthorized actor, which directly matches CWE-200’s definition of exposing sensitive information to someone who should not have access.\n\n3) Modes of Introduction (Development Phases): Requirements/Design (e.g., insecure account recovery and identity verification flow decisions), Implementation (e.g., flawed email destination selection/validation or missing ownership verification), and Testing/Verification (e.g., insufficient security testing of password reset and email-change workflows).",
+  "llm_timing": {
+    "api_call_seconds": 3.2407
+  }
+}

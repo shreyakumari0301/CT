@@ -1,0 +1,5 @@
+{"src_type": "vulnerability", "src_name": "CVE-2024-23832", "predicate": "is_origin_validation_bypass", "tgt_type": "attack_pattern", "tgt_name": "Origin-validation bypass", "source_chunks": ["BLOG-31::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-23832", "predicate": "allows", "tgt_type": "attack_pattern", "tgt_name": "Forge authenticated requests", "source_chunks": ["BLOG-31::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-23832", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Account hijacking", "source_chunks": ["BLOG-31::ch0"]}
+{"src_type": "vulnerability", "src_name": "TootRoot", "predicate": "has_cve", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-36460", "source_chunks": ["BLOG-31::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-36460", "predicate": "enables_deployment_of", "tgt_type": "malware", "tgt_name": "Web shell", "source_chunks": ["BLOG-31::ch0"]}

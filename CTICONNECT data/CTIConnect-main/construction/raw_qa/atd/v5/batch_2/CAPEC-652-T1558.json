@@ -1,0 +1,23 @@
+{
+  "question": "An adversary steals or buys legitimate Kerberos credentials\u2014such as service account usernames/passwords or Kerberos tickets\u2014to gain authenticated access to additional domain systems, applications, or services. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1558.\n- T1558 corresponds to stealing or forging Kerberos tickets, mapping CAPEC-652: obtaining legitimate Kerberos credentials to access more domain resources.",
+  "llm_cost": {
+    "input": 0.000745,
+    "cached_input": 0.0,
+    "output": 0.00109,
+    "total": 0.001835,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 596,
+      "cached_input": 0,
+      "output": 109
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.847
+  }
+}

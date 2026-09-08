@@ -1,0 +1,12 @@
+{"src_type": "identity", "src_name": "GitLab", "predicate": "released_patches_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7028", "source_chunks": ["BLOG-28::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-7028", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Community Edition", "source_chunks": ["BLOG-28::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-7028", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Enterprise Edition", "source_chunks": ["BLOG-28::ch0"]}
+{"src_type": "identity", "src_name": "ShadowServer", "predicate": "reported_instances_vulnerable_to", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7028", "source_chunks": ["BLOG-28::ch0"]}
+{"src_type": "identity", "src_name": "United States", "predicate": "has_internet_exposed_instances_vulnerable_to", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7028", "source_chunks": ["BLOG-28::ch0"]}
+{"src_type": "identity", "src_name": "Germany", "predicate": "has_internet_exposed_instances_vulnerable_to", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7028", "source_chunks": ["BLOG-28::ch0"]}
+{"src_type": "identity", "src_name": "Russia", "predicate": "has_internet_exposed_instances_vulnerable_to", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7028", "source_chunks": ["BLOG-28::ch0"]}
+{"src_type": "identity", "src_name": "China", "predicate": "has_internet_exposed_instances_vulnerable_to", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7028", "source_chunks": ["BLOG-28::ch0"]}
+{"src_type": "identity", "src_name": "France", "predicate": "has_internet_exposed_instances_vulnerable_to", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7028", "source_chunks": ["BLOG-28::ch0"]}
+{"src_type": "identity", "src_name": "United Kingdom", "predicate": "has_internet_exposed_instances_vulnerable_to", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7028", "source_chunks": ["BLOG-28::ch0"]}
+{"src_type": "identity", "src_name": "India", "predicate": "has_internet_exposed_instances_vulnerable_to", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7028", "source_chunks": ["BLOG-28::ch0"]}
+{"src_type": "identity", "src_name": "Canada", "predicate": "has_internet_exposed_instances_vulnerable_to", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7028", "source_chunks": ["BLOG-28::ch0"]}

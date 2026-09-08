@@ -1,0 +1,13 @@
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "leverages", "tgt_type": "malware", "tgt_name": "Ferret", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Google Chrome", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "includes_variant", "tgt_type": "malware", "tgt_name": "FROSTYFERRET_UI", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "includes_variant", "tgt_type": "malware", "tgt_name": "FRIENDLYFERRET_SECD", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "includes_variant", "tgt_type": "malware", "tgt_name": "MULTI_FROSTYFERRET_CMDCODES", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "includes_variant", "tgt_type": "malware", "tgt_name": "FlexibleFerret", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "identity", "src_name": "North Korean", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "Contagious Interview", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "malware", "src_name": "BeaverTail", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "InvisibleFerret", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "tool", "src_name": "XProtect", "predicate": "aims_to_block", "tgt_type": "malware", "tgt_name": "FlexibleFerret", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "tool", "src_name": "XProtect", "predicate": "aims_to_block", "tgt_type": "malware", "tgt_name": "FROSTYFERRET_UI", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "tool", "src_name": "XProtect", "predicate": "aims_to_block", "tgt_type": "malware", "tgt_name": "FRIENDLYFERRET_SECD", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "tool", "src_name": "XProtect", "predicate": "aims_to_block", "tgt_type": "malware", "tgt_name": "MULTI_FROSTYFERRET_CMDCODES", "source_chunks": ["BLOG-93::ch0"]}
+{"src_type": "identity", "src_name": "Apple", "predicate": "updates_signatures_for", "tgt_type": "tool", "tgt_name": "XProtect", "source_chunks": ["BLOG-93::ch0"]}

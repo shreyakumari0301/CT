@@ -1,0 +1,23 @@
+{
+  "question": "A system performs comparisons using the wrong level of granularity, so logic that should distinguish fine-grained conditions instead treats them as equivalent, leading to incorrect control-flow decisions. Which CAPEC attack pattern exploits this weakness, and why can that pattern take advantage of such flawed comparison granularity?",
+  "answer": "- CAPEC-26.\n- CAPEC-26 exploits race conditions, targeting CWE-1254: incorrect comparison logic granularity causing misclassified conditions and erroneous decisions.",
+  "llm_cost": {
+    "input": 0.000769,
+    "cached_input": 0.0,
+    "output": 0.00107,
+    "total": 0.001839,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 615,
+      "cached_input": 0,
+      "output": 107
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.901
+  }
+}

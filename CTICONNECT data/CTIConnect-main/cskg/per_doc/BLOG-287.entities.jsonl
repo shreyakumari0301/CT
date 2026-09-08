@@ -1,0 +1,15 @@
+{"entity_type": "threat_actor", "canonical_name": "Turla", "aliases": ["Secret Blizzard", "the Russian FSB’s Center 16", "FSB’s Center 16", "Snake", "Venomous Bear", "Waterbug", "Pensive Ursa", "Krypton"], "properties": {"country": "Russia", "primary_motivation": "espionage", "regions_targeted": ["Ukraine", "Afghanistan", "India"], "sectors_targeted": ["diplomatic", "defense", "military"]}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Storm-0156", "aliases": ["Pakistan-based Storm-0156"], "properties": {"country": "Pakistan"}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT34", "aliases": ["Hazel Sandstorm", "OilRig", "Helix Kitten", "Cobalt Gypsy", "Earth Vetala"], "properties": {}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Storm-0473", "aliases": [], "properties": {}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "malware", "canonical_name": "CrimsonRAT", "aliases": [], "properties": {"family": "CrimsonRAT"}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "malware", "canonical_name": "Wainscot", "aliases": [], "properties": {"family": "Wainscot"}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "malware", "canonical_name": "TwoDash downloader", "aliases": ["TwoDash"], "properties": {"family": "TwoDash", "capabilities": ["downloader"]}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "malware", "canonical_name": "MiniPocket fetcher", "aliases": ["MiniPocket"], "properties": {"family": "MiniPocket", "capabilities": ["fetcher"]}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "malware", "canonical_name": "TinyTurla", "aliases": ["TinyTurla variant"], "properties": {"family": "TinyTurla", "platforms": ["Windows"]}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "malware", "canonical_name": "Statuezy", "aliases": ["Statuezy clipboard-monitoring trojan"], "properties": {"family": "Statuezy", "capabilities": ["clipboard monitoring"]}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL sideloading", "aliases": [], "properties": {}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "identity", "canonical_name": "diplomatic and defense networks in Ukraine", "aliases": [], "properties": {"region": "Ukraine", "sector": "diplomatic and defense"}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "identity", "canonical_name": "Afghanistan’s Ministry of Foreign Affairs", "aliases": [], "properties": {"region": "Afghanistan", "sector": "government"}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "identity", "canonical_name": "GDI", "aliases": [], "properties": {"region": "Afghanistan"}, "source_chunks": ["BLOG-287::ch0"]}
+{"entity_type": "identity", "canonical_name": "Indian military institutions", "aliases": [], "properties": {"region": "India", "sector": "military"}, "source_chunks": ["BLOG-287::ch0"]}

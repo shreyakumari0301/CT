@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'After compromising web servers, attackers uploaded a PHP webshell and Adminer to maintain persistence and directly access/exfiltrate databases, indicating insufficient restrictions on placing executable files on the server.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the identified CWE category, and 3) the stage at which developers typically introduce this issue.",
+  "answer": "1) CWE-434: Unrestricted Upload of File with Dangerous Type\n2) Mapping Explanation: The attackers were able to upload a PHP webshell and Adminer due to the lack of restrictions on placing executable files on the server. This behavior directly corresponds to the risk outlined in CWE-434 where the application fails to properly restrict dangerous file uploads.\n3) Modes_Of_Introduction: \n   a. Implementation Phase \n   b. Architecture and Design Phase (OMISSION: due to missing security tactics during this phase)",
+  "llm_timing": {
+    "api_call_seconds": 5.3365
+  }
+}

@@ -1,0 +1,27 @@
+{"entity_type": "threat_actor", "canonical_name": "ToddyCat", "aliases": [], "properties": {"first_seen": "December 2020"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "campaign", "canonical_name": "ToddyCat multi-wave intrusion campaigns", "aliases": [], "properties": {"first_seen": "December 2020"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Asia", "aliases": [], "properties": {"region": "Asia"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwan", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Vietnam", "aliases": [], "properties": {"region": "Vietnam"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "tool", "canonical_name": "China Chopper", "aliases": [], "properties": {}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "malware", "canonical_name": "Samurai", "aliases": ["Samurai passive backdoor"], "properties": {}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "malware", "canonical_name": "iiswmi.dll", "aliases": [], "properties": {}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "malware", "canonical_name": "Ninja", "aliases": ["Ninja post-exploitation toolkit"], "properties": {}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "ProxyLogon", "aliases": [], "properties": {"cve_id": "ProxyLogon"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Iran", "aliases": [], "properties": {"region": "Iran"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "India", "aliases": [], "properties": {"region": "India"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Malaysia", "aliases": [], "properties": {"region": "Malaysia"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Slovakia", "aliases": [], "properties": {"region": "Slovakia"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russia", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "UK", "aliases": ["the UK"], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Indonesia", "aliases": [], "properties": {"region": "Indonesia"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Uzbekistan", "aliases": [], "properties": {"region": "Uzbekistan"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kyrgyzstan", "aliases": [], "properties": {"region": "Kyrgyzstan"}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Websiic", "aliases": [], "properties": {}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "GTSC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "FunnyDream", "aliases": ["Chinese-language groups"], "properties": {}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "malware", "canonical_name": "FunnyDream Exchange backdoor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-181::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Exchange", "aliases": ["Exchange", "Microsoft Exchange servers", "Exchange servers"], "properties": {}, "source_chunks": ["BLOG-181::ch0"]}

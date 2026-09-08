@@ -1,0 +1,15 @@
+{"entity_type": "threat_actor", "canonical_name": "APT41", "aliases": ["Winnti APT", "BARIUM", "Blackfly", "Barium", "Winnti", "Wicked Panda", "Brass Typhoon", "Double Dragon"], "properties": {"country": "China"}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "campaign", "canonical_name": "CuckooBees", "aliases": [], "properties": {"first_seen": "2019"}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "identity", "canonical_name": "technology firms", "aliases": [], "properties": {"sector": "technology"}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing firms", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "identity", "canonical_name": "Asia", "aliases": [], "properties": {"region": "Asia"}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "malware", "canonical_name": "Deploylog", "aliases": [], "properties": {"family": "backdoor"}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "malware", "canonical_name": "Winnti malware", "aliases": ["Winnti"], "properties": {}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "malware", "canonical_name": "VBScript WebShell", "aliases": ["up_win32.jsp"], "properties": {}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinRAR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "indicator", "canonical_name": "MFSDLL.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "MFSDLL.exe"}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "indicator", "canonical_name": "mktzx64.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "mktzx64.dll"}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "indicator", "canonical_name": "rundll32.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "rundll32.exe"}, "source_chunks": ["BLOG-261::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinRM", "aliases": [], "properties": {}, "source_chunks": ["BLOG-261::ch0"]}

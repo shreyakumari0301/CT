@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: Void Manticore\n- Aliases Resolved: Storm-0842, Storm-842, Homeland Justice, Karma",
+  "llm_timing": {
+    "api_call_seconds": 16.7415
+  }
+}

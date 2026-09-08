@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target regions and sectors mentioned across these reports for BladedFeline\u2019s cyberespionage activities?",
+  "answer": "- Primary target regions: Kurdish Regional Government in northern Iraq, Iraqi government networks, and a telecommunications provider in Uzbekistan\n- Primary target sectors: oil and energy infrastructure, government and diplomatic communications, and telecom services\n- Key intelligence objectives: exfiltration of diplomatic and financial data tied to regional oil reserves and Western relations",
+  "llm_timing": {
+    "api_call_seconds": 4.2758
+  }
+}

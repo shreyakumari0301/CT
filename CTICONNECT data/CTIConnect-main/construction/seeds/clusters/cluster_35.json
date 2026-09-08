@@ -1,0 +1,302 @@
+{
+  "cluster_id": 35,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 227,
+      "node": [
+        {
+          "node_text": "2017",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Africa",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Asia",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "C2 channels",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "CISA",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "CNMF",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Canopy/Starwhale",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "FBI",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "HTTPS",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Ministry of Intelligence and Security",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Mori",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "MuddyWater",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "NCSC-UK",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "NSA",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "POWERSTATS",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "PowGoop",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "PowerShell backdoor",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "Python backdoor",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "Small Sieve",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Telegram Bot API",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "custom string obfuscation",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "data exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "defense organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "joint advisory",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "local government organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "oil and gas organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "telecom organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "traffic obfuscation",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "MuddyWatter",
+      "platform": "BleepingComputer",
+      "type": "threat actor",
+      "publish_date": "2022/2/24"
+    },
+    {
+      "blog_id": 241,
+      "node": [
+        {
+          "node_text": ".NET loader",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CyberMaterial March 2 2025 report",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DNS-over-HTTPS channels",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "EDR solutions",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "HTTPS command-and-control channels",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "March 2 2025",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MuddyWater APT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Storm-1811",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WMI",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "anomalous scripting and DNS-tunneling detection",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "certutil",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "credential harvesting",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "custom C# backdoor",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "data exfiltration",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "government networks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "in-memory payload execution",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "lateral movement over SMB",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "macro-blocking policies",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "multi-factor authentication",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "multi-stage spear-phishing campaign",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "network segmentation",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "obfuscated VBA macros",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "operational disruption",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "telecom networks",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "MuddyWatter",
+      "platform": "cybermaterial",
+      "type": "threat actor",
+      "publish_date": "2024/3/27"
+    },
+    {
+      "blog_id": 243,
+      "node": [
+        {
+          "node_text": "2021",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Atera Agent",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Atera Agent abuse campaign",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Atera Agent binaries",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Harfang Lab",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Middle East",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MuddyWater",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "October 2023",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SHA-256 indicators",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "long-term espionage",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "malicious ZIP archives",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "MuddyWatter",
+      "platform": "cybersecuritynews",
+      "type": "threat actor",
+      "publish_date": "2024/4/26"
+    }
+  ]
+}

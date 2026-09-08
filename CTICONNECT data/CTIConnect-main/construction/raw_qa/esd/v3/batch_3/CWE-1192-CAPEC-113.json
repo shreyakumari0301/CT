@@ -1,0 +1,23 @@
+{
+  "question": "In a system-on-chip design, an IP block is referenced or integrated using an improper or incorrect identifier, potentially causing the wrong component to be used or trusted. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-113.\n- CAPEC-113 exploits manipulation of SoC interfaces via improper IP-block identification, targeting CWE-1192: improper identifier for IP block in SoC.",
+  "llm_cost": {
+    "input": 0.000785,
+    "cached_input": 0.0,
+    "output": 0.00102,
+    "total": 0.001805,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 628,
+      "cached_input": 0,
+      "output": 102
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.1968
+  }
+}

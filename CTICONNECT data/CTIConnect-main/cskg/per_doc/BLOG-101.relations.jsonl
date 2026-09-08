@@ -1,0 +1,15 @@
+{"src_type": "identity", "src_name": "BlackBerry", "predicate": "identified", "tgt_type": "threat_actor", "tgt_name": "Silent Skimmer", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "threat_actor", "src_name": "Silent Skimmer", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "Silent Skimmer campaign", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "threat_actor", "src_name": "Silent Skimmer", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-18935", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "threat_actor", "src_name": "Silent Skimmer", "predicate": "targets", "tgt_type": "tool", "tgt_name": "IIS", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "threat_actor", "src_name": "Silent Skimmer", "predicate": "uploads", "tgt_type": "malware", "tgt_name": "malicious DLL", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "threat_actor", "src_name": "Silent Skimmer", "predicate": "achieves", "tgt_type": "attack_pattern", "tgt_name": "Remote Code Execution", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "threat_actor", "src_name": "Silent Skimmer", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Microsoft Azure", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2019-18935", "predicate": "in", "tgt_type": "identity", "tgt_name": "Telerik UI", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "identity", "src_name": "Telerik UI", "predicate": "owned_by", "tgt_type": "identity", "tgt_name": "Progress Software", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hafnium", "predicate": "previously_used", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-18935", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "threat_actor", "src_name": "XE Group", "predicate": "previously_used", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-18935", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft Azure", "predicate": "mirrors_tactics_of", "tgt_type": "threat_actor", "tgt_name": "Magecart", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magecart", "predicate": "impacted", "tgt_type": "identity", "tgt_name": "British Airways", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magecart", "predicate": "impacted", "tgt_type": "identity", "tgt_name": "Ticketmaster", "source_chunks": ["BLOG-101::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magecart", "predicate": "impacted", "tgt_type": "identity", "tgt_name": "Newegg", "source_chunks": ["BLOG-101::ch0"]}

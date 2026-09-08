@@ -1,0 +1,23 @@
+{
+  "question": "An adversary recovers a trusted signer\u2019s private signing key by exploiting weaknesses in the signature algorithm or pseudorandom number generation, then forges signatures to trick victims into taking attacker-benefiting actions. Which MITRE ATT&CK technique matches this behavior, and why does it map?",
+  "answer": "- T1552.004.\n- T1552.004 corresponds to obtaining private keys, mapping CAPEC-485: recover a signer\u2019s private key to forge signatures.",
+  "llm_cost": {
+    "input": 0.000745,
+    "cached_input": 0.0,
+    "output": 0.00108,
+    "total": 0.001825,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 596,
+      "cached_input": 0,
+      "output": 108
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.9026
+  }
+}

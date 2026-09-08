@@ -1,0 +1,24 @@
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "tracks", "tgt_type": "threat_actor", "tgt_name": "Lazarus Group", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "tracks", "tgt_type": "threat_actor", "tgt_name": "Andariel", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-42793", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "DevOps build servers", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "installs", "tgt_type": "malware", "tgt_name": "ForestTiger", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Credential Dumping", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "DLL Search Order Hijacking", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "RollSling", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "FeedLoad", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-42793", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "targets", "tgt_type": "identity", "tgt_name": "DevOps build servers", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "creates_account", "tgt_type": "indicator", "tgt_name": "krtbgt", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "drops", "tgt_type": "malware", "tgt_name": "HazyLoad", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Remote Services (RDP)", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Credential Dumping", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-42793", "predicate": "affects", "tgt_type": "tool", "tgt_name": "TeamCity", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "malware", "src_name": "ForestTiger", "predicate": "has_indicator", "tgt_type": "indicator", "tgt_name": "Forest64.exe/4800-84DC-063A6A41C5C", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "malware", "src_name": "ForestTiger", "predicate": "decrypted_with_key", "tgt_type": "indicator", "tgt_name": "uTYNkfKxHiZrx3KJ", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "malware", "src_name": "RollSling", "predicate": "used_for_technique", "tgt_type": "attack_pattern", "tgt_name": "DLL Search Order Hijacking", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "malware", "src_name": "FeedLoad", "predicate": "used_for_technique", "tgt_type": "attack_pattern", "tgt_name": "DLL Search Order Hijacking", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "identity", "src_name": "JetBrains", "predicate": "issues_patches_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-42793", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "identity", "src_name": "Defender", "predicate": "mitigates", "tgt_type": "threat_actor", "tgt_name": "Lazarus Group", "source_chunks": ["BLOG-63::ch0"]}
+{"src_type": "identity", "src_name": "Defender", "predicate": "mitigates", "tgt_type": "threat_actor", "tgt_name": "Andariel", "source_chunks": ["BLOG-63::ch0"]}

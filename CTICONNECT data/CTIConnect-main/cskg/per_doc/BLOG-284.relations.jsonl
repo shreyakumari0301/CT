@@ -1,0 +1,20 @@
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. airlines", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Help-desk voice phishing", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "hijacks", "tgt_type": "tool", "tgt_name": "Microsoft Entra ID", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "conducts_recon_with", "tgt_type": "tool", "tgt_name": "ADExplorer", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "conducts_recon_with", "tgt_type": "tool", "tgt_name": "ADRecon.ps1", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "conducts_recon_with", "tgt_type": "tool", "tgt_name": "Get-ADUser", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "exploits_access_to", "tgt_type": "tool", "tgt_name": "VMware vCenter", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "installs", "tgt_type": "malware", "tgt_name": "Chisel", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "installs", "tgt_type": "tool", "tgt_name": "ngrok", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "installs", "tgt_type": "tool", "tgt_name": "MobaXterm", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "installs", "tgt_type": "tool", "tgt_name": "Pinggy", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "installs", "tgt_type": "tool", "tgt_name": "Rsocx", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "installs", "tgt_type": "tool", "tgt_name": "Teleport", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "tool", "tgt_name": "S3 Browser", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "exfiltrates_data_from", "tgt_type": "tool", "tgt_name": "AWS S3", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "ESXi ransomware", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "malware", "src_name": "Chisel", "predicate": "delivered_via", "tgt_type": "indicator", "tgt_name": "trycloudflare.com", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "tool", "src_name": "S3 Browser", "predicate": "enumerates", "tgt_type": "tool", "tgt_name": "AWS S3", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "tool", "src_name": "CrowdStrike Falcon Next-Gen SIEM", "predicate": "detects_and_disrupts", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-284::ch0"]}
+{"src_type": "identity", "src_name": "CrowdStrike Services", "predicate": "observed", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-284::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "What are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- FiveHands ransomware\n- DeathRansom\n- HelloKitty\n- SombRAT",
+  "llm_timing": {
+    "api_call_seconds": 6.9089
+  }
+}

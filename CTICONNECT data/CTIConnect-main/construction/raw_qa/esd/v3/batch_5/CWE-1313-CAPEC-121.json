@@ -1,0 +1,23 @@
+{
+  "question": "A hardware product permits test or debug logic to be activated while the system is running in production, potentially exposing internal functionality or information meant only for development. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-121.\n- CAPEC-121 exploits enabled test/debug runtime interfaces, targeting CWE-1313: hardware permits activation of test or debug logic at runtime.",
+  "llm_cost": {
+    "input": 0.000715,
+    "cached_input": 0.0,
+    "output": 0.00097,
+    "total": 0.001685,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 572,
+      "cached_input": 0,
+      "output": 97
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4965
+  }
+}

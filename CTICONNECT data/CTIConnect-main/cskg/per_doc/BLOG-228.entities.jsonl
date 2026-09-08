@@ -1,0 +1,19 @@
+{"entity_type": "threat_actor", "canonical_name": "Salt Typhoon", "aliases": ["GhostEmperor", "FamousSparrow"], "properties": {"country": "China", "primary_motivation": "espionage", "sectors_targeted": ["government", "telecommunications", "transportation", "lodging", "military"], "first_seen": "2021"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "identity", "canonical_name": "Sichuan Juxinhe Network Technology Co. Ltd.", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "identity", "canonical_name": "Beijing Huanyu Tianqiong Information Technology Co.", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "identity", "canonical_name": "Sichuan Zhixin Ruijie Network Technology Co. Ltd.", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "identity", "canonical_name": "China’s Ministry of State Security", "aliases": ["Ministry of State Security"], "properties": {"region": "China", "sector": "government"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "identity", "canonical_name": "PLA", "aliases": [], "properties": {"region": "China", "sector": "military"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "identity", "canonical_name": "AT&T", "aliases": [], "properties": {"sector": "telecommunications", "region": "United States"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "identity", "canonical_name": "Verizon", "aliases": [], "properties": {"sector": "telecommunications", "region": "United States"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "identity", "canonical_name": "Lumen", "aliases": [], "properties": {"sector": "telecommunications", "region": "United States"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. Army National Guard", "aliases": [], "properties": {"sector": "military", "region": "United States"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-21887", "aliases": [], "properties": {"cve_id": "CVE-2024-21887"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-3400", "aliases": [], "properties": {"cve_id": "CVE-2024-3400"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-20273", "aliases": [], "properties": {"cve_id": "CVE-2023-20273"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-20198", "aliases": [], "properties": {"cve_id": "CVE-2023-20198"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2018-0171", "aliases": [], "properties": {"cve_id": "CVE-2018-0171"}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "tool", "canonical_name": "cmd1", "aliases": [], "properties": {"platforms": ["Golang"], "capabilities": ["SFTP"]}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "tool", "canonical_name": "cmd3", "aliases": [], "properties": {"platforms": ["Golang"], "capabilities": ["SFTP"]}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "tool", "canonical_name": "new2", "aliases": [], "properties": {"platforms": ["Golang"], "capabilities": ["SFTP"]}, "source_chunks": ["BLOG-228::ch0"]}
+{"entity_type": "tool", "canonical_name": "sft", "aliases": [], "properties": {"platforms": ["Golang"], "capabilities": ["SFTP"]}, "source_chunks": ["BLOG-228::ch0"]}

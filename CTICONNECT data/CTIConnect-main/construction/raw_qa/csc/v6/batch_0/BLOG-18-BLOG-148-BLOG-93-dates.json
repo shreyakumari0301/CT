@@ -1,0 +1,7 @@
+{
+  "question": "What is the time span of this DPRK \u201cContagious Interview\u201d campaign based on the earliest and latest report dates?",
+  "answer": "- Earliest report date: December 2023 (first documentation of the Ferret macOS malware family)\n- Latest report date: April 23, 2025 (FBI seizure of blocknovas.com)",
+  "llm_timing": {
+    "api_call_seconds": 6.3198
+  }
+}

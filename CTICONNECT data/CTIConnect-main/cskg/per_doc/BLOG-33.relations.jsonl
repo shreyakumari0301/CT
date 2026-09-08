@@ -1,0 +1,12 @@
+{"src_type": "identity", "src_name": "CERT-UA", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "January 2024 PurpleFox campaign", "source_chunks": ["BLOG-33::ch0"]}
+{"src_type": "identity", "src_name": "CERT-UA", "predicate": "tracks_activity_as", "tgt_type": "threat_actor", "tgt_name": "UAC-0027", "source_chunks": ["BLOG-33::ch0"]}
+{"src_type": "identity", "src_name": "CERT-UA", "predicate": "recommends_using_for_removal", "tgt_type": "tool", "tgt_name": "Avast Free AV", "source_chunks": ["BLOG-33::ch0"]}
+{"src_type": "identity", "src_name": "CERT-UA", "predicate": "recommends_using_for_removal", "tgt_type": "tool", "tgt_name": "lsblk", "source_chunks": ["BLOG-33::ch0"]}
+{"src_type": "identity", "src_name": "CERT-UA", "predicate": "recommends_using_for_removal", "tgt_type": "tool", "tgt_name": "fdisk", "source_chunks": ["BLOG-33::ch0"]}
+{"src_type": "identity", "src_name": "CERT-UA", "predicate": "recommends_using_for_removal", "tgt_type": "tool", "tgt_name": "mount", "source_chunks": ["BLOG-33::ch0"]}
+{"src_type": "identity", "src_name": "CERT-UA", "predicate": "recommends_using_for_removal", "tgt_type": "tool", "tgt_name": "rm", "source_chunks": ["BLOG-33::ch0"]}
+{"src_type": "campaign", "src_name": "January 2024 PurpleFox campaign", "predicate": "involves_malware", "tgt_type": "malware", "tgt_name": "PurpleFox", "source_chunks": ["BLOG-33::ch0"]}
+{"src_type": "campaign", "src_name": "January 2024 PurpleFox campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Brute-forcing credentials", "source_chunks": ["BLOG-33::ch0"]}
+{"src_type": "malware", "src_name": "PurpleFox", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Telegram", "source_chunks": ["BLOG-33::ch0"]}
+{"src_type": "identity", "src_name": "Avast", "predicate": "provides_iocs_for", "tgt_type": "malware", "tgt_name": "PurpleFox", "source_chunks": ["BLOG-33::ch0"]}
+{"src_type": "identity", "src_name": "TrendMicro", "predicate": "provides_iocs_for", "tgt_type": "malware", "tgt_name": "PurpleFox", "source_chunks": ["BLOG-33::ch0"]}

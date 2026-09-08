@@ -1,0 +1,15 @@
+{"src_type": "campaign", "src_name": "TAOTH campaign", "predicate": "exploits", "tgt_type": "indicator", "tgt_name": "sogouzhuyin.com", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH campaign", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "TOSHIS", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH campaign", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "DESFY", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH campaign", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "GTELAM", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH campaign", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "C6DOOR", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Taiwan", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "China", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Hong Kong", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Japan", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "South Korea", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "overseas Taiwanese communities", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "malware", "src_name": "TOSHIS", "predicate": "derived_from", "tgt_type": "malware", "tgt_name": "GTELAM", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "malware", "src_name": "GTELAM", "predicate": "exfiltrates_to", "tgt_type": "tool", "tgt_name": "Google Drive", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "TOSHIS", "source_chunks": ["BLOG-318::ch0"]}
+{"src_type": "tool", "src_name": "Trend Vision One", "predicate": "detects_and_blocks", "tgt_type": "indicator", "tgt_name": "sogouzhuyin.com", "source_chunks": ["BLOG-318::ch0"]}

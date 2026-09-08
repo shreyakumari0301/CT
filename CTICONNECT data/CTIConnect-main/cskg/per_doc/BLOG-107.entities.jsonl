@@ -1,0 +1,10 @@
+{"entity_type": "identity", "canonical_name": "Apache Software Foundation", "aliases": ["ASF"], "properties": {}, "source_chunks": ["BLOG-107::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-46604", "aliases": [], "properties": {"cve_id": "CVE-2023-46604", "cvss": "10.0", "severity": "critical"}, "source_chunks": ["BLOG-107::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apache ActiveMQ", "aliases": ["ActiveMQ"], "properties": {}, "source_chunks": ["BLOG-107::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Insecure Deserialization", "aliases": ["insecure-deserialization"], "properties": {}, "source_chunks": ["BLOG-107::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": ["remote code execution", "unauthenticated remote code execution"], "properties": {}, "source_chunks": ["BLOG-107::ch0"]}
+{"entity_type": "malware", "canonical_name": "HelloKitty", "aliases": ["HelloKitty ransomware"], "properties": {"family": "HelloKitty"}, "source_chunks": ["BLOG-107::ch0"]}
+{"entity_type": "identity", "canonical_name": "Rapid7", "aliases": [], "properties": {}, "source_chunks": ["BLOG-107::ch0"]}
+{"entity_type": "identity", "canonical_name": "Rapid7 customer networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-107::ch0"]}
+{"entity_type": "identity", "canonical_name": "ShadowServer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-107::ch0"]}
+{"entity_type": "identity", "canonical_name": "small and midsize organizations", "aliases": [], "properties": {}, "source_chunks": ["BLOG-107::ch0"]}

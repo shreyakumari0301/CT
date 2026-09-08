@@ -1,0 +1,23 @@
+{
+  "question": "An attacker manipulates how an application locates external libraries so it loads an attacker-supplied library instead, using tactics like modifying search paths, symbolic links, or relative paths. This can redirect execution flow and run unauthorized code, especially when the target runs with elevated privileges. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1574.008.\n- T1574.008 corresponds to search order path hijacking, mapping CAPEC-159: redirecting library loading via symlinks, path changes, or relative paths.",
+  "llm_cost": {
+    "input": 0.000888,
+    "cached_input": 0.0,
+    "output": 0.00136,
+    "total": 0.002248,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 710,
+      "cached_input": 0,
+      "output": 136
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.5301
+  }
+}

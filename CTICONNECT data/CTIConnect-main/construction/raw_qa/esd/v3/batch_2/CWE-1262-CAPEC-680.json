@@ -1,0 +1,23 @@
+{
+  "question": "A system exposes a hardware/software register interface where access control is missing or misconfigured, allowing an attacker to read or write register data that should be protected. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-680.\n- CAPEC-680 exploits improperly controlled register access, targeting CWE-1262: improper access control for register interfaces.",
+  "llm_cost": {
+    "input": 0.0007,
+    "cached_input": 0.0,
+    "output": 0.00093,
+    "total": 0.00163,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 560,
+      "cached_input": 0,
+      "output": 93
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.1042
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "A system resets hardware registers that control security settings but leaves their values uninitialized, allowing unpredictable or attacker-influenced security state after reset. Which CAPEC attack pattern exploits this weakness, and why can it take advantage of the resulting state behavior?",
+  "answer": "- CAPEC-74.\n- CAPEC-74 exploits state manipulation via uninitialized security-setting registers on reset, targeting CWE-1271: reset leaves security registers uninitialized.",
+  "llm_cost": {
+    "input": 0.000856,
+    "cached_input": 0.0,
+    "output": 0.00101,
+    "total": 0.001866,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 685,
+      "cached_input": 0,
+      "output": 101
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.2532
+  }
+}

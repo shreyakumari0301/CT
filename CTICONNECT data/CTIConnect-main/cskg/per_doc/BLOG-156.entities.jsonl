@@ -1,0 +1,19 @@
+{"entity_type": "threat_actor", "canonical_name": "Sea Turtle", "aliases": ["Cosmic Wolf", "Marbled Dust", "Teal Kurma", "UNC1326"], "properties": {"first_seen": "January 2017", "primary_motivation": "espionage", "regions_targeted": ["Netherlands", "Armenia", "Cyprus", "Greece", "Iraq", "Syria"]}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Türkiye-linked cyber espionage campaign", "aliases": [], "properties": {"objective": "harvest politically sensitive personal data and potential dissident communications", "first_seen": "January 2017"}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "identity", "canonical_name": "Dutch ISPs", "aliases": [], "properties": {"sector": "telecommunications", "region": "Netherlands"}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "identity", "canonical_name": "Dutch telecom providers", "aliases": ["telecom"], "properties": {"sector": "telecommunications", "region": "Netherlands"}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "identity", "canonical_name": "Dutch IT-service providers", "aliases": ["IT-service"], "properties": {"sector": "information technology", "region": "Netherlands"}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "identity", "canonical_name": "Dutch media providers", "aliases": ["media providers"], "properties": {"sector": "media", "region": "Netherlands"}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kurdish websites", "aliases": [], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco Talos", "aliases": [], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "identity", "canonical_name": "PwC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hunt & Hackett", "aliases": [], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DNS hijacking", "aliases": ["state-sponsored DNS hijacking"], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Supply-chain attack", "aliases": ["supply-chain"], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Island hopping", "aliases": ["island-hopping attacks"], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential theft", "aliases": ["credential-theft"], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "malware", "canonical_name": "SnappyTCP", "aliases": ["“SnappyTCP,”"], "properties": {"platforms": ["Linux", "Unix"], "capabilities": ["web shell", "persistence", "command and control"]}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "tool", "canonical_name": "OpenSSL", "aliases": ["OpenSSL/TLS"], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "tool", "canonical_name": "cPanel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}
+{"entity_type": "tool", "canonical_name": "tar", "aliases": [], "properties": {}, "source_chunks": ["BLOG-156::ch0"]}

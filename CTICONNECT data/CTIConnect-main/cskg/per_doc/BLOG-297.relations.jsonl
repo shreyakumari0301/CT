@@ -1,0 +1,8 @@
+{"src_type": "threat_actor", "src_name": "Lotus Blossom", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Sagerunex", "source_chunks": ["BLOG-297::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Windows Management Instrumentation", "source_chunks": ["BLOG-297::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Venom", "source_chunks": ["BLOG-297::ch0"]}
+{"src_type": "malware", "src_name": "Sagerunex", "predicate": "evolved_from", "tgt_type": "malware", "tgt_name": "Evora", "source_chunks": ["BLOG-297::ch0"]}
+{"src_type": "malware", "src_name": "Sagerunex", "predicate": "targets", "tgt_type": "tool", "tgt_name": "Chrome", "source_chunks": ["BLOG-297::ch0"]}
+{"src_type": "malware", "src_name": "Sagerunex", "predicate": "abuses_api_of", "tgt_type": "identity", "tgt_name": "Dropbox", "source_chunks": ["BLOG-297::ch0"]}
+{"src_type": "malware", "src_name": "Sagerunex", "predicate": "abuses_api_of", "tgt_type": "identity", "tgt_name": "Twitter", "source_chunks": ["BLOG-297::ch0"]}
+{"src_type": "malware", "src_name": "Sagerunex", "predicate": "abuses_api_of", "tgt_type": "identity", "tgt_name": "Zimbra", "source_chunks": ["BLOG-297::ch0"]}

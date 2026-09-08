@@ -1,0 +1,7 @@
+{"src_type": "identity", "src_name": "HP’s Threat Research team", "predicate": "led_by", "tgt_type": "identity", "tgt_name": "Patrick Schlapfer", "source_chunks": ["BLOG-114::ch0"]}
+{"src_type": "identity", "src_name": "Patrick Schlapfer", "predicate": "co_leads_with", "tgt_type": "identity", "tgt_name": "Alex Holland", "source_chunks": ["BLOG-114::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "HTML smuggling", "source_chunks": ["BLOG-114::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "uses_attack_technique", "tgt_type": "attack_pattern", "tgt_name": "Windows Registry modification", "source_chunks": ["BLOG-114::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "uses_attack_technique", "tgt_type": "attack_pattern", "tgt_name": "Scheduled Task", "source_chunks": ["BLOG-114::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "invokes", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-114::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "AsyncRAT", "source_chunks": ["BLOG-114::ch0"]}

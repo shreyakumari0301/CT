@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary tool or malware family consistently used by the threat actor across these reports?",
+  "answer": "- Primary Tool/Malware Family: Custom backdoors\n- Variants observed:\n  \u2022 Trojanized Atera Agent MSI installers for stealthy payload delivery\n  \u2022 .NET C# loader delivering a custom backdoor via spear-phishing\n  \u2022 Python backdoor dubbed \u201cSmall Sieve\u201d with obfuscated C2 traffic\n  \u2022 PowerShell backdoor employing encrypted channels and obfuscation",
+  "llm_timing": {
+    "api_call_seconds": 7.9486
+  }
+}

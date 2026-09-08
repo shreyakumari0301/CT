@@ -1,0 +1,42 @@
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "Typosquatting", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "Malvertising", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "Malicious Browser Extension", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "rents_hosts_on", "tgt_type": "tool", "tgt_name": "Stark Industries Solutions", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Louvre", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Olympic tourists", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "Fin7 2013–present campaign", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "identity", "src_name": "U.S. authorities", "predicate": "secured_convictions_against", "tgt_type": "threat_actor", "tgt_name": "FIN7", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "identity", "src_name": "Blackberry", "predicate": "reported", "tgt_type": "attack_pattern", "tgt_name": "Typosquatting", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Typosquatting", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "American Express", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Typosquatting", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "Microsoft 365", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Typosquatting", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "CNN", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Typosquatting", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "Zoom", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Typosquatting", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "7-zip", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Typosquatting", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "PuTTY", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Typosquatting", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "Python", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malvertising", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "American Express", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malvertising", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "Microsoft 365", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malvertising", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "CNN", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malvertising", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "Zoom", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malvertising", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "7-zip", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malvertising", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "PuTTY", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malvertising", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "Python", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malvertising", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Google", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malvertising", "predicate": "delivers", "tgt_type": "attack_pattern", "tgt_name": "Malicious Browser Extension", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malicious Browser Extension", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "American Express", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malicious Browser Extension", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "Microsoft 365", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malicious Browser Extension", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "CNN", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malicious Browser Extension", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "Zoom", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malicious Browser Extension", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "7-zip", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malicious Browser Extension", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "PuTTY", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malicious Browser Extension", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "Python", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "American Express", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "Microsoft 365", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "CNN", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "mimics", "tgt_type": "identity", "tgt_name": "Zoom", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "7-zip", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "PuTTY", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing", "predicate": "mimics", "tgt_type": "tool", "tgt_name": "Python", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "identity", "src_name": "eSentire", "predicate": "observed", "tgt_type": "attack_pattern", "tgt_name": "Malvertising", "source_chunks": ["BLOG-304::ch0"]}
+{"src_type": "identity", "src_name": "Malwarebytes", "predicate": "observed", "tgt_type": "attack_pattern", "tgt_name": "Malvertising", "source_chunks": ["BLOG-304::ch0"]}

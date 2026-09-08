@@ -1,0 +1,9 @@
+{"entity_type": "threat_actor", "canonical_name": "EleKtra-Leak", "aliases": [], "properties": {}, "source_chunks": ["BLOG-108::ch0"]}
+{"entity_type": "tool", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-108::ch0"]}
+{"entity_type": "identity", "canonical_name": "AWS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-108::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-108::ch0"]}
+{"entity_type": "identity", "canonical_name": "EC2", "aliases": ["EC2 instances"], "properties": {}, "source_chunks": ["BLOG-108::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Cryptojacking", "aliases": [], "properties": {}, "source_chunks": ["BLOG-108::ch0"]}
+{"entity_type": "malware", "canonical_name": "malicious miners", "aliases": ["miners"], "properties": {}, "source_chunks": ["BLOG-108::ch0"]}
+{"entity_type": "identity", "canonical_name": "Monero", "aliases": [], "properties": {}, "source_chunks": ["BLOG-108::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Secret scanning", "aliases": ["pre-commit and periodic secret scanning"], "properties": {}, "source_chunks": ["BLOG-108::ch0"]}

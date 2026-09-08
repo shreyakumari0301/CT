@@ -1,0 +1,13 @@
+{"src_type": "vulnerability", "src_name": "CVE-2023-37580", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Zimbra Collaboration Suite", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-37580", "predicate": "targeted_at", "tgt_type": "identity", "tgt_name": "government organizations worldwide", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Cross-site scripting (XSS)", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-37580", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Cross-site scripting (XSS)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Vietnam", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Cross-site scripting (XSS)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Pakistan", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing via malicious URL link", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-37580", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing via malicious URL link", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Greece", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Email auto-forwarding rule", "predicate": "used_in", "tgt_type": "attack_pattern", "tgt_name": "Phishing via malicious URL link", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "threat_actor", "src_name": "Winter Vivern", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-37580", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "threat_actor", "src_name": "Winter Vivern", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing via malicious URL link", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "threat_actor", "src_name": "Winter Vivern", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Moldova", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "threat_actor", "src_name": "Winter Vivern", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Tunisia", "source_chunks": ["BLOG-106::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "warns_about", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-37580", "source_chunks": ["BLOG-106::ch0"]}

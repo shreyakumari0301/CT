@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"In July 2023, the Mastodon team fixed another critical bug tracked as CVE-2023-36460 and dubbed 'TootRoot,' which allowed attackers to send 'toots' (the equivalent of tweets) that would create web shells on target instances. Attackers could leverage this flaw to completely compromise Mastodon servers, allowing them to access sensitive user information, communications, and plant backdoors.\" What is the MITRE ATT&CK category for this behavior, how does the behavior map to that category, and which telemetry or log data sources (e.g., NetFlow, Zeek, packet captures) are suggested by the MITRE reference?",
+  "answer": "1) MITRE ATT&CK category: T1505.003 - Web Shell. 2) Mapping Explanation: The behavior described in the blog involves attackers exploiting a vulnerability to create web shells on compromised servers\u2014a functionality that aligns with the use of web shells for remote access as defined in T1505.003. 3) Data Sources: The MITRE reference lists several data sources including Application Log: Application Log Content, Process: Process Creation, File: File Creation, Network Traffic: Network Traffic Content, Network Traffic: Network Traffic Flow, and File: File Modification.",
+  "llm_timing": {
+    "api_call_seconds": 6.2443
+  }
+}

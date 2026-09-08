@@ -1,0 +1,10 @@
+{"entity_type": "identity", "canonical_name": "NCC Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-126::ch0"]}
+{"entity_type": "malware", "canonical_name": "Vultur", "aliases": [], "properties": {"platforms": ["Android"], "first_seen": "March 2021", "capabilities": ["screen recording", "keylogging", "remote interaction", "native-code decryption", "obfuscation", "AES-encrypted command and control (C&C)", "credential theft", "data exfiltration", "device takeover", "display custom notifications", "bypass lock screen", "download files", "upload files", "install files", "search for files", "delete files"]}, "source_chunks": ["BLOG-126::ch0"]}
+{"entity_type": "tool", "canonical_name": "AlphaVNC", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-126::ch0"]}
+{"entity_type": "tool", "canonical_name": "ngrok", "aliases": [], "properties": {"capabilities": ["tunneling"]}, "source_chunks": ["BLOG-126::ch0"]}
+{"entity_type": "campaign", "canonical_name": "SMS phishing campaign", "aliases": [], "properties": {"objective": "Trick users into installing a modified McAfee Security APK to deliver Vultur"}, "source_chunks": ["BLOG-126::ch0"]}
+{"entity_type": "tool", "canonical_name": "McAfee Security APK", "aliases": [], "properties": {"platforms": ["Android"]}, "source_chunks": ["BLOG-126::ch0"]}
+{"entity_type": "malware", "canonical_name": "Brunhilda", "aliases": ["Brunhilda dropper"], "properties": {"capabilities": ["dropper"]}, "source_chunks": ["BLOG-126::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SMS phishing", "aliases": [], "properties": {"tactic": "Initial Access", "technique_id": "T1566"}, "source_chunks": ["BLOG-126::ch0"]}
+{"entity_type": "identity", "canonical_name": "Firebase Cloud Messaging", "aliases": [], "properties": {}, "source_chunks": ["BLOG-126::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Play Protect", "aliases": [], "properties": {}, "source_chunks": ["BLOG-126::ch0"]}

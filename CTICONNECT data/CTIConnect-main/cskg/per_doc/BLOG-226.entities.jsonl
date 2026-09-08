@@ -1,0 +1,15 @@
+{"entity_type": "threat_actor", "canonical_name": "Moses Staff", "aliases": ["Moses Staff group"], "properties": {"first_seen": "September 2021", "primary_motivation": "political", "regions_targeted": ["Israel"], "sectors_targeted": ["organizations"], "country": "Palestine"}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israeli organizations", "aliases": [], "properties": {"region": "Israel"}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Exchange servers", "aliases": ["vulnerable Microsoft Exchange servers"], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMIC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "malware", "canonical_name": "PyDCrypt", "aliases": ["PyDCrypt payloads"], "properties": {"family": "custom variant", "capabilities": ["data encryption"]}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "tool", "canonical_name": "DiskCryptor", "aliases": ["open-source DiskCryptor tool"], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "identity", "canonical_name": "Check Point", "aliases": ["Check Point researchers"], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "tool", "canonical_name": "Tor", "aliases": ["Tor leak site"], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "tool", "canonical_name": "Twitter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram", "aliases": ["Telegram channels"], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Pay2Key", "aliases": [], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "BlackShadow", "aliases": [], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}
+{"entity_type": "tool", "canonical_name": "VirusTotal", "aliases": [], "properties": {}, "source_chunks": ["BLOG-226::ch0"]}

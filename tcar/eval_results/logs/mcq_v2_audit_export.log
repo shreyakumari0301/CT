@@ -1,0 +1,56 @@
+{
+  "n": 2500,
+  "cb_acc": 0.716,
+  "rag_acc": 0.7868,
+  "delta": 0.0708,
+  "rescues": 227,
+  "damages": 50,
+  "both_wrong": 483,
+  "neutral_correct": 1740,
+  "branch_oracle_acc": 0.8068,
+  "rag_correct_count": 1967,
+  "to_reach_80pct_need": 33,
+  "seed": 20260908,
+  "groups_exported": {
+    "damages": 50,
+    "rescues": 227,
+    "both_wrong_100": 100,
+    "neutral_correct_100": 100
+  }
+}
+loading retriever...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5583.15it/s]
+retriever ready in 213.2s
+enriching damages...
+  damages: 25/50
+  damages: 50/50
+enriching rescues...
+  rescues: 25/227
+  rescues: 50/227
+  rescues: 75/227
+  rescues: 100/227
+  rescues: 125/227
+  rescues: 150/227
+  rescues: 175/227
+  rescues: 200/227
+  rescues: 225/227
+  rescues: 227/227
+enriching both_wrong_100...
+  both_wrong: 25/100
+  both_wrong: 50/100
+  both_wrong: 75/100
+  both_wrong: 100/100
+enriching neutral_correct_100...
+  neutral_correct: 25/100
+  neutral_correct: 50/100
+  neutral_correct: 75/100
+  neutral_correct: 100/100
+{
+  "damages_contam_rate": 0.04,
+  "rescues_contam_rate": 0.05726872246696035,
+  "both_wrong_contam_rate": 0.0,
+  "damages_none_option": 1,
+  "both_wrong_none_option": 0
+}
+wrote /mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/mcq_v2_audit

@@ -1,0 +1,22 @@
+{"src_type": "identity", "src_name": "FBI", "predicate": "issued_public_service_announcement_about", "tgt_type": "threat_actor", "tgt_name": "Magic Hare", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magic Hare", "predicate": "linked_to", "tgt_type": "identity", "tgt_name": "FSB", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magic Hare", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2018-0171", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magic Hare", "predicate": "compromises", "tgt_type": "identity", "tgt_name": "critical infrastructure worldwide", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magic Hare", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. critical infrastructure sectors", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magic Hare", "predicate": "conducts", "tgt_type": "attack_pattern", "tgt_name": "Network reconnaissance", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "identity", "src_name": "Cisco", "predicate": "first_detected_opportunistic_attacks_by", "tgt_type": "threat_actor", "tgt_name": "Magic Hare", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2018-0171", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Remote Code Execution", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2018-0171", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Denial of Service", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "identity", "src_name": "Cisco Talos", "predicate": "reports_on", "tgt_type": "campaign", "tgt_name": "Static Tundra", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "campaign", "src_name": "Static Tundra", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Magic Hare", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "campaign", "src_name": "Static Tundra", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecommunications", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "campaign", "src_name": "Static Tundra", "predicate": "targets", "tgt_type": "identity", "tgt_name": "higher education", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "campaign", "src_name": "Static Tundra", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "campaign", "src_name": "Static Tundra", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "campaign", "src_name": "Static Tundra", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Asia", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "campaign", "src_name": "Static Tundra", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Africa", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "campaign", "src_name": "Static Tundra", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "campaign", "src_name": "Static Tundra", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "SNMP tools", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "campaign", "src_name": "Static Tundra", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "SYNful Knock", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "campaign", "src_name": "Static Tundra", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2018-0171", "source_chunks": ["BLOG-280::ch0"]}
+{"src_type": "identity", "src_name": "FireEye", "predicate": "originally_identified", "tgt_type": "malware", "tgt_name": "SYNful Knock", "source_chunks": ["BLOG-280::ch0"]}

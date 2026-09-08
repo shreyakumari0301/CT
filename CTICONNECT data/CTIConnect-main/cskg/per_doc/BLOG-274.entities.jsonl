@@ -1,0 +1,11 @@
+{"entity_type": "tool", "canonical_name": "kubectl", "aliases": [], "properties": {}, "source_chunks": ["BLOG-274::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kubernetes", "aliases": [], "properties": {}, "source_chunks": ["BLOG-274::ch0"]}
+{"entity_type": "tool", "canonical_name": "kube-apiserver", "aliases": [], "properties": {}, "source_chunks": ["BLOG-274::ch0"]}
+{"entity_type": "tool", "canonical_name": "kube-scheduler", "aliases": [], "properties": {}, "source_chunks": ["BLOG-274::ch0"]}
+{"entity_type": "tool", "canonical_name": "Calico", "aliases": [], "properties": {}, "source_chunks": ["BLOG-274::ch0"]}
+{"entity_type": "tool", "canonical_name": "etcd", "aliases": ["ETCD"], "properties": {}, "source_chunks": ["BLOG-274::ch0"]}
+{"entity_type": "tool", "canonical_name": "CoreDNS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-274::ch0"]}
+{"entity_type": "tool", "canonical_name": "cAdvisor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-274::ch0"]}
+{"entity_type": "tool", "canonical_name": "Fluentd", "aliases": [], "properties": {}, "source_chunks": ["BLOG-274::ch0"]}
+{"entity_type": "malware", "canonical_name": "Python malware", "aliases": [], "properties": {"platforms": ["Python"]}, "source_chunks": ["BLOG-274::ch0"]}
+{"entity_type": "identity", "canonical_name": "crypto developers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-274::ch0"]}

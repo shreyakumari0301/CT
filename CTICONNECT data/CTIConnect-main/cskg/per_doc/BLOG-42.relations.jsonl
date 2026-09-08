@@ -1,0 +1,22 @@
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "partnered_with", "tgt_type": "identity", "tgt_name": "The Citizen Lab", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "exposed", "tgt_type": "campaign", "tgt_name": "in-the-wild exploit chain", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "identity", "src_name": "The Citizen Lab", "predicate": "exposed", "tgt_type": "campaign", "tgt_name": "in-the-wild exploit chain", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "identity", "src_name": "Intellexa", "predicate": "developed", "tgt_type": "campaign", "tgt_name": "in-the-wild exploit chain", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "identity", "src_name": "Intellexa", "predicate": "located_in", "tgt_type": "identity", "tgt_name": "Egypt", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Safari RCE", "predicate": "associated_with", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-41993", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Certificate validation bypass", "predicate": "associated_with", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-41991", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "attack_pattern", "src_name": "XNU kernel local privilege escalation", "predicate": "associated_with", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-41992", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Chrome renderer RCE", "predicate": "associated_with", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-4762", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "tool", "src_name": "Chrome’s HTTPS-First Mode", "predicate": "mitigates", "tgt_type": "attack_pattern", "tgt_name": "Man-in-the-middle injection on HTTP traffic", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "Man-in-the-middle injection on HTTP traffic", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "redirects_to", "tgt_type": "indicator", "tgt_name": "c.betly.me", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "redirects_to", "tgt_type": "indicator", "tgt_name": "sec-flare.com", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Predator spyware", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Safari RCE", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Certificate validation bypass", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "XNU kernel local privilege escalation", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "targets", "tgt_type": "tool", "tgt_name": "iOS", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "targets", "tgt_type": "tool", "tgt_name": "Android", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Chrome renderer RCE", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "patched_in", "tgt_type": "tool", "tgt_name": "iOS 16.7", "source_chunks": ["BLOG-42::ch0"]}
+{"src_type": "campaign", "src_name": "in-the-wild exploit chain", "predicate": "patched_in", "tgt_type": "tool", "tgt_name": "iOS 17.0.1", "source_chunks": ["BLOG-42::ch0"]}

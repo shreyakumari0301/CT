@@ -1,0 +1,2 @@
+{"src_type": "identity", "src_name": "Checkmarx", "predicate": "discovered_campaign_on", "tgt_type": "identity", "tgt_name": "Python Package Index (PyPI)", "source_chunks": ["BLOG-121::ch0"]}
+{"src_type": "attack_pattern", "src_name": "typo-squatting", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Python Package Index (PyPI)", "source_chunks": ["BLOG-121::ch0"]}

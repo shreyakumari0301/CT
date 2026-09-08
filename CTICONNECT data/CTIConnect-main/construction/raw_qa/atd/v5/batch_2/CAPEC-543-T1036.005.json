@@ -1,0 +1,23 @@
+{
+  "question": "An adversary creates a duplicate of a legitimate website to trick visitors into going there, then collects their information or delivers malware. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1036.005.\n- T1036.005 corresponds to impersonating legitimate web resources, mapping CAPEC-543: duplicating websites to steal information or upload malware.",
+  "llm_cost": {
+    "input": 0.000711,
+    "cached_input": 0.0,
+    "output": 0.001,
+    "total": 0.001711,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 569,
+      "cached_input": 0,
+      "output": 100
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5439
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Microsoft says the threat actors breached their systems in November 2023 when they conducted a password spray attack to access a legacy non-production test tenant account.\" Please provide: 1) the MITRE ATT&CK category that maps to this behavior, 2) an explanation of how this attack maps to that technique, and 3) which platforms are applicable as per the MITRE ATT&CK framework (e.g., Linux, macOS, Windows, ESXi)?",
+  "answer": "1) T1078 - Valid Accounts. 2) Mapping Explanation: The attack involved a password spray attack to gain access using a legitimate, though legacy, tenant account, which directly aligns with the MITRE ATT&CK technique T1078 that involves the abuse of valid credentials to access systems. 3) Applicable Platforms: Windows, SaaS, IaaS, Linux, macOS, Containers, Network Devices, Office Suite, Identity Provider, ESXi.",
+  "llm_timing": {
+    "api_call_seconds": 5.7676
+  }
+}

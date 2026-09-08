@@ -1,0 +1,22 @@
+{"entity_type": "threat_actor", "canonical_name": "Royal", "aliases": ["Royal ransomware gang"], "properties": {"first_seen": "January 2022", "primary_motivation": "financial"}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": ["Microsoft’s"], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "DEV-0569", "aliases": ["Microsoft’s DEV-0569"], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "malvertising", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Ads", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "tool", "canonical_name": "Keitaro TDS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "malicious attachments", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "malware", "canonical_name": "BATLOADER", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "MSI Custom Actions", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "tool", "canonical_name": "Nsudo", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "disable security controls", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "tool", "canonical_name": "Zoho", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "malware", "canonical_name": "BlackCat", "aliases": ["BlackCat’s encryptor", "ALPHV", "ALPHV/BlackCat", "Noberus"], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "malware", "canonical_name": "Zeon", "aliases": ["Zeon encryptor"], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "identity", "canonical_name": "Silverstone Circuit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "identity", "canonical_name": "Travis Central Appraisal District", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "identity", "canonical_name": "HC3", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-14::ch0"]}
+{"entity_type": "identity", "canonical_name": "healthcare", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-14::ch0"]}

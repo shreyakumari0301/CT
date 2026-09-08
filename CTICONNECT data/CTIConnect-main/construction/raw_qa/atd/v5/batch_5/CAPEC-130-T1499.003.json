@@ -1,0 +1,23 @@
+{
+  "question": "An adversary sends one or a small number of carefully crafted requests that force a target to allocate excessive resources (e.g., memory, bandwidth, CPU), degrading or denying legitimate service without using many requests. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1499.003.\n- T1499.003 corresponds to application resource exhaustion, mapping CAPEC-130: crafted requests trigger excessive resource allocation, degrading or denying service.",
+  "llm_cost": {
+    "input": 0.000859,
+    "cached_input": 0.0,
+    "output": 0.00116,
+    "total": 0.002019,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 687,
+      "cached_input": 0,
+      "output": 116
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5414
+  }
+}

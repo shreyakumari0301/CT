@@ -1,0 +1,7 @@
+{
+  "question": "Across these reports, what is the single most notable new capability that appeared in later variants compared to earlier ones?",
+  "answer": "- Early variants employed phishing-delivered HTML attachments to drop the Get2 loader and deploy RATs (SDBOT, FlawedAmmyy), Cobalt Strike beacons and TinyMet reverse shells for lateral movement and exfiltration via the DEWMODE web shell\n- Mid-stage variants shifted to exploiting the MOVEit Transfer SQL injection zero-day with the Lemurloot web shell to manipulate databases, exfiltrate records and Azure settings\n- Later variants transitioned data-leak operations from Tor-hosted downloads to decentralized BitTorrent distribution using magnet links and DHT trackers to seed terabytes of stolen data\n- Most Notable New Capability: Decentralized BitTorrent-based data leak distribution",
+  "llm_timing": {
+    "api_call_seconds": 11.3448
+  }
+}

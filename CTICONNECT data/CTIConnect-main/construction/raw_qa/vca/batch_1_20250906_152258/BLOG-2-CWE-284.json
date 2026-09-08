@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Weak access controls on internet-facing applications and server directories enable remote code execution, webshell deployment, and subsequent lateral/post-exploitation actions.\" Can you identify the CWE category that maps to this vulnerability, explain the mapping, and comment on the likelihood of exploit (i.e., how often do attackers actually exploit this in real attacks)?",
+  "answer": "1) CWE-284: Improper Access Control\n2) Mapping Explanation: The vulnerability is due to weak or absent access controls on internet-facing systems, which enables attackers to perform unauthorized actions such as remote code execution and webshell deployment; this directly aligns with CWE-284's focus on improper enforcement of access control policies.\n3) Likelihood of Exploit: The CWE documentation does not specify a likelihood of exploit for this vulnerability.",
+  "llm_timing": {
+    "api_call_seconds": 7.7431
+  }
+}

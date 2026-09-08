@@ -1,0 +1,16 @@
+{"src_type": "vulnerability", "src_name": "CVE-2021-44228", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Muhstik", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2021-44228", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S.", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2021-44228", "predicate": "originating_from", "tgt_type": "identity", "tgt_name": "U.S.", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2021-44228", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.K.", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2021-44228", "predicate": "originating_from", "tgt_type": "identity", "tgt_name": "U.K.", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2021-44228", "predicate": "originating_from", "tgt_type": "identity", "tgt_name": "Germany", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2021-44228", "predicate": "originating_from", "tgt_type": "identity", "tgt_name": "Russia", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2021-44228", "predicate": "originating_from", "tgt_type": "identity", "tgt_name": "China", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2021-45046", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Muhstik", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2021-45105", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Muhstik", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "malware", "src_name": "Muhstik", "predicate": "delivers", "tgt_type": "tool", "tgt_name": "XMRig", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "malware", "src_name": "Muhstik", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Dridex", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "malware", "src_name": "Muhstik", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Orcus RAT", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "malware", "src_name": "Muhstik", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Khonsari", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "malware", "src_name": "Muhstik", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Conti", "source_chunks": ["BLOG-140::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "used_to_deliver", "tgt_type": "tool", "tgt_name": "XMRig", "source_chunks": ["BLOG-140::ch0"]}

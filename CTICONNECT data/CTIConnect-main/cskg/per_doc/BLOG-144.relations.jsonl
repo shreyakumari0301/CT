@@ -1,0 +1,17 @@
+{"src_type": "threat_actor", "src_name": "Gamaredon Group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Western nation’s military mission in Ukraine", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "threat_actor", "src_name": "Gamaredon Group", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "multi-stage PowerShell-centric campaign", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "campaign", "src_name": "multi-stage PowerShell-centric campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "campaign", "src_name": "multi-stage PowerShell-centric campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Malicious .lnk file", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "campaign", "src_name": "multi-stage PowerShell-centric campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "mshta.exe", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "campaign", "src_name": "multi-stage PowerShell-centric campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "wscript.exe", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "campaign", "src_name": "multi-stage PowerShell-centric campaign", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "GammaSteel", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "malware", "src_name": "GammaSteel", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "malware", "src_name": "GammaSteel", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "mil.gov.ua", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "malware", "src_name": "GammaSteel", "predicate": "resolves_c2_via", "tgt_type": "indicator", "tgt_name": "teletype.in", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "malware", "src_name": "GammaSteel", "predicate": "resolves_c2_via", "tgt_type": "indicator", "tgt_name": "telegra.ph", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "malware", "src_name": "GammaSteel", "predicate": "resolves_c2_via", "tgt_type": "indicator", "tgt_name": "t.me", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "malware", "src_name": "GammaSteel", "predicate": "resolves_c2_via", "tgt_type": "indicator", "tgt_name": "check-host.net", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "malware", "src_name": "GammaSteel", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "107.189.19.218", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "malware", "src_name": "GammaSteel", "predicate": "uses", "tgt_type": "tool", "tgt_name": "certutil", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "malware", "src_name": "GammaSteel", "predicate": "uses", "tgt_type": "tool", "tgt_name": "cURL", "source_chunks": ["BLOG-144::ch0"]}
+{"src_type": "malware", "src_name": "GammaSteel", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Tor", "source_chunks": ["BLOG-144::ch0"]}

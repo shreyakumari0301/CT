@@ -1,0 +1,26 @@
+{"entity_type": "threat_actor", "canonical_name": "hack-for-hire group", "aliases": [], "properties": {"first_seen": "late 2019"}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["phishing campaigns", "Gmail phishing"], "properties": {}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "RedLine", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "Vidar", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "Predator The Thief", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "Nexus Stealer", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "Azorult", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "Raccoon", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "Grand Stealer", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "Vikro Stealer", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "Masad", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "Kantal", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "Sorano", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "malware", "canonical_name": "AdamantiumThief", "aliases": [], "properties": {"capabilities": ["cookie theft", "data exfiltration"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "identity", "canonical_name": "YouTube creators", "aliases": [], "properties": {}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "identity", "canonical_name": "YouTube", "aliases": [], "properties": {}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "identity", "canonical_name": "Gmail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trust & Safety", "aliases": [], "properties": {}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cybercrime Investigation", "aliases": [], "properties": {}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "identity", "canonical_name": "Safe Browsing", "aliases": ["Enhanced Safe Browsing"], "properties": {}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Threat Analysis Group", "aliases": ["Google’s Threat Analysis Group"], "properties": {}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "tool", "canonical_name": "VirusTotal", "aliases": [], "properties": {"capabilities": ["file scanning"]}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "indicator", "canonical_name": "email.cz", "aliases": [], "properties": {"ioc_type": "domain", "value": "email.cz"}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "indicator", "canonical_name": "seznam.cz", "aliases": [], "properties": {"ioc_type": "domain", "value": "seznam.cz"}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "indicator", "canonical_name": "post.cz", "aliases": [], "properties": {"ioc_type": "domain", "value": "post.cz"}, "source_chunks": ["BLOG-41::ch0"]}
+{"entity_type": "indicator", "canonical_name": "aol.com", "aliases": [], "properties": {"ioc_type": "domain", "value": "aol.com"}, "source_chunks": ["BLOG-41::ch0"]}

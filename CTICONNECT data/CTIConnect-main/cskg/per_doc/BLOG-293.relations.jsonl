@@ -1,0 +1,20 @@
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "APAC government targets", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Sagerunex", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Windows Management Instrumentation", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Watering Hole", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Exploit Public-Facing Application", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Lateral Movement", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Credential Dumping", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Chrome", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "RAR", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "relays_traffic_through", "tgt_type": "tool", "tgt_name": "Venom proxies", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "achieves_persistence_via", "tgt_type": "attack_pattern", "tgt_name": "Registry Run Keys / Startup Folder", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Command and Control", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lotus Blossom APT", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Ingress Tool Transfer", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "tool", "src_name": "Windows Management Instrumentation", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Lateral Movement", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Command and Control", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Dropbox", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Command and Control", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Twitter", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Command and Control", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Zimbra", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Ingress Tool Transfer", "predicate": "involves", "tgt_type": "malware", "tgt_name": "Sagerunex", "source_chunks": ["BLOG-293::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Registry Run Keys / Startup Folder", "predicate": "involves", "tgt_type": "malware", "tgt_name": "Sagerunex", "source_chunks": ["BLOG-293::ch0"]}

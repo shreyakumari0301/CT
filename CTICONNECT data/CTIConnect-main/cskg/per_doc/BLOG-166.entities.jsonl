@@ -1,0 +1,13 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-26134", "aliases": [], "properties": {"cve_id": "CVE-2022-26134"}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "identity", "canonical_name": "Volexity", "aliases": [], "properties": {}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "identity", "canonical_name": "Atlassian", "aliases": [], "properties": {}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "identity", "canonical_name": "Atlassian Confluence Server", "aliases": [], "properties": {}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "identity", "canonical_name": "Atlassian Confluence Data Center", "aliases": ["Data Center"], "properties": {}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "malware", "canonical_name": "China Chopper", "aliases": [], "properties": {"family": "webshell", "platforms": ["JSP"]}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "OGNL injection", "aliases": [], "properties": {}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": ["RCE"], "properties": {}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Webshell", "aliases": ["JSP webshell"], "properties": {}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "identity", "canonical_name": "Horizon3.ai", "aliases": [], "properties": {}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "identity", "canonical_name": "GreyNoise", "aliases": [], "properties": {}, "source_chunks": ["BLOG-166::ch0"]}
+{"entity_type": "identity", "canonical_name": "SolarWinds", "aliases": [], "properties": {}, "source_chunks": ["BLOG-166::ch0"]}

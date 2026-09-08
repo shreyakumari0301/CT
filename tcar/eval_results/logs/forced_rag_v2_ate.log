@@ -1,0 +1,27 @@
+[2026-09-06T07:06:33Z] RUN vanilla_rag ate stamp=20260904Tgpt56sol_forced_rag_cb
+counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:   0%|          | 0/3 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A
+Loading weights:  31%|███       | 32/103 [00:00<00:00, 319.32it/s][A
+
+Loading weights:  32%|███▏      | 33/103 [00:00<00:00, 322.87it/s][A[A
+Loading weights:  69%|██████▉   | 71/103 [00:00<00:00, 358.05it/s][A
+
+Loading weights:  64%|██████▍   | 66/103 [00:00<00:00, 319.09it/s][A[ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 435.15it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 436.53it/s]
+counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  33%|███▎      | 1/3 [03:03<06:06, 183.21s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  67%|██████▋   | 2/3 [03:11<01:20, 80.26s/it] counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb: 100%|██████████| 3/3 [03:53<00:00, 62.69s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb: 100%|██████████| 3/3 [03:53<00:00, 77.73s/it]
+
+=== ctibench/ate (n=58) ===
+  CB score: 19.0% | Forced RAG: 69.0% | Δ +50.0%
+  Rescues: 29 | Damages: 0 | Net utility: +50.0%
+  False rejections: 13 | Harmful admissions: 0
+  Gate admit rate: 63.8% | Gate accuracy (differing): 0.5517
+  Recall@5: 1.7% | P(RAG correct|gold@5): 0.0
+
+Wrote summary -> /mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/counterfactual_summary_20260904Tgpt56sol_forced_rag_cb.json
+
+| Dataset/task | CB | Forced RAG | Rescues | Damages | Net utility | Gate acc |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| ctibench/ate | 19.0% | 69.0% | 29 | 0 | +50.0% | 55.2% |

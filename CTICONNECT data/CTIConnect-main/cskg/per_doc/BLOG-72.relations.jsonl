@@ -1,0 +1,25 @@
+{"src_type": "malware", "src_name": "Blitz", "predicate": "has_component", "tgt_type": "indicator", "tgt_name": "ieapfltr.dll", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "malware", "src_name": "Blitz", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "malware", "src_name": "Blitz", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Virtualization/Sandbox Evasion", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "malware", "src_name": "Blitz", "predicate": "establishes_persistence_via", "tgt_type": "attack_pattern", "tgt_name": "Boot or Logon Initialization Scripts: Logon Script (Windows)", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "malware", "src_name": "Blitz", "predicate": "establishes_persistence_via", "tgt_type": "attack_pattern", "tgt_name": "Registry Run Keys / Startup Folder", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "malware", "src_name": "Blitz", "predicate": "uses_c2_infrastructure", "tgt_type": "tool", "tgt_name": "FastAPI", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "malware", "src_name": "Blitz", "predicate": "uses_hosting", "tgt_type": "identity", "tgt_name": "Hugging Face Space", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "malware", "src_name": "Blitz", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "XMRig", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "threat_actor", "src_name": "sw1zzx", "predicate": "actively_develops", "tgt_type": "malware", "tgt_name": "Blitz", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "threat_actor", "src_name": "sw1zzx", "predicate": "distributes", "tgt_type": "indicator", "tgt_name": "Nerest_CrackBy@sw1zzx_dev.zip", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "threat_actor", "src_name": "sw1zzx", "predicate": "distributes", "tgt_type": "indicator", "tgt_name": "Elysium_CrackBy@sw1zzx_dev.zip", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "threat_actor", "src_name": "sw1zzx", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Telegram", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "indicator", "src_name": "Nerest_CrackBy@sw1zzx_dev.zip", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Blitz", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "indicator", "src_name": "Elysium_CrackBy@sw1zzx_dev.zip", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Blitz", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "retrieves_from", "tgt_type": "indicator", "tgt_name": "pastebin", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "retrieves_from", "tgt_type": "indicator", "tgt_name": "paste.rs", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "tool", "src_name": "XMRig", "predicate": "mines", "tgt_type": "identity", "tgt_name": "Monero", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "detects_and_blocks", "tgt_type": "malware", "tgt_name": "Blitz", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "tool", "src_name": "Advanced WildFire", "predicate": "detects_and_blocks", "tgt_type": "malware", "tgt_name": "Blitz", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "tool", "src_name": "URL Filtering", "predicate": "detects_and_blocks", "tgt_type": "malware", "tgt_name": "Blitz", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "tool", "src_name": "DNS Security", "predicate": "detects_and_blocks", "tgt_type": "malware", "tgt_name": "Blitz", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "tool", "src_name": "Threat Prevention", "predicate": "detects_and_blocks", "tgt_type": "malware", "tgt_name": "Blitz", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "tool", "src_name": "Cortex XDR", "predicate": "detects_and_blocks", "tgt_type": "malware", "tgt_name": "Blitz", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "tool", "src_name": "XSIAM", "predicate": "detects_and_blocks", "tgt_type": "malware", "tgt_name": "Blitz", "source_chunks": ["BLOG-72::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "provides_incident_response", "tgt_type": "malware", "tgt_name": "Blitz", "source_chunks": ["BLOG-72::ch0"]}

@@ -1,0 +1,9 @@
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Taiwanese organizations", "source_chunks": ["BLOG-58::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "China Chopper", "source_chunks": ["BLOG-58::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses_for_privilege_escalation", "tgt_type": "tool", "tgt_name": "Juicy Potato", "source_chunks": ["BLOG-58::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses_for_privilege_escalation", "tgt_type": "tool", "tgt_name": "BadPotato", "source_chunks": ["BLOG-58::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "installs", "tgt_type": "tool", "tgt_name": "SoftEther VPN", "source_chunks": ["BLOG-58::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses_for_lateral_movement", "tgt_type": "tool", "tgt_name": "WinRM", "source_chunks": ["BLOG-58::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses_for_lateral_movement", "tgt_type": "tool", "tgt_name": "WMIC", "source_chunks": ["BLOG-58::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-58::ch0"]}
+{"src_type": "tool", "src_name": "Mimikatz", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Pass-the-Hash", "source_chunks": ["BLOG-58::ch0"]}

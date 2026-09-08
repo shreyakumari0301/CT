@@ -1,0 +1,6 @@
+{"entity_type": "threat_actor", "canonical_name": "North Korean Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-273::ch0"]}
+{"entity_type": "malware", "canonical_name": "Play Ransomware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-273::ch0"]}
+{"entity_type": "tool", "canonical_name": "kubectl", "aliases": [], "properties": {}, "source_chunks": ["BLOG-273::ch0"]}
+{"entity_type": "tool", "canonical_name": "Fluentd", "aliases": [], "properties": {}, "source_chunks": ["BLOG-273::ch0"]}
+{"entity_type": "tool", "canonical_name": "Prometheus", "aliases": [], "properties": {}, "source_chunks": ["BLOG-273::ch0"]}
+{"entity_type": "tool", "canonical_name": "Grafana", "aliases": [], "properties": {}, "source_chunks": ["BLOG-273::ch0"]}

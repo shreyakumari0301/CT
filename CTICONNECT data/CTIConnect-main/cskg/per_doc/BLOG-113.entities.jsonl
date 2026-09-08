@@ -1,0 +1,11 @@
+{"entity_type": "identity", "canonical_name": "Foundation Accounting Software", "aliases": ["Foundation"], "properties": {}, "source_chunks": ["BLOG-113::ch0"]}
+{"entity_type": "identity", "canonical_name": "construction sub-industries", "aliases": ["construction"], "properties": {"sector": "construction"}, "source_chunks": ["BLOG-113::ch0"]}
+{"entity_type": "identity", "canonical_name": "plumbing", "aliases": [], "properties": {"sector": "construction"}, "source_chunks": ["BLOG-113::ch0"]}
+{"entity_type": "identity", "canonical_name": "HVAC", "aliases": [], "properties": {"sector": "construction"}, "source_chunks": ["BLOG-113::ch0"]}
+{"entity_type": "identity", "canonical_name": "concrete", "aliases": [], "properties": {"sector": "construction"}, "source_chunks": ["BLOG-113::ch0"]}
+{"entity_type": "tool", "canonical_name": "MSSQL", "aliases": ["Microsoft SQL Server"], "properties": {}, "source_chunks": ["BLOG-113::ch0"]}
+{"entity_type": "tool", "canonical_name": "xp_cmdshell", "aliases": [], "properties": {"capabilities": ["execute OS-level commands", "execute scripts"]}, "source_chunks": ["BLOG-113::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Brute Force", "aliases": ["large-scale brute-force attacks"], "properties": {}, "source_chunks": ["BLOG-113::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral Movement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-113::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data Theft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-113::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "unknown cybercriminals", "aliases": ["attackers"], "properties": {}, "source_chunks": ["BLOG-113::ch0"]}

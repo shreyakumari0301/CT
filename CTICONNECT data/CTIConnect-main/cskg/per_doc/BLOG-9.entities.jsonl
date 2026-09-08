@@ -1,0 +1,19 @@
+{"entity_type": "tool", "canonical_name": "SoftPerfect Network Scanner", "aliases": [], "properties": {"capabilities": ["network discovery"]}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {"capabilities": ["remote execution", "deployment"]}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "malware", "canonical_name": "ServeManager.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "malware", "canonical_name": "FiveHands", "aliases": ["FiveHands ransomware", "FiveHands ransomware variant"], "properties": {"family": "ransomware", "capabilities": ["file encryption", "ransom note dropping"]}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "malware", "canonical_name": "SombRAT", "aliases": ["SombRAT RAT"], "properties": {"family": "RAT", "capabilities": ["remote information theft"]}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "tool", "canonical_name": "RouterScan", "aliases": [], "properties": {}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "tool", "canonical_name": "grabff.exe", "aliases": [], "properties": {"capabilities": ["credential harvesting"]}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "tool", "canonical_name": "rclone.exe", "aliases": ["rclone"], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "tool", "canonical_name": "s3browser-9-5-3.exe", "aliases": [], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Windows Management Instrumentation", "aliases": ["WMI"], "properties": {"technique_id": "T1047"}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Inhibit System Recovery", "aliases": [], "properties": {"technique_id": "T1490"}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data Encrypted for Impact", "aliases": ["encrypted files for impact"], "properties": {"technique_id": "T1486"}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Access Token Manipulation", "aliases": [], "properties": {}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Boot or Logon Autostart Execution", "aliases": ["Boot or Logon Autostart"], "properties": {}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "PowerShell", "aliases": ["PowerShell command and scripting interpreter"], "properties": {}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Domain Trust Discovery", "aliases": [], "properties": {}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Process Discovery", "aliases": [], "properties": {}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Screen Capture", "aliases": [], "properties": {}, "source_chunks": ["BLOG-9::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Kerberoasting", "aliases": [], "properties": {}, "source_chunks": ["BLOG-9::ch0"]}

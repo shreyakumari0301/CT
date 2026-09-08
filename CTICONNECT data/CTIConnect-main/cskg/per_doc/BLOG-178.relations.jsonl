@@ -1,0 +1,12 @@
+{"src_type": "threat_actor", "src_name": "TA558", "predicate": "targets", "tgt_type": "identity", "tgt_name": "travel and hospitality organizations", "source_chunks": ["BLOG-178::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA558", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Latin America", "source_chunks": ["BLOG-178::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA558", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-178::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA558", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Western Europe", "source_chunks": ["BLOG-178::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA558", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2017-11882", "source_chunks": ["BLOG-178::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA558", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-178::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA558", "predicate": "uses", "tgt_type": "malware", "tgt_name": "AsyncRAT", "source_chunks": ["BLOG-178::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA558", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Loda", "source_chunks": ["BLOG-178::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA558", "predicate": "uses", "tgt_type": "malware", "tgt_name": "RevengeRAT", "source_chunks": ["BLOG-178::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "fetches", "tgt_type": "malware", "tgt_name": "AsyncRAT", "source_chunks": ["BLOG-178::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "fetches", "tgt_type": "malware", "tgt_name": "Loda", "source_chunks": ["BLOG-178::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "fetches", "tgt_type": "malware", "tgt_name": "RevengeRAT", "source_chunks": ["BLOG-178::ch0"]}

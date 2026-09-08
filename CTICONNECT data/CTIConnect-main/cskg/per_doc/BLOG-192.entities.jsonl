@@ -1,0 +1,32 @@
+{"entity_type": "malware", "canonical_name": "LockBit", "aliases": ["LockBit 2.0", "LockBit 3.0", "LockBit Black", "LockBit Green"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Water Selkie", "aliases": [], "properties": {}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {"technique_id": "T1566"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2018-13379", "aliases": ["Fortinet CVE-2018-13379"], "properties": {"cve_id": "CVE-2018-13379"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploit Public-Facing Application", "aliases": ["Fortinet VPN exploits"], "properties": {"technique_id": "T1190"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Valid Accounts", "aliases": ["compromised RDP/VPN accounts"], "properties": {"technique_id": "T1078"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell Empire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "tool", "canonical_name": "Meterpreter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Command and Scripting Interpreter", "aliases": ["execute payloads via PowerShell Empire"], "properties": {"technique_id": "T1059"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Signed Binary Proxy Execution", "aliases": ["signed binaries"], "properties": {"technique_id": "T1218"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "tool", "canonical_name": "GMER", "aliases": [], "properties": {}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "tool", "canonical_name": "Process Hacker", "aliases": [], "properties": {}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Impair Defenses", "aliases": ["disabled Windows Defender"], "properties": {"technique_id": "T1562"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows Defender", "aliases": [], "properties": {}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "File and Directory Discovery", "aliases": ["discover network shares"], "properties": {"technique_id": "T1083"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Network Share Discovery", "aliases": ["discover network shares"], "properties": {"technique_id": "T1135"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "identity", "canonical_name": "Active Directory", "aliases": ["AD"], "properties": {}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral Tool Transfer", "aliases": ["laterally propagate via SMB"], "properties": {"technique_id": "T1570"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "malware", "canonical_name": "StealBit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over Web Service", "aliases": ["cloud storage"], "properties": {"technique_id": "T1567"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data Encrypted for Impact", "aliases": ["encrypt data for impact"], "properties": {"technique_id": "T1486"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": ["US"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "identity", "canonical_name": "India", "aliases": [], "properties": {"region": "India"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "identity", "canonical_name": "Brazil", "aliases": [], "properties": {"region": "Brazil"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "identity", "canonical_name": "healthcare", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "identity", "canonical_name": "education", "aliases": [], "properties": {"sector": "education"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "identity", "canonical_name": "APAC", "aliases": [], "properties": {"region": "APAC"}, "source_chunks": ["BLOG-192::ch0"]}
+{"entity_type": "identity", "canonical_name": "Fortinet", "aliases": [], "properties": {}, "source_chunks": ["BLOG-192::ch0"]}

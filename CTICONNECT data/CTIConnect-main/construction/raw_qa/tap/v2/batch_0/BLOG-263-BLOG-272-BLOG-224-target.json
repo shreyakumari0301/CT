@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors or regions mentioned across these reports?",
+  "answer": "- Middle East: oil & gas, telecommunications, and critical infrastructure\n- Africa: oil & gas and telecommunications\n- Israel: IT and communications firms\n- Additional lure regions: France and the UK",
+  "llm_timing": {
+    "api_call_seconds": 7.4158
+  }
+}

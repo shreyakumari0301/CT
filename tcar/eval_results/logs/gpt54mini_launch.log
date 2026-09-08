@@ -1,0 +1,68 @@
+[2026-09-07T07:08:07Z] LAUNCH model=gpt-5.4-mini workers=1
+SMOKE gpt-5.4-mini 'OK'
+launched soft_gad ctibench/vsp pid=493
+[2026-09-07T07:08:54Z] RUN soft_gad ctibench/vsp
+launched soft_gad ctibench/mcq pid=499
+[2026-09-07T07:08:54Z] RUN soft_gad ctibench/mcq
+launched soft_gad ctibench/rcm pid=505
+[2026-09-07T07:08:54Z] RUN soft_gad ctibench/rcm
+launched soft_gad ctibench/ate pid=515
+[2026-09-07T07:08:54Z] RUN soft_gad ctibench/ate
+launched soft_gad cticonnect/ata pid=523
+[2026-09-07T07:08:54Z] RUN soft_gad cticonnect/ata
+launched soft_gad cticonnect/rcm pid=531
+[2026-09-07T07:08:54Z] RUN soft_gad cticonnect/rcm
+launched forced_rag ctibench/vsp pid=539
+[2026-09-07T07:08:54Z] RUN forced_rag ctibench/vsp
+launched forced_rag ctibench/mcq pid=547
+[2026-09-07T07:08:54Z] RUN forced_rag ctibench/mcq
+[2026-09-07T07:08:54Z] RUN forced_rag ctibench/rcm
+[2026-09-07T07:08:54Z] RUN forced_rag ctibench/ate
+[2026-09-07T07:08:54Z] RUN forced_rag cticonnect/ata
+launched forced_rag cticonnect/rcm pid=579
+[2026-09-07T07:08:54Z] RUN forced_rag cticonnect/rcm
+launched CTA E2E pid=587
+[2026-09-07T07:08:55Z] TAA closed_book mini
+launched TAA pid=592
+446 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+493 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+499 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+505 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+511 python -m tcar.eval.run_counterfactual --benchmark ctibench --tasks vsp --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_soft_gad_cb
+513 python -m tcar.eval.run_counterfactual --benchmark ctibench --tasks mcq --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_soft_gad_cb
+515 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+521 python -m tcar.eval.run_counterfactual --benchmark ctibench --tasks rcm --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_soft_gad_cb
+523 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+529 python -m tcar.eval.run_counterfactual --benchmark ctibench --tasks ate --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_soft_gad_cb
+531 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+537 python -m tcar.eval.run_counterfactual --benchmark cticonnect --tasks ata --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_soft_gad_cc
+539 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+545 python -m tcar.eval.run_counterfactual --benchmark cticonnect --tasks rcm --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_soft_gad_cc
+547 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+553 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+559 python -m tcar.eval.run_counterfactual --benchmark ctibench --tasks vsp --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_forced_rag_cb
+561 python -m tcar.eval.run_counterfactual --benchmark ctibench --tasks mcq --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_forced_rag_cb
+563 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+569 python -m tcar.eval.run_counterfactual --benchmark ctibench --tasks rcm --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_forced_rag_cb
+571 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+577 python -m tcar.eval.run_counterfactual --benchmark ctibench --tasks ate --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_forced_rag_cb
+579 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+585 python -m tcar.eval.run_counterfactual --benchmark cticonnect --tasks ata --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_forced_rag_cc
+590 python -m tcar.eval.run_counterfactual --benchmark cticonnect --tasks rcm --limit 0 --workers 1 --model gpt-5.4-mini --variant no_confusion --stamp 20260907Tgpt54mini_forced_rag_cc
+592 bash /mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_gpt54mini_suite.sh
+601 python -u -m eval.run_taa --mode closed_book --limit 0 --workers 1 --out-dir eval_results --stamp 20260907Tgpt54mini_taa_closed_book
+615 python -u -m eval.run_ctibench --task ate --limit 0 --route_mode oracle --workers 1 --out-dir eval_results
+626 python -u -m eval.run_ctibench --task ate --limit 0 --route_mode router --workers 1 --out-dir eval_results
+637 python -u -m eval.run_ctibench --task rcm --limit 0 --route_mode oracle --workers 1 --out-dir eval_results
+648 python -u -m eval.run_ctibench --task rcm --limit 0 --route_mode router --workers 1 --out-dir eval_results
+660 python -u -m eval.run_ctibench --task mcq --limit 0 --route_mode oracle --workers 1 --out-dir eval_results
+670 python -u -m eval.run_ctibench --task mcq --limit 0 --route_mode router --workers 1 --out-dir eval_results
+681 python -u -m eval.run_ctibench --task vsp --limit 0 --route_mode oracle --workers 1 --out-dir eval_results
+802 python -u -m eval.run_ctibench --task vsp --limit 0 --route_mode router --workers 1 --out-dir eval_results
+825 python -u -m eval.run_cticonnect --systems cta_rag_port --tasks rcm,ata --limit 0 --workers 1 --k 5 --stamp 20260907Tgpt54mini_cta_port --out-dir CTICONNECT benchmark/eval_results
+843 tee -a tcar/eval_results/logs/gpt54mini_launch.log
+[2026-09-07T07:08:59Z] All gpt-5.4-mini jobs launched
+[2026-09-07T07:13:44Z] TAA cta mini
+[2026-09-07T07:23:30Z] DONE soft_gad cticonnect/ata
+[2026-09-07T07:25:55Z] DONE soft_gad cticonnect/rcm
+[2026-09-07T07:26:25Z] DONE forced_rag cticonnect/rcm

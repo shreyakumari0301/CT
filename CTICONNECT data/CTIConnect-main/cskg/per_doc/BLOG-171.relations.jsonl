@@ -1,0 +1,23 @@
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence Center", "predicate": "attributes", "tgt_type": "malware", "tgt_name": "H0lyGh0st", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence Center", "predicate": "tracks_as", "tgt_type": "threat_actor", "tgt_name": "DEV-0530", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence Center", "predicate": "attributes_to", "tgt_type": "threat_actor", "tgt_name": "DEV-0530", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "threat_actor", "src_name": "DEV-0530", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "H0lyGh0st", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "threat_actor", "src_name": "DEV-0530", "predicate": "has_ties_to", "tgt_type": "threat_actor", "tgt_name": "Andariel", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "targets", "tgt_type": "identity", "tgt_name": "small-to-mid-sized businesses", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturers", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "targets", "tgt_type": "identity", "tgt_name": "banks", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "targets", "tgt_type": "identity", "tgt_name": "schools", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "targets", "tgt_type": "identity", "tgt_name": "event planners", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "SiennaPurple", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "threat_actor", "src_name": "Andariel", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "SiennaBlue", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "malware", "src_name": "SiennaPurple", "predicate": "encrypts_files_with_extension", "tgt_type": "indicator", "tgt_name": ".h0lyenc", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "malware", "src_name": "SiennaPurple", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "String Obfuscation", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "malware", "src_name": "SiennaPurple", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Scheduled Task/Job: Scheduled Task", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "malware", "src_name": "SiennaPurple", "predicate": "creates_scheduled_task_named", "tgt_type": "indicator", "tgt_name": "lockertask", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "malware", "src_name": "SiennaBlue", "predicate": "encrypts_files_with_extension", "tgt_type": "indicator", "tgt_name": ".h0lyenc", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "malware", "src_name": "SiennaBlue", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "String Obfuscation", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "malware", "src_name": "SiennaBlue", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Scheduled Task/Job: Scheduled Task", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "malware", "src_name": "SiennaBlue", "predicate": "creates_scheduled_task_named", "tgt_type": "indicator", "tgt_name": "lockertask", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "malware", "src_name": "SiennaBlue", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credentials from Password Stores", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "malware", "src_name": "SiennaBlue", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over C2 Channel", "source_chunks": ["BLOG-171::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Scheduled Task/Job: Scheduled Task", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Scheduled Task", "source_chunks": ["BLOG-171::ch0"]}

@@ -1,0 +1,30 @@
+{"entity_type": "identity", "canonical_name": "Sophos", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "identity", "canonical_name": "healthcare organizations", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "malware", "canonical_name": "Quantum ransomware", "aliases": ["Quantum", "Quantum Locker", "AstroLocker", "MountLocker", "XingLocker"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "malware", "canonical_name": "Conti", "aliases": [], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Conti Team Two", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "malware", "canonical_name": "Jormungandr", "aliases": ["BazarCall variant “Jormungandr”"], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "OSINT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "callback phishing", "aliases": ["callback phishing awareness", "call-back phishing awareness"], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "spamming", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "tool", "canonical_name": "legitimate remote-access tools", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "malware", "canonical_name": "IcedID", "aliases": ["BokBot", "Bokbot"], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "mountable ISO files", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "malicious LNK shortcuts", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "lateral movement", "aliases": ["RDP lateral movement"], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "tool", "canonical_name": "RDP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "malware", "canonical_name": "ttsel.exe", "aliases": ["ttsel.exe ransomware payload"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "encryption", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "exfiltration", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "indicator", "canonical_name": "README_TO_DECRYPT.html", "aliases": ["README_TO_DECRYPT.html notes"], "properties": {"ioc_type": "url", "value": "README_TO_DECRYPT.html"}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Quantum’s brand-impersonation phishing campaigns", "aliases": ["brand-impersonation phishing campaigns"], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "identity", "canonical_name": "Oracle", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "identity", "canonical_name": "CrowdStrike", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "identity", "canonical_name": "New Jersey behavioral‐health system", "aliases": [], "properties": {"sector": "healthcare", "region": "New Jersey"}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "identity", "canonical_name": "Interim Healthcare", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "identity", "canonical_name": "biopharmaceutical research firm", "aliases": [], "properties": {"sector": "biopharmaceutical"}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "identity", "canonical_name": "IVF clinic in Delhi", "aliases": [], "properties": {"sector": "healthcare", "region": "Delhi"}, "source_chunks": ["BLOG-15::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "LSASS memory monitoring", "aliases": [], "properties": {}, "source_chunks": ["BLOG-15::ch0"]}

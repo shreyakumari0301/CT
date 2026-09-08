@@ -1,0 +1,25 @@
+{"src_type": "identity", "src_name": "Cybereason", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "Operation CuckooBees", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "runs", "tgt_type": "campaign", "tgt_name": "Operation CuckooBees", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "exploits", "tgt_type": "attack_pattern", "tgt_name": "Remote Code Execution", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "deploys", "tgt_type": "attack_pattern", "tgt_name": "JSP web shells", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "enables_for_persistence", "tgt_type": "attack_pattern", "tgt_name": "Windows Remote Management", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "moves_laterally_via", "tgt_type": "attack_pattern", "tgt_name": "Scheduled tasks", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Spyder Loader", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "malware", "tgt_name": "STASHLOG", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "malware", "tgt_name": "SPARKLOG", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PRIVATELOG", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "malware", "tgt_name": "DEPLOYLOG", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "installs", "tgt_type": "malware", "tgt_name": "WINNKIT", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "campaign", "src_name": "Operation CuckooBees", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "APT41", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "campaign", "src_name": "Operation CuckooBees", "predicate": "targets", "tgt_type": "identity", "tgt_name": "BenQ", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "malware", "src_name": "Spyder Loader", "predicate": "disguised_as", "tgt_type": "tool", "tgt_name": "SQLite3 DLL", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "malware", "src_name": "Spyder Loader", "predicate": "part_of_loader_chain_installing", "tgt_type": "malware", "tgt_name": "WINNKIT", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "malware", "src_name": "STASHLOG", "predicate": "hides_payloads_in", "tgt_type": "tool", "tgt_name": "Common Log File System", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "malware", "src_name": "STASHLOG", "predicate": "part_of_loader_chain_installing", "tgt_type": "malware", "tgt_name": "WINNKIT", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "malware", "src_name": "SPARKLOG", "predicate": "extracts_and_sideloads", "tgt_type": "malware", "tgt_name": "PRIVATELOG", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "malware", "src_name": "SPARKLOG", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "DLL hijacking", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "malware", "src_name": "SPARKLOG", "predicate": "part_of_loader_chain_installing", "tgt_type": "malware", "tgt_name": "WINNKIT", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "malware", "src_name": "PRIVATELOG", "predicate": "part_of_loader_chain_installing", "tgt_type": "malware", "tgt_name": "WINNKIT", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "malware", "src_name": "DEPLOYLOG", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Transactional NTFS", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "malware", "src_name": "DEPLOYLOG", "predicate": "installs", "tgt_type": "malware", "tgt_name": "WINNKIT", "source_chunks": ["BLOG-236::ch0"]}
+{"src_type": "malware", "src_name": "WINNKIT", "predicate": "signed_with_stolen_certificate_from", "tgt_type": "identity", "tgt_name": "BenQ", "source_chunks": ["BLOG-236::ch0"]}

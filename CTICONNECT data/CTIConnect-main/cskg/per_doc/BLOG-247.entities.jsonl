@@ -1,0 +1,15 @@
+{"entity_type": "identity", "canonical_name": "Wall Street Journal", "aliases": [], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Salt Typhoon", "aliases": ["APT Salt Typhoon", "GhostEmperor", "FamousSparrow"], "properties": {"country": "China", "primary_motivation": "espionage", "regions_targeted": ["United States"]}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. cable and broadband ISPs", "aliases": [], "properties": {"sector": "telecommunications", "region": "United States"}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Supply Chain Compromise", "aliases": ["supply-chain compromises"], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Firmware Compromise", "aliases": ["via firmware"], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Establish Persistence", "aliases": ["establish long-term persistence"], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data from Information Repositories", "aliases": ["harvest subscriber location, billing and communications metadata"], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "identity", "canonical_name": "federal users", "aliases": [], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "identity", "canonical_name": "military users", "aliases": [], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "identity", "canonical_name": "Fortune 100 users", "aliases": [], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Volt Typhoon", "aliases": ["BRONZE SILHOUETTE", "Vanguard Panda", "Insidious Taurus"], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Flax Typhoon", "aliases": [], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT41", "aliases": ["Brass Typhoon", "Barium", "Winnti", "Wicked Panda", "Double Dragon"], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Mustang Panda", "aliases": [], "properties": {}, "source_chunks": ["BLOG-247::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwan", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-247::ch0"]}

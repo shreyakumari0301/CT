@@ -1,0 +1,9 @@
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-308::ch0"]}
+{"entity_type": "malware", "canonical_name": "PipeMagic", "aliases": ["PipeMagic backdoor"], "properties": {"capabilities": ["in-memory execution", "modular architecture", "command and control", "system information discovery", "self-termination"], "platforms": ["Windows"], "first_seen": "early 2025"}, "source_chunks": ["BLOG-308::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Storm-2460", "aliases": [], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-308::ch0"]}
+{"entity_type": "malware", "canonical_name": "RansomEXX", "aliases": ["RansomEXX ransomware"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-308::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2025-29824", "aliases": [], "properties": {"cve_id": "CVE-2025-29824"}, "source_chunks": ["BLOG-308::ch0"]}
+{"entity_type": "identity", "canonical_name": "US", "aliases": ["the US"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-308::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-308::ch0"]}
+{"entity_type": "identity", "canonical_name": "South America", "aliases": [], "properties": {"region": "South America"}, "source_chunks": ["BLOG-308::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East", "aliases": ["the Middle East"], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-308::ch0"]}

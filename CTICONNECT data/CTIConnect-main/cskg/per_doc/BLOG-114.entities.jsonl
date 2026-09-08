@@ -1,0 +1,9 @@
+{"entity_type": "identity", "canonical_name": "HP’s Threat Research team", "aliases": ["HP Threat Research team"], "properties": {}, "source_chunks": ["BLOG-114::ch0"]}
+{"entity_type": "identity", "canonical_name": "Patrick Schlapfer", "aliases": ["Schlapfer"], "properties": {}, "source_chunks": ["BLOG-114::ch0"]}
+{"entity_type": "identity", "canonical_name": "Alex Holland", "aliases": ["Holland"], "properties": {}, "source_chunks": ["BLOG-114::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["phishing campaign"], "properties": {}, "source_chunks": ["BLOG-114::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "HTML smuggling", "aliases": [], "properties": {}, "source_chunks": ["BLOG-114::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled Task", "aliases": ["scheduled task"], "properties": {}, "source_chunks": ["BLOG-114::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Windows Registry modification", "aliases": ["registered variables in the Windows Registry"], "properties": {}, "source_chunks": ["BLOG-114::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-114::ch0"]}
+{"entity_type": "malware", "canonical_name": "AsyncRAT", "aliases": [], "properties": {"capabilities": ["information stealing"]}, "source_chunks": ["BLOG-114::ch0"]}

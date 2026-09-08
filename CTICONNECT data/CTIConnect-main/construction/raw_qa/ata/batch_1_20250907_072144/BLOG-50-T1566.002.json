@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The attackers sent emails containing exploit urls to their targets. If a target clicked the link during a logged-in Zimbra session, the url loaded the same framework that Volexity documented in February 2022.\" Please identify: 1) What is the MITRE ATT&CK category associated with this behavior? 2) Explain how the described behavior maps to that MITRE technique. 3) Which platform(s) are applicable for this technique (as specified in x_mitre_platforms)?",
+  "answer": "1) MITRE ATT&CK Category: Spearphishing Link (T1566.002).  \n2) Mapping Explanation: The behavior describes attackers sending targeted emails that contain malicious/exploit URLs and relying on the recipient to click the link. This matches T1566.002, which covers spearphishing via embedded links that direct victims to attacker-controlled or exploit content to enable follow-on compromise.  \n3) Applicable Platforms: Windows, macOS, Linux.",
+  "llm_timing": {
+    "api_call_seconds": 4.4043
+  }
+}

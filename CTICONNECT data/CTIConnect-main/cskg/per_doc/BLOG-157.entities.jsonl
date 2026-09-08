@@ -1,0 +1,18 @@
+{"entity_type": "identity", "canonical_name": "BlackBerry Research and Intelligence Team", "aliases": [], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Silent Skimmer", "aliases": [], "properties": {"objective": "financially motivated"}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "tool", "canonical_name": "Internet Information Services (IIS)", "aliases": ["IIS", "Internet Information Services"], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "identity", "canonical_name": "online payment and PoS web applications", "aliases": ["online payment", "PoS web applications"], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "identity", "canonical_name": "Asia-Pacific", "aliases": [], "properties": {"region": "Asia-Pacific"}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "identity", "canonical_name": "Latin America", "aliases": [], "properties": {"region": "Latin America"}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "malware", "canonical_name": "PowerShell-based RAT (server.ps1)", "aliases": ["server.ps1", "PowerShell-based RAT"], "properties": {"platforms": ["PowerShell"]}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privilege Escalation", "aliases": [], "properties": {"tactic": "Privilege Escalation"}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Web Shell", "aliases": ["web shells"], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Reverse Proxy", "aliases": ["reverse proxies"], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["Cobalt Strike beacons", "CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "identity", "canonical_name": "Sophos", "aliases": [], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "campaign", "canonical_name": "pig butchering", "aliases": ["pig butchering crypto scam"], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "tool", "canonical_name": "Ethereum", "aliases": [], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Social Engineering", "aliases": ["dating-app social engineering"], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["DeFi phishing"], "properties": {}, "source_chunks": ["BLOG-157::ch0"]}

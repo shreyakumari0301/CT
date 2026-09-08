@@ -1,0 +1,30 @@
+{
+  "overall": {
+    "n": 450,
+    "precision": 0.45485185185185184,
+    "recall": 0.5133333333333333,
+    "f1": 0.47134391534391534,
+    "exact_match": 0.4111111111111111
+  },
+  "per_task": {
+    "ata": {
+      "n": 160,
+      "precision": 0.40843749999999995,
+      "recall": 0.55625,
+      "f1": 0.4496130952380953,
+      "exact_match": 0.3
+    },
+    "rcm": {
+      "n": 290,
+      "precision": 0.48045977011494256,
+      "recall": 0.4896551724137931,
+      "f1": 0.4833333333333333,
+      "exact_match": 0.4724137931034483
+    }
+  },
+  "system": "tcar",
+  "variant": "full",
+  "pred_path": "/mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/tcar_20260831Ttcar.jsonl",
+  "generator": "gpt-4o",
+  "retrieval_admitted_rate": 0.3022222222222222
+}

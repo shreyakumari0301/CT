@@ -1,0 +1,9 @@
+{"entity_type": "threat_actor", "canonical_name": "APT38", "aliases": ["TA444", "BlueNoroff", "BlackAlicanto", "Coperenicum", "Sapphire Sleet", "Stardust Chollima", "Lazarus Group sub-cluster", "Bluenoroff"], "properties": {"country": "DPRK"}, "source_chunks": ["BLOG-104::ch0"]}
+{"entity_type": "malware", "canonical_name": "SpectralBlur", "aliases": [], "properties": {"platforms": ["macOS"], "capabilities": ["command-and-control", "upload file", "download file", "spawn shell", "update configuration", "delete files", "sleep/hibernate"]}, "source_chunks": ["BLOG-104::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apple users", "aliases": [], "properties": {}, "source_chunks": ["BLOG-104::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lazarus Group", "aliases": ["Hidden Cobra", "ZINC", "Diamond Sleet", "Labyrinth Chollima", "Guardians of Peace"], "properties": {}, "source_chunks": ["BLOG-104::ch0"]}
+{"entity_type": "malware", "canonical_name": "KandyKorn", "aliases": [], "properties": {"platforms": ["macOS"]}, "source_chunks": ["BLOG-104::ch0"]}
+{"entity_type": "identity", "canonical_name": "blockchain engineers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-104::ch0"]}
+{"entity_type": "identity", "canonical_name": "cryptocurrency sector", "aliases": [], "properties": {"sector": "cryptocurrency"}, "source_chunks": ["BLOG-104::ch0"]}
+{"entity_type": "identity", "canonical_name": "Proofpoint", "aliases": [], "properties": {}, "source_chunks": ["BLOG-104::ch0"]}
+{"entity_type": "identity", "canonical_name": "Greg Lesnewich", "aliases": [], "properties": {}, "source_chunks": ["BLOG-104::ch0"]}

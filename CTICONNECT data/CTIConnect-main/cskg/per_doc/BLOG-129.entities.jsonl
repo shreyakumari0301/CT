@@ -1,0 +1,9 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-4577", "aliases": ["PHP CGI argument injection vulnerability CVE-2024-4577"], "properties": {"cve_id": "CVE-2024-4577"}, "source_chunks": ["BLOG-129::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwanese university", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-129::ch0"]}
+{"entity_type": "malware", "canonical_name": "Msupedge", "aliases": [], "properties": {}, "source_chunks": ["BLOG-129::ch0"]}
+{"entity_type": "tool", "canonical_name": "dnscat2", "aliases": ["dnscat2-derived framework"], "properties": {}, "source_chunks": ["BLOG-129::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ctl.msedeapi.net", "aliases": ["ctl.msedeapi[.]net"], "properties": {"ioc_type": "domain", "value": "ctl.msedeapi.net"}, "source_chunks": ["BLOG-129::ch0"]}
+{"entity_type": "tool", "canonical_name": "Symantec Endpoint protections", "aliases": [], "properties": {}, "source_chunks": ["BLOG-129::ch0"]}
+{"entity_type": "indicator", "canonical_name": "e08dc1c3987d17451a3e86c04ed322a9424582e2cb6352c892b7e0645eda43", "aliases": [], "properties": {"ioc_type": "hash", "value": "e08dc1c3987d17451a3e86c04ed322a9424582e2cb6352c892b7e0645eda43"}, "source_chunks": ["BLOG-129::ch0"]}
+{"entity_type": "indicator", "canonical_name": "f5937d38353ed431dc8a5eb32c119ab575114a10c24567f0c864cb2ef47f9f36", "aliases": [], "properties": {"ioc_type": "hash", "value": "f5937d38353ed431dc8a5eb32c119ab575114a10c24567f0c864cb2ef47f9f36"}, "source_chunks": ["BLOG-129::ch0"]}
+{"entity_type": "indicator", "canonical_name": "a89ebe7d1af3513d146a831b6fa4a465c8edeafea5d7980eb5448a94a4e34480", "aliases": [], "properties": {"ioc_type": "hash", "value": "a89ebe7d1af3513d146a831b6fa4a465c8edeafea5d7980eb5448a94a4e34480"}, "source_chunks": ["BLOG-129::ch0"]}

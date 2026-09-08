@@ -1,0 +1,374 @@
+{
+  "cluster_id": 9,
+  "cluster_size": 3,
+  "cluster_type": "malware",
+  "blogs": [
+    {
+      "blog_id": 175,
+      "node": [
+        {
+          "node_text": "Accenture",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Bangkok Air",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Dridex",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Evil Corp",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "FakeUpdates",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "HTML redirectors",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Hades",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "LockBit",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "LockBit RaaS model",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Mandiant Intelligence",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "PayloadBin",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "UNC2165",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "WastedLocker",
+          "node_type": "Malware"
+        }
+      ],
+      "title": " LockBit",
+      "platform": "threatPost",
+      "type": "malware",
+      "publish_date": "2019/12/28"
+    },
+    {
+      "blog_id": 4,
+      "node": [
+        {
+          "node_text": "Advanced IP Scanner",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Akira ransomware group",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Australia",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Avertium",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "C++ Akira",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "European pharmaceutical company",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "FBI/CISA/Europol/NCSC-NL advisory",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "FileZilla",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Kerberoasting",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "LaZagne",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Linux/VMware ESXi variant",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "March 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "March 2024",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Megazord/Akira_v2",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "PowerTool",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "RClone",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "RDP brute-force",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "RDP restrictions",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "SoftPerfect",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "U.S. IT services provider",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "UK architecture practice",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "WinRAR",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "WinSCP",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Windows",
+          "node_type": "System"
+        },
+        {
+          "node_text": "domain controller abuse",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "exploitation of unpatched software",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "monitoring exfiltration channels",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "multifactor authentication",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "network segmentation",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "robust backup strategies",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "shadow copies",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "small and mid-sized organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "timely patching",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "vigilant monitoring for anomalous account activity",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": " Cactus",
+      "platform": "AVERTIUM",
+      "type": "malware",
+      "publish_date": "2023/1/28"
+    },
+    {
+      "blog_id": 192,
+      "node": [
+        {
+          "node_text": "AD servers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "AES-128 head-only file encryption",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "APAC",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Brazil",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "CVE-2018-13379",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Cloud storage",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Cobalt Strike",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Compromised RDP/VPN accounts",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Data Encrypted for Impact",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "GMER",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Globally",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "India",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "July 2021 and January 2022",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "LockBit",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Meterpreter",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Network Shares",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "PowerShell Empire",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Process Hacker",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "RSA-wrapped keys",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "SMB",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Scheduled Tasks",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Signed binaries",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "StealBit",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Trend Micro",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "US",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Water Selkie",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Weekdays",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "affiliate-driven campaigns",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "disabled Windows Defender",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "ransomware-as-a-service",
+          "node_type": "Malware Type"
+        }
+      ],
+      "title": " LockBit",
+      "platform": "trendmicro",
+      "type": "malware",
+      "publish_date": "2019/9/28"
+    }
+  ]
+}

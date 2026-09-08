@@ -1,0 +1,36 @@
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "stealthy living-off-the-land campaigns", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. critical infrastructure", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Asia-U.S. communications", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "initial_access_via", "tgt_type": "identity", "tgt_name": "Fortinet FortiGuard", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "proxies_traffic_through_compromised_devices_from", "tgt_type": "identity", "tgt_name": "ASUS", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "proxies_traffic_through_compromised_devices_from", "tgt_type": "identity", "tgt_name": "Cisco", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "proxies_traffic_through_compromised_devices_from", "tgt_type": "identity", "tgt_name": "D-Link", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "proxies_traffic_through_compromised_devices_from", "tgt_type": "identity", "tgt_name": "NETGEAR", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "proxies_traffic_through_compromised_devices_from", "tgt_type": "identity", "tgt_name": "Zyxel", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Ntdsutil.exe", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMIC", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ping", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Impacket", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "threat_actor", "src_name": "Volt Typhoon", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "FRP", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "campaign", "src_name": "stealthy living-off-the-land campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. critical infrastructure", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "campaign", "src_name": "stealthy living-off-the-land campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "communications", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "campaign", "src_name": "stealthy living-off-the-land campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "utilities", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "campaign", "src_name": "stealthy living-off-the-land campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "transportation", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "campaign", "src_name": "stealthy living-off-the-land campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "campaign", "src_name": "stealthy living-off-the-land campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "campaign", "src_name": "stealthy living-off-the-land campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "education", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "campaign", "src_name": "stealthy living-off-the-land campaigns", "predicate": "aims_at", "tgt_type": "identity", "tgt_name": "Asia-U.S. communications", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "U.S. critical infrastructure", "predicate": "includes", "tgt_type": "identity", "tgt_name": "communications", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "U.S. critical infrastructure", "predicate": "includes", "tgt_type": "identity", "tgt_name": "utilities", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "U.S. critical infrastructure", "predicate": "includes", "tgt_type": "identity", "tgt_name": "transportation", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "U.S. critical infrastructure", "predicate": "includes", "tgt_type": "identity", "tgt_name": "manufacturing", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "U.S. critical infrastructure", "predicate": "includes", "tgt_type": "identity", "tgt_name": "government", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "U.S. critical infrastructure", "predicate": "includes", "tgt_type": "identity", "tgt_name": "education", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "tracks", "tgt_type": "threat_actor", "tgt_name": "Volt Typhoon", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft 365 Defender", "predicate": "provides_behavioral_alerts_on", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft 365 Defender", "predicate": "provides_behavioral_alerts_on", "tgt_type": "tool", "tgt_name": "Ntdsutil.exe", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Defender Antivirus", "predicate": "provides_behavioral_alerts_on", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Defender Antivirus", "predicate": "provides_behavioral_alerts_on", "tgt_type": "tool", "tgt_name": "Ntdsutil.exe", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "Defender for Endpoint", "predicate": "flags_suspicious_executions_of", "tgt_type": "tool", "tgt_name": "WMIC", "source_chunks": ["BLOG-68::ch0"]}
+{"src_type": "identity", "src_name": "Windows 11", "predicate": "mitigates", "tgt_type": "threat_actor", "tgt_name": "Volt Typhoon", "source_chunks": ["BLOG-68::ch0"]}

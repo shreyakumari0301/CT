@@ -1,0 +1,52 @@
+You are a Cyber Threat Intelligence (CTI) assistant.
+Given one **CWE entry (JSON)** as the **source** and one **CAPEC entry (JSON)** as the **target**, generate a **(question, answer) pair** for benchmarking RAG on the **Exploitation Surface Discovery (ESD)** task.
+
+**Rules:**
+- Use only the provided inputs; do not invent facts.
+- Output exactly one JSON object with keys `question` and `answer`.
+- No extra text or formatting outside the JSON.
+
+---
+
+## INPUTS
+
+* **SOURCE CWE:**
+```json
+{{ SOURCE_NODE }}
+```
+
+* **TARGET CAPEC:**
+
+```json
+{{ TARGET_NODE }}
+```
+
+---
+
+## TASKS
+
+### 1. Question
+
+Write one question that:
+
+* **Describes the weakness behavior in natural language** based on the CWE description.
+* Asks which CAPEC attack pattern exploits this weakness.
+* Asks why that attack pattern can exploit the described weakness.
+* **Must NOT contain the source CWE ID** (e.g., do not write "CWE-79") **or the CWE title**. Do not paraphrase the ID either. The model under evaluation must identify the CAPEC pattern from the behavioral description alone.
+* **Must NOT contain the target CAPEC ID or CAPEC title.**
+
+### 2. Answer
+
+Return a bullet list:
+
+* **First bullet:** The CAPEC attack pattern ID (e.g., "CAPEC-63").
+* **Second bullet:** Format: `CAPEC-XXX exploits <specific weakness>, targeting CWE-XXX: <a short description of the CWE, paraphrased from the SOURCE CWE entry's name or description; this field must NOT be empty>.` Each bullet ≤ 22 words.
+
+---
+
+## Example
+
+{
+"question": "A web application incorporates user-supplied input into generated pages without proper neutralization, allowing an attacker to inject and execute malicious scripts in other users' browsers. Which CAPEC attack pattern exploits this weakness, and why?",
+"answer": "- CAPEC-63.\n- CAPEC-63 exploits cross-site scripting vulnerability, targeting CWE-79: improper neutralization of input during web page generation."
+}

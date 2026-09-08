@@ -1,0 +1,8 @@
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Atera Agent", "source_chunks": ["BLOG-243::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Masquerading", "source_chunks": ["BLOG-243::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Data Exfiltration", "source_chunks": ["BLOG-243::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-243::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecommunications sector", "source_chunks": ["BLOG-243::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government sector", "source_chunks": ["BLOG-243::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "targets", "tgt_type": "identity", "tgt_name": "oil sector", "source_chunks": ["BLOG-243::ch0"]}
+{"src_type": "identity", "src_name": "Harfang Lab", "predicate": "cataloged_indicators_covering", "tgt_type": "tool", "tgt_name": "Atera Agent", "source_chunks": ["BLOG-243::ch0"]}

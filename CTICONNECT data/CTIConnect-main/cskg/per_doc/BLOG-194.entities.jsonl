@@ -1,0 +1,23 @@
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "malware", "canonical_name": "URSA/Mispadu", "aliases": ["Mispadu", "TrojanSpy.Win32.MISPADU", "URSA/Mispadu banking Trojan"], "properties": {"family": "Mispadu"}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spam campaigns", "aliases": [], "properties": {}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "identity", "canonical_name": "Spanish- and Portuguese-language systems", "aliases": [], "properties": {}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mexico", "aliases": [], "properties": {"region": "Mexico"}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "identity", "canonical_name": "Spain", "aliases": [], "properties": {"region": "Spain"}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "identity", "canonical_name": "Portugal", "aliases": [], "properties": {"region": "Portugal"}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Overdue invoice phishing emails", "aliases": ["“overdue invoice” emails"], "properties": {}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "tool", "canonical_name": "Hyper-V", "aliases": [], "properties": {}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "tool", "canonical_name": "VirtualBox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "tool", "canonical_name": "VMware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "indicator", "canonical_name": "JOHN-PC", "aliases": [], "properties": {"ioc_type": "domain", "value": "JOHN-PC"}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "tool", "canonical_name": "AutoIT", "aliases": ["AutoIt"], "properties": {}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "tool", "canonical_name": "NirSoft WebBrowserPassView", "aliases": ["NirSoft’s WebBrowserPassView", "WebBrowserPassView"], "properties": {"capabilities": ["credential recovery"]}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "tool", "canonical_name": "NirSoft MailPassView", "aliases": ["NirSoft’s MailPassView", "MailPassView"], "properties": {"capabilities": ["credential recovery"]}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "indicator", "canonical_name": "*.ddns.net", "aliases": [], "properties": {"ioc_type": "domain", "value": "*.ddns.net"}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "indicator", "canonical_name": "*.freedynamicdns.org", "aliases": [], "properties": {"ioc_type": "domain", "value": "*.freedynamicdns.org"}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "indicator", "canonical_name": "87.98.137.173", "aliases": [], "properties": {"ioc_type": "ip", "value": "87.98.137.173"}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "identity", "canonical_name": "CronUp Red Team", "aliases": [], "properties": {}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Trojan.VBS.MISPADU.THIAHBO", "aliases": [], "properties": {"ioc_type": "hash", "value": "Trojan.VBS.MISPADU.THIAHBO"}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "indicator", "canonical_name": "AutoIt.MISPADO.THIADBO", "aliases": [], "properties": {"ioc_type": "hash", "value": "AutoIt.MISPADO.THIADBO"}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "tool", "canonical_name": "Trend Micro Email Security", "aliases": ["Trend Micro™ Email Security"], "properties": {}, "source_chunks": ["BLOG-194::ch0"]}
+{"entity_type": "tool", "canonical_name": "Deep Discovery Email Inspector", "aliases": ["Deep Discovery™ Email Inspector"], "properties": {}, "source_chunks": ["BLOG-194::ch0"]}

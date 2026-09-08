@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: Secret Blizzard\n- Aliases Resolved: Russian FSB\u2019s Center 16\n- Primary Tools/Malware: CrimsonRAT, Wainscot (including Golang variant), TwoDash downloader, MiniPocket fetcher, TinyTurla variant, Statuezy clipboard-monitoring trojan",
+  "llm_timing": {
+    "api_call_seconds": 13.0879
+  }
+}

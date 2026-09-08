@@ -1,0 +1,2 @@
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "not_covered_in_provided_content", "tgt_type": "identity", "tgt_name": "Kubernetes", "source_chunks": ["BLOG-275::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "not_covered_in_provided_content", "tgt_type": "identity", "tgt_name": "iOS", "source_chunks": ["BLOG-275::ch0"]}

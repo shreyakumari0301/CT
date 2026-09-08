@@ -1,0 +1,17 @@
+{"entity_type": "threat_actor", "canonical_name": "Equation", "aliases": [], "properties": {"primary_motivation": "espionage", "regions_targeted": ["global"]}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kaspersky Lab", "aliases": [], "properties": {}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "identity", "canonical_name": "Symantec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "identity", "canonical_name": "Norton", "aliases": [], "properties": {}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "identity", "canonical_name": "global organizations", "aliases": [], "properties": {"region": "global"}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "malware", "canonical_name": "Infostealer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "malware", "canonical_name": "Micstus", "aliases": ["DoubleFantasy"], "properties": {}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "malware", "canonical_name": "Tripfant", "aliases": ["TripleFantasy"], "properties": {}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "malware", "canonical_name": "Grayphish", "aliases": [], "properties": {"capabilities": ["bootkit", "persistence", "registry-based virtual file system"]}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "malware", "canonical_name": "EquationDrug", "aliases": ["Equdrug"], "properties": {}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "malware", "canonical_name": "Lassrv.B", "aliases": ["EquationLaser"], "properties": {}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "tool", "canonical_name": "Grokey", "aliases": [], "properties": {"capabilities": ["keylogging"]}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "malware", "canonical_name": "W32.Fanny", "aliases": [], "properties": {"capabilities": ["worm", "usb propagation", "air-gapped network infiltration", "data exfiltration"]}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "malware", "canonical_name": "Stuxnet", "aliases": [], "properties": {}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Packed.Generic.483", "aliases": [], "properties": {"ioc_type": "hash", "value": "Packed.Generic.483"}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Trojan.Grayphish", "aliases": [], "properties": {"ioc_type": "hash", "value": "Trojan.Grayphish"}, "source_chunks": ["BLOG-135::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Trojan.Equdrug", "aliases": [], "properties": {"ioc_type": "hash", "value": "Trojan.Equdrug"}, "source_chunks": ["BLOG-135::ch0"]}

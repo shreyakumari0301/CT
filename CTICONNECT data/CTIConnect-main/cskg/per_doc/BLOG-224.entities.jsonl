@@ -1,0 +1,21 @@
+{"entity_type": "identity", "canonical_name": "Dragos", "aliases": [], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "identity", "canonical_name": "SecureWorks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "campaign", "canonical_name": "protracted campaign (since April 2018)", "aliases": [], "properties": {"first_seen": "April 2018", "last_seen": "August 2019", "objective": "information collection"}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lyceum", "aliases": ["Hexane", "Lyceum/Hexane threat group"], "properties": {"sectors_targeted": ["critical infrastructure"], "regions_targeted": ["Middle East"], "primary_motivation": "information collection", "first_seen": "April 2018", "last_seen": "August 2019"}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Password Spraying", "aliases": ["password-spraying"], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Brute Force", "aliases": ["brute-force attacks"], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spear-phishing"], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Malicious Macros", "aliases": ["malicious Excel macros"], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "malware", "canonical_name": "DanBot", "aliases": ["DanBot RAT"], "properties": {"family": "DanBot"}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "tool", "canonical_name": "PoshC2", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "tool", "canonical_name": "Decrypt-RDCMan.ps1", "aliases": [], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "tool", "canonical_name": "RDCMan", "aliases": [], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Dumping", "aliases": ["extract RDCMan-stored passwords", "harvest Active Directory credentials"], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "tool", "canonical_name": "Get-LAPSP.ps1", "aliases": [], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "LDAP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "identity", "canonical_name": "Active Directory", "aliases": [], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Discovery", "aliases": ["environment reconnaissance"], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral Movement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East critical infrastructure", "aliases": [], "properties": {"sector": "critical infrastructure", "region": "Middle East"}, "source_chunks": ["BLOG-224::ch0"]}
+{"entity_type": "identity", "canonical_name": "OT/ICS environments", "aliases": ["OT", "ICS"], "properties": {"sector": "industrial"}, "source_chunks": ["BLOG-224::ch0"]}

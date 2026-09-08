@@ -1,0 +1,7 @@
+{
+  "question": "What are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- Ngioweb\n- NSOCKS residential proxy network\n- Agent Tesla\n- WebLock ransomware\n- Mimikatz\n- Cobalt Strike beacon",
+  "llm_timing": {
+    "api_call_seconds": 13.8853
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: SnapMC\n- Aliases Resolved: SnapMC group (no other distinct aliases identified)",
+  "llm_timing": {
+    "api_call_seconds": 6.5207
+  }
+}

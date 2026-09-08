@@ -1,0 +1,15 @@
+{"entity_type": "campaign", "canonical_name": "Magic Hound", "aliases": [], "properties": {"objective": "cyber espionage", "first_seen": "mid-2016"}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT34", "aliases": ["COBALT GYPSY", "OilRig", "Helix Kitten", "Cobalt Gypsy", "Earth Vetala", "Hazel Sandstorm"], "properties": {"country": "Iran"}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Rocket Kitten", "aliases": ["Operation Saffron Rose", "Ajax Security Team", "Operation Woolen-Goldfish"], "properties": {"country": "Iran"}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Charming Kitten", "aliases": ["Newscasters", "NewsBeef", "APT35", "Phosphorus", "Mint Sandstorm", "Newscaster", "TA453", "APT42"], "properties": {"country": "Iran"}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "identity", "canonical_name": "Saudi Arabia", "aliases": [], "properties": {"region": "Saudi Arabia"}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "identity", "canonical_name": "energy organizations", "aliases": [], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "identity", "canonical_name": "government organizations", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "identity", "canonical_name": "technology organizations", "aliases": [], "properties": {"sector": "technology"}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "malware", "canonical_name": "PupyRAT", "aliases": [], "properties": {"platforms": ["multi-platform"]}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Shamoon 2 wiper campaign", "aliases": [], "properties": {}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "identity", "canonical_name": "SecureWorks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ministry of Health", "aliases": [], "properties": {}, "source_chunks": ["BLOG-259::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ministry of Health and Commerce", "aliases": [], "properties": {}, "source_chunks": ["BLOG-259::ch0"]}

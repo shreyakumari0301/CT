@@ -1,0 +1,23 @@
+{"entity_type": "identity", "canonical_name": "Microsoft Threat Intelligence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lazarus Group", "aliases": ["Diamond Sleet", "Hidden Cobra", "ZINC", "Labyrinth Chollima", "Guardians of Peace"], "properties": {"country": "North Korea", "primary_motivation": "espionage", "sectors_targeted": ["IT", "defense", "media"], "regions_targeted": ["Japan", "Taiwan", "Canada", "United States"], "first_seen": "October 2023"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "CyberLink Corp.", "aliases": ["CyberLink"], "properties": {}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "malware", "canonical_name": "LambLoad", "aliases": [], "properties": {"family": "LambLoad"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "indicator", "canonical_name": "166d1a6ddcde4e859a89c2c825cd3c8c953a86bfa92b343de7e5bfbfb5afb8be", "aliases": [], "properties": {"ioc_type": "hash", "value": "166d1a6ddcde4e859a89c2c825cd3c8c953a86bfa92b343de7e5bfbfb5afb8be"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "indicator", "canonical_name": "089573b3a1167f387dcdad5e014a5132e998b2c89bff29bcf8b06dd497d4e63d", "aliases": [], "properties": {"ioc_type": "hash", "value": "089573b3a1167f387dcdad5e014a5132e998b2c89bff29bcf8b06dd497d4e63d"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "indicator", "canonical_name": "915c2495e03ff7408f11a2a197f23344004c533ff87db4b807cc937f80c217a1", "aliases": [], "properties": {"ioc_type": "hash", "value": "915c2495e03ff7408f11a2a197f23344004c533ff87db4b807cc937f80c217a1"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "tool", "canonical_name": "csfalconservice.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "CrowdStrike", "aliases": [], "properties": {}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "tool", "canonical_name": "xagt.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "FireEye", "aliases": [], "properties": {}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "tool", "canonical_name": "taniumclient.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "Tanium", "aliases": [], "properties": {}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "Japan", "aliases": [], "properties": {"region": "Japan"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwan", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "Canada", "aliases": [], "properties": {"region": "Canada"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": ["US"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "IT organizations", "aliases": [], "properties": {"sector": "IT"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense organizations", "aliases": [], "properties": {"sector": "defense"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "media organizations", "aliases": [], "properties": {"sector": "media"}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "malware", "canonical_name": "Trojan:Win32/LambLoad", "aliases": [], "properties": {}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Defender for Endpoint", "aliases": ["Defender for Endpoint"], "properties": {}, "source_chunks": ["BLOG-57::ch0"]}
+{"entity_type": "identity", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-57::ch0"]}

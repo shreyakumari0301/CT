@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary tool or malware family consistently used by this threat actor across these reports?",
+  "answer": "- Primary Malware Family: Python-based backdoors\n- Notable Variants: RN Loader, RN Stealer, PySlowDrop",
+  "llm_timing": {
+    "api_call_seconds": 6.0128
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "What is the time span of this campaign based on the earliest and latest report dates?",
+  "answer": "- Initial detection and activity: mid-March 2025\n- Patch release and campaign neutralization: March 25, 2025",
+  "llm_timing": {
+    "api_call_seconds": 4.8223
+  }
+}

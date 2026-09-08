@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Publicly exposed services (e.g., RDP, ESXi and other internet-facing apps) allowed initial access via exploitation and brute force.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) what the detection methods are for this CWE (e.g., do we need manual testing or red-team activity to confirm the issue)?",
+  "answer": "1) CWE-668: Exposure of Resource to Wrong Sphere\n2) Mapping Explanation: The vulnerability involves publicly exposed services such as RDP and ESXi, which allow attackers to exploit the system and perform brute force attacks. This scenario maps to CWE-668 because it demonstrates how system resources are exposed to an unintended or hostile sphere, allowing for exploitation and unauthorized access.\n3) Detection Methods: The CWE reference does not provide specific detection methods for this issue.",
+  "llm_timing": {
+    "api_call_seconds": 6.544
+  }
+}

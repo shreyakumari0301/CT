@@ -1,0 +1,23 @@
+{
+  "question": "An adversary appends a trailing space to the end of a file extension, exploiting applications that fail to neutralize trailing characters so a different default program handles the file, enabling execution control. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1036.006.\n- T1036.006 corresponds to space-after-filename masquerading, mapping CAPEC-649: add trailing space to extensions to alter default handling.",
+  "llm_cost": {
+    "input": 0.000767,
+    "cached_input": 0.0,
+    "output": 0.0011,
+    "total": 0.001868,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 614,
+      "cached_input": 0,
+      "output": 110
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5379
+  }
+}

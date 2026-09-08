@@ -1,0 +1,7 @@
+{
+  "question": "What are the main malicious tools or malware components consistently used in the Operation Triangulation campaign across these reports?",
+  "answer": "- Encrypted zero-click iMessage attachments as the initial delivery mechanism\n- IMTransferAgent (and IMAgent) processes to fetch exploit stages and clean traces\n- BackupAgent process utilized for privilege escalation and payload deployment\n- Obfuscated JavaScriptCore exploit leveraging the $vm debugging feature for native API execution\n- Mach-object kernel exploit chain reusing CVE-2023-32434 and CVE-2023-38606 for root privileges\n- TriangleDB spyware implant and a root-level APT payload capable of arbitrary code execution and data exfiltration",
+  "llm_timing": {
+    "api_call_seconds": 11.5727
+  }
+}

@@ -1,0 +1,16 @@
+{"src_type": "identity", "src_name": "CISA", "predicate": "released_analysis_of", "tgt_type": "malware", "tgt_name": "FiveHands", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "successor_of", "tgt_type": "malware", "tgt_name": "DeathRansom", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "has_ties_to", "tgt_type": "malware", "tgt_name": "HelloKitty", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses", "tgt_type": "tool", "tgt_name": "NTRUEncrypt", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "deletes", "tgt_type": "attack_pattern", "tgt_name": "Volume Shadow Copy Deletion", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "FiveHands", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "targets", "tgt_type": "identity", "tgt_name": "European", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North American", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "uses", "tgt_type": "malware", "tgt_name": "SombRAT", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2447", "predicate": "exfiltrates_data", "tgt_type": "attack_pattern", "tgt_name": "Exfiltrate Data", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "identity", "src_name": "CISA malware analysis (MAR)", "predicate": "analyzes", "tgt_type": "malware", "tgt_name": "FiveHands", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "identity", "src_name": "CISA malware analysis (MAR)", "predicate": "catalogs", "tgt_type": "malware", "tgt_name": "SombRAT", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "identity", "src_name": "accompanying report (AR)", "predicate": "analyzes", "tgt_type": "malware", "tgt_name": "FiveHands", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "identity", "src_name": "accompanying report (AR)", "predicate": "catalogs", "tgt_type": "malware", "tgt_name": "SombRAT", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "identity", "src_name": "IST", "predicate": "provides_recommendations_aligned_with", "tgt_type": "identity", "tgt_name": "CISA", "source_chunks": ["BLOG-262::ch0"]}
+{"src_type": "identity", "src_name": "NCIJTF", "predicate": "provides_fact_sheet_aligned_with", "tgt_type": "identity", "tgt_name": "CISA", "source_chunks": ["BLOG-262::ch0"]}

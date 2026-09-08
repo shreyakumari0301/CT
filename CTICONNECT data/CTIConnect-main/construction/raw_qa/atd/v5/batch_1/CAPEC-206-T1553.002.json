@@ -1,0 +1,23 @@
+{
+  "question": "An adversary steals a developer\u2019s code-signing credentials from a production environment and uses them to digitally sign malicious code so signature verification makes it appear legitimate and unmodified, increasing the chance it will be installed or executed. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1553.002.\n- T1553.002 corresponds to abusing code signing, mapping CAPEC-206: stealing signing credentials to sign malware as trusted.",
+  "llm_cost": {
+    "input": 0.000879,
+    "cached_input": 0.0,
+    "output": 0.00116,
+    "total": 0.002039,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 703,
+      "cached_input": 0,
+      "output": 116
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.0718
+  }
+}

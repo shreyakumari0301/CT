@@ -1,0 +1,12 @@
+{"src_type": "campaign", "src_name": "BMW 5 for sale in Kyiv flyer campaign", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "APT29", "source_chunks": ["BLOG-77::ch0"]}
+{"src_type": "campaign", "src_name": "BMW 5 for sale in Kyiv flyer campaign", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "t.ly", "source_chunks": ["BLOG-77::ch0"]}
+{"src_type": "campaign", "src_name": "BMW 5 for sale in Kyiv flyer campaign", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "tinyurl.com", "source_chunks": ["BLOG-77::ch0"]}
+{"src_type": "campaign", "src_name": "BMW 5 for sale in Kyiv flyer campaign", "predicate": "redirects_to", "tgt_type": "indicator", "tgt_name": "https://resetlocations.com/bmw.htm", "source_chunks": ["BLOG-77::ch0"]}
+{"src_type": "campaign", "src_name": "BMW 5 for sale in Kyiv flyer campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "foreign missions in Kyiv", "source_chunks": ["BLOG-77::ch0"]}
+{"src_type": "campaign", "src_name": "BMW 5 for sale in Kyiv flyer campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "embassy addresses", "source_chunks": ["BLOG-77::ch0"]}
+{"src_type": "campaign", "src_name": "BMW 5 for sale in Kyiv flyer campaign", "predicate": "delivers_payload_hash", "tgt_type": "indicator", "tgt_name": "311e9c8cf6d0b295074ffefaa9f277cb1f806343be262c59f88fbdf6fe242517", "source_chunks": ["BLOG-77::ch0"]}
+{"src_type": "campaign", "src_name": "BMW 5 for sale in Kyiv flyer campaign", "predicate": "delivers_payload_hash", "tgt_type": "indicator", "tgt_name": "8902bd7d085397745e05883f05c08de87623cc15fe630b36ad3d208f01ef0596", "source_chunks": ["BLOG-77::ch0"]}
+{"src_type": "campaign", "src_name": "Turkish MFA earthquake relief guidance lure", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "APT29", "source_chunks": ["BLOG-77::ch0"]}
+{"src_type": "tool", "src_name": "Cortex XDR", "predicate": "mitigates", "tgt_type": "campaign", "tgt_name": "BMW 5 for sale in Kyiv flyer campaign", "source_chunks": ["BLOG-77::ch0"]}
+{"src_type": "tool", "src_name": "WildFire", "predicate": "mitigates", "tgt_type": "campaign", "tgt_name": "BMW 5 for sale in Kyiv flyer campaign", "source_chunks": ["BLOG-77::ch0"]}
+{"src_type": "tool", "src_name": "DNS Security", "predicate": "mitigates", "tgt_type": "campaign", "tgt_name": "BMW 5 for sale in Kyiv flyer campaign", "source_chunks": ["BLOG-77::ch0"]}

@@ -1,0 +1,17 @@
+{"entity_type": "threat_actor", "canonical_name": "COLDRIVER", "aliases": ["UNC4057", "Star Blizzard", "Callisto"], "properties": {"country": "Russia", "primary_motivation": "espionage", "regions_targeted": ["Ukraine"], "sectors_targeted": ["government", "NGO", "academia"], "first_seen": "2022-11"}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "malware", "canonical_name": "SPICA", "aliases": [], "properties": {"platforms": ["Windows"], "capabilities": ["backdoor", "persistence", "command execution", "shell execution", "browser cookie theft", "file upload", "file download", "filesystem enumeration", "document exfiltration"], "first_seen": "2022-11"}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "tool", "canonical_name": "Proton-decrypter.exe", "aliases": [], "properties": {"platforms": ["Windows"], "capabilities": ["installs malware", "presents decoy document"]}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"platforms": ["Windows"], "capabilities": ["scheduled task creation", "persistence"]}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "indicator", "canonical_name": "45.133.216.15:3000/ws", "aliases": ["45.133.216[.]15:3000/ws"], "properties": {"ioc_type": "url", "value": "45.133.216.15:3000/ws"}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "indicator", "canonical_name": "37c52481711631a5c73a6341bd8bea302ad57f02199db7624b580058547fb5a9", "aliases": [], "properties": {"ioc_type": "hash", "value": "37c52481711631a5c73a6341bd8bea302ad57f02199db7624b580058547fb5a9"}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "indicator", "canonical_name": "0f6b9d2ada67…", "aliases": [], "properties": {"ioc_type": "hash", "value": "0f6b9d2ada67…"}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "identity", "canonical_name": "NATO governments", "aliases": [], "properties": {"sector": "government", "region": "NATO"}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "identity", "canonical_name": "NGOs", "aliases": [], "properties": {"sector": "NGO"}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "identity", "canonical_name": "academic institutions", "aliases": [], "properties": {"sector": "academia"}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "identity", "canonical_name": "Gmail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "identity", "canonical_name": "Workspace", "aliases": [], "properties": {}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "tool", "canonical_name": "YARA", "aliases": [], "properties": {"capabilities": ["detection rule"]}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "tool", "canonical_name": "Safe Browsing", "aliases": [], "properties": {"capabilities": ["URL/domain blocklisting"]}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "tool", "canonical_name": "Enhanced Safe Browsing", "aliases": [], "properties": {"capabilities": ["enhanced threat protection"]}, "source_chunks": ["BLOG-39::ch0"]}
+{"entity_type": "identity", "canonical_name": "TAG", "aliases": [], "properties": {}, "source_chunks": ["BLOG-39::ch0"]}

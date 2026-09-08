@@ -1,0 +1,23 @@
+{
+  "question": "An adversary targets an asset protected by a finite secret value (such as credentials or access codes) and repeatedly tries different values via trial-and-error to exhaustively test possibilities until one unlocks access. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1110.\n- T1110 corresponds to repeated trial-and-error secret guessing, mapping CAPEC-112: exhaustively trying finite secret values to unlock protected assets.",
+  "llm_cost": {
+    "input": 0.000759,
+    "cached_input": 0.0,
+    "output": 0.00113,
+    "total": 0.001889,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 607,
+      "cached_input": 0,
+      "output": 113
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5658
+  }
+}

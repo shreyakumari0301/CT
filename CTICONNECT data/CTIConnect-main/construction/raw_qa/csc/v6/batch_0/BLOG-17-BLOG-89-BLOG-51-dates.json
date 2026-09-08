@@ -1,0 +1,7 @@
+{
+  "question": "What is the time span of this campaign based on the earliest and latest report dates?",
+  "answer": "- Earliest reported activity: Late 2021\n- Latest reported activity: Early 2024",
+  "llm_timing": {
+    "api_call_seconds": 4.9265
+  }
+}

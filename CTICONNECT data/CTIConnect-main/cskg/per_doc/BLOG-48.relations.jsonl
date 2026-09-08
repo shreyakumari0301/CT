@@ -1,0 +1,15 @@
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Hong Kong media", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Hong Kong pro-democracy sites", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Watering hole", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-8506", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-1789", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-30869", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-27932", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Capstone.js", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Safari sandbox escape", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Local privilege escalation", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "MACMA", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "associated_with", "tgt_type": "indicator", "tgt_name": "103.255.44.56", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "campaign", "src_name": "watering-hole campaign", "predicate": "associated_with", "tgt_type": "indicator", "tgt_name": "appleid-server.com", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "malware", "src_name": "MACMA", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "103.255.44.56", "source_chunks": ["BLOG-48::ch0"]}
+{"src_type": "malware", "src_name": "MACMA", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "appleid-server.com", "source_chunks": ["BLOG-48::ch0"]}

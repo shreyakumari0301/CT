@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Fancy Bear has also re-developed tools over the past two years, including re-writing Trojan Shunnael to .NET Trojan. Trojan Shunnael is a malware the group uses to maintain access to infected networks using an encrypted tunnel.\" Please provide: 1) the MITRE ATT&CK category that maps to this behavior, 2) an explanation of how this behavior maps to that technique, and 3) what kill chain phase should be expected in the attack lifecycle.",
+  "answer": "1) T1572 - Protocol Tunneling. 2) The encrypted tunnel used by Trojan Shunnael to maintain network access directly aligns with the definition of Protocol Tunneling, which involves encapsulating data in other protocols to evade detection and facilitate communication. 3) Kill Chain Phase: Command-and-Control.",
+  "llm_timing": {
+    "api_call_seconds": 4.3882
+  }
+}

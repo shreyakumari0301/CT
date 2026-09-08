@@ -1,0 +1,23 @@
+{
+  "question": "An adversary modifies content so it shows something other than what the original producer intended while keeping the apparent source unchanged, such as altering a target\u2019s hosted web pages to display the attacker\u2019s content. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1491.\n- T1491 corresponds to website defacement, mapping CAPEC-148: modifying web content to display attacker material while source appears unchanged.",
+  "llm_cost": {
+    "input": 0.000911,
+    "cached_input": 0.0,
+    "output": 0.0011,
+    "total": 0.002011,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 729,
+      "cached_input": 0,
+      "output": 110
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6067
+  }
+}

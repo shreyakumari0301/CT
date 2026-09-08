@@ -1,0 +1,13 @@
+{"entity_type": "threat_actor", "canonical_name": "Evasive Panda APT", "aliases": ["BRONZE HIGHLAND", "Daggerfly"], "properties": {"country": "China", "primary_motivation": "cyberespionage", "first_seen": "September 2023"}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "campaign", "canonical_name": "dual-pronged cyberespionage campaign against the Tibetan diaspora", "aliases": [], "properties": {"objective": "cyberespionage", "first_seen": "September 2023"}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "identity", "canonical_name": "Tibetan diaspora", "aliases": [], "properties": {}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kagyu International Monlam Trust", "aliases": [], "properties": {}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "identity", "canonical_name": "India", "aliases": [], "properties": {"region": "India"}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwan", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hong Kong", "aliases": [], "properties": {"region": "Hong Kong"}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "identity", "canonical_name": "Australia", "aliases": [], "properties": {"region": "Australia"}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S.", "aliases": ["the U.S."], "properties": {"region": "United States"}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "malware", "canonical_name": "Nightdoor", "aliases": [], "properties": {"family": "backdoor"}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "malware", "canonical_name": "MgBot", "aliases": [], "properties": {"family": "implant"}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "indicator", "canonical_name": "update.devicebug.com", "aliases": ["update.devicebug[.]com"], "properties": {"ioc_type": "domain", "value": "update.devicebug.com"}, "source_chunks": ["BLOG-207::ch0"]}
+{"entity_type": "indicator", "canonical_name": "tibetpost.net", "aliases": ["tibetpost[.]net"], "properties": {"ioc_type": "domain", "value": "tibetpost.net"}, "source_chunks": ["BLOG-207::ch0"]}

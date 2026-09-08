@@ -1,0 +1,23 @@
+{
+  "question": "A system relies on an encryption or hashing building block whose implementation is risky, making it more likely to contain weaknesses attackers can leverage. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-97.\n- CAPEC-97 exploits weaknesses from risky cryptographic primitive implementations, targeting CWE-1240: use of a cryptographic primitive with a risky implementation.",
+  "llm_cost": {
+    "input": 0.000836,
+    "cached_input": 0.0,
+    "output": 0.00095,
+    "total": 0.001786,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 669,
+      "cached_input": 0,
+      "output": 95
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5038
+  }
+}

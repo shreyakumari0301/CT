@@ -1,0 +1,33 @@
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-41080", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-41040", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Compromised Credentials", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "RDP", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "uses", "tgt_type": "malware", "tgt_name": "pones.exe", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "uses", "tgt_type": "malware", "tgt_name": "krots.exe", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "uses", "tgt_type": "malware", "tgt_name": "KPOT", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential Theft", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Chilean government", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "VMware", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Microsoft ESXi", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Microsoft Exchange", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "The Philadelphia Inquirer", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "mitigated_by", "tgt_type": "identity", "tgt_name": "FBI", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Cuba ransomware", "predicate": "mitigated_by", "tgt_type": "identity", "tgt_name": "CISA", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Hancitor", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Cuba ransomware", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "spoofs", "tgt_type": "identity", "tgt_name": "Ukraine’s armed forces press service", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-41080", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Microsoft Exchange", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-41040", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Microsoft Exchange", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "tool", "src_name": "PsExec", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "tool", "src_name": "Mimikatz", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Credential Theft", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Tropical Scorpius", "predicate": "employs", "tgt_type": "malware", "tgt_name": "RomCom RAT", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Tropical Scorpius", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Spy ransomware", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "Tropical Scorpius", "predicate": "uses", "tgt_type": "malware", "tgt_name": "ApcHelper.sys", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "RomCom RAT", "predicate": "has_component", "tgt_type": "indicator", "tgt_name": "rmtpak.dll", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "ApcHelper.sys", "predicate": "signed_with_stolen_certificate", "tgt_type": "identity", "tgt_name": "NVIDIA", "source_chunks": ["BLOG-6::ch0"]}
+{"src_type": "malware", "src_name": "ApcHelper.sys", "predicate": "certificate_stolen_by", "tgt_type": "threat_actor", "tgt_name": "LAPSUS", "source_chunks": ["BLOG-6::ch0"]}

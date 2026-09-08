@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Large numbers of internet-exposed Qlik Sense instances and vulnerable VPN appliances broaden the attack surface, allowing untrusted networks to reach internal services.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) at what stage do developers typically introduce this issue according to the CWE's Modes_Of_Introduction?",
+  "answer": "1) CWE-668: Exposure of Resource to Wrong Sphere\n2) Mapping Explanation: The vulnerability is characterized by the exposure of internal services to external, untrusted networks due to misconfigured or inadequately secured internet-exposed services and VPN appliances. This directly aligns with CWE-668, where resources meant to be confined within a trusted sphere are inadvertently accessible from an untrusted one.\n3) Modes of Introduction:\n   1. Architecture and Design\n   2. Implementation (REALIZATION: This weakness is caused during implementation of an architectural security tactic)\n   3. Operation",
+  "llm_timing": {
+    "api_call_seconds": 7.873
+  }
+}

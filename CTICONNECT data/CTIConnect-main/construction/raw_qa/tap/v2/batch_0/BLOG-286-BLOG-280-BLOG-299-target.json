@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors and regions mentioned across these reports?",
+  "answer": "- Telecommunications: enterprise and carrier network infrastructure worldwide\n- Manufacturing: industrial control systems and production environments\n- Higher education: research and campus networks\n- Critical infrastructure: ICS deployments and end-of-life network devices\n- Global geographic focus: North America, Asia, Africa, Europe\n- Specific emphasis on Ukrainian infrastructure as a high-value target",
+  "llm_timing": {
+    "api_call_seconds": 5.7999
+  }
+}

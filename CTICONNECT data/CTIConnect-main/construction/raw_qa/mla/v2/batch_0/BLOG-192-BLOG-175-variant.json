@@ -1,0 +1,7 @@
+{
+  "question": "Across the two reports on LockBit’s evolution and its use by sanctioned actors, what distinct malware variant/strain names are mentioned?",
+  "answer": "- LockBit\n- Dridex\n- WastedLocker\n- PayloadBin\n- Hades",
+  "llm_timing": {
+    "api_call_seconds": 8.2699
+  }
+}

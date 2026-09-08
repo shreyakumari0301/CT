@@ -1,0 +1,23 @@
+{
+  "question": "An application allows user-controlled input to specify full filesystem paths, enabling an attacker to reach restricted directories or files by providing absolute paths or using navigation like \"..\". Which CAPEC attack pattern exploits this weakness, and why can it succeed here?",
+  "answer": "- CAPEC-597.\n- CAPEC-597 exploits absolute path traversal, targeting CWE-36: allowing absolute paths to access unauthorized filesystem directories and files.",
+  "llm_cost": {
+    "input": 0.000726,
+    "cached_input": 0.0,
+    "output": 0.00097,
+    "total": 0.001696,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 581,
+      "cached_input": 0,
+      "output": 97
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6381
+  }
+}

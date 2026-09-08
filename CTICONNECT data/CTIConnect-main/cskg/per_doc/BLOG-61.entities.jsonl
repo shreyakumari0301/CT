@@ -1,0 +1,18 @@
+{"entity_type": "identity", "canonical_name": "Microsoft Threat Intelligence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT29", "aliases": ["Midnight Blizzard", "SVR actor Midnight Blizzard", "NOBELIUM", "UNC2452", "Cozy Bear", "The Dukes", "Nobelium", "YTTRIUM"], "properties": {"country": "Russia", "first_seen": "late May 2023"}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "campaign", "canonical_name": "highly targeted social-engineering campaign", "aliases": [], "properties": {"first_seen": "late May 2023", "objective": "credential theft"}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft 365", "aliases": [], "properties": {}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "indicator", "canonical_name": "onmicrosoft.com", "aliases": [], "properties": {"ioc_type": "domain", "value": "onmicrosoft.com"}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Teams", "aliases": ["Teams"], "properties": {}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Authenticator", "aliases": [], "properties": {}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "social engineering", "aliases": ["social-engineering"], "properties": {}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "credential theft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "data exfiltration", "aliases": [], "properties": {}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Entra ID", "aliases": [], "properties": {}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "identity", "canonical_name": "Conditional Access", "aliases": ["Conditional Access policies"], "properties": {}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "identity", "canonical_name": "government sector", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "identity", "canonical_name": "NGOs", "aliases": [], "properties": {"sector": "non-profit"}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "identity", "canonical_name": "IT services sector", "aliases": [], "properties": {"sector": "IT services"}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "identity", "canonical_name": "technology sector", "aliases": [], "properties": {"sector": "technology"}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing sector", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-61::ch0"]}
+{"entity_type": "identity", "canonical_name": "media sector", "aliases": [], "properties": {"sector": "media"}, "source_chunks": ["BLOG-61::ch0"]}

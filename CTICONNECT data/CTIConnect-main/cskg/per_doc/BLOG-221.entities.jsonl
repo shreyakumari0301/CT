@@ -1,0 +1,22 @@
+{"entity_type": "malware", "canonical_name": "Lorenz", "aliases": ["Lorenz ransomware"], "properties": {"family": "ransomware", "first_seen": "2021"}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "malware", "canonical_name": ".sZ40/ThunderCrypt", "aliases": ["ThunderCrypt family", ".sZ40"], "properties": {"family": "malware family"}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": ["US"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "identity", "canonical_name": "China", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mexico", "aliases": [], "properties": {"region": "Mexico"}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "identity", "canonical_name": "Germany", "aliases": [], "properties": {"region": "Germany"}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hensoldt", "aliases": ["Germany’s defense contractor Hensoldt"], "properties": {"sector": "defense", "region": "Germany"}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "identity", "canonical_name": "CrowdStrike", "aliases": [], "properties": {}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "identity", "canonical_name": "Arctic Wolf", "aliases": [], "properties": {}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "identity", "canonical_name": "Avertium", "aliases": [], "properties": {}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-29499", "aliases": [], "properties": {"cve_id": "CVE-2022-29499", "cvss": "9.8"}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chisel", "aliases": [], "properties": {"capabilities": ["tunneling"]}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "tool", "canonical_name": "cURL", "aliases": [], "properties": {"capabilities": ["download"]}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "tool", "canonical_name": "OpenSSL", "aliases": [], "properties": {"capabilities": ["SSL/TLS support"]}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "tool", "canonical_name": "CrackMapExec", "aliases": [], "properties": {"capabilities": ["credential dumping"]}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "tool", "canonical_name": "Out-Minidump", "aliases": [], "properties": {"capabilities": ["process memory dump"]}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "tool", "canonical_name": "FileZilla", "aliases": [], "properties": {"capabilities": ["file transfer"]}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "tool", "canonical_name": "BitLocker", "aliases": [], "properties": {"capabilities": ["disk encryption"]}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "indicator", "canonical_name": "pdf_import.php", "aliases": [], "properties": {"ioc_type": "url", "value": "pdf_import.php"}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "indicator", "canonical_name": "memdump", "aliases": [], "properties": {"ioc_type": "hash", "value": "memdump"}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "indicator", "canonical_name": "wc2_deploy", "aliases": ["wc2_deploy script"], "properties": {"ioc_type": "hash", "value": "wc2_deploy"}, "source_chunks": ["BLOG-221::ch0"]}
+{"entity_type": "indicator", "canonical_name": "worm.txt", "aliases": ["worm.txt script"], "properties": {"ioc_type": "hash", "value": "worm.txt"}, "source_chunks": ["BLOG-221::ch0"]}

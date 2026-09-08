@@ -1,0 +1,28 @@
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle Eastern government", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "joper.ps1", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Plink", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "uses", "tgt_type": "tool", "tgt_name": "netsh", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "uses", "tgt_type": "tool", "tgt_name": "netstat", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Domain Controllers", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Backdoor.Tokel", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Trojan.Dirps", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Infostealer.Clipog", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PowerExchange", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Microsoft Exchange", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT34", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Nessus", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "indicator", "src_name": "joper.ps1", "predicate": "associated_with", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "tool", "src_name": "Plink", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "SSH Port Forwarding", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "indicator", "src_name": "msssh.exe", "predicate": "renamed_binary_of", "tgt_type": "tool", "tgt_name": "Plink", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "indicator", "src_name": "plink.exe", "predicate": "binary_of", "tgt_type": "tool", "tgt_name": "Plink", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "attack_pattern", "src_name": "SSH Port Forwarding", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Remote Services", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "tool", "src_name": "Mimikatz", "predicate": "used_on", "tgt_type": "identity", "tgt_name": "Domain Controllers", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "malware", "src_name": "Backdoor.Tokel", "predicate": "associated_with", "tgt_type": "indicator", "tgt_name": "telecomm.exe", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "malware", "src_name": "Backdoor.Tokel", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "malware", "src_name": "Backdoor.Tokel", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "token.bin", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "malware", "src_name": "Trojan.Dirps", "predicate": "associated_with", "tgt_type": "indicator", "tgt_name": "virtpackage.exe", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "malware", "src_name": "Infostealer.Clipog", "predicate": "associated_with", "tgt_type": "indicator", "tgt_name": "poluniq.exe", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "malware", "src_name": "PowerExchange", "predicate": "targets", "tgt_type": "tool", "tgt_name": "Microsoft Exchange", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "malware", "src_name": "PowerExchange", "predicate": "logs_into", "tgt_type": "tool", "tgt_name": "Microsoft Exchange", "source_chunks": ["BLOG-133::ch0"]}
+{"src_type": "tool", "src_name": "Nessus", "predicate": "targets", "tgt_type": "vulnerability", "tgt_name": "Log4j", "source_chunks": ["BLOG-133::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target industries or regions mentioned across these reports?",
+  "answer": "- Media outlets\n- Educational institutions\n- Government organizations and personnel\n- Region: Russia",
+  "llm_timing": {
+    "api_call_seconds": 3.5288
+  }
+}

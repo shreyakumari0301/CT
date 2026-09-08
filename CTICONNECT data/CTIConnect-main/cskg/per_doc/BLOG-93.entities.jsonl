@@ -1,0 +1,12 @@
+{"entity_type": "campaign", "canonical_name": "Contagious Interview", "aliases": [], "properties": {}, "source_chunks": ["BLOG-93::ch0"]}
+{"entity_type": "identity", "canonical_name": "North Korean", "aliases": [], "properties": {"region": "North Korea"}, "source_chunks": ["BLOG-93::ch0"]}
+{"entity_type": "malware", "canonical_name": "Ferret", "aliases": [], "properties": {"family": "Ferret", "platforms": ["macOS"], "first_seen": "December 2023"}, "source_chunks": ["BLOG-93::ch0"]}
+{"entity_type": "malware", "canonical_name": "BeaverTail", "aliases": [], "properties": {"platforms": [], "capabilities": ["loader"]}, "source_chunks": ["BLOG-93::ch0"]}
+{"entity_type": "malware", "canonical_name": "InvisibleFerret", "aliases": [], "properties": {"capabilities": ["backdoor", "credential harvesting", "crypto-wallet data theft"]}, "source_chunks": ["BLOG-93::ch0"]}
+{"entity_type": "malware", "canonical_name": "FlexibleFerret", "aliases": [], "properties": {"first_seen": "February 3"}, "source_chunks": ["BLOG-93::ch0"]}
+{"entity_type": "malware", "canonical_name": "FROSTYFERRET_UI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-93::ch0"]}
+{"entity_type": "malware", "canonical_name": "FRIENDLYFERRET_SECD", "aliases": [], "properties": {}, "source_chunks": ["BLOG-93::ch0"]}
+{"entity_type": "malware", "canonical_name": "MULTI_FROSTYFERRET_CMDCODES", "aliases": [], "properties": {}, "source_chunks": ["BLOG-93::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-93::ch0"]}
+{"entity_type": "tool", "canonical_name": "XProtect", "aliases": [], "properties": {}, "source_chunks": ["BLOG-93::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apple", "aliases": [], "properties": {}, "source_chunks": ["BLOG-93::ch0"]}

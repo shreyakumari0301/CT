@@ -1,0 +1,7 @@
+{
+  "question": "What is the time span of Operation Sharpshooter based on the earliest and latest report dates?",
+  "answer": "- Earliest observed activity: September 2017\n- Latest public disclosure: RSA Conference 2019 (early 2019)",
+  "llm_timing": {
+    "api_call_seconds": 13.8553
+  }
+}

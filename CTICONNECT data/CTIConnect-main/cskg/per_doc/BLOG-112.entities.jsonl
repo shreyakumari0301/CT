@@ -1,0 +1,26 @@
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "campaign", "canonical_name": "year-long espionage campaign", "aliases": [], "properties": {"objective": "espionage"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Void Blizzard", "aliases": [], "properties": {"country": "Russia", "primary_motivation": "espionage", "regions_targeted": ["Europe", "North America", "Ukraine"], "sectors_targeted": ["government", "defense", "telecommunications", "digital services", "healthcare", "information technology"], "first_seen": "mid-2024"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "European government", "aliases": [], "properties": {"sector": "government", "region": "Europe"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "North American government", "aliases": [], "properties": {"sector": "government", "region": "North America"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "European defense contractors", "aliases": ["defense contractors"], "properties": {"sector": "defense", "region": "Europe"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "North American defense contractors", "aliases": ["defense contractors"], "properties": {"sector": "defense", "region": "North America"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "NATO states", "aliases": [], "properties": {"region": "NATO"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Password spraying", "aliases": ["password-spraying attacks"], "properties": {}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Adversary-in-the-middle spearphishing", "aliases": ["adversary-in-the-middle (AitM) spear-phishing"], "properties": {}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Typosquatting", "aliases": ["typo-squatted Microsoft Entra login page"], "properties": {}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "tool", "canonical_name": "Evilginx", "aliases": ["Evilginx framework"], "properties": {"capabilities": ["adversary-in-the-middle phishing", "credential theft", "session cookie theft"]}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "tool", "canonical_name": "Exchange Online", "aliases": [], "properties": {"capabilities": ["mailbox enumeration", "email exfiltration"]}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Graph", "aliases": [], "properties": {"capabilities": ["mailbox enumeration", "data exfiltration via cloud APIs"]}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "tool", "canonical_name": "AzureHound", "aliases": [], "properties": {"capabilities": ["tenant configuration discovery"]}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Entra", "aliases": [], "properties": {}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Entra ID", "aliases": ["Entra ID"], "properties": {}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Teams", "aliases": [], "properties": {"capabilities": ["chat data access"]}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "tool", "canonical_name": "SharePoint Online", "aliases": [], "properties": {"capabilities": ["file access", "data exfiltration"]}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "telcos", "aliases": [], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense suppliers", "aliases": [], "properties": {"sector": "defense"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "digital services providers", "aliases": [], "properties": {"sector": "digital services"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "healthcare firms", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "IT firms", "aliases": [], "properties": {"sector": "information technology"}, "source_chunks": ["BLOG-112::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kremlin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-112::ch0"]}

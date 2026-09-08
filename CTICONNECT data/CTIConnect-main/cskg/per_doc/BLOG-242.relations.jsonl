@@ -1,0 +1,20 @@
+{"src_type": "identity", "src_name": "CyberMaterial", "predicate": "reported_on", "tgt_type": "threat_actor", "tgt_name": "Void Manticore", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Manticore", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "Storm-1811", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Manticore", "predicate": "conducted", "tgt_type": "campaign", "tgt_name": "coordinated espionage campaign", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "aerospace organizations", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense organizations", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government organizations", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing Attachment", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Scheduled Task/Job: Scheduled Task", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "campaign", "src_name": "coordinated espionage campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Tor", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing Attachment", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-4113", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing Attachment", "predicate": "drops", "tgt_type": "malware", "tgt_name": "VoidLoader", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-4113", "predicate": "mitigated_by", "tgt_type": "identity", "tgt_name": "CyberMaterial", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "malware", "src_name": "VoidLoader", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "ManticoreShell", "source_chunks": ["BLOG-242::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "detected_by", "tgt_type": "identity", "tgt_name": "CyberMaterial", "source_chunks": ["BLOG-242::ch0"]}

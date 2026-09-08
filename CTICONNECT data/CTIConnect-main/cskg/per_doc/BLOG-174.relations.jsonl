@@ -1,0 +1,16 @@
+{"src_type": "threat_actor", "src_name": "Lazarus", "predicate": "launched", "tgt_type": "campaign", "tgt_name": "Operation In(ter)ception", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus", "predicate": "operates", "tgt_type": "malware", "tgt_name": "VHD ransomware", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus", "predicate": "funds", "tgt_type": "identity", "tgt_name": "North Korean regime", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Tornado Cash", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "campaign", "src_name": "Operation In(ter)ception", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "Coinbase", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "campaign", "src_name": "Operation In(ter)ception", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "Coinbase_online_careers_2022_07.pdf", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "campaign", "src_name": "Operation In(ter)ception", "predicate": "associated_with_developer_certificate", "tgt_type": "indicator", "tgt_name": "Shankey Nohria", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "campaign", "src_name": "Operation In(ter)ception", "predicate": "first_uploaded_from", "tgt_type": "identity", "tgt_name": "Brazil", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "malware", "src_name": "safarifontagent", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "Coinbase_online_careers_2022_07.pdf", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "malware", "src_name": "safarifontagent", "predicate": "drops", "tgt_type": "malware", "tgt_name": "FinderFontsUpdater.app", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "malware", "src_name": "safarifontagent", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "concrecapital.com/%user%.jpg", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "malware", "src_name": "VHD ransomware", "predicate": "funds", "tgt_type": "identity", "tgt_name": "North Korean regime", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "identity", "src_name": "ESET", "predicate": "identified", "tgt_type": "campaign", "tgt_name": "Operation In(ter)ception", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "identity", "src_name": "Apple", "predicate": "revoked_developer_certificate_for", "tgt_type": "indicator", "tgt_name": "Shankey Nohria", "source_chunks": ["BLOG-174::ch0"]}
+{"src_type": "identity", "src_name": "Malwarebytes", "predicate": "spotted", "tgt_type": "campaign", "tgt_name": "Operation In(ter)ception", "source_chunks": ["BLOG-174::ch0"]}

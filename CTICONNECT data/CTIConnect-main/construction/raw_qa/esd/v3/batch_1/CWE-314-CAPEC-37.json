@@ -1,0 +1,23 @@
+{
+  "question": "A system stores sensitive information in the Windows Registry in cleartext, allowing someone who can inspect the registry to read secrets like credentials or keys. Which CAPEC attack pattern exploits this weakness, and why can it succeed here?",
+  "answer": "- CAPEC-37.\n- CAPEC-37 exploits embedded sensitive data retrieval, targeting CWE-314: storing sensitive information in the registry in cleartext.",
+  "llm_cost": {
+    "input": 0.000702,
+    "cached_input": 0.0,
+    "output": 0.00092,
+    "total": 0.001623,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 562,
+      "cached_input": 0,
+      "output": 92
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4384
+  }
+}

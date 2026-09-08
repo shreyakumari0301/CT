@@ -1,0 +1,22 @@
+{"entity_type": "campaign", "canonical_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "aliases": ["Yanluowang"], "properties": {"first_seen": "August 2021"}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. financial firms", "aliases": [], "properties": {"sector": "financial", "region": "United States"}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "identity", "canonical_name": "IT services", "aliases": [], "properties": {"sector": "IT services"}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "identity", "canonical_name": "consultancy", "aliases": [], "properties": {"sector": "consulting"}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "identity", "canonical_name": "engineering", "aliases": [], "properties": {"sector": "engineering"}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Thieflock", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Fivehands", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "identity", "canonical_name": "Symantec Threat Hunter Team", "aliases": ["Symantec’s Threat Hunter Team"], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "tool", "canonical_name": "AdFind", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "tool", "canonical_name": "Active Directory", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "malware", "canonical_name": "BazarLoader", "aliases": ["BazarBackdoor", "Bazaar"], "properties": {"family": "BazarLoader"}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "tool", "canonical_name": "RDP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "tool", "canonical_name": "ConnectWise", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "tool", "canonical_name": "SoftPerfect Network Scanner", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "tool", "canonical_name": "KeeThief", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "tool", "canonical_name": "secretdump.exe", "aliases": ["custom secretdump.exe"], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike Beacon", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-16::ch0"]}

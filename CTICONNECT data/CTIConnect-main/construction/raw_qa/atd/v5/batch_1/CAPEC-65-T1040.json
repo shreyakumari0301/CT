@@ -1,0 +1,23 @@
+{
+  "question": "An adversary passively monitors network communications to capture application code being sent to an authorized client, then reuses or reverse-engineers it to extract sensitive details or exploit the client-server trust relationship. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1040.\n- T1040 corresponds to sniffing network traffic for application code, mapping CAPEC-65: passively capture client-bound code to reuse or reverse-engineer.",
+  "llm_cost": {
+    "input": 0.000779,
+    "cached_input": 0.0,
+    "output": 0.00111,
+    "total": 0.001889,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 623,
+      "cached_input": 0,
+      "output": 111
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.2933
+  }
+}

@@ -1,0 +1,25 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "FlyGram Android campaign", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "identity", "src_name": "ESET", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "Signal Plus Android campaign", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "FlyGram Android campaign", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "FlyGram", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "FlyGram Android campaign", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "BadBazaar", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "FlyGram Android campaign", "predicate": "distributed_via", "tgt_type": "identity", "tgt_name": "Google Play", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "FlyGram Android campaign", "predicate": "distributed_via", "tgt_type": "identity", "tgt_name": "Samsung Galaxy Store", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "FlyGram Android campaign", "predicate": "distributed_via", "tgt_type": "indicator", "tgt_name": "flygram.org", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "FlyGram Android campaign", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "GREF", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "Signal Plus Android campaign", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Signal Plus Messenger", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "Signal Plus Android campaign", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "BadBazaar", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "Signal Plus Android campaign", "predicate": "distributed_via", "tgt_type": "identity", "tgt_name": "Google Play", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "Signal Plus Android campaign", "predicate": "distributed_via", "tgt_type": "identity", "tgt_name": "Samsung Galaxy Store", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "Signal Plus Android campaign", "predicate": "distributed_via", "tgt_type": "indicator", "tgt_name": "signalplus.org", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "campaign", "src_name": "Signal Plus Android campaign", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "GREF", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "malware", "src_name": "BadBazaar", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "GREF", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "threat_actor", "src_name": "GREF", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Uyghur minorities", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "threat_actor", "src_name": "GREF", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Turkic minorities", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "malware", "src_name": "Signal Plus Messenger", "predicate": "trojanizes", "tgt_type": "tool", "tgt_name": "Signal", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "malware", "src_name": "Signal Plus Messenger", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "BadBazaar", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "malware", "src_name": "Signal Plus Messenger", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration of device and account data", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "malware", "src_name": "Signal Plus Messenger", "predicate": "abuses", "tgt_type": "attack_pattern", "tgt_name": "Abuse of Signal “link device” mechanism to silently pair devices", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "malware", "src_name": "Signal Plus Messenger", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "signalplus.org", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "malware", "src_name": "FlyGram", "predicate": "trojanizes", "tgt_type": "tool", "tgt_name": "Telegram", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "malware", "src_name": "FlyGram", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "BadBazaar", "source_chunks": ["BLOG-205::ch0"]}
+{"src_type": "malware", "src_name": "FlyGram", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration of device and account data", "source_chunks": ["BLOG-205::ch0"]}

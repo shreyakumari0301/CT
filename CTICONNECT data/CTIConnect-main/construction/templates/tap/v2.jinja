@@ -1,0 +1,60 @@
+You are a Threat Actor Profiling (TAP) assistant. Generate a (question, answer) pair for RAG benchmarking based on security reports to extract threat actor intelligence.
+
+**Use only the provided information. Do not invent facts.**
+
+---
+
+## INPUTS
+
+* {{ SOURCE_NODE.blog_id }}:
+{{ SOURCE_NODE.text }}
+
+{% for blog in TARGET_NODES %}
+* {{ blog.blog_id }}:
+{{ blog.text }}
+{% endfor %}
+
+---
+
+## REQUIREMENTS
+
+1. **Question** (1-2 sentences)
+- Ask to extract threat actor intelligence from cross-report analysis.
+{% if ASPECT == "actor" %}
+- Ask to identify the canonical threat actor name (alias resolution).
+e.g., *"What is the canonical threat actor name, resolving any aliases mentioned across these reports?"*
+{% elif ASPECT == "tool" %}
+- Ask to identify the primary tool or malware family used by the threat actor.
+e.g., *"What is the primary tool or malware family consistently used by this threat actor across these reports?"*
+{% elif ASPECT == "target" %}
+- Ask to identify the primary target sector or region.
+e.g., *"What are the primary target sectors or regions mentioned across these reports?"*
+{% endif %}
+
+2. **Answer**
+- Extract threat actor intelligence from cross-report analysis.
+- Answer the aspect {{ ASPECT }} based on the provided reports.
+- Do not refer to the blogs by their IDs in the answer.
+* Use bullet points
+
+---
+
+## EXAMPLE
+
+```json
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: APT29\n- Aliases Resolved: Cozy Bear, Nobelium\n- Primary Tool/Malware: Cobalt Strike, Mimikatz"
+}
+```
+
+---
+
+## OUTPUT FORMAT
+
+Respond with ONLY the JSON object:
+
+{
+  "question": "Your question here",
+  "answer": "Your answer with bullet points"
+}

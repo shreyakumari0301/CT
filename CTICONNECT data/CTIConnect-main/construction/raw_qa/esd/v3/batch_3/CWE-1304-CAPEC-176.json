@@ -1,0 +1,23 @@
+{
+  "question": "A system fails to maintain the integrity of its hardware configuration state when entering a power-saving mode and then restoring power, potentially allowing altered settings to persist after resume. Which CAPEC attack pattern exploits this weakness, and why can it leverage the ability to manipulate external configuration or environment settings to affect behavior after restore?",
+  "answer": "- CAPEC-176.\n- CAPEC-176 exploits hardware configuration state integrity loss during power save/restore, targeting CWE-1304: improperly preserved integrity of hardware configuration state.",
+  "llm_cost": {
+    "input": 0.000727,
+    "cached_input": 0.0,
+    "output": 0.00114,
+    "total": 0.001867,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 582,
+      "cached_input": 0,
+      "output": 114
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.8071
+  }
+}

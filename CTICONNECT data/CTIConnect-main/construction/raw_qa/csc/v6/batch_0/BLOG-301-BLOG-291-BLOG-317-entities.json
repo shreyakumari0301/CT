@@ -1,0 +1,7 @@
+{
+  "question": "What malware families, threat groups, or vulnerability IDs appear consistently across these reports?",
+  "answer": "- Malware Families: XenoRAT\n- Threat Actor Groups: Kimsuky (APT43)\n- Vulnerability IDs: None reported",
+  "llm_timing": {
+    "api_call_seconds": 7.9136
+  }
+}

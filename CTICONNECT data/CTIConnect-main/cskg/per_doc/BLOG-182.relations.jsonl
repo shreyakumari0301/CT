@@ -1,0 +1,3 @@
+{"src_type": "identity", "src_name": "Black Lotus Labs", "predicate": "observed", "tgt_type": "malware", "tgt_name": "ZuoRAT", "source_chunks": ["BLOG-182::ch0"]}
+{"src_type": "malware", "src_name": "ZuoRAT", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-26878", "source_chunks": ["BLOG-182::ch0"]}
+{"src_type": "malware", "src_name": "ZuoRAT", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-26879", "source_chunks": ["BLOG-182::ch0"]}

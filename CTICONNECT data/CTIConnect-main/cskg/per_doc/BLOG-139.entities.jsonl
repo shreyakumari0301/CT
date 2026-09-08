@@ -1,0 +1,24 @@
+{"entity_type": "identity", "canonical_name": "Symantec Threat Hunter Team", "aliases": [], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "malware", "canonical_name": "Sidewalk", "aliases": ["Sidewalk loader backdoor"], "properties": {"family": "Crosswalk/Backdoor.Motnug"}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "malware", "canonical_name": "Crosswalk/Backdoor.Motnug", "aliases": ["Crosswalk", "Backdoor.Motnug"], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT41", "aliases": ["Grayfly", "GREF", "Wicked Panda", "Barium", "Winnti", "Brass Typhoon", "Double Dragon"], "properties": {"country": "China", "primary_motivation": "espionage", "first_seen": "March 2017", "sectors_targeted": ["telecom", "IT", "media", "finance"], "regions_targeted": ["Taiwan", "Vietnam", "United States", "Mexico"]}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "malware", "canonical_name": "Trojan.Chattak", "aliases": [], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "tool", "canonical_name": "certutil", "aliases": [], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "tool", "canonical_name": "installutil.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMIC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["custom Mimikatz variant", "mimi"], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "indicator", "canonical_name": "b3eb783b017da32e33d19670b39eae0b11de8e983891dd4feb873d6e9333608d", "aliases": [], "properties": {"ioc_type": "hash", "value": "b3eb783b017da32e33d19670b39eae0b11de8e983891dd4feb873d6e9333608d"}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Exchange", "aliases": ["Exchange"], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "tool", "canonical_name": "MySQL", "aliases": [], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "campaign", "canonical_name": "recent campaign", "aliases": [], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecom targets", "aliases": [], "properties": {"sector": "telecom"}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "identity", "canonical_name": "IT targets", "aliases": [], "properties": {"sector": "IT"}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "identity", "canonical_name": "media targets", "aliases": [], "properties": {"sector": "media"}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "identity", "canonical_name": "finance targets", "aliases": [], "properties": {"sector": "finance"}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwan", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "identity", "canonical_name": "Vietnam", "aliases": [], "properties": {"region": "Vietnam"}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": ["the US"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mexico", "aliases": [], "properties": {"region": "Mexico"}, "source_chunks": ["BLOG-139::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chengdu 404", "aliases": [], "properties": {}, "source_chunks": ["BLOG-139::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "What is the most notable new capability that appeared in later FiveHands variants compared to earlier ones?",
+  "answer": "- Early FiveHands variants used a C++ payload with NTRUEncrypt/RSA-AES encryption, deleted Volume Shadow Copies via WMI, and relied on open-source network discovery and RAT tools for lateral movement and exfiltration.\n- A subsequent affiliate-driven variant introduced a Go-based loader that accepts a 16-byte key (captured from RDP bitmap cache and brute-forced) to decrypt the C++ ransomware payload entirely in memory.\n- That loader also leverages the Windows Restart Manager API to encrypt files locked by the system without requiring file handles to be released.\n- Most Notable New Capability: In-memory decryption via a Go loader using a captured 16-byte key combined with Windows Restart Manager support for locked files encryption.",
+  "llm_timing": {
+    "api_call_seconds": 11.0571
+  }
+}

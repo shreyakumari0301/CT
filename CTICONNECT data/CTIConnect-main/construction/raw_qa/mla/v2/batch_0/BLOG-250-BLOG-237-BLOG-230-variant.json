@@ -1,0 +1,7 @@
+{
+  "question": "What are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- FrostyGoop\n- BUSTLEBERM",
+  "llm_timing": {
+    "api_call_seconds": 7.3557
+  }
+}

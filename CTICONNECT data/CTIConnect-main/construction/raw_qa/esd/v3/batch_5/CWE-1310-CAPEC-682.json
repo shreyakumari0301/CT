@@ -1,0 +1,23 @@
+{
+  "question": "A device contains firmware or ROM code with known vulnerabilities, but the design prevents applying updates or patches to that code. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-682.\n- CAPEC-682 exploits unpatchable firmware/ROM vulnerabilities, targeting CWE-1310: lack of ability to patch ROM code.",
+  "llm_cost": {
+    "input": 0.000737,
+    "cached_input": 0.0,
+    "output": 0.00089,
+    "total": 0.001628,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 590,
+      "cached_input": 0,
+      "output": 89
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.523
+  }
+}

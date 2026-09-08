@@ -1,0 +1,23 @@
+{
+  "question": "In a multi-threaded program, a function that is not safe to call simultaneously is invoked from concurrent execution paths, leading to unsafe shared-state behavior. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-29.\n- CAPEC-29 exploits race windows in concurrent execution, targeting CWE-663: use of a non-reentrant function in a concurrent context.",
+  "llm_cost": {
+    "input": 0.000794,
+    "cached_input": 0.0,
+    "output": 0.00097,
+    "total": 0.001764,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 635,
+      "cached_input": 0,
+      "output": 97
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4074
+  }
+}

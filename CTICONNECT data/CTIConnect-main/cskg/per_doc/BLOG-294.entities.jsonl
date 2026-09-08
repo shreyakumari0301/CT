@@ -1,0 +1,12 @@
+{"entity_type": "identity", "canonical_name": "Cisco Talos", "aliases": ["Cisco Talos analysts"], "properties": {}, "source_chunks": ["BLOG-294::ch0"]}
+{"entity_type": "malware", "canonical_name": "PS1Bot", "aliases": [], "properties": {"capabilities": ["persistence", "information stealing", "keylogging", "screen capture", "credential/seed phrase discovery", "data compression", "data exfiltration"], "platforms": ["Windows"], "first_seen": "2025"}, "source_chunks": ["BLOG-294::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Malvertising", "aliases": ["malvertising campaigns"], "properties": {}, "source_chunks": ["BLOG-294::ch0"]}
+{"entity_type": "indicator", "canonical_name": "chapter 8 medicare benefit policy manual.zip", "aliases": [], "properties": {"ioc_type": "hash", "value": "chapter 8 medicare benefit policy manual.zip"}, "source_chunks": ["BLOG-294::ch0"]}
+{"entity_type": "indicator", "canonical_name": "FULL DOCUMENT.js", "aliases": [], "properties": {"ioc_type": "hash", "value": "FULL DOCUMENT.js"}, "source_chunks": ["BLOG-294::ch0"]}
+{"entity_type": "tool", "canonical_name": "Invoke-Expression", "aliases": ["IEX"], "properties": {"platforms": ["PowerShell", "Windows"]}, "source_chunks": ["BLOG-294::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "PowerShell execution via Invoke-Expression", "aliases": ["PowerShell IEX activity"], "properties": {}, "source_chunks": ["BLOG-294::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Startup folder LNK persistence", "aliases": ["Startup LNK creations", "LNK files in the Windows Startup folder"], "properties": {}, "source_chunks": ["BLOG-294::ch0"]}
+{"entity_type": "indicator", "canonical_name": "/transform", "aliases": ["“/transform” endpoint"], "properties": {"ioc_type": "url", "value": "/transform"}, "source_chunks": ["BLOG-294::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "HTTP POST exfiltration with Base64 encoding", "aliases": [], "properties": {}, "source_chunks": ["BLOG-294::ch0"]}
+{"entity_type": "malware", "canonical_name": "AHK Bot", "aliases": [], "properties": {}, "source_chunks": ["BLOG-294::ch0"]}
+{"entity_type": "malware", "canonical_name": "Skitnet", "aliases": ["Skitnet-linked families"], "properties": {}, "source_chunks": ["BLOG-294::ch0"]}

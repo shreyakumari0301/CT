@@ -1,0 +1,7 @@
+{
+  "question": "What is the most notable new capability that appeared in later variants compared to earlier ones?",
+  "answer": "- Early FOG ransomware variants (Mar\u2013Apr 2025) relied on multi-stage PowerShell loaders, a kernel-level privilege-escalation exploit, sandbox-evasion checks, and .flocked binary decryption for initial compromise and file encryption\n- Mid-cycle versions added open-source C2 implants (GC2) polling Google Sheets/SharePoint and used Stowaway as a proxy for payload delivery\n- Subsequent deployments brought in open-source post-exploitation frameworks (Adaptix C2 Agent Beacon) alongside lateral-movement utilities like PsExec and SMBExec\n- The latest variants incorporated legitimate employee-monitoring software (Syteca) loaded with screen-capture and keystroke-logging libraries, paired with a custom Windows service for persistence\n- Most Notable New Capability: Integration of bona fide employee-monitoring software for covert espionage activities",
+  "llm_timing": {
+    "api_call_seconds": 19.5307
+  }
+}

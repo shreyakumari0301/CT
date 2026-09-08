@@ -1,0 +1,22 @@
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing Attachment", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government ministries", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "targets", "tgt_type": "identity", "tgt_name": "critical infrastructure", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "malware", "tgt_name": "ChainDoor RAT", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Application Layer Protocol: Web Protocols", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "SQL Injection", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exploit Public-Facing Application", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential Dumping", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Lateral Movement", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over C2 Channel", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Steganography", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "coin-miner payloads", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spearphishing Attachment", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "ChainDoor RAT", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "malware", "src_name": "ChainDoor RAT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Application Layer Protocol: Web Protocols", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "attack_pattern", "src_name": "SQL Injection", "predicate": "targets", "tgt_type": "attack_pattern", "tgt_name": "Exploit Public-Facing Application", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "tool", "src_name": "Mimikatz", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Credential Dumping", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "tool", "src_name": "Mimikatz", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Lateral Movement", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Exfiltration Over C2 Channel", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Application Layer Protocol: Web Protocols", "source_chunks": ["BLOG-240::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Steganography", "predicate": "hides_exfiltrated_data_from", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over C2 Channel", "source_chunks": ["BLOG-240::ch0"]}

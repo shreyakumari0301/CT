@@ -1,0 +1,11 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "analyzed", "tgt_type": "threat_actor", "tgt_name": "BladedFeline", "source_chunks": ["BLOG-90::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "subgroup_of", "tgt_type": "threat_actor", "tgt_name": "APT34", "source_chunks": ["BLOG-90::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "infiltrated", "tgt_type": "identity", "tgt_name": "Kurdish government networks", "source_chunks": ["BLOG-90::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "infiltrated", "tgt_type": "identity", "tgt_name": "Iraqi government networks", "source_chunks": ["BLOG-90::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "deployed", "tgt_type": "malware", "tgt_name": "Shahmaran", "source_chunks": ["BLOG-90::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "deployed", "tgt_type": "malware", "tgt_name": "Whisper", "source_chunks": ["BLOG-90::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "deployed", "tgt_type": "malware", "tgt_name": "PrimeCache", "source_chunks": ["BLOG-90::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "deployed", "tgt_type": "malware", "tgt_name": "VideoSRV", "source_chunks": ["BLOG-90::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "used", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-90::ch0"]}
+{"src_type": "malware", "src_name": "PrimeCache", "predicate": "code_overlaps_with", "tgt_type": "malware", "tgt_name": "RDAT", "source_chunks": ["BLOG-90::ch0"]}
+{"src_type": "malware", "src_name": "VideoSRV", "predicate": "implements", "tgt_type": "attack_pattern", "tgt_name": "Reverse Shell", "source_chunks": ["BLOG-90::ch0"]}

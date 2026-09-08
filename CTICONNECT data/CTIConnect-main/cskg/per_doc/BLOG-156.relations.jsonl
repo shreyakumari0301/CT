@@ -1,0 +1,18 @@
+{"src_type": "threat_actor", "src_name": "Sea Turtle", "predicate": "aliased_with", "tgt_type": "campaign", "tgt_name": "Türkiye-linked cyber espionage campaign", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sea Turtle", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "Türkiye-linked cyber espionage campaign", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sea Turtle", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "DNS hijacking", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "campaign", "src_name": "Türkiye-linked cyber espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Dutch ISPs", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "campaign", "src_name": "Türkiye-linked cyber espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Dutch telecom providers", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "campaign", "src_name": "Türkiye-linked cyber espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Dutch IT-service providers", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "campaign", "src_name": "Türkiye-linked cyber espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Dutch media providers", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "campaign", "src_name": "Türkiye-linked cyber espionage campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Kurdish websites", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "campaign", "src_name": "Türkiye-linked cyber espionage campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Supply-chain attack", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "campaign", "src_name": "Türkiye-linked cyber espionage campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Island hopping", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "identity", "src_name": "Cisco Talos", "predicate": "first_detailed", "tgt_type": "threat_actor", "tgt_name": "Sea Turtle", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "reported", "tgt_type": "threat_actor", "tgt_name": "Sea Turtle", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "identity", "src_name": "PwC", "predicate": "observed_deployment_of", "tgt_type": "malware", "tgt_name": "SnappyTCP", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "identity", "src_name": "Hunt & Hackett", "predicate": "revealed_use_of", "tgt_type": "attack_pattern", "tgt_name": "Credential theft", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Credential theft", "predicate": "via_compromised_account_on", "tgt_type": "tool", "tgt_name": "cPanel", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "malware", "src_name": "SnappyTCP", "predicate": "uses", "tgt_type": "tool", "tgt_name": "OpenSSL", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "tool", "src_name": "cPanel", "predicate": "used_to_deploy", "tgt_type": "malware", "tgt_name": "SnappyTCP", "source_chunks": ["BLOG-156::ch0"]}
+{"src_type": "tool", "src_name": "cPanel", "predicate": "used_to_deploy", "tgt_type": "tool", "tgt_name": "tar", "source_chunks": ["BLOG-156::ch0"]}

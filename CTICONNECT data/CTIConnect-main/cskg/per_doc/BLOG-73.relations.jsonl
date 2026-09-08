@@ -1,0 +1,12 @@
+{"src_type": "threat_actor", "src_name": "CL0P", "predicate": "affiliate_of", "tgt_type": "threat_actor", "tgt_name": "TA505", "source_chunks": ["BLOG-73::ch0"]}
+{"src_type": "threat_actor", "src_name": "CL0P", "predicate": "exploited", "tgt_type": "identity", "tgt_name": "MOVEit Transfer", "source_chunks": ["BLOG-73::ch0"]}
+{"src_type": "threat_actor", "src_name": "CL0P", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "U.S. organizations", "source_chunks": ["BLOG-73::ch0"]}
+{"src_type": "threat_actor", "src_name": "CL0P", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "global organizations", "source_chunks": ["BLOG-73::ch0"]}
+{"src_type": "threat_actor", "src_name": "CL0P", "predicate": "shifted_distribution_from", "tgt_type": "identity", "tgt_name": "Tor", "source_chunks": ["BLOG-73::ch0"]}
+{"src_type": "threat_actor", "src_name": "CL0P", "predicate": "uses", "tgt_type": "tool", "tgt_name": "BitTorrent", "source_chunks": ["BLOG-73::ch0"]}
+{"src_type": "identity", "src_name": "U.S. organizations", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Cortex XDR/XSIAM", "source_chunks": ["BLOG-73::ch0"]}
+{"src_type": "identity", "src_name": "U.S. organizations", "predicate": "scan_for_exposures_with", "tgt_type": "tool", "tgt_name": "Cortex Xpanse", "source_chunks": ["BLOG-73::ch0"]}
+{"src_type": "identity", "src_name": "U.S. organizations", "predicate": "engages", "tgt_type": "identity", "tgt_name": "Unit 42", "source_chunks": ["BLOG-73::ch0"]}
+{"src_type": "identity", "src_name": "global organizations", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Cortex XDR/XSIAM", "source_chunks": ["BLOG-73::ch0"]}
+{"src_type": "identity", "src_name": "global organizations", "predicate": "scan_for_exposures_with", "tgt_type": "tool", "tgt_name": "Cortex Xpanse", "source_chunks": ["BLOG-73::ch0"]}
+{"src_type": "identity", "src_name": "global organizations", "predicate": "engages", "tgt_type": "identity", "tgt_name": "Unit 42", "source_chunks": ["BLOG-73::ch0"]}

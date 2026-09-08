@@ -1,0 +1,58 @@
+[2026-09-04T18:10:49Z] Finish Forced RAG + Force GAD only workers=2
+  counterfactual_ctibench_rcm_20260904Tgpt56sol_forced_rag_cb.jsonl: 916/1000 ok
+  counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb.jsonl: 60/60 ok
+  counterfactual_ctibench_mcq_20260904Tgpt56sol_forced_rag_cb.jsonl: 631/2500 ok
+  counterfactual_ctibench_vsp_20260904Tgpt56sol_forced_rag_cb.jsonl: 274/1000 ok
+  counterfactual_ctibench_rcm_20260904Tgpt56sol_force_gad_cb.jsonl: 358/1000 ok
+  counterfactual_ctibench_ate_20260904Tgpt56sol_force_gad_cb.jsonl: 60/60 ok
+  counterfactual_ctibench_mcq_20260904Tgpt56sol_force_gad_cb.jsonl: 553/2500 ok
+  counterfactual_ctibench_vsp_20260904Tgpt56sol_force_gad_cb.jsonl: 261/1000 ok
+[2026-09-04T18:10:54Z] Queue: forced_rag:rcm:20260904Tgpt56sol_forced_rag_cb force_gad:rcm:20260904Tgpt56sol_force_gad_cb forced_rag:mcq:20260904Tgpt56sol_forced_rag_cb force_gad:mcq:20260904Tgpt56sol_force_gad_cb forced_rag:vsp:20260904Tgpt56sol_forced_rag_cb force_gad:vsp:20260904Tgpt56sol_force_gad_cb
+[2026-09-04T18:10:54Z] RUN forced_rag rcm
+[2026-09-04T18:10:54Z] RUN force_gad rcm
+[2026-09-04T18:15:58Z] DONE forced_rag rcm
+[2026-09-04T18:16:05Z] slot freed forced_rag rcm
+[2026-09-04T19:25:39Z] RUN forced_rag mcq
+[2026-09-04T19:52:00Z] DONE force_gad rcm
+[2026-09-04T19:52:05Z] slot freed force_gad rcm
+[2026-09-04T19:52:07Z] RUN force_gad mcq
+[2026-09-04T19:58:12Z] DONE forced_rag mcq
+[2026-09-04T19:58:18Z] slot freed forced_rag mcq
+[2026-09-04T19:58:18Z] RUN forced_rag vsp
+[2026-09-04T20:00:17Z] Finish Forced RAG + Force GAD only workers=2
+  counterfactual_ctibench_rcm_20260904Tgpt56sol_forced_rag_cb.jsonl: 916/1000 ok
+  counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb.jsonl: 60/60 ok
+  counterfactual_ctibench_mcq_20260904Tgpt56sol_forced_rag_cb.jsonl: 631/2500 ok
+  counterfactual_ctibench_vsp_20260904Tgpt56sol_forced_rag_cb.jsonl: 274/1000 ok
+  counterfactual_ctibench_rcm_20260904Tgpt56sol_force_gad_cb.jsonl: 358/1000 ok
+  counterfactual_ctibench_ate_20260904Tgpt56sol_force_gad_cb.jsonl: 60/60 ok
+  counterfactual_ctibench_mcq_20260904Tgpt56sol_force_gad_cb.jsonl: 553/2500 ok
+  counterfactual_ctibench_vsp_20260904Tgpt56sol_force_gad_cb.jsonl: 261/1000 ok
+[2026-09-04T20:00:22Z] Queue: forced_rag:rcm:20260904Tgpt56sol_forced_rag_cb force_gad:rcm:20260904Tgpt56sol_force_gad_cb forced_rag:mcq:20260904Tgpt56sol_forced_rag_cb force_gad:mcq:20260904Tgpt56sol_force_gad_cb forced_rag:vsp:20260904Tgpt56sol_forced_rag_cb force_gad:vsp:20260904Tgpt56sol_force_gad_cb
+[2026-09-04T20:00:22Z] RUN forced_rag rcm
+[2026-09-04T20:00:23Z] RUN force_gad rcm
+[2026-09-04T20:06:03Z] DONE forced_rag rcm
+[2026-09-04T20:06:03Z] slot freed forced_rag rcm
+[2026-09-04T20:06:04Z] RUN forced_rag mcq
+[2026-09-04T20:09:42Z] DONE force_gad rcm
+[2026-09-04T20:09:45Z] slot freed force_gad rcm
+[2026-09-04T20:09:46Z] RUN force_gad mcq
+[2026-09-04T20:43:25Z] DONE forced_rag mcq
+[2026-09-04T20:43:26Z] slot freed forced_rag mcq
+[2026-09-04T20:43:27Z] RUN forced_rag vsp
+[2026-09-04T20:51:05Z] DONE force_gad mcq
+[2026-09-04T20:51:08Z] slot freed force_gad mcq
+[2026-09-04T20:51:09Z] RUN force_gad vsp
+[2026-09-04T20:54:54Z] DONE forced_rag vsp
+[2026-09-04T20:54:59Z] slot freed forced_rag vsp
+[2026-09-04T21:01:13Z] DONE force_gad vsp
+[2026-09-04T21:01:20Z] slot freed force_gad vsp
+  counterfactual_ctibench_rcm_20260904Tgpt56sol_forced_rag_cb.jsonl: 916/1000 ok
+  counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb.jsonl: 60/60 ok
+  counterfactual_ctibench_mcq_20260904Tgpt56sol_forced_rag_cb.jsonl: 631/2500 ok
+  counterfactual_ctibench_vsp_20260904Tgpt56sol_forced_rag_cb.jsonl: 274/1000 ok
+  counterfactual_ctibench_rcm_20260904Tgpt56sol_force_gad_cb.jsonl: 358/1000 ok
+  counterfactual_ctibench_ate_20260904Tgpt56sol_force_gad_cb.jsonl: 60/60 ok
+  counterfactual_ctibench_mcq_20260904Tgpt56sol_force_gad_cb.jsonl: 553/2500 ok
+  counterfactual_ctibench_vsp_20260904Tgpt56sol_force_gad_cb.jsonl: 261/1000 ok
+[2026-09-04T21:01:32Z] Forced RAG + Force GAD finish pass done

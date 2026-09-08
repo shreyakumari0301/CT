@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary malware family consistently used by this threat actor across these reports?",
+  "answer": "- Primary Malware Family: DragonForce ransomware",
+  "llm_timing": {
+    "api_call_seconds": 9.5781
+  }
+}

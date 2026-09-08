@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "NCC Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "identity", "canonical_name": "NCC Group’s CIRT", "aliases": ["CIRT"], "properties": {}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Karakurt", "aliases": [], "properties": {"primary_motivation": "extortion"}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "identity", "canonical_name": "FortiGate VPN", "aliases": ["FortiGate VPNs"], "properties": {}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "tool", "canonical_name": "Active Directory", "aliases": [], "properties": {}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-1472", "aliases": ["Zerologon"], "properties": {"cve_id": "CVE-2020-1472"}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "tool", "canonical_name": "RDP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Microsoft-Windows-DNS-Server-Service Event ID 3150", "aliases": ["Event ID 3150"], "properties": {"ioc_type": "hash", "value": "Microsoft-Windows-DNS-Server-Service Event ID 3150"}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "indicator", "canonical_name": "NTDS.dit", "aliases": [], "properties": {"ioc_type": "hash", "value": "NTDS.dit"}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "tool", "canonical_name": "Volume Shadow Copy", "aliases": [], "properties": {}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "tool", "canonical_name": "7-Zip", "aliases": [], "properties": {}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rclone", "aliases": [], "properties": {}, "source_chunks": ["BLOG-256::ch0"]}
+{"entity_type": "indicator", "canonical_name": "DESKTOP-XXXXXX", "aliases": [], "properties": {"ioc_type": "domain", "value": "DESKTOP-XXXXXX"}, "source_chunks": ["BLOG-256::ch0"]}

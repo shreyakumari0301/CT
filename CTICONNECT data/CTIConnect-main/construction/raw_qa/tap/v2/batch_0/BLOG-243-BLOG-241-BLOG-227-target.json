@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors and regions mentioned across these reports?",
+  "answer": "- Sectors:\n  \u2022 Telecommunications\n  \u2022 Government (including local and national)\n  \u2022 Oil and gas\n  \u2022 Defense\n- Regions:\n  \u2022 Middle East\n  \u2022 Asia\n  \u2022 Africa\n  \u2022 Europe\n  \u2022 North America\n  \u2022 Global (broadly indicated beyond specific regions)",
+  "llm_timing": {
+    "api_call_seconds": 3.204
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "An adversary exploits features that should be restricted to administrators but are exposed to lower-privileged accounts, enabling access to sensitive information or privileged functionality. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1548.\n- T1548 corresponds to abusing elevation controls, mapping CAPEC-122: exploiting admin-only features exposed to non-privileged accounts to access sensitive resources.",
+  "llm_cost": {
+    "input": 0.000746,
+    "cached_input": 0.0,
+    "output": 0.00105,
+    "total": 0.001796,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 597,
+      "cached_input": 0,
+      "output": 105
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.8063
+  }
+}

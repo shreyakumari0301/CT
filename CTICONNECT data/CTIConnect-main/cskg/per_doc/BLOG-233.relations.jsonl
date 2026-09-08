@@ -1,0 +1,20 @@
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Saudi energy organizations", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Saudi government organizations", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Saudi technology organizations", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Magic Unicorn", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "delivers", "tgt_type": "tool", "tgt_name": "Metasploit", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "delivers", "tgt_type": "tool", "tgt_name": "Meterpreter", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Pupy RAT", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "includes", "tgt_type": "malware", "tgt_name": "MagicHound.Rollover", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "includes", "tgt_type": "malware", "tgt_name": "Fetch", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "includes", "tgt_type": "malware", "tgt_name": "DropIt", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "includes", "tgt_type": "malware", "tgt_name": "Retriever", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "includes", "tgt_type": "malware", "tgt_name": "Leash", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "uses_domain", "tgt_type": "indicator", "tgt_name": "chrome-up.date", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "uses_domain", "tgt_type": "indicator", "tgt_name": "ntg-sa.com", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "uses_domain", "tgt_type": "indicator", "tgt_name": "mol.com-ho.me", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "campaign", "src_name": "Magic Hound", "predicate": "overlaps_with", "tgt_type": "threat_actor", "tgt_name": "Rocket Kitten", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "tool", "src_name": "Metasploit", "predicate": "includes", "tgt_type": "tool", "tgt_name": "Meterpreter", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "malware", "src_name": "MagicHound.Rollover", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-233::ch0"]}
+{"src_type": "malware", "src_name": "Fetch", "predicate": "writes_file", "tgt_type": "malware", "tgt_name": "Retriever", "source_chunks": ["BLOG-233::ch0"]}

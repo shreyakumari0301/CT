@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors and regions mentioned across these reports?",
+  "answer": "- Primary target sectors: government and defense contractors, transportation, media, non-governmental organizations, healthcare, telecommunications, digital services and IT firms\n- Primary target regions: NATO member states (Western Europe and North America) and Ukraine",
+  "llm_timing": {
+    "api_call_seconds": 6.4155
+  }
+}

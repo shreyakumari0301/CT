@@ -1,0 +1,23 @@
+{
+  "question": "A system accepts text input but mishandles Unicode encoding, especially when a component is not Unicode-aware, so validation or filtering logic can be bypassed and requests may be misclassified or routed incorrectly. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-71.\n- CAPEC-71 exploits Unicode encoding mishandling, targeting CWE-176: improper handling of Unicode encoding.",
+  "llm_cost": {
+    "input": 0.000727,
+    "cached_input": 0.0,
+    "output": 0.00101,
+    "total": 0.001737,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 582,
+      "cached_input": 0,
+      "output": 101
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6094
+  }
+}

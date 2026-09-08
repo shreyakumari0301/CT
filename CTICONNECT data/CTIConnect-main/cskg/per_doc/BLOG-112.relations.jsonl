@@ -1,0 +1,25 @@
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "reports_on", "tgt_type": "campaign", "tgt_name": "year-long espionage campaign", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "campaign", "src_name": "year-long espionage campaign", "predicate": "conducted_by", "tgt_type": "threat_actor", "tgt_name": "Void Blizzard", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Password spraying", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "European government", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North American government", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "European defense contractors", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North American defense contractors", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "NATO states", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Adversary-in-the-middle spearphishing", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Typosquatting", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "Evilginx", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Exchange Online", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "infiltrates", "tgt_type": "tool", "tgt_name": "Exchange Online", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Microsoft Graph", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AzureHound", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "infiltrates", "tgt_type": "tool", "tgt_name": "SharePoint Online", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "exfiltrates_from", "tgt_type": "tool", "tgt_name": "Microsoft Teams", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "telcos", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "defense suppliers", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "digital services providers", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "healthcare firms", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "IT firms", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "supports_operations_of", "tgt_type": "identity", "tgt_name": "Kremlin", "source_chunks": ["BLOG-112::ch0"]}
+{"src_type": "tool", "src_name": "AzureHound", "predicate": "harvests", "tgt_type": "identity", "tgt_name": "Microsoft Entra ID", "source_chunks": ["BLOG-112::ch0"]}

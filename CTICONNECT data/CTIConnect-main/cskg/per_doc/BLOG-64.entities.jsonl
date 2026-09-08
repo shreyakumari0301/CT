@@ -1,0 +1,22 @@
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT33", "aliases": ["Peach Sandstorm", "Elfin", "Refined Kitten", "HOLMIUM"], "properties": {"country": "Iran", "first_seen": "February 2023", "primary_motivation": "intelligence collection", "sectors_targeted": ["satellite", "defense", "pharmaceutical"], "regions_targeted": ["worldwide"]}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "tool", "canonical_name": "Tor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "tool", "canonical_name": "AzureHound", "aliases": [], "properties": {"platforms": ["Microsoft Entra ID"], "capabilities": ["reconnaissance"]}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "tool", "canonical_name": "Roadtools", "aliases": [], "properties": {"platforms": ["Microsoft Entra ID"], "capabilities": ["reconnaissance"]}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Entra ID", "aliases": [], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "identity", "canonical_name": "Azure", "aliases": [], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "identity", "canonical_name": "Azure Arc", "aliases": [], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zoho ManageEngine", "aliases": ["ManageEngine"], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-47966", "aliases": [], "properties": {"cve_id": "CVE-2022-47966"}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "identity", "canonical_name": "Confluence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-26134", "aliases": [], "properties": {"cve_id": "CVE-2022-26134"}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": ["AnyDesk RMM"], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft 365", "aliases": [], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "identity", "canonical_name": "VMware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "tool", "canonical_name": "EagleRelay", "aliases": [], "properties": {"capabilities": ["tunneling"]}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Password Spraying", "aliases": ["password spray attacks"], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Services", "aliases": ["RDP"], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Golden SAML", "aliases": ["Golden SAML attacks"], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL Search Order Hijacking", "aliases": ["DLL search-order hijacking"], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration", "aliases": ["exfiltrated sensitive data"], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}
+{"entity_type": "identity", "canonical_name": "Azure Security Benchmark", "aliases": [], "properties": {}, "source_chunks": ["BLOG-64::ch0"]}

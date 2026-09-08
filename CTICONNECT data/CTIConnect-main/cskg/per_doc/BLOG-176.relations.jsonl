@@ -1,0 +1,9 @@
+{"src_type": "malware", "src_name": "Magniber", "predicate": "affiliate_of", "tgt_type": "tool", "tgt_name": "Magnitude exploit kit", "source_chunks": ["BLOG-176::ch0"]}
+{"src_type": "malware", "src_name": "Magniber", "predicate": "affiliate_of", "tgt_type": "malware", "tgt_name": "Cerber", "source_chunks": ["BLOG-176::ch0"]}
+{"src_type": "malware", "src_name": "Magniber", "predicate": "targets", "tgt_type": "identity", "tgt_name": "South Korea", "source_chunks": ["BLOG-176::ch0"]}
+{"src_type": "malware", "src_name": "Magniber", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Asia-Pacific region", "source_chunks": ["BLOG-176::ch0"]}
+{"src_type": "malware", "src_name": "Magniber", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "Malvertising", "source_chunks": ["BLOG-176::ch0"]}
+{"src_type": "malware", "src_name": "Magniber", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2016-0189", "source_chunks": ["BLOG-176::ch0"]}
+{"src_type": "malware", "src_name": "Magniber", "predicate": "renames_files_with_extension", "tgt_type": "indicator", "tgt_name": ".ihsdj", "source_chunks": ["BLOG-176::ch0"]}
+{"src_type": "identity", "src_name": "FireEye", "predicate": "reports_on", "tgt_type": "malware", "tgt_name": "Magniber", "source_chunks": ["BLOG-176::ch0"]}
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "reports_on", "tgt_type": "malware", "tgt_name": "Magniber", "source_chunks": ["BLOG-176::ch0"]}

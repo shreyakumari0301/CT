@@ -1,0 +1,8 @@
+{"src_type": "malware", "src_name": "Ryuk", "predicate": "leverages_initial_access_via", "tgt_type": "malware", "tgt_name": "TrickBot", "source_chunks": ["BLOG-197::ch0"]}
+{"src_type": "malware", "src_name": "Ryuk", "predicate": "leverages_initial_access_via", "tgt_type": "malware", "tgt_name": "Emotet", "source_chunks": ["BLOG-197::ch0"]}
+{"src_type": "malware", "src_name": "Ryuk", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "EternalBlue", "source_chunks": ["BLOG-197::ch0"]}
+{"src_type": "malware", "src_name": "Ryuk", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "Zerologon", "source_chunks": ["BLOG-197::ch0"]}
+{"src_type": "malware", "src_name": "Ryuk", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Lateral Movement", "source_chunks": ["BLOG-197::ch0"]}
+{"src_type": "malware", "src_name": "Ryuk", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US government contractor", "source_chunks": ["BLOG-197::ch0"]}
+{"src_type": "malware", "src_name": "Ryuk", "predicate": "targets", "tgt_type": "identity", "tgt_name": "three New York hospitals", "source_chunks": ["BLOG-197::ch0"]}
+{"src_type": "malware", "src_name": "BazarLoader", "predicate": "delivered_via", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-197::ch0"]}

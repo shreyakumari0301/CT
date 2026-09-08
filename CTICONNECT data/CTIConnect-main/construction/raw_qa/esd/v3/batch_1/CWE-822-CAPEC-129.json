@@ -1,0 +1,23 @@
+{
+  "question": "An application dereferences a pointer value that can be influenced by an untrusted party, causing access to unintended memory locations. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-129.\n- CAPEC-129 exploits untrusted pointer dereference, targeting CWE-822: dereferencing pointers influenced by untrusted sources.",
+  "llm_cost": {
+    "input": 0.000736,
+    "cached_input": 0.0,
+    "output": 0.00088,
+    "total": 0.001616,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 589,
+      "cached_input": 0,
+      "output": 88
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6884
+  }
+}

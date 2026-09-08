@@ -1,0 +1,23 @@
+{
+  "question": "A system reports attestation or measurement results, but the reporting data can be altered after it is produced, letting an attacker change what gets reported. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-680.\n- CAPEC-680 exploits mutable reporting data via improperly controlled registers, targeting CWE-1283: attestation or measurement reporting data can be modified.",
+  "llm_cost": {
+    "input": 0.0007,
+    "cached_input": 0.0,
+    "output": 0.00097,
+    "total": 0.00167,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 560,
+      "cached_input": 0,
+      "output": 97
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.9368
+  }
+}

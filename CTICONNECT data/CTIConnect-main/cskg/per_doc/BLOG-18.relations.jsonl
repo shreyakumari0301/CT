@@ -1,0 +1,17 @@
+{"src_type": "identity", "src_name": "Socket Threat Research", "predicate": "identified", "tgt_type": "campaign", "tgt_name": "Contagious Interview", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "DPRK", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "targets", "tgt_type": "identity", "tgt_name": "npm", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Typosquatting", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "react-plaid-sdk", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "vite-plugin-next-refresh", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "framer-motion-ext", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "tool", "tgt_name": "LinkedIn", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Google Docs", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Bitbucket", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "malware", "tgt_name": "HexEval", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "keylogger", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "mirrors_incident_involving", "tgt_type": "threat_actor", "tgt_name": "Lazarus", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "malware", "src_name": "HexEval", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Dynamic execution via eval()", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "malware", "src_name": "HexEval", "predicate": "fetches", "tgt_type": "malware", "tgt_name": "BeaverTail", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "malware", "src_name": "BeaverTail", "predicate": "drops", "tgt_type": "malware", "tgt_name": "InvisibleFerret", "source_chunks": ["BLOG-18::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus", "predicate": "targets", "tgt_type": "identity", "tgt_name": "npm", "source_chunks": ["BLOG-18::ch0"]}

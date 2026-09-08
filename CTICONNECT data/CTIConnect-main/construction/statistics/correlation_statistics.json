@@ -1,0 +1,11 @@
+{
+  "correlation_counts": {
+    "capec-intra": 727,
+    "capec-mitre": 272,
+    "cve-cwe": 3072,
+    "cwe-intra": 1589,
+    "cwe-capec": 1212,
+    "cwe-cve": 2998
+  },
+  "total_correlations": 9870
+}

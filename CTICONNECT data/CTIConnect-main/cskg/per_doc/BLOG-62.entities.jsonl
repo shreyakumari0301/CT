@@ -1,0 +1,11 @@
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-62::ch0"]}
+{"entity_type": "identity", "canonical_name": "MSVR team", "aliases": ["Microsoft’s MSVR team"], "properties": {}, "source_chunks": ["BLOG-62::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Migraine", "aliases": [], "properties": {}, "source_chunks": ["BLOG-62::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-32369", "aliases": [], "properties": {"cve_id": "CVE-2023-32369"}, "source_chunks": ["BLOG-62::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-30892", "aliases": [], "properties": {"cve_id": "CVE-2021-30892"}, "source_chunks": ["BLOG-62::ch0"]}
+{"entity_type": "tool", "canonical_name": "csops", "aliases": [], "properties": {}, "source_chunks": ["BLOG-62::ch0"]}
+{"entity_type": "tool", "canonical_name": "launchctl", "aliases": [], "properties": {}, "source_chunks": ["BLOG-62::ch0"]}
+{"entity_type": "tool", "canonical_name": "hdiutil", "aliases": [], "properties": {}, "source_chunks": ["BLOG-62::ch0"]}
+{"entity_type": "tool", "canonical_name": "AppleScript", "aliases": [], "properties": {}, "source_chunks": ["BLOG-62::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apple", "aliases": [], "properties": {}, "source_chunks": ["BLOG-62::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Defender for Endpoint", "aliases": [], "properties": {}, "source_chunks": ["BLOG-62::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"In the case of this campaign, if the target went to any ‘http’ site, the attackers injected traffic to silently redirect them to an Intellexa site, c.betly[.]me. If the user was the expected targeted user, the site would then redirect the target to the exploit server, sec-flare[.]com. As soon as the attacker redirected the target to their exploit server, the exploit chain began to execute.\" Please provide: 1) the MITRE ATT&CK technique that maps to this behavior, 2) an explanation of how this behavior maps to the technique, and 3) which telemetry/logs or data sources can detect this activity according to the MITRE reference.",
+  "answer": "1) MITRE ATT&CK Category: Drive-by Compromise (T1189).  \n2) Mapping Explanation: The described behavior involves silently redirecting a user’s web browsing session to attacker-controlled sites and then to an exploit server where an exploit chain executes. This matches T1189’s definition of compromising a victim via visiting a website (often through redirection/traffic injection) that triggers exploitation without requiring the victim to download or run a file intentionally.  \n3) Applicable Platforms: Platforms: Linux, macOS, Windows. Telemetry/Data Sources (per MITRE): Network Traffic (e.g., HTTP/HTTPS connections, redirects), Web Proxy logs, DNS records/queries, Browser history and browser process telemetry.",
+  "llm_timing": {
+    "api_call_seconds": 7.2523
+  }
+}

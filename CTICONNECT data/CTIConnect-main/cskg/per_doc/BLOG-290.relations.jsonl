@@ -1,0 +1,12 @@
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Russian media outlets", "source_chunks": ["BLOG-290::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "targets", "tgt_type": "identity", "tgt_name": "educational institutions", "source_chunks": ["BLOG-290::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "uses_spoofed_site", "tgt_type": "campaign", "tgt_name": "Primakov Readings", "source_chunks": ["BLOG-290::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-2783", "source_chunks": ["BLOG-290::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "Exploit.Win32.Generic", "source_chunks": ["BLOG-290::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "Trojan.Win64.Agent", "source_chunks": ["BLOG-290::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "Trojan.Win64.Convagent.gen", "source_chunks": ["BLOG-290::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "uses_domain", "tgt_type": "indicator", "tgt_name": "primakovreadings.info", "source_chunks": ["BLOG-290::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2025-2783", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Chrome", "source_chunks": ["BLOG-290::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2025-2783", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Windows", "source_chunks": ["BLOG-290::ch0"]}
+{"src_type": "identity", "src_name": "Google", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-2783", "source_chunks": ["BLOG-290::ch0"]}
+{"src_type": "identity", "src_name": "K7 Security Labs", "predicate": "identified", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-2783", "source_chunks": ["BLOG-290::ch0"]}

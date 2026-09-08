@@ -1,0 +1,14 @@
+[2026-09-04T17:35:34Z] Compacting CF jsonl files...
+[2026-09-04T17:35:36Z] Resume low-concurrency workers=2 max_jobs=2
+[2026-09-04T17:35:36Z] RESUME forced_rag rcm workers=2
+[2026-09-04T17:35:36Z] RESUME force_gad rcm workers=2
+[2026-09-04T17:41:33Z] DONE forced_rag rcm
+[2026-09-04T17:41:35Z] RESUME soft_gad rcm workers=2
+[2026-09-04T17:46:21Z] DONE force_gad rcm
+[2026-09-04T17:46:23Z] RESUME forced_rag ate workers=2
+[2026-09-04T17:46:58Z] DONE forced_rag ate
+[2026-09-04T17:46:58Z] RESUME force_gad ate workers=2
+[2026-09-04T17:47:36Z] DONE force_gad ate
+[2026-09-04T17:47:39Z] RESUME soft_gad ate workers=2
+[2026-09-04T17:57:50Z] RESUME forced_rag mcq workers=2
+[2026-09-04T17:58:15Z] RESUME force_gad mcq workers=2

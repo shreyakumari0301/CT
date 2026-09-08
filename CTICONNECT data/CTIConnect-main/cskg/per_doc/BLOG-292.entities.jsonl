@@ -1,0 +1,15 @@
+{"entity_type": "campaign", "canonical_name": "GodRAT campaign", "aliases": ["the GodRAT campaign"], "properties": {"first_seen": "September 2024", "last_seen": "August 12, 2025"}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT41", "aliases": ["Winnti", "Barium", "Wicked Panda", "Brass Typhoon", "Double Dragon"], "properties": {}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "identity", "canonical_name": "financial institutions", "aliases": [], "properties": {"sector": "financial"}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "identity", "canonical_name": "trading and brokerage firms", "aliases": ["trading and brokerage firms in Hong Kong, the UAE, Jordan, Lebanon and Malaysia"], "properties": {"sector": "financial", "regions_targeted": ["Hong Kong", "United Arab Emirates", "Jordan", "Lebanon", "Malaysia"]}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "tool", "canonical_name": "Skype", "aliases": ["Skype messenger"], "properties": {}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "malware", "canonical_name": "GodRAT", "aliases": [], "properties": {"capabilities": ["remote access", "credential stealing", "downloads additional modules/payloads"]}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "malware", "canonical_name": "AwesomePuppet RAT", "aliases": ["AwesomePuppet"], "properties": {}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "malware", "canonical_name": "Gh0st RAT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "indicator", "canonical_name": "SDL2.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "SDL2.dll"}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "indicator", "canonical_name": "godinfo", "aliases": ["“godinfo”"], "properties": {"ioc_type": "hash", "value": "godinfo"}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "indicator", "canonical_name": "GETGOD", "aliases": ["“GETGOD”"], "properties": {"ioc_type": "hash", "value": "GETGOD"}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "tool", "canonical_name": "UPX", "aliases": ["UPX-packed"], "properties": {}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Steganography", "aliases": ["steganography", "steganographic delivery"], "properties": {}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "XOR decoding", "aliases": ["XOR-decoded (key 0x63)"], "properties": {}, "source_chunks": ["BLOG-292::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Browser credential stealing", "aliases": ["browser credential-stealing"], "properties": {}, "source_chunks": ["BLOG-292::ch0"]}

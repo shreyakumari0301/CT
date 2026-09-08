@@ -1,0 +1,23 @@
+{"entity_type": "campaign", "canonical_name": "Operation RoundPress", "aliases": [], "properties": {"first_seen": "2023"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT28", "aliases": ["Fancy Bear", "Sofacy", "Sednit", "STRONTIUM", "Pawn Storm", "Forest Blizzard", "Tsar Team"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-35730", "aliases": [], "properties": {"cve_id": "CVE-2020-35730"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-43770", "aliases": [], "properties": {"cve_id": "CVE-2023-43770"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "Roundcube", "aliases": [], "properties": {}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "Horde", "aliases": [], "properties": {}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "MDaemon", "aliases": [], "properties": {}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zimbra", "aliases": [], "properties": {}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Cross-site Scripting (stored and reflected)", "aliases": ["stored and reflected XSS flaws", "XSS vulnerabilities"], "properties": {}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spear-phishing emails"], "properties": {}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential theft", "aliases": ["credential theft"], "properties": {}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data exfiltration over HTTP POST", "aliases": ["exfiltrates data via HTTP POST"], "properties": {}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "government entities in Greece", "aliases": [], "properties": {"sector": "government", "region": "Greece"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "government entities in Ukraine", "aliases": [], "properties": {"sector": "government", "region": "Ukraine"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "government entities in Serbia", "aliases": [], "properties": {"sector": "government", "region": "Serbia"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "government entities in Cameroon", "aliases": [], "properties": {"sector": "government", "region": "Cameroon"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "military units in Ukraine", "aliases": [], "properties": {"sector": "military", "region": "Ukraine"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "military units in Ecuador", "aliases": [], "properties": {"sector": "military", "region": "Ecuador"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense contractors in Ukraine", "aliases": [], "properties": {"sector": "defense", "region": "Ukraine"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense contractors in Bulgaria", "aliases": [], "properties": {"sector": "defense", "region": "Bulgaria"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense contractors in Romania", "aliases": [], "properties": {"sector": "defense", "region": "Romania"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "critical infrastructure in Ukraine", "aliases": [], "properties": {"sector": "critical infrastructure", "region": "Ukraine"}, "source_chunks": ["BLOG-20::ch0"]}
+{"entity_type": "identity", "canonical_name": "critical infrastructure in Bulgaria", "aliases": [], "properties": {"sector": "critical infrastructure", "region": "Bulgaria"}, "source_chunks": ["BLOG-20::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Citrix urged customers on Tuesday to immediately patch Netscaler ADC and Gateway appliances exposed online against two actively exploited zero-day vulnerabilities. The two zero-days (tracked as CVE-2023-6548 and CVE-2023-6549) impact the Netscaler management interface and expose unpatched Netscaler instances to remote code execution and denial-of-service attacks, respectively. 'Exploits of these CVEs on unmitigated appliances have been observed,' the company warned.\" Please provide: 1) the MITRE ATT&CK category that maps to this behavior, 2) an explanation of how the described activity maps to this category, and 3) what are the x_mitre_data_sources (i.e., which telemetry/logs such as NetFlow, Zeek, packet captures) associated with this MITRE ATT&CK entry.",
+  "answer": "1) MITRE ATT&CK Category: Exploit Public-Facing Application (T1190).\n2) Mapping Explanation: The passage describes threat actors actively exploiting zero-day vulnerabilities in internet-exposed Citrix NetScaler ADC/Gateway management interfaces to achieve effects like remote code execution and denial of service. This aligns with T1190’s definition: adversaries exploit vulnerabilities in a public-facing application/service to gain unauthorized access or execute code on a target system.\n3) Applicable Platforms: Network; Initial Access. x_mitre_data_sources: Application Log; Network Traffic.",
+  "llm_timing": {
+    "api_call_seconds": 4.2088
+  }
+}

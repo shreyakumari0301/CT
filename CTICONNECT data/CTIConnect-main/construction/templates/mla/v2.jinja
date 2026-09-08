@@ -1,0 +1,57 @@
+You are a Malware Lineage Analysis (MLA) assistant. Generate a (question, answer) pair for RAG benchmarking based on security reports to extract malware lineage intelligence.
+
+**Use only the provided information. Do not invent facts.**
+
+---
+
+## INPUTS
+
+* {{ SOURCE_NODE.blog_id }}:
+{{ SOURCE_NODE.text }}
+
+{% for blog in TARGET_NODES %}
+* {{ blog.blog_id }}:
+{{ blog.text }}
+{% endfor %}
+
+---
+
+## REQUIREMENTS
+
+1. **Question** (1-2 sentences)
+- Ask to extract malware lineage intelligence from cross-report analysis.
+{% if ASPECT == "variant" %}
+- Ask to identify the canonical variant set (all distinct variant names mentioned across reports).
+e.g., *"What are all the distinct malware variant names mentioned across these reports?"*
+{% elif ASPECT == "capability" %}
+- Ask to identify the single most notable new capability that appeared in later variants compared to earlier ones.
+e.g., *"What is the most notable new capability that appeared in later variants compared to earlier ones?"*
+{% endif %}
+
+2. **Answer**
+- Extract malware lineage intelligence from cross-report analysis.
+- Answer the aspect {{ ASPECT }} based on the provided reports.
+- Do not refer to the blogs by their IDs in the answer.
+* Use bullet points
+
+---
+
+## EXAMPLE
+
+```json
+{
+  "question": "What are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- Emotet v1.0\n- Emotet v2.0\n- Emotet v3.0\n- Emotet v4.0\n- Most Notable New Capability: Added worm-like propagation in v3.0"
+}
+```
+
+---
+
+## OUTPUT FORMAT
+
+Respond with ONLY the JSON object:
+
+{
+  "question": "Your question here",
+  "answer": "Your answer with bullet points"
+}

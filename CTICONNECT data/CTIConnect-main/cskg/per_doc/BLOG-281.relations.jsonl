@@ -1,0 +1,12 @@
+{"src_type": "threat_actor", "src_name": "Ngioweb threat cluster", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2017-5638", "source_chunks": ["BLOG-281::ch0"]}
+{"src_type": "threat_actor", "src_name": "Ngioweb threat cluster", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-19781", "source_chunks": ["BLOG-281::ch0"]}
+{"src_type": "threat_actor", "src_name": "Ngioweb threat cluster", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-5902", "source_chunks": ["BLOG-281::ch0"]}
+{"src_type": "threat_actor", "src_name": "Ngioweb threat cluster", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-44228", "source_chunks": ["BLOG-281::ch0"]}
+{"src_type": "threat_actor", "src_name": "Ngioweb threat cluster", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-281::ch0"]}
+{"src_type": "threat_actor", "src_name": "Ngioweb threat cluster", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-281::ch0"]}
+{"src_type": "threat_actor", "src_name": "Ngioweb threat cluster", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-281::ch0"]}
+{"src_type": "threat_actor", "src_name": "Ngioweb threat cluster", "predicate": "uses_for_c2_over", "tgt_type": "tool", "tgt_name": "Tor", "source_chunks": ["BLOG-281::ch0"]}
+{"src_type": "threat_actor", "src_name": "Ngioweb threat cluster", "predicate": "introduced", "tgt_type": "malware", "tgt_name": "WebLock", "source_chunks": ["BLOG-281::ch0"]}
+{"src_type": "threat_actor", "src_name": "Ngioweb threat cluster", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Southeast Asian financial institutions", "source_chunks": ["BLOG-281::ch0"]}
+{"src_type": "threat_actor", "src_name": "Ngioweb threat cluster", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "SMB lateral movement", "source_chunks": ["BLOG-281::ch0"]}
+{"src_type": "tool", "src_name": "Cobalt Strike", "predicate": "uses_for_c2_over", "tgt_type": "tool", "tgt_name": "Tor", "source_chunks": ["BLOG-281::ch0"]}

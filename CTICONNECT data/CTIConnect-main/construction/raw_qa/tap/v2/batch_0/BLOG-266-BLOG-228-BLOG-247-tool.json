@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary tool or malware family consistently used by this threat actor across these reports?",
+  "answer": "- Primary Malware/Tool Family: Custom Golang SFTP tools\n- Tool Instances: cmd1, cmd3, new2, sft\n- Role: Secure file transfer and exfiltration from compromised routers and edge devices",
+  "llm_timing": {
+    "api_call_seconds": 6.6482
+  }
+}

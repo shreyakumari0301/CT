@@ -1,0 +1,10 @@
+{"entity_type": "threat_actor", "canonical_name": "Lotus Blossom", "aliases": ["Spring Dragon", "Billbug", "Thrip"], "properties": {"primary_motivation": "espionage", "sectors_targeted": ["government", "manufacturing", "media", "telecommunications"], "regions_targeted": ["Hong Kong", "Philippines", "Taiwan", "Vietnam"], "first_seen": "2012"}, "source_chunks": ["BLOG-297::ch0"]}
+{"entity_type": "malware", "canonical_name": "Sagerunex", "aliases": [], "properties": {"family": "Sagerunex", "capabilities": ["in-memory backdoor", "command and control", "cookie theft", "privilege escalation", "proxy relaying", "file archiving", "persistence", "command-shell"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-297::ch0"]}
+{"entity_type": "malware", "canonical_name": "Evora", "aliases": [], "properties": {}, "source_chunks": ["BLOG-297::ch0"]}
+{"entity_type": "tool", "canonical_name": "Windows Management Instrumentation", "aliases": ["WMI"], "properties": {"capabilities": ["reconnaissance"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-297::ch0"]}
+{"entity_type": "tool", "canonical_name": "Venom", "aliases": [], "properties": {"platforms": [], "capabilities": ["penetration testing", "proxy establishment"]}, "source_chunks": ["BLOG-297::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco Talos", "aliases": [], "properties": {}, "source_chunks": ["BLOG-297::ch0"]}
+{"entity_type": "identity", "canonical_name": "Dropbox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-297::ch0"]}
+{"entity_type": "identity", "canonical_name": "Twitter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-297::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zimbra", "aliases": [], "properties": {}, "source_chunks": ["BLOG-297::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-297::ch0"]}

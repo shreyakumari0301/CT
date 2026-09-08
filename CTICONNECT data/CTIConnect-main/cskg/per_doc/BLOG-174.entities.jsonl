@@ -1,0 +1,16 @@
+{"entity_type": "threat_actor", "canonical_name": "Lazarus", "aliases": ["North Korean APT Lazarus"], "properties": {"country": "North Korea", "sectors_targeted": ["engineering", "defense"], "primary_motivation": "cyberespionage"}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Operation In(ter)ception", "aliases": [], "properties": {"objective": "cyberespionage"}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "malware", "canonical_name": "safarifontagent", "aliases": [], "properties": {"platforms": ["macOS"]}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "malware", "canonical_name": "VHD ransomware", "aliases": ["VHD"], "properties": {}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "indicator", "canonical_name": "concrecapital.com/%user%.jpg", "aliases": ["concrecapital[.]com/%user%.jpg"], "properties": {"ioc_type": "url", "value": "concrecapital.com/%user%.jpg"}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Coinbase_online_careers_2022_07.pdf", "aliases": [], "properties": {"ioc_type": "hash", "value": "Coinbase_online_careers_2022_07.pdf"}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "malware", "canonical_name": "FinderFontsUpdater.app", "aliases": ["FinderFontsUpdater.app bundle"], "properties": {"platforms": ["macOS"]}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "identity", "canonical_name": "Coinbase", "aliases": [], "properties": {}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apple", "aliases": [], "properties": {}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "identity", "canonical_name": "Malwarebytes", "aliases": [], "properties": {}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "identity", "canonical_name": "Brazil", "aliases": [], "properties": {"region": "Brazil"}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "identity", "canonical_name": "North Korean regime", "aliases": [], "properties": {"region": "North Korea"}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spear-phishing"], "properties": {}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "identity", "canonical_name": "Tornado Cash", "aliases": [], "properties": {}, "source_chunks": ["BLOG-174::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Shankey Nohria", "aliases": ["“Shankey Nohria”"], "properties": {"ioc_type": "email", "value": "Shankey Nohria"}, "source_chunks": ["BLOG-174::ch0"]}

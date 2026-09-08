@@ -1,0 +1,26 @@
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "repurposes_update_server", "tgt_type": "indicator", "tgt_name": "sogouzhuyin.com", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Wikipedia", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "delivers", "tgt_type": "indicator", "tgt_name": "ZhuyinUp.exe", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Taiwan", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Eastern Asia", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "global Taiwanese diaspora", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "journalists", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "dissidents", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "researchers", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "business leaders", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "China", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Hong Kong", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Japan", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "South Korea", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "campaign", "src_name": "TAOTH operation", "predicate": "uses", "tgt_type": "tool", "tgt_name": "VS Code CLI", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "malware", "src_name": "TOSHIS", "predicate": "fetches", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "malware", "src_name": "TOSHIS", "predicate": "fetches", "tgt_type": "tool", "tgt_name": "Merlin", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "malware", "src_name": "GTELAM", "predicate": "uploads_to", "tgt_type": "identity", "tgt_name": "Google Drive", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "indicator", "src_name": "ZhuyinUp.exe", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "TOSHIS", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "indicator", "src_name": "ZhuyinUp.exe", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "DESFY", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "indicator", "src_name": "ZhuyinUp.exe", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "GTELAM", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "indicator", "src_name": "ZhuyinUp.exe", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "C6DOOR", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "indicator", "src_name": "f8845b49…18fc", "predicate": "indicator_of", "tgt_type": "malware", "tgt_name": "TOSHIS", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "indicator", "src_name": "90a9be7c…1106", "predicate": "indicator_of", "tgt_type": "malware", "tgt_name": "DESFY", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "detects", "tgt_type": "indicator", "tgt_name": "f8845b49…18fc", "source_chunks": ["BLOG-288::ch0"]}
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "detects", "tgt_type": "indicator", "tgt_name": "90a9be7c…1106", "source_chunks": ["BLOG-288::ch0"]}

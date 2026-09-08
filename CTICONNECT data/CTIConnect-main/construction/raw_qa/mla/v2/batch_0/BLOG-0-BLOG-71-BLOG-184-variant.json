@@ -1,0 +1,7 @@
+{
+  "question": "What are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- BlackCat\n- Munchkin\n- ExMatter\n- COBEACON\n- zzz.exe\n- xxx.exe\n- yyy.exe\n- sv.exe",
+  "llm_timing": {
+    "api_call_seconds": 9.9269
+  }
+}

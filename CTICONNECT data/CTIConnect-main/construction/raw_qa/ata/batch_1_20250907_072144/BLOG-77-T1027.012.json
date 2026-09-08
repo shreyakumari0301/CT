@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"These pictures are actually Windows shortcut files masquerading as PNG image files. Also, a file named e-yazi.docx.exe. However, whitespace was added between the .docx and .exe, resulting in the file appearing as a document file. Additionally, a legitimate copy of Microsoft Word named windoc.exe was included to further obscure the malicious payload.\" Identify the MITRE ATT&CK category that maps this behavior and explain the mapping; also, which telemetry/log data sources (e.g., File Metadata, File Creation) can be used to catch this activity?",
+  "answer": "1) MITRE ATT&CK Category: T1027.012 - LNK Icon Smuggling. 2) Mapping Explanation: The technique involves disguising malicious files by manipulating file attributes and using misleading naming conventions (e.g., double extensions, added whitespace), which aligns with how LNK Icon Smuggling obscures malicious payloads. 3) Data Sources: File Metadata and File Creation.",
+  "llm_timing": {
+    "api_call_seconds": 5.2059
+  }
+}

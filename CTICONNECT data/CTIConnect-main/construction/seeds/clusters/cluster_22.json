@@ -1,0 +1,234 @@
+{
+  "cluster_id": 22,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 317,
+      "node": [
+        {
+          "node_text": "APT27",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cobalt Strike beacon",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Late 2023",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Sogou",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Sogou Zhuyin Windows update server",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SogouZhuyinUpdater.exe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1003.001",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1041",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1071.001",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1195.002",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Taiwan-focused espionage operation",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Zhuyin support",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "custom backdoor",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "mid-2022",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "trojanized updater",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "GitHub C2 Espionage",
+      "platform": "trellix",
+      "type": "campaign",
+      "publish_date": "2025/8/18"
+    },
+    {
+      "blog_id": 301,
+      "node": [
+        {
+          "node_text": "ANEL",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "APT10",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "AsyncRAT variant",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Central European diplomatic institute",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "HiddenFace",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "JSAC presentation",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "January 2025",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "June 2024",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "JustSystems",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "McAfee",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MirrorFace APT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Operation AkaiRyū",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "September 2024",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Visual Studio Code remote tunnels",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Windows Sandbox",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Word",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "file manipulation",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "malicious links",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "payload execution",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "screenshots",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "spearphishing",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "GitHub C2 Espionage",
+      "platform": "gbhackers",
+      "type": "campaign",
+      "publish_date": "2025/8/19"
+    },
+    {
+      "blog_id": 291,
+      "node": [
+        {
+          "node_text": "APT operators",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2025-2783",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Chrome 134.0.6998.177",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Google",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "K7 Security Labs",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Operation ForumTroll",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "encrypted custom-obfuscated C2 channels",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "primakovreadings.info",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "registry keys",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "sandbox protections",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "scheduled tasks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "system-level remote code execution",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "two-stage malware chain",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "GitHub C2 Espionage",
+      "platform": "cybersecuritynews",
+      "type": "campaign",
+      "publish_date": "2025/8/19"
+    }
+  ]
+}

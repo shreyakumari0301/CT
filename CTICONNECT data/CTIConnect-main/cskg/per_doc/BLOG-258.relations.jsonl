@@ -1,0 +1,11 @@
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "iMessage", "source_chunks": ["BLOG-258::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "iOS", "source_chunks": ["BLOG-258::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "*.icloud-content.com", "source_chunks": ["BLOG-258::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "addatamarket.net", "source_chunks": ["BLOG-258::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "backuprabbit.com", "source_chunks": ["BLOG-258::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "cloudsponcer.com", "source_chunks": ["BLOG-258::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "mapped_to_framework", "tgt_type": "identity", "tgt_name": "MITRE ATT&CK", "source_chunks": ["BLOG-258::ch0"]}
+{"src_type": "tool", "src_name": "Kaspersky’s Unified Monitoring and Analysis Platform (KUMA)", "predicate": "used_with", "tgt_type": "tool", "tgt_name": "iTunes", "source_chunks": ["BLOG-258::ch0"]}
+{"src_type": "tool", "src_name": "Kaspersky’s Unified Monitoring and Analysis Platform (KUMA)", "predicate": "used_with", "tgt_type": "tool", "tgt_name": "idevicebackup2", "source_chunks": ["BLOG-258::ch0"]}
+{"src_type": "tool", "src_name": "Mobile Verification Toolkit (mvt-ios)", "predicate": "parses_backups_from", "tgt_type": "tool", "tgt_name": "iTunes", "source_chunks": ["BLOG-258::ch0"]}
+{"src_type": "tool", "src_name": "Mobile Verification Toolkit (mvt-ios)", "predicate": "parses_backups_from", "tgt_type": "tool", "tgt_name": "idevicebackup2", "source_chunks": ["BLOG-258::ch0"]}

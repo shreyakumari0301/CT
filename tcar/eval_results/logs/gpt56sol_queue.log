@@ -1,0 +1,31 @@
+[2026-09-04T10:18:51Z] Queue armed for openai/gpt-5.6-sol; polling every 120s
+[2026-09-04T10:21:27Z] probe rc=1 WAIT APIStatusError Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402, 'met
+[2026-09-04T10:24:22Z] probe rc=1 WAIT APIStatusError Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402, 'met
+[2026-09-04T10:27:09Z] probe rc=1 WAIT APIStatusError Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402, 'met
+[2026-09-04T15:46:54Z] probe rc=1 WAIT APIStatusError Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402, 'met
+[2026-09-04T15:52:13Z] probe rc=1 WAIT APIStatusError Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402, 'met
+[2026-09-04T15:52:59Z] Queue armed for openai/gpt-5.6-sol; tasks=rcm,ate,mcq,vsp; polling every 120s
+[2026-09-04T15:53:44Z] probe rc=1 WAIT APIStatusError Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402, 'met
+[2026-09-04T15:56:25Z] probe rc=1 WAIT APIStatusError Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402, 'met
+[2026-09-04T15:59:03Z] probe rc=1 WAIT APIStatusError Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402, 'met
+[2026-09-04T16:01:50Z] probe rc=1 WAIT APIStatusError Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402, 'met
+[2026-09-04T16:05:01Z] probe rc=1 WAIT APIStatusError Error code: 402 - {'error': {'message': 'Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits', 'code': 402, 'met
+[2026-09-04T16:07:48Z] probe rc=0 READY OK
+[2026-09-04T16:07:49Z] Credits OK — starting CB / Forced RAG / Force GAD for rcm,ate,mcq,vsp
+[2026-09-04T16:07:49Z] === Forced RAG (CB + Forced CTA-RAG) ===
+counterfactual_ctibench_rcm_20260904Tgpt56sol_forced_rag_cb:   0%|          | 0/1000 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A
+Loading weights:  24%|██▍       | 25/103 [00:00<00:00, 247.17it/s][A
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A
+
+Loading weights:   6%|▌         | 6/103 [00:00<00:01, 59.40it/s][A[A
+Loading weights:  49%|████▊     | 50/103 [00:00<00:00, 141.95it/s][A
+
+Loading weights:  18%|█▊        | 19/103 [00:00<00:00, 98.47it/s][A[A
+Loading weights:  74%|███████▍  | 76/103 [00:00<00:00, 179.24it/s][A
+
+Loading weights:  85%|████████▌ | 88/103 [00:00<00:00, 360.16it/s][A[ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 220.05it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 324.75it/s]
+counterfactual_ctibench_rcm_20260904Tgpt56sol_forced_rag_cb:   0%|          | 1/1000 [05:19<88:41:31, 319.61s/it]counterfactual_ctibench_rcm_20260904Tgpt56sol_forced_rag_cb:   0%|          | 3/1000 [05:27<23:46:11, 85.83s/it] counterfactual_ctibench_rcm_20260904Tgpt56sol_forced_rag_cb:   0%|          | 4/1000 [05:35<16:17:56, 58.91s/it]counterfactual_ctibench_rcm_20260904Tgpt56sol_forced_rag_cb:   0%|          | 5/1000 [05:38<11:08:29, 40.31s/it]counterfactual_ctibench_rcm_20260904Tgpt56sol_forced_rag_cb:   1%|          | 6/1000 [05:48<8:26:24, 30.57s/it] 

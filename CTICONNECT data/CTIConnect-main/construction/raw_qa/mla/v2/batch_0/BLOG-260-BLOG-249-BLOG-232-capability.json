@@ -1,0 +1,7 @@
+{
+  "question": "Across the evolution from the initial variants to the latest ones, what is the most notable new capability that emerged?",
+  "answer": "- Originating as a code-reused successor to INC ransomware in a Ransomware-as-a-Service model\n- Expanded targeting from finance and manufacturing into energy, retail, law firms and utilities\n- Employed increasingly sophisticated double-extortion, combining data exfiltration with leak-site threats\n- Most notable new capability: introduction of granular command-line flags enabling precise control over encryption behavior and automated process/service termination",
+  "llm_timing": {
+    "api_call_seconds": 14.2256
+  }
+}

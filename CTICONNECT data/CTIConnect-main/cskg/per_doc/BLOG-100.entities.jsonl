@@ -1,0 +1,12 @@
+{"entity_type": "threat_actor", "canonical_name": "UNC-0050", "aliases": [], "properties": {"primary_motivation": "politically motivated"}, "source_chunks": ["BLOG-100::ch0"]}
+{"entity_type": "campaign", "canonical_name": "RemcosRAT campaign", "aliases": ["new RemcosRAT campaign"], "properties": {"objective": "Ukraine-focused intelligence collection"}, "source_chunks": ["BLOG-100::ch0"]}
+{"entity_type": "malware", "canonical_name": "RemcosRAT", "aliases": ["RemcosRAT—an RAT"], "properties": {"family": "RemcosRAT", "capabilities": ["remote surveillance", "system and user data exfiltration", "backdoor command execution", "evasion of antivirus and EDR tools"], "platforms": ["Windows"], "first_seen": "2016"}, "source_chunks": ["BLOG-100::ch0"]}
+{"entity_type": "indicator", "canonical_name": "6.hta", "aliases": ["a 6.hta HTML app"], "properties": {"ioc_type": "hash", "value": "6.hta"}, "source_chunks": ["BLOG-100::ch0"]}
+{"entity_type": "indicator", "canonical_name": "word_update.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "word_update.exe"}, "source_chunks": ["BLOG-100::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ofer.docx", "aliases": [], "properties": {"ioc_type": "hash", "value": "ofer.docx"}, "source_chunks": ["BLOG-100::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian government agencies", "aliases": [], "properties": {"sector": "government", "region": "Ukraine"}, "source_chunks": ["BLOG-100::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israeli Defense Forces", "aliases": [], "properties": {"sector": "military", "region": "Israel"}, "source_chunks": ["BLOG-100::ch0"]}
+{"entity_type": "identity", "canonical_name": "Uptycs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-100::ch0"]}
+{"entity_type": "identity", "canonical_name": "Karthickkumar Kathiresan", "aliases": [], "properties": {}, "source_chunks": ["BLOG-100::ch0"]}
+{"entity_type": "identity", "canonical_name": "Shilpesh Trivedi", "aliases": [], "properties": {}, "source_chunks": ["BLOG-100::ch0"]}
+{"entity_type": "identity", "canonical_name": "CERT-UA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-100::ch0"]}

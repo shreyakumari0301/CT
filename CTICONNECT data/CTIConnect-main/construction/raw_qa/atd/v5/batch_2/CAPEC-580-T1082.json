@@ -1,0 +1,23 @@
+{
+  "question": "An adversary actively probes and explores a remote target to learn security-relevant details about the system, often by probing remotely accessible applications for configuration information. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1082.\n- T1082 corresponds to discovering system details, mapping CAPEC-580: actively probing remote systems/applications to determine security-relevant configuration information.",
+  "llm_cost": {
+    "input": 0.00072,
+    "cached_input": 0.0,
+    "output": 0.00103,
+    "total": 0.00175,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 576,
+      "cached_input": 0,
+      "output": 103
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3395
+  }
+}

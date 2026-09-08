@@ -1,0 +1,14 @@
+{"entity_type": "identity", "canonical_name": "Symantec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Budworm APT", "aliases": ["Budworm", "LuckyMouse", "APT27"], "properties": {"primary_motivation": "intelligence-gathering", "sectors_targeted": ["government", "telecom"], "first_seen": "2018", "last_seen": "August 2023"}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "malware", "canonical_name": "SysUpdate", "aliases": ["SysUpdate backdoor"], "properties": {"family": "SysUpdate", "capabilities": ["service control", "process control", "screenshot capture", "drive reconnaissance", "file operations", "arbitrary command execution"], "platforms": ["Linux"], "first_seen": "2020"}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "indicator", "canonical_name": "inicore_v2.3.30.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "inicore_v2.3.30.dll"}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "tool", "canonical_name": "INISafeWebSSO", "aliases": ["INISafeWebSSO app"], "properties": {}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL sideloading", "aliases": [], "properties": {}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle Eastern telecom", "aliases": [], "properties": {"sector": "telecom", "region": "Middle East"}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "identity", "canonical_name": "Asian government", "aliases": [], "properties": {"sector": "government", "region": "Asia"}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "tool", "canonical_name": "AdFind", "aliases": [], "properties": {}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "tool", "canonical_name": "Curl", "aliases": [], "properties": {}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "tool", "canonical_name": "SecretsDump", "aliases": [], "properties": {}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "tool", "canonical_name": "PasswordDumper", "aliases": [], "properties": {}, "source_chunks": ["BLOG-131::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential harvesting", "aliases": ["harvesting credentials"], "properties": {}, "source_chunks": ["BLOG-131::ch0"]}

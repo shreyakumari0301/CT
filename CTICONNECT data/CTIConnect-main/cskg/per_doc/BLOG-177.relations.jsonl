@@ -1,0 +1,16 @@
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "released_workaround_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-3019", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-3019", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Microsoft Support Diagnostic Tool", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-3019", "predicate": "exposes", "tgt_type": "identity", "tgt_name": "Windows", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-3019", "predicate": "exposes", "tgt_type": "identity", "tgt_name": "Office 2013–365", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "identity", "src_name": "Russia", "predicate": "leveraged", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-3019", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "identity", "src_name": "Tibet", "predicate": "leveraged", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-3019", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "identity", "src_name": "Belarus", "predicate": "leveraged", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-3019", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "identity", "src_name": "Shadow Chaser Group", "predicate": "traced", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-3019", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "identity", "src_name": "Recorded Future", "predicate": "traced", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-3019", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "identity", "src_name": "Malwarebytes", "predicate": "confirmed", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-3019", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "identity", "src_name": "Nao Sec", "predicate": "alerted_on", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-3019", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "identity", "src_name": "Kevin Beaumont", "predicate": "alerted_on", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-3019", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "tool", "src_name": "Office Protected View", "predicate": "safeguards_against", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-3019", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "tool", "src_name": "Application Guard", "predicate": "safeguards_against", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-3019", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "campaign", "src_name": "lure campaigns impersonating the Central Tibetan Administration’s “Women Empowerment Desk”", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "Women Empowerment Desk", "source_chunks": ["BLOG-177::ch0"]}
+{"src_type": "campaign", "src_name": "lure campaigns impersonating the Central Tibetan Administration’s “Women Empowerment Desk”", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "Central Tibetan Administration", "source_chunks": ["BLOG-177::ch0"]}

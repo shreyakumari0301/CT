@@ -1,0 +1,28 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "traced_attribution_to", "tgt_type": "identity", "tgt_name": "iSoon", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "conducts_campaign", "tgt_type": "campaign", "tgt_name": "FishMedley", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential theft", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "gains", "tgt_type": "attack_pattern", "tgt_name": "Domain administrator access", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "ShadowPad", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Spyder loader", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "SodaMaster", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "uses", "tgt_type": "tool", "tgt_name": "RPipeCommander", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "governmental bodies", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Catholic charities", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "NGOs", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "think tanks", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Taiwan", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Hungary", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Turkey", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Thailand", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "the U.S.", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "France", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "exfiltrates", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration of confidential data", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "campaign", "src_name": "FishMedley", "predicate": "attributed_to", "tgt_type": "identity", "tgt_name": "iSoon", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "identity", "src_name": "iSoon", "predicate": "also_known_as", "tgt_type": "identity", "tgt_name": "Axun Information Technology", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "identity", "src_name": "iSoon", "predicate": "operating_under", "tgt_type": "identity", "tgt_name": "Ministry of Public Security", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "identity", "src_name": "iSoon", "predicate": "operating_under", "tgt_type": "identity", "tgt_name": "Ministry of State Security", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "identity", "src_name": "iSoon", "predicate": "operating_under", "tgt_type": "identity", "tgt_name": "PLA", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "identity", "src_name": "U.S. DOJ", "predicate": "added_members_to_most_wanted_list", "tgt_type": "identity", "tgt_name": "FBI", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Domain administrator access", "source_chunks": ["BLOG-296::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Credential theft", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Domain administrator access", "source_chunks": ["BLOG-296::ch0"]}

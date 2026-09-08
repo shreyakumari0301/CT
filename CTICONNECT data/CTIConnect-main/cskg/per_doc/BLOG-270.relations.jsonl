@@ -1,0 +1,9 @@
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "critical-infrastructure organizations", "source_chunks": ["BLOG-270::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "United States", "source_chunks": ["BLOG-270::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "nuclear firms", "source_chunks": ["BLOG-270::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense firms", "source_chunks": ["BLOG-270::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "energy firms", "source_chunks": ["BLOG-270::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "financial firms", "source_chunks": ["BLOG-270::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Microsoft Word", "source_chunks": ["BLOG-270::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Rising Sun", "source_chunks": ["BLOG-270::ch0"]}
+{"src_type": "malware", "src_name": "Rising Sun", "predicate": "derived_from", "tgt_type": "threat_actor", "tgt_name": "Lazarus Group", "source_chunks": ["BLOG-270::ch0"]}

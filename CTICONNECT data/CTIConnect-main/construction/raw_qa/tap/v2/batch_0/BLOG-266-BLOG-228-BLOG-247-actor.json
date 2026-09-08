@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports? Additionally, what are its primary sponsors, targets, and tactics?",
+  "answer": "- Canonical Threat Actor Name: Salt Typhoon\n- Aliases: GhostEmperor, Operator Panda, RedMike, UNC5807\n- Sponsoring Entities: Chinese intelligence services (Ministry of State Security, PLA) with contractor affiliates Sichuan Juxinhe, Beijing Huanyu Tianqiong, Sichuan Zhixin Ruijie\n- Primary Targets: Telecom, government, transportation, lodging and military networks in the US, Canada, UK, Australia, New Zealand and globally\n- Objectives: Long-term espionage (communications interception, metadata harvesting) and pre-positioning for disruptive/infrastructure-crippling attacks\n- Key Tactics & Techniques: Exploitation of known edge-device vulnerabilities (CVE-2018-0171, CVE-2023-20198, CVE-2023-20273, CVE-2024-21887, CVE-2024-3400); ACL tampering; BGP route hijacks; GRE/IPsec tunnels; Cisco Guest Shell abuse; privileged account creation; log deletion; peering-link abuse for exfiltration\n- Notable Tools: Custom Golang SFTP implants (\u201ccmd1,\u201d \u201ccmd3,\u201d \u201cnew2,\u201d \u201csft\u201d) and open-source multi-hop tunneling utilities\n- Persistence & Evasion: Enabling non-standard ports, disabling logging, deleting logs, creating hidden admin accounts",
+  "llm_timing": {
+    "api_call_seconds": 13.5997
+  }
+}

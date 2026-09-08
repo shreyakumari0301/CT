@@ -1,0 +1,35 @@
+{"entity_type": "identity", "canonical_name": "Microsoft Threat Intelligence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Storm-0569", "aliases": [], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Storm-1113", "aliases": [], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "FIN7", "aliases": ["Sangria Tempest", "Carbanak Group", "Carbon Spider", "ATK32"], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Storm-1674", "aliases": [], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Abuse of ms-appinstaller URI scheme", "aliases": ["ms-appinstaller URI scheme"], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Abuse of MSIX file format", "aliases": ["MSIX file format"], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SEO poisoning", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Malvertising", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Search ad impersonation", "aliases": ["search ads mimicking Zoom"], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Teams-based phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zoom", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "identity", "canonical_name": "Tableau", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "identity", "canonical_name": "TeamViewer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "BATLOADER", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "tool", "canonical_name": "App Installer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["Cobalt Strike Beacons", "CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rclone", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "Black Basta", "aliases": ["Black Basta ransomware"], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "EugenLoader", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "Gozi", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "RedLine", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "IcedID", "aliases": ["BokBot", "Bokbot"], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "Smoke Loader", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "tool", "canonical_name": "NetSupport RAT", "aliases": ["NetSupport"], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "SectopRAT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "Lumma stealer", "aliases": ["Lumma"], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "Carbanak", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "Gracewire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "POWERTRASH", "aliases": ["POWERTRASH scripts"], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "tool", "canonical_name": "Teams", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "malware", "canonical_name": "DarkGate", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "tool", "canonical_name": "SmartScreen", "aliases": ["Defender SmartScreen"], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}
+{"entity_type": "tool", "canonical_name": "Safe Links", "aliases": [], "properties": {}, "source_chunks": ["BLOG-54::ch0"]}

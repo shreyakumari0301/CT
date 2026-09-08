@@ -1,0 +1,23 @@
+{
+  "question": "An application uses a random number generator whose output can be predicted because it relies on a predictable algorithm. Which CAPEC attack pattern exploits this weakness, and why can it leverage predictability to break security assumptions?",
+  "answer": "- CAPEC-97.\n- CAPEC-97 exploits predictable random generation, targeting CWE-1241: use of a predictable algorithm in a random number generator.",
+  "llm_cost": {
+    "input": 0.000834,
+    "cached_input": 0.0,
+    "output": 0.0009,
+    "total": 0.001734,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 667,
+      "cached_input": 0,
+      "output": 90
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.898
+  }
+}

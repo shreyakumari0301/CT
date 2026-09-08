@@ -1,0 +1,9 @@
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "Google Ads hijacking campaign", "source_chunks": ["BLOG-312::ch0"]}
+{"src_type": "campaign", "src_name": "Google Ads hijacking campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "finance organizations", "source_chunks": ["BLOG-312::ch0"]}
+{"src_type": "campaign", "src_name": "Google Ads hijacking campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "hospitality organizations", "source_chunks": ["BLOG-312::ch0"]}
+{"src_type": "campaign", "src_name": "Google Ads hijacking campaign", "predicate": "uses_keywords", "tgt_type": "identity", "tgt_name": "retail-related keywords", "source_chunks": ["BLOG-312::ch0"]}
+{"src_type": "campaign", "src_name": "Google Ads hijacking campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-312::ch0"]}
+{"src_type": "campaign", "src_name": "Google Ads hijacking campaign", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "NetSupport RAT", "source_chunks": ["BLOG-312::ch0"]}
+{"src_type": "malware", "src_name": "NetSupport RAT", "predicate": "used_by", "tgt_type": "threat_actor", "tgt_name": "FIN7", "source_chunks": ["BLOG-312::ch0"]}
+{"src_type": "malware", "src_name": "NetSupport RAT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-312::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "downloads", "tgt_type": "malware", "tgt_name": "NetSupport RAT", "source_chunks": ["BLOG-312::ch0"]}

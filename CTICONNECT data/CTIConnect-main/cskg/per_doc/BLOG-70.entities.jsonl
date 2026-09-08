@@ -1,0 +1,9 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-70::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Contagious Interview", "aliases": ["CL-STA-0240"], "properties": {"first_seen": "December 2022"}, "source_chunks": ["BLOG-70::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Wagemole", "aliases": ["CL-STA-0241"], "properties": {"first_seen": "March 2023"}, "source_chunks": ["BLOG-70::ch0"]}
+{"entity_type": "identity", "canonical_name": "North Korea", "aliases": ["DPRK"], "properties": {"region": "North Korea"}, "source_chunks": ["BLOG-70::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. organizations", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-70::ch0"]}
+{"entity_type": "identity", "canonical_name": "global organizations", "aliases": [], "properties": {}, "source_chunks": ["BLOG-70::ch0"]}
+{"entity_type": "malware", "canonical_name": "BeaverTail", "aliases": [], "properties": {"platforms": ["JavaScript"]}, "source_chunks": ["BLOG-70::ch0"]}
+{"entity_type": "malware", "canonical_name": "InvisibleFerret", "aliases": [], "properties": {"platforms": ["Python", "cross-platform"]}, "source_chunks": ["BLOG-70::ch0"]}
+{"entity_type": "tool", "canonical_name": "Node.js", "aliases": [], "properties": {}, "source_chunks": ["BLOG-70::ch0"]}

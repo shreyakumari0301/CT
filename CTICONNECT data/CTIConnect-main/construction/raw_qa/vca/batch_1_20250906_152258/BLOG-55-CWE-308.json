@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Remote access accounts configured without MFA increased susceptibility to credential compromise and persistence.' Can you identify the CWE category that maps to this vulnerability and explain the mapping? Also, what are the common consequences (e.g., what business risks such as data exposure or account takeover) associated with this CWE?",
+  "answer": "1) CWE-308: Use of Single-factor Authentication  \n2) Mapping Explanation: The scenario describes remote access accounts configured without multi-factor authentication (MFA), meaning authentication relies on only one factor (e.g., a password). This matches CWE-308 because the weakness is the use of single-factor authentication where stronger, multi-factor authentication is needed to reduce the risk of credential compromise and unauthorized access.  \n3) Common consequences / business risks: Increased likelihood of account takeover from stolen or guessed credentials, unauthorized remote access, persistence by attackers using compromised accounts, and resulting data exposure or misuse of systems and services accessible through those accounts.",
+  "llm_timing": {
+    "api_call_seconds": 10.5933
+  }
+}

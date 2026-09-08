@@ -1,0 +1,16 @@
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "uncovered", "tgt_type": "malware", "tgt_name": "Kazuar", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "released_appendix_on", "tgt_type": "identity", "tgt_name": "GitHub", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "recommends", "tgt_type": "tool", "tgt_name": "Palo Alto Networks NGFW Advanced Threat Prevention", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "recommends", "tgt_type": "tool", "tgt_name": "Cortex XDR", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "recommends", "tgt_type": "tool", "tgt_name": "XSIAM", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "recommends", "tgt_type": "tool", "tgt_name": "Advanced WildFire", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "recommends", "tgt_type": "identity", "tgt_name": "Unit 42 incident response engagement", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "Palo Alto Networks", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "malware", "src_name": "Kazuar", "predicate": "previously_observed_as_second_stage_payload_by", "tgt_type": "threat_actor", "tgt_name": "Turla", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "malware", "src_name": "Kazuar", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian defense organizations", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "malware", "src_name": "Kazuar", "predicate": "steals_messages_from", "tgt_type": "identity", "tgt_name": "Signal", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "malware", "src_name": "Kazuar", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ConfuserEx", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "malware", "src_name": "Kazuar", "predicate": "code_overlap_with", "tgt_type": "malware", "tgt_name": "Sunburst", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "linked_to", "tgt_type": "identity", "tgt_name": "Russian Federal Security Service", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "malware", "src_name": "Capibar", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Kazuar", "source_chunks": ["BLOG-84::ch0"]}
+{"src_type": "malware", "src_name": "Capibar", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian defense organizations", "source_chunks": ["BLOG-84::ch0"]}

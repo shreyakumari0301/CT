@@ -1,0 +1,23 @@
+{
+  "question": "An attacker changes file contents or attributes like names or extensions so an application processes the file incorrectly, potentially causing instability, data exposure, overwrites, or code execution under the application's privileges. This is not primarily about altering configuration values or forcing the app to search non-default paths, but about triggering non-standard processing (e.g., wrong interpreter usage). Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1036.003.\n- T1036.003 corresponds to renaming utilities, mapping CAPEC-165: manipulating file names/extensions to induce incorrect processing by applications.",
+  "llm_cost": {
+    "input": 0.000878,
+    "cached_input": 0.0,
+    "output": 0.00143,
+    "total": 0.002308,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 702,
+      "cached_input": 0,
+      "output": 143
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.4902
+  }
+}

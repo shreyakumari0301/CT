@@ -1,0 +1,16 @@
+{"src_type": "identity", "src_name": "JetBrains", "predicate": "released_patches_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-27198", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "identity", "src_name": "JetBrains", "predicate": "released_patches_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-27199", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-27198", "predicate": "affects", "tgt_type": "tool", "tgt_name": "TeamCity", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-27198", "predicate": "is_type_of", "tgt_type": "attack_pattern", "tgt_name": "Authentication Bypass", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-27198", "predicate": "led_to", "tgt_type": "attack_pattern", "tgt_name": "Data Encrypted for Impact", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-27198", "predicate": "led_to", "tgt_type": "attack_pattern", "tgt_name": "Endpoint Denial of Service", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-27199", "predicate": "affects", "tgt_type": "tool", "tgt_name": "TeamCity", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-27199", "predicate": "is_type_of", "tgt_type": "attack_pattern", "tgt_name": "Authentication Bypass", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "identity", "src_name": "Rapid7", "predicate": "publicly_detailed", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-27198", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "identity", "src_name": "Rapid7", "predicate": "publicly_detailed", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-27199", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "identity", "src_name": "LeakIX", "predicate": "recorded_exploitation_of", "tgt_type": "attack_pattern", "tgt_name": "Create Account", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "identity", "src_name": "GuidePoint Security", "predicate": "linked", "tgt_type": "threat_actor", "tgt_name": "BianLian", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "threat_actor", "src_name": "BianLian", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-27198", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "threat_actor", "src_name": "BianLian", "predicate": "uses_for_initial_access", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-27198", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Authentication Bypass", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Create Account", "source_chunks": ["BLOG-125::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Authentication Bypass", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Create Access Token", "source_chunks": ["BLOG-125::ch0"]}

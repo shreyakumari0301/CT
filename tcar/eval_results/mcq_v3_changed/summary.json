@@ -1,0 +1,77 @@
+{
+  "attack_bundle": {
+    "bundles": [
+      {
+        "path": "/mnt/c/Users/SK/CTI-Chatbot/data/ctibench_taa/enterprise-attack.json",
+        "domain": "enterprise",
+        "n_relationships": 21262,
+        "attack_spec_version": "3.3.0",
+        "matrix_version": "2.0",
+        "matrix_modified": "2026-07-31T18:48:31.315Z",
+        "matrix_name": "Enterprise ATT&CK"
+      },
+      {
+        "path": "/mnt/c/Users/SK/CTI-Chatbot/data/ctibench_taa/ics-attack.json",
+        "domain": "ics",
+        "n_relationships": 1667,
+        "attack_spec_version": "3.3.0",
+        "matrix_version": "1.0",
+        "matrix_modified": "2026-07-31T20:48:58.509Z",
+        "matrix_name": "ATT&CK for ICS"
+      },
+      {
+        "path": "/mnt/c/Users/SK/CTI-Chatbot/data/ctibench_taa/mobile-attack.json",
+        "domain": "mobile",
+        "n_relationships": 1889,
+        "attack_spec_version": "3.3.0",
+        "matrix_version": "2.0",
+        "matrix_modified": "2026-07-31T20:48:58.758Z",
+        "matrix_name": "Mobile ATT&CK"
+      }
+    ],
+    "n_relationships": 24818,
+    "attack_spec_version": "3.3.0",
+    "note": "Deployment-oriented multi-domain ATT&CK STIX (Enterprise+ICS+Mobile). Catalogue may post-date CTIBench construction \u2014 report as such."
+  },
+  "n_total": 2500,
+  "n_changed": 1548,
+  "n_unchanged_fallback": 952,
+  "n_control": 100,
+  "n_regen": 1648,
+  "decision_source_counts": {
+    "semantic": 1326,
+    "STIX": 222,
+    "fallback": 952
+  },
+  "relation_counts": {
+    "mitigation": 547,
+    "datasource": 190,
+    "detection": 163,
+    "group": 365,
+    "software": 168,
+    "tactic": 88,
+    "generic": 952,
+    "platform": 27
+  },
+  "changed_by_effect": {
+    "rescue": 168,
+    "neutral_wrong": 293,
+    "neutral_correct": 1049,
+    "damage": 38
+  },
+  "threatened_rescue_ids_prior_offline": [
+    "mcq-276",
+    "mcq-78",
+    "mcq-830"
+  ],
+  "deterministic_offline_projection": {
+    "n_stix": 222,
+    "damages_fixed": 10,
+    "both_wrong_recovered": 39,
+    "rescues_threatened": 5,
+    "net": 44,
+    "projected_rag": 0.8044,
+    "note": "STIX-only swaps after ICS+Mobile merge; still development-tainted gate. Not a final Acc claim. Prefer \u226581% after regen."
+  },
+  "reuse_policy": "fallback path uses option_aware retrieval identical to v2; stored v2 answers may be reused for those IDs."
+}

@@ -1,0 +1,7 @@
+{
+  "question": "What malware families, threat groups, or vulnerability IDs are mentioned across these Operation Triangulation reports?",
+  "answer": "- Malware/Implant Names: TriangleDB spyware implant, root-level APT payload, IMTransferAgent, BackupAgent\n- Threat Actor Group/Campaign: Operation Triangulation\n- Vulnerability IDs: CVE-2023-41990, CVE-2023-32434, CVE-2023-38606, CVE-2023-32435",
+  "llm_timing": {
+    "api_call_seconds": 10.7932
+  }
+}

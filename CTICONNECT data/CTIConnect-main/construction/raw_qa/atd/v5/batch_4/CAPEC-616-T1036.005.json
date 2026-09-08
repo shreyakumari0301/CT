@@ -1,0 +1,23 @@
+{
+  "question": "An adversary hosts a malicious resource at a location that closely resembles the expected location of a legitimate resource, then waits for a victim to visit and access it. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1036.005.\n- T1036.005 corresponds to matching legitimate resource location, mapping CAPEC-616: establishing a lookalike location hosting a malicious resource.",
+  "llm_cost": {
+    "input": 0.000741,
+    "cached_input": 0.0,
+    "output": 0.00107,
+    "total": 0.001811,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 593,
+      "cached_input": 0,
+      "output": 107
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4877
+  }
+}

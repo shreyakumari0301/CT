@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Stolen credentials were sufficient to access exposed RDP and other services, indicating lack of MFA on remote access paths.\" Can you please identify the CWE category for this vulnerability and explain how the lack of multi-factor authentication maps to that CWE? Additionally, what detection methods are provided for this CWE (e.g., do we need manual testing or red-team activity to confirm)?",
+  "answer": "1. CWE Category: CWE-308 (Use of Single-factor Authentication)\n2. Mapping Explanation: The vulnerability is due to assets being accessible via remote paths without multi-factor authentication, meaning that a single authentication mechanism was used. This directly aligns with CWE-308, which pertains to the risks associated with using only a single factor for authentication.\n3. Detection Methods: The CWE reference does not provide any specific detection methods (Detection_Methods is null), so further manual analysis or red-team assessments would be necessary to confirm the presence of this vulnerability.",
+  "llm_timing": {
+    "api_call_seconds": 6.3517
+  }
+}

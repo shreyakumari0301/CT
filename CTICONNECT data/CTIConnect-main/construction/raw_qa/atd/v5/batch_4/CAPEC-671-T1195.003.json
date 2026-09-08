@@ -1,0 +1,23 @@
+{
+  "question": "An adversary with access to an ASIC's functional requirements maliciously modifies them so the manufactured chip includes malicious functionality, fails requirements, or behaves anomalously. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.003.\n- T1195.003 corresponds to compromising hardware production, mapping CAPEC-671: altering ASIC requirements to embed malicious or anomalous chip behavior.",
+  "llm_cost": {
+    "input": 0.000804,
+    "cached_input": 0.0,
+    "output": 0.00106,
+    "total": 0.001864,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 643,
+      "cached_input": 0,
+      "output": 106
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7548
+  }
+}

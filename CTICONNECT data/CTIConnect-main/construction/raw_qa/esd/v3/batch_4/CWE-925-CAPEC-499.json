@@ -1,0 +1,23 @@
+{
+  "question": "In an Android app, a broadcast receiver processes incoming broadcasts without adequately confirming the sender\u2019s intent or authorization, so a malicious app could send or intercept broadcasts to influence behavior or access data. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-499.\n- CAPEC-499 exploits unverified broadcast receiver intent handling, targeting CWE-925: improper verification of intent by broadcast receiver.",
+  "llm_cost": {
+    "input": 0.00079,
+    "cached_input": 0.0,
+    "output": 0.00101,
+    "total": 0.0018,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 632,
+      "cached_input": 0,
+      "output": 101
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6981
+  }
+}

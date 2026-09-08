@@ -1,0 +1,61 @@
+[2026-09-06T09:50:35Z] CTA-RAG E2E model=gpt-5.6-sol mode=router workers=1 tasks=mcq,vsp
+[2026-09-06T09:50:35Z] RUN ctibench router mcq
+launched ctibench router mcq pid=4174
+[2026-09-06T09:50:36Z] RUN ctibench router vsp
+launched ctibench router vsp pid=4186
+[2026-09-06T09:50:36Z] All CTA-RAG E2E jobs launched (background). Monitor: tcar/eval_results/logs/gpt56sol_cta_e2e.log
+
+=== CTI-VSP | router (gold pipeline=problem_solving) | n=1000 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-vsp.tsv
+
+=== CTI-MCQ | router (gold pipeline=memorization) | n=2500 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-mcq.tsv
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 503, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 496, in main
+    run_task(t, limit, args.out_dir, args.route_mode, args.workers)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 304, in run_task
+    get_pipeline_runner(gold_pipeline)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 131, in get_pipeline_runner
+    from pipelines import memorization_pipeline as mod
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/memorization_pipeline.py", line 89, in <module>
+    _pipeline_instance = MemorizationPipeline()
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/memorization_pipeline.py", line 21, in __init__
+    self.vector_db = self._load_vector_db()
+                     ~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/memorization_pipeline.py", line 29, in _load_vector_db
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/__init__.py", line 10, in <module>
+    from sentence_transformers.backend import (
+    ...<3 lines>...
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/__init__.py", line 3, in <module>
+    from .load import load_onnx_model, load_openvino_model
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/load.py", line 7, in <module>
+    from transformers.configuration_utils import PretrainedConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/__init__.py", line 811, in <module>
+    import_structure = define_import_structure(Path(__file__).parent / "models", prefix="models")
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/utils/import_utils.py", line 3306, in define_import_structure
+    import_structure = create_import_structure_from_path(module_path)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/utils/import_utils.py", line 3023, in create_import_structure_from_path
+    import_structure[entry.name] = create_import_structure_from_path(entry.path)
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/utils/import_utils.py", line 3040, in create_import_structure_from_path
+    file_content = f.read()
+OSError: [Errno 12] Cannot allocate memory
+Loading FAISS index...
+Loading metadata and chunks...
+Loading embedding model (all-MiniLM-L6-v2)...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  79%|███████▊  | 81/103 [00:00<00:00, 761.38it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 789.81it/s]
+ProblemSolvingPipeline initialized successfully.
+vsp:router:   0%|          | 0/1000 [00:00<?, ?it/s]vsp:router:   0%|          | 1/1000 [00:26<7:16:52, 26.24s/it]vsp:router:   0%|          | 2/1000 [00:47<6:24:07, 23.09s/it]vsp:router:   0%|          | 3/1000 [01:52<11:42:31, 42.28s/it]vsp:router:   0%|          | 4/1000 [02:17<9:50:46, 35.59s/it] vsp:router:   0%|          | 5/1000 [03:53<15:48:32, 57.20s/it]vsp:router:   1%|          | 6/1000 [04:41<14:57:36, 54.18s/it]vsp:router:   1%|          | 7/1000 [05:12<12:53:57, 46.76s/it]vsp:router:   1%|          | 8/1000 [05:51<12:08:19, 44.05s/it]vsp:router:   1%|          | 9/1000 [06:21<10:56:51, 39.77s/it]vsp:router:   1%|          | 10/1000 [06:34<8:41:10, 31.59s/it]vsp:router:   1%|          | 11/1000 [06:49<7:16:58, 26.51s/it]vsp:router:   1%|          | 12/1000 [06:57<5:42:49, 20.82s/it]vsp:router:   1%|▏         | 13/1000 [07:04<4:30:52, 16.47s/it]vsp:router:   1%|▏         | 14/1000 [07:20<4:31:51, 16.54s/it]vsp:router:   2%|▏         | 15/1000 [07:27<3:45:37, 13.74s/it]vsp:router:   2%|▏         | 16/1000 [07:38<3:27:41, 12.66s/it]vsp:router:   2%|▏         | 17/1000 [07:50<3:27:48, 12.68s/it]vsp:router:   2%|▏         | 18/1000 [08:00<3:10:03, 11.61s/it]vsp:router:   2%|▏         | 19/1000 [08:06<2:46:08, 10.16s/it]vsp:router:   2%|▏         | 20/1000 [08:17<2:48:10, 10.30s/it]vsp:router:   2%|▏         | 21/1000 [08:26<2:43:42, 10.03s/it]vsp:router:   2%|▏         | 22/1000 [08:58<4:30:00, 16.56s/it]vsp:router:   2%|▏         | 23/1000 [09:09<4:03:56, 14.98s/it]vsp:router:   2%|▏         | 24/1000 [09:19<3:36:16, 13.30s/it]vsp:router:   2%|▎         | 25/1000 [09:31<3:32:09, 13.06s/it]vsp:router:   3%|▎         | 26/1000 [09:39<3:06:22, 11.48s/it]vsp:router:   3%|▎         | 27/1000 [10:06<4:19:54, 16.03s/it]vsp:router:   3%|▎         | 28/1000 [10:31<5:02:26, 18.67s/it]vsp:router:   3%|▎         | 29/1000 [10:43<4:29:40, 16.66s/it]vsp:router:   3%|▎         | 30/1000 [10:51<3:50:11, 14.24s/it]vsp:router:   3%|▎         | 31/1000 [11:11<4:19:43, 16.08s/it]vsp:router:   3%|▎         | 32/1000 [11:34<4:49:12, 17.93s/it]vsp:router:   3%|▎         | 33/1000 [11:40<3:53:51, 14.51s/it]vsp:router:   3%|▎         | 34/1000 [11:47<3:17:16, 12.25s/it]vsp:router:   4%|▎         | 35/1000 [11:58<3:10:04, 11.82s/it]vsp:router:   4%|▎         | 36/1000 [12:08<3:00:10, 11.21s/it]vsp:router:   4%|▎         | 37/1000 [12:39<4:37:29, 17.29s/it]

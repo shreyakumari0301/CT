@@ -1,0 +1,13 @@
+{"entity_type": "threat_actor", "canonical_name": "UNC4841", "aliases": [], "properties": {"country": "China"}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-7102", "aliases": [], "properties": {"cve_id": "CVE-2023-7102"}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "identity", "canonical_name": "Barracuda Email Security Gateway", "aliases": ["Barracuda Email Security Gateway appliances"], "properties": {}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "tool", "canonical_name": "Amavis", "aliases": ["Amavis scanner"], "properties": {}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "tool", "canonical_name": "Spreadsheet::ParseExcel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-7101", "aliases": [], "properties": {"cve_id": "CVE-2023-7101"}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "malware", "canonical_name": "SEASPY", "aliases": [], "properties": {"family": "backdoor"}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "malware", "canonical_name": "SALTWATER", "aliases": [], "properties": {"family": "backdoor"}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mandiant", "aliases": [], "properties": {}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Cloud", "aliases": ["Google Cloud’s telemetry"], "properties": {}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S.", "aliases": ["United States"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "identity", "canonical_name": "Asia-Pacific", "aliases": [], "properties": {"region": "Asia-Pacific"}, "source_chunks": ["BLOG-149::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-2868", "aliases": [], "properties": {"cve_id": "CVE-2023-2868"}, "source_chunks": ["BLOG-149::ch0"]}

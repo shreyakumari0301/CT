@@ -1,0 +1,7 @@
+{"src_type": "malware", "src_name": "Msupedge", "predicate": "deployed_in_attack_exploiting", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-4577", "source_chunks": ["BLOG-129::ch0"]}
+{"src_type": "malware", "src_name": "Msupedge", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Taiwanese university", "source_chunks": ["BLOG-129::ch0"]}
+{"src_type": "malware", "src_name": "Msupedge", "predicate": "uses", "tgt_type": "tool", "tgt_name": "dnscat2", "source_chunks": ["BLOG-129::ch0"]}
+{"src_type": "malware", "src_name": "Msupedge", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "ctl.msedeapi.net", "source_chunks": ["BLOG-129::ch0"]}
+{"src_type": "tool", "src_name": "Symantec Endpoint protections", "predicate": "detects_indicator", "tgt_type": "indicator", "tgt_name": "e08dc1c3987d17451a3e86c04ed322a9424582e2cb6352c892b7e0645eda43", "source_chunks": ["BLOG-129::ch0"]}
+{"src_type": "tool", "src_name": "Symantec Endpoint protections", "predicate": "detects_indicator", "tgt_type": "indicator", "tgt_name": "f5937d38353ed431dc8a5eb32c119ab575114a10c24567f0c864cb2ef47f9f36", "source_chunks": ["BLOG-129::ch0"]}
+{"src_type": "tool", "src_name": "Symantec Endpoint protections", "predicate": "detects_indicator", "tgt_type": "indicator", "tgt_name": "a89ebe7d1af3513d146a831b6fa4a465c8edeafea5d7980eb5448a94a4e34480", "source_chunks": ["BLOG-129::ch0"]}

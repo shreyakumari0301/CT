@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target industries or regions mentioned across these reports?",
+  "answer": "- Industry: Aviation sector, specifically airlines and their third-party call-centre/customer-service platforms\n- Region: Australia (Qantas and Australian federal agencies)\n- Region: Global aviation markets, including North America (e.g., Hawaiian Airlines in the U.S. and WestJet in Canada)",
+  "llm_timing": {
+    "api_call_seconds": 5.9824
+  }
+}

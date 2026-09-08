@@ -1,0 +1,10 @@
+{"entity_type": "campaign", "canonical_name": "Operation Sharpshooter", "aliases": [], "properties": {"first_seen": "October–November 2018", "objective": "phishing campaign targeting critical-infrastructure organizations"}, "source_chunks": ["BLOG-270::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-270::ch0"]}
+{"entity_type": "identity", "canonical_name": "critical-infrastructure organizations", "aliases": [], "properties": {"sector": "critical infrastructure"}, "source_chunks": ["BLOG-270::ch0"]}
+{"entity_type": "identity", "canonical_name": "nuclear firms", "aliases": [], "properties": {"sector": "nuclear"}, "source_chunks": ["BLOG-270::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense firms", "aliases": [], "properties": {"sector": "defense"}, "source_chunks": ["BLOG-270::ch0"]}
+{"entity_type": "identity", "canonical_name": "energy firms", "aliases": [], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-270::ch0"]}
+{"entity_type": "identity", "canonical_name": "financial firms", "aliases": [], "properties": {"sector": "financial"}, "source_chunks": ["BLOG-270::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Word", "aliases": [], "properties": {}, "source_chunks": ["BLOG-270::ch0"]}
+{"entity_type": "malware", "canonical_name": "Rising Sun", "aliases": [], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-270::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lazarus Group", "aliases": ["Hidden Cobra", "ZINC", "Diamond Sleet", "Labyrinth Chollima", "Guardians of Peace"], "properties": {}, "source_chunks": ["BLOG-270::ch0"]}

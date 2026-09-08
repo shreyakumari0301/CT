@@ -1,0 +1,27 @@
+{
+  "n": 2500,
+  "cb_acc": 0.716,
+  "rag_acc": 0.7868,
+  "delta": 0.0708,
+  "rescues": 227,
+  "damages": 50,
+  "both_wrong": 483,
+  "neutral_correct": 1740,
+  "branch_oracle_acc": 0.8068,
+  "rag_correct_count": 1967,
+  "to_reach_80pct_need": 33,
+  "seed": 20260908,
+  "groups_exported": {
+    "damages": 50,
+    "rescues": 227,
+    "both_wrong_100": 100,
+    "neutral_correct_100": 100
+  },
+  "contamination": {
+    "damages_contam_rate": 0.04,
+    "rescues_contam_rate": 0.05726872246696035,
+    "both_wrong_contam_rate": 0.0,
+    "damages_none_option": 1,
+    "both_wrong_none_option": 0
+  }
+}

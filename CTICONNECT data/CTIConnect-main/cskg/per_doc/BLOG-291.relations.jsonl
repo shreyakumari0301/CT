@@ -1,0 +1,17 @@
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "targets", "tgt_type": "identity", "tgt_name": "European embassy personnel in Seoul", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Confuser Core", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "threat_actor", "src_name": "Kimsuky", "predicate": "uses", "tgt_type": "malware", "tgt_name": "XenoRAT", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "loads", "tgt_type": "malware", "tgt_name": "XenoRAT", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "tool", "src_name": "Confuser Core", "predicate": "obfuscates", "tgt_type": "malware", "tgt_name": "XenoRAT", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "identity", "src_name": "Trellix researchers", "predicate": "mapped", "tgt_type": "indicator", "tgt_name": "github.com/blairity", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "identity", "src_name": "Trellix researchers", "predicate": "mapped", "tgt_type": "indicator", "tgt_name": "github.com/landjhon", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "indicator", "src_name": "github.com/blairity", "predicate": "hosts_repository", "tgt_type": "indicator", "tgt_name": "europa", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "indicator", "src_name": "github.com/blairity", "predicate": "hosts_repository", "tgt_type": "indicator", "tgt_name": "gulthe", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "indicator", "src_name": "github.com/blairity", "predicate": "hosts_repository", "tgt_type": "indicator", "tgt_name": "themorning", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "indicator", "src_name": "github.com/landjhon", "predicate": "hosts_repository", "tgt_type": "indicator", "tgt_name": "europa", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "indicator", "src_name": "github.com/landjhon", "predicate": "hosts_repository", "tgt_type": "indicator", "tgt_name": "gulthe", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "indicator", "src_name": "github.com/landjhon", "predicate": "hosts_repository", "tgt_type": "indicator", "tgt_name": "themorning", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "indicator", "src_name": "europa", "predicate": "used_as_c2_infrastructure", "tgt_type": "malware", "tgt_name": "XenoRAT", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "indicator", "src_name": "gulthe", "predicate": "used_as_c2_infrastructure", "tgt_type": "malware", "tgt_name": "XenoRAT", "source_chunks": ["BLOG-291::ch0"]}
+{"src_type": "indicator", "src_name": "themorning", "predicate": "used_as_c2_infrastructure", "tgt_type": "malware", "tgt_name": "XenoRAT", "source_chunks": ["BLOG-291::ch0"]}

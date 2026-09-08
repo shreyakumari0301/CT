@@ -1,0 +1,12 @@
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-30::ch0"]}
+{"entity_type": "malware", "canonical_name": "Kasseika", "aliases": [], "properties": {"family": "ransomware", "capabilities": ["disables security tools", "file encryption", "drops ransom note", "changes desktop wallpaper", "event log deletion"]}, "source_chunks": ["BLOG-30::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "BlackMatter affiliates", "aliases": ["former BlackMatter affiliates"], "properties": {}, "source_chunks": ["BLOG-30::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Bring Your Own Vulnerable Driver (BYOVD)", "aliases": ["BYOVD"], "properties": {}, "source_chunks": ["BLOG-30::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {"capabilities": ["remote execution"]}, "source_chunks": ["BLOG-30::ch0"]}
+{"entity_type": "tool", "canonical_name": "wevutil.exe", "aliases": [], "properties": {"capabilities": ["event log deletion"]}, "source_chunks": ["BLOG-30::ch0"]}
+{"entity_type": "tool", "canonical_name": "Martini driver", "aliases": ["TG Soft’s Martini driver"], "properties": {}, "source_chunks": ["BLOG-30::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Martini.sys", "aliases": [], "properties": {"ioc_type": "hash", "value": "Martini.sys"}, "source_chunks": ["BLOG-30::ch0"]}
+{"entity_type": "indicator", "canonical_name": "viragt64.sys", "aliases": [], "properties": {"ioc_type": "hash", "value": "viragt64.sys"}, "source_chunks": ["BLOG-30::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Martini.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "Martini.exe"}, "source_chunks": ["BLOG-30::ch0"]}
+{"entity_type": "indicator", "canonical_name": "smartscreen_protected.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "smartscreen_protected.exe"}, "source_chunks": ["BLOG-30::ch0"]}
+{"entity_type": "identity", "canonical_name": "Telegram", "aliases": [], "properties": {}, "source_chunks": ["BLOG-30::ch0"]}

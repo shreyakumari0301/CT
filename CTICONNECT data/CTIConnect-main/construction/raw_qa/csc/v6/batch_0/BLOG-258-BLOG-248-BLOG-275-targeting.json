@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target industries or regions mentioned across these reports?",
+  "answer": "- Government/Diplomatic Sector: Russian diplomats\n- Cybersecurity Sector: Kaspersky employees\n- High-Value Individuals: other high-value iOS asset holders",
+  "llm_timing": {
+    "api_call_seconds": 6.65
+  }
+}

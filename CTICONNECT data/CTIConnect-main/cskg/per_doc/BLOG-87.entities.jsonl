@@ -1,0 +1,19 @@
+{"entity_type": "identity", "canonical_name": "Zero Day Initiative", "aliases": [], "properties": {}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-40477", "aliases": [], "properties": {"cve_id": "CVE-2023-40477"}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "identity", "canonical_name": "WinRAR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "whalersplonk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "tool", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "identity", "canonical_name": "GeoServer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-25157", "aliases": [], "properties": {"cve_id": "CVE-2023-25157"}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "indicator", "canonical_name": "poc.py", "aliases": [], "properties": {"ioc_type": "url", "value": "poc.py"}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "indicator", "canonical_name": "c.ps1", "aliases": [], "properties": {"ioc_type": "url", "value": "c.ps1"}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "malware", "canonical_name": "VenomRAT v6.0.3", "aliases": ["VenomRAT"], "properties": {"family": "VenomRAT", "capabilities": ["keylogging", "HVNC", "stealer", "grabber"]}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Windows.Gaming.Preview.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "Windows.Gaming.Preview.exe"}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "indicator", "canonical_name": "checkblacklistwords.eu", "aliases": ["checkblacklistwords[.]eu"], "properties": {"ioc_type": "domain", "value": "checkblacklistwords.eu"}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled Task/Job: Scheduled Task", "aliases": ["creates a scheduled task for persistence"], "properties": {}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "indicator", "canonical_name": "94.156.253.109:4449", "aliases": [], "properties": {"ioc_type": "ip", "value": "94.156.253.109:4449"}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks WildFire", "aliases": ["WildFire"], "properties": {}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "identity", "canonical_name": "Advanced URL Filtering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-87::ch0"]}
+{"entity_type": "identity", "canonical_name": "Broadcom/Symantec", "aliases": ["CTA partner Broadcom/Symantec"], "properties": {}, "source_chunks": ["BLOG-87::ch0"]}

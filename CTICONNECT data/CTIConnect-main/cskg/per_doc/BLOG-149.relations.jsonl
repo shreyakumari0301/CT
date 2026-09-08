@@ -1,0 +1,13 @@
+{"src_type": "threat_actor", "src_name": "UNC4841", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7102", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC4841", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Barracuda Email Security Gateway", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC4841", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-7101", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC4841", "predicate": "installs", "tgt_type": "malware", "tgt_name": "SEASPY", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC4841", "predicate": "installs", "tgt_type": "malware", "tgt_name": "SALTWATER", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC4841", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S.", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC4841", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Asia-Pacific", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC4841", "predicate": "exploited_earlier", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-2868", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-7102", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Barracuda Email Security Gateway", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "tool", "src_name": "Spreadsheet::ParseExcel", "predicate": "used_by", "tgt_type": "tool", "tgt_name": "Amavis", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-7101", "predicate": "affects", "tgt_type": "tool", "tgt_name": "Spreadsheet::ParseExcel", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "identity", "src_name": "Mandiant", "predicate": "investigated", "tgt_type": "threat_actor", "tgt_name": "UNC4841", "source_chunks": ["BLOG-149::ch0"]}
+{"src_type": "identity", "src_name": "Google Cloud", "predicate": "confirmed_targeting_by", "tgt_type": "threat_actor", "tgt_name": "UNC4841", "source_chunks": ["BLOG-149::ch0"]}

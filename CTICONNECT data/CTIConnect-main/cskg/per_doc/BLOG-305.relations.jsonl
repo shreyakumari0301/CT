@@ -1,0 +1,9 @@
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Russian media outlets", "source_chunks": ["BLOG-305::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Russian educational institutions", "source_chunks": ["BLOG-305::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Russian government organizations", "source_chunks": ["BLOG-305::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Google Chrome", "source_chunks": ["BLOG-305::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-2783", "source_chunks": ["BLOG-305::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "installs", "tgt_type": "malware", "tgt_name": "Trojan.Win64.Agent", "source_chunks": ["BLOG-305::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "installs", "tgt_type": "malware", "tgt_name": "Trojan.Win64.Convagent.gen", "source_chunks": ["BLOG-305::ch0"]}
+{"src_type": "campaign", "src_name": "Operation ForumTroll", "predicate": "uses_indicator", "tgt_type": "indicator", "tgt_name": "primakovreadings.info", "source_chunks": ["BLOG-305::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2025-2783", "predicate": "affects", "tgt_type": "tool", "tgt_name": "Google Chrome", "source_chunks": ["BLOG-305::ch0"]}

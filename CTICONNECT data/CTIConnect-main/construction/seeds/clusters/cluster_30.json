@@ -1,0 +1,346 @@
+{
+  "cluster_id": 30,
+  "cluster_size": 3,
+  "cluster_type": "malware",
+  "blogs": [
+    {
+      "blog_id": 308,
+      "node": [
+        {
+          "node_text": "127.0.0.1:8082 TCP interface",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "32-bit backdoor PE",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Brazil",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "CVE-2017-0144",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2025-29824",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "December 2022",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "DllRegisterService loader",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "GoogleUpdate.dll hijack variant",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "I/O-completion-port communication plugin",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "January 2025",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "MSBuild",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Microsoft",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Microsoft Help Index File loader",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Middle East",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "PipeMagic",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "RansomExx",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "RansomExx campaign",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "September 2024",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Southeast Asia",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "aaaaabbbbbbb.eastus.cloudapp.azure.com",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "diversified access vectors",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "fake ChatGPT loader",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "multi-staged encrypted loaders",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "named pipe",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "PipeMagic",
+      "platform": "securityweek",
+      "type": "malware",
+      "publish_date": "2025/8/19"
+    },
+    {
+      "blog_id": 307,
+      "node": [
+        {
+          "node_text": "AsyncRAT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "AwesomePuppet",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Chrome password stealer",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Edge password stealer",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Gh0st RAT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "GodRAT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Hong Kong",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Jordan",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Lebanon",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MD5",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Malaysia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "OS",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "September 2024",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Skype",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "UAE",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Winnti-linked APT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "cmd.exe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "curl.exe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "financial credential theft",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "long-term C2 persistence",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "malicious .scr/.pif screen saver files",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "trading and brokerage firms",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "PipeMagic",
+      "platform": "securelist",
+      "type": "malware",
+      "publish_date": "2025/8/18"
+    },
+    {
+      "blog_id": 298,
+      "node": [
+        {
+          "node_text": "2012",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "C2 server",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Chrome cookie theft",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cisco Talos",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Dropbox APIs",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Evora",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Hong Kong",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Lotus Blossom",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Sagerunex",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Sagerunex toolkit",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Sagerunex variants",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Taiwan",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Twitter APIs",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Venom",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Vietnam",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Windows Management Instrumentation reconnaissance",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Zimbra mail API",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "critical infrastructure",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "directory structures",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "exfiltration",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "file archiving",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "governments",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "manufacturing organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "media organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "network configurations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "privilege escalation",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "processes",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "proxy relaying",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "self-checks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "telecommunications organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "the Philippines",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "user accounts",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "PipeMagic",
+      "platform": "darkreading",
+      "type": "malware",
+      "publish_date": "2025/8/19"
+    }
+  ]
+}

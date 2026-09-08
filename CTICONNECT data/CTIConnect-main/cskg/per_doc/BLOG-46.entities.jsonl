@@ -1,0 +1,16 @@
+{"entity_type": "campaign", "canonical_name": "government-backed North Korean campaign", "aliases": [], "properties": {"first_seen": "January 2021"}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Threat Analysis Group (TAG)", "aliases": ["Google’s Threat Analysis Group", "TAG"], "properties": {}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "identity", "canonical_name": "North Korean", "aliases": [], "properties": {"region": "North Korea"}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "identity", "canonical_name": "security researchers", "aliases": ["researchers"], "properties": {}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "tool", "canonical_name": "X", "aliases": ["Twitter"], "properties": {}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Social Engineering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Capture Screenshot", "aliases": ["captures system data and screenshots"], "properties": {}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over C2 Channel", "aliases": ["exfiltrates them to C2 infrastructure"], "properties": {}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "indicator", "canonical_name": "23.106.215.105", "aliases": ["23.106.215[.]105"], "properties": {"ioc_type": "ip", "value": "23.106.215.105"}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "indicator", "canonical_name": "www.blgbeach.com", "aliases": ["www.blgbeach[.]com"], "properties": {"ioc_type": "domain", "value": "www.blgbeach.com"}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "tool", "canonical_name": "GetSymbol", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "tool", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "indicator", "canonical_name": "https://github.com/dbgsymbol/", "aliases": [], "properties": {"ioc_type": "url", "value": "https://github.com/dbgsymbol/"}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "identity", "canonical_name": "Safe Browsing", "aliases": ["Enhanced Safe Browsing"], "properties": {}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "identity", "canonical_name": "Gmail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-46::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Workspace", "aliases": ["Workspace"], "properties": {}, "source_chunks": ["BLOG-46::ch0"]}

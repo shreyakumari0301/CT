@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Androxgh0st malware also supports numerous functions capable of abusing the Simple Mail Transfer Protocol (SMTP), such as scanning and exploiting exposed credentials and application programming interfaces (APIs), and web shell deployment.\" and \"The attackers have also been observed creating fake pages on compromised websites, providing them with a backdoor to access databases containing sensitive information and deploy more malicious tools vital for their operations.\". Please provide: 1) the MITRE ATT&CK category that this behavior maps to, 2) an explanation of how the described activity maps to that technique, and 3) which operating systems are affected according to the MITRE reference (i.e., Linux, macOS, Windows).",
+  "answer": "1) MITRE ATT&CK Category: Mail Protocols (T1071.003).  \n2) Mapping Explanation: The passage explicitly describes abuse of Simple Mail Transfer Protocol (SMTP), which is a mail protocol used for network communication. Using SMTP to support malware functions (e.g., credential/API exploitation and follow-on deployment) aligns with T1071.003’s definition of adversaries leveraging mail protocols for command and control or related network communications.  \n3) Applicable Platforms: Linux, macOS, Windows.",
+  "llm_timing": {
+    "api_call_seconds": 6.2948
+  }
+}

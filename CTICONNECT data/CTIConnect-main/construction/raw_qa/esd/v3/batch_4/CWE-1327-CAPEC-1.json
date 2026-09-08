@@ -1,0 +1,23 @@
+{
+  "question": "A networked service binds its listening socket to an unrestricted IP address, making it reachable from any network interface instead of only intended ones. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-1.\n- CAPEC-1 exploits unrestricted network exposure enabling unauthorized access, targeting CWE-1327: binding a service to an unrestricted IP address.",
+  "llm_cost": {
+    "input": 0.000826,
+    "cached_input": 0.0,
+    "output": 0.00093,
+    "total": 0.001756,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 661,
+      "cached_input": 0,
+      "output": 93
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4999
+  }
+}

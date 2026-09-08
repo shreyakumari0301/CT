@@ -1,0 +1,23 @@
+{
+  "question": "A system\u2019s security-critical checks can be removed or altered because CPU optimization or execution behaviors change how code runs, potentially exposing sensitive data or bypassing access controls. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-663.\n- CAPEC-663 exploits transient execution leakage, targeting CWE-1037: processor optimizations remove or modify security-critical code.",
+  "llm_cost": {
+    "input": 0.000777,
+    "cached_input": 0.0,
+    "output": 0.00096,
+    "total": 0.001737,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 622,
+      "cached_input": 0,
+      "output": 96
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.7399
+  }
+}

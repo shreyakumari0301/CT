@@ -1,0 +1,23 @@
+{
+  "question": "In a system with separate control and data agents enforcing security policy, privileges are applied inconsistently between these agents, creating mismatched access levels. Which CAPEC attack pattern exploits this weakness, and why can it bypass intended protections?",
+  "answer": "- CAPEC-180.\n- CAPEC-180 exploits inconsistent privilege assignment across control/data agents, targeting CWE-1268: policy privileges not assigned consistently between control and data agents.",
+  "llm_cost": {
+    "input": 0.000777,
+    "cached_input": 0.0,
+    "output": 0.00098,
+    "total": 0.001757,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 622,
+      "cached_input": 0,
+      "output": 98
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6977
+  }
+}

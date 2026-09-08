@@ -1,0 +1,23 @@
+{
+  "question": "A system uses non-volatile memory technology that only tolerates a limited number of write operations, but the software does not handle writes appropriately for this constraint, enabling unintended negative impacts when legitimate write-related features are overused or misapplied. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-212.\n- CAPEC-212 exploits misuse of legitimate write functionality, targeting CWE-1246: improper write handling in limited-write non-volatile memories.",
+  "llm_cost": {
+    "input": 0.000746,
+    "cached_input": 0.0,
+    "output": 0.00115,
+    "total": 0.001896,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 597,
+      "cached_input": 0,
+      "output": 115
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.6327
+  }
+}

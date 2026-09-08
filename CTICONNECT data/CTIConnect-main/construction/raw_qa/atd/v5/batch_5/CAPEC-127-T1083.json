@@ -1,0 +1,23 @@
+{
+  "question": "An adversary sends a crafted request that causes a target application to list the contents of a directory, enabling exploration of the directory tree and revealing filenames like backups, temporary files, hidden files, or configuration files. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to that technique?",
+  "answer": "- T1083.\n- T1083 corresponds to enumerating directories and filenames, mapping CAPEC-127: crafted requests trigger directory listings revealing file names and structure.",
+  "llm_cost": {
+    "input": 0.000855,
+    "cached_input": 0.0,
+    "output": 0.00113,
+    "total": 0.001985,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 684,
+      "cached_input": 0,
+      "output": 113
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.5523
+  }
+}

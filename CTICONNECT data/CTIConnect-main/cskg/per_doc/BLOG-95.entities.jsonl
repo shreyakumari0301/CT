@@ -1,0 +1,16 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-6345", "aliases": [], "properties": {"cve_id": "CVE-2023-6345"}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "identity", "canonical_name": "Skia 2D graphics library", "aliases": [], "properties": {}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-4863", "aliases": [], "properties": {"cve_id": "CVE-2023-4863"}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "identity", "canonical_name": "Safari", "aliases": [], "properties": {}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "identity", "canonical_name": "Firefox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-5217", "aliases": [], "properties": {"cve_id": "CVE-2023-5217"}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "identity", "canonical_name": "Edge", "aliases": [], "properties": {}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "identity", "canonical_name": "Opera", "aliases": [], "properties": {}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "identity", "canonical_name": "Brave", "aliases": [], "properties": {}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "identity", "canonical_name": "Vivaldi", "aliases": [], "properties": {}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-28205", "aliases": [], "properties": {"cve_id": "CVE-2023-28205"}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-32409", "aliases": [], "properties": {"cve_id": "CVE-2023-32409"}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-28204", "aliases": [], "properties": {"cve_id": "CVE-2023-28204"}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-32373", "aliases": [], "properties": {"cve_id": "CVE-2023-32373"}, "source_chunks": ["BLOG-95::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Predator", "aliases": [], "properties": {}, "source_chunks": ["BLOG-95::ch0"]}

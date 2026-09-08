@@ -1,0 +1,11 @@
+{"entity_type": "threat_actor", "canonical_name": "Kimsuky", "aliases": ["North Korea’s state-sponsored Kimsuky group", "Velvet Chollima", "Black Banshee", "Emerald Sleet", "THALLIUM"], "properties": {"country": "North Korea", "regions_targeted": ["Europe"], "first_seen": "2025-03", "last_seen": "2025-07"}, "source_chunks": ["BLOG-291::ch0"]}
+{"entity_type": "malware", "canonical_name": "XenoRAT", "aliases": [], "properties": {"capabilities": ["persistence", "keystroke logging", "screenshot capture", "remote shell", "data exfiltration"]}, "source_chunks": ["BLOG-291::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-291::ch0"]}
+{"entity_type": "tool", "canonical_name": "Confuser Core", "aliases": ["Confuser Core-obfuscated"], "properties": {}, "source_chunks": ["BLOG-291::ch0"]}
+{"entity_type": "identity", "canonical_name": "European embassy personnel in Seoul", "aliases": [], "properties": {"region": "Seoul"}, "source_chunks": ["BLOG-291::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trellix researchers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-291::ch0"]}
+{"entity_type": "indicator", "canonical_name": "github.com/blairity", "aliases": ["blairity"], "properties": {"ioc_type": "url", "value": "https://github.com/blairity"}, "source_chunks": ["BLOG-291::ch0"]}
+{"entity_type": "indicator", "canonical_name": "github.com/landjhon", "aliases": ["landjhon"], "properties": {"ioc_type": "url", "value": "https://github.com/landjhon"}, "source_chunks": ["BLOG-291::ch0"]}
+{"entity_type": "indicator", "canonical_name": "europa", "aliases": [], "properties": {"ioc_type": "domain", "value": "europa"}, "source_chunks": ["BLOG-291::ch0"]}
+{"entity_type": "indicator", "canonical_name": "gulthe", "aliases": [], "properties": {"ioc_type": "domain", "value": "gulthe"}, "source_chunks": ["BLOG-291::ch0"]}
+{"entity_type": "indicator", "canonical_name": "themorning", "aliases": [], "properties": {"ioc_type": "domain", "value": "themorning"}, "source_chunks": ["BLOG-291::ch0"]}

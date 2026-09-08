@@ -1,0 +1,23 @@
+{
+  "question": "An attacker takes advantage of a REST-style application's trust in system resources and its environment to access sensitive data after SSL has been terminated. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to that technique?",
+  "answer": "- T1040.\n- T1040 corresponds to capturing data after SSL termination, mapping CAPEC-57: exploiting REST trust in system resources to obtain sensitive data.",
+  "llm_cost": {
+    "input": 0.000724,
+    "cached_input": 0.0,
+    "output": 0.00097,
+    "total": 0.001694,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 579,
+      "cached_input": 0,
+      "output": 97
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7876
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "What malware families, threat groups, or vulnerability IDs appear consistently across these reports?",
+  "answer": "- Malware/Tools: PowerShell RAT (server.ps1), Cobalt Strike beacons\n- Threat Actor Groups: Silent Skimmer\n- Vulnerability IDs: CVE-2019-18935",
+  "llm_timing": {
+    "api_call_seconds": 8.0854
+  }
+}

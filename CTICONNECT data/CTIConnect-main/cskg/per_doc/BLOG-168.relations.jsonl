@@ -1,0 +1,18 @@
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-34713", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-34715", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-35804", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-34713", "predicate": "variant_of", "tgt_type": "vulnerability", "tgt_name": "Dogwalk", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-34713", "predicate": "affects", "tgt_type": "tool", "tgt_name": "Windows Support Diagnostic Tool", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "vulnerability", "src_name": "Dogwalk", "predicate": "rediscovered_following_exploitation_of", "tgt_type": "vulnerability", "tgt_name": "Follina", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "used_to_exploit", "tgt_type": "identity", "tgt_name": "Exchange Server", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-34715", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Windows Network File System", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-34715", "predicate": "allows", "tgt_type": "identity", "tgt_name": "Windows Network File System", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-35804", "predicate": "affects", "tgt_type": "identity", "tgt_name": "SMBv3.1.1", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-35804", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Windows 11", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "vulnerability", "src_name": "Follina", "predicate": "has_cve", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-30190", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "identity", "src_name": "Adobe", "predicate": "addressed_cves_in", "tgt_type": "identity", "tgt_name": "Acrobat", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "identity", "src_name": "Adobe", "predicate": "addressed_cves_in", "tgt_type": "identity", "tgt_name": "Reader", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "identity", "src_name": "Adobe", "predicate": "addressed_cves_in", "tgt_type": "identity", "tgt_name": "Commerce", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "identity", "src_name": "Adobe", "predicate": "addressed_cves_in", "tgt_type": "identity", "tgt_name": "Illustrator", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "identity", "src_name": "Adobe", "predicate": "addressed_cves_in", "tgt_type": "identity", "tgt_name": "FrameMaker", "source_chunks": ["BLOG-168::ch0"]}
+{"src_type": "identity", "src_name": "Adobe", "predicate": "addressed_cves_in", "tgt_type": "identity", "tgt_name": "Premiere Elements", "source_chunks": ["BLOG-168::ch0"]}

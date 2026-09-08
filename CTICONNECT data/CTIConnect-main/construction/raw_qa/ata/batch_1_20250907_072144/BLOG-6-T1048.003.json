@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Their research connected this remote access Trojan (RAT) to a newly associated Cuba ransomware affiliate called 'Tropical Scorpius', confirming that Cuba allows threat actors to carry out various post-intrusion activities, including data exfiltration.\" Please identify the MITRE ATT&CK category that maps to this behavior, explain how the described attack maps to this MITRE category, and list the telemetry/logs (data sources) specified for this MITRE ATT&CK technique.",
+  "answer": "1) MITRE ATT&CK Category: T1048.003 - Exfiltration Over Unencrypted Non-C2 Protocol. \n2) Mapping Explanation: The blog snippet describes data exfiltration as a post-intrusion activity conducted by an actor via a remote access Trojan. This aligns with T1048.003, which involves the exfiltration of data over protocols that are not encrypted or used for C2, allowing the attacker to steal data without typical secure channels. \n3) Data Sources: The x_mitre_data_sources list includes: \n   (i) Network Traffic: Network Traffic Flow \n   (ii) File: File Access \n   (iii) Network Traffic: Network Traffic Content \n   (iv) Command: Command Execution \n   (v) Network Traffic: Network Connection Creation",
+  "llm_timing": {
+    "api_call_seconds": 5.6349
+  }
+}

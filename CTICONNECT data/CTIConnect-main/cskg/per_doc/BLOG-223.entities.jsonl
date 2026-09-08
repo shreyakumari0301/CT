@@ -1,0 +1,22 @@
+{"entity_type": "threat_actor", "canonical_name": "APT41", "aliases": ["Barium", "Winnti", "Wicked Panda", "Brass Typhoon", "Double Dragon"], "properties": {"country": "China"}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Operation CuckooBees", "aliases": [], "properties": {"objective": "exfiltration of intellectual property", "first_seen": "2019"}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "identity", "canonical_name": "technology firms", "aliases": [], "properties": {"sector": "technology"}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing firms", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "identity", "canonical_name": "East Asia", "aliases": [], "properties": {"region": "East Asia"}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "identity", "canonical_name": "Western Europe", "aliases": [], "properties": {"region": "Western Europe"}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "tool", "canonical_name": "WebShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinRM", "aliases": [], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL side-loading", "aliases": [], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "malware", "canonical_name": "kernel rootkit", "aliases": ["signed kernel rootkit"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled Task", "aliases": ["scheduled tasks"], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential dumping", "aliases": [], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "tool", "canonical_name": "MFSDLL.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral movement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinRAR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "tool", "canonical_name": "rundll32.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cybereason", "aliases": [], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "malware", "canonical_name": "DEPLOYLOG", "aliases": ["DEPLOYLOG 64-bit DLL"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "malware", "canonical_name": "WINNKIT", "aliases": ["WINNKIT rootkit"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "identity", "canonical_name": "BenQ", "aliases": [], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}
+{"entity_type": "identity", "canonical_name": "DOJ", "aliases": [], "properties": {}, "source_chunks": ["BLOG-223::ch0"]}

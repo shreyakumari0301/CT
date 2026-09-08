@@ -1,0 +1,13 @@
+{"entity_type": "identity", "canonical_name": "NCC Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "SnapMC", "aliases": [], "properties": {"primary_motivation": "extortion"}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "tool", "canonical_name": "Acunetix", "aliases": ["Acunetix vulnerability scanner"], "properties": {"capabilities": ["vulnerability scanning"]}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "PrintNightmare", "aliases": ["PrintNightmare LPE"], "properties": {}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "Telerik UI for ASPX.NET RCE", "aliases": [], "properties": {}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SQL injection", "aliases": ["SQL-injection flaws"], "properties": {}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "tool", "canonical_name": "7zip", "aliases": [], "properties": {"capabilities": ["file archiving/compression"]}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "tool", "canonical_name": "MinIO client", "aliases": [], "properties": {"capabilities": ["data transfer"]}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "malware", "canonical_name": "REvil", "aliases": ["Sodinokibi", "Sodin"], "properties": {}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "malware", "canonical_name": "Netwalker", "aliases": [], "properties": {}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "malware", "canonical_name": "Mespinoza", "aliases": [], "properties": {}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "malware", "canonical_name": "Conti", "aliases": [], "properties": {}, "source_chunks": ["BLOG-229::ch0"]}
+{"entity_type": "identity", "canonical_name": "Coveware", "aliases": ["Coveware’s"], "properties": {}, "source_chunks": ["BLOG-229::ch0"]}

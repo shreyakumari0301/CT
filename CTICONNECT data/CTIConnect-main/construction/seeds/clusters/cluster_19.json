@@ -1,0 +1,330 @@
+{
+  "cluster_id": 19,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 286,
+      "node": [
+        {
+          "node_text": "AWS Systems Manager Session Manager",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Azure Firewall policy rules",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "EC2 Serial Console",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Entra ID privileges",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Exchange Administrator roles",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Hawaiian Airlines",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Horizon VDI",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "IAM role enumeration",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MGM Resorts",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Marks & Spencer",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "May 2022",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SIM-swapping",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Scattered Spider",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Teleport",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "VPN",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "decommissioned VM",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "fast, multi-vector ransomware preparation tactics",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "least-privilege",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ngrok",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "on-premise environments",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "phishing-resistant MFA",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "social-engineering-driven cloud intrusions",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "strict identity proofing for help-desks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "typosquatted credential harvesting",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Static Tundra",
+      "platform": "csoonline",
+      "type": "threat actor",
+      "publish_date": "2025/8/21"
+    },
+    {
+      "blog_id": 299,
+      "node": [
+        {
+          "node_text": "April",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Brazilian manufacturing entities",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2025-29824",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ChatGPT Desktop app",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "December 2022",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "IT organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Microsoft Threat Intelligence",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Middle East",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PipeMagic",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Play ransomware",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Play ransomware group",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SYSTEM privileges",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Saudi Arabian manufacturing entities",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "South America",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Storm-2460",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "US",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Windows Common Log File System",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "financial organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "in-memory dropper",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "named pipe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "real estate organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "zero-day elevation-of-privilege flaw",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Static Tundra",
+      "platform": "darkreading",
+      "type": "threat actor",
+      "publish_date": "2025/8/20"
+    },
+    {
+      "blog_id": 280,
+      "node": [
+        {
+          "node_text": "2017",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "APT28",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Agent Tesla",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Alpha Technologies routers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "C2 domains",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "DDoS amplification",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Domain generation algorithm",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Lumen",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Lumen’s Black Lotus Labs",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "NSOCKS.net service",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Netgear routers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Ngioweb botnet",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Reolink routers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "The ShadowServer Foundation",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Zyxel routers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "appearance on free proxy lists",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "credential stuffing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "espionage",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "indicators of compromise",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "infected devices",
+          "node_type": "System"
+        },
+        {
+          "node_text": "known C2 nodes",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "lack of authentication",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "loader network",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "malware proxying",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "n-day exploits",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "phishing",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": "Static Tundra",
+      "platform": "BleepingComputer",
+      "type": "threat actor",
+      "publish_date": "2025/8/21"
+    }
+  ]
+}

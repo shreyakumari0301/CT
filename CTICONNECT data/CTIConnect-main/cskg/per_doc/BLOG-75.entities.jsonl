@@ -1,0 +1,26 @@
+{"entity_type": "malware", "canonical_name": "Conti", "aliases": ["Conti ransomware"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S.", "aliases": ["United States"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "hospitals", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "911 dispatch centers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "EMS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "law enforcement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ireland", "aliases": ["Ireland’s"], "properties": {"region": "Ireland"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing Attachment", "aliases": [], "properties": {"technique_id": "T1566.001"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploit Public-Facing Application", "aliases": [], "properties": {"technique_id": "T1190"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "File and Directory Discovery", "aliases": ["discovery"], "properties": {"technique_id": "T1083"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Network Share Discovery", "aliases": ["discovery"], "properties": {"technique_id": "T1135"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SMB/Windows Admin Shares", "aliases": ["SMB Shares"], "properties": {"technique_id": "T1021.002"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL Injection", "aliases": [], "properties": {"technique_id": "T1055.001"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Obfuscated Files or Information", "aliases": ["Obfuscated Files"], "properties": {"technique_id": "T1027"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Deobfuscate/Decode Files or Information", "aliases": ["Deobfuscate/Decode"], "properties": {"technique_id": "T1140"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data Encrypted for Impact", "aliases": [], "properties": {"technique_id": "T1486"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Inhibit System Recovery", "aliases": [], "properties": {"technique_id": "T1490"}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "WildFire", "aliases": ["WildFire file analysis", "WildFire updates"], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cortex XDR", "aliases": ["Cortex XDR’s"], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cortex XSOAR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": ["Unit 42’s"], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}
+{"entity_type": "identity", "canonical_name": "TAXII", "aliases": ["TAXII feeds"], "properties": {}, "source_chunks": ["BLOG-75::ch0"]}

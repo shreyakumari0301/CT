@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary tool or malware family consistently used by this threat actor across these reports?",
+  "answer": "- Primary Tool/Malware Family: PyDCrypt custom loader (a custom variant of the open-source DiskCryptor tool)",
+  "llm_timing": {
+    "api_call_seconds": 5.4188
+  }
+}

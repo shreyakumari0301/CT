@@ -1,0 +1,26 @@
+{"entity_type": "campaign", "canonical_name": "TAOTH operation", "aliases": [], "properties": {"first_seen": "October 2024"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "indicator", "canonical_name": "sogouzhuyin.com", "aliases": ["sogouzhuyin[.]com"], "properties": {"ioc_type": "domain", "value": "sogouzhuyin.com"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "tool", "canonical_name": "Merlin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "tool", "canonical_name": "VS Code CLI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "malware", "canonical_name": "TOSHIS", "aliases": [], "properties": {"capabilities": ["loader/stager", "shellcode injection", "fetches additional payloads"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "malware", "canonical_name": "DESFY", "aliases": [], "properties": {"capabilities": ["file enumeration", "spyware", "victim profiling", "metadata exfiltration"]}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "malware", "canonical_name": "GTELAM", "aliases": [], "properties": {"capabilities": ["AES-encrypts document filenames", "uploads data to cloud storage"]}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "malware", "canonical_name": "C6DOOR", "aliases": [], "properties": {"capabilities": ["remote OS command execution", "screenshots", "file transfer", "network scanning"]}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ZhuyinUp.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "ZhuyinUp.exe"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "indicator", "canonical_name": "f8845b49…18fc", "aliases": [], "properties": {"ioc_type": "hash", "value": "f8845b49…18fc"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "indicator", "canonical_name": "90a9be7c…1106", "aliases": [], "properties": {"ioc_type": "hash", "value": "90a9be7c…1106"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwan", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "Eastern Asia", "aliases": [], "properties": {"region": "Eastern Asia"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "global Taiwanese diaspora", "aliases": [], "properties": {"region": "global"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "China", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hong Kong", "aliases": [], "properties": {"region": "Hong Kong"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "Japan", "aliases": [], "properties": {"region": "Japan"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "South Korea", "aliases": [], "properties": {"region": "South Korea"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "journalists", "aliases": [], "properties": {"sector": "media"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "dissidents", "aliases": [], "properties": {}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "researchers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "business leaders", "aliases": [], "properties": {"sector": "business"}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Drive", "aliases": [], "properties": {}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "Wikipedia", "aliases": [], "properties": {}, "source_chunks": ["BLOG-288::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-288::ch0"]}

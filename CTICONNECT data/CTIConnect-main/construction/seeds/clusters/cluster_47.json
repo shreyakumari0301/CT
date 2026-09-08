@@ -1,0 +1,350 @@
+{
+  "cluster_id": 47,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 223,
+      "node": [
+        {
+          "node_text": "2019",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "APT41",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "C2 channels",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cybereason",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DEPLOYLOG 64-bit DLL",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DLL side-loading",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DOJ",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DSE",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ERP vulnerabilities",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "East Asia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MFSDLL.exe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Operation CuckooBees",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WINNKIT rootkit",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WebShell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Western Europe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WinRAR",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WinRM abuse",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Windows CLFS logs",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "credential dumping",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "manufacturing firms",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "reg save",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "rundll32.exe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "scheduled task-launched batch files",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "signed kernel rootkit",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "technology firms",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "CuckooBees",
+      "platform": "BleepingComputer",
+      "type": "campaign",
+      "publish_date": "2022/5/4"
+    },
+    {
+      "blog_id": 261,
+      "node": [
+        {
+          "node_text": "2019",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Asia",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "China",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "CuckooBees",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Cybereason",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Deploylog backdoor",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "ERP platform vulnerabilities",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "MFSDLL.exe loader",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "VBScript WebShell",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "WinRAR",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "WinRM HTTP(S) listeners",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Windows CLFS abuse",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Winnti APT",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Winnti malware",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "credential dumping",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "data exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "house of cards kill chain",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "kernel rootkit",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "reg save",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "rundll32.exe",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "technology and manufacturing firms",
+          "node_type": "Organization"
+        }
+      ],
+      "title": "CuckooBees",
+      "platform": "securityweek",
+      "type": "campaign",
+      "publish_date": "2022/5/4"
+    },
+    {
+      "blog_id": 236,
+      "node": [
+        {
+          "node_text": "2019",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "AMD K8 kernel driver",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "APT41",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Asia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Axiom",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Barium",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CLFS logs",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cybereason",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DEPLOYLOG",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ERP platform",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "JSP web shells",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "NIC",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Operation CuckooBees",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "RCE flaws",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SPARKLOG",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "STASHLOG",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Spyder Loader",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Transactional NTFS",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WINNKIT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Wicked Panda",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WinRM",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Winnti",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "dbghelp.dll",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "kernel-level rootkit",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "registry-stored credentials",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "scheduled tasks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "technology and manufacturing firms",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "CuckooBees",
+      "platform": "csoonline",
+      "type": "campaign",
+      "publish_date": "2022/5/4"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{"src_type": "malware", "src_name": "JinxLoader", "predicate": "sold_on", "tgt_type": "indicator", "tgt_name": "hackforums.net", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "malware", "src_name": "JinxLoader", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Formbook", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "malware", "src_name": "JinxLoader", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "XLoader", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "malware", "src_name": "JinxLoader", "predicate": "delivered_via", "tgt_type": "attack_pattern", "tgt_name": "Phishing via password-protected RAR email attachments", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing via password-protected RAR email attachments", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "Abu Dhabi National Oil Company", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "analyzed", "tgt_type": "malware", "tgt_name": "JinxLoader", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "identity", "src_name": "Symantec", "predicate": "analyzed", "tgt_type": "malware", "tgt_name": "JinxLoader", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "malware", "src_name": "Rugmi", "predicate": "carries", "tgt_type": "malware", "tgt_name": "Meduza Stealer", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "malware", "src_name": "Rugmi", "predicate": "carries", "tgt_type": "malware", "tgt_name": "Vortex Stealer", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "threat_actor", "src_name": "TA544", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "IDAT Loader", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "malware", "src_name": "IDAT Loader", "predicate": "installs", "tgt_type": "malware", "tgt_name": "Remcos RAT", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "malware", "src_name": "IDAT Loader", "predicate": "installs", "tgt_type": "malware", "tgt_name": "SystemBC", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "malware", "src_name": "Vortex Stealer", "predicate": "archives_data_to", "tgt_type": "indicator", "tgt_name": "Gofile", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "malware", "src_name": "Vortex Stealer", "predicate": "archives_data_to", "tgt_type": "indicator", "tgt_name": "Anonfiles", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "malware", "src_name": "Vortex Stealer", "predicate": "broadcasts_via", "tgt_type": "tool", "tgt_name": "Discord webhooks", "source_chunks": ["BLOG-152::ch0"]}
+{"src_type": "malware", "src_name": "Vortex Stealer", "predicate": "broadcasts_via", "tgt_type": "tool", "tgt_name": "Telegram bots", "source_chunks": ["BLOG-152::ch0"]}

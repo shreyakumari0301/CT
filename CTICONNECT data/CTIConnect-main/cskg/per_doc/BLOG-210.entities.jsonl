@@ -1,0 +1,11 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-210::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "MoustachedBouncer", "aliases": [], "properties": {"country": "Belarus", "primary_motivation": "espionage", "sectors_targeted": ["government"], "regions_targeted": ["Belarus"], "first_seen": "2014"}, "source_chunks": ["BLOG-210::ch0"]}
+{"entity_type": "identity", "canonical_name": "foreign embassies in Belarus", "aliases": [], "properties": {"sector": "government", "region": "Belarus"}, "source_chunks": ["BLOG-210::ch0"]}
+{"entity_type": "malware", "canonical_name": "NightClub", "aliases": [], "properties": {"family": "NightClub", "capabilities": ["command-and-control", "screenshotting", "audio recording", "data theft"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-210::ch0"]}
+{"entity_type": "malware", "canonical_name": "Disco", "aliases": [], "properties": {"family": "Disco", "capabilities": ["command-and-control", "screenshotting", "audio recording", "data theft"], "platforms": ["Windows"], "first_seen": "2020"}, "source_chunks": ["BLOG-210::ch0"]}
+{"entity_type": "malware", "canonical_name": "jdrop.js", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-210::ch0"]}
+{"entity_type": "malware", "canonical_name": "OfficeBroker", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-210::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Adversary-in-the-middle (AitM)", "aliases": ["AitM", "adversary-in-the-middle"], "properties": {}, "source_chunks": ["BLOG-210::ch0"]}
+{"entity_type": "identity", "canonical_name": "Belarus’s SORM lawful interception", "aliases": ["SORM"], "properties": {"region": "Belarus"}, "source_chunks": ["BLOG-210::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Cloud", "aliases": [], "properties": {}, "source_chunks": ["BLOG-210::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Winter Vivern", "aliases": [], "properties": {}, "source_chunks": ["BLOG-210::ch0"]}

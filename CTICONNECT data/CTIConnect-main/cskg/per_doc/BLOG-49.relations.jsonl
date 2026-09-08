@@ -1,0 +1,19 @@
+{"src_type": "vulnerability", "src_name": "CVE-2023-38831", "predicate": "affects", "tgt_type": "tool", "tgt_name": "WinRAR", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "identity", "src_name": "RARLabs", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-38831", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "attack_pattern", "src_name": "spear-phishing", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-38831", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "campaign", "src_name": "drive-by campaigns", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-38831", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "targets", "tgt_type": "identity", "tgt_name": "energy sector", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "targets", "tgt_type": "identity", "tgt_name": "financial targets", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Rhadamanthys", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "reverse SSH shell", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses", "tgt_type": "malware", "tgt_name": "IRONJAW", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Razumkov Centre", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "malware", "src_name": "IRONJAW", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "threat_actor", "src_name": "ISLANDDREAMS", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Papua New Guinea", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "threat_actor", "src_name": "ISLANDDREAMS", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Dropbox", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "threat_actor", "src_name": "ISLANDDREAMS", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "DLL sideloading", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "threat_actor", "src_name": "ISLANDDREAMS", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Donut", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "threat_actor", "src_name": "ISLANDDREAMS", "predicate": "uses", "tgt_type": "malware", "tgt_name": "BOXRAT", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "tool", "src_name": "Donut", "predicate": "generates", "tgt_type": "malware", "tgt_name": "BOXRAT", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "identity", "src_name": "Google Safe Browsing", "predicate": "provides_defenses_against", "tgt_type": "attack_pattern", "tgt_name": "spear-phishing", "source_chunks": ["BLOG-49::ch0"]}
+{"src_type": "tool", "src_name": "Gmail", "predicate": "provides_defenses_against", "tgt_type": "attack_pattern", "tgt_name": "spear-phishing", "source_chunks": ["BLOG-49::ch0"]}

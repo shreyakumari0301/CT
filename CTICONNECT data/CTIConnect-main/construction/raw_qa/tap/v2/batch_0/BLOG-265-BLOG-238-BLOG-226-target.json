@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors or regions mentioned across these reports?",
+  "answer": "- Israel: corporate organizations, defense/intelligence personnel, and critical infrastructure (e.g., CCTV systems at terror sites)\n- Saudi Arabia: Ministry of the Interior (including ministerial communications)\n- Other international regions: India, Germany, United States, Italy, Chile, Turkey, and the United Arab Emirates",
+  "llm_timing": {
+    "api_call_seconds": 5.5491
+  }
+}

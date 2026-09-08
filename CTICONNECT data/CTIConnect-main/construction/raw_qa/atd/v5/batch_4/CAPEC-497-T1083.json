@@ -1,0 +1,23 @@
+{
+  "question": "An adversary probes a target system to determine whether common key files exist, especially those holding configuration or security parameters, to enable further attacks. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1083.\n- T1083 corresponds to discovering files and directories, mapping CAPEC-497: probing for key configuration or security files to enable further attacks.",
+  "llm_cost": {
+    "input": 0.000731,
+    "cached_input": 0.0,
+    "output": 0.00096,
+    "total": 0.001691,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 585,
+      "cached_input": 0,
+      "output": 96
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.2037
+  }
+}

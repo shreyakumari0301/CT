@@ -1,0 +1,23 @@
+{
+  "question": "An authentication system uses a challenge-handshake style protocol, but implements the authentication algorithm incorrectly, making the protocol vulnerable to being tricked during the exchange. Which CAPEC attack pattern exploits this weakness, and why can it exploit the flawed authentication logic to gain access without valid credentials?",
+  "answer": "- CAPEC-90.\n- CAPEC-90 exploits reflection in challenge-handshake protocols, targeting CWE-303: incorrect implementation of an authentication algorithm.",
+  "llm_cost": {
+    "input": 0.000751,
+    "cached_input": 0.0,
+    "output": 0.00102,
+    "total": 0.001771,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 601,
+      "cached_input": 0,
+      "output": 102
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7998
+  }
+}

@@ -1,0 +1,59 @@
+[2026-09-06T10:47:54Z] Soft GAD sol model=gpt-5.6-sol workers=1 CB=20260906Tgpt56sol_soft_gad_cb CC=20260906Tgpt56sol_soft_gad_cc
+[2026-09-06T10:47:54Z] RUN soft_gad ctibench/vsp stamp=20260906Tgpt56sol_soft_gad_cb
+launched soft_gad ctibench/vsp pid=4967
+[2026-09-06T10:47:55Z] RUN soft_gad cticonnect/ata stamp=20260906Tgpt56sol_soft_gad_cc
+launched soft_gad cticonnect/ata pid=4978
+[2026-09-06T10:47:55Z] RUN TAA gated soft_gad stamp=20260906Tgpt56sol_soft_gad_taa
+launched TAA gated pid=4991
+[2026-09-06T10:47:56Z] Soft GAD priority batch launched. Monitor: tcar/eval_results/logs/gpt56sol_soft_gad_priority.log
+Scorer check on published ChatGPT-4 column: Correct=52.0% Plausible=86.0% (expect 52.0 / 86.0)
+Running TAA mode=gated on n=50 (workers=1)
+taa-gated:   0%|          | 0/50 [00:00<?, ?it/s]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   0%|          | 0/160 [00:00<?, ?it/s]counterfactual_ctibench_vsp_20260906Tgpt56sol_soft_gad_cb:   0%|          | 0/1000 [00:00<?, ?it/s]taa-gated:   2%|▏         | 1/50 [00:33<27:23, 33.53s/it]taa-gated:   4%|▍         | 2/50 [00:38<13:35, 16.98s/it]taa-gated:   6%|▌         | 3/50 [00:49<10:52, 13.88s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   1%|          | 1/160 [00:42<1:52:53, 42.60s/it]taa-gated:   8%|▊         | 4/50 [01:00<09:46, 12.75s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   1%|▏         | 2/160 [00:51<59:40, 22.66s/it]  counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   2%|▏         | 3/160 [01:04<47:39, 18.22s/it]taa-gated:  10%|█         | 5/50 [01:35<15:33, 20.74s/it]taa-gated:  12%|█▏        | 6/50 [01:41<11:37, 15.85s/it]taa-gated:  14%|█▍        | 7/50 [01:49<09:27, 13.21s/it]taa-gated:  16%|█▌        | 8/50 [01:54<07:31, 10.76s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   2%|▎         | 4/160 [01:46<1:12:27, 27.87s/it]taa-gated:  18%|█▊        | 9/50 [02:01<06:32,  9.59s/it]taa-gated:  20%|██        | 10/50 [02:07<05:38,  8.46s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   3%|▎         | 5/160 [01:58<56:30, 21.87s/it]  counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   4%|▍         | 6/160 [02:17<53:49, 20.97s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   4%|▍         | 7/160 [02:36<52:18, 20.51s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   5%|▌         | 8/160 [02:46<43:27, 17.15s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   6%|▌         | 9/160 [03:05<44:06, 17.53s/it]taa-gated:  22%|██▏       | 11/50 [03:25<19:21, 29.79s/it]taa-gated:  24%|██▍       | 12/50 [03:36<15:13, 24.04s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   6%|▋         | 10/160 [04:07<1:18:02, 31.22s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   7%|▋         | 11/160 [04:24<1:06:40, 26.85s/it]Traceback (most recent call last):
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_taa.py", line 367, in run_one
+    out = predict_fn(job["text"], job["prompt"])
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_taa.py", line 582, in predict_fn
+    return pipe.run_gated(text, ctibench_prompt=prompt, return_meta=True)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_taa_pipeline.py", line 551, in run_gated
+    raw, cf_meta = self.run_candidate_first(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^
+        report_text,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        candidates=cand_names,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_taa_pipeline.py", line 451, in run_candidate_first
+    raw = self._call_openai(final_prompt, temperature=0.0)
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_taa_pipeline.py", line 274, in _call_openai
+    response = self.client.chat.completions.create(
+        messages=[
+    ...<7 lines>...
+        ),
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/resources/chat/completions/completions.py", line 1296, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_base_client.py", line 1368, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_base_client.py", line 1141, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Could not finish the message because max_tokens or model output limit was reached. Please try again with higher max_tokens.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+taa-gated:  26%|██▌       | 13/50 [04:38<21:50, 35.41s/it]taa-gated:  28%|██▊       | 14/50 [04:42<15:40, 26.12s/it]taa-gated:  30%|███       | 15/50 [04:50<12:00, 20.58s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   8%|▊         | 12/160 [04:42<59:36, 24.16s/it]  taa-gated:  32%|███▏      | 16/50 [04:56<09:09, 16.17s/it]taa-gated:  34%|███▍      | 17/50 [05:10<08:27, 15.37s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   8%|▊         | 13/160 [05:00<55:16, 22.56s/it]taa-gated:  36%|███▌      | 18/50 [05:17<06:52, 12.89s/it]taa-gated:  38%|███▊      | 19/50 [05:22<05:31, 10.70s/it]taa-gated:  40%|████      | 20/50 [05:28<04:37,  9.25s/it]taa-gated:  42%|████▏     | 21/50 [05:35<04:06,  8.51s/it]taa-gated:  44%|████▍     | 22/50 [05:39<03:24,  7.29s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   9%|▉         | 14/160 [05:28<58:23, 24.00s/it]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+taa-gated:  46%|████▌     | 23/50 [05:48<03:24,  7.56s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:   9%|▉         | 15/160 [05:40<49:26, 20.46s/it]taa-gated:  48%|████▊     | 24/50 [05:55<03:14,  7.49s/it]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A
+Loading weights:   3%|▎         | 3/103 [00:00<00:03, 27.82it/s][A
+Loading weights:  40%|███▉      | 41/103 [00:00<00:00, 63.82it/s][A
+Loading weights:  46%|████▌     | 47/103 [00:00<00:00, 59.07it/s][ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 125.92it/s]
+taa-gated:  50%|█████     | 25/50 [05:59<02:44,  6.56s/it]taa-gated:  52%|█████▏    | 26/50 [06:11<03:13,  8.07s/it]taa-gated:  54%|█████▍    | 27/50 [06:19<03:04,  8.01s/it]counterfactual_cticonnect_ata_20260906Tgpt56sol_soft_gad_cc:  10%|█         | 16/160 [06:21<1:00:13, 25.10s/it]taa-gated:  56%|█████▌    | 28/50 [07:20<07:38, 20.83s/it]

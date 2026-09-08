@@ -1,0 +1,23 @@
+{
+  "question": "A web application mishandles quote characters in user-controlled input, failing to properly escape or neutralize quoting syntax before embedding it in browser-consumed content. Which CAPEC attack pattern exploits this weakness, and why can that pattern leverage broken quoting to enable cross-domain data theft in a victim\u2019s browser?",
+  "answer": "- CAPEC-468.\n- CAPEC-468 exploits CSS injection via unneutralized quotes, targeting CWE-149: improper neutralization of quoting syntax in output contexts.",
+  "llm_cost": {
+    "input": 0.000751,
+    "cached_input": 0.0,
+    "output": 0.00111,
+    "total": 0.001861,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 601,
+      "cached_input": 0,
+      "output": 111
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.9848
+  }
+}

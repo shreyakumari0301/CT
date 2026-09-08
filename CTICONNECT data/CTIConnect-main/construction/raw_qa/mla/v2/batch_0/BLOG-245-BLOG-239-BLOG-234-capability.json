@@ -1,0 +1,7 @@
+{
+  "question": "What is the most notable new capability that appeared in later variants compared to earlier ones?",
+  "answer": "- Early WastedLocker variants delivered custom per-target binaries via SocGholish fake-update kits and used a Cobalt Strike loader, credential theft, DLL hijacking, per-file AES-256 encryption sealed with RSA-4096, and shadow-copy deletion.\n- Subsequent variants introduced PowerShell-based Cobalt Strike payloads, disabled Windows Defender, installed the ransomware as a service, and appended victim-specific extensions and varied contact addresses in ransom notes.\n- The latest variant began abusing the open-source Responder tool to poison LLMNR/NBT-NS name-resolution requests, harvest NTLMv2 hashes and cleartext credentials, and then leveraged pass-the-hash techniques for faster lateral movement.\n- Most Notable New Capability: LLMNR/NBT-NS poisoning via Responder to harvest credentials for pass-the-hash attacks.",
+  "llm_timing": {
+    "api_call_seconds": 10.8472
+  }
+}

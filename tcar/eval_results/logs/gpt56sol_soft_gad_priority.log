@@ -1,0 +1,37 @@
+[2026-09-06T10:47:54Z] Soft GAD sol model=gpt-5.6-sol workers=1 CB=20260906Tgpt56sol_soft_gad_cb CC=20260906Tgpt56sol_soft_gad_cc
+[2026-09-06T10:47:54Z] RUN soft_gad ctibench/vsp stamp=20260906Tgpt56sol_soft_gad_cb
+launched soft_gad ctibench/vsp pid=4967
+[2026-09-06T10:47:55Z] RUN soft_gad cticonnect/ata stamp=20260906Tgpt56sol_soft_gad_cc
+launched soft_gad cticonnect/ata pid=4978
+[2026-09-06T10:47:55Z] RUN TAA gated soft_gad stamp=20260906Tgpt56sol_soft_gad_taa
+launched TAA gated pid=4991
+[2026-09-06T10:47:55Z] Soft GAD sol model=gpt-5.6-sol workers=1 CB=20260906Tgpt56sol_soft_gad_cb CC=20260906Tgpt56sol_soft_gad_cc
+[2026-09-06T10:47:56Z] Soft GAD priority batch launched. Monitor: tcar/eval_results/logs/gpt56sol_soft_gad_priority.log
+[2026-09-06T10:47:56Z] RUN soft_gad ctibench/mcq stamp=20260906Tgpt56sol_soft_gad_cb
+launched soft_gad ctibench/mcq pid=5006
+[2026-09-06T10:47:56Z] RUN soft_gad ctibench/ate stamp=20260906Tgpt56sol_soft_gad_cb
+launched soft_gad ctibench/ate pid=5021
+[2026-09-06T10:47:57Z] RUN soft_gad ctibench/rcm stamp=20260906Tgpt56sol_soft_gad_cb
+launched soft_gad ctibench/rcm pid=5035
+[2026-09-06T10:47:58Z] RUN soft_gad cticonnect/rcm stamp=20260906Tgpt56sol_soft_gad_cc
+launched soft_gad cticonnect/rcm pid=5054
+[2026-09-06T10:47:58Z] Soft GAD priority batch launched. Monitor: tcar/eval_results/logs/gpt56sol_soft_gad_priority.log
+[2026-09-06T11:07:19Z] Soft GAD sol model=gpt-5.6-sol workers=1 CB=20260906Tgpt56sol_soft_gad_cb CC=20260906Tgpt56sol_soft_gad_cc
+[2026-09-06T11:07:19Z] RUN soft_gad ctibench/vsp stamp=20260906Tgpt56sol_soft_gad_cb
+launched soft_gad ctibench/vsp pid=447
+[2026-09-06T11:07:19Z] RUN soft_gad ctibench/mcq stamp=20260906Tgpt56sol_soft_gad_cb
+launched soft_gad ctibench/mcq pid=458
+[2026-09-06T11:07:19Z] RUN soft_gad ctibench/ate stamp=20260906Tgpt56sol_soft_gad_cb
+launched soft_gad ctibench/ate pid=469
+[2026-09-06T11:07:19Z] RUN soft_gad ctibench/rcm stamp=20260906Tgpt56sol_soft_gad_cb
+launched soft_gad ctibench/rcm pid=480
+[2026-09-06T11:07:19Z] RUN soft_gad cticonnect/ata stamp=20260906Tgpt56sol_soft_gad_cc
+launched soft_gad cticonnect/ata pid=491
+[2026-09-06T11:07:19Z] RUN soft_gad cticonnect/rcm stamp=20260906Tgpt56sol_soft_gad_cc
+launched soft_gad cticonnect/rcm pid=502
+[2026-09-06T11:07:19Z] Soft GAD priority batch launched. Monitor: tcar/eval_results/logs/gpt56sol_soft_gad_priority.log
+[2026-09-06T11:42:27Z] DONE soft_gad ctibench/ate
+[2026-09-06T11:42:35Z] DONE soft_gad cticonnect/rcm
+[2026-09-06T14:47:44Z] DONE soft_gad cticonnect/ata
+[2026-09-06T21:23:58Z] DONE soft_gad ctibench/rcm
+[2026-09-07T05:14:11Z] Soft GAD priority batch finished

@@ -1,0 +1,16 @@
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "incident_response_to_suspected_breach_by", "tgt_type": "threat_actor", "tgt_name": "Black Basta", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "threat_actor", "src_name": "Black Basta", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "PlugX", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "threat_actor", "src_name": "Black Basta", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "GootLoader", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "threat_actor", "src_name": "Black Basta", "predicate": "associated_with", "tgt_type": "tool", "tgt_name": "Brute Ratel C4", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "malware", "src_name": "PlugX", "predicate": "uses", "tgt_type": "tool", "tgt_name": "x32dbg", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "malware", "src_name": "PlugX", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "DLL Side-Loading", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "malware", "src_name": "PlugX", "predicate": "creates", "tgt_type": "indicator", "tgt_name": "desktop.ini", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "malware", "src_name": "PlugX", "predicate": "executes_via", "tgt_type": "indicator", "tgt_name": "%comspec%/q/c", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "malware", "src_name": "PlugX", "predicate": "used_in_incident", "tgt_type": "identity", "tgt_name": "OPM", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "malware", "src_name": "PlugX", "predicate": "mitigated_by", "tgt_type": "tool", "tgt_name": "Cortex XDR", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "malware", "src_name": "PlugX", "predicate": "mitigated_by", "tgt_type": "tool", "tgt_name": "WildFire", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "attack_pattern", "src_name": "DLL Side-Loading", "predicate": "deploys", "tgt_type": "indicator", "tgt_name": "x32bridge.dll", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "indicator", "src_name": "x32bridge.dll", "predicate": "loads_payload", "tgt_type": "indicator", "tgt_name": "x32bridge.dat", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "indicator", "src_name": "%comspec%/q/c", "predicate": "invokes", "tgt_type": "tool", "tgt_name": "cmd.exe", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "indicator", "src_name": "%comspec%/q/c", "predicate": "evades", "tgt_type": "tool", "tgt_name": "cmd.exe", "source_chunks": ["BLOG-85::ch0"]}
+{"src_type": "indicator", "src_name": "%comspec%/q/c", "predicate": "evades", "tgt_type": "identity", "tgt_name": "Windows Explorer", "source_chunks": ["BLOG-85::ch0"]}

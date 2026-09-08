@@ -1,0 +1,30 @@
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "linked_to", "tgt_type": "malware", "tgt_name": "Knight", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "Python", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "uses_for_credential_harvesting", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "uses_for_credential_harvesting", "tgt_type": "tool", "tgt_name": "LaZagne", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "uses_for_credential_harvesting", "tgt_type": "malware", "tgt_name": "SecretServerSecretStealer", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-27532", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "evades_defenses_with", "tgt_type": "indicator", "tgt_name": "disableAV.bat", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "evades_defenses_with", "tgt_type": "malware", "tgt_name": "STONESTOP", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "evades_defenses_with", "tgt_type": "tool", "tgt_name": "TDSSKiller", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "evades_defenses_with", "tgt_type": "tool", "tgt_name": "EDR Kill Shifter", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "evades_defenses_with", "tgt_type": "tool", "tgt_name": "IOBit Unlocker", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "spreads_via", "tgt_type": "tool", "tgt_name": "Impacket", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "automates_interactions_with", "tgt_type": "identity", "tgt_name": "vCenter", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "command_and_control_managed_through", "tgt_type": "tool", "tgt_name": "Atera", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "command_and_control_managed_through", "tgt_type": "tool", "tgt_name": "Splashtop", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "command_and_control_managed_through", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "command_and_control_managed_through", "tgt_type": "tool", "tgt_name": "Ngrok", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "command_and_control_managed_through", "tgt_type": "tool", "tgt_name": "Screen Connect", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "command_and_control_managed_through", "tgt_type": "tool", "tgt_name": "Remmina", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "exfiltrates_data_using", "tgt_type": "tool", "tgt_name": "RClone", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "targets", "tgt_type": "identity", "tgt_name": "small educational enterprises", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "targets", "tgt_type": "identity", "tgt_name": "United States", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "RansomHub", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Malaysia", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-27532", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Veeam Backup & Replication", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "indicator", "src_name": "disableAV.bat", "predicate": "detected_as", "tgt_type": "indicator", "tgt_name": "BAT.KAPROCHANDLER.A", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "malware", "src_name": "STONESTOP", "predicate": "uses_driver", "tgt_type": "malware", "tgt_name": "POORTRY", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "tool", "src_name": "EDR Kill Shifter", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Bring Your Own Vulnerable Driver (BYOVD)", "source_chunks": ["BLOG-196::ch0"]}
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "observed_victims_of", "tgt_type": "malware", "tgt_name": "RansomHub", "source_chunks": ["BLOG-196::ch0"]}

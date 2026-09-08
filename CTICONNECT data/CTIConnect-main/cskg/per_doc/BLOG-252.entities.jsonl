@@ -1,0 +1,13 @@
+{"entity_type": "threat_actor", "canonical_name": "Slow Pisces", "aliases": ["Jade Sleet", "TraderTraitor", "PUKCHONG"], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "campaign", "canonical_name": "three-stage campaign against cryptocurrency developers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "identity", "canonical_name": "cryptocurrency developers", "aliases": [], "properties": {"sector": "cryptocurrency"}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "tool", "canonical_name": "LinkedIn", "aliases": [], "properties": {}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "tool", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "malware", "canonical_name": "RN Loader", "aliases": [], "properties": {"capabilities": ["in-memory execution"]}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "malware", "canonical_name": "RN Stealer", "aliases": [], "properties": {"capabilities": ["collect system information", "establish C2 communications", "exfiltrate SSH keys", "exfiltrate saved credentials", "exfiltrate cloud configurations"]}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Recruiter impersonation on LinkedIn", "aliases": [], "properties": {}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "YAML deserialization backdoor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "EJS escapeFunction backdoor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "In-memory payload deployment", "aliases": [], "properties": {}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration of SSH keys, saved credentials, and cloud configurations", "aliases": [], "properties": {}, "source_chunks": ["BLOG-252::ch0"]}
+{"entity_type": "identity", "canonical_name": "cryptocurrency sector", "aliases": [], "properties": {"sector": "cryptocurrency"}, "source_chunks": ["BLOG-252::ch0"]}

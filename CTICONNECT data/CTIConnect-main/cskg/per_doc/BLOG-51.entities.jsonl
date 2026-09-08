@@ -1,0 +1,27 @@
+{"entity_type": "campaign", "canonical_name": "BadPilot campaign", "aliases": ["BadPilot"], "properties": {"objective": "initial access", "first_seen": "2021"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Sandworm Team", "aliases": ["Seashell Blizzard", "Sandworm", "Voodoo Bear", "BlackEnergy Group", "Telebots", "ELECTRUM", "IRIDIUM"], "properties": {"country": "Russia", "first_seen": "2021"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian GRU", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-34473", "aliases": [], "properties": {"cve_id": "CVE-2021-34473"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-41352", "aliases": [], "properties": {"cve_id": "CVE-2022-41352"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-32315", "aliases": [], "properties": {"cve_id": "CVE-2023-32315"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-42793", "aliases": [], "properties": {"cve_id": "CVE-2023-42793"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-23397", "aliases": [], "properties": {"cve_id": "CVE-2023-23397"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-1709", "aliases": [], "properties": {"cve_id": "CVE-2024-1709"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-48788", "aliases": [], "properties": {"cve_id": "CVE-2023-48788"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "energy sector", "aliases": ["energy"], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "oil and gas sector", "aliases": ["oil and gas"], "properties": {"sector": "oil and gas"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecommunications sector", "aliases": ["telecommunications"], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "shipping sector", "aliases": ["shipping"], "properties": {"sector": "shipping"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "arms manufacturing sector", "aliases": ["arms manufacturing"], "properties": {"sector": "arms manufacturing"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "government sector", "aliases": ["government"], "properties": {"sector": "government"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "malware", "canonical_name": "DarkCrystalRAT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "Central/South Asia", "aliases": [], "properties": {"region": "Central/South Asia"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East", "aliases": ["the Middle East"], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": ["the United States"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "United Kingdom", "aliases": [], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "Canada", "aliases": [], "properties": {"region": "Canada"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "Australia", "aliases": [], "properties": {"region": "Australia"}, "source_chunks": ["BLOG-51::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russia", "aliases": ["Russia’s"], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-51::ch0"]}

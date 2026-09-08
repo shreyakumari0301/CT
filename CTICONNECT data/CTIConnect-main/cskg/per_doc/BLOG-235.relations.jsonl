@@ -1,0 +1,16 @@
+{"src_type": "identity", "src_name": "Check Point Research", "predicate": "revealed", "tgt_type": "threat_actor", "tgt_name": "Void Manticore", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Manticore", "predicate": "operates_under_persona", "tgt_type": "campaign", "tgt_name": "2022 Albania campaign", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Manticore", "predicate": "operates_under_persona", "tgt_type": "campaign", "tgt_name": "2023–2024 Israel attacks", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Manticore", "predicate": "collaborates_with", "tgt_type": "threat_actor", "tgt_name": "Scarred Manticore", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Manticore", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "CI Wiper", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Manticore", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "CL Wiper", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Manticore", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "LowEraser", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Manticore", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "BiBi Wiper", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "campaign", "src_name": "2022 Albania campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Albania", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "campaign", "src_name": "2023–2024 Israel attacks", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israel", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scarred Manticore", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-0604", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scarred Manticore", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Foxshell", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scarred Manticore", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Liontail", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scarred Manticore", "predicate": "uses", "tgt_type": "tool", "tgt_name": "LionHead", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scarred Manticore", "predicate": "hands_victims_to", "tgt_type": "threat_actor", "tgt_name": "Void Manticore", "source_chunks": ["BLOG-235::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2019-0604", "predicate": "affects", "tgt_type": "identity", "tgt_name": "SharePoint", "source_chunks": ["BLOG-235::ch0"]}

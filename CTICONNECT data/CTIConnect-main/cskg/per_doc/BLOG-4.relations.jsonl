@@ -1,0 +1,31 @@
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "malware", "tgt_name": "3AM", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "law firms", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "oil & gas", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "Cl0p", "predicate": "targets", "tgt_type": "identity", "tgt_name": "logistics", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "first_observed_by", "tgt_type": "identity", "tgt_name": "Kroll", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-41266", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-41265", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-48365", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Qlik Sense", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "writes_key_to", "tgt_type": "indicator", "tgt_name": "ntuser.dat", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SoftPerfect Network Scanner", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Splashtop", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Chisel", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "exfiltrates_over", "tgt_type": "tool", "tgt_name": "Tox", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "exfiltrates_over", "tgt_type": "tool", "tgt_name": "Rclone", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "encrypts_with", "tgt_type": "tool", "tgt_name": "AES", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "encrypts_with", "tgt_type": "tool", "tgt_name": "OpenSSL", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "appends_extension", "tgt_type": "indicator", "tgt_name": ".cts1", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "CACTUS", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "cAcTuS.readme.txt", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "appends_extension", "tgt_type": "indicator", "tgt_name": ".threeamtime", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "adds_marker", "tgt_type": "indicator", "tgt_name": "0x666", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "exfiltrates_via", "tgt_type": "tool", "tgt_name": "Wput", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "exfiltrates_to", "tgt_type": "tool", "tgt_name": "FTP", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "malware", "src_name": "3AM", "predicate": "negotiates_over", "tgt_type": "tool", "tgt_name": "Tor", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "tool", "src_name": "MFA", "predicate": "secures", "tgt_type": "tool", "tgt_name": "RDP", "source_chunks": ["BLOG-4::ch0"]}
+{"src_type": "tool", "src_name": "EDR", "predicate": "flags", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-4::ch0"]}

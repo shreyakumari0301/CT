@@ -1,0 +1,23 @@
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Honeybee actor", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Visual Basic macros in MS Word documents", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "SYSCON", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "targets", "tgt_type": "identity", "tgt_name": "humanitarian aid organizations", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government entities", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "targets", "tgt_type": "identity", "tgt_name": "South Korea", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Vietnam", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Singapore", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Argentina", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Japan", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Indonesia", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Canada", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "malware", "src_name": "SYSCON", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "1113427185.ifastnet.org", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "malware", "src_name": "SYSCON", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Bypass User Access Control", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "malware", "src_name": "SYSCON", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Privilege Escalation", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "malware", "src_name": "SYSCON", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over FTP", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "malware", "src_name": "SYSCON", "predicate": "signed_with", "tgt_type": "identity", "tgt_name": "Adobe Systems", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Bypass User Access Control", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "NTWDBLIB.dll", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Bypass User Access Control", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "cliconfg.exe", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "indicator", "src_name": "manual.doc", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Visual Basic macros in MS Word documents", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "indicator", "src_name": "manual.doc", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "%temp%\\setup.cab", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "indicator", "src_name": "%temp%\\setup.cab", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "NTWDBLIB.dll", "source_chunks": ["BLOG-251::ch0"]}
+{"src_type": "indicator", "src_name": "%temp%\\setup.cab", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "cliconfg.exe", "source_chunks": ["BLOG-251::ch0"]}

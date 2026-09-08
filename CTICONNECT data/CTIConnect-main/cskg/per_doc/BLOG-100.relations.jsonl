@@ -1,0 +1,16 @@
+{"src_type": "threat_actor", "src_name": "UNC-0050", "predicate": "launched", "tgt_type": "campaign", "tgt_name": "RemcosRAT campaign", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC-0050", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian government agencies", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC-0050", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "6.hta", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC-0050", "predicate": "uses", "tgt_type": "malware", "tgt_name": "RemcosRAT", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "campaign", "src_name": "RemcosRAT campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian government agencies", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "campaign", "src_name": "RemcosRAT campaign", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "Israeli Defense Forces", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "campaign", "src_name": "RemcosRAT campaign", "predicate": "installs", "tgt_type": "malware", "tgt_name": "RemcosRAT", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "indicator", "src_name": "6.hta", "predicate": "downloads", "tgt_type": "indicator", "tgt_name": "word_update.exe", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "indicator", "src_name": "6.hta", "predicate": "downloads", "tgt_type": "indicator", "tgt_name": "ofer.docx", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "indicator", "src_name": "word_update.exe", "predicate": "installs", "tgt_type": "malware", "tgt_name": "RemcosRAT", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "identity", "src_name": "Uptycs", "predicate": "published_research_on", "tgt_type": "campaign", "tgt_name": "RemcosRAT campaign", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "identity", "src_name": "Karthickkumar Kathiresan", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Uptycs", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "identity", "src_name": "Karthickkumar Kathiresan", "predicate": "reported_on", "tgt_type": "campaign", "tgt_name": "RemcosRAT campaign", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "identity", "src_name": "Shilpesh Trivedi", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Uptycs", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "identity", "src_name": "Shilpesh Trivedi", "predicate": "reported_on", "tgt_type": "campaign", "tgt_name": "RemcosRAT campaign", "source_chunks": ["BLOG-100::ch0"]}
+{"src_type": "identity", "src_name": "CERT-UA", "predicate": "issued_alerts_on", "tgt_type": "malware", "tgt_name": "RemcosRAT", "source_chunks": ["BLOG-100::ch0"]}

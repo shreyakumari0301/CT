@@ -1,0 +1,19 @@
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-3019", "aliases": ["Follina"], "properties": {"cve_id": "CVE-2022-3019"}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Support Diagnostic Tool", "aliases": ["MSDT"], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russia", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Tibet", "aliases": [], "properties": {"region": "Tibet"}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Belarus", "aliases": [], "properties": {"region": "Belarus"}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Shadow Chaser Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Recorded Future", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Malwarebytes", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Nao Sec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kevin Beaumont", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "tool", "canonical_name": "Office Protected View", "aliases": ["Protected View"], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "tool", "canonical_name": "Application Guard", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Office", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Office 2013–365", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "campaign", "canonical_name": "lure campaigns impersonating the Central Tibetan Administration’s “Women Empowerment Desk”", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Central Tibetan Administration", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}
+{"entity_type": "identity", "canonical_name": "Women Empowerment Desk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-177::ch0"]}

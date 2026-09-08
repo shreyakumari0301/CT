@@ -1,0 +1,17 @@
+{"src_type": "malware", "src_name": "Lorenz", "predicate": "likely_rebranding_of", "tgt_type": "malware", "tgt_name": ".sZ40/ThunderCrypt", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "malware", "src_name": "Lorenz", "predicate": "targets", "tgt_type": "identity", "tgt_name": "United States", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "malware", "src_name": "Lorenz", "predicate": "targets", "tgt_type": "identity", "tgt_name": "China", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "malware", "src_name": "Lorenz", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Mexico", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "malware", "src_name": "Lorenz", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "Hensoldt", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "malware", "src_name": "Lorenz", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-29499", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "identity", "src_name": "CrowdStrike", "predicate": "observed_deploying_reverse_shell_via", "tgt_type": "indicator", "tgt_name": "pdf_import.php", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "identity", "src_name": "CrowdStrike", "predicate": "observed_renaming_binaries_to", "tgt_type": "indicator", "tgt_name": "memdump", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "identity", "src_name": "CrowdStrike", "predicate": "observed_using", "tgt_type": "tool", "tgt_name": "Chisel", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "identity", "src_name": "Arctic Wolf", "predicate": "observed_invoking", "tgt_type": "tool", "tgt_name": "cURL", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "identity", "src_name": "Arctic Wolf", "predicate": "observed_using", "tgt_type": "tool", "tgt_name": "CrackMapExec", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "identity", "src_name": "Arctic Wolf", "predicate": "observed_using", "tgt_type": "tool", "tgt_name": "Out-Minidump", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "identity", "src_name": "Arctic Wolf", "predicate": "observed_installing", "tgt_type": "tool", "tgt_name": "FileZilla", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "identity", "src_name": "Avertium", "predicate": "advocates_applying_remediation_script_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-29499", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "tool", "src_name": "cURL", "predicate": "downloads_and_executes", "tgt_type": "indicator", "tgt_name": "wc2_deploy", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "indicator", "src_name": "wc2_deploy", "predicate": "uses", "tgt_type": "tool", "tgt_name": "OpenSSL", "source_chunks": ["BLOG-221::ch0"]}
+{"src_type": "indicator", "src_name": "worm.txt", "predicate": "triggers_encryption_via", "tgt_type": "tool", "tgt_name": "BitLocker", "source_chunks": ["BLOG-221::ch0"]}

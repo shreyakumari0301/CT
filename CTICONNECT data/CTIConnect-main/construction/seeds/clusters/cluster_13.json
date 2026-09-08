@@ -1,0 +1,406 @@
+{
+  "cluster_id": 13,
+  "cluster_size": 3,
+  "cluster_type": "malware",
+  "blogs": [
+    {
+      "blog_id": 75,
+      "node": [
+        {
+          "node_text": "911 dispatch centers",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "COVID testing",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Cobalt Strike",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Conti ransomware",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "DLL Injection",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Data Encrypted for Impact",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Deobfuscate/Decode",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "EMS",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Exploit Public-Facing Application",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "FBI",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "File and Directory Discovery",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Inhibit System Recovery",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Ireland",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Network Share Discovery",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Obfuscated Files",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "SMB Shares",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Spearphishing Attachment",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "System shutdown",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "X-ray services",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "hospitals",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "lack of MFA",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "law enforcement",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "mid-May",
+          "node_type": "Time"
+        }
+      ],
+      "title": " Conti",
+      "platform": "Unit42",
+      "type": "malware",
+      "publish_date": "2025/3/28"
+    },
+    {
+      "blog_id": 187,
+      "node": [
+        {
+          "node_text": "AnyDesk",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Atera",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "BazarLoader",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2018-13374",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2018-13379",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2020-1472",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2021-1675",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cobalt Strike",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Conti",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DontSleep.exe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "EternalBlue",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Exchange ProxyShell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "GMER",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Get-GPPPassword",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Jan–Nov 2021",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Net",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Nltest",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PC Hunter",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PSExec",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ProcDump",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Rclone",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Rubeus",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SeatBelt",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ShareFinder",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SharpChrome",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Trend Micro",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Trickbot",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "U.S.",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Whoami",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WinSCP",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "domain-admin credentials",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "healthcare sector",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "insurance sector",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "kerberoasting",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "manufacturing sector",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "mass-mimikatz",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "operators",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "reg save",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "retail sector",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "scheduled jobs",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "scheduled tasks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "telecommunications sector",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " Conti",
+      "platform": "trendmicro",
+      "type": " malware",
+      "publish_date": "2021/12/1"
+    },
+    {
+      "blog_id": 40,
+      "node": [
+        {
+          "node_text": "650 organizations across IT, cybersecurity, healthcare and other sectors",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Abnormal reporting",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "BUMBLEBEE loader",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "BazarLoader",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Central/Eastern Europe timezone",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Cobalt Strike payloads",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Conti ransomware",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "DEV-0413",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Diavol ransomware",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "EXOTIC LILY",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "FIN12/WIZARD SPIDER",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Google’s Threat Analysis Group",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "ISO files with hidden DLLs and LNK shortcuts",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "Microsoft MSHTML CVE-2021-40444",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "OneDrive",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "TLD-switched domain spoofing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "TransferNow",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "WMI-based data collection",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "WeTransfer",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "employee identity spoofing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "live chat",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "shared machine identifiers",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "spear-phishing emails",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "unique command-line arguments",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "“bumblebee” user-agent",
+          "node_type": "Indicator Type"
+        }
+      ],
+      "title": " Conti",
+      "platform": "google_tag",
+      "type": " malware",
+      "publish_date": "2025/3/28"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "FishMonger", "aliases": ["Aquatic Panda"], "properties": {"country": "China", "primary_motivation": "espionage", "regions_targeted": ["Taiwan", "Hungary", "Turkey", "Thailand", "United States", "France"], "sectors_targeted": ["government", "religious", "non-profit", "think tanks"]}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "campaign", "canonical_name": "FishMedley", "aliases": [], "properties": {"objective": "espionage"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "iSoon", "aliases": [], "properties": {}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "Axun Information Technology", "aliases": [], "properties": {}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ministry of Public Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ministry of State Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "PLA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. DOJ", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "malware", "canonical_name": "ShadowPad", "aliases": [], "properties": {"family": "ShadowPad"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "malware", "canonical_name": "Spyder loader", "aliases": [], "properties": {"family": "Spyder loader"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "malware", "canonical_name": "SodaMaster", "aliases": [], "properties": {"family": "SodaMaster"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "tool", "canonical_name": "RPipeCommander", "aliases": [], "properties": {"capabilities": ["reverse shell"]}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential theft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Domain administrator access", "aliases": ["domain administrator access"], "properties": {}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration of confidential data", "aliases": ["exfiltration of confidential data"], "properties": {}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwan", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hungary", "aliases": [], "properties": {"region": "Hungary"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "Turkey", "aliases": [], "properties": {"region": "Turkey"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "Thailand", "aliases": [], "properties": {"region": "Thailand"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "the U.S.", "aliases": ["U.S."], "properties": {"region": "United States"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "France", "aliases": [], "properties": {"region": "France"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "governmental bodies", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "Catholic charities", "aliases": [], "properties": {"sector": "religious"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "NGOs", "aliases": [], "properties": {"sector": "non-profit"}, "source_chunks": ["BLOG-296::ch0"]}
+{"entity_type": "identity", "canonical_name": "think tanks", "aliases": [], "properties": {"sector": "think tanks"}, "source_chunks": ["BLOG-296::ch0"]}

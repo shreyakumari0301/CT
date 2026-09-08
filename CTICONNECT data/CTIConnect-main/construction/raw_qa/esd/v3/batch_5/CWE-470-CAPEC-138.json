@@ -1,0 +1,23 @@
+{
+  "question": "An application uses user-controlled input to choose what classes, methods, or code to load or invoke at runtime via reflection or similar dynamic mechanisms. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-138.\n- CAPEC-138 exploits reflection-driven code selection, targeting CWE-470: externally controlled input selects classes or code via unsafe reflection.",
+  "llm_cost": {
+    "input": 0.00083,
+    "cached_input": 0.0,
+    "output": 0.00093,
+    "total": 0.00176,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 664,
+      "cached_input": 0,
+      "output": 93
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7852
+  }
+}

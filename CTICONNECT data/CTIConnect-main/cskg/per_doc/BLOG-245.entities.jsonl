@@ -1,0 +1,8 @@
+{"entity_type": "threat_actor", "canonical_name": "Evil Corp", "aliases": [], "properties": {}, "source_chunks": ["BLOG-245::ch0"]}
+{"entity_type": "tool", "canonical_name": "Responder", "aliases": [], "properties": {"capabilities": ["LLMNR poisoning", "NBT-NS poisoning", "credential harvesting"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-245::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Pass the Hash", "aliases": ["pass-the-hash"], "properties": {}, "source_chunks": ["BLOG-245::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["PSExec", "psexec.exe"], "properties": {"capabilities": ["remote execution", "lateral movement"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-245::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMI", "aliases": [], "properties": {"capabilities": ["remote execution", "lateral movement"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-245::ch0"]}
+{"entity_type": "malware", "canonical_name": "WastedLocker", "aliases": ["WastedLocker ransomware"], "properties": {"family": "ransomware", "capabilities": ["file encryption"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-245::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled Task", "aliases": ["scheduled tasks"], "properties": {}, "source_chunks": ["BLOG-245::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cynet", "aliases": ["Cynet’s"], "properties": {}, "source_chunks": ["BLOG-245::ch0"]}

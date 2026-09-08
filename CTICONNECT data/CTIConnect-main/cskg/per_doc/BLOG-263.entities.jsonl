@@ -1,0 +1,16 @@
+{"entity_type": "threat_actor", "canonical_name": "Hexane", "aliases": ["Lyceum", "SiameseKitten"], "properties": {"country": "Iran", "first_seen": "2018", "sectors_targeted": ["oil & gas", "telecommunications", "IT", "communications"], "regions_targeted": ["Middle East", "Africa", "Israel", "France", "United Kingdom"], "last_seen": "2021"}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "identity", "canonical_name": "oil & gas", "aliases": [], "properties": {"sector": "oil & gas"}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecommunications", "aliases": [], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israeli IT and communications firms", "aliases": [], "properties": {"sector": "IT and communications", "region": "Israel"}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israel", "aliases": ["Israeli"], "properties": {"region": "Israel"}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "identity", "canonical_name": "France", "aliases": [], "properties": {"region": "France"}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "identity", "canonical_name": "United Kingdom", "aliases": ["UK"], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East", "aliases": [], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "identity", "canonical_name": "Africa", "aliases": [], "properties": {"region": "Africa"}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "tool", "canonical_name": "LinkedIn", "aliases": [], "properties": {}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "malware", "canonical_name": "Milan", "aliases": ["Milan implant"], "properties": {"capabilities": ["command and control"]}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "malware", "canonical_name": "DanBot", "aliases": ["DanBot RAT"], "properties": {"capabilities": ["data harvesting", "espionage", "lateral movement"]}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT34", "aliases": ["OilRig", "Helix Kitten", "Cobalt Gypsy", "Earth Vetala", "Hazel Sandstorm"], "properties": {}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "North Korea", "aliases": [], "properties": {}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "campaign", "canonical_name": "dream job campaigns", "aliases": ["“dream job” campaigns"], "properties": {}, "source_chunks": ["BLOG-263::ch0"]}
+{"entity_type": "identity", "canonical_name": "ClearSky", "aliases": [], "properties": {}, "source_chunks": ["BLOG-263::ch0"]}

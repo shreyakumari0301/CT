@@ -1,0 +1,7 @@
+{
+  "question": "What malware families, threat groups, or vulnerability IDs appear consistently across these reports?",
+  "answer": "- Threat Actor Group: Winnti (also tracked as APT41/Barium/Blackfly)\n- Malware Families/Tools: DEPLOYLOG backdoor, WINNKIT kernel rootkit, JSP-based WebShells\n- Vulnerability IDs: References to both known and zero-day ERP platform vulnerabilities (no specific CVE numbers provided)",
+  "llm_timing": {
+    "api_call_seconds": 10.3866
+  }
+}

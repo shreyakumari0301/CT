@@ -1,0 +1,23 @@
+{
+  "question": "A PHP application lets user-controlled input influence which file is loaded via an include/require statement, without properly sanitizing the filename, allowing remote code to be loaded from a web-accessible location. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-193.\n- CAPEC-193 exploits controllable include/require filenames, targeting CWE-98: improper control of filename for include/require enables remote file inclusion.",
+  "llm_cost": {
+    "input": 0.00076,
+    "cached_input": 0.0,
+    "output": 0.00108,
+    "total": 0.00184,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 608,
+      "cached_input": 0,
+      "output": 108
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6147
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "cluster_id": 42,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 225,
+      "node": [
+        {
+          "node_text": "40 organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "7zip",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Accenture Security",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "AnyDesk",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Cobalt Strike beacons",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "EDR solutions",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "FileZilla",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "June 2021",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Karakurt",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Mega.io",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Q3 2021",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Rclone",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "September–November",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Twitter handle",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "VPN credentials",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "WinZip",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "administrator privileges",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "public leak threats",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "two domains",
+          "node_type": "Indicator Type"
+        }
+      ],
+      "title": "Karakurt",
+      "platform": "BleepingComputer",
+      "type": "threat actor",
+      "publish_date": "2021/12/10"
+    },
+    {
+      "blog_id": 256,
+      "node": [
+        {
+          "node_text": "7-Zip",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Active Directory credentials",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "AnyDesk",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "CVE-2020-1472",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "FortiGate VPN",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Karakurt",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Microsoft-Windows-DNS-Server-Service Event ID 3150",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "NCC Group CIRT",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "NTDS.dit",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "PsExec",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "RDP",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Rclone",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Volume Shadow Copy",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "data exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "domain-admin rights",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "encoded PowerShell DNS zone export",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "living-off-the-land techniques",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "one month",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "persistence",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": "Karakurt",
+      "platform": "nccgroup",
+      "type": "threat actor",
+      "publish_date": "2022/2/17"
+    },
+    {
+      "blog_id": 220,
+      "node": [
+        {
+          "node_text": "11.6 BTC",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "AnyDesk",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cobalt Strike C2 beacons",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Conti",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Conti rebranding",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Conti wallets",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "June 2021",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Karakurt",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Karakurt Team/Lair",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MFA",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "May 19, 2022",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Mega.io",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PowerShell dumps of ntds.dit",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Rclone",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SFTP",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "VPN MFA",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "VPN credentials",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WinZip/7zip",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "credential hygiene",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "defenders",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "intrusion prevention systems",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "service creation",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "small and midsize companies",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "unauthorized remote-management tools",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "unpatched devices",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Karakurt",
+      "platform": "AVERTIUM",
+      "type": "threat actor",
+      "publish_date": "2022/6/14"
+    }
+  ]
+}

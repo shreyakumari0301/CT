@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Weak/reused passwords on RDP and other services made brute force and credential stuffing effective.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) what are the potential mitigations (e.g., the exact fixes such as code or configuration changes) for this type of vulnerability.",
+  "answer": "1) CWE-521: Weak Password Requirements\n2) Mapping Explanation: The vulnerability is due to the use of weak or reused passwords, which directly corresponds to CWE-521. This CWE focuses on inadequate password policies that allow easy-to-guess or reused passwords, thereby enabling brute force and credential stuffing attacks.\n3) Potential Mitigations:\n   1. Enforce a strict password policy that requires both a minimum and maximum length, and restricts password reuse.\n   2. Disallow the use of common or easily guessable passwords and avoid incorporating contextual information (such as user IDs or application names) in passwords.\n   3. Encourage the use of complex passwords, for example, by supporting mixed character sets or encouraging the use of long passphrases.\n   4. Implement a password complexity meter to guide users in meeting the required attributes, and consider mechanisms such as password expiration or additional authentication factors to strengthen security.",
+  "llm_timing": {
+    "api_call_seconds": 10.2248
+  }
+}

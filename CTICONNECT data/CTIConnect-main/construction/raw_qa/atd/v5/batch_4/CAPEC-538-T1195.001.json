@@ -1,0 +1,23 @@
+{
+  "question": "An adversary implants malicious code into widely used open-source software libraries so that developers download and incorporate them into projects, enabling follow-on compromise of many systems or specific targets. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.001.\n- T1195.001 corresponds to dependency/toolchain compromise, mapping CAPEC-538: implanting malicious code into open-source libraries for widespread distribution.",
+  "llm_cost": {
+    "input": 0.000766,
+    "cached_input": 0.0,
+    "output": 0.0011,
+    "total": 0.001866,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 613,
+      "cached_input": 0,
+      "output": 110
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5484
+  }
+}

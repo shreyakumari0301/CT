@@ -1,0 +1,39 @@
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "subgroup_of", "tgt_type": "threat_actor", "tgt_name": "Sandworm Team", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "executes", "tgt_type": "campaign", "tgt_name": "multi-year campaign", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "critical energy networks", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "oil & gas", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecom", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "shipping", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "arms manufacturing", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "military", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "transportation and logistics", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Central/South Asia", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "United States", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "UK", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Canada", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Australia", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-34473", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-41352", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-32315", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-42793", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-23397", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-1709", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-48788", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "conducts", "tgt_type": "attack_pattern", "tgt_name": "Credential theft", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "conducts", "tgt_type": "attack_pattern", "tgt_name": "Supply-chain attacks", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "LocalOlive", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Atera Agent", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Splashtop", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Procdump", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exfiltrates_data_via", "tgt_type": "tool", "tgt_name": "Rclone", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exfiltrates_data_via", "tgt_type": "tool", "tgt_name": "Chisel", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exfiltrates_data_via", "tgt_type": "tool", "tgt_name": "Plink", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "routes_tunnels_over", "tgt_type": "tool", "tgt_name": "Tor", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Data exfiltration", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Lateral movement", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "uses", "tgt_type": "tool", "tgt_name": "OpenSSH", "source_chunks": ["BLOG-17::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "warns_about", "tgt_type": "threat_actor", "tgt_name": "BadPilot", "source_chunks": ["BLOG-17::ch0"]}

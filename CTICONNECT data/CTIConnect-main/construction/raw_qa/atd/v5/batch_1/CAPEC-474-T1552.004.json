@@ -1,0 +1,23 @@
+{
+  "question": "An adversary steals a reputable signer\u2019s private signing key and then uses it to forge digital signatures that appear to come from the legitimate signer, misleading victims into taking attacker-benefiting actions. Which MITRE ATT&CK technique corresponds to this attack pattern, and why does it map?",
+  "answer": "- T1552.004.\n- T1552.004 corresponds to stealing private keys, mapping CAPEC-474: theft of signer\u2019s private key to forge signatures.",
+  "llm_cost": {
+    "input": 0.000727,
+    "cached_input": 0.0,
+    "output": 0.00107,
+    "total": 0.001798,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 582,
+      "cached_input": 0,
+      "output": 107
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6887
+  }
+}

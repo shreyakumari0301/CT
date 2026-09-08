@@ -1,0 +1,16 @@
+{"src_type": "malware", "src_name": "StrelaStealer", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "DLL Side-Loading / Malicious DLL Execution", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "malware", "src_name": "StrelaStealer", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over C2 Channel", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "StrelaStealer", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US organizations", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "EU organizations", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "high-tech sector", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "finance sector", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "legal sector", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing sector", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government sector", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "utilities sector", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "energy sector", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "insurance sector", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "targets", "tgt_type": "identity", "tgt_name": "construction sector", "source_chunks": ["BLOG-124::ch0"]}
+{"src_type": "campaign", "src_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Obfuscated/Encrypted Payloads", "source_chunks": ["BLOG-124::ch0"]}

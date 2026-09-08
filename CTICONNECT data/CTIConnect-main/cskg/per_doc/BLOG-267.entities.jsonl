@@ -1,0 +1,16 @@
+{"entity_type": "threat_actor", "canonical_name": "Storm-842", "aliases": ["Void Manticore", "Homeland Justice", "Karma"], "properties": {"country": "Iran", "first_seen": "July 2022", "last_seen": "December 2023"}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT34", "aliases": ["Scarred Manticore", "OilRig", "Helix Kitten", "Cobalt Gypsy", "Earth Vetala", "Hazel Sandstorm"], "properties": {}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "identity", "canonical_name": "Albania", "aliases": [], "properties": {"region": "Albania"}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israel", "aliases": [], "properties": {"region": "Israel"}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "identity", "canonical_name": "Albania’s e-government and border systems", "aliases": ["Albania’s e-government", "border systems"], "properties": {"region": "Albania"}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israeli infrastructure", "aliases": [], "properties": {"region": "Israel"}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "identity", "canonical_name": "MOIS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "identity", "canonical_name": "MEK", "aliases": [], "properties": {}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "tool", "canonical_name": "reGeorge", "aliases": [], "properties": {"platforms": ["web"]}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "tool", "canonical_name": "Karma Shell", "aliases": [], "properties": {"platforms": ["web"]}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "malware", "canonical_name": "Cl Wiper", "aliases": [], "properties": {"platforms": ["Windows", "Linux"]}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "tool", "canonical_name": "ElRawDisk", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "malware", "canonical_name": "Partition Wiper", "aliases": [], "properties": {"platforms": ["Windows", "Linux"]}, "source_chunks": ["BLOG-267::ch0"]}
+{"entity_type": "malware", "canonical_name": "BiBi Wiper", "aliases": [], "properties": {"platforms": ["Windows", "Linux"]}, "source_chunks": ["BLOG-267::ch0"]}

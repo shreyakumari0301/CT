@@ -1,0 +1,22 @@
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "nuclear organizations", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense organizations", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "energy organizations", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "financial organizations", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Weaponized Office documents", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Macro-enabled loader", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "has_indicator", "tgt_type": "indicator", "tgt_name": "8106a30bd35526bded384627d8eebce15da35d17", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "has_indicator", "tgt_type": "indicator", "tgt_name": "http://208.117.44.112/Strategic Planning Manager.doc", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "identity", "src_name": "McAfee Advanced Threat Research", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "Operation Sharpshooter", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "malware", "src_name": "Rising Sun", "predicate": "leverages_source_code_from", "tgt_type": "malware", "tgt_name": "Duuzer Trojan", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "malware", "src_name": "Rising Sun", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Account discovery", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "malware", "src_name": "Rising Sun", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "File and directory discovery", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "malware", "src_name": "Rising Sun", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Process discovery", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "malware", "src_name": "Rising Sun", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "System and network discovery", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "malware", "src_name": "Rising Sun", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Process injection", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "malware", "src_name": "Rising Sun", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Encrypted exfiltration over C2 channels", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "malware", "src_name": "Rising Sun", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "34.214.99.20/view_style.php", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "malware", "src_name": "Duuzer Trojan", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "Lazarus Group", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Macro-enabled loader", "predicate": "drops", "tgt_type": "attack_pattern", "tgt_name": "In-memory implant", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "attack_pattern", "src_name": "In-memory implant", "predicate": "retrieves", "tgt_type": "malware", "tgt_name": "Rising Sun", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "tool", "src_name": "McAfee signatures RDN/Generic Downloader.x", "predicate": "detects", "tgt_type": "indicator", "tgt_name": "http://208.117.44.112/Strategic Planning Manager.doc", "source_chunks": ["BLOG-254::ch0"]}
+{"src_type": "tool", "src_name": "McAfee signatures Rising-Sun", "predicate": "detects", "tgt_type": "malware", "tgt_name": "Rising Sun", "source_chunks": ["BLOG-254::ch0"]}

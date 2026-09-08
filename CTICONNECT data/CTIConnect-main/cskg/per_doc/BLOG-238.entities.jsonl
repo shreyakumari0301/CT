@@ -1,0 +1,21 @@
+{"entity_type": "threat_actor", "canonical_name": "Moses Staff", "aliases": [], "properties": {"country": "Iran", "primary_motivation": "sabotage", "regions_targeted": ["Israel", "India", "Germany", "United States", "Italy", "Chile", "Turkey", "United Arab Emirates"], "first_seen": "September 2021"}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "campaign", "canonical_name": "politically motivated sabotage campaigns", "aliases": [], "properties": {"objective": "sabotage"}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israeli organizations", "aliases": [], "properties": {"region": "Israel"}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "identity", "canonical_name": "India", "aliases": [], "properties": {"region": "India"}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "identity", "canonical_name": "Germany", "aliases": [], "properties": {"region": "Germany"}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S.", "aliases": ["the U.S."], "properties": {"region": "United States"}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "identity", "canonical_name": "Italy", "aliases": [], "properties": {"region": "Italy"}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chile", "aliases": [], "properties": {"region": "Chile"}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "identity", "canonical_name": "Turkey", "aliases": [], "properties": {"region": "Turkey"}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "identity", "canonical_name": "UAE", "aliases": ["the UAE"], "properties": {"region": "United Arab Emirates"}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Exchange", "aliases": [], "properties": {}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMIC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "malware", "canonical_name": "PyDCrypt", "aliases": [], "properties": {"platforms": ["Python"]}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "malware", "canonical_name": "DiskCryptor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "malware", "canonical_name": "DCSrv", "aliases": [], "properties": {"family": "DiskCryptor"}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "malware", "canonical_name": "StrifeWater RAT", "aliases": ["StrifeWater"], "properties": {}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "tool", "canonical_name": "calc.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cybereason", "aliases": [], "properties": {}, "source_chunks": ["BLOG-238::ch0"]}
+{"entity_type": "tool", "canonical_name": "EDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-238::ch0"]}

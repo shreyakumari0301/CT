@@ -1,0 +1,17 @@
+{"src_type": "identity", "src_name": "BlackBerry Research and Intelligence Team", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "Silent Skimmer", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimmer", "predicate": "exploits", "tgt_type": "tool", "tgt_name": "Internet Information Services (IIS)", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimmer", "predicate": "targets", "tgt_type": "identity", "tgt_name": "online payment and PoS web applications", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimmer", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Asia-Pacific", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimmer", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimmer", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Latin America", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimmer", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Privilege Escalation", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimmer", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimmer", "predicate": "executes", "tgt_type": "malware", "tgt_name": "PowerShell-based RAT (server.ps1)", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell-based RAT (server.ps1)", "predicate": "downloads_additional_utilities_via_c2", "tgt_type": "attack_pattern", "tgt_name": "Reverse Proxy", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell-based RAT (server.ps1)", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Reverse Proxy", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell-based RAT (server.ps1)", "predicate": "deploys", "tgt_type": "attack_pattern", "tgt_name": "Web Shell", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell-based RAT (server.ps1)", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "identity", "src_name": "Sophos", "predicate": "detailed", "tgt_type": "campaign", "tgt_name": "pig butchering", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "campaign", "src_name": "pig butchering", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Social Engineering", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "campaign", "src_name": "pig butchering", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Ethereum", "source_chunks": ["BLOG-157::ch0"]}
+{"src_type": "campaign", "src_name": "pig butchering", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-157::ch0"]}

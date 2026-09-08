@@ -1,0 +1,9 @@
+{"entity_type": "campaign", "canonical_name": "EleKtra-Leak", "aliases": [], "properties": {"objective": "cryptojacking (mining Monero)", "first_seen": "December 2020", "last_seen": "October 6, 2023"}, "source_chunks": ["BLOG-150::ch0"]}
+{"entity_type": "identity", "canonical_name": "AWS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-150::ch0"]}
+{"entity_type": "identity", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-150::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Drive", "aliases": [], "properties": {}, "source_chunks": ["BLOG-150::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Account reconnaissance", "aliases": [], "properties": {}, "source_chunks": ["BLOG-150::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Cryptocurrency mining", "aliases": ["cryptojacking", "mine Monero"], "properties": {}, "source_chunks": ["BLOG-150::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Steal cloud account credentials (AWS IAM credentials exposed in public repositories)", "aliases": ["harvested AWS IAM credentials exposed on public GitHub repositories", "revoke exposed API keys"], "properties": {}, "source_chunks": ["BLOG-150::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploit unsecured Docker services", "aliases": ["targeting unsecured Docker services"], "properties": {}, "source_chunks": ["BLOG-150::ch0"]}
+{"entity_type": "malware", "canonical_name": "custom miner", "aliases": ["bespoke mining software"], "properties": {}, "source_chunks": ["BLOG-150::ch0"]}

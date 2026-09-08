@@ -1,0 +1,7 @@
+{
+  "question": "What malware families, threat groups, or vulnerability IDs appear consistently across these reports?",
+  "answer": "- Malware Families: Rising Sun, Duuzer backdoor (Duuzer Trojan)\n- Threat Actor Groups: Lazarus Group\n- Vulnerability IDs: None mentioned",
+  "llm_timing": {
+    "api_call_seconds": 4.8666
+  }
+}

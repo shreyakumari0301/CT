@@ -1,0 +1,35 @@
+{"entity_type": "malware", "canonical_name": "LockBit", "aliases": ["LockBit 2.0", "LockBit 3.0", "LockBit Black", "LockBit Green"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "malware", "canonical_name": "Cl0p", "aliases": ["CL0P", "Clop"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "identity", "canonical_name": "law firms", "aliases": [], "properties": {"sector": "legal"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "identity", "canonical_name": "government", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "identity", "canonical_name": "oil & gas", "aliases": [], "properties": {"sector": "oil-and-gas"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "identity", "canonical_name": "logistics", "aliases": [], "properties": {"sector": "logistics"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "malware", "canonical_name": "CACTUS", "aliases": [], "properties": {"family": "ransomware", "first_seen": "March 2023"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kroll", "aliases": [], "properties": {}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "identity", "canonical_name": "Qlik Sense", "aliases": [], "properties": {}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-41266", "aliases": [], "properties": {"cve_id": "CVE-2023-41266"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-41265", "aliases": ["‑41265"], "properties": {"cve_id": "CVE-2023-41265"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-48365", "aliases": ["‑48365"], "properties": {"cve_id": "CVE-2023-48365"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ntuser.dat", "aliases": [], "properties": {"ioc_type": "hash", "value": "ntuser.dat"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "SoftPerfect Network Scanner", "aliases": [], "properties": {"capabilities": ["reconnaissance"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["script execution"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {"capabilities": ["command and control", "lateral movement"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "Splashtop", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chisel", "aliases": [], "properties": {"capabilities": ["tunneling"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "Tox", "aliases": [], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rclone", "aliases": [], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".cts1", "aliases": ["(.cts1 extension)"], "properties": {"ioc_type": "hash", "value": ".cts1"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "indicator", "canonical_name": "cAcTuS.readme.txt", "aliases": [], "properties": {"ioc_type": "hash", "value": "cAcTuS.readme.txt"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "malware", "canonical_name": "3AM", "aliases": [], "properties": {"family": "ransomware", "platforms": ["Rust"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".threeamtime", "aliases": [], "properties": {"ioc_type": "hash", "value": ".threeamtime"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "indicator", "canonical_name": "0x666", "aliases": ["“0x666” marker"], "properties": {"ioc_type": "hash", "value": "0x666"}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "Wput", "aliases": [], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "FTP", "aliases": [], "properties": {"capabilities": ["data transfer"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "Tor", "aliases": [], "properties": {"capabilities": ["anonymization"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "RDP", "aliases": [], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "MFA", "aliases": [], "properties": {"capabilities": ["authentication"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "EDR", "aliases": [], "properties": {"capabilities": ["endpoint detection and response"]}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "OpenSSL", "aliases": [], "properties": {}, "source_chunks": ["BLOG-4::ch0"]}
+{"entity_type": "tool", "canonical_name": "AES", "aliases": [], "properties": {}, "source_chunks": ["BLOG-4::ch0"]}

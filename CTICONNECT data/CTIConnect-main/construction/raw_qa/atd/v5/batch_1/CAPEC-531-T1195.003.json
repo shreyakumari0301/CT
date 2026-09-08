@@ -1,0 +1,23 @@
+{
+  "question": "An attacker replaces a tested and approved physical hardware component in a system with a maliciously altered one, enabling disruption or further compromise. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.003.\n- T1195.003 corresponds to compromised hardware components, mapping CAPEC-531: substituting approved hardware with maliciously altered components.",
+  "llm_cost": {
+    "input": 0.000731,
+    "cached_input": 0.0,
+    "output": 0.00099,
+    "total": 0.001721,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 585,
+      "cached_input": 0,
+      "output": 99
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3993
+  }
+}

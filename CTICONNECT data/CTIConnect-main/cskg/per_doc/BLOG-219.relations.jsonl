@@ -1,0 +1,18 @@
+{"src_type": "identity", "src_name": "CISA", "predicate": "disclosed", "tgt_type": "malware", "tgt_name": "FiveHands", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SoftPerfect Network Scanner", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "ServeManager.exe", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "SombRAT", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses", "tgt_type": "tool", "tgt_name": "RouterScan", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses", "tgt_type": "tool", "tgt_name": "grabff", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses", "tgt_type": "tool", "tgt_name": "rclone", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses", "tgt_type": "tool", "tgt_name": "s3browser", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerSploit", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "implements", "tgt_type": "attack_pattern", "tgt_name": "Data Destruction", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "implements", "tgt_type": "attack_pattern", "tgt_name": "Windows Management Instrumentation", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "implements", "tgt_type": "attack_pattern", "tgt_name": "Data Encrypted for Impact", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "tool", "src_name": "PsExec", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "ServeManager.exe", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "malware", "src_name": "ServeManager.exe", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "FiveHands", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "tool", "src_name": "WMI", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Data Destruction", "source_chunks": ["BLOG-219::ch0"]}
+{"src_type": "tool", "src_name": "WMI", "predicate": "associated_with", "tgt_type": "attack_pattern", "tgt_name": "Windows Management Instrumentation", "source_chunks": ["BLOG-219::ch0"]}

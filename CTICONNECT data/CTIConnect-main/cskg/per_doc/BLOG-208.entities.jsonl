@@ -1,0 +1,15 @@
+{"entity_type": "campaign", "canonical_name": "eXotic Visit", "aliases": [], "properties": {"first_seen": "November 2021", "last_seen": "December 2023", "objective": "Android espionage"}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Virtual Invaders", "aliases": [], "properties": {}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "identity", "canonical_name": "Pakistan", "aliases": [], "properties": {"region": "Pakistan"}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "identity", "canonical_name": "India", "aliases": [], "properties": {"region": "India"}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Play", "aliases": [], "properties": {}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": ["ESET researchers"], "properties": {}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google", "aliases": [], "properties": {}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "malware", "canonical_name": "XploitSPY RAT", "aliases": ["XploitSPY"], "properties": {"platforms": ["Android"], "capabilities": ["code obfuscation", "emulator detection", "command and control (C2)", "data exfiltration", "contacts collection", "SMS collection", "call log collection", "installed applications discovery", "Wi-Fi network discovery", "GPS location collection", "camera recording", "audio recording", "notification interception", "file listing", "file collection"]}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "tool", "canonical_name": "Firebase", "aliases": [], "properties": {}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "malware", "canonical_name": "WeTalk", "aliases": ["ChitChat", "WeTalk/ChitChat"], "properties": {"platforms": ["Android"]}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "malware", "canonical_name": "Dink Messenger", "aliases": [], "properties": {"platforms": ["Android"]}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "malware", "canonical_name": "Telco DB", "aliases": [], "properties": {"platforms": ["Android"]}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "malware", "canonical_name": "Sim Info", "aliases": [], "properties": {"platforms": ["Android"]}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "malware", "canonical_name": "Alpha Chat", "aliases": [], "properties": {"platforms": ["Android"]}, "source_chunks": ["BLOG-208::ch0"]}
+{"entity_type": "malware", "canonical_name": "Defcom", "aliases": [], "properties": {"platforms": ["Android"]}, "source_chunks": ["BLOG-208::ch0"]}

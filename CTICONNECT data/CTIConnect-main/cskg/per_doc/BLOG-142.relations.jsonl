@@ -1,0 +1,20 @@
+{"src_type": "identity", "src_name": "Symantec", "predicate": "analyzed", "tgt_type": "malware", "tgt_name": "Betruger", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Betruger", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Bring Your Own Vulnerable Driver (BYOVD)", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "uses", "tgt_type": "tool", "tgt_name": "EDRKillshifter", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-24521", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-27532", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Impacket", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "abuses", "tgt_type": "malware", "tgt_name": "SystemBC", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Rclone", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Stowaway Proxy", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "ScreenConnect", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Atera", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Splashtop", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "threat_actor", "src_name": "RansomHub", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "TightVNC", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "malware", "src_name": "Betruger", "predicate": "masquerades_as", "tgt_type": "indicator", "tgt_name": "mailer.exe", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "malware", "src_name": "Betruger", "predicate": "masquerades_as", "tgt_type": "indicator", "tgt_name": "turbomailer.exe", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "malware", "src_name": "Betruger", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "RansomHub", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "identity", "src_name": "Windows", "predicate": "has_patch_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-24521", "source_chunks": ["BLOG-142::ch0"]}
+{"src_type": "identity", "src_name": "Veeam", "predicate": "has_patch_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-27532", "source_chunks": ["BLOG-142::ch0"]}

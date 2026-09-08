@@ -1,0 +1,22 @@
+{"entity_type": "malware", "canonical_name": "AceCryptor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "malware", "canonical_name": "Rescoms RAT", "aliases": ["Rescoms"], "properties": {"capabilities": ["browser credential harvesting", "email credential harvesting"]}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "identity", "canonical_name": "Peru", "aliases": [], "properties": {"region": "Peru"}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mexico", "aliases": [], "properties": {"region": "Mexico"}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "identity", "canonical_name": "Egypt", "aliases": [], "properties": {"region": "Egypt"}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "identity", "canonical_name": "European companies", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "identity", "canonical_name": "Poland", "aliases": [], "properties": {"region": "Poland"}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "identity", "canonical_name": "Spain", "aliases": [], "properties": {"region": "Spain"}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "identity", "canonical_name": "Serbia", "aliases": [], "properties": {"region": "Serbia"}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "identity", "canonical_name": "Bulgaria", "aliases": [], "properties": {"region": "Bulgaria"}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "identity", "canonical_name": "Slovakia", "aliases": [], "properties": {"region": "Slovakia"}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Typosquatted domains", "aliases": [], "properties": {}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Abuse of previously compromised corporate mailboxes", "aliases": [], "properties": {}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing emails with ISO or 7z archives", "aliases": [], "properties": {}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "malware", "canonical_name": "Danabot", "aliases": [], "properties": {}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "malware", "canonical_name": "RedLine Stealer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "malware", "canonical_name": "SmokeLoader", "aliases": [], "properties": {}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "malware", "canonical_name": "STOP ransomware", "aliases": ["STOP"], "properties": {}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "malware", "canonical_name": "Vidar", "aliases": [], "properties": {}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Initial access", "aliases": [], "properties": {}, "source_chunks": ["BLOG-213::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data exfiltration", "aliases": [], "properties": {}, "source_chunks": ["BLOG-213::ch0"]}

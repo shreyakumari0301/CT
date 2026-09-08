@@ -1,0 +1,19 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-36884", "aliases": [], "properties": {"cve_id": "CVE-2023-36884"}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "identity", "canonical_name": "BlackBerry", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Storm-0978", "aliases": ["RomCom"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "malware", "canonical_name": "RomCom RAT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Hawker group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "malware", "canonical_name": "Cuba ransomware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "malware", "canonical_name": "Industrial Spy ransomware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "identity", "canonical_name": "Office", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "identity", "canonical_name": "government organizations in Europe", "aliases": [], "properties": {"sector": "government", "region": "Europe"}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense organizations in Europe", "aliases": [], "properties": {"sector": "defense", "region": "Europe"}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "identity", "canonical_name": "government organizations in North America", "aliases": [], "properties": {"sector": "government", "region": "North America"}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense organizations in North America", "aliases": [], "properties": {"sector": "defense", "region": "North America"}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian World Congress", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "identity", "canonical_name": "NATO Summit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "identity", "canonical_name": "Symantec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-145::ch0"]}
+{"entity_type": "tool", "canonical_name": "WebPulse", "aliases": [], "properties": {"capabilities": ["domain reputation filtering"]}, "source_chunks": ["BLOG-145::ch0"]}

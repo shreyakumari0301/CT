@@ -1,0 +1,19 @@
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lazarus Group", "aliases": ["Diamond Sleet", "ZINC", "Hidden Cobra", "Labyrinth Chollima", "Guardians of Peace"], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Andariel", "aliases": ["Onyx Sleet", "PLUTONIUM", "Silent Chollima"], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "tool", "canonical_name": "TeamCity", "aliases": [], "properties": {}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-42793", "aliases": ["TeamCity CVE-2023-42793 RCE flaw"], "properties": {"cve_id": "CVE-2023-42793"}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "identity", "canonical_name": "DevOps build servers", "aliases": [], "properties": {"sector": "DevOps"}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "malware", "canonical_name": "ForestTiger", "aliases": ["Forest64.exe"], "properties": {"family": "backdoor"}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Forest64.exe/4800-84DC-063A6A41C5C", "aliases": [], "properties": {"ioc_type": "hash", "value": "Forest64.exe/4800-84DC-063A6A41C5C"}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "indicator", "canonical_name": "uTYNkfKxHiZrx3KJ", "aliases": [], "properties": {"ioc_type": "hash", "value": "uTYNkfKxHiZrx3KJ"}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Dumping", "aliases": ["dumps LSASS credentials", "LSASS dumping"], "properties": {}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL Search Order Hijacking", "aliases": ["DLL search-order hijacking"], "properties": {}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "malware", "canonical_name": "RollSling", "aliases": ["DSROLE.dll"], "properties": {}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "malware", "canonical_name": "FeedLoad", "aliases": ["Version.dll"], "properties": {}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Services (RDP)", "aliases": ["abuses RDP"], "properties": {}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "indicator", "canonical_name": "krtbgt", "aliases": ["fake “krtbgt” admin account"], "properties": {"ioc_type": "email", "value": "krtbgt"}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "malware", "canonical_name": "HazyLoad", "aliases": ["HazyLoad proxy tool"], "properties": {"family": "proxy tool"}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "identity", "canonical_name": "JetBrains", "aliases": [], "properties": {}, "source_chunks": ["BLOG-63::ch0"]}
+{"entity_type": "identity", "canonical_name": "Defender", "aliases": ["Defender protections"], "properties": {}, "source_chunks": ["BLOG-63::ch0"]}

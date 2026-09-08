@@ -1,0 +1,18 @@
+{"src_type": "identity", "src_name": "NCC Group", "predicate": "recommends_monitoring_for", "tgt_type": "indicator", "tgt_name": "Microsoft-Windows-DNS-Server-Service Event ID 3150", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "identity", "src_name": "NCC Group", "predicate": "recommends_monitoring_for", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "identity", "src_name": "NCC Group", "predicate": "recommends_monitoring_for", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "identity", "src_name": "NCC Group", "predicate": "recommends_monitoring_for", "tgt_type": "indicator", "tgt_name": "DESKTOP-XXXXXX", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "identity", "src_name": "NCC Group’s CIRT", "predicate": "has_tracked", "tgt_type": "threat_actor", "tgt_name": "Karakurt", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "exploits", "tgt_type": "identity", "tgt_name": "FortiGate VPN", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Active Directory", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "attempted", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-1472", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "RDP", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "extracts", "tgt_type": "indicator", "tgt_name": "NTDS.dit", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Volume Shadow Copy", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "7-Zip", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "likely_exfiltrates_via", "tgt_type": "tool", "tgt_name": "Rclone", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "generates", "tgt_type": "indicator", "tgt_name": "Microsoft-Windows-DNS-Server-Service Event ID 3150", "source_chunks": ["BLOG-256::ch0"]}
+{"src_type": "tool", "src_name": "Volume Shadow Copy", "predicate": "used_to_extract", "tgt_type": "indicator", "tgt_name": "NTDS.dit", "source_chunks": ["BLOG-256::ch0"]}

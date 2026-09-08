@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"In early 2021, APT35 compromised a website affiliated with a UK university to host a phishing kit. Attackers sent email messages with links to this website to harvest credentials for platforms such as Gmail, Hotmail, and Yahoo. Users were instructed to activate an invitation to a (fake) webinar by logging in. The phishing kit will also ask for second-factor authentication codes sent to devices.\" Please identify the MITRE ATT&CK category for this behavior and explain how the description maps to it. Additionally, how can this behavior be detected in our SOC using logs, sensors, or NDR tools (specifically addressing the x_mitre_detection aspect)?",
+  "answer": "1) MITRE ATT&CK Category: T1656 - Impersonation. 2) Mapping Explanation: The attack involves creating a fake website and sending fraudulent emails to impersonate legitimate events (a webinar), which aligns with T1656, where attackers mislead victims by impersonating trusted entities to harvest credentials. 3) x_mitre_detection Aspect: The provided MITRE ATT&CK reference does not include specific detection methods for this technique; therefore, detection strategies may need to focus on correlating anomalous email activity, unexpected website hosting behaviors, and indicators of phishing in log and sensor data.",
+  "llm_timing": {
+    "api_call_seconds": 5.5717
+  }
+}

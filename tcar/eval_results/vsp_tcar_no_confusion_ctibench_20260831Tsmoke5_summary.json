@@ -1,0 +1,17 @@
+{
+  "task": "CTI-VSP",
+  "gold_pipeline": "problem_solving",
+  "metric": "MAD",
+  "score": 0.75,
+  "n": 1,
+  "n_errors": 0,
+  "route_mode": "oracle",
+  "classifier_model": null,
+  "score_base_score_mad": 3.5,
+  "system": "tcar_no_confusion_ctibench",
+  "variant": "no_confusion",
+  "generator": "gpt-4-turbo",
+  "retrieval_k": 5,
+  "predictions_file": "/mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/vsp_tcar_no_confusion_ctibench_20260831Tsmoke5.jsonl",
+  "retrieval_admitted_rate": 0.0
+}

@@ -1,0 +1,13 @@
+{"src_type": "identity", "src_name": "Microsoft SQL Server", "predicate": "running_on", "tgt_type": "identity", "tgt_name": "Azure VM", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "tool", "src_name": "xp_cmdshell", "predicate": "executes", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "tool", "src_name": "xp_cmdshell", "predicate": "establishes_persistence_via", "tgt_type": "attack_pattern", "tgt_name": "Scheduled Task/Job", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "tool", "src_name": "xp_cmdshell", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "OS Credential Dumping", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "tool", "src_name": "sp_configure", "predicate": "enables", "tgt_type": "tool", "tgt_name": "xp_cmdshell", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "attack_pattern", "src_name": "SQL injection", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Microsoft SQL Server", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Exfiltration Over Web Service", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "webhook.site", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Lateral Movement", "predicate": "queries", "tgt_type": "identity", "tgt_name": "Azure Instance Metadata Service", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "identity", "src_name": "Azure Instance Metadata Service", "predicate": "has_ip_address", "tgt_type": "indicator", "tgt_name": "169.254.169.254", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Defender for SQL", "predicate": "alerts_on", "tgt_type": "attack_pattern", "tgt_name": "SQL injection", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Defender for SQL", "predicate": "alerts_on", "tgt_type": "identity", "tgt_name": "Azure Instance Metadata Service", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "identity", "src_name": "Defender for Cloud", "predicate": "provides_visibility_into", "tgt_type": "tool", "tgt_name": "xp_cmdshell", "source_chunks": ["BLOG-56::ch0"]}
+{"src_type": "identity", "src_name": "Defender for Endpoint", "predicate": "provides_visibility_into", "tgt_type": "tool", "tgt_name": "xp_cmdshell", "source_chunks": ["BLOG-56::ch0"]}

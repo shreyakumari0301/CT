@@ -1,0 +1,7 @@
+{
+  "question": "What malware families, threat actor groups, or vulnerability IDs appear consistently across these reports?",
+  "answer": "- Malware Families/Components: Exploit.Win32.Generic; Trojan.Win64.Agent; Trojan.Win64.Convagent.gen\n- Threat Actor Groups: State-sponsored APT operators\n- Vulnerability IDs: CVE-2025-2783",
+  "llm_timing": {
+    "api_call_seconds": 7.7429
+  }
+}

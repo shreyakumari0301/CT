@@ -1,0 +1,15 @@
+[2026-09-04T17:46:58Z] RESUME force_gad ate workers=2
+
+=== ctibench/ate (n=60) ===
+  CB score: 20.0% | Forced RAG: 48.3% | Δ +28.3%
+  Rescues: 18 | Damages: 1 | Net utility: +28.3%
+  False rejections: 8 | Harmful admissions: 1
+  Gate admit rate: 61.7% | Gate accuracy (differing): 0.5263
+  Recall@5: 0.0% | P(RAG correct|gold@5): None
+
+Wrote summary -> /mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/counterfactual_summary_20260904Tgpt56sol_force_gad_cb.json
+
+| Dataset/task | CB | Forced RAG | Rescues | Damages | Net utility | Gate acc |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| ctibench/ate | 20.0% | 48.3% | 18 | 1 | +28.3% | 52.6% |
+[2026-09-04T17:47:36Z] DONE force_gad ate

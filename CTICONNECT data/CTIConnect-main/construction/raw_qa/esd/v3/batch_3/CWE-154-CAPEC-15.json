@@ -1,0 +1,23 @@
+{
+  "question": "An application accepts user input that becomes part of a variable name, but it fails to properly escape or neutralize characters that delimit variable names. This allows an attacker to manipulate how names are parsed and concatenate unintended instructions. Which CAPEC attack pattern exploits this weakness, and why can it succeed when input validation relies on filtering or denylists?",
+  "answer": "- CAPEC-15.\n- CAPEC-15 exploits unneutralized variable name delimiters, targeting CWE-154: improper neutralization of variable name delimiter characters.",
+  "llm_cost": {
+    "input": 0.000803,
+    "cached_input": 0.0,
+    "output": 0.00118,
+    "total": 0.001982,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 642,
+      "cached_input": 0,
+      "output": 118
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.82
+  }
+}

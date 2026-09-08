@@ -1,0 +1,12 @@
+{"entity_type": "threat_actor", "canonical_name": "Evil Corp", "aliases": [], "properties": {"primary_motivation": "cybercrime", "first_seen": "December 2019", "last_seen": "May 2020"}, "source_chunks": ["BLOG-239::ch0"]}
+{"entity_type": "malware", "canonical_name": "Dridex", "aliases": ["Cridex"], "properties": {"family": "banking Trojan and botnet"}, "source_chunks": ["BLOG-239::ch0"]}
+{"entity_type": "malware", "canonical_name": "WastedLocker", "aliases": [], "properties": {"family": "ransomware", "capabilities": ["extortion", "encryption", "deletes shadow copies", "targets backups"], "platforms": ["Windows"], "first_seen": "May 2020"}, "source_chunks": ["BLOG-239::ch0"]}
+{"entity_type": "tool", "canonical_name": "SocGholish", "aliases": [], "properties": {"capabilities": ["fake update delivery"], "platforms": ["JavaScript"]}, "source_chunks": ["BLOG-239::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {"capabilities": ["loader", "post-exploitation framework"]}, "source_chunks": ["BLOG-239::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Reconnaissance", "aliases": [], "properties": {}, "source_chunks": ["BLOG-239::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential theft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-239::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privilege escalation (DLL hijacking)", "aliases": ["DLL hijacking"], "properties": {}, "source_chunks": ["BLOG-239::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral movement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-239::ch0"]}
+{"entity_type": "identity", "canonical_name": "US organizations", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-239::ch0"]}
+{"entity_type": "identity", "canonical_name": "Garmin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-239::ch0"]}
+{"entity_type": "identity", "canonical_name": "US DOJ", "aliases": ["United States Department of Justice"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-239::ch0"]}

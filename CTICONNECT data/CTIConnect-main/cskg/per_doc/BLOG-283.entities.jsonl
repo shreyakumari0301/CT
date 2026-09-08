@@ -1,0 +1,23 @@
+{"entity_type": "threat_actor", "canonical_name": "Turla", "aliases": ["Pensive Ursa", "Snake", "Uroburos", "Venomous Bear", "Waterbug", "Krypton", "Secret Blizzard"], "properties": {"country": "Russia", "primary_motivation": "espionage", "sectors_targeted": ["government", "military", "research", "critical infrastructure", "defense"], "regions_targeted": ["Ukraine"], "first_seen": "2004"}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian FSB", "aliases": ["FSB"], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "identity", "canonical_name": "government", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "identity", "canonical_name": "military", "aliases": [], "properties": {"sector": "military"}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "identity", "canonical_name": "research", "aliases": [], "properties": {"sector": "research"}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "identity", "canonical_name": "critical infrastructure", "aliases": [], "properties": {"sector": "critical infrastructure"}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine’s defense sector", "aliases": ["Ukraine's defense sector"], "properties": {"sector": "defense", "region": "Ukraine"}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "malware", "canonical_name": "Snake backdoor", "aliases": ["Snake"], "properties": {"family": "Snake", "first_seen": "2003", "capabilities": ["P2P C2", "kernel-level stealth", "privilege escalation"]}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "malware", "canonical_name": "ComRAT", "aliases": ["Agent.btz", "ComRAT/Agent.btz"], "properties": {"family": "ComRAT", "first_seen": "2007"}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "malware", "canonical_name": "Crutch", "aliases": ["Crutch backdoor"], "properties": {"family": "Crutch", "first_seen": "2015", "capabilities": ["DLL hijacking", "C2 via Dropbox"]}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "malware", "canonical_name": "Kopiluwak", "aliases": ["Kopiluwak JavaScript downloader"], "properties": {"family": "Kopiluwak", "first_seen": "2016", "capabilities": ["downloader", "reconnaissance"]}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "malware", "canonical_name": "Kazuar", "aliases": [], "properties": {"family": "Kazuar", "first_seen": "2017", "capabilities": ["remote plugin loading", "RC4-encrypted C2"]}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "malware", "canonical_name": "QUIETCANARY", "aliases": ["Tunnus", "QUIETCANARY/Tunnus"], "properties": {"family": "QUIETCANARY", "first_seen": "2017", "capabilities": ["remote plugin loading", "RC4-encrypted C2"]}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "malware", "canonical_name": "Capibar", "aliases": ["GAMEDAY", "Capibar/GAMEDAY", "MOF-based backdoor"], "properties": {"family": "Capibar", "first_seen": "2022", "platforms": ["Exchange servers"]}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "tool", "canonical_name": "Dropbox", "aliases": [], "properties": {"capabilities": ["command and control"]}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "identity", "canonical_name": "MITRE ATT&CK", "aliases": [], "properties": {}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced URL Filtering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "tool", "canonical_name": "DNS Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "tool", "canonical_name": "WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-283::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL hijacking", "aliases": [], "properties": {}, "source_chunks": ["BLOG-283::ch0"]}

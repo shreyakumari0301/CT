@@ -1,0 +1,151 @@
+[2026-09-06T09:50:09Z] RUN ctibench router ate
+
+=== CTI-ATE | router (gold pipeline=reasoning_ate) | n=60 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-ate.tsv
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 503, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 496, in main
+    run_task(t, limit, args.out_dir, args.route_mode, args.workers)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 304, in run_task
+    get_pipeline_runner(gold_pipeline)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 137, in get_pipeline_runner
+    from pipelines import reasoning_ate_pipeline as mod
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 91, in <module>
+    _pipeline_instance = ReasoningATEPipeline()
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 22, in __init__
+    self.vector_db = self._load_vector_db()
+                     ~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 30, in _load_vector_db
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/__init__.py", line 10, in <module>
+    from sentence_transformers.backend import (
+    ...<3 lines>...
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/__init__.py", line 3, in <module>
+    from .load import load_onnx_model, load_openvino_model
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/load.py", line 7, in <module>
+    from transformers.configuration_utils import PretrainedConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/configuration_utils.py", line 32, in <module>
+    from .generation.configuration_utils import GenerationConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/generation/configuration_utils.py", line 62, in <module>
+    from .logits_process import SynthIDTextWatermarkLogitsProcessor, WatermarkLogitsProcessor
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/generation/logits_process.py", line 21, in <module>
+    import torch
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/__init__.py", line 2339, in <module>
+    import torch.nn.qat
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/qat/__init__.py", line 7, in <module>
+    from torch.nn.qat import dynamic, modules
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/qat/dynamic/__init__.py", line 7, in <module>
+    from torch.nn.qat.dynamic.modules import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/qat/dynamic/modules/__init__.py", line 1, in <module>
+    from torch.nn.qat.dynamic.modules.linear import Linear
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/qat/dynamic/modules/linear.py", line 11, in <module>
+    from torch.ao.nn.qat.dynamic.modules.linear import Linear
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/qat/dynamic/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1333, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1267, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1292, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1266, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1369, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1412, in _fill_cache
+OSError: [Errno 12] Cannot allocate memory: '/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/qat/dynamic'
+[2026-09-06T20:02:39Z] RUN ctibench router ate
+
+=== CTI-ATE | router (gold pipeline=reasoning_ate) | n=60 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-ate.tsv
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1337.35it/s]
+ate:router:   0%|          | 0/60 [00:00<?, ?it/s]ate:router:   2%|▏         | 1/60 [00:25<25:13, 25.66s/it]ate:router:   3%|▎         | 2/60 [00:32<13:51, 14.33s/it]ate:router:   5%|▌         | 3/60 [00:38<10:16, 10.82s/it]ate:router:   7%|▋         | 4/60 [00:51<10:54, 11.69s/it]ate:router:   8%|▊         | 5/60 [00:58<09:14, 10.08s/it]ate:router:  10%|█         | 6/60 [01:03<07:26,  8.26s/it]ate:router:  12%|█▏        | 7/60 [01:10<06:54,  7.82s/it]ate:router:  13%|█▎        | 8/60 [01:19<07:12,  8.32s/it]ate:router:  15%|█▌        | 9/60 [01:31<07:50,  9.23s/it]ate:router:  17%|█▋        | 10/60 [01:38<07:06,  8.53s/it]ate:router:  18%|█▊        | 11/60 [01:44<06:30,  7.98s/it]ate:router:  20%|██        | 12/60 [02:00<08:14, 10.30s/it]ate:router:  22%|██▏       | 13/60 [02:05<06:51,  8.75s/it]ate:router:  23%|██▎       | 14/60 [02:18<07:40, 10.02s/it]ate:router:  25%|██▌       | 15/60 [02:30<07:49, 10.44s/it]ate:router:  27%|██▋       | 16/60 [02:37<06:56,  9.47s/it]ate:router:  28%|██▊       | 17/60 [02:52<07:59, 11.15s/it]ate:router:  30%|███       | 18/60 [02:58<06:45,  9.65s/it]ate:router:  32%|███▏      | 19/60 [03:06<06:20,  9.27s/it]ate:router:  33%|███▎      | 20/60 [03:14<05:50,  8.76s/it]ate:router:  35%|███▌      | 21/60 [03:26<06:14,  9.61s/it]ate:router:  37%|███▋      | 22/60 [03:34<05:57,  9.41s/it]ate:router:  38%|███▊      | 23/60 [03:45<05:55,  9.61s/it]ate:router:  40%|████      | 24/60 [03:56<06:01, 10.04s/it]ate:router:  42%|████▏     | 25/60 [04:09<06:27, 11.06s/it]ate:router:  43%|████▎     | 26/60 [04:15<05:20,  9.42s/it]ate:router:  45%|████▌     | 27/60 [04:18<04:15,  7.75s/it]ate:router:  47%|████▋     | 28/60 [04:31<04:53,  9.18s/it]ate:router:  48%|████▊     | 29/60 [04:45<05:33, 10.77s/it]ate:router:  50%|█████     | 30/60 [04:57<05:27, 10.92s/it]ate:router:  52%|█████▏    | 31/60 [05:04<04:46,  9.89s/it]ate:router:  53%|█████▎    | 32/60 [05:19<05:13, 11.21s/it]ate:router:  55%|█████▌    | 33/60 [05:24<04:18,  9.56s/it]ate:router:  57%|█████▋    | 34/60 [05:38<04:43, 10.92s/it]ate:router:  58%|█████▊    | 35/60 [05:47<04:13, 10.15s/it]ate:router:  60%|██████    | 36/60 [05:52<03:30,  8.79s/it]ate:router:  62%|██████▏   | 37/60 [06:04<03:43,  9.73s/it]ate:router:  63%|██████▎   | 38/60 [06:16<03:44, 10.22s/it]ate:router:  65%|██████▌   | 39/60 [06:31<04:08, 11.81s/it]ate:router:  67%|██████▋   | 40/60 [06:43<03:54, 11.71s/it]ate:router:  68%|██████▊   | 41/60 [06:53<03:33, 11.26s/it]ate:router:  70%|███████   | 42/60 [06:59<02:57,  9.84s/it]ate:router:  72%|███████▏  | 43/60 [07:10<02:51, 10.08s/it]ate:router:  73%|███████▎  | 44/60 [07:21<02:44, 10.25s/it]ate:router:  75%|███████▌  | 45/60 [07:36<02:57, 11.80s/it]ate:router:  77%|███████▋  | 46/60 [07:45<02:32, 10.87s/it]ate:router:  78%|███████▊  | 47/60 [07:50<02:00,  9.29s/it]ate:router:  80%|████████  | 48/60 [07:59<01:49,  9.11s/it]ate:router:  82%|████████▏ | 49/60 [08:05<01:30,  8.20s/it]ate:router:  83%|████████▎ | 50/60 [08:16<01:30,  9.01s/it]ate:router:  85%|████████▌ | 51/60 [08:28<01:27,  9.77s/it]ate:router:  87%|████████▋ | 52/60 [08:41<01:26, 10.86s/it]ate:router:  88%|████████▊ | 53/60 [08:53<01:18, 11.19s/it]ate:router:  90%|█████████ | 54/60 [09:00<00:59,  9.95s/it]ate:router:  92%|█████████▏| 55/60 [09:11<00:50, 10.16s/it]ate:router:  93%|█████████▎| 56/60 [09:21<00:40, 10.10s/it]ate:router:  95%|█████████▌| 57/60 [09:30<00:29,  9.89s/it]ate:router:  97%|█████████▋| 58/60 [09:37<00:18,  9.08s/it]ate:router:  98%|█████████▊| 59/60 [09:49<00:10, 10.00s/it]ate:router: 100%|██████████| 60/60 [09:55<00:00,  8.85s/it]ate:router: 100%|██████████| 60/60 [09:55<00:00,  9.93s/it]
+CTI-ATE | router | Macro-F1 = 0.7964 (n=60, errors=0)
+  routing Acc = 1.0 | route correct 60/60
+wrote eval_results/ate_router_20260906T202158Z.jsonl
+wrote eval_results/ate_router_20260906T202158Z_summary.json
+
+========== ROUTER SUMMARY ==========
+Task           Metric        Score      N  RouteAcc
+CTI-ATE        Macro-F1     0.7964     60    1.0000
+
+========== ORACLE vs ROUTER (same metric; Loss = Oracle − Router for Acc/F1) ==========
+Task           Metric       Oracle   Router     Loss  RouteAcc
+CTI-ATE        Macro-F1     0.9520   0.7964   0.1556    1.0000
+NOTE: Oracle column uses your last medium/full oracle runs (MCQ/RCM/VSP n=50, ATE n=60). Re-run matching --limit for a perfect pair.
+NOTE: CTI-TAA skipped — no GT column.
+NOTE: Router uses classifier/llm_classifier.py (gpt-4o-mini). Generation pipelines unchanged (gpt-4-turbo).
+[2026-09-06T20:22:02Z] DONE ctibench router ate
+[2026-09-07T07:08:57Z] RUN ctibench router ate
+
+=== CTI-ATE | router (gold pipeline=reasoning_ate) | n=60 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-ate.tsv
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 503, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 496, in main
+    run_task(t, limit, args.out_dir, args.route_mode, args.workers)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 304, in run_task
+    get_pipeline_runner(gold_pipeline)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 137, in get_pipeline_runner
+    from pipelines import reasoning_ate_pipeline as mod
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 91, in <module>
+    _pipeline_instance = ReasoningATEPipeline()
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 22, in __init__
+    self.vector_db = self._load_vector_db()
+                     ~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 30, in _load_vector_db
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/__init__.py", line 15, in <module>
+    from sentence_transformers.base.sampler import DefaultBatchSampler, MultiDatasetDefaultBatchSampler
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/base/__init__.py", line 4, in <module>
+    from .model import BaseModel
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/base/model.py", line 30, in <module>
+    from transformers import PreTrainedModel, is_datasets_available, is_torch_npu_available
+  File "<frozen importlib._bootstrap>", line 1431, in _handle_fromlist
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/utils/import_utils.py", line 2531, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/utils/import_utils.py", line 2765, in _get_module
+    raise e
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/utils/import_utils.py", line 2763, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/modeling_utils.py", line 79, in <module>
+    from .integrations.finegrained_fp8 import ALL_FP8_EXPERTS_FUNCTIONS
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/integrations/finegrained_fp8.py", line 27, in <module>
+    from ..quantizers.quantizers_utils import get_module_from_name, should_convert_module
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/quantizers/__init__.py", line 14, in <module>
+    from .auto import AutoHfQuantizer, AutoQuantizationConfig, register_quantization_config, register_quantizer
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/quantizers/auto.py", line 17, in <module>
+    from ..models.auto.configuration_auto import AutoConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/models/__init__.py", line 539, in <module>
+    sys.modules[__name__] = _LazyModule(__name__, _file, define_import_structure(_file), module_spec=__spec__)
+                                                         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/utils/import_utils.py", line 3306, in define_import_structure
+    import_structure = create_import_structure_from_path(module_path)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/utils/import_utils.py", line 3023, in create_import_structure_from_path
+    import_structure[entry.name] = create_import_structure_from_path(entry.path)
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/utils/import_utils.py", line 3040, in create_import_structure_from_path
+    file_content = f.read()
+OSError: [Errno 12] Cannot allocate memory

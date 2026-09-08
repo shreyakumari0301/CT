@@ -1,0 +1,23 @@
+{
+  "question": "An adversary exploits browser vulnerabilities or built-in functionality to manipulate web traffic between a user and a remote endpoint. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1185.\n- T1185 corresponds to browser session hijacking, mapping CAPEC-662: exploiting browser flaws or functions to manipulate traffic between endpoints.",
+  "llm_cost": {
+    "input": 0.000721,
+    "cached_input": 0.0,
+    "output": 0.00093,
+    "total": 0.001651,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 577,
+      "cached_input": 0,
+      "output": 93
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3173
+  }
+}

@@ -1,0 +1,14 @@
+{"entity_type": "identity", "canonical_name": "Google TAG", "aliases": [], "properties": {}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-37580", "aliases": [], "properties": {"cve_id": "CVE-2023-37580"}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zimbra Collaboration", "aliases": ["Zimbra"], "properties": {}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "tool", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "identity", "canonical_name": "Greek government", "aliases": [], "properties": {"region": "Greece"}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "identity", "canonical_name": "Volexity", "aliases": [], "properties": {}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Reflected XSS", "aliases": ["reflected XSS"], "properties": {}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Winter Vivern", "aliases": ["UNC4907"], "properties": {}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "identity", "canonical_name": "Moldovan government", "aliases": [], "properties": {"region": "Moldova"}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "identity", "canonical_name": "Tunisian government", "aliases": [], "properties": {"region": "Tunisia"}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "indicator", "canonical_name": "applicationdevsoc.com", "aliases": ["applicationdevsoc[.]com"], "properties": {"ioc_type": "domain", "value": "applicationdevsoc.com"}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "identity", "canonical_name": "Vietnamese webmail", "aliases": [], "properties": {"region": "Vietnam"}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "identity", "canonical_name": "Pakistan", "aliases": [], "properties": {"region": "Pakistan"}, "source_chunks": ["BLOG-50::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ntcpk.org", "aliases": ["ntcpk[.]org"], "properties": {"ioc_type": "domain", "value": "ntcpk.org"}, "source_chunks": ["BLOG-50::ch0"]}

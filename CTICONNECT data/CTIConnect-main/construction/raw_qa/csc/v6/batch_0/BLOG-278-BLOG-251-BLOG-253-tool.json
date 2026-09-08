@@ -1,0 +1,7 @@
+{
+  "question": "What are the main malicious tools or malware families consistently used in this campaign?",
+  "answer": "- SYSCON backdoor\n- MaoCheng Win32 dropper (signed with a stolen Adobe certificate)\n- Malicious NTWDBLIB.dll and hijacked cliconfg.exe for UAC bypass\n- VBA macro\u2013embedded CAB archives as initial droppers\n- ipnet.dll implant loaded via a persistent COMSysApp service",
+  "llm_timing": {
+    "api_call_seconds": 6.6513
+  }
+}

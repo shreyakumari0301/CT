@@ -1,0 +1,23 @@
+{
+  "question": "A system exhibits unexpected behavior because certain sequences of processor instructions can trigger outcomes the designers did not anticipate. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-212.\n- CAPEC-212 exploits legitimate functionality misuse, targeting CWE-1281: unexpected behavior triggered by specific sequences of processor instructions.",
+  "llm_cost": {
+    "input": 0.000741,
+    "cached_input": 0.0,
+    "output": 0.00084,
+    "total": 0.001581,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 593,
+      "cached_input": 0,
+      "output": 84
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.8438
+  }
+}

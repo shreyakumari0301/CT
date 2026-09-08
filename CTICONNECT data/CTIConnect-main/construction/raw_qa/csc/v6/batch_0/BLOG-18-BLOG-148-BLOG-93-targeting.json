@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target industries or regions mentioned across these reports?",
+  "answer": "- Software development sector: developers and IT professionals lured via fake recruitment processes\n- Cryptocurrency and blockchain services: crypto-wallet users and consulting firm candidates\n- macOS user base: targeted with shell script and Chrome update imposters\n- Job-seeking professionals globally, with specific emphasis on Ukrainian candidates",
+  "llm_timing": {
+    "api_call_seconds": 7.0824
+  }
+}

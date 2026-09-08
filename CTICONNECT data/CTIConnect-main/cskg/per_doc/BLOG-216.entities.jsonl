@@ -1,0 +1,15 @@
+{"entity_type": "campaign", "canonical_name": "Operation Texonto", "aliases": ["Texonto"], "properties": {}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "identity", "canonical_name": "major Ukrainian defense company", "aliases": [], "properties": {"sector": "defense", "region": "Ukraine"}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "identity", "canonical_name": "an EU agency", "aliases": ["EU agency"], "properties": {"region": "European Union"}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian dissidents", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian speakers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Callisto", "aliases": [], "properties": {}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "indicator", "canonical_name": "it.[redacted]@gmail.com", "aliases": [], "properties": {"ioc_type": "email", "value": "it.[redacted]@gmail.com"}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "indicator", "canonical_name": "login.microsoftidonline.com", "aliases": ["login.microsoftidonline[.]com"], "properties": {"ioc_type": "domain", "value": "login.microsoftidonline.com"}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "indicator", "canonical_name": "choicelive149200.com", "aliases": ["choicelive149200[.]com"], "properties": {"ioc_type": "domain", "value": "choicelive149200.com"}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ua-minagro.com", "aliases": ["ua-minagro[.]com"], "properties": {"ioc_type": "domain", "value": "ua-minagro.com"}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "indicator", "canonical_name": "minuaregionbecareful.com", "aliases": ["minuaregionbecareful[.]com"], "properties": {"ioc_type": "domain", "value": "minuaregionbecareful.com"}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "indicator", "canonical_name": "uamtu.com", "aliases": ["uamtu[.]com"], "properties": {"ioc_type": "domain", "value": "uamtu.com"}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spearphishing"], "properties": {}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Phishing", "aliases": ["credential phishing", "harvest Office 365 credentials"], "properties": {}, "source_chunks": ["BLOG-216::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Domain Masquerading", "aliases": ["look-alike OAuth URLs", "domain masquerading"], "properties": {}, "source_chunks": ["BLOG-216::ch0"]}

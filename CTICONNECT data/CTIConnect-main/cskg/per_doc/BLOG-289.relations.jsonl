@@ -1,0 +1,16 @@
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "operates_under", "tgt_type": "identity", "tgt_name": "I-SOON", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government institutions", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "NGOs", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Southeast Asia", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spear-phishing emails", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Spyder loader", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger", "predicate": "uses", "tgt_type": "malware", "tgt_name": "SilentBreeze", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "malware", "src_name": "Spyder loader", "predicate": "installs", "tgt_type": "malware", "tgt_name": "SilentBreeze", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "malware", "src_name": "SilentBreeze", "predicate": "establishes_persistence_via", "tgt_type": "attack_pattern", "tgt_name": "Scheduled task persistence", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "malware", "src_name": "SilentBreeze", "predicate": "downloads_payloads_from", "tgt_type": "indicator", "tgt_name": "https://cdn-storage.cloud-service.site/updates.php", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "malware", "src_name": "SilentBreeze", "predicate": "harvests", "tgt_type": "attack_pattern", "tgt_name": "Credential harvesting", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "malware", "src_name": "SilentBreeze", "predicate": "exfiltrates", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration of sensitive data", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spear-phishing emails", "predicate": "delivers", "tgt_type": "attack_pattern", "tgt_name": "Template injection in Office files", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Scheduled task persistence", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-289::ch0"]}
+{"src_type": "identity", "src_name": "ESET", "predicate": "reports_on", "tgt_type": "threat_actor", "tgt_name": "FishMonger", "source_chunks": ["BLOG-289::ch0"]}

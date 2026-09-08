@@ -1,0 +1,17 @@
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "campaign", "canonical_name": "coordinated campaign", "aliases": [], "properties": {}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT33", "aliases": ["Peach Sandstorm", "Elfin", "Refined Kitten", "HOLMIUM"], "properties": {"country": "Iran", "sectors_targeted": ["Defense Industrial Base", "satellite", "defense", "pharmaceutical", "aviation", "energy"], "first_seen": "February 2023", "last_seen": "November 2023"}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "identity", "canonical_name": "Defense Industrial Base", "aliases": [], "properties": {"sector": "defense"}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "malware", "canonical_name": "FalseFont", "aliases": [], "properties": {"family": "backdoor", "capabilities": ["remote access", "payload execution", "data exfiltration"], "first_seen": "November 2023"}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Password spraying", "aliases": ["password-spray operations"], "properties": {}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israel’s National Cyber Directorate", "aliases": ["Israel's National Cyber Directorate"], "properties": {"region": "Israel"}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ziv Hospital", "aliases": [], "properties": {}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Agrius", "aliases": [], "properties": {}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lebanese Cedar", "aliases": [], "properties": {}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["phishing lure"], "properties": {}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "identity", "canonical_name": "F5 BIG-IP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-46747", "aliases": [], "properties": {"cve_id": "CVE-2023-46747", "cvss": "9.8"}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "malware", "canonical_name": "Hatef", "aliases": [], "properties": {"family": "wiper", "platforms": ["Windows", "Linux"]}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "malware", "canonical_name": "Hamsa", "aliases": [], "properties": {"family": "wiper", "platforms": ["Windows", "Linux"]}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram", "aliases": [], "properties": {"capabilities": ["command and control communications"]}, "source_chunks": ["BLOG-151::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data exfiltration", "aliases": [], "properties": {}, "source_chunks": ["BLOG-151::ch0"]}

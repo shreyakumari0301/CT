@@ -1,0 +1,15 @@
+{"src_type": "threat_actor", "src_name": "Rhysida", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Chilean Army", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "threat_actor", "src_name": "Rhysida", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Prospect Medical Holdings", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "threat_actor", "src_name": "Rhysida", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing-based initial access", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "threat_actor", "src_name": "Rhysida", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "threat_actor", "src_name": "Rhysida", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "threat_actor", "src_name": "Rhysida", "predicate": "uses", "tgt_type": "malware", "tgt_name": "g.ps1", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "threat_actor", "src_name": "Rhysida", "predicate": "uses_ransom_note", "tgt_type": "indicator", "tgt_name": "CriticalBreachDetected.pdf", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "tool", "src_name": "PsExec", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "g.ps1", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "identity", "src_name": "HHS HC3", "predicate": "issued_sector_alert_on", "tgt_type": "identity", "tgt_name": "Prospect Medical Holdings", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "identity", "src_name": "Check Point", "predicate": "links_shared_ttps_between", "tgt_type": "threat_actor", "tgt_name": "Rhysida", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "identity", "src_name": "Check Point", "predicate": "links_shared_ttps_between", "tgt_type": "threat_actor", "tgt_name": "Vice Society", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "identity", "src_name": "SentinelOne", "predicate": "links_shared_ttps_between", "tgt_type": "threat_actor", "tgt_name": "Rhysida", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "identity", "src_name": "SentinelOne", "predicate": "links_shared_ttps_between", "tgt_type": "threat_actor", "tgt_name": "Vice Society", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "links_shared_ttps_between", "tgt_type": "threat_actor", "tgt_name": "Rhysida", "source_chunks": ["BLOG-13::ch0"]}
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "links_shared_ttps_between", "tgt_type": "threat_actor", "tgt_name": "Vice Society", "source_chunks": ["BLOG-13::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors or regions mentioned across these reports?",
+  "answer": "- Government and diplomatic entities (NATO governments, UK and US officials, political and diplomatic personnel)\n- NGOs and think tanks\n- Academic institutions and research organizations\n- Journalists and civil society actors, including Ukraine supporters\n- Critical infrastructure and grants-management portals (US nuclear labs, grants systems)\n- Geographical focus on Ukraine and other NATO-aligned countries",
+  "llm_timing": {
+    "api_call_seconds": 5.6058
+  }
+}

@@ -1,0 +1,10 @@
+[2026-09-07T07:59:43Z] smoke
+default_mode default
+default_has_PRIMARY True
+cta_mode cta
+cta_has_Relevant True
+imports_ok
+[2026-09-07T08:00:01Z] RCM oracle top-20 stats
+[2026-09-07T08:04:48Z] train RCM specialist reranker
+[2026-09-07T08:09:13Z] ATE CTA-fidelity CF
+[2026-09-07T08:41:58Z] priority batch done

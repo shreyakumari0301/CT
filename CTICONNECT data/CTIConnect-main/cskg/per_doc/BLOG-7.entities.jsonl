@@ -1,0 +1,11 @@
+{"entity_type": "threat_actor", "canonical_name": "APT28", "aliases": ["Fancy Bear", "Sofacy", "Swallowtail", "Sednit", "STRONTIUM", "Pawn Storm", "Forest Blizzard", "Tsar Team"], "properties": {"country": "Russia", "first_seen": "2008", "primary_motivation": "espionage", "sectors_targeted": ["energy", "government", "media", "aerospace", "defense"], "regions_targeted": ["Ukraine"]}, "source_chunks": ["BLOG-7::ch0"]}
+{"entity_type": "campaign", "canonical_name": "2016 DNC and WADA breaches", "aliases": [], "properties": {"first_seen": "2016"}, "source_chunks": ["BLOG-7::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-30190", "aliases": ["Follina"], "properties": {"cve_id": "CVE-2022-30190"}, "source_chunks": ["BLOG-7::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spear-phishing emails"], "properties": {}, "source_chunks": ["BLOG-7::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Harvesting", "aliases": [], "properties": {}, "source_chunks": ["BLOG-7::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-7::ch0"]}
+{"entity_type": "malware", "canonical_name": "Seduploader", "aliases": ["Sofacy/Seduploader", "Sofacy"], "properties": {"family": "Seduploader"}, "source_chunks": ["BLOG-7::ch0"]}
+{"entity_type": "malware", "canonical_name": "X-Agent", "aliases": ["X-Agent backdoors"], "properties": {"family": "X-Agent"}, "source_chunks": ["BLOG-7::ch0"]}
+{"entity_type": "malware", "canonical_name": "Shunnael", "aliases": [".NET Shunnael encrypted tunnels"], "properties": {"family": "Shunnael"}, "source_chunks": ["BLOG-7::ch0"]}
+{"entity_type": "malware", "canonical_name": "Lojax", "aliases": ["Lojax UEFI rootkit"], "properties": {"family": "Lojax"}, "source_chunks": ["BLOG-7::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian targets", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-7::ch0"]}

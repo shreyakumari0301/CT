@@ -1,0 +1,14 @@
+{"entity_type": "threat_actor", "canonical_name": "Scattered Spider", "aliases": ["UNC3944", "Muddled Libra", "Scatter Swine", "Starfraud", "Octo Tempest", "0ktapus", "Roasted 0ktapus", "Storm-0875"], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "UNC6040", "aliases": [], "properties": {}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "UNC2165", "aliases": ["RansomHub"], "properties": {}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "UNC4393", "aliases": ["Basta"], "properties": {}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "UNC2465", "aliases": ["DarkSide", "LockBit"], "properties": {}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "tool", "canonical_name": "RMM tools", "aliases": [], "properties": {}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "malware", "canonical_name": "DragonForce", "aliases": ["DragonForce ransomware"], "properties": {}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "malware", "canonical_name": "RattyRAT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "identity", "canonical_name": "help-desk personnel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "identity", "canonical_name": "VMware ESXi servers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "identity", "canonical_name": "Snowflake environments", "aliases": [], "properties": {}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "indicator", "canonical_name": "MEGA.nz", "aliases": [], "properties": {"ioc_type": "domain", "value": "mega.nz"}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "identity", "canonical_name": "Amazon S3", "aliases": [], "properties": {}, "source_chunks": ["BLOG-309::ch0"]}
+{"entity_type": "identity", "canonical_name": "UK", "aliases": ["United Kingdom"], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-309::ch0"]}

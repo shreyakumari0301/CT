@@ -1,0 +1,23 @@
+{
+  "question": "An adversary exploits redirects of directly linked version control repositories to trick developers into pulling and incorporating malicious code into their applications. Which MITRE ATT&CK technique matches this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.001.\n- T1195.001 corresponds to dependency/tool compromise, mapping CAPEC-695: exploiting VCS repo redirects to inject malicious code into applications.",
+  "llm_cost": {
+    "input": 0.00073,
+    "cached_input": 0.0,
+    "output": 0.00098,
+    "total": 0.00171,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 584,
+      "cached_input": 0,
+      "output": 98
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.672
+  }
+}

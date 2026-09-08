@@ -1,0 +1,222 @@
+{
+  "cluster_id": 1,
+  "cluster_size": 3,
+  "cluster_type": "event",
+  "blogs": [
+    {
+      "blog_id": 19,
+      "node": [
+        {
+          "node_text": "BeaverTail",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Bitbucket",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Contagious Interview",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Google Docs",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "HexEval loader",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "InvisibleFerret",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "LinkedIn",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "March Lazarus npm incident",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "North Korean operatives",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Socket Threat Research",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "file theft",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "framer-motion-ext",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "npm package",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "react-plaid-sdk",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "remote control",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "screenshots",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "selective low-level keylogger",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "vite-plugin-next-refresh",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " Qantas",
+      "platform": "BleepingComputer",
+      "type": "event",
+      "publish_date": "2025/7/28"
+    },
+    {
+      "blog_id": 99,
+      "node": [
+        {
+          "node_text": "AI",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Australia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Australia’s $1.67 billion cybersecurity strategy",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CyberCX",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FBI",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "IT monitoring",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Qantas Airlines",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Scattered Spider",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "access controls",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "dedicated support line",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "federal authorities",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "third-party call-center platform",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "vulnerability in a third-party call-center platform",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "webpage",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " Qantas",
+      "platform": "darkreading",
+      "type": "event",
+      "publish_date": "2025/7/2"
+    },
+    {
+      "blog_id": 110,
+      "node": [
+        {
+          "node_text": "Australian Cyber Security Centre",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Australian Federal Police",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "July 7",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "June 30",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "National Cyber Security Coordinator",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Qantas",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "call-center platform",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "call-center platform vulnerability",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "data exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "enhanced security controls",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "extortion attempt",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "monitoring and incident response capabilities",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "supply-chain weakness",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "third-party risk management",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "threat actors",
+          "node_type": "Threat Actor"
+        }
+      ],
+      "title": " Qantas",
+      "platform": "securityweek",
+      "type": "event",
+      "publish_date": "2025/7/28"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "Operation CuckooBees", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WebShell", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "WinRM", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "DLL side-loading", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "malware", "tgt_name": "kernel rootkit", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Scheduled Task", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Credential dumping", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "tool", "tgt_name": "MFSDLL.exe", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Lateral movement", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WinRAR", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "tool", "tgt_name": "rundll32.exe", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "campaign", "src_name": "Operation CuckooBees", "predicate": "targets", "tgt_type": "identity", "tgt_name": "technology firms", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "campaign", "src_name": "Operation CuckooBees", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing firms", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "campaign", "src_name": "Operation CuckooBees", "predicate": "targets", "tgt_type": "identity", "tgt_name": "East Asia", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "campaign", "src_name": "Operation CuckooBees", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Western Europe", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "campaign", "src_name": "Operation CuckooBees", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "tool", "src_name": "rundll32.exe", "predicate": "wraps", "tgt_type": "tool", "tgt_name": "WinRAR", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "identity", "src_name": "Cybereason", "predicate": "discovered", "tgt_type": "malware", "tgt_name": "DEPLOYLOG", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "malware", "src_name": "DEPLOYLOG", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "WINNKIT", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "malware", "src_name": "DEPLOYLOG", "predicate": "leverages_signature_from", "tgt_type": "identity", "tgt_name": "BenQ", "source_chunks": ["BLOG-223::ch0"]}
+{"src_type": "identity", "src_name": "DOJ", "predicate": "indicted", "tgt_type": "threat_actor", "tgt_name": "APT41", "source_chunks": ["BLOG-223::ch0"]}

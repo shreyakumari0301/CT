@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors or regions mentioned across these reports?",
+  "answer": "- Cryptocurrency developers (targeted via job-recruitment lures and malicious code challenges)\n- Software developers (targeted through personalized coding invitations and obfuscated backdoors)\n- North America and Europe (regional focus for advanced software developer attacks)",
+  "llm_timing": {
+    "api_call_seconds": 3.6591
+  }
+}

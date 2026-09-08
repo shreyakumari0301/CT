@@ -1,0 +1,24 @@
+{"src_type": "identity", "src_name": "ConnectWise", "predicate": "disclosed_vulnerability", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-1709", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "identity", "src_name": "ConnectWise", "predicate": "disclosed_vulnerability", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-1708", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-1709", "predicate": "affects", "tgt_type": "tool", "tgt_name": "ScreenConnect", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-1708", "predicate": "affects", "tgt_type": "tool", "tgt_name": "ScreenConnect", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "campaign", "src_name": "SlashAndGrab", "predicate": "enables_exploitation_of", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-1709", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "campaign", "src_name": "SlashAndGrab", "predicate": "enables_exploitation_of", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-1708", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "reports_on", "tgt_type": "threat_actor", "tgt_name": "Black Basta", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "threat_actor", "src_name": "Black Basta", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-1709", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "threat_actor", "src_name": "Black Basta", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-1708", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "threat_actor", "src_name": "Black Basta", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Reconnaissance", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "threat_actor", "src_name": "Black Basta", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Active Directory discovery", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "threat_actor", "src_name": "Black Basta", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Privilege escalation", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "threat_actor", "src_name": "Black Basta", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Create account", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "threat_actor", "src_name": "Black Basta", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "threat_actor", "src_name": "Black Basta", "predicate": "drops", "tgt_type": "malware", "tgt_name": "ransomware", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "threat_actor", "src_name": "Bl00dy", "predicate": "abuses_builders_from", "tgt_type": "threat_actor", "tgt_name": "Conti", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "threat_actor", "src_name": "Bl00dy", "predicate": "abuses_builders_from", "tgt_type": "threat_actor", "tgt_name": "LockBit", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "threat_actor", "src_name": "Bl00dy", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Plant ransom note", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "malware", "src_name": "XWorm RAT", "predicate": "disables", "tgt_type": "tool", "tgt_name": "Windows Defender", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "tool", "src_name": "ScreenConnect 23.9.8", "predicate": "patches", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-1709", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "tool", "src_name": "ScreenConnect 23.9.8", "predicate": "patches", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-1708", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "tool", "src_name": "ScreenConnect 23.9.8", "predicate": "mitigates", "tgt_type": "attack_pattern", "tgt_name": "Remote-access intrusion", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "tool", "src_name": "ScreenConnect 23.9.8", "predicate": "mitigates", "tgt_type": "attack_pattern", "tgt_name": "Data theft", "source_chunks": ["BLOG-123::ch0"]}
+{"src_type": "tool", "src_name": "ScreenConnect 23.9.8", "predicate": "mitigates", "tgt_type": "malware", "tgt_name": "ransomware", "source_chunks": ["BLOG-123::ch0"]}

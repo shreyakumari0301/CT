@@ -1,0 +1,21 @@
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "targets", "tgt_type": "identity", "tgt_name": "trading and brokerage firms", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Skype", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT41", "predicate": "distributes", "tgt_type": "malware", "tgt_name": "GodRAT", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "variant_of", "tgt_type": "malware", "tgt_name": "Gh0st RAT", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "evolved_from", "tgt_type": "malware", "tgt_name": "AwesomePuppet", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Steganography", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Process Injection", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Valve.exe", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SDL2.dll", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "uses_packed_payload", "tgt_type": "tool", "tgt_name": "UPX", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "launches_under", "tgt_type": "tool", "tgt_name": "curl.exe", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "launches_under", "tgt_type": "tool", "tgt_name": "cmd.exe", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "communicates_with_compression", "tgt_type": "tool", "tgt_name": "zlib", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential Theft", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "7zip", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "detected_in", "tgt_type": "identity", "tgt_name": "Hong Kong", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "detected_in", "tgt_type": "identity", "tgt_name": "UAE", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "detected_in", "tgt_type": "identity", "tgt_name": "Jordan", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "detected_in", "tgt_type": "identity", "tgt_name": "Lebanon", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "GodRAT", "predicate": "detected_in", "tgt_type": "identity", "tgt_name": "Malaysia", "source_chunks": ["BLOG-306::ch0"]}
+{"src_type": "malware", "src_name": "AsyncRAT", "predicate": "fallback_for", "tgt_type": "malware", "tgt_name": "GodRAT", "source_chunks": ["BLOG-306::ch0"]}

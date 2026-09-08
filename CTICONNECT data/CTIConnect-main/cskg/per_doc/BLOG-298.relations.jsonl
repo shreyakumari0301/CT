@@ -1,0 +1,18 @@
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "revealed_activity_of", "tgt_type": "threat_actor", "tgt_name": "Storm-2460", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "Play ransomware", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-29824", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "targets", "tgt_type": "identity", "tgt_name": "IT organizations", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "targets", "tgt_type": "identity", "tgt_name": "financial organizations", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "targets", "tgt_type": "identity", "tgt_name": "real estate organizations", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "targets", "tgt_type": "identity", "tgt_name": "South America", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-2460", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2025-29824", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Windows Common Log File System", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "tool", "src_name": "ChatGPT Desktop app", "predicate": "masqueraded_by", "tgt_type": "malware", "tgt_name": "PipeMagic", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Saudi Arabian manufacturing entities", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Brazilian manufacturing entities", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2025-29824", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "malware", "src_name": "PipeMagic", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Play ransomware", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft Defender for Endpoint", "predicate": "mitigates", "tgt_type": "malware", "tgt_name": "Play ransomware", "source_chunks": ["BLOG-298::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft Defender for Endpoint", "predicate": "mitigates", "tgt_type": "malware", "tgt_name": "PipeMagic", "source_chunks": ["BLOG-298::ch0"]}

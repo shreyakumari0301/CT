@@ -1,0 +1,306 @@
+{
+  "cluster_id": 36,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 233,
+      "node": [
+        {
+          "node_text": "DropIt",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Excel documents",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Fetch",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Leash",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MPK bot IP",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Magic Hound",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Magic Unicorn",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MagicHound.Rollover",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Meterpreter",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Pupy RAT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Retriever",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Rocket Kitten",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Saudi energy organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Saudi government organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Saudi technology organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Word documents",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "custom IRC bots",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "gerry knight metadata",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "malicious macros",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "mol.com-ho.me",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ntg-sa.com",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "shellcode-based payloads",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "spear-phishing emails",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Magic Hound",
+      "platform": "Unit42",
+      "type": "campaign",
+      "publish_date": "2017/2/15"
+    },
+    {
+      "blog_id": 259,
+      "node": [
+        {
+          "node_text": "Ajax Security Team",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "COBALT GYPSY",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Charming Kitten",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Excel",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Iranian government–linked actors",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Magic Hound",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "NewsBeef",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Newscasters",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Operation Saffron Rose",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Operation Woolen-Goldfish",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Palo Alto Networks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PupyRAT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Rocket Kitten",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Saudi Arabia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SecureWorks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Shamoon 2 wiper campaign",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Word",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "domain",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "downloaders",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "droppers",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "energy organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "government organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "malicious macros",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "mid-2016",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "technology organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "wiper",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Magic Hound",
+      "platform": "securityaffairs",
+      "type": "campaign",
+      "publish_date": "2017/2/16"
+    },
+    {
+      "blog_id": 264,
+      "node": [
+        {
+          "node_text": "COBALT GYPSY",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Charming Kitten",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Excel",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "IRC bots",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "MacDownloader",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Magic Hound",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Newscaster",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Pupy RAT",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Rocket Kitten",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Saudi Arabia",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Shamoon 2",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Word",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "energy organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "government organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "mid-2016",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "technology organizations",
+          "node_type": "Organization"
+        }
+      ],
+      "title": "Magic Hound",
+      "platform": "securityweek",
+      "type": "campaign",
+      "publish_date": "2017/2/16"
+    }
+  ]
+}

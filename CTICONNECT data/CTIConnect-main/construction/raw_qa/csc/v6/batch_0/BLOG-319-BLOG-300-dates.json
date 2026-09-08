@@ -1,0 +1,7 @@
+{
+  "question": "What is the time span of this campaign based on the earliest and latest report dates?",
+  "answer": "- Earliest report date: Q2–Q3 2024 (covers June 2024 at the earliest, per the reports)\n- Latest report date: March 18, 2025\n- Campaign time span based on report dates: Q2–Q3 2024 through March 18, 2025",
+  "llm_timing": {
+    "api_call_seconds": 12.0974
+  }
+}

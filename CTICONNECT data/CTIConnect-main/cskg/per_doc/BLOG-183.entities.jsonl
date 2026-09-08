@@ -1,0 +1,30 @@
+{"entity_type": "threat_actor", "canonical_name": "Akira ransomware group", "aliases": ["Akira"], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Akira ransomware activity (April–August 2023)", "aliases": [], "properties": {"first_seen": "April 2023", "last_seen": "August 2023"}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "identity", "canonical_name": "SMBs in North America", "aliases": ["SMBs"], "properties": {"sector": "SMB", "region": "North America"}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "identity", "canonical_name": "France", "aliases": [], "properties": {"region": "France"}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "identity", "canonical_name": "Turkey", "aliases": [], "properties": {"region": "Turkey"}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploitation of remote services via compromised VPN credentials", "aliases": ["initial access via compromised VPN credentials"], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-20269", "aliases": [], "properties": {"cve_id": "CVE-2023-20269"}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco ASA/FTD", "aliases": ["Cisco ASA", "FTD"], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "PCHunter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerTool", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "AdFind", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced IP Scanner", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "MASSCAN", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "LaZagne", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Create new domain accounts for persistence", "aliases": ["establish persistence by creating new domain accounts"], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Desktop Protocol (RDP) lateral movement", "aliases": ["move laterally via RDP"], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "RClone", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "FileZilla", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinSCP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "Radmin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cloudflare Tunnel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "MobaXterm", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "RustDesk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "tool", "canonical_name": "Ngrok", "aliases": [], "properties": {}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "malware", "canonical_name": "Akira", "aliases": ["Akira ransomware"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".akira", "aliases": [], "properties": {"ioc_type": "domain", "value": ".akira"}, "source_chunks": ["BLOG-183::ch0"]}
+{"entity_type": "indicator", "canonical_name": "akira_readme.txt", "aliases": [], "properties": {"ioc_type": "hash", "value": "akira_readme.txt"}, "source_chunks": ["BLOG-183::ch0"]}

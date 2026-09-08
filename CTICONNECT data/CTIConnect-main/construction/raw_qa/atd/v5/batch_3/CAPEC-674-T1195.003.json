@@ -1,0 +1,23 @@
+{
+  "question": "An adversary modifies a field-programmable gate array\u2019s programmed logic by triggering a configuration memory reload after inserting malicious functionality into the FPGA program, enabling harmful actions on the host system. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.003.\n- T1195.003 corresponds to hardware supply chain compromise, mapping CAPEC-674: maliciously altering FPGA configuration to introduce hostile functions.",
+  "llm_cost": {
+    "input": 0.000788,
+    "cached_input": 0.0,
+    "output": 0.00111,
+    "total": 0.001898,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 630,
+      "cached_input": 0,
+      "output": 111
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4287
+  }
+}

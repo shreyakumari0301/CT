@@ -1,0 +1,23 @@
+{
+  "question": "An adversary drops a malicious DLL into the Windows Side-by-Side directory so the OS loads it instead of the legitimate library, exploiting non-explicit manifests or DLL search order. Which MITRE ATT&CK technique matches this behavior, and why does it map to it?",
+  "answer": "- T1574.002.\n- T1574.002 corresponds to DLL side-loading, mapping CAPEC-641: placing a malicious DLL in WinSxS to be loaded instead.",
+  "llm_cost": {
+    "input": 0.000829,
+    "cached_input": 0.0,
+    "output": 0.0011,
+    "total": 0.001929,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 663,
+      "cached_input": 0,
+      "output": 110
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.5176
+  }
+}

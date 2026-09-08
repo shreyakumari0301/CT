@@ -1,0 +1,13 @@
+{"entity_type": "identity", "canonical_name": "Cyfirma", "aliases": [], "properties": {}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Anonymous Arabic", "aliases": [], "properties": {"regions_targeted": ["Middle East"]}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "identity", "canonical_name": "Turkey", "aliases": [], "properties": {"region": "Turkey"}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "identity", "canonical_name": "Syria", "aliases": [], "properties": {"region": "Syria"}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "identity", "canonical_name": "Dangerous silver", "aliases": [], "properties": {}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "identity", "canonical_name": "Monstermc", "aliases": [], "properties": {}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "malware", "canonical_name": "SilverRAT v1", "aliases": ["SilverRAT"], "properties": {"family": "SilverRAT", "capabilities": ["remote access", "keylogging", "ransomware deployment", "antivirus evasion", "system restore point deletion", "configurable C2 infrastructure", "delayed payload execution"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram", "aliases": [], "properties": {}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "identity", "canonical_name": "Turkhackteam", "aliases": [], "properties": {}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "identity", "canonical_name": "1877", "aliases": [], "properties": {}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian forums", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "malware", "canonical_name": "BossNet", "aliases": ["BossNet botnet"], "properties": {}, "source_chunks": ["BLOG-102::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East underground markets", "aliases": [], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-102::ch0"]}

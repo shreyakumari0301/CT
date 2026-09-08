@@ -1,0 +1,34 @@
+{"entity_type": "identity", "canonical_name": "Citrix", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Netscaler ADC", "aliases": ["ADC"], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Netscaler Gateway", "aliases": ["Gateway"], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Citrix Bleed", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-4966", "aliases": [], "properties": {"cve_id": "CVE-2023-4966", "cvss": "9.4"}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Assetnote", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "ransomware affiliates", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Unit 42 Incident Response", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Managed Threat Hunting teams", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "tool", "canonical_name": "cmd.exe", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "tool", "canonical_name": "whoami", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMIC", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "tool", "canonical_name": "tasklist", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "tool", "canonical_name": "net user", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "tool", "canonical_name": "XScan", "aliases": ["s.exe"], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "tool", "canonical_name": "Python", "aliases": ["Python exploit scripts", "Python HTTP servers"], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "tool", "canonical_name": "mRemoteNG", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "VDI hosts", "aliases": ["VDI"], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cortex Xpanse", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": ["US"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Germany", "aliases": [], "properties": {"region": "Germany"}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "China", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "United Kingdom", "aliases": ["UK"], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "CISA Known Exploited Vulnerabilities Catalog", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-4967", "aliases": [], "properties": {"cve_id": "CVE-2023-4967"}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Next-Generation Firewalls", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "indicator", "canonical_name": "94483", "aliases": [], "properties": {"ioc_type": "hash", "value": "94483"}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Advanced Threat Prevention", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Advanced WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cortex Xpanse Threat Response Event", "aliases": [], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cortex XDR/XSIAM", "aliases": ["Cortex XDR", "XSIAM"], "properties": {}, "source_chunks": ["BLOG-74::ch0"]}

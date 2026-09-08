@@ -1,0 +1,20 @@
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "identity", "canonical_name": "Lacework Labs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "identity", "canonical_name": "FortiGuard Labs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "malware", "canonical_name": "Androxgh0st", "aliases": [], "properties": {"platforms": ["Python"], "capabilities": ["credential theft", "botnet"], "first_seen": "2022"}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "identity", "canonical_name": "AWS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Office 365", "aliases": ["Office 365"], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "identity", "canonical_name": "SendGrid", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "identity", "canonical_name": "Twilio", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2017-9841", "aliases": [], "properties": {"cve_id": "CVE-2017-9841"}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-41773", "aliases": [], "properties": {"cve_id": "CVE-2021-41773"}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2018-15133", "aliases": [], "properties": {"cve_id": "CVE-2018-15133"}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "identity", "canonical_name": "PHPUnit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apache HTTP Server", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "identity", "canonical_name": "Laravel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Web Shell", "aliases": ["web shell"], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "tool", "canonical_name": "SMTP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "tool", "canonical_name": "cURL", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apache 2.4.49/2.4.50", "aliases": ["Apache 2.4.49", "2.4.50"], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Known Exploited Vulnerabilities Catalog", "aliases": [], "properties": {}, "source_chunks": ["BLOG-21::ch0"]}

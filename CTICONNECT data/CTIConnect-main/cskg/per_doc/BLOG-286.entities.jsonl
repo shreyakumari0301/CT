@@ -1,0 +1,14 @@
+{"entity_type": "threat_actor", "canonical_name": "Magic Hare", "aliases": ["Static Tundra", "Berserk Bear", "Dragonfly", "FSB Center 16 hackers", "Crouching Yeti", "Energetic Bear", "Iron Liberty"], "properties": {"country": "Russia", "sectors_targeted": ["telecom", "manufacturing", "higher-education", "critical infrastructure"], "regions_targeted": ["globally", "Ukraine"]}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "identity", "canonical_name": "FSB Center 16", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2018-0171", "aliases": [], "properties": {"cve_id": "CVE-2018-0171"}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco Smart Install", "aliases": ["Smart Install"], "properties": {}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "tool", "canonical_name": "Shodan", "aliases": [], "properties": {"capabilities": ["automated scanning"]}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "tool", "canonical_name": "Censys", "aliases": [], "properties": {"capabilities": ["automated scanning"]}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "malware", "canonical_name": "SYNful Knock", "aliases": [], "properties": {"family": "SYNful Knock", "capabilities": ["persistence"]}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": [], "properties": {}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Harvesting", "aliases": ["extract credentials", "harvest configuration files", "extract credentials and SNMP community strings"], "properties": {}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Create Account", "aliases": ["create privileged accounts"], "properties": {}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Network Tunneling", "aliases": ["established GRE tunnels"], "properties": {}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Network Traffic Collection", "aliases": ["collected NetFlow data"], "properties": {}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "identity", "canonical_name": "industrial control systems", "aliases": [], "properties": {"sector": "critical infrastructure"}, "source_chunks": ["BLOG-286::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian targets", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-286::ch0"]}

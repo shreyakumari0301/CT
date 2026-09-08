@@ -1,0 +1,19 @@
+{"src_type": "identity", "src_name": "BlackBerry", "predicate": "identified", "tgt_type": "campaign", "tgt_name": "Silent Skimming", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-18935", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "targets", "tgt_type": "identity", "tgt_name": "payment servers", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "targets", "tgt_type": "identity", "tgt_name": "POS servers", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "targets", "tgt_type": "identity", "tgt_name": "APAC", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Latin America", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "exploits_in", "tgt_type": "identity", "tgt_name": "Progress Telerik UI for ASP.NET AJAX", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "uses", "tgt_type": "tool", "tgt_name": "BadPotato", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Godzilla Webshell", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Juicy Potato", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SweetPotato", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PowerShell RATs", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "uses", "tgt_type": "tool", "tgt_name": "HTML HTA downloaders", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "establishes_c2_via", "tgt_type": "identity", "tgt_name": "Cloudflare", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Japan", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "linked_to", "tgt_type": "threat_actor", "tgt_name": "BlackSuit", "source_chunks": ["BLOG-2::ch0"]}
+{"src_type": "campaign", "src_name": "Silent Skimming", "predicate": "linked_to", "tgt_type": "threat_actor", "tgt_name": "Zeon", "source_chunks": ["BLOG-2::ch0"]}

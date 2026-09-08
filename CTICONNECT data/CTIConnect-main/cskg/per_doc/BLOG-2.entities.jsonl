@@ -1,0 +1,20 @@
+{"entity_type": "identity", "canonical_name": "BlackBerry", "aliases": [], "properties": {}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Silent Skimming", "aliases": [], "properties": {"objective": "exfiltrate billing and credit-card data"}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-18935", "aliases": [], "properties": {"cve_id": "CVE-2019-18935"}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "identity", "canonical_name": "Progress Telerik UI for ASP.NET AJAX", "aliases": ["Telerik UI for ASP.NET AJAX", "Telerik components"], "properties": {}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "identity", "canonical_name": "payment servers", "aliases": [], "properties": {"sector": "payment processing"}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "identity", "canonical_name": "POS servers", "aliases": [], "properties": {"sector": "retail"}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "identity", "canonical_name": "APAC", "aliases": [], "properties": {"region": "APAC"}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "identity", "canonical_name": "Latin America", "aliases": [], "properties": {"region": "Latin America"}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "tool", "canonical_name": "BadPotato", "aliases": [], "properties": {"capabilities": ["privilege escalation"]}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "tool", "canonical_name": "Godzilla Webshell", "aliases": [], "properties": {"capabilities": ["remote command execution"]}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "tool", "canonical_name": "Juicy Potato", "aliases": [], "properties": {"capabilities": ["privilege escalation"]}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "tool", "canonical_name": "SweetPotato", "aliases": [], "properties": {"capabilities": ["privilege escalation"]}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "malware", "canonical_name": "PowerShell RATs", "aliases": ["server.ps1"], "properties": {}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "tool", "canonical_name": "HTML HTA downloaders", "aliases": [], "properties": {"capabilities": ["download payloads"]}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["Cobalt Strike beacons", "CobaltStrike", "CS Beacon"], "properties": {"capabilities": ["command and control"]}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cloudflare", "aliases": [], "properties": {}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "identity", "canonical_name": "Japan", "aliases": [], "properties": {"region": "Japan"}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "BlackSuit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-2::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Zeon", "aliases": [], "properties": {}, "source_chunks": ["BLOG-2::ch0"]}

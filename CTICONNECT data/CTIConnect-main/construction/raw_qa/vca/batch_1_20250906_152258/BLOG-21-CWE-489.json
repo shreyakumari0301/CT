@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Laravel applications left in debug/testing mode in production expose environment details and secrets that aid compromise.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) at what stage do developers typically introduce this issue?",
+  "answer": "1) CWE-489: Active Debug Code\n2) Mapping Explanation: This vulnerability aligns with CWE-489 because leaving debug or testing modes enabled in production environments inadvertently exposes internal application details and configuration information. This reflects the essence of the CWE, where debug code meant for development or testing purposes is improperly left active, thus potentially aiding attackers.\n3) Modes of Introduction: The issue is typically introduced during the Implementation phase, where developers use debug code for testing and modify application properties, and if this code is not properly deactivated before deployment, it remains in the production environment.",
+  "llm_timing": {
+    "api_call_seconds": 5.6313
+  }
+}

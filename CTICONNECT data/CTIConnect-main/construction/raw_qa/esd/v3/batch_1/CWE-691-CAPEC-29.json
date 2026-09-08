@@ -1,0 +1,23 @@
+{
+  "question": "An application does not adequately manage its execution paths, allowing unintended or unsafe transitions in program flow. Which CAPEC attack pattern exploits this weakness, and why can it take advantage of such poor control-flow management?",
+  "answer": "- CAPEC-29.\n- CAPEC-29 exploits TOCTOU race condition, targeting CWE-691: insufficient control flow management allowing unintended transitions between check and use.",
+  "llm_cost": {
+    "input": 0.000786,
+    "cached_input": 0.0,
+    "output": 0.00092,
+    "total": 0.001706,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 629,
+      "cached_input": 0,
+      "output": 92
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3974
+  }
+}

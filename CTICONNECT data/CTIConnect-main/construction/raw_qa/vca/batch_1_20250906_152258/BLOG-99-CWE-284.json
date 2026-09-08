@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Unauthorized access via the third-party call center platform suggests insufficient access restrictions/segmentation and led to exposure of customer data; Qantas added access control measures only after the incident.' Can you identify the CWE category that maps to this vulnerability and explain your mapping? Also, at what stage do developers typically introduce this issue according to the CWE framework?",
+  "answer": "1) CWE-284: Improper Access Control. 2) Mapping Explanation: The vulnerability described in the blog\u2014a lack of sufficient access restrictions and segmentation that allowed unauthorized access\u2014directly aligns with CWE-284, which deals with improper access control measures. 3) Modes_Of_Introduction: This issue may be introduced during the Architecture and Design phase, Implementation phase (specifically during the realization of architectural security tactics), and in the Operation phase.",
+  "llm_timing": {
+    "api_call_seconds": 6.586
+  }
+}

@@ -1,0 +1,15 @@
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2018-0171", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-20198", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-20273", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-21887", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-3400", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US National Guard", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "enables", "tgt_type": "identity", "tgt_name": "Chinese intelligence services", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2018-0171", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Cisco", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-20198", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Cisco", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-20273", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Cisco", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-21887", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Ivanti", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-3400", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Palo Alto Networks", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "identity", "src_name": "Chinese intelligence services", "predicate": "includes_contractor_affiliate", "tgt_type": "identity", "tgt_name": "Sichuan Juxinhe", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "identity", "src_name": "Chinese intelligence services", "predicate": "includes_contractor_affiliate", "tgt_type": "identity", "tgt_name": "Beijing Huanyu Tianqiong", "source_chunks": ["BLOG-266::ch0"]}
+{"src_type": "identity", "src_name": "Chinese intelligence services", "predicate": "includes_contractor_affiliate", "tgt_type": "identity", "tgt_name": "Sichuan Zhixin Ruijie", "source_chunks": ["BLOG-266::ch0"]}

@@ -1,0 +1,23 @@
+{
+  "question": "An adversary uses deception to make a user or automated process download and install harmful code that appears to be a legitimate software update, but actually comes from an attacker-controlled source. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.002.\n- T1195.002 corresponds to compromising update distribution, mapping CAPEC-186: tricking victims into installing attacker-supplied \u201cupdates\u201d from adversary sources.",
+  "llm_cost": {
+    "input": 0.000723,
+    "cached_input": 0.0,
+    "output": 0.00115,
+    "total": 0.001873,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 578,
+      "cached_input": 0,
+      "output": 115
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.2869
+  }
+}

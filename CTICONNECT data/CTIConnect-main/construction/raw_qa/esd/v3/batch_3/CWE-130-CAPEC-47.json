@@ -1,0 +1,23 @@
+{
+  "question": "A program inconsistently handles length parameters during input processing, causing mismatched size assumptions that can lead to memory corruption. Which CAPEC attack pattern exploits this weakness, and why can it leverage data size changes to trigger overflow conditions?",
+  "answer": "- CAPEC-47.\n- CAPEC-47 exploits length parameter inconsistency, targeting CWE-130: improper handling of inconsistent length parameters across processing.",
+  "llm_cost": {
+    "input": 0.000714,
+    "cached_input": 0.0,
+    "output": 0.00092,
+    "total": 0.001634,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 571,
+      "cached_input": 0,
+      "output": 92
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4685
+  }
+}

@@ -1,0 +1,18 @@
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "tracked_to", "tgt_type": "indicator", "tgt_name": "snoopykiller@mail.ru", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "uses_control_domain", "tgt_type": "indicator", "tgt_name": "navermail.byethost3.com", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "uses_control_domain", "tgt_type": "indicator", "tgt_name": "nihon.byethost11.com", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "targets", "tgt_type": "identity", "tgt_name": "humanitarian aid groups", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "targets", "tgt_type": "identity", "tgt_name": "regional organizations in Vietnam and South Korea", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Microsoft Word", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "uses", "tgt_type": "tool", "tgt_name": "wusa.exe", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "uses", "tgt_type": "tool", "tgt_name": "expand.exe", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "hijacks", "tgt_type": "tool", "tgt_name": "cliconfg.exe", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "uses", "tgt_type": "malware", "tgt_name": "NTWDBLIB.dll", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "installs", "tgt_type": "malware", "tgt_name": "ipnet.dll", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Honeybee", "predicate": "exfiltrates_to", "tgt_type": "indicator", "tgt_name": "1113427185.ifastnet.org", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "identity", "src_name": "McAfee Advanced Threat Research", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "Operation Honeybee", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "identity", "src_name": "regional organizations in Vietnam and South Korea", "predicate": "located_in", "tgt_type": "identity", "tgt_name": "Vietnam", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "identity", "src_name": "regional organizations in Vietnam and South Korea", "predicate": "located_in", "tgt_type": "identity", "tgt_name": "South Korea", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "malware", "src_name": "NTWDBLIB.dll", "predicate": "hijacks", "tgt_type": "tool", "tgt_name": "cliconfg.exe", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "malware", "src_name": "MaoCheng", "predicate": "signed_with_stolen_certificate_from", "tgt_type": "identity", "tgt_name": "Adobe", "source_chunks": ["BLOG-253::ch0"]}
+{"src_type": "malware", "src_name": "MaoCheng", "predicate": "related_to", "tgt_type": "campaign", "tgt_name": "Operation Honeybee", "source_chunks": ["BLOG-253::ch0"]}

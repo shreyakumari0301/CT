@@ -1,0 +1,23 @@
+{
+  "question": "An adversary performs early-stage network reconnaissance by probing IP addresses\u2014often sweeping a range\u2014to determine which hosts are alive based on responses to crafted \u201cping\u201d-like packets. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1018.\n- T1018 corresponds to discovering remote live hosts, mapping CAPEC-292: probing IP ranges with ping-like packets to identify active systems.",
+  "llm_cost": {
+    "input": 0.000867,
+    "cached_input": 0.0,
+    "output": 0.00106,
+    "total": 0.001927,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 694,
+      "cached_input": 0,
+      "output": 106
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.25
+  }
+}

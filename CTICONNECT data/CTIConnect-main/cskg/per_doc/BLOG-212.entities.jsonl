@@ -1,0 +1,21 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT34", "aliases": ["OilRig APT", "OilRig", "Helix Kitten", "Cobalt Gypsy", "Earth Vetala", "Hazel Sandstorm"], "properties": {"regions_targeted": ["Israel"]}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Outer Space", "aliases": [], "properties": {"first_seen": "2021"}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Juicy Mix", "aliases": [], "properties": {"first_seen": "2022"}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lyceum", "aliases": [], "properties": {"regions_targeted": ["Israel"]}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spear-phishing", "aliases": ["spear-phishing"], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "malware", "canonical_name": "Solar", "aliases": ["Solar.exe"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "malware", "canonical_name": "Mango", "aliases": ["Mango.exe"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "malware", "canonical_name": "SC5k", "aliases": [], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Exchange Web Services API", "aliases": ["Microsoft Exchange Web Services", "EWS"], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "malware", "canonical_name": "JupiterX", "aliases": [], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "malware", "canonical_name": "MKG", "aliases": ["MKG dumper", "MKG Chrome/Edge credential dumpers"], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "malware", "canonical_name": "DanBot", "aliases": [], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "malware", "canonical_name": "Shark", "aliases": [], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "malware", "canonical_name": "Milan", "aliases": [], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "malware", "canonical_name": "Marlin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Out to Sea", "aliases": [], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "campaign", "canonical_name": "DNSpionage", "aliases": [], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "campaign", "canonical_name": "HardPass", "aliases": [], "properties": {}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israel", "aliases": ["Israeli"], "properties": {"region": "Israel"}, "source_chunks": ["BLOG-212::ch0"]}
+{"entity_type": "identity", "canonical_name": "Iran", "aliases": ["Iran-linked"], "properties": {"region": "Iran"}, "source_chunks": ["BLOG-212::ch0"]}

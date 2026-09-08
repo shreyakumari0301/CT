@@ -1,0 +1,22 @@
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "supported_by", "tgt_type": "identity", "tgt_name": "Sichuan Juxinhe Network Technology Co. Ltd.", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "supported_by", "tgt_type": "identity", "tgt_name": "Beijing Huanyu Tianqiong Information Technology Co.", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "supported_by", "tgt_type": "identity", "tgt_name": "Sichuan Zhixin Ruijie Network Technology Co. Ltd.", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "breached", "tgt_type": "identity", "tgt_name": "AT&T", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "breached", "tgt_type": "identity", "tgt_name": "Verizon", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "breached", "tgt_type": "identity", "tgt_name": "Lumen", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "U.S. Army National Guard", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-21887", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-3400", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-20273", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-20198", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2018-0171", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "cmd1", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "cmd3", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "new2", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "sft", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "identity", "src_name": "Sichuan Juxinhe Network Technology Co. Ltd.", "predicate": "supplies_cyber_products_and_services_to", "tgt_type": "identity", "tgt_name": "China’s Ministry of State Security", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "identity", "src_name": "Sichuan Juxinhe Network Technology Co. Ltd.", "predicate": "supplies_cyber_products_and_services_to", "tgt_type": "identity", "tgt_name": "PLA", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "identity", "src_name": "Beijing Huanyu Tianqiong Information Technology Co.", "predicate": "supplies_cyber_products_and_services_to", "tgt_type": "identity", "tgt_name": "China’s Ministry of State Security", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "identity", "src_name": "Beijing Huanyu Tianqiong Information Technology Co.", "predicate": "supplies_cyber_products_and_services_to", "tgt_type": "identity", "tgt_name": "PLA", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "identity", "src_name": "Sichuan Zhixin Ruijie Network Technology Co. Ltd.", "predicate": "supplies_cyber_products_and_services_to", "tgt_type": "identity", "tgt_name": "China’s Ministry of State Security", "source_chunks": ["BLOG-228::ch0"]}
+{"src_type": "identity", "src_name": "Sichuan Zhixin Ruijie Network Technology Co. Ltd.", "predicate": "supplies_cyber_products_and_services_to", "tgt_type": "identity", "tgt_name": "PLA", "source_chunks": ["BLOG-228::ch0"]}

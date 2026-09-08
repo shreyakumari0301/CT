@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The backdoor comes fitted with a keylogger, a screenshotter, a means of accessing the device's camera, and plenty of other useful functions for manipulating the mouse, performing native Windows operation, or simply running arbitrary commands.\" Can you identify the MITRE ATT&CK category corresponding to this behavior (focusing on the screenshot function), explain why this mapping is appropriate, and specify in which kill chain phase this activity is categorized?",
+  "answer": "1) T1113 \u2013 Screen Capture. 2) Mapping Explanation: The inclusion of a screenshotter in the backdoor functionality directly corresponds to MITRE ATT&CK technique T1113, as it involves capturing the content displayed on the victim's screen. 3) Kill Chain Phase: Collection, because this phase encompasses the actions of gathering visual data and other sensitive information from the target system.",
+  "llm_timing": {
+    "api_call_seconds": 5.7164
+  }
+}

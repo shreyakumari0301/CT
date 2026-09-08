@@ -1,0 +1,8 @@
+{"src_type": "threat_actor", "src_name": "EleKtra-Leak", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "GitHub", "source_chunks": ["BLOG-108::ch0"]}
+{"src_type": "threat_actor", "src_name": "EleKtra-Leak", "predicate": "harvests_credentials_from", "tgt_type": "identity", "tgt_name": "AWS", "source_chunks": ["BLOG-108::ch0"]}
+{"src_type": "threat_actor", "src_name": "EleKtra-Leak", "predicate": "spins_up", "tgt_type": "identity", "tgt_name": "EC2", "source_chunks": ["BLOG-108::ch0"]}
+{"src_type": "threat_actor", "src_name": "EleKtra-Leak", "predicate": "conducts", "tgt_type": "attack_pattern", "tgt_name": "Cryptojacking", "source_chunks": ["BLOG-108::ch0"]}
+{"src_type": "threat_actor", "src_name": "EleKtra-Leak", "predicate": "uses", "tgt_type": "malware", "tgt_name": "malicious miners", "source_chunks": ["BLOG-108::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks Unit 42", "predicate": "identified", "tgt_type": "malware", "tgt_name": "malicious miners", "source_chunks": ["BLOG-108::ch0"]}
+{"src_type": "malware", "src_name": "malicious miners", "predicate": "mines", "tgt_type": "identity", "tgt_name": "Monero", "source_chunks": ["BLOG-108::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Secret scanning", "predicate": "mitigates", "tgt_type": "threat_actor", "tgt_name": "EleKtra-Leak", "source_chunks": ["BLOG-108::ch0"]}

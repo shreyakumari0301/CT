@@ -1,0 +1,12 @@
+{"src_type": "identity", "src_name": "Google TAG", "predicate": "discovered", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-37580", "source_chunks": ["BLOG-50::ch0"]}
+{"src_type": "identity", "src_name": "Google TAG", "predicate": "observed_campaign_targeting", "tgt_type": "identity", "tgt_name": "Greek government", "source_chunks": ["BLOG-50::ch0"]}
+{"src_type": "identity", "src_name": "Google TAG", "predicate": "observed_attacks_by", "tgt_type": "threat_actor", "tgt_name": "Winter Vivern", "source_chunks": ["BLOG-50::ch0"]}
+{"src_type": "identity", "src_name": "Google TAG", "predicate": "observed_campaign_targeting", "tgt_type": "identity", "tgt_name": "Vietnamese webmail", "source_chunks": ["BLOG-50::ch0"]}
+{"src_type": "identity", "src_name": "Google TAG", "predicate": "observed_campaign_in", "tgt_type": "identity", "tgt_name": "Pakistan", "source_chunks": ["BLOG-50::ch0"]}
+{"src_type": "identity", "src_name": "Google TAG", "predicate": "observed_exfiltration_to", "tgt_type": "indicator", "tgt_name": "ntcpk.org", "source_chunks": ["BLOG-50::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-37580", "predicate": "is_type_of", "tgt_type": "attack_pattern", "tgt_name": "Reflected XSS", "source_chunks": ["BLOG-50::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-37580", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Zimbra Collaboration", "source_chunks": ["BLOG-50::ch0"]}
+{"src_type": "identity", "src_name": "Zimbra Collaboration", "predicate": "issued_hotfix_on", "tgt_type": "tool", "tgt_name": "GitHub", "source_chunks": ["BLOG-50::ch0"]}
+{"src_type": "threat_actor", "src_name": "Winter Vivern", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Moldovan government", "source_chunks": ["BLOG-50::ch0"]}
+{"src_type": "threat_actor", "src_name": "Winter Vivern", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Tunisian government", "source_chunks": ["BLOG-50::ch0"]}
+{"src_type": "threat_actor", "src_name": "Winter Vivern", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "applicationdevsoc.com", "source_chunks": ["BLOG-50::ch0"]}

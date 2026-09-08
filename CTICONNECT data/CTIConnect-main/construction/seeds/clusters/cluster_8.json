@@ -1,0 +1,342 @@
+{
+  "cluster_id": 8,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 20,
+      "node": [
+        {
+          "node_text": "0ktapus",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Australian Cyber Security Centre",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Australian Federal Police",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Hawaiian Airlines",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MFA bombing",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Muddled Libra",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Office of the Australian Information Commissioner",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Qantas",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Qantas systems",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SIM swapping",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Scatter Swine",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Scattered Spider",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Starfraud",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "UNC3944",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WestJet",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "breach",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "help-desk phone calls",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "identity-based attacks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "phishing",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "self-service password reset exploit",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "social engineering",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "system",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "third-party call-centre customer-service platform",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "unusual activity",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " RoundPress",
+      "platform": "BleepingComputer",
+      "type": "campaign",
+      "publish_date": "2025/5/15"
+    },
+    {
+      "blog_id": 111,
+      "node": [
+        {
+          "node_text": "2004",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "APT28",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "CVE-2020-35730",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-43770",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2024-11182",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "French organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Horde",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "MDaemon",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Operation RoundPress",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Roundcube",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Russian GRU",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "September 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "SpyPress",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Ukraine’s government",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "XSS",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "Zimbra",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "browser context",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "defense firms in Bulgaria",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "defense firms in Romania",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "phishing emails",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "robust email filtering",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "spam filters",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "two-factor authentication",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "webmail credentials",
+          "node_type": "Indicator"
+        }
+      ],
+      "title": " RoundPress",
+      "platform": "securityweek",
+      "type": "campaign",
+      "publish_date": "2023/9/28"
+    },
+    {
+      "blog_id": 203,
+      "node": [
+        {
+          "node_text": "2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "2024",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Africa",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Bulgaria",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "CVE-2020-35730",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-43770",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2024-11182",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2024-27443",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "HTTP POST",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Horde",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "MDaemon",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Operation RoundPress",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Romania",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Roundcube",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Sednit",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Sieve-based forwarding rules",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "South America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "SpyPress",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Ukraine",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "XSS",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "XSS exploits",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Zimbra",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "email addresses",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "governmental and defense entities",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "reusable domains",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "spear-phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "two-factor authentication",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": " RoundPress",
+      "platform": "welivesecurity",
+      "type": "campaign",
+      "publish_date": "2025/5/15"
+    }
+  ]
+}

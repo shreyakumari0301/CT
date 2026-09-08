@@ -1,0 +1,14 @@
+{"src_type": "identity", "src_name": "Wall Street Journal", "predicate": "disclosed_activity_of", "tgt_type": "threat_actor", "tgt_name": "Salt Typhoon", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "infiltrated", "tgt_type": "identity", "tgt_name": "U.S. cable and broadband ISPs", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Firmware Compromise", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Supply Chain Compromise", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Establish Persistence", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Data from Information Repositories", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "targets", "tgt_type": "identity", "tgt_name": "federal users", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "targets", "tgt_type": "identity", "tgt_name": "military users", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Fortune 100 users", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "campaign_echoes", "tgt_type": "threat_actor", "tgt_name": "Volt Typhoon", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "campaign_echoes", "tgt_type": "threat_actor", "tgt_name": "Flax Typhoon", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "campaign_echoes", "tgt_type": "threat_actor", "tgt_name": "APT41", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "campaign_echoes", "tgt_type": "threat_actor", "tgt_name": "Mustang Panda", "source_chunks": ["BLOG-247::ch0"]}
+{"src_type": "threat_actor", "src_name": "Salt Typhoon", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "Taiwan", "source_chunks": ["BLOG-247::ch0"]}

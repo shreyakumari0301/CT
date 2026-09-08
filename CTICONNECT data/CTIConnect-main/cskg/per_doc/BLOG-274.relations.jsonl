@@ -1,0 +1,9 @@
+{"src_type": "tool", "src_name": "kubectl", "predicate": "used_for_troubleshooting", "tgt_type": "identity", "tgt_name": "Kubernetes", "source_chunks": ["BLOG-274::ch0"]}
+{"src_type": "tool", "src_name": "kube-apiserver", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "Kubernetes", "source_chunks": ["BLOG-274::ch0"]}
+{"src_type": "tool", "src_name": "kube-scheduler", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "Kubernetes", "source_chunks": ["BLOG-274::ch0"]}
+{"src_type": "tool", "src_name": "Calico", "predicate": "used_for_network_policies_in", "tgt_type": "identity", "tgt_name": "Kubernetes", "source_chunks": ["BLOG-274::ch0"]}
+{"src_type": "tool", "src_name": "etcd", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "Kubernetes", "source_chunks": ["BLOG-274::ch0"]}
+{"src_type": "tool", "src_name": "CoreDNS", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "Kubernetes", "source_chunks": ["BLOG-274::ch0"]}
+{"src_type": "tool", "src_name": "cAdvisor", "predicate": "used_for_metrics_in", "tgt_type": "identity", "tgt_name": "Kubernetes", "source_chunks": ["BLOG-274::ch0"]}
+{"src_type": "tool", "src_name": "Fluentd", "predicate": "used_for_centralized_logging_in", "tgt_type": "identity", "tgt_name": "Kubernetes", "source_chunks": ["BLOG-274::ch0"]}
+{"src_type": "malware", "src_name": "Python malware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "crypto developers", "source_chunks": ["BLOG-274::ch0"]}

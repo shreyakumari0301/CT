@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Attackers accessed a call center platform containing PII (names, emails, phone numbers, birth dates, frequent flyer numbers) for ~6M customers.\" Please provide: 1) the corresponding CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) the applicable platforms for the CWE (for example, does this CWE affect our specific stack such as Java, Python, or web frameworks)?",
+  "answer": "1) CWE Category: CWE-359 - Exposure of Private Personal Information to an Unauthorized Actor\n2) Mapping Explanation: The vulnerability is characterized by the exposure of sensitive personal information (names, emails, phone numbers, etc.) to attackers without proper authorization. This directly aligns with CWE-359, which describes vulnerabilities where private personal information is improperly exposed to unintended parties.\n3) Applicable Platforms: \n   a. Language: Not Language-Specific (prevalence is undetermined)\n   b. Technology: Mobile (prevalence is undetermined)",
+  "llm_timing": {
+    "api_call_seconds": 7.0255
+  }
+}

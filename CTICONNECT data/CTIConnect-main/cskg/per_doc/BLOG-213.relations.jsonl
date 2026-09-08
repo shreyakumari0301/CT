@@ -1,0 +1,19 @@
+{"src_type": "malware", "src_name": "AceCryptor", "predicate": "packs", "tgt_type": "malware", "tgt_name": "Rescoms RAT", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "AceCryptor", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Rescoms RAT", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "AceCryptor", "predicate": "used_with", "tgt_type": "malware", "tgt_name": "Danabot", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "AceCryptor", "predicate": "used_with", "tgt_type": "malware", "tgt_name": "RedLine Stealer", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "AceCryptor", "predicate": "used_with", "tgt_type": "malware", "tgt_name": "SmokeLoader", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "AceCryptor", "predicate": "used_with", "tgt_type": "malware", "tgt_name": "STOP ransomware", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "AceCryptor", "predicate": "used_with", "tgt_type": "malware", "tgt_name": "Vidar", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "Rescoms RAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "European companies", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "Rescoms RAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Poland", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "Rescoms RAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "Rescoms RAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Spain", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "Rescoms RAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Serbia", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "Rescoms RAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Bulgaria", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "Rescoms RAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Slovakia", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "Rescoms RAT", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Initial access", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "malware", "src_name": "Rescoms RAT", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Data exfiltration", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Typosquatted domains", "predicate": "used_in_delivery_of", "tgt_type": "malware", "tgt_name": "AceCryptor", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Abuse of previously compromised corporate mailboxes", "predicate": "used_to_send", "tgt_type": "attack_pattern", "tgt_name": "Phishing emails with ISO or 7z archives", "source_chunks": ["BLOG-213::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing emails with ISO or 7z archives", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "AceCryptor", "source_chunks": ["BLOG-213::ch0"]}

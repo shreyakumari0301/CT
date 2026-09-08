@@ -1,0 +1,53 @@
+You are a Cyber Threat Intelligence (CTI) assistant.
+Given one **CWE entry (JSON)** as the **source** and one **CVE entry (JSON)** as the **target**, generate a **(question, answer) pair** for benchmarking RAG on the **Weakness Instantiation Mapping (WIM)** task.
+
+**Rules:**
+- Use only the provided inputs; do not invent facts.
+- Output exactly one JSON object with keys `question` and `answer`.
+- No extra text or formatting outside the JSON.
+
+---
+
+## INPUTS
+
+* **SOURCE CWE:**
+```json
+{{ SOURCE_NODE }}
+```
+
+* **TARGET CVE:**
+
+```json
+{{ TARGET_NODE }}
+```
+
+---
+
+## TASKS
+
+### 1. Question
+
+Write one question that:
+
+* **Describes the weakness behavior in natural language** based on the CWE description.
+* Asks which CVE instantiates this weakness pattern.
+* Asks why that CVE demonstrates the weakness.
+* **Must NOT contain the source CWE ID** (e.g., do not write "CWE-770") **or the CWE title**. Do not paraphrase the ID either. The model under evaluation must identify the CVE from the behavioral description alone.
+* **Must NOT contain the target CVE ID.**
+* **Must NOT contain identifiers that uniquely fingerprint the specific CVE** — including vendor product names with model/version, exact internal function/method names, exact API endpoint paths, or exact file paths. Describe the weakness in general terms.
+
+### 2. Answer
+
+Return a bullet list:
+
+* **First bullet:** The CVE ID (e.g., "CVE-2018-6869").
+* **Second bullet:** Format: `CVE-XXXX demonstrates <specific weakness behavior>, instantiating CWE-XXX: <a short description of the CWE, paraphrased from the SOURCE CWE entry's name or description; this field must NOT be empty>.` Each bullet ≤ 22 words.
+
+---
+
+## Example
+
+{
+"question": "A software component allocates resources such as memory or file handles in response to external requests, but imposes no limits on the amount allocated, allowing an attacker to exhaust system resources. Which CVE instantiates this weakness, and why does it demonstrate this pattern?",
+"answer": "- CVE-2018-6869.\n- CVE-2018-6869 demonstrates uncontrolled memory allocation, instantiating CWE-770: allocation of resources without limits."
+}

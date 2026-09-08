@@ -1,0 +1,242 @@
+{
+  "cluster_id": 32,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 273,
+      "node": [
+        {
+          "node_text": "API server logs",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "CI/CD linting",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Fluentd",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Grafana",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Kubernetes Errors 101",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "North Korean Group",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Play Ransomware",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Prometheus",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "RBAC adjustments",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "affinity/anti-affinity rules",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "alerts",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "automated health probes",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "infrastructure-as-code",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "kubectl",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "network segmentation",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "network-policy misconfigurations",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "resource exhaustion",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "resource quotas",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "secrets management",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "Jumpy Pisces",
+      "platform": "thehackernews",
+      "type": "threat actor",
+      "publish_date": "2024/10/30"
+    },
+    {
+      "blog_id": 231,
+      "node": [
+        {
+          "node_text": "172.96.137[.]224",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "DTrack",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "EDR sensor removal",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Jumpy Pisces",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "May 2024",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Play",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "PsExec",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "SMB",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Sliver",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "TokenPlayer",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "americajobmail[.]site",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "corporate network",
+          "node_type": "System"
+        },
+        {
+          "node_text": "custom RDP account tool",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "espionage",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "ransomware operations",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "secretsdump.py",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "trojanized browser-data stealer",
+          "node_type": "Malware"
+        }
+      ],
+      "title": "Jumpy Pisces",
+      "platform": "Unit42",
+      "type": "threat actor",
+      "publish_date": "2024/10/30"
+    },
+    {
+      "blog_id": 268,
+      "node": [
+        {
+          "node_text": "Brave",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Chrome",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "DTrack",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Edge",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Jumpy Pisces",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "May",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Mimikatz variant",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Play",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Reconnaissance General Bureau",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Sliver C2",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Unit 42",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "early September",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "joint operation",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "ransomware payload",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "trojanized binary",
+          "node_type": "Malware"
+        }
+      ],
+      "title": "Jumpy Pisces",
+      "platform": "techtarget",
+      "type": "threat actor",
+      "publish_date": "2024/10/30"
+    }
+  ]
+}

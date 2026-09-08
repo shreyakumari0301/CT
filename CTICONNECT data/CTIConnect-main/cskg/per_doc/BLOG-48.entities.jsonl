@@ -1,0 +1,14 @@
+{"entity_type": "campaign", "canonical_name": "watering-hole campaign", "aliases": [], "properties": {"first_seen": "late August 2021"}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hong Kong media", "aliases": [], "properties": {"sector": "media", "region": "Hong Kong"}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hong Kong pro-democracy sites", "aliases": ["pro-democracy sites"], "properties": {"region": "Hong Kong"}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "tool", "canonical_name": "Capstone.js", "aliases": [], "properties": {}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "malware", "canonical_name": "MACMA", "aliases": [], "properties": {"capabilities": ["fingerprinting", "file transfer", "keylogging", "screen capture", "audio capture", "remote command execution"], "platforms": ["macOS"]}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Watering hole", "aliases": ["watering-hole"], "properties": {}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Safari sandbox escape", "aliases": ["escape the Safari sandbox"], "properties": {}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Local privilege escalation", "aliases": ["elevate to root", "XNU local privilege escalation"], "properties": {}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-8506", "aliases": [], "properties": {"cve_id": "CVE-2019-8506"}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-1789", "aliases": [], "properties": {"cve_id": "CVE-2021-1789"}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-30869", "aliases": [], "properties": {"cve_id": "CVE-2021-30869"}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-27932", "aliases": [], "properties": {"cve_id": "CVE-2020-27932"}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "indicator", "canonical_name": "103.255.44.56", "aliases": ["103[.]255[.]44[.]56"], "properties": {"ioc_type": "ip", "value": "103.255.44.56"}, "source_chunks": ["BLOG-48::ch0"]}
+{"entity_type": "indicator", "canonical_name": "appleid-server.com", "aliases": ["appleid-server[.]com"], "properties": {"ioc_type": "domain", "value": "appleid-server.com"}, "source_chunks": ["BLOG-48::ch0"]}

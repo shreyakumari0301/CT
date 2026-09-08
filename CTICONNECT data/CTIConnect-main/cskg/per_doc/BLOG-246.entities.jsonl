@@ -1,0 +1,21 @@
+{"entity_type": "identity", "canonical_name": "Arctic Wolf", "aliases": [], "properties": {}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lorenz ransomware group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Lorenz ransomware group exploiting CVE-2022-29499 against Mitel MiVoice Connect", "aliases": [], "properties": {"first_seen": "mid-2022"}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-29499", "aliases": [], "properties": {"cve_id": "CVE-2022-29499"}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mitel MiVoice Connect VoIP appliances", "aliases": ["Mitel MiVoice Connect"], "properties": {}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chisel", "aliases": [], "properties": {"capabilities": ["tunneling", "SOCKS proxy"]}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "tool", "canonical_name": "Wget", "aliases": [], "properties": {"capabilities": ["download files"]}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "malware", "canonical_name": "pdf_import_export.php web shell", "aliases": ["pdf_import_export.php"], "properties": {"capabilities": ["persistence"]}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Reverse shell", "aliases": ["initial reverse shell"], "properties": {}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential harvesting", "aliases": ["harvested local and domain admin credentials"], "properties": {}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral movement via RDP", "aliases": ["moved laterally via RDP"], "properties": {}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data exfiltration", "aliases": ["exfiltrated data"], "properties": {}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "tool", "canonical_name": "FileZilla", "aliases": [], "properties": {"capabilities": ["file transfer"]}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "malware", "canonical_name": "BitLocker", "aliases": [], "properties": {"capabilities": ["disk encryption"]}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "malware", "canonical_name": "Lorenz ransomware", "aliases": ["Lorenz"], "properties": {"family": "Lorenz"}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "identity", "canonical_name": "ESXi hosts", "aliases": [], "properties": {}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "identity", "canonical_name": "US SMBs", "aliases": ["U.S. SMBs"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "identity", "canonical_name": "China", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mexico", "aliases": [], "properties": {"region": "Mexico"}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "identity", "canonical_name": "IoT/VoIP devices", "aliases": ["VoIP devices"], "properties": {}, "source_chunks": ["BLOG-246::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["scripting", "automation"]}, "source_chunks": ["BLOG-246::ch0"]}

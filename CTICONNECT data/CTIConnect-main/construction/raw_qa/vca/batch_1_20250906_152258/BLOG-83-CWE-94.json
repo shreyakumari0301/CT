@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"CVE-2022-0543 (Lua sandbox escape in Debian/Ubuntu-packaged Redis) enables execution of attacker-controlled Lua that loads libraries and runs arbitrary OS commands for RCE.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to that CWE category, and 3) the likelihood of exploitation (i.e., how often do attackers actually exploit this in real attacks?)",
+  "answer": "1) CWE-94: Improper Control of Generation of Code ('Code Injection')\n2) Mapping Explanation: This vulnerability allows attacker-controlled Lua code to be executed, which in turn loads libraries and runs OS commands. This behavior is indicative of a code injection flaw, where the generation of code is improperly controlled and exploited by attackers.\n3) Likelihood of Exploit: Medium",
+  "llm_timing": {
+    "api_call_seconds": 6.7319
+  }
+}

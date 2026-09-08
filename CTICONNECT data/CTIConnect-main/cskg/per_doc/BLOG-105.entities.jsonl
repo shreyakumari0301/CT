@@ -1,0 +1,20 @@
+{"entity_type": "threat_actor", "canonical_name": "Star Blizzard", "aliases": ["Seaborgium", "BlueCharlie", "Callisto Group", "Coldriver"], "properties": {"first_seen": "2017"}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kremlin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "NATO-aligned NGOs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "think tanks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "journalists", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "academic institutions", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine supporters", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "Recorded Future", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "tool", "canonical_name": "MailerLite", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "tool", "canonical_name": "HubSpot", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "tool", "canonical_name": "Evilginx", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "tool", "canonical_name": "Namecheap", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "tool", "canonical_name": "Let’s Encrypt", "aliases": ["Let's Encrypt"], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. grants-management portals", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "UK officials", "aliases": [], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "MI6", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "Richard Dearlove", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "Stewart McDonald", "aliases": [], "properties": {}, "source_chunks": ["BLOG-105::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. nuclear labs", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-105::ch0"]}

@@ -1,0 +1,14 @@
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Asian financial institution", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Veeam", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-40711", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft Exchange Server", "predicate": "used_for_initial_access", "tgt_type": "identity", "tgt_name": "Asian financial institution", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "malware", "src_name": "GC2", "predicate": "polls_for_commands_via", "tgt_type": "tool", "tgt_name": "Google Sheets", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "malware", "src_name": "GC2", "predicate": "polls_for_commands_via", "tgt_type": "tool", "tgt_name": "SharePoint", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "tool", "src_name": "Stowaway", "predicate": "proxies_and_delivers", "tgt_type": "tool", "tgt_name": "Syteca", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "tool", "src_name": "PsExec", "predicate": "used_for_lateral_movement", "tgt_type": "identity", "tgt_name": "Asian financial institution", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "tool", "src_name": "PsExec", "predicate": "removes_binaries_and_config_of", "tgt_type": "tool", "tgt_name": "Syteca", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "tool", "src_name": "SMBExec", "predicate": "used_for_lateral_movement", "tgt_type": "identity", "tgt_name": "Asian financial institution", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "tool", "src_name": "FreeFileSync", "predicate": "used_for_exfiltration", "tgt_type": "identity", "tgt_name": "Asian financial institution", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "tool", "src_name": "MegaSync", "predicate": "used_for_exfiltration", "tgt_type": "identity", "tgt_name": "Asian financial institution", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "tool", "src_name": "7-Zip", "predicate": "used_for_exfiltration", "tgt_type": "identity", "tgt_name": "Asian financial institution", "source_chunks": ["BLOG-136::ch0"]}
+{"src_type": "tool", "src_name": "SecurityHealthIron", "predicate": "created_to_maintain_access_in", "tgt_type": "identity", "tgt_name": "Asian financial institution", "source_chunks": ["BLOG-136::ch0"]}

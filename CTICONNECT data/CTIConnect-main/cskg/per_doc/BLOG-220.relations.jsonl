@@ -1,0 +1,11 @@
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-220::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-220::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-220::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-220::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-220::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-220::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WinZip", "source_chunks": ["BLOG-220::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "7-Zip", "source_chunks": ["BLOG-220::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Rclone", "source_chunks": ["BLOG-220::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "exfiltrates_to", "tgt_type": "indicator", "tgt_name": "Mega.io", "source_chunks": ["BLOG-220::ch0"]}
+{"src_type": "threat_actor", "src_name": "Karakurt", "predicate": "tied_to", "tgt_type": "threat_actor", "tgt_name": "Conti", "source_chunks": ["BLOG-220::ch0"]}

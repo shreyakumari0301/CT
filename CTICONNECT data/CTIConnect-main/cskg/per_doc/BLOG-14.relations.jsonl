@@ -1,0 +1,21 @@
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "initially_attributed_to", "tgt_type": "threat_actor", "tgt_name": "DEV-0569", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "malvertising", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Google Ads", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Keitaro TDS", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "phishing", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "malicious attachments", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "BATLOADER", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "BlackCat", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Zeon", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Silverstone Circuit", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Travis Central Appraisal District", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "threat_actor", "src_name": "Royal", "predicate": "targets", "tgt_type": "identity", "tgt_name": "healthcare", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "tool", "src_name": "Google Ads", "predicate": "delivered_via", "tgt_type": "tool", "tgt_name": "Keitaro TDS", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "malware", "src_name": "BATLOADER", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "MSI Custom Actions", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "malware", "src_name": "BATLOADER", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Nsudo", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "malware", "src_name": "BATLOADER", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "malware", "src_name": "BATLOADER", "predicate": "disables", "tgt_type": "attack_pattern", "tgt_name": "disable security controls", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "malware", "src_name": "BATLOADER", "predicate": "installs", "tgt_type": "tool", "tgt_name": "Zoho", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "identity", "src_name": "HC3", "predicate": "issued_alerts_about", "tgt_type": "threat_actor", "tgt_name": "Royal", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "identity", "src_name": "CISA", "predicate": "issued_alerts_about", "tgt_type": "threat_actor", "tgt_name": "Royal", "source_chunks": ["BLOG-14::ch0"]}
+{"src_type": "identity", "src_name": "FBI", "predicate": "issued_alerts_about", "tgt_type": "threat_actor", "tgt_name": "Royal", "source_chunks": ["BLOG-14::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: APT42\n- Aliases Resolved: APT35, TA453, Mint Sandstorm\n- Affiliation: IRGC-linked Iranian state-sponsored actor\n- Primary TTPs: spear-phishing with malicious RTF/PDF attachments, zero-day SQL injection, ChainDoor RAT, custom Android spyware, Mimikatz credential harvesting, MFA interception, steganographic data exfiltration, coin-miner payloads\n- Main Targets: government ministries, critical infrastructure, officials, policymakers, journalists, academics, dissidents\n- Key Insight: demonstrates multi-stage espionage-to-ransom capability with emphasis on credential theft, lateral movement, and large-scale data exfiltration",
+  "llm_timing": {
+    "api_call_seconds": 8.4733
+  }
+}

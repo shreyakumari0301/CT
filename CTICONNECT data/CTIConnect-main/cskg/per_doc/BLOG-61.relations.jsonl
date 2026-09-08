@@ -1,0 +1,22 @@
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "observed", "tgt_type": "threat_actor", "tgt_name": "APT29", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "observed", "tgt_type": "campaign", "tgt_name": "highly targeted social-engineering campaign", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "mitigated", "tgt_type": "indicator", "tgt_name": "onmicrosoft.com", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "launches", "tgt_type": "campaign", "tgt_name": "highly targeted social-engineering campaign", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "leverages_compromised", "tgt_type": "identity", "tgt_name": "Microsoft 365", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "creates_domains_under", "tgt_type": "indicator", "tgt_name": "onmicrosoft.com", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Microsoft Teams", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Microsoft Authenticator", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government sector", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "targets", "tgt_type": "identity", "tgt_name": "NGOs", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "targets", "tgt_type": "identity", "tgt_name": "IT services sector", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "targets", "tgt_type": "identity", "tgt_name": "technology sector", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing sector", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "targets", "tgt_type": "identity", "tgt_name": "media sector", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "conducts", "tgt_type": "attack_pattern", "tgt_name": "data exfiltration", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "attempts_to_bypass", "tgt_type": "identity", "tgt_name": "Conditional Access", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Microsoft Entra ID", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "campaign", "src_name": "highly targeted social-engineering campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "social engineering", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "campaign", "src_name": "highly targeted social-engineering campaign", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Microsoft Teams", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "campaign", "src_name": "highly targeted social-engineering campaign", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Microsoft Authenticator", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "campaign", "src_name": "highly targeted social-engineering campaign", "predicate": "results_in", "tgt_type": "attack_pattern", "tgt_name": "credential theft", "source_chunks": ["BLOG-61::ch0"]}
+{"src_type": "campaign", "src_name": "highly targeted social-engineering campaign", "predicate": "includes_post_compromise", "tgt_type": "attack_pattern", "tgt_name": "data exfiltration", "source_chunks": ["BLOG-61::ch0"]}

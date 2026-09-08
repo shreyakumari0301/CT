@@ -1,0 +1,12 @@
+{"entity_type": "campaign", "canonical_name": "Operation Triangulation", "aliases": [], "properties": {"first_seen": "2019", "last_seen": "June 2023", "objective": "Zero-click iMessage exploitation to deliver a root-level APT payload capable of arbitrary code execution and data exfiltration"}, "source_chunks": ["BLOG-258::ch0"]}
+{"entity_type": "identity", "canonical_name": "iMessage", "aliases": [], "properties": {}, "source_chunks": ["BLOG-258::ch0"]}
+{"entity_type": "identity", "canonical_name": "iOS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-258::ch0"]}
+{"entity_type": "tool", "canonical_name": "Kaspersky’s Unified Monitoring and Analysis Platform (KUMA)", "aliases": ["KUMA"], "properties": {}, "source_chunks": ["BLOG-258::ch0"]}
+{"entity_type": "tool", "canonical_name": "iTunes", "aliases": [], "properties": {}, "source_chunks": ["BLOG-258::ch0"]}
+{"entity_type": "tool", "canonical_name": "idevicebackup2", "aliases": [], "properties": {}, "source_chunks": ["BLOG-258::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mobile Verification Toolkit (mvt-ios)", "aliases": ["mvt-ios"], "properties": {}, "source_chunks": ["BLOG-258::ch0"]}
+{"entity_type": "indicator", "canonical_name": "*.icloud-content.com", "aliases": [], "properties": {"ioc_type": "domain", "value": "*.icloud-content.com"}, "source_chunks": ["BLOG-258::ch0"]}
+{"entity_type": "indicator", "canonical_name": "addatamarket.net", "aliases": ["addatamarket[.]net"], "properties": {"ioc_type": "domain", "value": "addatamarket.net"}, "source_chunks": ["BLOG-258::ch0"]}
+{"entity_type": "indicator", "canonical_name": "backuprabbit.com", "aliases": ["backuprabbit[.]com"], "properties": {"ioc_type": "domain", "value": "backuprabbit.com"}, "source_chunks": ["BLOG-258::ch0"]}
+{"entity_type": "indicator", "canonical_name": "cloudsponcer.com", "aliases": ["cloudsponcer[.]com"], "properties": {"ioc_type": "domain", "value": "cloudsponcer.com"}, "source_chunks": ["BLOG-258::ch0"]}
+{"entity_type": "identity", "canonical_name": "MITRE ATT&CK", "aliases": [], "properties": {}, "source_chunks": ["BLOG-258::ch0"]}

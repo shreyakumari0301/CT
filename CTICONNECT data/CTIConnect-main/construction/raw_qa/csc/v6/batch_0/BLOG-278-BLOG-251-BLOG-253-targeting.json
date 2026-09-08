@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target industries or regions mentioned across these reports?",
+  "answer": "- Regions: South Korea, Vietnam, Singapore, Argentina, Japan, Indonesia, Canada\n- Targeted sectors: humanitarian aid organizations, government entities, regional NGOs and critical non-profit networks",
+  "llm_timing": {
+    "api_call_seconds": 2.9701
+  }
+}

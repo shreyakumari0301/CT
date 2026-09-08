@@ -1,0 +1,28 @@
+{"src_type": "campaign", "src_name": "stealthy espionage campaign", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Flax Typhoon", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Taiwanese organizations", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Southeast Asia", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Africa", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "exploits", "tgt_type": "attack_pattern", "tgt_name": "Exploitation of Public-Facing Application", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "China Chopper", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Juicy Potato", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "BadPotato", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Disable or Modify Tools", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Accessibility Features", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SoftEther", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell Invoke-WebRequest", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "certutil", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "bitsadmin", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WinRM", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMIC", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential Dumping", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "threat_actor", "src_name": "Flax Typhoon", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Pass the Hash", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "malware", "src_name": "China Chopper", "predicate": "implements", "tgt_type": "attack_pattern", "tgt_name": "Web Shell", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "tool", "src_name": "SoftEther", "predicate": "masquerades_as", "tgt_type": "indicator", "tgt_name": "conhost.exe", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "tool", "src_name": "SoftEther", "predicate": "masquerades_as", "tgt_type": "indicator", "tgt_name": "dllhost.exe", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "tool", "src_name": "Mimikatz", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Credential Dumping", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "tool", "src_name": "Mimikatz", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Pass the Hash", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Accessibility Features", "predicate": "targets", "tgt_type": "indicator", "tgt_name": "sethc.exe", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "traced", "tgt_type": "campaign", "tgt_name": "stealthy espionage campaign", "source_chunks": ["BLOG-66::ch0"]}
+{"src_type": "tool", "src_name": "Microsoft 365 Defender", "predicate": "used_to_disrupt", "tgt_type": "threat_actor", "tgt_name": "Flax Typhoon", "source_chunks": ["BLOG-66::ch0"]}

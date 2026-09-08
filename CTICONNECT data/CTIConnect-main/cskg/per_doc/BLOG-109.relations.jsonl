@@ -1,0 +1,26 @@
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "financial institution in Asia", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "infected", "tgt_type": "tool", "tgt_name": "Microsoft Exchange Server", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "initiated_chain_with", "tgt_type": "tool", "tgt_name": "GC2", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "uses_for_lateral_movement", "tgt_type": "tool", "tgt_name": "GC2", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Stowaway", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Syteca", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "uses_for_lateral_movement", "tgt_type": "tool", "tgt_name": "Syteca", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "uses_for_lateral_movement", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "uses_for_lateral_movement", "tgt_type": "tool", "tgt_name": "SMBExec", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Adaptix C2 Agent Beacon", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "uses_for_initial_access", "tgt_type": "attack_pattern", "tgt_name": "Valid Accounts (VPN credentials)", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Veeam Backup & Replication servers", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-40711", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "uses_for_initial_access", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "malware", "src_name": "Fog ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. education sector", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "tool", "src_name": "GC2", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Google Sheets", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "tool", "src_name": "GC2", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SharePoint", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "tool", "src_name": "GC2", "predicate": "linked_to", "tgt_type": "threat_actor", "tgt_name": "APT41", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "tool", "src_name": "Stowaway", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Syteca", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "tool", "src_name": "FreeFileSync", "predicate": "exfiltrates_data_for", "tgt_type": "malware", "tgt_name": "Fog ransomware", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "tool", "src_name": "MegaSync", "predicate": "exfiltrates_data_for", "tgt_type": "malware", "tgt_name": "Fog ransomware", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "tool", "src_name": "Adaptix C2 Agent Beacon", "predicate": "establishes_command_and_control_for", "tgt_type": "malware", "tgt_name": "Fog ransomware", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "tool", "src_name": "Adaptix C2 Agent Beacon", "predicate": "akin_to", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "tool", "src_name": "Impacket", "predicate": "executes_payload_of", "tgt_type": "malware", "tgt_name": "Fog ransomware", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-40711", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Veeam Backup & Replication servers", "source_chunks": ["BLOG-109::ch0"]}
+{"src_type": "identity", "src_name": "Symantec", "predicate": "reports_on", "tgt_type": "malware", "tgt_name": "Fog ransomware", "source_chunks": ["BLOG-109::ch0"]}

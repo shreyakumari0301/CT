@@ -1,0 +1,17 @@
+{"entity_type": "malware", "canonical_name": "StrelaStealer", "aliases": ["StrelaStealer infostealer"], "properties": {"family": "infostealer", "capabilities": ["credential harvesting", "data exfiltration"], "first_seen": "November 2022"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "campaign", "canonical_name": "StrelaStealer phishing campaigns (Nov 2023–Feb 2024)", "aliases": ["three large-scale phishing campaigns"], "properties": {"first_seen": "November 2023", "last_seen": "February 2024", "objective": "credential theft"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["phishing campaigns", "localized spam"], "properties": {"tactic": "Initial Access"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL Side-Loading / Malicious DLL Execution", "aliases": ["malicious DLL", "anomalous DLL loads"], "properties": {}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Obfuscated/Encrypted Payloads", "aliases": ["enhanced obfuscation"], "properties": {}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over C2 Channel", "aliases": ["exfiltrate them to attacker-controlled C&C servers", "suspicious external connections"], "properties": {}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "identity", "canonical_name": "US organizations", "aliases": ["US"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "identity", "canonical_name": "EU organizations", "aliases": ["EU"], "properties": {"region": "European Union"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "identity", "canonical_name": "high-tech sector", "aliases": ["high-tech"], "properties": {"sector": "high-tech"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "identity", "canonical_name": "finance sector", "aliases": ["finance"], "properties": {"sector": "finance"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "identity", "canonical_name": "legal sector", "aliases": ["legal"], "properties": {"sector": "legal"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing sector", "aliases": ["manufacturing"], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "identity", "canonical_name": "government sector", "aliases": ["government"], "properties": {"sector": "government"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "identity", "canonical_name": "utilities sector", "aliases": ["utilities"], "properties": {"sector": "utilities"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "identity", "canonical_name": "energy sector", "aliases": ["energy"], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "identity", "canonical_name": "insurance sector", "aliases": ["insurance"], "properties": {"sector": "insurance"}, "source_chunks": ["BLOG-124::ch0"]}
+{"entity_type": "identity", "canonical_name": "construction sector", "aliases": ["construction"], "properties": {"sector": "construction"}, "source_chunks": ["BLOG-124::ch0"]}

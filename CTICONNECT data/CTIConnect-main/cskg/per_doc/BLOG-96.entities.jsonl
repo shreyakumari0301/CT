@@ -1,0 +1,13 @@
+{"entity_type": "malware", "canonical_name": "Jupyter infostealer", "aliases": ["Jupyter", "Yellow Cockatoo", "Solarmarker", "Polazert"], "properties": {"capabilities": ["credential harvesting", "encrypted C2 communications", "additional payload deployment", "backdoor"], "platforms": ["Windows"], "first_seen": "late October 2023"}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "tool", "canonical_name": "Inno Setup", "aliases": ["InnoSetup"], "properties": {}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SEO poisoning", "aliases": [], "properties": {}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Search-engine redirects", "aliases": [], "properties": {}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Drive-by downloads", "aliases": [], "properties": {}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing-themed executables", "aliases": [], "properties": {}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "indicator", "canonical_name": "An-employers-guide-to-group-health-continuation.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "An-employers-guide-to-group-health-continuation.exe"}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Shellcode hollowing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Staged in-memory execution", "aliases": [], "properties": {}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "identity", "canonical_name": "Morphisec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "identity", "canonical_name": "BlackBerry", "aliases": [], "properties": {}, "source_chunks": ["BLOG-96::ch0"]}
+{"entity_type": "identity", "canonical_name": "VMware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-96::ch0"]}

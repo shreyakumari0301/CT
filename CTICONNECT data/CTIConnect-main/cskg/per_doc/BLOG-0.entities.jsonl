@@ -1,0 +1,14 @@
+{"entity_type": "threat_actor", "canonical_name": "ALPHV", "aliases": ["ALPHV group"], "properties": {"first_seen": "November 2021", "sectors_targeted": ["critical infrastructure", "retail", "transport", "telecom", "pharma"], "regions_targeted": ["United States", "Germany", "Belgium"]}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "malware", "canonical_name": "BlackCat", "aliases": ["ALPHV", "ALPHV/BlackCat", "Noberus"], "properties": {"family": "ransomware", "capabilities": ["data theft", "file encryption", "public data leak", "DDoS extortion", "anti-analysis (thwart sandbox analysis)", "process termination (kills security and backup processes)", "payload customization", "resists reverse engineering"], "platforms": ["Linux", "Windows"], "first_seen": "November 2021"}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "BlackMatter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "REvil", "aliases": [], "properties": {}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "DarkSide", "aliases": [], "properties": {}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Tor", "aliases": ["Tor-hosted"], "properties": {"ioc_type": "domain", "value": "tor"}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. critical infrastructure", "aliases": [], "properties": {"sector": "critical infrastructure", "region": "United States"}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "identity", "canonical_name": "retail", "aliases": [], "properties": {"sector": "retail"}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "identity", "canonical_name": "transport", "aliases": [], "properties": {"sector": "transport"}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecom", "aliases": [], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "identity", "canonical_name": "pharma", "aliases": [], "properties": {"sector": "pharmaceuticals"}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "identity", "canonical_name": "Colonial Pipeline", "aliases": [], "properties": {}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "identity", "canonical_name": "German fuel terminals", "aliases": [], "properties": {"region": "Germany"}, "source_chunks": ["BLOG-0::ch0"]}
+{"entity_type": "identity", "canonical_name": "Belgian energy firms", "aliases": [], "properties": {"sector": "energy", "region": "Belgium"}, "source_chunks": ["BLOG-0::ch0"]}

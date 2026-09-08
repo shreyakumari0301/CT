@@ -1,0 +1,26 @@
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "CNMF", "aliases": [], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "NCSC-UK", "aliases": [], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "NSA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "MuddyWater", "aliases": ["TEMP.Zagros", "Static Kitten", "Seedworm", "Mango Sandstorm", "MERCURY"], "properties": {"country": "Iran", "first_seen": "2017"}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "Iran’s Ministry of Intelligence and Security", "aliases": [], "properties": {"region": "Iran"}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "malware", "canonical_name": "PowGoop", "aliases": [], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "malware", "canonical_name": "Canopy/Starwhale", "aliases": ["Canopy", "Starwhale"], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "malware", "canonical_name": "Mori", "aliases": [], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "malware", "canonical_name": "POWERSTATS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "malware", "canonical_name": "Small Sieve", "aliases": [], "properties": {"platforms": ["Python"]}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "malware", "canonical_name": "PowerShell backdoor", "aliases": [], "properties": {"platforms": ["PowerShell"]}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram Bot API", "aliases": [], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecom organizations", "aliases": [], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense organizations", "aliases": [], "properties": {"sector": "defense"}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "local government organizations", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "oil and gas organizations", "aliases": [], "properties": {"sector": "oil and gas"}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "Asia", "aliases": [], "properties": {"region": "Asia"}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "Africa", "aliases": [], "properties": {"region": "Africa"}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "traffic obfuscation", "aliases": ["custom string and traffic obfuscation", "hex byte-swapping", "obfuscated Base64 routine", "obfuscated Base64 traffic"], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "persistence", "aliases": ["maintain persistence"], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "lateral movement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "data exfiltration", "aliases": [], "properties": {}, "source_chunks": ["BLOG-227::ch0"]}

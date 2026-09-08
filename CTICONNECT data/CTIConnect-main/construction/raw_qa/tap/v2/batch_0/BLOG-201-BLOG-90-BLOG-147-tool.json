@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary tool or malware family consistently used by this threat actor across these reports?",
+  "answer": "- Primary Tool/Malware Family: Shahmaran 64-bit backdoor, a simple uncompressed implant repeatedly observed in campaigns against Kurdish, Iraqi and Uzbek targets",
+  "llm_timing": {
+    "api_call_seconds": 6.7165
+  }
+}

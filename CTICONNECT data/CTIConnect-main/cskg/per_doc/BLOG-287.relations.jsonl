@@ -1,0 +1,15 @@
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "co_opts_c2_infrastructure_of", "tgt_type": "threat_actor", "tgt_name": "Storm-0156", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "co_opts_c2_infrastructure_of", "tgt_type": "threat_actor", "tgt_name": "APT34", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "co_opts_c2_infrastructure_of", "tgt_type": "threat_actor", "tgt_name": "Storm-0473", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "installs_backdoor", "tgt_type": "malware", "tgt_name": "CrimsonRAT", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "installs_backdoor", "tgt_type": "malware", "tgt_name": "Wainscot", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "deploys_payload", "tgt_type": "malware", "tgt_name": "TwoDash downloader", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "deploys_payload", "tgt_type": "malware", "tgt_name": "MiniPocket fetcher", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "TinyTurla", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Statuezy", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "DLL sideloading", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "diplomatic and defense networks in Ukraine", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Afghanistan’s Ministry of Foreign Affairs", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "GDI", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "threat_actor", "src_name": "Turla", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Indian military institutions", "source_chunks": ["BLOG-287::ch0"]}
+{"src_type": "malware", "src_name": "Statuezy", "predicate": "delivered_via", "tgt_type": "attack_pattern", "tgt_name": "DLL sideloading", "source_chunks": ["BLOG-287::ch0"]}

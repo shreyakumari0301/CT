@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target industries or regions mentioned across these reports?",
+  "answer": "- Regions: Asia-Pacific (APAC), North America, Latin America\n- Industries: e-commerce platforms, online payment and point-of-sale (PoS) servers",
+  "llm_timing": {
+    "api_call_seconds": 4.7374
+  }
+}

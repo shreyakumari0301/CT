@@ -1,0 +1,9 @@
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "associated_with", "tgt_type": "campaign", "tgt_name": "month-long breach of Microsoft’s corporate email environment", "source_chunks": ["BLOG-32::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Microsoft", "source_chunks": ["BLOG-32::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "associated_with", "tgt_type": "campaign", "tgt_name": "SolarWinds intrusions", "source_chunks": ["BLOG-32::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT29", "predicate": "associated_with", "tgt_type": "campaign", "tgt_name": "2021 support-tool intrusions", "source_chunks": ["BLOG-32::ch0"]}
+{"src_type": "campaign", "src_name": "month-long breach of Microsoft’s corporate email environment", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Microsoft", "source_chunks": ["BLOG-32::ch0"]}
+{"src_type": "campaign", "src_name": "month-long breach of Microsoft’s corporate email environment", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Password spraying", "source_chunks": ["BLOG-32::ch0"]}
+{"src_type": "campaign", "src_name": "month-long breach of Microsoft’s corporate email environment", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Brute force", "source_chunks": ["BLOG-32::ch0"]}
+{"src_type": "campaign", "src_name": "month-long breach of Microsoft’s corporate email environment", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Email collection", "source_chunks": ["BLOG-32::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Password spraying", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Brute force", "source_chunks": ["BLOG-32::ch0"]}

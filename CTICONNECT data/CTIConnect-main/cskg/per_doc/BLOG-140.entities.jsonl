@@ -1,0 +1,17 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-44228", "aliases": ["Log4Shell"], "properties": {"cve_id": "CVE-2021-44228"}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-45046", "aliases": [], "properties": {"cve_id": "CVE-2021-45046"}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-45105", "aliases": [], "properties": {"cve_id": "CVE-2021-45105"}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S.", "aliases": ["United States"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.K.", "aliases": ["United Kingdom"], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "identity", "canonical_name": "Germany", "aliases": [], "properties": {"region": "Germany"}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russia", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "identity", "canonical_name": "China", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "malware", "canonical_name": "Muhstik", "aliases": ["Muhstik botnet"], "properties": {}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "tool", "canonical_name": "XMRig", "aliases": [], "properties": {}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "malware", "canonical_name": "Dridex", "aliases": [], "properties": {}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "malware", "canonical_name": "Orcus RAT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "malware", "canonical_name": "Khonsari", "aliases": [], "properties": {}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "malware", "canonical_name": "Conti", "aliases": ["Conti ransomware"], "properties": {}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "tool", "canonical_name": "curl", "aliases": [], "properties": {}, "source_chunks": ["BLOG-140::ch0"]}
+{"entity_type": "tool", "canonical_name": "wget", "aliases": [], "properties": {}, "source_chunks": ["BLOG-140::ch0"]}

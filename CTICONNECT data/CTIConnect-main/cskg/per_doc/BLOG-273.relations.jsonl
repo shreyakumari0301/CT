@@ -1,0 +1,4 @@
+{"src_type": "tool", "src_name": "kubectl", "predicate": "used_for_event_inspection_via_api_server_logs", "tgt_type": "threat_actor", "tgt_name": "North Korean Group", "source_chunks": ["BLOG-273::ch0"]}
+{"src_type": "tool", "src_name": "Fluentd", "predicate": "aggregates_metrics_with", "tgt_type": "tool", "tgt_name": "Prometheus", "source_chunks": ["BLOG-273::ch0"]}
+{"src_type": "tool", "src_name": "Fluentd", "predicate": "aggregates_metrics_with", "tgt_type": "tool", "tgt_name": "Grafana", "source_chunks": ["BLOG-273::ch0"]}
+{"src_type": "tool", "src_name": "Prometheus", "predicate": "visualized_by", "tgt_type": "tool", "tgt_name": "Grafana", "source_chunks": ["BLOG-273::ch0"]}

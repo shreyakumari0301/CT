@@ -1,0 +1,262 @@
+{
+  "cluster_id": 33,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 274,
+      "node": [
+        {
+          "node_text": "API-server timeouts",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Calico network policies",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "DNS resolution failures in CoreDNS",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "ETCD quorum issues",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Kubernetes troubleshooting playbook",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Python malware",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "actionable best practices",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "authentication errors",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "blog post",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "cAdvisor metrics",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "centralized logging via Fluentd",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "cluster-wide security hardening",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "crypto developers",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "impact metrics",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "kube-apiserver audit logging",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "kube-scheduler resource threshold adjustments",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "kubectl describe/events",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "liveness probes",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "node-level resource exhaustion",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "proactive health checks",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "readiness probes",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "remediation tactics",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "tactics",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "technical details",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "threat actor attribution",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "troubleshooting playbook",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "Slow Pisces",
+      "platform": "thehackernews",
+      "type": "threat actor",
+      "publish_date": "2025/4/15"
+    },
+    {
+      "blog_id": 252,
+      "node": [
+        {
+          "node_text": "C2 communications",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "EJS escapeFunction backdoors",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Jade Sleet",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "LinkedIn",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "PUKCHONG",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "RN Loader",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "RN Stealer",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "SSH keys",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "Slow Pisces",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "TraderTraitor",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "YAML deserialization",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "malicious GitHub repositories",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "system information",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "templating flaw",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "three-stage campaign",
+          "node_type": "Campaign"
+        }
+      ],
+      "title": "Slow Pisces",
+      "platform": "gbhackers",
+      "type": "threat actor",
+      "publish_date": "2025/4/14"
+    },
+    {
+      "blog_id": 244,
+      "node": [
+        {
+          "node_text": "Campaign",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "GitHub",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "North America",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Palo Alto Networks",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "PySlowDrop",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Slow Pisces",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "compromised cloud servers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "delayed execution",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "intellectual property theft",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "modified startup scripts",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "multi-stage infection",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "sandbox analysis",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "scheduled tasks",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "software supply-chain compromise",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "virtual-machine analysis",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": "Slow Pisces",
+      "platform": "cybersecuritynews",
+      "type": "threat actor",
+      "publish_date": "2025/4/14"
+    }
+  ]
+}

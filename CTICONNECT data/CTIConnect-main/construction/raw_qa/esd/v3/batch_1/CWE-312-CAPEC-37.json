@@ -1,0 +1,23 @@
+{
+  "question": "A system stores sensitive information in cleartext, making it readable to anyone who can access the storage. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-37.\n- CAPEC-37 exploits cleartext storage of sensitive information, targeting CWE-312: sensitive data stored unencrypted, enabling easy retrieval.",
+  "llm_cost": {
+    "input": 0.000702,
+    "cached_input": 0.0,
+    "output": 0.00086,
+    "total": 0.001563,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 562,
+      "cached_input": 0,
+      "output": 86
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.2508
+  }
+}

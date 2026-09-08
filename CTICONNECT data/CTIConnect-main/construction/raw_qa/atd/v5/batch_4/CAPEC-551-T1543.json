@@ -1,0 +1,23 @@
+{
+  "question": "An adversary changes existing operating system services/daemons that run at startup, potentially breaking normal services or enabling ones usually disabled. Which MITRE ATT&CK technique matches this behavior, and why does it map?",
+  "answer": "- T1543.\n- T1543 corresponds to creating/modifying system processes, mapping CAPEC-551: altering existing startup services/daemons, including enabling disabled services.",
+  "llm_cost": {
+    "input": 0.000719,
+    "cached_input": 0.0,
+    "output": 0.00095,
+    "total": 0.001669,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 575,
+      "cached_input": 0,
+      "output": 95
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4277
+  }
+}

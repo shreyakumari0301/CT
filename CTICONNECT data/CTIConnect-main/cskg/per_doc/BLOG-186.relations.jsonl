@@ -1,0 +1,13 @@
+{"src_type": "campaign", "src_name": "Zoom-based campaigns", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Zoom", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "campaign", "src_name": "Zoom-based campaigns", "predicate": "involves", "tgt_type": "attack_pattern", "tgt_name": "Zoombombing", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "campaign", "src_name": "Zoom-based campaigns", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Trojan.Win32.ZAPIZ.A", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "campaign", "src_name": "Zoom-based campaigns", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Backdoor.Win32.DEVILSHADOW.THEAABO", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "campaign", "src_name": "Zoom-based campaigns", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "RevCode WebMonitor", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "malware", "src_name": "Trojan.Win32.ZAPIZ.A", "predicate": "impersonates", "tgt_type": "tool", "tgt_name": "Zoom", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "malware", "src_name": "Backdoor.Win32.DEVILSHADOW.THEAABO", "predicate": "impersonates", "tgt_type": "tool", "tgt_name": "Zoom", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "malware", "src_name": "RevCode WebMonitor", "predicate": "bundled_with", "tgt_type": "tool", "tgt_name": "Zoom", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Extortion emails", "predicate": "targets", "tgt_type": "tool", "tgt_name": "Zoom", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "malware", "src_name": "CRYPREN", "predicate": "targets", "tgt_type": "tool", "tgt_name": "Slack", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "malware", "src_name": "CRYPREN", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Slack webhooks", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "malware", "src_name": "AveMaria", "predicate": "delivered_via", "tgt_type": "attack_pattern", "tgt_name": "malicious spam", "source_chunks": ["BLOG-186::ch0"]}
+{"src_type": "malware", "src_name": "AgentTesla", "predicate": "delivered_via", "tgt_type": "attack_pattern", "tgt_name": "malicious spam", "source_chunks": ["BLOG-186::ch0"]}

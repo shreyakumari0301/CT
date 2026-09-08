@@ -1,0 +1,11 @@
+{"entity_type": "threat_actor", "canonical_name": "UAC-0050", "aliases": [], "properties": {"first_seen": "2020", "regions_targeted": ["Ukraine", "Poland"]}, "source_chunks": ["BLOG-159::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian entities", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-159::ch0"]}
+{"entity_type": "identity", "canonical_name": "Polish entities", "aliases": [], "properties": {"region": "Poland"}, "source_chunks": ["BLOG-159::ch0"]}
+{"entity_type": "campaign", "canonical_name": "February 2023 operation", "aliases": [], "properties": {"first_seen": "February 2023"}, "source_chunks": ["BLOG-159::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["social-engineering phishing campaigns", "phishing waves"], "properties": {}, "source_chunks": ["BLOG-159::ch0"]}
+{"entity_type": "malware", "canonical_name": "Remcos RAT", "aliases": ["Remcos RAT v4.9.2 Pro"], "properties": {"capabilities": ["system reconnaissance", "credential theft", "browser cookie theft"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-159::ch0"]}
+{"entity_type": "malware", "canonical_name": "Meduza Stealer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-159::ch0"]}
+{"entity_type": "tool", "canonical_name": "mshta.exe", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-159::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-159::ch0"]}
+{"entity_type": "tool", "canonical_name": "cmd.exe", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-159::ch0"]}
+{"entity_type": "indicator", "canonical_name": "new-tech-savvy.com", "aliases": ["new-tech-savvy[.]com"], "properties": {"ioc_type": "domain", "value": "new-tech-savvy.com"}, "source_chunks": ["BLOG-159::ch0"]}

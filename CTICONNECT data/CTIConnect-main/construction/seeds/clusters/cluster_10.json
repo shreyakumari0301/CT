@@ -1,0 +1,265 @@
+{
+  "cluster_id": 10,
+  "cluster_size": 3,
+  "cluster_type": "malware",
+  "blogs": [
+    {
+      "blog_id": 71,
+      "node": [
+        {
+          "node_text": "/app/controller binary",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "BlackCat payload",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "BlackCat ransomware operators",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Munchkin",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Python scripts",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SMB/CIFS shares",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "VirtualBox",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "credential harvesting",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "customized BlackCat samples",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "host-level defenses",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "network shares",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "remote machines",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "single-byte XOR",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "tmux controller session",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " BlackCat",
+      "platform": "Unit42",
+      "type": " malware",
+      "publish_date": "2021/11/28"
+    },
+    {
+      "blog_id": 184,
+      "node": [
+        {
+          "node_text": "7-Zip",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ADRecon",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "AdFind",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "BITSAdmin",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "BlackCat",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "COBEACON",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2021-26855",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2021-26857",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2021-26858",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2021-27065",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cobalt Strike",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ConnectWise RCE",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "December 2021 to September 2022",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ExMatter",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FreeFileSync",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "LSASS credential dumping",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MEGASync",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MobaXterm",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Netstat",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Process Hacker",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PsExec",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "RDP",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Rclone",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Rust-based ransomware",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "September 2022",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SoftPerfect",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1003.001",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1021.002",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1048",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1078",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1190",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1486",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1489",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1490",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1562.001",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1562.009",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "T1567",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Trend Micro",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "US",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WMIC",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WinSCP",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "named pipes",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ntoskrnl.exe",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " BlackCat",
+      "platform": "trendmicro",
+      "type": " malware",
+      "publish_date": "2021/11/28"
+    }
+  ]
+}

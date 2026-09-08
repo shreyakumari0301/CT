@@ -1,0 +1,8 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.vscode/
+tcar/eval_results/logs/*.nohup.out
+tcar/eval_results/_gpu_friend_bundle/
+*.bak_*

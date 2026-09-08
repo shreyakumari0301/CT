@@ -1,0 +1,14 @@
+{"entity_type": "malware", "canonical_name": "Rhysida", "aliases": ["Rhysida ransomware operation"], "properties": {"family": "ransomware", "first_seen": "May 2023", "capabilities": ["phishing-based initial access", "lateral movement", "file encryption", "multi-extortion"]}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Rhysida", "aliases": ["Rhysida ransomware operation"], "properties": {"first_seen": "May 2023", "sectors_targeted": ["education", "government", "healthcare"], "regions_targeted": ["US", "Germany", "Indonesia"]}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Vice Society", "aliases": [], "properties": {}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {"capabilities": ["lateral movement"]}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {"capabilities": ["remote execution", "malware deployment"]}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "malware", "canonical_name": "g.ps1", "aliases": ["g.ps1 PowerShell Trojan", "PowerShell-based payload"], "properties": {"platforms": ["PowerShell"], "capabilities": ["disable antivirus", "erase shadow copies", "alter RDP credentials", "alter Active Directory credentials"]}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "indicator", "canonical_name": "CriticalBreachDetected.pdf", "aliases": [], "properties": {"ioc_type": "hash", "value": "CriticalBreachDetected.pdf"}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chilean Army", "aliases": [], "properties": {"sector": "government", "region": "Chile"}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "identity", "canonical_name": "Prospect Medical Holdings", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "identity", "canonical_name": "HHS HC3", "aliases": ["HC3"], "properties": {}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "identity", "canonical_name": "Check Point", "aliases": [], "properties": {}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "identity", "canonical_name": "SentinelOne", "aliases": [], "properties": {}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-13::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing-based initial access", "aliases": ["phishing-based initial access"], "properties": {"tactic": "Initial Access"}, "source_chunks": ["BLOG-13::ch0"]}

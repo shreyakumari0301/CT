@@ -1,0 +1,23 @@
+{
+  "question": "A system\u2019s CPU hardware is not set up to enforce exclusivity between writable and executable memory, allowing memory pages to be both written and executed. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-679.\n- CAPEC-679 exploits missing W^X enforcement, targeting CWE-1252: CPU not configured to prevent memory being both writable and executable.",
+  "llm_cost": {
+    "input": 0.000713,
+    "cached_input": 0.0,
+    "output": 0.00097,
+    "total": 0.001682,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 570,
+      "cached_input": 0,
+      "output": 97
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4088
+  }
+}

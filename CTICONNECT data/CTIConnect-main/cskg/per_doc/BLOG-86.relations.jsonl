@@ -1,0 +1,15 @@
+{"src_type": "tool", "src_name": "Advanced WildFire", "predicate": "uncovered", "tgt_type": "malware", "tgt_name": "SnipBot", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "tool", "src_name": "Cortex XDR", "predicate": "uncovered", "tgt_type": "malware", "tgt_name": "SnipBot", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "malware", "src_name": "SnipBot", "predicate": "iteration_of", "tgt_type": "malware", "tgt_name": "RomCom RAT", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "malware", "src_name": "SnipBot", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "control-flow obfuscation", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "malware", "src_name": "SnipBot", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "anti-sandbox checks", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "malware", "src_name": "SnipBot", "predicate": "contacts", "tgt_type": "indicator", "tgt_name": "xeontime.com", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "indicator", "src_name": "xeontime.com", "predicate": "hosts", "tgt_type": "indicator", "tgt_name": "config-pdf.dll", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "indicator", "src_name": "drvmcprotect.com", "predicate": "hosts", "tgt_type": "indicator", "tgt_name": "keyprov.dll", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "indicator", "src_name": "config-pdf.dll", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "COM hijacking", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "indicator", "src_name": "config-pdf.dll", "predicate": "loads", "tgt_type": "indicator", "tgt_name": "keyprov.dll", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "indicator", "src_name": "keyprov.dll", "predicate": "downloaded_from", "tgt_type": "indicator", "tgt_name": "drvmcprotect.com", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "indicator", "src_name": "single.dll", "predicate": "uses_mutex", "tgt_type": "indicator", "tgt_name": "SnipMutex", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "indicator", "src_name": "single.dll", "predicate": "facilitates", "tgt_type": "attack_pattern", "tgt_name": "network pivoting", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "indicator", "src_name": "single.dll", "predicate": "facilitates", "tgt_type": "attack_pattern", "tgt_name": "file exfiltration", "source_chunks": ["BLOG-86::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnipBot threat actor", "predicate": "uses", "tgt_type": "malware", "tgt_name": "SnipBot", "source_chunks": ["BLOG-86::ch0"]}

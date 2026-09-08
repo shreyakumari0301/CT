@@ -1,0 +1,16 @@
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "previously_targeted", "tgt_type": "identity", "tgt_name": "oil & gas", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "previously_targeted", "tgt_type": "identity", "tgt_name": "telecommunications", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "operates_in", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "operates_in", "tgt_type": "identity", "tgt_name": "Africa", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israeli IT and communications firms", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "uses", "tgt_type": "tool", "tgt_name": "LinkedIn", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "targets_roles_in", "tgt_type": "identity", "tgt_name": "France", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "targets_roles_in", "tgt_type": "identity", "tgt_name": "Israel", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "targets_roles_in", "tgt_type": "identity", "tgt_name": "United Kingdom", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Milan", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "uses", "tgt_type": "malware", "tgt_name": "DanBot", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "mirrors_campaign", "tgt_type": "campaign", "tgt_name": "dream job campaigns", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "threat_actor", "src_name": "Hexane", "predicate": "mirrors_activity", "tgt_type": "threat_actor", "tgt_name": "APT34", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "malware", "src_name": "Milan", "predicate": "establishes_c2_for", "tgt_type": "malware", "tgt_name": "DanBot", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "campaign", "src_name": "dream job campaigns", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "North Korea", "source_chunks": ["BLOG-263::ch0"]}
+{"src_type": "identity", "src_name": "ClearSky", "predicate": "reports_on", "tgt_type": "threat_actor", "tgt_name": "Hexane", "source_chunks": ["BLOG-263::ch0"]}

@@ -1,0 +1,9 @@
+{"entity_type": "campaign", "canonical_name": "PS1Bot campaign", "aliases": ["“PS1Bot” campaign"], "properties": {"first_seen": "July 2023"}, "source_chunks": ["BLOG-315::ch0"]}
+{"entity_type": "malware", "canonical_name": "PS1Bot", "aliases": [], "properties": {"capabilities": ["in-memory execution", "command and control (C2)", "credential harvesting", "data exfiltration"], "platforms": ["Windows"], "first_seen": "July 2023"}, "source_chunks": ["BLOG-315::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["script execution", "downloading payloads", "in-memory loading"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-315::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "PowerShell", "aliases": [], "properties": {"technique_id": "T1059.001"}, "source_chunks": ["BLOG-315::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Process Injection", "aliases": [], "properties": {"technique_id": "T1055"}, "source_chunks": ["BLOG-315::ch0"]}
+{"entity_type": "identity", "canonical_name": "retail sector", "aliases": [], "properties": {"sector": "retail"}, "source_chunks": ["BLOG-315::ch0"]}
+{"entity_type": "identity", "canonical_name": "financial sector", "aliases": [], "properties": {"sector": "financial"}, "source_chunks": ["BLOG-315::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-315::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-315::ch0"]}

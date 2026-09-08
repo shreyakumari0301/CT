@@ -1,0 +1,73 @@
+{
+  "n": 200,
+  "prompt_k": 3,
+  "gold_at_prompt": {
+    "gold@1": 0.425,
+    "gold@3": 0.535,
+    "gold@5_pool": 0.605,
+    "counts": {
+      "@1": 85,
+      "@3": 107,
+      "@5_pool": 121
+    },
+    "note": "gold@1/@3 use selected prompt candidates (top-3); gold@5 uses pool top-5."
+  },
+  "acc_conditional": {
+    "acc_when_gold_in_prompt_top3": 0.9158878504672897,
+    "acc_when_gold_absent_from_prompt_top3": 0.3763440860215054,
+    "acc_when_gold_in_pool_top5": 0.8677685950413223,
+    "n_gold_in_prompt_top3": 107,
+    "n_gold_absent_prompt_top3": 93,
+    "n_gold_in_pool_top5": 121,
+    "note": "Prior 77.9% used gold@pool5 presence; Acc|gold@prompt3 is the generator-relevant figure."
+  },
+  "acc_by_prompt_rank": {
+    "absent_from_prompt_top3": 0.3763440860215054,
+    "rank_1": 0.9294117647058824,
+    "rank_2": 0.8666666666666667,
+    "rank_3": 0.8571428571428571
+  },
+  "rank_counts": {
+    "rank_3": 7,
+    "absent_from_prompt_top3": 93,
+    "rank_1": 85,
+    "rank_2": 15
+  },
+  "wrong_with_gold_in_prompt_top3": {
+    "n": 9,
+    "class_counts": {
+      "correct_mechanism_wrong_abstraction": 5,
+      "catalogue_candidate_overrides_kb_analogy": 1,
+      "catalogue_override_or_other": 3
+    }
+  },
+  "wrong_with_gold_in_pool_top5": {
+    "n": 16,
+    "class_counts": {
+      "gold_ranked_4_or_5_not_prompted": 5,
+      "correct_mechanism_wrong_abstraction": 5,
+      "catalogue_candidate_overrides_kb_analogy": 1,
+      "catalogue_override_or_other": 3,
+      "gold_absent_from_prompt_top3": 2
+    },
+    "note": "Matches prior ~32 neighbour-confusion audit scope (gold@5 present, pred wrong)."
+  },
+  "confusion_n_all_hybrid_wrong": 67,
+  "confusion_class_counts_all_wrong": {
+    "gold_absent_from_prompt_top3": 53,
+    "gold_ranked_4_or_5_not_prompted": 5,
+    "correct_mechanism_wrong_abstraction": 5,
+    "catalogue_candidate_overrides_kb_analogy": 1,
+    "catalogue_override_or_other": 3
+  },
+  "hybrid_rescues": 14,
+  "hybrid_damages": 12,
+  "pilot_ids": {
+    "confusion_prompt_top3": 9,
+    "confusion_pool_top5": 16,
+    "rescues": 14,
+    "damages": 12,
+    "neutral_controls": 50,
+    "total_unique": 85
+  }
+}

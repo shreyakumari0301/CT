@@ -1,0 +1,19 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Scattered Spider", "aliases": ["Muddled Libra", "Octo Tempest", "0ktapus", "UNC3944", "Scatter Swine", "Roasted 0ktapus", "Storm-0875"], "properties": {"first_seen": "mid-2022", "last_seen": "May 2025", "sectors_targeted": ["cryptocurrency", "BPO", "software automation", "telecom", "hospitality", "finance", "retail"]}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "campaign", "canonical_name": "0ktapus phishing campaigns", "aliases": ["0ktapus phishing"], "properties": {}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "malware", "canonical_name": "BlackCat", "aliases": ["ALPHV/BlackCat", "ALPHV", "Noberus"], "properties": {}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "tool", "canonical_name": "NSOCKS", "aliases": [], "properties": {"capabilities": ["anonymizing proxy"]}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "tool", "canonical_name": "TrueSocks", "aliases": [], "properties": {"capabilities": ["anonymizing proxy"]}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "malware", "canonical_name": "bedevil", "aliases": [], "properties": {"family": "rootkit", "platforms": ["VMware vCenter"]}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "tool", "canonical_name": "VMware vCenter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "tool", "canonical_name": "Discord", "aliases": [], "properties": {}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram", "aliases": [], "properties": {}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "DragonForce", "aliases": [], "properties": {"sectors_targeted": ["ransomware"]}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XSIAM/XDR", "aliases": ["Cortex XSIAM", "XDR"], "properties": {}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced URL Filtering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "tool", "canonical_name": "DNS Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "tool", "canonical_name": "App-ID", "aliases": [], "properties": {}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "T1566", "aliases": [], "properties": {"technique_id": "T1566"}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "T1556", "aliases": [], "properties": {"technique_id": "T1556"}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "T1215", "aliases": [], "properties": {"technique_id": "T1215"}, "source_chunks": ["BLOG-82::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "T1562", "aliases": [], "properties": {"technique_id": "T1562"}, "source_chunks": ["BLOG-82::ch0"]}

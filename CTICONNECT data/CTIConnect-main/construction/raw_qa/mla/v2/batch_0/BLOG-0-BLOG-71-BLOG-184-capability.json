@@ -1,0 +1,7 @@
+{
+  "question": "What is the most notable new capability that appeared in later variants compared to earlier ones?",
+  "answer": "- Introduction of the VM-based \u201cMunchkin\u201d utility: delivered as an Alpine ISO in VirtualBox, it automates generation and remote deployment of customized BlackCat payloads to network shares and hosts, leveraging an embedded VM and tmux controller to evade host-level defenses.",
+  "llm_timing": {
+    "api_call_seconds": 8.2303
+  }
+}

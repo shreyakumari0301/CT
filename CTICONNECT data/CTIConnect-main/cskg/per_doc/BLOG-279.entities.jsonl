@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "Lumen", "aliases": [], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "identity", "canonical_name": "Black Lotus Labs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "malware", "canonical_name": "Ngioweb botnet", "aliases": ["Ngioweb"], "properties": {"first_seen": "2017", "capabilities": ["domain generation algorithm (DGA)", "command and control (C2)", "proxying"]}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Domain Generation Algorithms", "aliases": ["domain generation algorithm"], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Distributed Denial of Service (DDoS) Amplification", "aliases": ["DDoS amplification"], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Stuffing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Proxying Malware Traffic", "aliases": ["malware proxying"], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zyxel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "identity", "canonical_name": "Reolink", "aliases": [], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "identity", "canonical_name": "Alpha Technologies", "aliases": [], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "identity", "canonical_name": "Netgear", "aliases": [], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "indicator", "canonical_name": "nsocks.net", "aliases": ["NSOCKS[.]net", "NSOCKS.net", "NSOCKS"], "properties": {"ioc_type": "domain", "value": "nsocks.net"}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "malware", "canonical_name": "Agent Tesla", "aliases": [], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT28", "aliases": ["Fancy Bear", "Sofacy", "Sednit", "STRONTIUM", "Pawn Storm", "Forest Blizzard", "Tsar Team"], "properties": {"primary_motivation": "espionage"}, "source_chunks": ["BLOG-279::ch0"]}
+{"entity_type": "identity", "canonical_name": "The ShadowServer Foundation", "aliases": [], "properties": {}, "source_chunks": ["BLOG-279::ch0"]}

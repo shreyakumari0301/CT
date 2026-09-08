@@ -1,0 +1,8 @@
+{"src_type": "threat_actor", "src_name": "BlackCat ransomware operators", "predicate": "introduced", "tgt_type": "tool", "tgt_name": "Munchkin", "source_chunks": ["BLOG-71::ch0"]}
+{"src_type": "threat_actor", "src_name": "BlackCat ransomware operators", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Munchkin", "source_chunks": ["BLOG-71::ch0"]}
+{"src_type": "tool", "src_name": "Munchkin", "predicate": "delivered_in", "tgt_type": "tool", "tgt_name": "VirtualBox", "source_chunks": ["BLOG-71::ch0"]}
+{"src_type": "tool", "src_name": "Munchkin", "predicate": "spawns", "tgt_type": "tool", "tgt_name": "tmux", "source_chunks": ["BLOG-71::ch0"]}
+{"src_type": "tool", "src_name": "Munchkin", "predicate": "propagates", "tgt_type": "malware", "tgt_name": "BlackCat", "source_chunks": ["BLOG-71::ch0"]}
+{"src_type": "tool", "src_name": "Munchkin", "predicate": "generates_customized_samples_of", "tgt_type": "malware", "tgt_name": "BlackCat", "source_chunks": ["BLOG-71::ch0"]}
+{"src_type": "tool", "src_name": "Munchkin", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Lateral movement", "source_chunks": ["BLOG-71::ch0"]}
+{"src_type": "tool", "src_name": "Munchkin", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Credential harvesting", "source_chunks": ["BLOG-71::ch0"]}

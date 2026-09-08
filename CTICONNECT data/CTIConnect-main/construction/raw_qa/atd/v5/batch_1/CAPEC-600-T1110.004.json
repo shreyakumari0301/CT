@@ -1,0 +1,23 @@
+{
+  "question": "An adversary tests known username/password combinations from other breaches against multiple systems, applications, or services to gain authenticated access, relying on password reuse. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1110.004.\n- T1110.004 corresponds to credential stuffing, mapping CAPEC-600: trying known username/password pairs across services to exploit password reuse.",
+  "llm_cost": {
+    "input": 0.000746,
+    "cached_input": 0.0,
+    "output": 0.00103,
+    "total": 0.001776,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 597,
+      "cached_input": 0,
+      "output": 103
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.607
+  }
+}

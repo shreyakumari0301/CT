@@ -1,0 +1,23 @@
+{
+  "question": "A system\u2019s hardware control logic uses a finite state machine with flaws that allow unexpected or undefined state transitions. Which CAPEC attack pattern exploits this weakness, and why can it leverage such flawed state handling?",
+  "answer": "- CAPEC-74.\n- CAPEC-74 exploits state manipulation via FSM logic errors, targeting CWE-1245: improper finite state machines in hardware logic.",
+  "llm_cost": {
+    "input": 0.00086,
+    "cached_input": 0.0,
+    "output": 0.00089,
+    "total": 0.00175,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 688,
+      "cached_input": 0,
+      "output": 89
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.8355
+  }
+}

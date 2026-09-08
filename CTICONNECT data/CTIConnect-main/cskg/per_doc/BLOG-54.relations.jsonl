@@ -1,0 +1,50 @@
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "has_tracked", "tgt_type": "threat_actor", "tgt_name": "Storm-0569", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "has_tracked", "tgt_type": "threat_actor", "tgt_name": "Storm-1113", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "has_tracked", "tgt_type": "threat_actor", "tgt_name": "FIN7", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "has_tracked", "tgt_type": "threat_actor", "tgt_name": "Storm-1674", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0569", "predicate": "abuses", "tgt_type": "attack_pattern", "tgt_name": "Abuse of ms-appinstaller URI scheme", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0569", "predicate": "abuses", "tgt_type": "attack_pattern", "tgt_name": "Abuse of MSIX file format", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0569", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "SEO poisoning", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0569", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "Malvertising", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0569", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "Zoom", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0569", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "Tableau", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0569", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "TeamViewer", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0569", "predicate": "impersonates", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0569", "predicate": "installs", "tgt_type": "malware", "tgt_name": "BATLOADER", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-0569", "predicate": "uses", "tgt_type": "tool", "tgt_name": "App Installer", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1113", "predicate": "abuses", "tgt_type": "attack_pattern", "tgt_name": "Abuse of ms-appinstaller URI scheme", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1113", "predicate": "abuses", "tgt_type": "attack_pattern", "tgt_name": "Abuse of MSIX file format", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1113", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "EugenLoader", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1113", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "Search ad impersonation", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "abuses", "tgt_type": "attack_pattern", "tgt_name": "Abuse of ms-appinstaller URI scheme", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "abuses", "tgt_type": "attack_pattern", "tgt_name": "Abuse of MSIX file format", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "EugenLoader", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "delivers", "tgt_type": "threat_actor", "tgt_name": "Storm-1113", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "FIN7", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "POWERTRASH", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1674", "predicate": "abuses", "tgt_type": "attack_pattern", "tgt_name": "Abuse of ms-appinstaller URI scheme", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1674", "predicate": "abuses", "tgt_type": "attack_pattern", "tgt_name": "Abuse of MSIX file format", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1674", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Teams-based phishing", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1674", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Teams", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1674", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "SectopRAT", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1674", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "DarkGate", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1674", "predicate": "uses_frameworks_from", "tgt_type": "threat_actor", "tgt_name": "Storm-1113", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Abuse of ms-appinstaller URI scheme", "predicate": "bypasses", "tgt_type": "tool", "tgt_name": "SmartScreen", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Search ad impersonation", "predicate": "impersonates", "tgt_type": "identity", "tgt_name": "Zoom", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "BATLOADER", "predicate": "drops", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "BATLOADER", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Rclone", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "BATLOADER", "predicate": "hands_off_to", "tgt_type": "malware", "tgt_name": "Black Basta", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "tool", "src_name": "App Installer", "predicate": "installs", "tgt_type": "malware", "tgt_name": "BATLOADER", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "tool", "src_name": "App Installer", "predicate": "mitigates", "tgt_type": "attack_pattern", "tgt_name": "Abuse of ms-appinstaller URI scheme", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "EugenLoader", "predicate": "drops", "tgt_type": "malware", "tgt_name": "Gozi", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "EugenLoader", "predicate": "drops", "tgt_type": "malware", "tgt_name": "RedLine", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "EugenLoader", "predicate": "drops", "tgt_type": "malware", "tgt_name": "IcedID", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "EugenLoader", "predicate": "drops", "tgt_type": "malware", "tgt_name": "Smoke Loader", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "EugenLoader", "predicate": "drops", "tgt_type": "tool", "tgt_name": "NetSupport RAT", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "EugenLoader", "predicate": "drops", "tgt_type": "malware", "tgt_name": "SectopRAT", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "EugenLoader", "predicate": "drops", "tgt_type": "malware", "tgt_name": "Lumma stealer", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "EugenLoader", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Carbanak", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "EugenLoader", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Gracewire", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "POWERTRASH", "predicate": "loads", "tgt_type": "tool", "tgt_name": "NetSupport RAT", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "malware", "src_name": "POWERTRASH", "predicate": "loads", "tgt_type": "malware", "tgt_name": "Gracewire", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "tool", "src_name": "SmartScreen", "predicate": "mitigates", "tgt_type": "attack_pattern", "tgt_name": "Abuse of ms-appinstaller URI scheme", "source_chunks": ["BLOG-54::ch0"]}
+{"src_type": "tool", "src_name": "Safe Links", "predicate": "mitigates", "tgt_type": "attack_pattern", "tgt_name": "Teams-based phishing", "source_chunks": ["BLOG-54::ch0"]}

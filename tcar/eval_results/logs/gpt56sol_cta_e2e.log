@@ -1,0 +1,68 @@
+[2026-09-06T09:50:09Z] CTA-RAG E2E model=gpt-5.6-sol mode=both workers=1 tasks=ate,rcm
+[2026-09-06T09:50:09Z] RUN ctibench oracle ate
+launched ctibench oracle ate pid=3870
+[2026-09-06T09:50:09Z] RUN ctibench router ate
+launched ctibench router ate pid=3881
+[2026-09-06T09:50:09Z] RUN ctibench oracle rcm
+launched ctibench oracle rcm pid=3892
+[2026-09-06T09:50:09Z] RUN ctibench router rcm
+launched ctibench router rcm pid=3903
+[2026-09-06T09:50:09Z] RUN cticonnect cta_rag_port stamp=20260906Tgpt56sol_cta_port
+launched cticonnect cta_rag_port pid=3914
+[2026-09-06T09:50:10Z] All CTA-RAG E2E jobs launched (background). Monitor: tcar/eval_results/logs/gpt56sol_cta_e2e.log
+[2026-09-06T09:50:11Z] CTA-RAG E2E model=gpt-5.6-sol mode=oracle workers=1 tasks=mcq,vsp
+[2026-09-06T09:50:11Z] RUN ctibench oracle mcq
+launched ctibench oracle mcq pid=3948
+[2026-09-06T09:50:11Z] RUN ctibench oracle vsp
+launched ctibench oracle vsp pid=3959
+[2026-09-06T09:50:11Z] All CTA-RAG E2E jobs launched (background). Monitor: tcar/eval_results/logs/gpt56sol_cta_e2e.log
+[2026-09-06T09:50:35Z] CTA-RAG E2E model=gpt-5.6-sol mode=router workers=1 tasks=mcq,vsp
+[2026-09-06T09:50:35Z] RUN ctibench router mcq
+launched ctibench router mcq pid=4174
+[2026-09-06T09:50:36Z] RUN ctibench router vsp
+launched ctibench router vsp pid=4186
+[2026-09-06T09:50:36Z] All CTA-RAG E2E jobs launched (background). Monitor: tcar/eval_results/logs/gpt56sol_cta_e2e.log
+[2026-09-06T20:02:39Z] CTA-RAG E2E model=gpt-5.6-sol mode=both workers=1 tasks=ate,rcm,mcq,vsp
+[2026-09-06T20:02:39Z] RUN ctibench oracle ate
+launched ctibench oracle ate pid=2088
+[2026-09-06T20:02:39Z] RUN ctibench router ate
+launched ctibench router ate pid=2099
+[2026-09-06T20:02:40Z] RUN ctibench oracle rcm
+launched ctibench oracle rcm pid=2110
+[2026-09-06T20:02:40Z] RUN ctibench router rcm
+launched ctibench router rcm pid=2121
+[2026-09-06T20:02:40Z] RUN ctibench oracle mcq
+launched ctibench oracle mcq pid=2132
+[2026-09-06T20:02:40Z] RUN ctibench router mcq
+launched ctibench router mcq pid=2143
+[2026-09-06T20:02:40Z] RUN ctibench oracle vsp
+launched ctibench oracle vsp pid=2154
+[2026-09-06T20:02:40Z] RUN ctibench router vsp
+launched ctibench router vsp pid=2165
+[2026-09-06T20:02:40Z] RUN cticonnect cta_rag_port stamp=20260907Tgpt56sol_cta_port
+launched cticonnect cta_rag_port pid=2176
+[2026-09-06T20:02:40Z] All CTA-RAG E2E jobs launched (background). Monitor: tcar/eval_results/logs/gpt56sol_cta_e2e.log
+[2026-09-06T20:21:06Z] DONE ctibench oracle ate
+[2026-09-06T20:22:02Z] DONE ctibench router ate
+[2026-09-06T20:44:55Z] DONE cticonnect cta_rag_port
+[2026-09-07T07:08:57Z] CTA-RAG E2E model=gpt-5.4-mini mode=both workers=1 tasks=ate,rcm,mcq,vsp
+[2026-09-07T07:08:57Z] RUN ctibench oracle ate
+launched ctibench oracle ate pid=613
+[2026-09-07T07:08:57Z] RUN ctibench router ate
+launched ctibench router ate pid=624
+[2026-09-07T07:08:57Z] RUN ctibench oracle rcm
+launched ctibench oracle rcm pid=635
+[2026-09-07T07:08:57Z] RUN ctibench router rcm
+launched ctibench router rcm pid=646
+[2026-09-07T07:08:58Z] RUN ctibench oracle mcq
+launched ctibench oracle mcq pid=657
+[2026-09-07T07:08:58Z] RUN ctibench router mcq
+launched ctibench router mcq pid=668
+[2026-09-07T07:08:58Z] RUN ctibench oracle vsp
+launched ctibench oracle vsp pid=679
+[2026-09-07T07:08:58Z] RUN ctibench router vsp
+launched ctibench router vsp pid=800
+[2026-09-07T07:08:58Z] RUN cticonnect cta_rag_port stamp=20260907Tgpt54mini_cta_port
+launched cticonnect cta_rag_port pid=822
+[2026-09-07T07:08:58Z] All CTA-RAG E2E jobs launched (background). Monitor: tcar/eval_results/logs/gpt56sol_cta_e2e.log
+[2026-09-07T07:26:16Z] DONE cticonnect cta_rag_port

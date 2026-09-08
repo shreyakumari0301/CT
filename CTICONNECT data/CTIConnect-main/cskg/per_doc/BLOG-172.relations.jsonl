@@ -1,0 +1,12 @@
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "detailed_by", "tgt_type": "identity", "tgt_name": "Malwarebytes Labs", "source_chunks": ["BLOG-172::ch0"]}
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "detailed_by", "tgt_type": "identity", "tgt_name": "Red Canary", "source_chunks": ["BLOG-172::ch0"]}
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "infects", "tgt_type": "identity", "tgt_name": "Windows", "source_chunks": ["BLOG-172::ch0"]}
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "infects", "tgt_type": "identity", "tgt_name": "macOS", "source_chunks": ["BLOG-172::ch0"]}
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "uses_shell_scripts_on", "tgt_type": "identity", "tgt_name": "macOS", "source_chunks": ["BLOG-172::ch0"]}
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-172::ch0"]}
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "fetches_extension_via", "tgt_type": "tool", "tgt_name": "cURL", "source_chunks": ["BLOG-172::ch0"]}
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "injects_extension_into", "tgt_type": "tool", "tgt_name": "Chrome", "source_chunks": ["BLOG-172::ch0"]}
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "injects_extension_into", "tgt_type": "tool", "tgt_name": "Safari", "source_chunks": ["BLOG-172::ch0"]}
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "uses_for_persistence", "tgt_type": "tool", "tgt_name": "Windows Task Scheduler", "source_chunks": ["BLOG-172::ch0"]}
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "uses_shell", "tgt_type": "tool", "tgt_name": "bash", "source_chunks": ["BLOG-172::ch0"]}
+{"src_type": "malware", "src_name": "ChromeLoader", "predicate": "uses_shell", "tgt_type": "tool", "tgt_name": "zsh", "source_chunks": ["BLOG-172::ch0"]}

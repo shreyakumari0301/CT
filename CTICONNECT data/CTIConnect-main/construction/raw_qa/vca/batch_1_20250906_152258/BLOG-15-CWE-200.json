@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Exfiltration of patient and organizational data prior to encryption resulted from inadequate data protection/egress controls.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) the potential mitigations for this type of vulnerability (what exact fixes might be applied, such as code changes or configuration changes).",
+  "answer": "1) CWE-200: Exposure of Sensitive Information to an Unauthorized Actor\n2) Mapping Explanation: The vulnerability described involves the exfiltration of sensitive data (patient and organizational) due to inadequate data protection and egress controls, which directly aligns with CWE-200, as it deals with the unauthorized exposure of sensitive information.\n3) Potential Mitigations:\n   1. Compartmentalize the system by designing distinct \"safe\" areas with clearly defined trust boundaries to prevent sensitive data from crossing those boundaries inappropriately.\n   2. Ensure proper privilege separation by implementing the principle of least privilege to control when privileges are applied or dropped.\n   3. Integrate robust egress control mechanisms and monitoring to detect and prevent unauthorized data transfers out of secure compartments.\n   4. Incorporate architectural and design best practices early in the development process to enforce these controls.",
+  "llm_timing": {
+    "api_call_seconds": 5.3409
+  }
+}

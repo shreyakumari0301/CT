@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Leaked local-memory residues reveal sensitive ML/LLM artifacts (inputs, outputs, weights, intermediate computations) to unauthorized co-resident users.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) at what stage developers typically introduce this issue according to the CWE framework.",
+  "answer": "1) CWE-200: Exposure of Sensitive Information to an Unauthorized Actor\n2) Mapping Explanation: The vulnerability described in the blog involves the leakage of sensitive ML/LLM data through local-memory residues, which directly aligns with CWE-200 because this category covers exposures of sensitive information to unauthorized actors.\n3) Modes of Introduction: \n   1. Architecture and Design\n   2. Implementation",
+  "llm_timing": {
+    "api_call_seconds": 6.7951
+  }
+}

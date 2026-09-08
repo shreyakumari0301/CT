@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: Static Tundra\n- Aliases Resolved: Berserk Bear, Dragonfly, Blue Kraken, Crouching Yeti, Koala Team, Energetic Bear\n- Affiliated Unit: Russian FSB Center 16",
+  "llm_timing": {
+    "api_call_seconds": 4.159
+  }
+}

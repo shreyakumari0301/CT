@@ -1,0 +1,17 @@
+{"src_type": "identity", "src_name": "Kaspersky", "predicate": "uncovered", "tgt_type": "malware", "tgt_name": "Necro", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "malware", "src_name": "Necro", "predicate": "first_observed_in", "tgt_type": "campaign", "tgt_name": "2019 CamScanner compromise", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "malware", "src_name": "Necro", "predicate": "infected_app", "tgt_type": "identity", "tgt_name": "Wuta Camera", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "malware", "src_name": "Necro", "predicate": "infected_app", "tgt_type": "identity", "tgt_name": "Max Browser", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "malware", "src_name": "Necro", "predicate": "infected_mod", "tgt_type": "identity", "tgt_name": "Spotify", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "malware", "src_name": "Necro", "predicate": "infected_mod", "tgt_type": "identity", "tgt_name": "WhatsApp", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "malware", "src_name": "Necro", "predicate": "uses_for_c2", "tgt_type": "tool", "tgt_name": "Firebase Remote Config", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "malware", "src_name": "Necro", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Russia", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "malware", "src_name": "Necro", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Brazil", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "malware", "src_name": "Necro", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Vietnam", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "malware", "src_name": "Necro", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ecuador", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "malware", "src_name": "Necro", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Mexico", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "campaign", "src_name": "2019 CamScanner compromise", "predicate": "involved_app", "tgt_type": "identity", "tgt_name": "CamScanner", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "identity", "src_name": "Google Play", "predicate": "removed_apps", "tgt_type": "identity", "tgt_name": "Wuta Camera", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "identity", "src_name": "Google Play", "predicate": "removed_apps", "tgt_type": "identity", "tgt_name": "Max Browser", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "identity", "src_name": "Wuta Camera", "predicate": "distributed_via", "tgt_type": "identity", "tgt_name": "Google Play", "source_chunks": ["BLOG-118::ch0"]}
+{"src_type": "identity", "src_name": "Max Browser", "predicate": "distributed_via", "tgt_type": "identity", "tgt_name": "Google Play", "source_chunks": ["BLOG-118::ch0"]}

@@ -1,0 +1,23 @@
+{
+  "question": "A system allows adversaries to disguise malicious functionality as legitimate software so users willingly install or run it, enabling harmful actions under the guise of trust. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-698.\n- CAPEC-698 exploits trojanized trusted software, targeting CWE-507: malicious code disguised as legitimate software to trick users into installing it.",
+  "llm_cost": {
+    "input": 0.000691,
+    "cached_input": 0.0,
+    "output": 0.00097,
+    "total": 0.001661,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 553,
+      "cached_input": 0,
+      "output": 97
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7288
+  }
+}

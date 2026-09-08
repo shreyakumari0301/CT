@@ -1,0 +1,23 @@
+{
+  "question": "An adversary sends small requests to third-party services while spoofing the victim\u2019s IP address, causing those services to return much larger responses to the victim and flood it with traffic. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1498.002.\n- T1498.002 corresponds to reflection amplification flooding, mapping CAPEC-490: spoofing victim IP to trigger oversized third-party responses.",
+  "llm_cost": {
+    "input": 0.000862,
+    "cached_input": 0.0,
+    "output": 0.0011,
+    "total": 0.001962,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 690,
+      "cached_input": 0,
+      "output": 110
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.0288
+  }
+}

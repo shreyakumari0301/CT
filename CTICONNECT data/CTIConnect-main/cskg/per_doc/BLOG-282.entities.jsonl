@@ -1,0 +1,11 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-282::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Operation Lotus Blossom", "aliases": ["Lotus Blossom"], "properties": {"objective": "cyber-espionage", "first_seen": "2012-06-16", "last_seen": "2015-06-16"}, "source_chunks": ["BLOG-282::ch0"]}
+{"entity_type": "identity", "canonical_name": "military and government organizations in Hong Kong, Taiwan, Vietnam, the Philippines and Indonesia", "aliases": [], "properties": {}, "source_chunks": ["BLOG-282::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spearphishing attacks"], "properties": {}, "source_chunks": ["BLOG-282::ch0"]}
+{"entity_type": "malware", "canonical_name": "Elise", "aliases": ["“Elise” Trojan backdoor", "Elise Trojan backdoor"], "properties": {"family": "Trojan backdoor", "capabilities": ["virtual machine evasion", "command and control", "data exfiltration"]}, "source_chunks": ["BLOG-282::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-282::ch0"]}
+{"entity_type": "tool", "canonical_name": "AutoFocus", "aliases": [], "properties": {}, "source_chunks": ["BLOG-282::ch0"]}
+{"entity_type": "tool", "canonical_name": "WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-282::ch0"]}
+{"entity_type": "indicator", "canonical_name": "IPS signature 14358", "aliases": ["14358"], "properties": {"ioc_type": "hash", "value": "IPS signature 14358"}, "source_chunks": ["BLOG-282::ch0"]}
+{"entity_type": "tool", "canonical_name": "Threat Prevention", "aliases": [], "properties": {}, "source_chunks": ["BLOG-282::ch0"]}
+{"entity_type": "tool", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-282::ch0"]}

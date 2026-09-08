@@ -1,0 +1,23 @@
+{
+  "question": "An adversary intentionally triggers a system\u2019s security controls\u2014such as password throttling that locks an account after repeated failed logins\u2014to deny a legitimate user access by forcing their account into a locked state. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1531.\n- T1531 corresponds to removing or preventing account access, mapping CAPEC-2: forcing account lockouts via repeated failed logins.",
+  "llm_cost": {
+    "input": 0.000799,
+    "cached_input": 0.0,
+    "output": 0.00111,
+    "total": 0.001909,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 639,
+      "cached_input": 0,
+      "output": 111
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.62
+  }
+}

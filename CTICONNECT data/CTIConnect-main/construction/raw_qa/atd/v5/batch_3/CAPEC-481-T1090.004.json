@@ -1,0 +1,23 @@
+{
+  "question": "An adversary routes traffic to an unintended destination by supplying contradictory domain names in different protocol layers, such as using one domain in TLS SNI and another in the HTTP Host header (or leaving SNI blank). Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1090.004.\n- T1090.004 corresponds to domain-based traffic misdirection, mapping CAPEC-481: contradictory SNI/Host domains (or blank SNI) to route via CDNs.",
+  "llm_cost": {
+    "input": 0.000835,
+    "cached_input": 0.0,
+    "output": 0.00125,
+    "total": 0.002085,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 668,
+      "cached_input": 0,
+      "output": 125
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7669
+  }
+}

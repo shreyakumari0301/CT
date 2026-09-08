@@ -1,0 +1,25 @@
+{"entity_type": "threat_actor", "canonical_name": "Charming Kitten", "aliases": ["APT35", "Phosphorus", "Mint Sandstorm", "Newscaster", "TA453", "APT42"], "properties": {"country": "Iran", "primary_motivation": "espionage", "first_seen": "2013"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "campaign", "canonical_name": "BadBlood", "aliases": [], "properties": {"objective": "spear-phishing"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spear-phishing", "aliases": ["spear-phishing"], "properties": {}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "ProxyShell", "aliases": ["Exchange Server flaws (ProxyShell)"], "properties": {}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "malware", "canonical_name": "Momento", "aliases": ["Momento ransomware"], "properties": {}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-21972", "aliases": [], "properties": {"cve_id": "CVE-2021-21972"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "Log4Shell", "aliases": ["Log4Shell (CVE-2021-44228)"], "properties": {}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-44228", "aliases": [], "properties": {"cve_id": "CVE-2021-44228"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "malware", "canonical_name": "Magic Hound RAT", "aliases": ["PowerLess", "PowerShell backdoor (\"PowerLess\")"], "properties": {"family": "PowerShell backdoor"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "malware", "canonical_name": "Hyperscrape", "aliases": [], "properties": {"capabilities": ["mailbox exfiltration", "email harvesting"], "platforms": ["Windows", ".NET"]}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram", "aliases": [], "properties": {}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. academic institutions", "aliases": ["U.S."], "properties": {"sector": "academia", "region": "United States"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "identity", "canonical_name": "French academic institutions", "aliases": ["French"], "properties": {"sector": "academia", "region": "France"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East academic institutions", "aliases": ["Middle East"], "properties": {"sector": "academia", "region": "Middle East"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "identity", "canonical_name": "oncology researchers in Israel", "aliases": [], "properties": {"sector": "research", "region": "Israel"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "identity", "canonical_name": "genetics researchers in Israel", "aliases": [], "properties": {"sector": "research", "region": "Israel"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "identity", "canonical_name": "neurology researchers in Israel", "aliases": [], "properties": {"sector": "research", "region": "Israel"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "identity", "canonical_name": "oncology researchers in the U.S.", "aliases": ["U.S."], "properties": {"sector": "research", "region": "United States"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "identity", "canonical_name": "genetics researchers in the U.S.", "aliases": ["U.S."], "properties": {"sector": "research", "region": "United States"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "identity", "canonical_name": "neurology researchers in the U.S.", "aliases": ["U.S."], "properties": {"sector": "research", "region": "United States"}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Digital Crimes Unit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "tool", "canonical_name": "Outlook", "aliases": [], "properties": {}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "tool", "canonical_name": "Gmail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-5::ch0"]}
+{"entity_type": "tool", "canonical_name": "Yahoo!", "aliases": [], "properties": {}, "source_chunks": ["BLOG-5::ch0"]}

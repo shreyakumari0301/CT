@@ -1,0 +1,9 @@
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Russian diplomats", "source_chunks": ["BLOG-248::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Kaspersky employees", "source_chunks": ["BLOG-248::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-41990", "source_chunks": ["BLOG-248::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-32434", "source_chunks": ["BLOG-248::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-38606", "source_chunks": ["BLOG-248::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-32435", "source_chunks": ["BLOG-248::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing Attachment", "source_chunks": ["BLOG-248::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Triangulation", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "TriangleDB", "source_chunks": ["BLOG-248::ch0"]}
+{"src_type": "identity", "src_name": "Kaspersky GReAT", "predicate": "investigated", "tgt_type": "campaign", "tgt_name": "Operation Triangulation", "source_chunks": ["BLOG-248::ch0"]}

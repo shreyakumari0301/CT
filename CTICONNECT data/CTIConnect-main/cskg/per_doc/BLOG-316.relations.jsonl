@@ -1,0 +1,11 @@
+{"src_type": "threat_actor", "src_name": "APT27", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Taiwan", "source_chunks": ["BLOG-316::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT27", "predicate": "compromised_supply_chain_of", "tgt_type": "identity", "tgt_name": "Sogou", "source_chunks": ["BLOG-316::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT27", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Supply Chain Compromise: Compromise Software Supply Chain", "source_chunks": ["BLOG-316::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT27", "predicate": "delivers", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-316::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT27", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Application Layer Protocol: Web Protocols", "source_chunks": ["BLOG-316::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT27", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-316::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT27", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "OS Credential Dumping: LSASS Memory", "source_chunks": ["BLOG-316::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT27", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over C2 Channel", "source_chunks": ["BLOG-316::ch0"]}
+{"src_type": "tool", "src_name": "Cobalt Strike", "predicate": "communicates_via", "tgt_type": "attack_pattern", "tgt_name": "Application Layer Protocol: Web Protocols", "source_chunks": ["BLOG-316::ch0"]}
+{"src_type": "tool", "src_name": "Mimikatz", "predicate": "associated_with", "tgt_type": "attack_pattern", "tgt_name": "OS Credential Dumping: LSASS Memory", "source_chunks": ["BLOG-316::ch0"]}
+{"src_type": "indicator", "src_name": "SogouZhuyinUpdater.exe", "predicate": "trojanized_variant_of", "tgt_type": "identity", "tgt_name": "Sogou", "source_chunks": ["BLOG-316::ch0"]}

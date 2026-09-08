@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Accounts without MFA enabled were accessible with only stolen passwords, allowing HYPERSCRAPE to log in and exfiltrate data using acquired credentials.' Can you identify the corresponding CWE category and explain how this vulnerability maps to it, and also clarify if this CWE impacts specific platforms (like Java, Python, or web frameworks)?",
+  "answer": "1) CWE-308: Use of Single-factor Authentication\n\n2) Mapping Explanation: The issue describes accounts being accessible using only a stolen password, meaning authentication relies on a single factor. CWE-308 applies because the system does not require an additional independent factor (e.g., MFA), enabling account access when the password is compromised.\n\n3) Detection methods / modes of introduction / platforms: This can be detected by reviewing authentication configuration and access-control policies to confirm whether MFA is enforced for account login, and by testing login flows to verify that only a password is required. It is commonly introduced through design or configuration choices that implement password-only authentication or fail to require MFA for sensitive accounts. CWE-308 is not specific to a particular platform or language; it can affect any system (including Java, Python, and web frameworks) where authentication is implemented or configured as single-factor only.",
+  "llm_timing": {
+    "api_call_seconds": 4.5565
+  }
+}

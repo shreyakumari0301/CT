@@ -1,0 +1,19 @@
+[2026-09-06T07:17:38Z] Baseline queue armed model=gpt-5.6-sol stamp=20260906Tgpt56sol_baselines
+[2026-09-06T07:17:38Z] Waiting for Forced RAG counterfactual jobs to finish...
+[2026-09-06T07:17:38Z] Forced RAG still running; sleep 60s
+[2026-09-06T07:18:38Z] Forced RAG still running; sleep 60s
+[2026-09-06T07:19:38Z] Forced RAG still running; sleep 60s
+[2026-09-06T07:20:36Z] Baseline queue armed model=gpt-5.6-sol stamp=20260906Tgpt56sol_baselines
+launched unified_rag pid=1430
+[2026-09-06T07:20:36Z] START baseline unified_rag
+launched selfrag pid=1436
+[2026-09-06T07:20:36Z] START baseline selfrag
+launched graphrag_edge pid=1444
+[2026-09-06T07:20:36Z] START baseline graphrag_edge
+launched adaptive_rag pid=1450
+[2026-09-06T07:20:36Z] START baseline adaptive_rag
+launched tadarag pid=1460
+launched cticonnect_baselines pid=1469
+[2026-09-06T07:20:36Z] START baseline tadarag
+[2026-09-06T07:20:36Z] START baseline cticonnect_baselines
+[2026-09-06T07:20:36Z] All baseline jobs launched; waiting...

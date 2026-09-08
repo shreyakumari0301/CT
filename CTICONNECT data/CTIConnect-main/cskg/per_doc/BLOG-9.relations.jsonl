@@ -1,0 +1,25 @@
+{"src_type": "tool", "src_name": "SoftPerfect Network Scanner", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Process Discovery", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "tool", "src_name": "PsExec", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "ServeManager.exe", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "ServeManager.exe", "predicate": "variant_of", "tgt_type": "malware", "tgt_name": "FiveHands", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Inhibit System Recovery", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Data Encrypted for Impact", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "SombRAT", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Access Token Manipulation", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Boot or Logon Autostart Execution", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "PowerShell", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Domain Trust Discovery", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Process Discovery", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Screen Capture", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "FiveHands", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Kerberoasting", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "SombRAT", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Access Token Manipulation", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "SombRAT", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Boot or Logon Autostart Execution", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "SombRAT", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "PowerShell", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "SombRAT", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Domain Trust Discovery", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "SombRAT", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Process Discovery", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "SombRAT", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Screen Capture", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "malware", "src_name": "SombRAT", "predicate": "uses_technique", "tgt_type": "attack_pattern", "tgt_name": "Kerberoasting", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "tool", "src_name": "RouterScan", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Domain Trust Discovery", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "tool", "src_name": "grabff.exe", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Access Token Manipulation", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "tool", "src_name": "rclone.exe", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Data Encrypted for Impact", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "tool", "src_name": "s3browser-9-5-3.exe", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Data Encrypted for Impact", "source_chunks": ["BLOG-9::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Windows Management Instrumentation", "predicate": "used_to_enable", "tgt_type": "attack_pattern", "tgt_name": "Inhibit System Recovery", "source_chunks": ["BLOG-9::ch0"]}

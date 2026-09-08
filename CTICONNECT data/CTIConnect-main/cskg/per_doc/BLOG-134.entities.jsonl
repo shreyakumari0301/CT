@@ -1,0 +1,13 @@
+{"entity_type": "identity", "canonical_name": "Symantec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Equation Group", "aliases": ["Equation group", "Equation", "the Equation group", "EQGRP"], "properties": {"primary_motivation": "espionage"}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "malware", "canonical_name": "Micstus", "aliases": ["DoubleFantasy", "Micstus/DoubleFantasy", "Infostealer.Micstus"], "properties": {"family": "Infostealer"}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "malware", "canonical_name": "Tripfant", "aliases": ["TripleFantasy", "Tripfant/TripleFantasy", "Trojan.Tripfant"], "properties": {"family": "Trojan"}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "malware", "canonical_name": "Lassrv.B", "aliases": ["EquationLaser", "Backdoor.Lassrv.B"], "properties": {}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "malware", "canonical_name": "Equdrug", "aliases": ["EquationDrug", "Trojan.Equdrug"], "properties": {}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "malware", "canonical_name": "GrayPhish", "aliases": ["GrayFish", "GrayPhish/GrayFish", "Trojan.Grayphish"], "properties": {}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "malware", "canonical_name": "Packed.Generic.483", "aliases": [], "properties": {}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "tool", "canonical_name": "GroKey", "aliases": ["Trojan.Grokey"], "properties": {"capabilities": ["keylogging"]}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "malware", "canonical_name": "W32.Fanny", "aliases": [], "properties": {"family": "worm"}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "malware", "canonical_name": "Stuxnet", "aliases": [], "properties": {}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "identity", "canonical_name": "Norton", "aliases": ["Symantec/Norton"], "properties": {}, "source_chunks": ["BLOG-134::ch0"]}
+{"entity_type": "indicator", "canonical_name": "System Infected: Trojan Equation Activity", "aliases": [], "properties": {"ioc_type": "url", "value": "System Infected: Trojan Equation Activity"}, "source_chunks": ["BLOG-134::ch0"]}

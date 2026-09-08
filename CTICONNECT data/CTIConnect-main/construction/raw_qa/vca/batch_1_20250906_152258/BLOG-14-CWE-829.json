@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Users are lured by malvertising/phishing to download and run attacker-hosted installers (e.g., BATLOADER, VHD images) masquerading as Zoom/Teams, bringing untrusted code into the environment.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) what are the recommended detection methods according to the CWE? Do we need manual testing or red-team activity to confirm?",
+  "answer": "1) CWE-829: Inclusion of Functionality from Untrusted Control Sphere\n2) Mapping Explanation: The vulnerability involves users downloading and executing installers from an untrusted source, allowing external code to be injected into the environment. This action fits CWE-829 since it reflects the inclusion of functionality coming from a control sphere that is not trusted.\n3) Recommended Detection Methods:\n   1. Automated Static Analysis \u2013 Binary or Bytecode\n   2. Manual Static Analysis \u2013 Binary or Bytecode\n   3. Dynamic Analysis with Manual Results Interpretation\n   4. Manual Static Analysis \u2013 Source Code\n   5. Automated Static Analysis \u2013 Source Code\n   6. Architecture or Design Review\n\nNote: Manual testing (such as manual static analysis or attack modeling) is suggested as part of several methods, and while formal red-team activities are not explicitly mentioned, these manual approaches help in confirming the detection of this type of vulnerability.",
+  "llm_timing": {
+    "api_call_seconds": 7.0992
+  }
+}

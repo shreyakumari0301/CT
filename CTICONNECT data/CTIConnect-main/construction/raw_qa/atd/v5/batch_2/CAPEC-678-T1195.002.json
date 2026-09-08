@@ -1,0 +1,23 @@
+{
+  "question": "An adversary deliberately misconfigures a system during its build process by altering system configuration data files or build inputs, resulting in a maliciously altered build. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.002.\n- T1195.002 corresponds to supply chain compromise, mapping CAPEC-678: maliciously altering build data to misconfigure systems during build.",
+  "llm_cost": {
+    "input": 0.000744,
+    "cached_input": 0.0,
+    "output": 0.00106,
+    "total": 0.001804,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 595,
+      "cached_input": 0,
+      "output": 106
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.3964
+  }
+}

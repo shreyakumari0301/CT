@@ -1,0 +1,10 @@
+{"entity_type": "identity", "canonical_name": "Google", "aliases": [], "properties": {}, "source_chunks": ["BLOG-24::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chrome", "aliases": ["Chrome’s Stable Desktop channel"], "properties": {"platforms": ["Windows", "macOS", "Linux"]}, "source_chunks": ["BLOG-24::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-0519", "aliases": [], "properties": {"cve_id": "CVE-2024-0519", "severity": "high"}, "source_chunks": ["BLOG-24::ch0"]}
+{"entity_type": "tool", "canonical_name": "V8 JavaScript engine", "aliases": ["V8"], "properties": {}, "source_chunks": ["BLOG-24::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Bypass Address Space Layout Randomization (ASLR)", "aliases": ["bypass ASLR"], "properties": {}, "source_chunks": ["BLOG-24::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-0517", "aliases": [], "properties": {"cve_id": "CVE-2024-0517"}, "source_chunks": ["BLOG-24::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-0518", "aliases": [], "properties": {"cve_id": "CVE-2024-0518"}, "source_chunks": ["BLOG-24::ch0"]}
+{"entity_type": "malware", "canonical_name": "spyware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-24::ch0"]}
+{"entity_type": "identity", "canonical_name": "journalists", "aliases": [], "properties": {}, "source_chunks": ["BLOG-24::ch0"]}
+{"entity_type": "identity", "canonical_name": "dissidents", "aliases": [], "properties": {}, "source_chunks": ["BLOG-24::ch0"]}

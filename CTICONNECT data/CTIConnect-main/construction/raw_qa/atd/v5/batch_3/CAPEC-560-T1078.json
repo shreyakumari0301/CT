@@ -1,0 +1,23 @@
+{
+  "question": "An adversary guesses or obtains legitimate credentials (such as a userID/password), then authenticates and performs authorized actions while impersonating a real user or service. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1078.\n- T1078 corresponds to using legitimate stolen/guessed credentials, mapping CAPEC-560: authenticating with known domain credentials to act as a user/service.",
+  "llm_cost": {
+    "input": 0.000737,
+    "cached_input": 0.0,
+    "output": 0.00108,
+    "total": 0.001818,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 590,
+      "cached_input": 0,
+      "output": 108
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5642
+  }
+}

@@ -1,0 +1,18 @@
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "identified_collaboration_between", "tgt_type": "threat_actor", "tgt_name": "Jumpy Pisces", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "identified_collaboration_between", "tgt_type": "threat_actor", "tgt_name": "Play ransomware gang", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Jumpy Pisces", "predicate": "linked_to", "tgt_type": "identity", "tgt_name": "Reconnaissance General Bureau", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Jumpy Pisces", "predicate": "collaborates_with", "tgt_type": "threat_actor", "tgt_name": "Play ransomware gang", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Jumpy Pisces", "predicate": "gained_initial_access_via", "tgt_type": "attack_pattern", "tgt_name": "Compromised user account", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Jumpy Pisces", "predicate": "conducted", "tgt_type": "attack_pattern", "tgt_name": "Initial access", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Jumpy Pisces", "predicate": "conducted", "tgt_type": "attack_pattern", "tgt_name": "Lateral movement", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Jumpy Pisces", "predicate": "conducted", "tgt_type": "attack_pattern", "tgt_name": "Persistence", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Jumpy Pisces", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Sliver C2", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Jumpy Pisces", "predicate": "uses", "tgt_type": "malware", "tgt_name": "DTrack", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Jumpy Pisces", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Jumpy Pisces", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Remote Desktop Protocol (RDP)", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Jumpy Pisces", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Privileged account creation via RDP", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Play ransomware gang", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Play ransomware", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "threat_actor", "src_name": "Play ransomware gang", "predicate": "used_access_from", "tgt_type": "attack_pattern", "tgt_name": "Compromised user account", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "malware", "src_name": "DTrack", "predicate": "steals_browser_data_from", "tgt_type": "identity", "tgt_name": "Chrome", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "malware", "src_name": "DTrack", "predicate": "steals_browser_data_from", "tgt_type": "identity", "tgt_name": "Edge", "source_chunks": ["BLOG-268::ch0"]}
+{"src_type": "malware", "src_name": "DTrack", "predicate": "steals_browser_data_from", "tgt_type": "identity", "tgt_name": "Brave", "source_chunks": ["BLOG-268::ch0"]}

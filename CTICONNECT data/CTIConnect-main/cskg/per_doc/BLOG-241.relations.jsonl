@@ -1,0 +1,6 @@
+{"src_type": "threat_actor", "src_name": "Storm-1811", "predicate": "affiliate_of", "tgt_type": "threat_actor", "tgt_name": "MuddyWater APT", "source_chunks": ["BLOG-241::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1811", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-241::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1811", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-241::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1811", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "certutil", "source_chunks": ["BLOG-241::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1811", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "government networks", "source_chunks": ["BLOG-241::ch0"]}
+{"src_type": "threat_actor", "src_name": "Storm-1811", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "telecom networks", "source_chunks": ["BLOG-241::ch0"]}

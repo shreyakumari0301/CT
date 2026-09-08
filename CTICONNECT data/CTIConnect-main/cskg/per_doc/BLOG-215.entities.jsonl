@@ -1,0 +1,15 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "malware", "canonical_name": "SwiftSlicer", "aliases": [], "properties": {"platforms": ["Windows"], "capabilities": ["data destruction", "delete shadow copies", "overwrite files", "force reboot"]}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Sandworm Team", "aliases": ["Sandworm APT", "Sandworm", "Voodoo Bear", "BlackEnergy Group", "Telebots", "ELECTRUM", "IRIDIUM", "Seashell Blizzard"], "properties": {"regions_targeted": ["Ukraine"], "sectors_targeted": ["critical infrastructure"]}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian organization", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Group Policy abuse", "aliases": ["malicious Group Policy"], "properties": {}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "tool", "canonical_name": "Active Directory", "aliases": [], "properties": {}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "malware", "canonical_name": "WinGo/KillFiles", "aliases": [], "properties": {}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "malware", "canonical_name": "HermeticWiper", "aliases": [], "properties": {}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "malware", "canonical_name": "CaddyWiper", "aliases": [], "properties": {}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrinform", "aliases": [], "properties": {}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "malware", "canonical_name": "RansomBoggs", "aliases": [], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "malware", "canonical_name": "BlackEnergy", "aliases": [], "properties": {}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "malware", "canonical_name": "GreyEnergy", "aliases": [], "properties": {}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "malware", "canonical_name": "Industroyer", "aliases": ["the original Industroyer"], "properties": {}, "source_chunks": ["BLOG-215::ch0"]}
+{"entity_type": "malware", "canonical_name": "Industroyer2", "aliases": [], "properties": {}, "source_chunks": ["BLOG-215::ch0"]}

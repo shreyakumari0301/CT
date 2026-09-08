@@ -1,0 +1,23 @@
+{
+  "question": "An attacker discovers parts of a web application where authorization rules are missing or misconfigured, letting them access restricted URLs and privileged management functions to view sensitive data or run forbidden queries. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1574.010.\n- T1574.010 corresponds to permission weaknesses enabling unauthorized capability access, mapping CAPEC-1: accessing application functions not constrained by ACLs.",
+  "llm_cost": {
+    "input": 0.000857,
+    "cached_input": 0.0,
+    "output": 0.0011,
+    "total": 0.001958,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 686,
+      "cached_input": 0,
+      "output": 110
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.7312
+  }
+}

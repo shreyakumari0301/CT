@@ -1,0 +1,148 @@
+[2026-09-06T11:07:18Z] TAA Soft GAD NON-GATED stamp=20260906Tgpt56sol_soft_gad_taa modes=closed_book,cta
+[2026-09-06T11:14:18Z] START TAA closed_book model=gpt-5.6-sol
+Scorer check on published ChatGPT-4 column: Correct=52.0% Plausible=86.0% (expect 52.0 / 86.0)
+Running TAA mode=closed_book on n=50 (workers=1)
+taa-closedbook:   0%|          | 0/50 [00:00<?, ?it/s]taa-closedbook:   2%|▏         | 1/50 [00:24<19:48, 24.25s/it]taa-closedbook:   4%|▍         | 2/50 [00:34<12:53, 16.11s/it]taa-closedbook:   6%|▌         | 3/50 [00:50<12:35, 16.08s/it]taa-closedbook:   8%|▊         | 4/50 [00:59<10:10, 13.27s/it]taa-closedbook:  10%|█         | 5/50 [01:12<09:50, 13.12s/it]taa-closedbook:  12%|█▏        | 6/50 [01:18<07:48, 10.65s/it]taa-closedbook:  14%|█▍        | 7/50 [01:24<06:40,  9.30s/it]taa-closedbook:  16%|█▌        | 8/50 [01:31<05:51,  8.37s/it]taa-closedbook:  18%|█▊        | 9/50 [01:40<05:53,  8.63s/it]taa-closedbook:  20%|██        | 10/50 [01:47<05:29,  8.25s/it]taa-closedbook:  22%|██▏       | 11/50 [02:07<07:42, 11.86s/it]taa-closedbook:  24%|██▍       | 12/50 [02:22<07:56, 12.54s/it]taa-closedbook:  26%|██▌       | 13/50 [02:41<09:07, 14.79s/it]taa-closedbook:  28%|██▊       | 14/50 [02:46<07:04, 11.78s/it]taa-closedbook:  30%|███       | 15/50 [02:55<06:22, 10.92s/it]taa-closedbook:  32%|███▏      | 16/50 [03:04<05:46, 10.20s/it]taa-closedbook:  34%|███▍      | 17/50 [03:12<05:19,  9.68s/it]taa-closedbook:  36%|███▌      | 18/50 [03:20<04:53,  9.17s/it]taa-closedbook:  38%|███▊      | 19/50 [03:29<04:43,  9.14s/it]taa-closedbook:  40%|████      | 20/50 [03:38<04:25,  8.86s/it]taa-closedbook:  42%|████▏     | 21/50 [03:45<04:08,  8.56s/it]taa-closedbook:  44%|████▍     | 22/50 [03:51<03:31,  7.54s/it]taa-closedbook:  46%|████▌     | 23/50 [03:57<03:14,  7.20s/it]taa-closedbook:  48%|████▊     | 24/50 [04:06<03:21,  7.76s/it]taa-closedbook:  50%|█████     | 25/50 [04:13<03:04,  7.39s/it]taa-closedbook:  52%|█████▏    | 26/50 [04:24<03:24,  8.53s/it]taa-closedbook:  54%|█████▍    | 27/50 [04:30<02:58,  7.78s/it]taa-closedbook:  56%|█████▌    | 28/50 [04:38<02:56,  8.03s/it]taa-closedbook:  58%|█████▊    | 29/50 [04:45<02:38,  7.53s/it]taa-closedbook:  60%|██████    | 30/50 [04:50<02:19,  6.98s/it]taa-closedbook:  62%|██████▏   | 31/50 [05:05<02:56,  9.31s/it]taa-closedbook:  64%|██████▍   | 32/50 [05:13<02:41,  8.99s/it]taa-closedbook:  66%|██████▌   | 33/50 [05:20<02:19,  8.18s/it]taa-closedbook:  68%|██████▊   | 34/50 [05:25<01:55,  7.23s/it]taa-closedbook:  70%|███████   | 35/50 [05:37<02:09,  8.65s/it]taa-closedbook:  72%|███████▏  | 36/50 [05:46<02:05,  8.96s/it]taa-closedbook:  74%|███████▍  | 37/50 [05:54<01:50,  8.53s/it]taa-closedbook:  76%|███████▌  | 38/50 [05:59<01:30,  7.50s/it]taa-closedbook:  78%|███████▊  | 39/50 [06:07<01:25,  7.74s/it]taa-closedbook:  80%|████████  | 40/50 [06:18<01:25,  8.56s/it]taa-closedbook:  82%|████████▏ | 41/50 [06:22<01:05,  7.29s/it]taa-closedbook:  84%|████████▍ | 42/50 [06:36<01:15,  9.41s/it]taa-closedbook:  86%|████████▌ | 43/50 [06:42<00:58,  8.29s/it]taa-closedbook:  88%|████████▊ | 44/50 [06:47<00:43,  7.33s/it]taa-closedbook:  90%|█████████ | 45/50 [06:56<00:39,  7.84s/it]taa-closedbook:  92%|█████████▏| 46/50 [07:13<00:42, 10.63s/it]taa-closedbook:  94%|█████████▍| 47/50 [07:19<00:27,  9.10s/it]taa-closedbook:  96%|█████████▌| 48/50 [07:27<00:17,  8.66s/it]taa-closedbook:  98%|█████████▊| 49/50 [07:32<00:07,  7.82s/it]taa-closedbook: 100%|██████████| 50/50 [07:37<00:00,  6.87s/it]taa-closedbook: 100%|██████████| 50/50 [07:37<00:00,  9.15s/it]
+
+========== CTI-TAA (closed_book) ==========
+n=50  errors=0
+Correct Acc:   28.0%  (14)
+Plausible Acc: 30.0%  (C+P=15)
+Incorrect:     35
+Wrote eval_results/taa_closedbook_20260906Tgpt56sol_soft_gad_taa_closed_book.jsonl
+Wrote eval_results/taa_closedbook_20260906Tgpt56sol_soft_gad_taa_closed_book_summary.json
+
+Sample Incorrect:
+  [0] GT='SideCopy'  pred='Threat actor: SideCopy APT'
+  [1] GT='MUSTANG PANDA'  pred='Threat actor: Mustang Panda'
+  [2] GT='MUSTANG PANDA'  pred='DLL sideloading'
+  [4] GT='Dark Caracal'  pred='Likely threat actor: Dark Caracal'
+  [5] GT='APT19'  pred='RoyalRoad'
+  [6] GT='APT19'  pred='Threat actor: Storm-1811'
+  [9] GT='Turla'  pred='Threat actor: Turla Team'
+  [11] GT='APT28'  pred='MASEPIE, OCEANMAP, and STEELHOOK'
+[2026-09-06T11:22:17Z] START TAA cta
+Scorer check on published ChatGPT-4 column: Correct=52.0% Plausible=86.0% (expect 52.0 / 86.0)
+Running TAA mode=cta on n=50 (workers=1)
+taa-cta:   0%|          | 0/50 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 9656.95it/s]
+taa-cta:   2%|▏         | 1/50 [05:31<4:30:21, 331.04s/it]taa-cta:   4%|▍         | 2/50 [05:41<1:53:49, 142.29s/it]taa-cta:   6%|▌         | 3/50 [05:53<1:04:49, 82.75s/it] taa-cta:   8%|▊         | 4/50 [06:04<41:57, 54.72s/it]  taa-cta:  10%|█         | 5/50 [06:19<30:08, 40.18s/it]taa-cta:  12%|█▏        | 6/50 [06:28<21:47, 29.71s/it]taa-cta:  14%|█▍        | 7/50 [06:34<15:38, 21.82s/it]taa-cta:  16%|█▌        | 8/50 [06:40<11:48, 16.88s/it]taa-cta:  18%|█▊        | 9/50 [06:51<10:13, 14.96s/it]taa-cta:  20%|██        | 10/50 [07:01<09:04, 13.60s/it]taa-cta:  22%|██▏       | 11/50 [07:18<09:23, 14.44s/it]taa-cta:  24%|██▍       | 12/50 [07:25<07:51, 12.42s/it]taa-cta:  26%|██▌       | 13/50 [07:35<07:03, 11.43s/it]taa-cta:  28%|██▊       | 14/50 [07:40<05:40,  9.47s/it]taa-cta:  30%|███       | 15/50 [07:45<04:47,  8.23s/it]taa-cta:  32%|███▏      | 16/50 [07:54<04:50,  8.53s/it]taa-cta:  34%|███▍      | 17/50 [08:10<05:56, 10.81s/it]taa-cta:  36%|███▌      | 18/50 [08:22<05:53, 11.05s/it]taa-cta:  38%|███▊      | 19/50 [08:27<04:51,  9.41s/it]taa-cta:  40%|████      | 20/50 [08:35<04:21,  8.70s/it]taa-cta:  42%|████▏     | 21/50 [08:43<04:10,  8.65s/it]taa-cta:  44%|████▍     | 22/50 [08:50<03:51,  8.27s/it]taa-cta:  46%|████▌     | 23/50 [09:00<03:51,  8.58s/it]taa-cta:  48%|████▊     | 24/50 [09:07<03:35,  8.30s/it]taa-cta:  50%|█████     | 25/50 [09:12<03:02,  7.29s/it]taa-cta:  52%|█████▏    | 26/50 [09:19<02:53,  7.24s/it]taa-cta:  54%|█████▍    | 27/50 [09:27<02:46,  7.23s/it]taa-cta:  56%|█████▌    | 28/50 [09:34<02:39,  7.25s/it]taa-cta:  58%|█████▊    | 29/50 [09:41<02:30,  7.14s/it]taa-cta:  60%|██████    | 30/50 [09:48<02:20,  7.02s/it]taa-cta:  62%|██████▏   | 31/50 [09:58<02:31,  7.95s/it]taa-cta:  64%|██████▍   | 32/50 [10:10<02:48,  9.38s/it]taa-cta:  66%|██████▌   | 33/50 [10:19<02:33,  9.02s/it]taa-cta:  68%|██████▊   | 34/50 [10:26<02:18,  8.63s/it]taa-cta:  70%|███████   | 35/50 [10:41<02:36, 10.41s/it]taa-cta:  72%|███████▏  | 36/50 [10:46<02:03,  8.84s/it]taa-cta:  74%|███████▍  | 37/50 [10:53<01:46,  8.20s/it]taa-cta:  76%|███████▌  | 38/50 [11:01<01:38,  8.20s/it]taa-cta:  78%|███████▊  | 39/50 [11:07<01:23,  7.57s/it]taa-cta:  80%|████████  | 40/50 [11:18<01:26,  8.64s/it]taa-cta:  82%|████████▏ | 41/50 [11:25<01:12,  8.04s/it]taa-cta:  84%|████████▍ | 42/50 [11:33<01:05,  8.14s/it]taa-cta:  86%|████████▌ | 43/50 [11:38<00:50,  7.23s/it]taa-cta:  88%|████████▊ | 44/50 [11:47<00:46,  7.80s/it]taa-cta:  90%|█████████ | 45/50 [11:57<00:41,  8.32s/it]taa-cta:  92%|█████████▏| 46/50 [12:13<00:42, 10.60s/it]taa-cta:  94%|█████████▍| 47/50 [12:19<00:27,  9.20s/it]taa-cta:  96%|█████████▌| 48/50 [12:28<00:18,  9.12s/it]taa-cta:  98%|█████████▊| 49/50 [12:40<00:10, 10.17s/it]Traceback (most recent call last):
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_transports/default.py", line 98, in map_httpcore_exceptions
+    yield
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_transports/default.py", line 245, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_sync/connection_pool.py", line 242, in handle_request
+    raise exc from None
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_sync/connection_pool.py", line 224, in handle_request
+    response = connection.handle_request(pool_request.request)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_sync/connection.py", line 94, in handle_request
+    raise exc
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_sync/connection.py", line 74, in handle_request
+    stream = self._connect(request)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_sync/connection.py", line 117, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_backends/sync.py", line 203, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3.14/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_exceptions.py", line 17, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore2.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_base_client.py", line 1076, in request
+    response = self._send_request(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_client.py", line 583, in _send_request
+    response = self._send_with_auth_retry(request, stream=stream, **kwargs)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_client.py", line 562, in _send_with_auth_retry
+    response = super()._send_request(request, stream=stream, **kwargs)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_base_client.py", line 999, in _send_request
+    return self._client.send(request, stream=stream, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 980, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 1008, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 1043, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 1076, in _send_single_request
+    response = transport.handle_request(request)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_transports/default.py", line 244, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_transports/default.py", line 115, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx2.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_taa.py", line 367, in run_one
+    out = predict_fn(job["text"], job["prompt"])
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_taa.py", line 566, in predict_fn
+    return pipe.run_naive(text, ctibench_prompt=prompt, return_meta=True)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_taa_pipeline.py", line 365, in run_naive
+    raw = self._call_openai(final_prompt, temperature=0.0)
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_taa_pipeline.py", line 274, in _call_openai
+    response = self.client.chat.completions.create(
+        messages=[
+    ...<7 lines>...
+        ),
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/resources/chat/completions/completions.py", line 1296, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_base_client.py", line 1368, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_base_client.py", line 1111, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+taa-cta: 100%|██████████| 50/50 [19:43<00:00, 133.98s/it]taa-cta: 100%|██████████| 50/50 [19:43<00:00, 23.67s/it] 
+
+========== CTI-TAA (cta) ==========
+n=49  errors=1
+Correct Acc:   83.7%  (41)
+Plausible Acc: 87.8%  (C+P=43)
+Incorrect:     6
+Wrote eval_results/taa_cta_20260906Tgpt56sol_soft_gad_taa_cta.jsonl
+Wrote eval_results/taa_cta_20260906Tgpt56sol_soft_gad_taa_cta_summary.json
+
+Sample Incorrect:
+  [5] GT='APT19'  pred='Sharp Dragon'
+  [6] GT='APT19'  pred='Storm-1811'
+  [14] GT='UNC2452'  pred='Storm-1811'
+  [17] GT='APT41'  pred='Earth Freybug'
+  [30] GT='Sharp Panda'  pred='SharpPanda'
+  [31] GT='Bitter APT'  pred='BITTER'
+[2026-09-06T11:42:26Z] DONE TAA non-gated

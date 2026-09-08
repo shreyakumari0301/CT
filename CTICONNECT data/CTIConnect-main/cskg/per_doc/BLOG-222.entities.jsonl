@@ -1,0 +1,11 @@
+{"entity_type": "threat_actor", "canonical_name": "Charming Kitten", "aliases": ["APT42", "APT35", "Phosphorus", "Mint Sandstorm", "Newscaster", "TA453"], "properties": {"country": "Iran", "first_seen": "2015"}, "source_chunks": ["BLOG-222::ch0"]}
+{"entity_type": "identity", "canonical_name": "IRGC", "aliases": [], "properties": {"region": "Iran"}, "source_chunks": ["BLOG-222::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mandiant", "aliases": [], "properties": {}, "source_chunks": ["BLOG-222::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. media accounts", "aliases": ["compromised U.S. media accounts"], "properties": {"sector": "media", "region": "United States"}, "source_chunks": ["BLOG-222::ch0"]}
+{"entity_type": "malware", "canonical_name": "BitLocker", "aliases": ["BitLocker ransomware"], "properties": {}, "source_chunks": ["BLOG-222::ch0"]}
+{"entity_type": "malware", "canonical_name": "custom Android spyware", "aliases": [], "properties": {"platforms": ["Android"], "capabilities": ["exfiltrate calls", "exfiltrate SMS", "exfiltrate audio recordings", "exfiltrate images", "exfiltrate GPS data"]}, "source_chunks": ["BLOG-222::ch0"]}
+{"entity_type": "malware", "canonical_name": "lightweight custom malware", "aliases": [], "properties": {"platforms": ["Windows"], "capabilities": ["initial access", "privilege escalation", "reconnaissance", "lateral movement", "persistence"]}, "source_chunks": ["BLOG-222::ch0"]}
+{"entity_type": "tool", "canonical_name": "Fortinet FortiOS SSL VPN", "aliases": ["FortiOS SSL VPN"], "properties": {}, "source_chunks": ["BLOG-222::ch0"]}
+{"entity_type": "tool", "canonical_name": "Exchange servers", "aliases": ["unpatched Exchange servers"], "properties": {}, "source_chunks": ["BLOG-222::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spear-phishing operations", "phishes"], "properties": {}, "source_chunks": ["BLOG-222::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Harvesting", "aliases": ["credential harvesting", "credential theft"], "properties": {}, "source_chunks": ["BLOG-222::ch0"]}

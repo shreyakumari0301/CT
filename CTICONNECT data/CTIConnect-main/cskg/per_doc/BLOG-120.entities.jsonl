@@ -1,0 +1,4 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-2883", "aliases": [], "properties": {"cve_id": "CVE-2024-2883", "severity": "most severe"}, "source_chunks": ["BLOG-120::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-2885", "aliases": [], "properties": {"cve_id": "CVE-2024-2885", "severity": "high-severity"}, "source_chunks": ["BLOG-120::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-2886", "aliases": [], "properties": {"cve_id": "CVE-2024-2886"}, "source_chunks": ["BLOG-120::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-2887", "aliases": [], "properties": {"cve_id": "CVE-2024-2887"}, "source_chunks": ["BLOG-120::ch0"]}

@@ -1,0 +1,18 @@
+{"entity_type": "campaign", "canonical_name": "Magic Hound", "aliases": [], "properties": {"objective": "espionage", "first_seen": "mid-2016"}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Rocket Kitten", "aliases": [], "properties": {}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "identity", "canonical_name": "Saudi energy organizations", "aliases": [], "properties": {"sector": "energy", "region": "Saudi Arabia"}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "identity", "canonical_name": "Saudi government organizations", "aliases": [], "properties": {"sector": "government", "region": "Saudi Arabia"}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "identity", "canonical_name": "Saudi technology organizations", "aliases": [], "properties": {"sector": "technology", "region": "Saudi Arabia"}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "tool", "canonical_name": "Magic Unicorn", "aliases": [], "properties": {"capabilities": ["shellcode download"]}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "tool", "canonical_name": "Metasploit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "tool", "canonical_name": "Meterpreter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "malware", "canonical_name": "Pupy RAT", "aliases": ["Pupy"], "properties": {}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "malware", "canonical_name": "MagicHound.Rollover", "aliases": [], "properties": {}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "malware", "canonical_name": "Fetch", "aliases": [], "properties": {}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "malware", "canonical_name": "DropIt", "aliases": [], "properties": {}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "malware", "canonical_name": "Retriever", "aliases": [], "properties": {}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "malware", "canonical_name": "Leash", "aliases": [], "properties": {}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "indicator", "canonical_name": "chrome-up.date", "aliases": ["chrome-up[.]date"], "properties": {"ioc_type": "domain", "value": "chrome-up.date"}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ntg-sa.com", "aliases": ["ntg-sa[.]com"], "properties": {"ioc_type": "domain", "value": "ntg-sa.com"}, "source_chunks": ["BLOG-233::ch0"]}
+{"entity_type": "indicator", "canonical_name": "mol.com-ho.me", "aliases": ["mol.com-ho[.]me"], "properties": {"ioc_type": "domain", "value": "mol.com-ho.me"}, "source_chunks": ["BLOG-233::ch0"]}

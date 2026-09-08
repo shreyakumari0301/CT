@@ -1,0 +1,20 @@
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-34713", "aliases": [], "properties": {"cve_id": "CVE-2022-34713"}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "Dogwalk", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "tool", "canonical_name": "Windows Support Diagnostic Tool", "aliases": ["MSDT"], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["phishing-lured visits"], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-34715", "aliases": [], "properties": {"cve_id": "CVE-2022-34715", "cvss": "8.5–9.8"}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows Network File System", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-35804", "aliases": [], "properties": {"cve_id": "CVE-2022-35804", "cvss": "8.8"}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "identity", "canonical_name": "SMBv3.1.1", "aliases": ["SMB"], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows 11", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "identity", "canonical_name": "Exchange Server", "aliases": ["Exchange"], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "Follina", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-30190", "aliases": [], "properties": {"cve_id": "CVE-2022-30190"}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "identity", "canonical_name": "Adobe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "identity", "canonical_name": "Acrobat", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "identity", "canonical_name": "Reader", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "identity", "canonical_name": "Commerce", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "identity", "canonical_name": "Illustrator", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "identity", "canonical_name": "FrameMaker", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}
+{"entity_type": "identity", "canonical_name": "Premiere Elements", "aliases": [], "properties": {}, "source_chunks": ["BLOG-168::ch0"]}

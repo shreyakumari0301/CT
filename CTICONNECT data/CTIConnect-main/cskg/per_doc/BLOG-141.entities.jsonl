@@ -1,0 +1,14 @@
+{"entity_type": "identity", "canonical_name": "Apple", "aliases": [], "properties": {}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-30860", "aliases": ["FORCEDENTRY"], "properties": {"cve_id": "CVE-2021-30860"}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "NSO Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "malware", "canonical_name": "Pegasus", "aliases": ["Pegasus spyware"], "properties": {"capabilities": ["arbitrary code execution", "data theft"], "platforms": ["iOS"]}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Zero-click exploit via iMessage", "aliases": ["zero-click iMessage vulnerability"], "properties": {}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Deliver maliciously crafted PDFs into iMessage sandbox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "identity", "canonical_name": "Citizen Lab", "aliases": [], "properties": {}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "identity", "canonical_name": "Amnesty International", "aliases": [], "properties": {}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "tool", "canonical_name": "Symantec WebPulse", "aliases": ["WebPulse"], "properties": {}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "tool", "canonical_name": "Symantec Endpoint Protection Mobile", "aliases": [], "properties": {"capabilities": ["intercept hidden iMessage fields", "block command-and-control traffic", "quarantine zero-day payloads"]}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "identity", "canonical_name": "iMessage", "aliases": [], "properties": {}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "identity", "canonical_name": "iOS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "identity", "canonical_name": "journalists", "aliases": [], "properties": {}, "source_chunks": ["BLOG-141::ch0"]}
+{"entity_type": "identity", "canonical_name": "activists", "aliases": [], "properties": {}, "source_chunks": ["BLOG-141::ch0"]}

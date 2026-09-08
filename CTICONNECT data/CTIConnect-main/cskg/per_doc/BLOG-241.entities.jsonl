@@ -1,0 +1,7 @@
+{"entity_type": "threat_actor", "canonical_name": "Storm-1811", "aliases": [], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-241::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "MuddyWater APT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-241::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-241::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-241::ch0"]}
+{"entity_type": "tool", "canonical_name": "certutil", "aliases": [], "properties": {}, "source_chunks": ["BLOG-241::ch0"]}
+{"entity_type": "identity", "canonical_name": "government networks", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-241::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecom networks", "aliases": [], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-241::ch0"]}

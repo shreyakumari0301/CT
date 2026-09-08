@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary tool or malware family consistently used by this threat actor across these reports?",
+  "answer": "- Primary Malware Family: Sagerunex backdoor\n- Evolution: derived from Evora and bundled as an in-memory DLL\n- Capabilities: reconnaissance via WMI, Chrome cookie theft, privilege escalation, proxy relaying, file archiving for exfiltration\n- C2 Evasion: uses unconventional channels (Dropbox API, Twitter API, Zimbra mail API)\n- Persistence Mechanism: registered under hijacked Windows services to auto-launch at startup",
+  "llm_timing": {
+    "api_call_seconds": 7.6456
+  }
+}

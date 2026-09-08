@@ -1,0 +1,470 @@
+[2026-09-06T09:50:09Z] CTA-RAG E2E model=gpt-5.6-sol mode=both workers=1 tasks=ate,rcm
+[2026-09-06T09:50:09Z] RUN ctibench oracle ate
+launched ctibench oracle ate pid=3870
+[2026-09-06T09:50:09Z] RUN ctibench router ate
+launched ctibench router ate pid=3881
+[2026-09-06T09:50:09Z] RUN ctibench oracle rcm
+launched ctibench oracle rcm pid=3892
+[2026-09-06T09:50:09Z] RUN ctibench router rcm
+launched ctibench router rcm pid=3903
+[2026-09-06T09:50:09Z] RUN cticonnect cta_rag_port stamp=20260906Tgpt56sol_cta_port
+launched cticonnect cta_rag_port pid=3914
+[2026-09-06T09:50:10Z] All CTA-RAG E2E jobs launched (background). Monitor: tcar/eval_results/logs/gpt56sol_cta_e2e.log
+
+=== CTI-ATE | oracle (gold pipeline=reasoning_ate) | n=60 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-ate.tsv
+
+=== CTI-ATE | router (gold pipeline=reasoning_ate) | n=60 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-ate.tsv
+
+=== CTI-RCM | oracle (gold pipeline=understanding) | n=1000 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-rcm.tsv
+
+=== CTI-RCM | router (gold pipeline=understanding) | n=1000 ===
+data: /mnt/c/Users/SK/CTI-Chatbot/data/cti-rcm.tsv
+Loaded n=450 from /mnt/c/Users/SK/CTI-Chatbot/CTICONNECT data/data tasks=['rcm', 'ata']
+Loading CTIConnect corpus_kb retriever...
+
+>>> Running cta_rag_port on 450 items -> cticonnect_cta_rag_port_20260906Tgpt56sol_cta_port.jsonl
+  running 450 remaining / 450
+cta_rag_port:   0%|          | 0/450 [00:00<?, ?it/s]cta_rag_port:   0%|          | 1/450 [00:43<5:26:24, 43.62s/it]cta_rag_port:   0%|          | 2/450 [00:49<2:40:47, 21.53s/it]cta_rag_port:   1%|          | 3/450 [00:54<1:43:17, 13.86s/it]cta_rag_port:   1%|          | 4/450 [00:59<1:17:39, 10.45s/it]cta_rag_port:   1%|          | 5/450 [01:04<1:01:34,  8.30s/it]cta_rag_port:   1%|▏         | 6/450 [45:35<112:41:53, 913.77s/it]cta_rag_port:   2%|▏         | 7/450 [45:39<75:51:17, 616.43s/it] cta_rag_port:   2%|▏         | 8/450 [45:44<51:45:26, 421.55s/it]cta_rag_port:   2%|▏         | 9/450 [45:48<35:38:49, 291.00s/it]cta_rag_port:   2%|▏         | 10/450 [45:52<24:45:40, 202.59s/it]cta_rag_port:   2%|▏         | 11/450 [45:58<17:20:52, 142.26s/it]Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 503, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 496, in main
+    run_task(t, limit, args.out_dir, args.route_mode, args.workers)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 304, in run_task
+    get_pipeline_runner(gold_pipeline)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 137, in get_pipeline_runner
+    from pipelines import reasoning_ate_pipeline as mod
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 91, in <module>
+    _pipeline_instance = ReasoningATEPipeline()
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 22, in __init__
+    self.vector_db = self._load_vector_db()
+                     ~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 30, in _load_vector_db
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/__init__.py", line 10, in <module>
+    from sentence_transformers.backend import (
+    ...<3 lines>...
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/__init__.py", line 3, in <module>
+    from .load import load_onnx_model, load_openvino_model
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/load.py", line 7, in <module>
+    from transformers.configuration_utils import PretrainedConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/configuration_utils.py", line 32, in <module>
+    from .generation.configuration_utils import GenerationConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/generation/configuration_utils.py", line 62, in <module>
+    from .logits_process import SynthIDTextWatermarkLogitsProcessor, WatermarkLogitsProcessor
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/generation/logits_process.py", line 21, in <module>
+    import torch
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/__init__.py", line 2339, in <module>
+    import torch.nn.qat
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/qat/__init__.py", line 7, in <module>
+    from torch.nn.qat import dynamic, modules
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/qat/dynamic/__init__.py", line 7, in <module>
+    from torch.nn.qat.dynamic.modules import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/qat/dynamic/modules/__init__.py", line 1, in <module>
+    from torch.nn.qat.dynamic.modules.linear import Linear
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/qat/dynamic/modules/linear.py", line 11, in <module>
+    from torch.ao.nn.qat.dynamic.modules.linear import Linear
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/qat/dynamic/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1333, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1267, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1292, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1266, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1369, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1412, in _fill_cache
+OSError: [Errno 12] Cannot allocate memory: '/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/qat/dynamic'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 503, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 496, in main
+    run_task(t, limit, args.out_dir, args.route_mode, args.workers)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 304, in run_task
+    get_pipeline_runner(gold_pipeline)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_ctibench.py", line 137, in get_pipeline_runner
+    from pipelines import reasoning_ate_pipeline as mod
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 91, in <module>
+    _pipeline_instance = ReasoningATEPipeline()
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 22, in __init__
+    self.vector_db = self._load_vector_db()
+                     ~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_ate_pipeline.py", line 30, in _load_vector_db
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/__init__.py", line 10, in <module>
+    from sentence_transformers.backend import (
+    ...<3 lines>...
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/__init__.py", line 3, in <module>
+    from .load import load_onnx_model, load_openvino_model
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/load.py", line 7, in <module>
+    from transformers.configuration_utils import PretrainedConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/configuration_utils.py", line 32, in <module>
+    from .generation.configuration_utils import GenerationConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/generation/configuration_utils.py", line 62, in <module>
+    from .logits_process import SynthIDTextWatermarkLogitsProcessor, WatermarkLogitsProcessor
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/generation/logits_process.py", line 21, in <module>
+    import torch
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/__init__.py", line 2338, in <module>
+    import torch.nn.intrinsic
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/intrinsic/__init__.py", line 19, in <module>
+    from torch.nn.intrinsic import modules, qat, quantized
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/intrinsic/quantized/__init__.py", line 3, in <module>
+    from torch.nn.intrinsic.quantized import dynamic, modules
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/intrinsic/quantized/dynamic/__init__.py", line 1, in <module>
+    from torch.nn.intrinsic.quantized.dynamic.modules import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/intrinsic/quantized/dynamic/modules/__init__.py", line 1, in <module>
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nn/intrinsic/quantized/dynamic/modules/linear_relu.py", line 1, in <module>
+    from torch.ao.nn.intrinsic.quantized.dynamic import LinearReLU
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/intrinsic/quantized/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/intrinsic/quantized/modules/__init__.py", line 1, in <module>
+    from .bn_relu import BNReLU2d, BNReLU3d
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/intrinsic/quantized/modules/bn_relu.py", line 6, in <module>
+    import torch.ao.nn.quantized as nnq
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantized/__init__.py", line 1, in <module>
+    from . import functional
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantized/functional.py", line 11, in <module>
+    from .modules.utils import _pair_from_first
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantized/modules/__init__.py", line 9, in <module>
+    import torch.ao.nn.quantizable
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantizable/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantizable/modules/__init__.py", line 1, in <module>
+    from .activation import MultiheadAttention
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1333, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1267, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1292, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1266, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1369, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1412, in _fill_cache
+OSError: [Errno 12] Cannot allocate memory: '/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/ao/nn/quantizable/modules'
+cta_rag_port:   3%|▎         | 12/450 [46:10<12:29:07, 102.62s/it]cta_rag_port:   3%|▎         | 13/450 [46:20<9:02:04, 74.43s/it]  cta_rag_port:   3%|▎         | 14/450 [46:43<7:09:26, 59.10s/it]cta_rag_port:   3%|▎         | 15/450 [46:46<5:05:56, 42.20s/it]cta_rag_port:   4%|▎         | 16/450 [46:48<3:38:17, 30.18s/it]cta_rag_port:   4%|▍         | 17/450 [46:51<2:37:58, 21.89s/it]cta_rag_port:   4%|▍         | 18/450 [46:53<1:55:15, 16.01s/it]cta_rag_port:   4%|▍         | 19/450 [46:56<1:27:50, 12.23s/it]cta_rag_port:   4%|▍         | 20/450 [46:59<1:07:04,  9.36s/it]cta_rag_port:   5%|▍         | 21/450 [47:04<57:32,  8.05s/it]  cta_rag_port:   5%|▍         | 22/450 [47:06<44:57,  6.30s/it]cta_rag_port:   5%|▌         | 23/450 [47:10<38:46,  5.45s/it]cta_rag_port:   5%|▌         | 24/450 [47:14<35:59,  5.07s/it]cta_rag_port:   6%|▌         | 25/450 [47:17<31:26,  4.44s/it]cta_rag_port:   6%|▌         | 26/450 [47:20<27:57,  3.96s/it]cta_rag_port:   6%|▌         | 27/450 [47:22<24:16,  3.44s/it]cta_rag_port:   6%|▌         | 28/450 [47:28<29:14,  4.16s/it]cta_rag_port:   6%|▋         | 29/450 [47:30<25:12,  3.59s/it]cta_rag_port:   7%|▋         | 30/450 [47:32<21:51,  3.12s/it]cta_rag_port:   7%|▋         | 31/450 [47:34<18:51,  2.70s/it]cta_rag_port:   7%|▋         | 32/450 [47:36<18:11,  2.61s/it]cta_rag_port:   7%|▋         | 33/450 [47:38<17:10,  2.47s/it]cta_rag_port:   8%|▊         | 34/450 [47:40<15:59,  2.31s/it]cta_rag_port:   8%|▊         | 35/450 [47:43<17:28,  2.53s/it]cta_rag_port:   8%|▊         | 36/450 [47:47<20:20,  2.95s/it]cta_rag_port:   8%|▊         | 37/450 [47:50<19:22,  2.82s/it]cta_rag_port:   8%|▊         | 38/450 [47:52<18:31,  2.70s/it]cta_rag_port:   9%|▊         | 39/450 [47:55<18:12,  2.66s/it]cta_rag_port:   9%|▉         | 40/450 [48:00<22:54,  3.35s/it]cta_rag_port:   9%|▉         | 41/450 [48:02<20:14,  2.97s/it]cta_rag_port:   9%|▉         | 42/450 [48:08<26:42,  3.93s/it]cta_rag_port:  10%|▉         | 43/450 [48:10<23:23,  3.45s/it]cta_rag_port:  10%|▉         | 44/450 [48:14<23:19,  3.45s/it]cta_rag_port:  10%|█         | 45/450 [48:22<32:45,  4.85s/it]cta_rag_port:  10%|█         | 46/450 [48:25<28:35,  4.25s/it]cta_rag_port:  10%|█         | 47/450 [48:27<24:09,  3.60s/it]cta_rag_port:  11%|█         | 48/450 [48:29<20:48,  3.11s/it]cta_rag_port:  11%|█         | 49/450 [48:31<19:21,  2.90s/it]cta_rag_port:  11%|█         | 50/450 [48:34<18:20,  2.75s/it]cta_rag_port:  11%|█▏        | 51/450 [48:36<17:23,  2.62s/it]cta_rag_port:  12%|█▏        | 52/450 [48:38<17:03,  2.57s/it]cta_rag_port:  12%|█▏        | 53/450 [48:42<19:25,  2.94s/it]cta_rag_port:  12%|█▏        | 54/450 [48:45<19:45,  2.99s/it]cta_rag_port:  12%|█▏        | 55/450 [48:48<18:30,  2.81s/it]cta_rag_port:  12%|█▏        | 56/450 [48:51<19:23,  2.95s/it]cta_rag_port:  13%|█▎        | 57/450 [48:53<17:38,  2.69s/it]cta_rag_port:  13%|█▎        | 58/450 [48:58<21:06,  3.23s/it]cta_rag_port:  13%|█▎        | 59/450 [49:00<18:38,  2.86s/it]cta_rag_port:  13%|█▎        | 60/450 [49:02<17:25,  2.68s/it]cta_rag_port:  14%|█▎        | 61/450 [49:04<15:54,  2.45s/it]cta_rag_port:  14%|█▍        | 62/450 [49:07<18:03,  2.79s/it]cta_rag_port:  14%|█▍        | 63/450 [49:10<16:52,  2.62s/it]cta_rag_port:  14%|█▍        | 64/450 [49:12<16:20,  2.54s/it]cta_rag_port:  14%|█▍        | 65/450 [49:14<16:12,  2.52s/it]cta_rag_port:  15%|█▍        | 66/450 [49:17<16:50,  2.63s/it]cta_rag_port:  15%|█▍        | 67/450 [49:20<17:06,  2.68s/it]cta_rag_port:  15%|█▌        | 68/450 [49:23<16:34,  2.60s/it]cta_rag_port:  15%|█▌        | 69/450 [49:27<20:43,  3.27s/it]cta_rag_port:  16%|█▌        | 70/450 [49:30<19:04,  3.01s/it]cta_rag_port:  16%|█▌        | 71/450 [49:32<17:31,  2.77s/it]cta_rag_port:  16%|█▌        | 72/450 [49:34<16:36,  2.64s/it]cta_rag_port:  16%|█▌        | 73/450 [49:39<19:59,  3.18s/it]cta_rag_port:  16%|█▋        | 74/450 [49:41<17:55,  2.86s/it]cta_rag_port:  17%|█▋        | 75/450 [49:43<16:50,  2.69s/it]cta_rag_port:  17%|█▋        | 76/450 [49:45<15:40,  2.52s/it]cta_rag_port:  17%|█▋        | 77/450 [49:55<29:16,  4.71s/it]cta_rag_port:  17%|█▋        | 78/450 [49:58<25:30,  4.12s/it]cta_rag_port:  18%|█▊        | 79/450 [50:00<22:19,  3.61s/it]cta_rag_port:  18%|█▊        | 80/450 [50:05<23:55,  3.88s/it]cta_rag_port:  18%|█▊        | 81/450 [50:10<25:40,  4.17s/it]cta_rag_port:  18%|█▊        | 82/450 [50:12<22:47,  3.72s/it]cta_rag_port:  18%|█▊        | 83/450 [50:15<21:45,  3.56s/it]cta_rag_port:  19%|█▊        | 84/450 [50:19<21:25,  3.51s/it]cta_rag_port:  19%|█▉        | 85/450 [50:21<18:51,  3.10s/it]cta_rag_port:  19%|█▉        | 86/450 [50:23<16:58,  2.80s/it]cta_rag_port:  19%|█▉        | 87/450 [50:25<15:48,  2.61s/it]cta_rag_port:  20%|█▉        | 88/450 [50:27<14:58,  2.48s/it]cta_rag_port:  20%|█▉        | 89/450 [50:30<14:13,  2.36s/it]cta_rag_port:  20%|██        | 90/450 [50:31<13:15,  2.21s/it]cta_rag_port:  20%|██        | 91/450 [50:34<14:19,  2.39s/it]cta_rag_port:  20%|██        | 92/450 [50:37<15:16,  2.56s/it]cta_rag_port:  21%|██        | 93/450 [50:40<15:56,  2.68s/it]cta_rag_port:  21%|██        | 94/450 [50:43<16:01,  2.70s/it]cta_rag_port:  21%|██        | 95/450 [50:46<17:38,  2.98s/it]cta_rag_port:  21%|██▏       | 96/450 [50:50<17:49,  3.02s/it]cta_rag_port:  22%|██▏       | 97/450 [50:52<16:30,  2.81s/it]cta_rag_port:  22%|██▏       | 98/450 [50:54<15:57,  2.72s/it]INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+cta_rag_port:  22%|██▏       | 99/450 [50:57<15:01,  2.57s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1261.77it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+cta_rag_port:  22%|██▏       | 100/450 [51:05<25:54,  4.44s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+cta_rag_port:  22%|██▏       | 101/450 [51:07<21:37,  3.72s/it]INFO:pipelines.understanding_pipeline:Knowledge base vector DB loaded successfully
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  89%|████████▉ | 92/103 [00:00<00:00, 789.96it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 872.24it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+cta_rag_port:  23%|██▎       | 102/450 [51:16<30:24,  5.24s/it]INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+INFO:pipelines.understanding_pipeline:CWE vector DB loaded successfully
+cta_rag_port:  23%|██▎       | 103/450 [51:21<29:03,  5.03s/it]INFO:pipelines.understanding_pipeline:UnderstandingPipeline initialized successfully
+rcm:oracle:   0%|          | 0/1000 [00:00<?, ?it/s]cta_rag_port:  23%|██▎       | 104/450 [51:24<25:40,  4.45s/it]cta_rag_port:  23%|██▎       | 105/450 [51:26<21:40,  3.77s/it]cta_rag_port:  24%|██▎       | 106/450 [51:28<18:51,  3.29s/it]cta_rag_port:  24%|██▍       | 107/450 [51:31<17:35,  3.08s/it]cta_rag_port:  24%|██▍       | 108/450 [51:34<17:26,  3.06s/it]cta_rag_port:  24%|██▍       | 109/450 [51:40<22:34,  3.97s/it]cta_rag_port:  24%|██▍       | 110/450 [51:46<26:35,  4.69s/it]INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+cta_rag_port:  25%|██▍       | 111/450 [51:54<31:20,  5.55s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 1/1000 [00:34<9:29:41, 34.22s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+cta_rag_port:  25%|██▍       | 112/450 [51:56<26:17,  4.67s/it]Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  65%|██████▌   | 67/103 [00:00<00:00, 565.12it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 653.26it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+cta_rag_port:  25%|██▌       | 113/450 [51:59<22:21,  3.98s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+cta_rag_port:  25%|██▌       | 114/450 [52:01<19:23,  3.46s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+cta_rag_port:  26%|██▌       | 115/450 [52:04<17:47,  3.19s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 2/1000 [00:44<5:32:11, 19.97s/it]INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+INFO:faiss.loader:Loading faiss.
+cta_rag_port:  26%|██▌       | 116/450 [52:07<17:22,  3.12s/it]INFO:faiss.loader:Successfully loaded faiss.
+ERROR:pipelines.understanding_pipeline:Error loading FAISS database from /mnt/c/Users/SK/CTI-Chatbot/pipelines/../vector_dbs/memorization_vdb: Error in void faiss::read_xb_vector(VectorT&, IOReader*) [with VectorT = MaybeOwnedVector<unsigned char>] at /project/faiss/impl/index_read.cpp:276: Error: 'ret == (size)' failed: read error in /mnt/c/Users/SK/CTI-Chatbot/pipelines/../vector_dbs/memorization_vdb/index.faiss: 4051 != 31873536 (Cannot allocate memory)
+ERROR:pipelines.understanding_pipeline:Failed to load knowledge base vector DB: Error in void faiss::read_xb_vector(VectorT&, IOReader*) [with VectorT = MaybeOwnedVector<unsigned char>] at /project/faiss/impl/index_read.cpp:276: Error: 'ret == (size)' failed: read error in /mnt/c/Users/SK/CTI-Chatbot/pipelines/../vector_dbs/memorization_vdb/index.faiss: 4051 != 31873536 (Cannot allocate memory)
+INFO:sentence_transformers.base.model:No device provided, using cpu
+cta_rag_port:  26%|██▌       | 117/450 [52:09<16:36,  2.99s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+cta_rag_port:  26%|██▌       | 118/450 [52:13<17:11,  3.11s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1332.15it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+cta_rag_port:  26%|██▋       | 119/450 [52:15<15:37,  2.83s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+cta_rag_port:  27%|██▋       | 120/450 [52:18<15:23,  2.80s/it]INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 3/1000 [00:57<4:38:53, 16.78s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+INFO:pipelines.understanding_pipeline:CWE vector DB loaded successfully
+cta_rag_port:  27%|██▋       | 121/450 [52:20<15:27,  2.82s/it]cta_rag_port:  27%|██▋       | 122/450 [52:42<41:03,  7.51s/it]ERROR:pipelines.understanding_pipeline:Failed to load CWE chunks: [Errno 12] Cannot allocate memory
+INFO:pipelines.understanding_pipeline:UnderstandingPipeline initialized successfully
+rcm:router:   0%|          | 0/1000 [00:00<?, ?it/s]cta_rag_port:  27%|██▋       | 123/450 [53:14<1:25:48, 15.74s/it]cta_rag_port:  28%|██▊       | 124/450 [53:18<1:06:25, 12.23s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 4/1000 [02:01<9:46:37, 35.34s/it]cta_rag_port:  28%|██▊       | 125/450 [53:24<56:59, 10.52s/it]  cta_rag_port:  28%|██▊       | 126/450 [53:30<47:57,  8.88s/it]cta_rag_port:  28%|██▊       | 127/450 [53:34<40:01,  7.43s/it]cta_rag_port:  28%|██▊       | 128/450 [53:44<45:18,  8.44s/it]cta_rag_port:  29%|██▊       | 129/450 [53:49<38:54,  7.27s/it]ERROR:pipelines.understanding_pipeline:Error calling OpenAI API: [Errno 12] Cannot allocate memory: '/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/resources/beta/responses'
+rcm:router:   0%|          | 1/1000 [00:49<13:35:41, 48.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   0%|          | 5/1000 [02:42<10:19:44, 37.37s/it]cta_rag_port:  29%|██▉       | 130/450 [54:10<1:00:13, 11.29s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   0%|          | 2/1000 [01:09<8:59:39, 32.44s/it] cta_rag_port:  29%|██▉       | 131/450 [54:22<1:01:06, 11.49s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   0%|          | 3/1000 [01:19<6:04:32, 21.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   0%|          | 4/1000 [01:29<4:49:45, 17.46s/it]cta_rag_port:  29%|██▉       | 132/450 [54:46<1:21:21, 15.35s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   0%|          | 5/1000 [01:39<4:04:34, 14.75s/it]cta_rag_port:  30%|██▉       | 133/450 [54:54<1:09:24, 13.14s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   1%|          | 6/1000 [01:47<3:26:38, 12.47s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   1%|          | 7/1000 [01:52<2:44:57,  9.97s/it]cta_rag_port:  30%|██▉       | 134/450 [55:06<1:07:08, 12.75s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   1%|          | 8/1000 [01:57<2:18:25,  8.37s/it]rcm:oracle:   1%|          | 6/1000 [03:47<12:54:34, 46.75s/it]cta_rag_port:  30%|███       | 135/450 [55:11<55:03, 10.49s/it]  INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   1%|          | 9/1000 [02:05<2:14:55,  8.17s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   1%|          | 10/1000 [02:11<2:02:16,  7.41s/it]cta_rag_port:  30%|███       | 136/450 [55:24<58:21, 11.15s/it]cta_rag_port:  30%|███       | 137/450 [55:30<50:11,  9.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   1%|          | 11/1000 [02:20<2:10:46,  7.93s/it]cta_rag_port:  31%|███       | 138/450 [55:35<42:54,  8.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   1%|          | 12/1000 [02:26<2:00:34,  7.32s/it]cta_rag_port:  31%|███       | 139/450 [55:38<35:05,  6.77s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   1%|▏         | 13/1000 [02:34<2:04:53,  7.59s/it]cta_rag_port:  31%|███       | 140/450 [55:45<35:05,  6.79s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   1%|▏         | 14/1000 [02:42<2:05:44,  7.65s/it]cta_rag_port:  31%|███▏      | 141/450 [55:53<36:33,  7.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 7/1000 [04:32<12:45:30, 46.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   2%|▏         | 15/1000 [02:56<2:38:10,  9.64s/it]cta_rag_port:  32%|███▏      | 142/450 [56:07<47:34,  9.27s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   2%|▏         | 16/1000 [03:05<2:37:12,  9.59s/it]cta_rag_port:  32%|███▏      | 143/450 [56:21<54:35, 10.67s/it]cta_rag_port:  32%|███▏      | 144/450 [56:23<41:43,  8.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   2%|▏         | 17/1000 [03:14<2:30:17,  9.17s/it]cta_rag_port:  32%|███▏      | 145/450 [56:27<35:21,  6.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   2%|▏         | 18/1000 [03:19<2:11:08,  8.01s/it]cta_rag_port:  32%|███▏      | 146/450 [56:31<30:28,  6.02s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 8/1000 [05:11<12:10:01, 44.16s/it]cta_rag_port:  33%|███▎      | 147/450 [56:34<25:29,  5.05s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   2%|▏         | 19/1000 [03:28<2:16:00,  8.32s/it]cta_rag_port:  33%|███▎      | 148/450 [56:40<26:46,  5.32s/it]cta_rag_port:  33%|███▎      | 149/450 [56:44<24:49,  4.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 9/1000 [05:23<9:23:37, 34.12s/it] INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   2%|▏         | 20/1000 [03:35<2:08:06,  7.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   2%|▏         | 21/1000 [03:42<2:03:49,  7.59s/it]cta_rag_port:  33%|███▎      | 150/450 [56:55<33:27,  6.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 10/1000 [05:36<7:35:31, 27.61s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   2%|▏         | 22/1000 [03:48<1:56:19,  7.14s/it]cta_rag_port:  34%|███▎      | 151/450 [56:59<29:07,  5.85s/it]cta_rag_port:  34%|███▍      | 152/450 [57:01<24:03,  4.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   2%|▏         | 23/1000 [03:54<1:50:22,  6.78s/it]cta_rag_port:  34%|███▍      | 153/450 [57:05<22:42,  4.59s/it]cta_rag_port:  34%|███▍      | 154/450 [57:08<19:54,  4.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 11/1000 [05:47<6:08:02, 22.33s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   2%|▏         | 24/1000 [04:01<1:53:57,  7.01s/it]cta_rag_port:  34%|███▍      | 155/450 [57:13<21:00,  4.27s/it]cta_rag_port:  35%|███▍      | 156/450 [57:15<17:42,  3.61s/it]cta_rag_port:  35%|███▍      | 157/450 [57:17<15:23,  3.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   2%|▎         | 25/1000 [04:07<1:47:17,  6.60s/it]cta_rag_port:  35%|███▌      | 158/450 [57:20<14:33,  2.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|          | 12/1000 [05:59<5:17:08, 19.26s/it]cta_rag_port:  35%|███▌      | 159/450 [57:22<13:45,  2.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   3%|▎         | 26/1000 [04:11<1:36:53,  5.97s/it]cta_rag_port:  36%|███▌      | 160/450 [57:24<11:48,  2.44s/it]cta_rag_port:  36%|███▌      | 161/450 [57:27<12:37,  2.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   3%|▎         | 27/1000 [04:17<1:33:35,  5.77s/it]cta_rag_port:  36%|███▌      | 162/450 [57:30<13:01,  2.71s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|▏         | 13/1000 [06:09<4:30:23, 16.44s/it]cta_rag_port:  36%|███▌      | 163/450 [57:33<13:48,  2.89s/it]cta_rag_port:  36%|███▋      | 164/450 [57:36<14:48,  3.11s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   3%|▎         | 28/1000 [04:28<1:59:27,  7.37s/it]cta_rag_port:  37%|███▋      | 165/450 [57:40<14:58,  3.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   1%|▏         | 14/1000 [06:21<4:09:45, 15.20s/it]cta_rag_port:  37%|███▋      | 166/450 [57:43<15:26,  3.26s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   3%|▎         | 29/1000 [04:36<2:03:48,  7.65s/it]cta_rag_port:  37%|███▋      | 167/450 [57:52<23:20,  4.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 15/1000 [06:32<3:49:37, 13.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   3%|▎         | 30/1000 [04:44<2:03:46,  7.66s/it]cta_rag_port:  37%|███▋      | 168/450 [57:58<24:12,  5.15s/it]cta_rag_port:  38%|███▊      | 169/450 [58:00<19:54,  4.25s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 16/1000 [06:42<3:25:01, 12.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   3%|▎         | 31/1000 [04:52<2:07:59,  7.92s/it]cta_rag_port:  38%|███▊      | 170/450 [58:04<20:15,  4.34s/it]cta_rag_port:  38%|███▊      | 171/450 [58:06<16:58,  3.65s/it]cta_rag_port:  38%|███▊      | 172/450 [58:08<14:40,  3.17s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   3%|▎         | 32/1000 [05:01<2:13:58,  8.30s/it]cta_rag_port:  38%|███▊      | 173/450 [58:13<16:39,  3.61s/it]cta_rag_port:  39%|███▊      | 174/450 [58:15<14:42,  3.20s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 17/1000 [06:54<3:26:46, 12.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   3%|▎         | 33/1000 [05:07<1:59:24,  7.41s/it]cta_rag_port:  39%|███▉      | 175/450 [58:18<13:36,  2.97s/it]cta_rag_port:  39%|███▉      | 176/450 [58:21<14:22,  3.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   3%|▎         | 34/1000 [05:11<1:43:58,  6.46s/it]cta_rag_port:  39%|███▉      | 177/450 [58:24<13:36,  2.99s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 18/1000 [07:05<3:18:09, 12.11s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   4%|▎         | 35/1000 [05:18<1:45:22,  6.55s/it]cta_rag_port:  40%|███▉      | 178/450 [58:34<22:30,  4.96s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   4%|▎         | 36/1000 [05:25<1:47:12,  6.67s/it]cta_rag_port:  40%|███▉      | 179/450 [58:36<18:53,  4.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 19/1000 [07:14<3:02:49, 11.18s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   4%|▎         | 37/1000 [05:29<1:36:45,  6.03s/it]cta_rag_port:  40%|████      | 180/450 [58:41<19:56,  4.43s/it]cta_rag_port:  40%|████      | 181/450 [58:43<17:16,  3.85s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 20/1000 [07:22<2:45:45, 10.15s/it]cta_rag_port:  40%|████      | 182/450 [58:46<15:28,  3.47s/it]cta_rag_port:  41%|████      | 183/450 [58:49<14:53,  3.35s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   4%|▍         | 38/1000 [05:39<1:55:21,  7.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 21/1000 [07:31<2:37:58,  9.68s/it]cta_rag_port:  41%|████      | 184/450 [58:55<17:44,  4.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   4%|▍         | 39/1000 [05:46<1:52:27,  7.02s/it]cta_rag_port:  41%|████      | 185/450 [58:59<18:21,  4.15s/it]cta_rag_port:  41%|████▏     | 186/450 [59:01<15:25,  3.50s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   4%|▍         | 40/1000 [05:51<1:42:18,  6.39s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 22/1000 [07:41<2:40:05,  9.82s/it]cta_rag_port:  42%|████▏     | 187/450 [59:07<17:58,  4.10s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   4%|▍         | 41/1000 [05:58<1:46:38,  6.67s/it]cta_rag_port:  42%|████▏     | 188/450 [59:10<17:13,  3.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 23/1000 [07:52<2:47:48, 10.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   4%|▍         | 42/1000 [06:05<1:49:37,  6.87s/it]cta_rag_port:  42%|████▏     | 189/450 [59:18<22:46,  5.23s/it]cta_rag_port:  42%|████▏     | 190/450 [59:20<18:22,  4.24s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   4%|▍         | 43/1000 [06:12<1:47:04,  6.71s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▏         | 24/1000 [08:01<2:41:40,  9.94s/it]cta_rag_port:  42%|████▏     | 191/450 [59:23<16:39,  3.86s/it]cta_rag_port:  43%|████▎     | 192/450 [59:25<14:17,  3.33s/it]cta_rag_port:  43%|████▎     | 193/450 [59:27<12:34,  2.93s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   4%|▍         | 44/1000 [06:19<1:48:25,  6.80s/it]cta_rag_port:  43%|████▎     | 194/450 [59:30<12:01,  2.82s/it]cta_rag_port:  43%|████▎     | 195/450 [59:32<11:34,  2.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   2%|▎         | 25/1000 [08:12<2:45:38, 10.19s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   4%|▍         | 45/1000 [06:25<1:44:11,  6.55s/it]cta_rag_port:  44%|████▎     | 196/450 [59:36<12:47,  3.02s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   5%|▍         | 46/1000 [06:31<1:43:12,  6.49s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 26/1000 [08:21<2:37:16,  9.69s/it]cta_rag_port:  44%|████▍     | 197/450 [59:46<21:08,  5.01s/it]cta_rag_port:  44%|████▍     | 198/450 [59:49<18:07,  4.31s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   5%|▍         | 47/1000 [06:40<1:54:57,  7.24s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 27/1000 [08:30<2:34:43,  9.54s/it]cta_rag_port:  44%|████▍     | 199/450 [59:52<16:58,  4.06s/it]cta_rag_port:  44%|████▍     | 200/450 [59:56<16:55,  4.06s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   5%|▍         | 48/1000 [06:46<1:48:22,  6.83s/it]cta_rag_port:  45%|████▍     | 201/450 [59:58<14:46,  3.56s/it]cta_rag_port:  45%|████▍     | 202/450 [1:00:01<12:52,  3.11s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 28/1000 [08:41<2:42:01, 10.00s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   5%|▍         | 49/1000 [06:55<1:58:56,  7.50s/it]cta_rag_port:  45%|████▌     | 203/450 [1:00:08<18:11,  4.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:pipelines.understanding_pipeline:Error calling OpenAI API: Error code: 400 - {'error': {'message': 'Could not finish the message because max_tokens or model output limit was reached. Please try again with higher max_tokens.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+rcm:router:   5%|▌         | 50/1000 [07:03<1:59:02,  7.52s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 29/1000 [08:52<2:49:07, 10.45s/it]cta_rag_port:  45%|████▌     | 204/450 [1:00:16<22:07,  5.40s/it]cta_rag_port:  46%|████▌     | 205/450 [1:00:18<18:28,  4.53s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   5%|▌         | 51/1000 [07:08<1:51:17,  7.04s/it]cta_rag_port:  46%|████▌     | 206/450 [1:00:20<15:15,  3.75s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 30/1000 [09:01<2:40:54,  9.95s/it]cta_rag_port:  46%|████▌     | 207/450 [1:00:24<15:43,  3.88s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   5%|▌         | 52/1000 [07:17<1:56:44,  7.39s/it]cta_rag_port:  46%|████▌     | 208/450 [1:00:28<15:08,  3.76s/it]cta_rag_port:  46%|████▋     | 209/450 [1:00:31<14:31,  3.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   5%|▌         | 53/1000 [07:21<1:40:06,  6.34s/it]cta_rag_port:  47%|████▋     | 210/450 [1:00:35<14:24,  3.60s/it]cta_rag_port:  47%|████▋     | 211/450 [1:00:37<12:32,  3.15s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 31/1000 [09:16<3:05:56, 11.51s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   5%|▌         | 54/1000 [07:28<1:45:41,  6.70s/it]cta_rag_port:  47%|████▋     | 212/450 [1:00:40<12:37,  3.18s/it]cta_rag_port:  47%|████▋     | 213/450 [1:00:42<11:20,  2.87s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   6%|▌         | 55/1000 [07:37<1:56:31,  7.40s/it]cta_rag_port:  48%|████▊     | 214/450 [1:00:51<17:56,  4.56s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 32/1000 [09:32<3:25:15, 12.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   6%|▌         | 56/1000 [07:45<1:57:09,  7.45s/it]cta_rag_port:  48%|████▊     | 215/450 [1:00:57<20:18,  5.18s/it]cta_rag_port:  48%|████▊     | 216/450 [1:01:00<17:53,  4.59s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 33/1000 [09:40<3:03:05, 11.36s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   6%|▌         | 57/1000 [07:51<1:50:52,  7.05s/it]cta_rag_port:  48%|████▊     | 217/450 [1:01:03<15:07,  3.90s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   6%|▌         | 58/1000 [07:57<1:47:30,  6.85s/it]cta_rag_port:  48%|████▊     | 218/450 [1:01:12<20:57,  5.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   3%|▎         | 34/1000 [09:51<2:59:04, 11.12s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   6%|▌         | 59/1000 [08:03<1:44:30,  6.66s/it]cta_rag_port:  49%|████▊     | 219/450 [1:01:20<24:42,  6.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▎         | 35/1000 [10:00<2:50:49, 10.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   6%|▌         | 60/1000 [08:11<1:48:29,  6.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   6%|▌         | 61/1000 [08:16<1:37:50,  6.25s/it]cta_rag_port:  49%|████▉     | 220/450 [1:01:31<29:23,  7.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▎         | 36/1000 [10:11<2:53:48, 10.82s/it]cta_rag_port:  49%|████▉     | 221/450 [1:01:33<23:03,  6.04s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   6%|▌         | 62/1000 [08:23<1:43:41,  6.63s/it]cta_rag_port:  49%|████▉     | 222/450 [1:01:35<18:22,  4.84s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   6%|▋         | 63/1000 [08:28<1:34:13,  6.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▎         | 37/1000 [10:20<2:42:25, 10.12s/it]cta_rag_port:  50%|████▉     | 223/450 [1:01:43<21:29,  5.68s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   6%|▋         | 64/1000 [08:33<1:30:20,  5.79s/it]cta_rag_port:  50%|████▉     | 224/450 [1:01:47<19:48,  5.26s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 38/1000 [10:29<2:35:17,  9.69s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   6%|▋         | 65/1000 [08:39<1:33:10,  5.98s/it]cta_rag_port:  50%|█████     | 225/450 [1:01:54<21:46,  5.80s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   7%|▋         | 66/1000 [08:45<1:31:08,  5.85s/it]cta_rag_port:  50%|█████     | 226/450 [1:01:57<17:49,  4.78s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 39/1000 [10:37<2:30:26,  9.39s/it]cta_rag_port:  50%|█████     | 227/450 [1:02:00<16:15,  4.37s/it]cta_rag_port:  51%|█████     | 228/450 [1:02:02<13:54,  3.76s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   7%|▋         | 67/1000 [08:52<1:38:01,  6.30s/it]cta_rag_port:  51%|█████     | 229/450 [1:02:05<12:08,  3.30s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 40/1000 [10:47<2:31:44,  9.48s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   7%|▋         | 68/1000 [08:58<1:35:17,  6.13s/it]cta_rag_port:  51%|█████     | 230/450 [1:02:13<17:14,  4.70s/it]cta_rag_port:  51%|█████▏    | 231/450 [1:02:15<14:23,  3.94s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   7%|▋         | 69/1000 [09:04<1:33:28,  6.02s/it]cta_rag_port:  52%|█████▏    | 232/450 [1:02:17<12:26,  3.42s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 41/1000 [10:56<2:27:51,  9.25s/it]cta_rag_port:  52%|█████▏    | 233/450 [1:02:19<10:48,  2.99s/it]cta_rag_port:  52%|█████▏    | 234/450 [1:02:21<09:50,  2.74s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   7%|▋         | 70/1000 [09:12<1:41:48,  6.57s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 42/1000 [11:04<2:22:25,  8.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   7%|▋         | 71/1000 [09:18<1:38:18,  6.35s/it]cta_rag_port:  52%|█████▏    | 235/450 [1:02:29<15:48,  4.41s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 43/1000 [11:11<2:14:54,  8.46s/it]cta_rag_port:  52%|█████▏    | 236/450 [1:02:33<15:09,  4.25s/it]cta_rag_port:  53%|█████▎    | 237/450 [1:02:36<12:53,  3.63s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   7%|▋         | 72/1000 [09:25<1:42:50,  6.65s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 44/1000 [11:17<2:01:54,  7.65s/it]cta_rag_port:  53%|█████▎    | 238/450 [1:02:41<14:15,  4.04s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   7%|▋         | 73/1000 [09:31<1:39:26,  6.44s/it]cta_rag_port:  53%|█████▎    | 239/450 [1:02:47<17:17,  4.92s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   7%|▋         | 74/1000 [09:37<1:36:27,  6.25s/it]cta_rag_port:  53%|█████▎    | 240/450 [1:02:50<14:26,  4.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   4%|▍         | 45/1000 [11:28<2:18:45,  8.72s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+cta_rag_port:  54%|█████▎    | 241/450 [1:02:54<14:31,  4.17s/it]rcm:router:   8%|▊         | 75/1000 [09:43<1:37:01,  6.29s/it]cta_rag_port:  54%|█████▍    | 242/450 [1:02:57<13:13,  3.81s/it]cta_rag_port:  54%|█████▍    | 243/450 [1:03:00<11:51,  3.44s/it]cta_rag_port:  54%|█████▍    | 244/450 [1:03:02<10:26,  3.04s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 46/1000 [11:40<2:33:40,  9.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   8%|▊         | 76/1000 [09:52<1:50:48,  7.20s/it]cta_rag_port:  54%|█████▍    | 245/450 [1:03:04<09:39,  2.83s/it]cta_rag_port:  55%|█████▍    | 246/450 [1:03:06<08:58,  2.64s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   8%|▊         | 77/1000 [09:57<1:39:53,  6.49s/it]cta_rag_port:  55%|█████▍    | 247/450 [1:03:09<09:16,  2.74s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 47/1000 [11:49<2:31:44,  9.55s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   8%|▊         | 78/1000 [10:03<1:36:32,  6.28s/it]cta_rag_port:  55%|█████▌    | 248/450 [1:03:19<16:39,  4.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   8%|▊         | 79/1000 [10:08<1:32:35,  6.03s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 48/1000 [11:59<2:33:44,  9.69s/it]cta_rag_port:  55%|█████▌    | 249/450 [1:03:22<14:16,  4.26s/it]cta_rag_port:  56%|█████▌    | 250/450 [1:03:25<12:49,  3.85s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   8%|▊         | 80/1000 [10:14<1:29:49,  5.86s/it]cta_rag_port:  56%|█████▌    | 251/450 [1:03:27<11:03,  3.34s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▍         | 49/1000 [12:07<2:22:32,  8.99s/it]cta_rag_port:  56%|█████▌    | 252/450 [1:03:30<10:18,  3.13s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   8%|▊         | 81/1000 [10:19<1:27:14,  5.70s/it]cta_rag_port:  56%|█████▌    | 253/450 [1:03:33<10:36,  3.23s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   8%|▊         | 82/1000 [10:27<1:37:42,  6.39s/it]cta_rag_port:  56%|█████▋    | 254/450 [1:03:38<12:27,  3.81s/it]cta_rag_port:  57%|█████▋    | 255/450 [1:03:42<11:54,  3.66s/it]cta_rag_port:  57%|█████▋    | 256/450 [1:03:45<11:42,  3.62s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   8%|▊         | 83/1000 [10:35<1:44:41,  6.85s/it]cta_rag_port:  57%|█████▋    | 257/450 [1:03:49<11:47,  3.67s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+cta_rag_port:  57%|█████▋    | 258/450 [1:03:53<12:07,  3.79s/it]rcm:router:   8%|▊         | 84/1000 [10:42<1:43:53,  6.81s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:router:   8%|▊         | 85/1000 [10:49<1:47:16,  7.03s/it]cta_rag_port:  58%|█████▊    | 259/450 [1:04:01<15:45,  4.95s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+cta_rag_port:  58%|█████▊    | 260/450 [1:04:05<15:15,  4.82s/it]rcm:router:   9%|▊         | 86/1000 [10:58<1:53:18,  7.44s/it]INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+rcm:oracle:   5%|▌         | 50/1000 [13:07<6:00:27, 22.77s/it]rcm:router:   9%|▊         | 87/1000 [11:29<3:23:00, 13.34s/it]

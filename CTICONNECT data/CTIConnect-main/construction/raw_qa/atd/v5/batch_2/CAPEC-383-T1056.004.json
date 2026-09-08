@@ -1,0 +1,23 @@
+{
+  "question": "An adversary creates and hosts an in-application event, then monitors API data exchanged during attendee interactions (e.g., via a proxy) to harvest usernames/user IDs for later automated spamming. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to the described attack pattern?",
+  "answer": "- T1056.004.\n- T1056.004 corresponds to API monitoring via hooked credential APIs, mapping CAPEC-383: harvesting leaked user identifiers from application event transactions.",
+  "llm_cost": {
+    "input": 0.000856,
+    "cached_input": 0.0,
+    "output": 0.00115,
+    "total": 0.002006,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 685,
+      "cached_input": 0,
+      "output": 115
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.882
+  }
+}

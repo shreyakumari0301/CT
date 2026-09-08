@@ -1,0 +1,10 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "disclosed", "tgt_type": "threat_actor", "tgt_name": "MoustachedBouncer", "source_chunks": ["BLOG-210::ch0"]}
+{"src_type": "threat_actor", "src_name": "MoustachedBouncer", "predicate": "targets", "tgt_type": "identity", "tgt_name": "foreign embassies in Belarus", "source_chunks": ["BLOG-210::ch0"]}
+{"src_type": "threat_actor", "src_name": "MoustachedBouncer", "predicate": "uses", "tgt_type": "malware", "tgt_name": "NightClub", "source_chunks": ["BLOG-210::ch0"]}
+{"src_type": "threat_actor", "src_name": "MoustachedBouncer", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Disco", "source_chunks": ["BLOG-210::ch0"]}
+{"src_type": "threat_actor", "src_name": "MoustachedBouncer", "predicate": "low_confidence_cooperates_with", "tgt_type": "threat_actor", "tgt_name": "Winter Vivern", "source_chunks": ["BLOG-210::ch0"]}
+{"src_type": "malware", "src_name": "Disco", "predicate": "successor_of", "tgt_type": "malware", "tgt_name": "NightClub", "source_chunks": ["BLOG-210::ch0"]}
+{"src_type": "malware", "src_name": "Disco", "predicate": "delivered_via", "tgt_type": "attack_pattern", "tgt_name": "Adversary-in-the-middle (AitM)", "source_chunks": ["BLOG-210::ch0"]}
+{"src_type": "malware", "src_name": "jdrop.js", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "OfficeBroker", "source_chunks": ["BLOG-210::ch0"]}
+{"src_type": "malware", "src_name": "OfficeBroker", "predicate": "delivered_from", "tgt_type": "identity", "tgt_name": "Google Cloud", "source_chunks": ["BLOG-210::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Adversary-in-the-middle (AitM)", "predicate": "likely_leverages", "tgt_type": "identity", "tgt_name": "Belarus’s SORM lawful interception", "source_chunks": ["BLOG-210::ch0"]}

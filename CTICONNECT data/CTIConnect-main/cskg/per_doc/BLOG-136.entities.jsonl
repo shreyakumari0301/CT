@@ -1,0 +1,16 @@
+{"entity_type": "malware", "canonical_name": "Fog ransomware", "aliases": ["Fog"], "properties": {"family": "Fog"}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "identity", "canonical_name": "Asian financial institution", "aliases": [], "properties": {"sector": "financial", "region": "Asia"}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Exchange Server", "aliases": ["Exchange Servers"], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "malware", "canonical_name": "GC2", "aliases": ["GC2 implants"], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Sheets", "aliases": [], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "tool", "canonical_name": "SharePoint", "aliases": [], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "tool", "canonical_name": "Stowaway", "aliases": [], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "tool", "canonical_name": "Syteca", "aliases": ["Ekran", "Syteca (formerly Ekran) employee-monitoring client"], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "tool", "canonical_name": "SMBExec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "tool", "canonical_name": "FreeFileSync", "aliases": [], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "tool", "canonical_name": "MegaSync", "aliases": [], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "tool", "canonical_name": "7-Zip", "aliases": [], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-40711", "aliases": ["Veeam CVE-2024-40711"], "properties": {"cve_id": "CVE-2024-40711"}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "identity", "canonical_name": "Veeam", "aliases": [], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}
+{"entity_type": "tool", "canonical_name": "SecurityHealthIron", "aliases": ["SecurityHealthIron service"], "properties": {}, "source_chunks": ["BLOG-136::ch0"]}

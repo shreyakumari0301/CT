@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Non-persistent \u201csmash-and-grab\u201d malware left minimal artifacts; limited endpoint/account telemetry and retrospective visibility delayed user notification and detection of past compromise.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) whether this CWE affects our specific stack such as Java, Python, or web frameworks by detailing its applicable platforms.",
+  "answer": "1) CWE-778: Insufficient Logging\n2) Mapping Explanation: The vulnerability description highlights that the malware\u2019s non-persistence and minimal artifact footprint, together with limited telemetry, resulted in delayed detection of compromise. This characteristic aligns with CWE-778, which addresses issues where inadequate logging prevents timely detection and notification of security incidents.\n3) Applicable Platforms: The CWE reference indicates that the applicable platforms are 'Not Language-Specific' for programming languages and it is associated with 'Cloud Computing' in the technology category.",
+  "llm_timing": {
+    "api_call_seconds": 3.9302
+  }
+}

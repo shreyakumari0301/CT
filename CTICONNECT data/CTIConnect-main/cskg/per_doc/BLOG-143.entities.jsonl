@@ -1,0 +1,28 @@
+{"entity_type": "threat_actor", "canonical_name": "MuddyWater", "aliases": ["Seedworm", "TEMP.Zagros", "Static Kitten", "Mango Sandstorm", "MERCURY"], "properties": {"country": "Iran", "primary_motivation": "espionage", "sectors_targeted": ["telecommunications"], "regions_targeted": ["Egypt", "Sudan", "Tanzania"], "first_seen": "November 2023"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "identity", "canonical_name": "MOIS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "campaign", "canonical_name": "targeted cyber-espionage campaign against telecommunications organizations in Egypt, Sudan and Tanzania", "aliases": [], "properties": {"objective": "cyber-espionage", "first_seen": "November 2023"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecommunications organizations in Egypt, Sudan and Tanzania", "aliases": ["telecommunications organizations"], "properties": {"sector": "telecommunications", "region": "Egypt, Sudan, Tanzania"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "identity", "canonical_name": "Egypt", "aliases": [], "properties": {"region": "Egypt"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "identity", "canonical_name": "Sudan", "aliases": [], "properties": {"region": "Sudan"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "identity", "canonical_name": "Tanzania", "aliases": [], "properties": {"region": "Tanzania"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "malware", "canonical_name": "MuddyC2Go", "aliases": ["MuddyC2Go framework", "PowerShell-based MuddyC2Go DLL launcher"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "indicator", "canonical_name": "vcruntime140.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "vcruntime140.dll"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "tool", "canonical_name": "jabswitch.exe", "aliases": ["Java executable jabswitch.exe"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "indicator", "canonical_name": "csidl_common_appdata\\javax", "aliases": [], "properties": {"ioc_type": "url", "value": "csidl_common_appdata\\javax"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "tool", "canonical_name": "Invoke-WebRequest", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "indicator", "canonical_name": "95.164.38.99:443", "aliases": [], "properties": {"ioc_type": "ip", "value": "95.164.38.99:443"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "indicator", "canonical_name": "45.150.64.39:443", "aliases": [], "properties": {"ioc_type": "ip", "value": "45.150.64.39:443"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled Task", "aliases": ["scheduled task creations"], "properties": {"technique_id": "T1053.005", "tactic": "Persistence"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Microsoft\\Windows\\JavaX\\Java Autorun", "aliases": [], "properties": {"ioc_type": "url", "value": "Microsoft\\Windows\\JavaX\\Java Autorun"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "tool", "canonical_name": "Impacket", "aliases": ["Impacket’s WMIExec"], "properties": {}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMIExec", "aliases": [], "properties": {"capabilities": ["lateral movement"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "tool", "canonical_name": "Revsocks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "indicator", "canonical_name": "94.131.3.160:443", "aliases": [], "properties": {"ioc_type": "ip", "value": "94.131.3.160:443"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "tool", "canonical_name": "SimpleHelp", "aliases": [], "properties": {"capabilities": ["remote administration"]}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "indicator", "canonical_name": "146.70.124.102", "aliases": [], "properties": {"ioc_type": "ip", "value": "146.70.124.102"}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "tool", "canonical_name": "AnyDesk", "aliases": [], "properties": {"capabilities": ["remote administration"]}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "malware", "canonical_name": "custom keylogger", "aliases": [], "properties": {"capabilities": ["credential harvesting"]}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "tool", "canonical_name": "JumpCloud", "aliases": [], "properties": {}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "tool", "canonical_name": "Venom Proxy", "aliases": ["Venom Proxy processes"], "properties": {}, "source_chunks": ["BLOG-143::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "LSASS Memory", "aliases": ["LSASS dumping"], "properties": {"technique_id": "T1003.001", "tactic": "Credential Access"}, "source_chunks": ["BLOG-143::ch0"]}

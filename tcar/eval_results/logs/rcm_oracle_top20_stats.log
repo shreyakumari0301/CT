@@ -1,0 +1,15 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  81%|████████  | 83/103 [00:00<00:00, 816.09it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 847.03it/s]
+{
+  "n": 1000,
+  "pool": 20,
+  "top_k": 5,
+  "gold_at_20": 0.542,
+  "gold_at_5_dense": 0.389,
+  "gold_at_5_taxonomy": 0.455,
+  "gold_at_5_taxonomy_diversify": 0.346,
+  "mean_gold_rank_when_in_20": 4.564575645756458,
+  "rerank_headroom_pp": 0.153,
+  "note": "If gold_at_20 - gold_at_5_dense is small, ranking cannot unlock much. If large, specialist rerank / Soft GAD+rerank is justified. gold_at_20 is the oracle ceiling for any reranker over this pool."
+}
+wrote /mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/rcm_oracle_top20_20260907T080443Z.json

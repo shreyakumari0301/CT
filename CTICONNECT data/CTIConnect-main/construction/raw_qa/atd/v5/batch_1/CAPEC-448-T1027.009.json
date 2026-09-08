@@ -1,0 +1,23 @@
+{
+  "question": "An adversary tampers with a dynamic-link library by hiding malicious code inside unused gaps between legitimate machine instructions created by compiler padding, then uses it to infect interfacing machines and potentially steal data or eavesdrop. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1027.009.\n- T1027.009 corresponds to embedding hidden code within legitimate files, mapping CAPEC-448: embedding a virus in DLL instruction gaps.",
+  "llm_cost": {
+    "input": 0.000755,
+    "cached_input": 0.0,
+    "output": 0.00117,
+    "total": 0.001925,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 604,
+      "cached_input": 0,
+      "output": 117
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6391
+  }
+}

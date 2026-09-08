@@ -1,0 +1,10 @@
+{"src_type": "threat_actor", "src_name": "UAC-0050", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian entities", "source_chunks": ["BLOG-159::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0050", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Polish entities", "source_chunks": ["BLOG-159::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0050", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-159::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0050", "predicate": "mounted", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-159::ch0"]}
+{"src_type": "campaign", "src_name": "February 2023 operation", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "UAC-0050", "source_chunks": ["BLOG-159::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Remcos RAT", "source_chunks": ["BLOG-159::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Meduza Stealer", "source_chunks": ["BLOG-159::ch0"]}
+{"src_type": "tool", "src_name": "mshta.exe", "predicate": "launches", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-159::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "downloads_from", "tgt_type": "indicator", "tgt_name": "new-tech-savvy.com", "source_chunks": ["BLOG-159::ch0"]}
+{"src_type": "tool", "src_name": "cmd.exe", "predicate": "decrypts_and_launches", "tgt_type": "malware", "tgt_name": "Remcos RAT", "source_chunks": ["BLOG-159::ch0"]}

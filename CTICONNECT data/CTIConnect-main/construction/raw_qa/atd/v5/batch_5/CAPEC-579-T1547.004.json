@@ -1,0 +1,23 @@
+{
+  "question": "On Windows systems prior to Vista, an attacker modifies a registry key so Winlogon loads a DLL at startup, enabling malicious code execution during logon. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1547.004.\n- T1547.004 corresponds to Winlogon-startup DLL loading, mapping CAPEC-579: changing registry so Winlogon loads a malicious helper DLL.",
+  "llm_cost": {
+    "input": 0.000753,
+    "cached_input": 0.0,
+    "output": 0.0011,
+    "total": 0.001852,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 602,
+      "cached_input": 0,
+      "output": 110
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6789
+  }
+}

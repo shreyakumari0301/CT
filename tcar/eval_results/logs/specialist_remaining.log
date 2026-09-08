@@ -1,0 +1,7 @@
+[2026-09-07T08:10:00Z] remaining specialist CF model=gpt-5.6-sol
+[2026-09-07T08:10:00Z] RCM learned rerank CF
+
+[2026-09-07T08:10:00Z] RCM gold_pin oracle CF
+[2026-09-07T08:10:00Z] ATA behavior+abstain CF
+[2026-09-07T08:10:00Z] VSP metric-wise CF
+

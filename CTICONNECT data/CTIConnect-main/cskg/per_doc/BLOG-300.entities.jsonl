@@ -1,0 +1,18 @@
+{"entity_type": "identity", "canonical_name": "ESET Research", "aliases": [], "properties": {}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Operation AkaiRyū", "aliases": [], "properties": {"objective": "cyberespionage", "first_seen": "June 2024", "last_seen": "September 2024"}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spearphishing-driven"], "properties": {"tactic": "Initial Access"}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "MirrorFace", "aliases": ["MirrorFace APT"], "properties": {"regions_targeted": ["Europe", "Central Europe"]}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT10", "aliases": ["MenuPass", "Stone Panda", "Bronze Riverside", "Cicada", "Red Apollo", "ChessMaster"], "properties": {}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "identity", "canonical_name": "Central European diplomatic institute", "aliases": [], "properties": {"sector": "diplomatic", "region": "Central Europe"}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "identity", "canonical_name": "Expo 2025", "aliases": ["Expo 2025-themed"], "properties": {}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "identity", "canonical_name": "NGO", "aliases": ["NGO communications"], "properties": {"sector": "non-governmental organization"}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "malware", "canonical_name": "ANEL", "aliases": ["UPPERCUT"], "properties": {"capabilities": ["file manipulation", "payload execution", "screenshots"]}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "malware", "canonical_name": "AsyncRAT", "aliases": ["AsyncRAT variant"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "tool", "canonical_name": "Windows Sandbox", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "malware", "canonical_name": "HiddenFace", "aliases": ["HiddenFace backdoor"], "properties": {}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "tool", "canonical_name": "Visual Studio Code Remote Tunnels", "aliases": ["Visual Studio Code’s remote tunnels", "VS Code tunnel"], "properties": {"capabilities": ["covert access", "arbitrary code execution"]}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "identity", "canonical_name": "McAfee", "aliases": [], "properties": {}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "identity", "canonical_name": "JustSystems", "aliases": [], "properties": {}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "identity", "canonical_name": "JSAC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-300::ch0"]}
+{"entity_type": "identity", "canonical_name": "January 2025", "aliases": [], "properties": {}, "source_chunks": ["BLOG-300::ch0"]}

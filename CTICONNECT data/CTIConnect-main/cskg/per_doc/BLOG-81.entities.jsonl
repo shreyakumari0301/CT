@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Lampion infostealer campaign", "aliases": [], "properties": {"first_seen": "late 2024", "last_seen": "early 2025"}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "malware", "canonical_name": "Lampion", "aliases": [], "properties": {"family": "infostealer"}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "ClickFix social-engineering lures", "aliases": ["ClickFix"], "properties": {}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "indicator", "canonical_name": "autoridade-tributaria.com", "aliases": ["autoridade-tributaria[.]com"], "properties": {"ioc_type": "domain", "value": "autoridade-tributaria.com"}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "tool", "canonical_name": "Visual Basic script", "aliases": ["VBScript", "VBS"], "properties": {}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "tool", "canonical_name": "rundll32.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "identity", "canonical_name": "Portuguese government organizations", "aliases": [], "properties": {"sector": "government", "region": "Portugal"}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "identity", "canonical_name": "Portuguese finance organizations", "aliases": [], "properties": {"sector": "finance", "region": "Portugal"}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "identity", "canonical_name": "Portuguese transportation organizations", "aliases": [], "properties": {"sector": "transportation", "region": "Portugal"}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR", "aliases": ["Cortex XDR VBS Local Analysis"], "properties": {}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "tool", "canonical_name": "WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "tool", "canonical_name": "URL Filtering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-81::ch0"]}
+{"entity_type": "tool", "canonical_name": "DNS Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-81::ch0"]}

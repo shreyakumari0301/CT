@@ -1,0 +1,23 @@
+{
+  "question": "A web service exposes an interface description file, and the application places sensitive details into files or directories that external users can access. Which CAPEC attack pattern exploits this weakness, and why can it leverage that externally readable interface file to learn sensitive information and attack the service?",
+  "answer": "- CAPEC-95.\n- CAPEC-95 exploits sensitive data exposure via externally accessible WSDL files, targeting CWE-538: inserting sensitive information into externally-accessible files or directories.",
+  "llm_cost": {
+    "input": 0.000824,
+    "cached_input": 0.0,
+    "output": 0.00107,
+    "total": 0.001894,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 659,
+      "cached_input": 0,
+      "output": 107
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.036
+  }
+}

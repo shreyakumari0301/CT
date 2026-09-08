@@ -1,0 +1,10 @@
+{"entity_type": "identity", "canonical_name": "Symantec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-132::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "TA505", "aliases": ["Clop ransomware operation", "Clop", "Snakefly", "FIN11", "Hive0065", "Chimborazo"], "properties": {"first_seen": "2023-05-27"}, "source_chunks": ["BLOG-132::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SQL injection", "aliases": [], "properties": {}, "source_chunks": ["BLOG-132::ch0"]}
+{"entity_type": "identity", "canonical_name": "MOVEit Transfer", "aliases": ["MOVEit Transfer web application"], "properties": {}, "source_chunks": ["BLOG-132::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-34362", "aliases": [], "properties": {"cve_id": "CVE-2023-34362"}, "source_chunks": ["BLOG-132::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Supply chain attack", "aliases": ["supply-chain attacks"], "properties": {}, "source_chunks": ["BLOG-132::ch0"]}
+{"entity_type": "malware", "canonical_name": "Lemurloot", "aliases": ["bespoke web shell", "web shell", "JS.Malscript!g1", "Trojan.Gen.2", "WS.Malware"], "properties": {}, "source_chunks": ["BLOG-132::ch0"]}
+{"entity_type": "identity", "canonical_name": "Azure", "aliases": [], "properties": {}, "source_chunks": ["BLOG-132::ch0"]}
+{"entity_type": "identity", "canonical_name": "MS SQL", "aliases": [], "properties": {}, "source_chunks": ["BLOG-132::ch0"]}
+{"entity_type": "identity", "canonical_name": "IIS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-132::ch0"]}

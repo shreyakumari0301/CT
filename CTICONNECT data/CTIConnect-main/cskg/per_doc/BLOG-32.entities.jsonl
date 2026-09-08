@@ -1,0 +1,8 @@
+{"entity_type": "threat_actor", "canonical_name": "APT29", "aliases": ["Nobelium", "Midnight Blizzard", "Cozy Bear", "The Dukes", "UNC2452", "YTTRIUM"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-32::ch0"]}
+{"entity_type": "campaign", "canonical_name": "month-long breach of Microsoft’s corporate email environment", "aliases": [], "properties": {"first_seen": "November 2023", "last_seen": "January 12, 2024"}, "source_chunks": ["BLOG-32::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-32::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Password spraying", "aliases": ["password-spray brute-force attack"], "properties": {}, "source_chunks": ["BLOG-32::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Brute force", "aliases": ["brute-force attack"], "properties": {}, "source_chunks": ["BLOG-32::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Email collection", "aliases": ["exfiltrated emails and attachments"], "properties": {}, "source_chunks": ["BLOG-32::ch0"]}
+{"entity_type": "campaign", "canonical_name": "SolarWinds intrusions", "aliases": ["Nobelium’s SolarWinds"], "properties": {}, "source_chunks": ["BLOG-32::ch0"]}
+{"entity_type": "campaign", "canonical_name": "2021 support-tool intrusions", "aliases": [], "properties": {"first_seen": "2021"}, "source_chunks": ["BLOG-32::ch0"]}

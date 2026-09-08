@@ -1,0 +1,11 @@
+{"entity_type": "campaign", "canonical_name": "Operation Triangulation", "aliases": [], "properties": {"first_seen": "2019"}, "source_chunks": ["BLOG-248::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian diplomats", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-248::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kaspersky employees", "aliases": [], "properties": {}, "source_chunks": ["BLOG-248::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kaspersky", "aliases": [], "properties": {}, "source_chunks": ["BLOG-248::ch0"]}
+{"entity_type": "identity", "canonical_name": "Kaspersky GReAT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-248::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-41990", "aliases": [], "properties": {"cve_id": "CVE-2023-41990"}, "source_chunks": ["BLOG-248::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-32434", "aliases": [], "properties": {"cve_id": "CVE-2023-32434"}, "source_chunks": ["BLOG-248::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-38606", "aliases": [], "properties": {"cve_id": "CVE-2023-38606"}, "source_chunks": ["BLOG-248::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-32435", "aliases": [], "properties": {"cve_id": "CVE-2023-32435"}, "source_chunks": ["BLOG-248::ch0"]}
+{"entity_type": "malware", "canonical_name": "TriangleDB", "aliases": ["TriangleDB spyware implant"], "properties": {}, "source_chunks": ["BLOG-248::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing Attachment", "aliases": ["malicious iMessage attachment"], "properties": {"technique_id": "T1566.001", "tactic": "Initial Access"}, "source_chunks": ["BLOG-248::ch0"]}

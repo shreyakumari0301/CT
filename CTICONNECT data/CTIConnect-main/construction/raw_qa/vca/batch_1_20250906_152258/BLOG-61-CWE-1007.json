@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Actor created onmicrosoft.com subdomains using homoglyphs and security\u2010themed names (e.g., mlcrosoftaccounts.onmicrosoft[.]com) to visually spoof legitimate domains and deceive users.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the identified CWE, and 3) the potential common consequences (e.g., what business risks such as data exposure, account takeover might we face) associated with this CWE.",
+  "answer": "1) CWE-1007: Insufficient Visual Distinction of Homoglyphs Presented to User\n2) Mapping Explanation: The vulnerability involves the use of visually similar characters (homoglyphs) to create deceptive subdomains, which directly corresponds to CWE-1007. This vulnerability exploits the fact that characters which look alike can be manipulated to trick users into believing they are interacting with a legitimate entity.\n3) Common Consequences: \n   1. Integrity: An attacker may forge log entries or execute actions by using deceptive visual similarities in usernames and URLs.\n   2. Confidentiality: By redirecting users to malicious websites, attackers can steal account credentials and other sensitive information.",
+  "llm_timing": {
+    "api_call_seconds": 5.6551
+  }
+}

@@ -1,0 +1,14 @@
+{"entity_type": "threat_actor", "canonical_name": "Kimsuky", "aliases": ["Velvet Chollima", "Black Banshee", "Emerald Sleet", "THALLIUM"], "properties": {"country": "North Korea", "primary_motivation": "intelligence gathering", "first_seen": "2019", "regions_targeted": ["South Korea", "global"]}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spear-phishing"], "properties": {}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "malware", "canonical_name": "AppleSeed", "aliases": ["Windows/Android DLL AppleSeed", "JamBog"], "properties": {"platforms": ["Windows", "Android"]}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "malware", "canonical_name": "AlphaSeed", "aliases": ["AlphaSeed variant"], "properties": {"family": "AppleSeed"}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "tool", "canonical_name": "chromedp", "aliases": ["chromedp library"], "properties": {}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "tool", "canonical_name": "Meterpreter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "tool", "canonical_name": "TightVNC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "malware", "canonical_name": "TinyNuke", "aliases": ["Nuclear Bot"], "properties": {}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "malware", "canonical_name": "JavaScript dropper", "aliases": [], "properties": {"platforms": ["JavaScript"]}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "identity", "canonical_name": "South Korean entities", "aliases": [], "properties": {"region": "South Korea"}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S.", "aliases": ["United States"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "identity", "canonical_name": "North Korea", "aliases": [], "properties": {"region": "North Korea"}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "tool", "canonical_name": "LinkedIn", "aliases": [], "properties": {}, "source_chunks": ["BLOG-153::ch0"]}
+{"entity_type": "tool", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-153::ch0"]}

@@ -1,0 +1,41 @@
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Trend customers", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Asia-Pacific", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "India", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Saudi Arabia", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "avoids_targeting", "tgt_type": "identity", "tgt_name": "Kazakhstan", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "avoids_targeting", "tgt_type": "identity", "tgt_name": "Russia", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "avoids_targeting", "tgt_type": "identity", "tgt_name": "Qatar", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "avoids_targeting", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-1069", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-0618", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "SQL Server xp_cmdshell", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "OneNote", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMIC", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "TargetComp ransomware", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Remcos", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Negasteal", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Snake Keylogger", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "GMER", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PCHunter64", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Advance Process Termination", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "KILLAV", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "killer.bat", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "RDP", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Mallox", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Nginx", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Exploit Public-Facing Application", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "PowerShell", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Windows Management Instrumentation", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Impair Defenses: Disable or Modify Tools", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "OS Credential Dumping: LSASS Memory", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Application Layer Protocol: Web Protocols", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "threat_actor", "src_name": "TargetCompany ransomware group", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Data Encrypted for Impact", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "tool", "src_name": "WMIC", "predicate": "invokes", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "malware", "src_name": "TargetComp ransomware", "predicate": "uses_file_extension", "tgt_type": "indicator", "tgt_name": ".mallox", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "malware", "src_name": "TargetComp ransomware", "predicate": "uses_file_extension", "tgt_type": "indicator", "tgt_name": ".exploit", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "malware", "src_name": "TargetComp ransomware", "predicate": "uses_file_extension", "tgt_type": "indicator", "tgt_name": ".avast", "source_chunks": ["BLOG-198::ch0"]}
+{"src_type": "malware", "src_name": "TargetComp ransomware", "predicate": "drops_ransom_note", "tgt_type": "indicator", "tgt_name": "HOW TO RECOVER!!.TXT", "source_chunks": ["BLOG-198::ch0"]}

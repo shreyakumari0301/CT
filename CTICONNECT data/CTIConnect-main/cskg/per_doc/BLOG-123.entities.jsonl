@@ -1,0 +1,25 @@
+{"entity_type": "identity", "canonical_name": "ConnectWise", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "tool", "canonical_name": "ScreenConnect", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-1709", "aliases": [], "properties": {"cve_id": "CVE-2024-1709", "cvss": "10.0"}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-1708", "aliases": [], "properties": {"cve_id": "CVE-2024-1708", "cvss": "8.4"}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "campaign", "canonical_name": "SlashAndGrab", "aliases": ["SlashAndGrab PoC"], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Black Basta", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Reconnaissance", "aliases": [], "properties": {"tactic": "Reconnaissance"}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Active Directory discovery", "aliases": ["AD discovery"], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privilege escalation", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Create account", "aliases": ["creation of new admin accounts"], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote-access intrusion", "aliases": ["remote-access intrusions"], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "malware", "canonical_name": "ransomware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Bl00dy", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Conti", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "LockBit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Plant ransom note", "aliases": ["plant ransom notes"], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "malware", "canonical_name": "XWorm RAT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "tool", "canonical_name": "Windows Defender", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Disable security tools", "aliases": ["disabled Windows Defender real-time protection"], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "tool", "canonical_name": "Atera", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "tool", "canonical_name": "Syncro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "tool", "canonical_name": "ScreenConnect 23.9.8", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data theft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-123::ch0"]}

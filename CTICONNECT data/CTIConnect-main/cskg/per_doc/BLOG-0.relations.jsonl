@@ -1,0 +1,13 @@
+{"src_type": "threat_actor", "src_name": "ALPHV", "predicate": "operates", "tgt_type": "malware", "tgt_name": "BlackCat", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "threat_actor", "src_name": "ALPHV", "predicate": "recruits_affiliates_from", "tgt_type": "threat_actor", "tgt_name": "BlackMatter", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "threat_actor", "src_name": "ALPHV", "predicate": "recruits_affiliates_from", "tgt_type": "threat_actor", "tgt_name": "REvil", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "threat_actor", "src_name": "ALPHV", "predicate": "recruits_affiliates_from", "tgt_type": "threat_actor", "tgt_name": "DarkSide", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "malware", "src_name": "BlackCat", "predicate": "leaks_data_on", "tgt_type": "indicator", "tgt_name": "Tor", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "malware", "src_name": "BlackCat", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. critical infrastructure", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "malware", "src_name": "BlackCat", "predicate": "targets", "tgt_type": "identity", "tgt_name": "retail", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "malware", "src_name": "BlackCat", "predicate": "targets", "tgt_type": "identity", "tgt_name": "transport", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "malware", "src_name": "BlackCat", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecom", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "malware", "src_name": "BlackCat", "predicate": "targets", "tgt_type": "identity", "tgt_name": "pharma", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "malware", "src_name": "BlackCat", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Colonial Pipeline", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "malware", "src_name": "BlackCat", "predicate": "targets", "tgt_type": "identity", "tgt_name": "German fuel terminals", "source_chunks": ["BLOG-0::ch0"]}
+{"src_type": "malware", "src_name": "BlackCat", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Belgian energy firms", "source_chunks": ["BLOG-0::ch0"]}

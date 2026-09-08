@@ -1,0 +1,21 @@
+{"entity_type": "malware", "canonical_name": "JinxLoader", "aliases": [], "properties": {"platforms": ["Go"], "capabilities": ["loader"], "first_seen": "April 2023"}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "indicator", "canonical_name": "hackforums.net", "aliases": [], "properties": {"ioc_type": "domain", "value": "hackforums.net"}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "malware", "canonical_name": "Formbook", "aliases": [], "properties": {}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "malware", "canonical_name": "XLoader", "aliases": [], "properties": {}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing via password-protected RAR email attachments", "aliases": ["password-protected RAR phishing emails"], "properties": {}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "identity", "canonical_name": "Abu Dhabi National Oil Company", "aliases": [], "properties": {}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "identity", "canonical_name": "Symantec", "aliases": [], "properties": {}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "malware", "canonical_name": "Rugmi", "aliases": ["Rugmi loader"], "properties": {"capabilities": ["loader"]}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "campaign", "canonical_name": "DarkGate campaign", "aliases": ["DarkGate campaigns"], "properties": {}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "campaign", "canonical_name": "PikaBot campaign", "aliases": ["PikaBot campaigns"], "properties": {}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "TA544", "aliases": ["Narwal Spider"], "properties": {}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "malware", "canonical_name": "IDAT Loader", "aliases": ["IDAT Loader variants"], "properties": {"capabilities": ["loader"]}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "malware", "canonical_name": "Remcos RAT", "aliases": ["Remcos"], "properties": {}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "malware", "canonical_name": "SystemBC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "malware", "canonical_name": "Meduza Stealer", "aliases": [], "properties": {"capabilities": ["credential theft", "credit card data theft", "cryptocurrency wallet theft"]}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "malware", "canonical_name": "Vortex Stealer", "aliases": [], "properties": {"capabilities": ["data exfiltration", "browser data theft", "credential theft", "Discord token theft", "Telegram session theft", "system information discovery"]}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Gofile", "aliases": [], "properties": {"ioc_type": "domain", "value": "gofile.io"}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Anonfiles", "aliases": [], "properties": {"ioc_type": "domain", "value": "anonfiles.com"}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "tool", "canonical_name": "Discord webhooks", "aliases": [], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-152::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram bots", "aliases": [], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-152::ch0"]}

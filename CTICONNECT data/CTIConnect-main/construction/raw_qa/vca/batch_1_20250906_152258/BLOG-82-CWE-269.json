@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Over-privileged endpoints and accounts (e.g., cached admin creds, service accounts) enabled rapid privilege escalation (Mimikatz, DCSync, Impacket).\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) the likelihood of exploit as noted in the reference (How often do attackers actually exploit this in real attacks?)",
+  "answer": "1) CWE-269: Improper Privilege Management\n2) Mapping Explanation: The vulnerability involves over-privileged endpoints and accounts that allow rapid privilege escalation using tools like Mimikatz, DCSync, and Impacket. This directly corresponds with CWE-269, which covers improper management of privileges that can lead to elevated access and potential abuse.\n3) Likelihood_Of_Exploit: Medium",
+  "llm_timing": {
+    "api_call_seconds": 5.1141
+  }
+}

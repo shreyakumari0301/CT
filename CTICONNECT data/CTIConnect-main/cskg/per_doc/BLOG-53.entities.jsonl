@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "Microsoft Threat Intelligence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Void Blizzard", "aliases": ["LAUNDRY BEAR"], "properties": {"country": "Russia", "primary_motivation": "espionage", "first_seen": "2024-04", "last_seen": "2025-04", "sectors_targeted": ["government", "defense", "transportation", "media", "NGO", "healthcare"], "regions_targeted": ["NATO member states", "Ukraine"]}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Password Spraying", "aliases": ["password spray attacks"], "properties": {}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Adversary-in-the-Middle Phishing", "aliases": ["adversary-in-the-middle spear phishing"], "properties": {}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spear phishing"], "properties": {}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Typosquatting", "aliases": ["typosquatted domain"], "properties": {}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "tool", "canonical_name": "AzureHound", "aliases": [], "properties": {}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "tool", "canonical_name": "Evilginx", "aliases": ["Evilginx framework"], "properties": {}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "identity", "canonical_name": "NATO member states", "aliases": [], "properties": {"region": "NATO member states"}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "identity", "canonical_name": "government organizations", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense organizations", "aliases": [], "properties": {"sector": "defense"}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "identity", "canonical_name": "transportation organizations", "aliases": [], "properties": {"sector": "transportation"}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "identity", "canonical_name": "media organizations", "aliases": [], "properties": {"sector": "media"}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "identity", "canonical_name": "NGO organizations", "aliases": [], "properties": {"sector": "NGO"}, "source_chunks": ["BLOG-53::ch0"]}
+{"entity_type": "identity", "canonical_name": "healthcare organizations", "aliases": [], "properties": {"sector": "healthcare"}, "source_chunks": ["BLOG-53::ch0"]}

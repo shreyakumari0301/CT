@@ -1,0 +1,7 @@
+{"src_type": "tool", "src_name": "kubectl", "predicate": "used_for_debugging_workflow", "tgt_type": "tool", "tgt_name": "metrics-server", "source_chunks": ["BLOG-272::ch0"]}
+{"src_type": "tool", "src_name": "kubectl", "predicate": "used_for_debugging_workflow", "tgt_type": "tool", "tgt_name": "Prometheus", "source_chunks": ["BLOG-272::ch0"]}
+{"src_type": "tool", "src_name": "kubectl", "predicate": "used_for_debugging_workflow", "tgt_type": "tool", "tgt_name": "Kubernetes dashboard", "source_chunks": ["BLOG-272::ch0"]}
+{"src_type": "tool", "src_name": "kubectl", "predicate": "used_for_debugging_workflow", "tgt_type": "tool", "tgt_name": "Lens", "source_chunks": ["BLOG-272::ch0"]}
+{"src_type": "tool", "src_name": "Prometheus", "predicate": "instrumented_with", "tgt_type": "tool", "tgt_name": "Alertmanager", "source_chunks": ["BLOG-272::ch0"]}
+{"src_type": "tool", "src_name": "OpenSSL", "predicate": "validates_tls_secrets_for", "tgt_type": "tool", "tgt_name": "kubectl", "source_chunks": ["BLOG-272::ch0"]}
+{"src_type": "tool", "src_name": "Fluentd", "predicate": "centralizes_logs_with", "tgt_type": "tool", "tgt_name": "Elasticsearch", "source_chunks": ["BLOG-272::ch0"]}

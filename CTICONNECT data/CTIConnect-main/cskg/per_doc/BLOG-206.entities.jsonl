@@ -1,0 +1,17 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Charming Kitten", "aliases": ["APT35", "Ballistic Bobcat", "TA453/PHOSPHORUS", "Phosphorus", "Mint Sandstorm", "Newscaster", "TA453", "APT42"], "properties": {"country": "Iran"}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "malware", "canonical_name": "Sponsor", "aliases": ["Sponsor backdoor"], "properties": {}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israeli organizations", "aliases": [], "properties": {"region": "Israel"}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "identity", "canonical_name": "automotive sector", "aliases": [], "properties": {"sector": "automotive"}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecommunications sector", "aliases": [], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "identity", "canonical_name": "medical targets in Brazil", "aliases": [], "properties": {"sector": "medical", "region": "Brazil"}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "identity", "canonical_name": "medical targets in the UAE", "aliases": [], "properties": {"sector": "medical", "region": "United Arab Emirates"}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-26855", "aliases": [], "properties": {"cve_id": "CVE-2021-26855"}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "campaign", "canonical_name": "CISA AA21-321A/PowerLess campaign", "aliases": ["PowerLess campaign"], "properties": {}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chisel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "tool", "canonical_name": "GO Simple Tunnel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "tool", "canonical_name": "Plink", "aliases": [], "properties": {}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "tool", "canonical_name": "RevSocks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "tool", "canonical_name": "Merlin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-206::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Sponsoring Access", "aliases": ["“Sponsoring Access” campaign"], "properties": {}, "source_chunks": ["BLOG-206::ch0"]}

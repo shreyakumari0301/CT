@@ -1,0 +1,40 @@
+{"entity_type": "threat_actor", "canonical_name": "BadPilot", "aliases": [], "properties": {"first_seen": "2021"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Sandworm Team", "aliases": ["APT44", "Seashell Blizzard", "Sandworm", "Voodoo Bear", "BlackEnergy Group", "Telebots", "ELECTRUM", "IRIDIUM"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "campaign", "canonical_name": "multi-year campaign", "aliases": [], "properties": {"first_seen": "2021", "last_seen": "2024"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "Central/South Asia", "aliases": [], "properties": {"region": "Central/South Asia"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East", "aliases": [], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "UK", "aliases": ["United Kingdom"], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "Canada", "aliases": [], "properties": {"region": "Canada"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "Australia", "aliases": [], "properties": {"region": "Australia"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "critical energy networks", "aliases": ["energy"], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "oil & gas", "aliases": ["oil and gas"], "properties": {"sector": "oil & gas"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecom", "aliases": ["telecommunications"], "properties": {"sector": "telecommunications"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "shipping", "aliases": [], "properties": {"sector": "shipping"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "arms manufacturing", "aliases": [], "properties": {"sector": "arms manufacturing"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "government", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "military", "aliases": [], "properties": {"sector": "military"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "transportation and logistics", "aliases": ["transportation", "logistics"], "properties": {"sector": "transportation and logistics"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-34473", "aliases": [], "properties": {"cve_id": "CVE-2021-34473"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-41352", "aliases": [], "properties": {"cve_id": "CVE-2022-41352"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-32315", "aliases": [], "properties": {"cve_id": "CVE-2023-32315"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-42793", "aliases": [], "properties": {"cve_id": "CVE-2023-42793"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-23397", "aliases": [], "properties": {"cve_id": "CVE-2023-23397"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-1709", "aliases": [], "properties": {"cve_id": "CVE-2024-1709"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-48788", "aliases": [], "properties": {"cve_id": "CVE-2023-48788"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "malware", "canonical_name": "LocalOlive", "aliases": ["LocalOlive web shells"], "properties": {"family": "web shell"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "tool", "canonical_name": "Atera Agent", "aliases": [], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "tool", "canonical_name": "Splashtop", "aliases": [], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "tool", "canonical_name": "Procdump", "aliases": [], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rclone", "aliases": [], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chisel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "tool", "canonical_name": "Plink", "aliases": [], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "tool", "canonical_name": "Tor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "tool", "canonical_name": "OpenSSH", "aliases": [], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {"sector": "technology"}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential theft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Supply-chain attacks", "aliases": ["supply-chain attacks"], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data exfiltration", "aliases": ["exfiltrates data"], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral movement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-17::ch0"]}

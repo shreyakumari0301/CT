@@ -1,0 +1,23 @@
+{
+  "question": "An adversary exploits insufficient permissions to upload a server-side script that can be executed remotely, acting as a gateway to the web server and enabling elevated code execution. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1505.003.\n- T1505.003 corresponds to web-accessible remote command gateways, mapping CAPEC-650: uploading an executable web shell for remote, elevated control.",
+  "llm_cost": {
+    "input": 0.000771,
+    "cached_input": 0.0,
+    "output": 0.00109,
+    "total": 0.001861,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 617,
+      "cached_input": 0,
+      "output": 109
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.4794
+  }
+}

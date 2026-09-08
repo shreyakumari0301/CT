@@ -1,0 +1,7 @@
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Responder", "source_chunks": ["BLOG-245::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Pass the Hash", "source_chunks": ["BLOG-245::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-245::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-245::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "WastedLocker", "source_chunks": ["BLOG-245::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evil Corp", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Scheduled Task", "source_chunks": ["BLOG-245::ch0"]}
+{"src_type": "malware", "src_name": "WastedLocker", "predicate": "deployed_via", "tgt_type": "attack_pattern", "tgt_name": "Scheduled Task", "source_chunks": ["BLOG-245::ch0"]}

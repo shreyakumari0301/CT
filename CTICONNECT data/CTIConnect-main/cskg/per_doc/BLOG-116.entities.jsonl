@@ -1,0 +1,17 @@
+{"entity_type": "identity", "canonical_name": "Aqua Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "identity", "canonical_name": "Nautilus team", "aliases": [], "properties": {}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "malware", "canonical_name": "Hadooken", "aliases": [], "properties": {"platforms": ["Linux"], "capabilities": ["credential harvesting", "lateral movement", "log clearing", "persistence", "cryptomining", "backdoor"]}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "identity", "canonical_name": "Oracle WebLogic servers", "aliases": ["WebLogic servers", "WebLogic instances"], "properties": {}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential harvesting from SSH directories", "aliases": ["enumerates SSH directories to harvest credentials"], "properties": {}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral movement", "aliases": ["moves laterally"], "properties": {}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Clear logs", "aliases": ["clears logs"], "properties": {}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled task/cron persistence", "aliases": ["Persistence is achieved through multiple cronjobs"], "properties": {}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "malware", "canonical_name": "Tsunami", "aliases": ["Tsunami backdoor"], "properties": {"capabilities": ["backdoor"]}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "indicator", "canonical_name": "German IP address", "aliases": ["two IPs—one German address"], "properties": {"ioc_type": "ip", "value": "German IP address"}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "TeamTNT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Gang 8220", "aliases": [], "properties": {}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "indicator", "canonical_name": "inactive IP in Russia", "aliases": ["the other inactive in Russia"], "properties": {"ioc_type": "ip", "value": "inactive IP in Russia"}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "malware", "canonical_name": "Mallox", "aliases": ["Mallox ransomware"], "properties": {"capabilities": ["ransomware"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "malware", "canonical_name": "Rhombus", "aliases": [], "properties": {}, "source_chunks": ["BLOG-116::ch0"]}
+{"entity_type": "malware", "canonical_name": "NoEscape", "aliases": [], "properties": {}, "source_chunks": ["BLOG-116::ch0"]}

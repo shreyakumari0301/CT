@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "malware", "canonical_name": "Kazuar", "aliases": ["Kazuar .NET backdoor"], "properties": {"platforms": [".NET"], "first_seen": "2017", "capabilities": ["backdoor", "anti-analysis", "string encryption", "payload encryption", "credential theft", "system profiling", "process injection"]}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Turla", "aliases": ["Pensive Ursa", "Uroburos", "Snake", "Venomous Bear", "Waterbug", "Krypton", "Secret Blizzard"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian Federal Security Service", "aliases": ["Federal Security Service"], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "malware", "canonical_name": "Capibar", "aliases": ["Capibar loader"], "properties": {"capabilities": ["loader"]}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian defense organizations", "aliases": [], "properties": {"sector": "defense", "region": "Ukraine"}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "identity", "canonical_name": "Signal", "aliases": [], "properties": {}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "tool", "canonical_name": "ConfuserEx", "aliases": [], "properties": {"capabilities": ["obfuscation"]}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "malware", "canonical_name": "Sunburst", "aliases": [], "properties": {}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "identity", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "tool", "canonical_name": "Palo Alto Networks NGFW Advanced Threat Prevention", "aliases": ["NGFW Advanced Threat Prevention"], "properties": {}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "tool", "canonical_name": "XSIAM", "aliases": [], "properties": {}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced WildFire", "aliases": ["WildFire"], "properties": {}, "source_chunks": ["BLOG-84::ch0"]}
+{"entity_type": "identity", "canonical_name": "Unit 42 incident response engagement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-84::ch0"]}

@@ -1,0 +1,14 @@
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "tracked", "tgt_type": "threat_actor", "tgt_name": "Void Blizzard", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government organizations", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense organizations", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "transportation organizations", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "media organizations", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "NGO organizations", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "healthcare organizations", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "particularly_targets", "tgt_type": "identity", "tgt_name": "NATO member states", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "particularly_targets", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Password Spraying", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AzureHound", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "evolved_to_use", "tgt_type": "attack_pattern", "tgt_name": "Adversary-in-the-Middle Phishing", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Adversary-in-the-Middle Phishing", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Typosquatting", "source_chunks": ["BLOG-53::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Adversary-in-the-Middle Phishing", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Evilginx", "source_chunks": ["BLOG-53::ch0"]}

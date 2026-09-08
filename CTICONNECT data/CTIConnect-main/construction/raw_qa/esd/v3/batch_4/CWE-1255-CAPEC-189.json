@@ -1,0 +1,23 @@
+{
+  "question": "A system implements decision-making by comparing values, but the comparison logic leaks information through variations in power consumption that can be measured externally. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-189.\n- CAPEC-189 exploits power side-channel leakage during comparisons, targeting CWE-1255: comparison logic vulnerable to power side-channel attacks.",
+  "llm_cost": {
+    "input": 0.000781,
+    "cached_input": 0.0,
+    "output": 0.00092,
+    "total": 0.001701,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 625,
+      "cached_input": 0,
+      "output": 92
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.8209
+  }
+}

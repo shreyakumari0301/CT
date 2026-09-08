@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "tool", "canonical_name": "Zoom", "aliases": [], "properties": {}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "tool", "canonical_name": "Slack", "aliases": [], "properties": {}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "tool", "canonical_name": "Discord", "aliases": [], "properties": {}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Zoom-based campaigns", "aliases": [], "properties": {}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Zoombombing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "malware", "canonical_name": "Trojan.Win32.ZAPIZ.A", "aliases": ["ZAPIZ"], "properties": {"capabilities": ["backdoor access", "credential theft"]}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "malware", "canonical_name": "Backdoor.Win32.DEVILSHADOW.THEAABO", "aliases": ["DEVILSHADOW"], "properties": {"capabilities": ["remote command execution"]}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "malware", "canonical_name": "RevCode WebMonitor", "aliases": ["Backdoor.Win32.REVCODE.THDBABO"], "properties": {}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Extortion emails", "aliases": [], "properties": {}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "malware", "canonical_name": "CRYPREN", "aliases": ["Ransom.Win32.CRYPREN.C", "CRYPREN ransomware"], "properties": {"capabilities": ["file encryption"]}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "tool", "canonical_name": "Slack webhooks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "malware", "canonical_name": "AveMaria", "aliases": [], "properties": {}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "malware", "canonical_name": "AgentTesla", "aliases": [], "properties": {"capabilities": ["remote access", "keylogging", "data exfiltration"]}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "malicious spam", "aliases": [], "properties": {}, "source_chunks": ["BLOG-186::ch0"]}
+{"entity_type": "indicator", "canonical_name": "https://cdn.discordapp.com/attachments/.../example.exe", "aliases": ["hxxps://cdn[.]discordapp[.]com/attachments/.../example.exe"], "properties": {"ioc_type": "url", "value": "https://cdn.discordapp.com/attachments/.../example.exe"}, "source_chunks": ["BLOG-186::ch0"]}

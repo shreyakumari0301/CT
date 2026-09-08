@@ -1,0 +1,13 @@
+{"entity_type": "identity", "canonical_name": "Apple", "aliases": [], "properties": {}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-23222", "aliases": [], "properties": {"cve_id": "CVE-2024-23222"}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "tool", "canonical_name": "WebKit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "arbitrary code execution", "aliases": ["remote code execution"], "properties": {}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "identity", "canonical_name": "iOS 16.7.5+", "aliases": [], "properties": {}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "identity", "canonical_name": "iPadOS 16.7.5+", "aliases": [], "properties": {}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "identity", "canonical_name": "macOS Monterey 12.7.3+", "aliases": ["Monterey"], "properties": {}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "identity", "canonical_name": "tvOS 17.3+", "aliases": [], "properties": {}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "identity", "canonical_name": "iPhone 8/X", "aliases": [], "properties": {}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "identity", "canonical_name": "iPad 5th gen", "aliases": [], "properties": {}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apple TV HD/4K", "aliases": ["Apple TV HD", "Apple TV 4K"], "properties": {}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-42916", "aliases": [], "properties": {"cve_id": "CVE-2023-42916"}, "source_chunks": ["BLOG-22::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-42917", "aliases": [], "properties": {"cve_id": "CVE-2023-42917"}, "source_chunks": ["BLOG-22::ch0"]}

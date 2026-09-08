@@ -1,0 +1,17 @@
+{"entity_type": "identity", "canonical_name": "McAfee Mobile Research Team", "aliases": [], "properties": {}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "malware", "canonical_name": "Xamalicious", "aliases": [], "properties": {"family": "Android backdoor", "capabilities": ["abuse accessibility permissions", "harvest device metadata", "query C2 for second-stage payload", "dynamically inject assembly DLL", "unauthorized ad-clicking", "unauthorized app installs", "encrypt C2 traffic", "self-update APK", "transform into spyware", "transform into banking trojan"], "platforms": ["Android"], "first_seen": "mid-2020"}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "tool", "canonical_name": "Xamarin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Cash Magnet", "aliases": ["Cash Magnet ad-fraud campaign"], "properties": {"objective": "ad fraud"}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Play", "aliases": [], "properties": {}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Play Protect", "aliases": [], "properties": {}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "tool", "canonical_name": "WhatsApp", "aliases": [], "properties": {}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "campaign", "canonical_name": "WhatsApp-based phishing campaign in India", "aliases": ["malicious WhatsApp-based phishing campaign"], "properties": {"objective": "credential theft and unauthorized transactions"}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "identity", "canonical_name": "India", "aliases": [], "properties": {"region": "India"}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "malware", "canonical_name": "fake SBI APKs", "aliases": ["SBI APKs"], "properties": {"platforms": ["Android"], "capabilities": ["invoke SMS permissions", "capture credentials", "capture banking data", "capture identity data", "exfiltrate data"]}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "identity", "canonical_name": "Brazil", "aliases": [], "properties": {"region": "Brazil"}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "identity", "canonical_name": "Argentina", "aliases": [], "properties": {"region": "Argentina"}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "identity", "canonical_name": "UK", "aliases": [], "properties": {"region": "UK"}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "identity", "canonical_name": "Australia", "aliases": [], "properties": {"region": "Australia"}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "identity", "canonical_name": "US", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mexico", "aliases": [], "properties": {"region": "Mexico"}, "source_chunks": ["BLOG-162::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-162::ch0"]}

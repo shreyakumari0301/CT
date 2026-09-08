@@ -1,0 +1,10 @@
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "identified", "tgt_type": "campaign", "tgt_name": "Contagious Interview", "source_chunks": ["BLOG-70::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "identified", "tgt_type": "campaign", "tgt_name": "Wagemole", "source_chunks": ["BLOG-70::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "North Korea", "source_chunks": ["BLOG-70::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "malware", "tgt_name": "BeaverTail", "source_chunks": ["BLOG-70::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "retrieves", "tgt_type": "malware", "tgt_name": "InvisibleFerret", "source_chunks": ["BLOG-70::ch0"]}
+{"src_type": "campaign", "src_name": "Contagious Interview", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "Node.js", "source_chunks": ["BLOG-70::ch0"]}
+{"src_type": "campaign", "src_name": "Wagemole", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "North Korea", "source_chunks": ["BLOG-70::ch0"]}
+{"src_type": "campaign", "src_name": "Wagemole", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. organizations", "source_chunks": ["BLOG-70::ch0"]}
+{"src_type": "campaign", "src_name": "Wagemole", "predicate": "targets", "tgt_type": "identity", "tgt_name": "global organizations", "source_chunks": ["BLOG-70::ch0"]}
+{"src_type": "campaign", "src_name": "Wagemole", "predicate": "leverages", "tgt_type": "tool", "tgt_name": "Node.js", "source_chunks": ["BLOG-70::ch0"]}

@@ -1,0 +1,13 @@
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "targets", "tgt_type": "identity", "tgt_name": "help-desk personnel", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "tool", "tgt_name": "RMM tools", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "targets", "tgt_type": "identity", "tgt_name": "VMware ESXi servers", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Snowflake environments", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "exfiltrates_data_to", "tgt_type": "indicator", "tgt_name": "MEGA.nz", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "exfiltrates_data_to", "tgt_type": "identity", "tgt_name": "Amazon S3", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "malware", "tgt_name": "DragonForce", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "uses", "tgt_type": "malware", "tgt_name": "RattyRAT", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC6040", "predicate": "replicates_ttps_of", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2165", "predicate": "replicates_ttps_of", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC4393", "predicate": "replicates_ttps_of", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC2465", "predicate": "replicates_ttps_of", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-309::ch0"]}
+{"src_type": "identity", "src_name": "UK", "predicate": "arrests_disrupt_operations_of", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-309::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The operator of the Silent Skimmer campaign has been opportunistically exploiting vulnerabilities in Web-facing applications to gain initial access to websites.\" Please identify the MITRE ATT&CK category that best maps to this behavior, explain how this behavior maps to the identified technique, and specify which telemetry/logs (e.g., NetFlow, Zeek, packet captures) can be used to detect this activity.",
+  "answer": "1) MITRE ATT&CK Category: Exploit Public-Facing Application (T1190).\n2) Mapping Explanation: The passage describes an actor “opportunistically exploiting vulnerabilities in Web-facing applications to gain initial access,” which directly matches T1190’s definition of using exploits against internet-accessible applications to establish initial access. This behavior involves targeting externally exposed web apps and leveraging known/unknown flaws to compromise the underlying site/server.\n3) Applicable Platforms: Internet-facing web applications/services (e.g., web servers and apps) — Initial Access; Detection telemetry/logs: web server/access logs (HTTP/S requests, status codes, unusual URIs/parameters, spikes in 4xx/5xx), WAF logs, IDS/IPS alerts, NetFlow, Zeek HTTP logs, packet captures (PCAP) for exploit payloads, reverse-proxy/load balancer logs, and application error logs indicating exploitation attempts.",
+  "llm_timing": {
+    "api_call_seconds": 7.5657
+  }
+}

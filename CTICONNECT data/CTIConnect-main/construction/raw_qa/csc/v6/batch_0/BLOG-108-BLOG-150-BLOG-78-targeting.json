@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target industries or regions mentioned across these reports?",
+  "answer": "- Industry: Software development and DevOps teams using public GitHub repositories\n- Industry: Organizations leveraging AWS cloud services\n- Regions: Multiple global AWS regions (the campaign operates across all accessible regions via VPN)",
+  "llm_timing": {
+    "api_call_seconds": 7.5955
+  }
+}

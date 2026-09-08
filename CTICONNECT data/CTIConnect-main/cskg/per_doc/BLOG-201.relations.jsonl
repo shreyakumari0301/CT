@@ -1,0 +1,31 @@
+{"src_type": "campaign", "src_name": "sustained cyberespionage campaign", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "BladedFeline", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Kurdish Regional Government (KRG)", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Iraqi government officials", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Shahmaran", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Laret", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Pinar", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Whisper", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PrimeCache", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Flog", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Hawking Listener", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "subgroup_of", "tgt_type": "threat_actor", "tgt_name": "APT34", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "Lyceum", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecommunications provider in Uzbekistan", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "threat_actor", "src_name": "BladedFeline", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Middle East", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "malware", "src_name": "Shahmaran", "predicate": "targets", "tgt_type": "identity", "tgt_name": "diplomatic officials", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "tool", "src_name": "Laret", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "Kurdish Regional Government (KRG)", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "tool", "src_name": "Laret", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "GOI", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "tool", "src_name": "Laret", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "telecommunications provider in Uzbekistan", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "tool", "src_name": "Pinar", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "Kurdish Regional Government (KRG)", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "tool", "src_name": "Pinar", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "GOI", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "tool", "src_name": "Pinar", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "telecommunications provider in Uzbekistan", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "malware", "src_name": "Whisper", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "HttpModule.pdb", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "malware", "src_name": "Whisper", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "Kurdish Regional Government (KRG)", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "malware", "src_name": "Whisper", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "GOI", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "malware", "src_name": "Whisper", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "telecommunications provider in Uzbekistan", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "malware", "src_name": "PrimeCache", "predicate": "code_similar_to", "tgt_type": "malware", "tgt_name": "RDAT", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "malware", "src_name": "PrimeCache", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "Kurdish Regional Government (KRG)", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "malware", "src_name": "PrimeCache", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "GOI", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "malware", "src_name": "PrimeCache", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "telecommunications provider in Uzbekistan", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "malware", "src_name": "RDAT", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "Kurdish Regional Government (KRG)", "source_chunks": ["BLOG-201::ch0"]}
+{"src_type": "malware", "src_name": "VideoSRV", "predicate": "observed_on", "tgt_type": "identity", "tgt_name": "Kurdish Regional Government (KRG)", "source_chunks": ["BLOG-201::ch0"]}

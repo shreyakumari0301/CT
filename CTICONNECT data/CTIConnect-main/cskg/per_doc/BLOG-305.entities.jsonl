@@ -1,0 +1,9 @@
+{"entity_type": "campaign", "canonical_name": "Operation ForumTroll", "aliases": [], "properties": {"objective": "espionage", "first_seen": "mid-March 2025"}, "source_chunks": ["BLOG-305::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian media outlets", "aliases": [], "properties": {"sector": "media", "region": "Russia"}, "source_chunks": ["BLOG-305::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian educational institutions", "aliases": ["educational institutions"], "properties": {"sector": "education", "region": "Russia"}, "source_chunks": ["BLOG-305::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian government organizations", "aliases": ["government organizations"], "properties": {"sector": "government", "region": "Russia"}, "source_chunks": ["BLOG-305::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Chrome", "aliases": ["Chrome"], "properties": {}, "source_chunks": ["BLOG-305::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2025-2783", "aliases": [], "properties": {"cve_id": "CVE-2025-2783"}, "source_chunks": ["BLOG-305::ch0"]}
+{"entity_type": "malware", "canonical_name": "Trojan.Win64.Agent", "aliases": [], "properties": {}, "source_chunks": ["BLOG-305::ch0"]}
+{"entity_type": "malware", "canonical_name": "Trojan.Win64.Convagent.gen", "aliases": [], "properties": {}, "source_chunks": ["BLOG-305::ch0"]}
+{"entity_type": "indicator", "canonical_name": "primakovreadings.info", "aliases": ["primakovreadings[.]info"], "properties": {"ioc_type": "domain", "value": "primakovreadings.info"}, "source_chunks": ["BLOG-305::ch0"]}

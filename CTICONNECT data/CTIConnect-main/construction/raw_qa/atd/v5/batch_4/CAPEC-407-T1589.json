@@ -1,0 +1,23 @@
+{
+  "question": "An adversary fabricates a believable scenario and assumes an identity or role to persuade a victim to divulge information or perform an action benefiting the attacker. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1589.\n- T1589 corresponds to gathering victim identity details, mapping CAPEC-407: inventing scenarios and identities to elicit information or actions.",
+  "llm_cost": {
+    "input": 0.000796,
+    "cached_input": 0.0,
+    "output": 0.00098,
+    "total": 0.001776,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 637,
+      "cached_input": 0,
+      "output": 98
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.2612
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "An adversary makes a non-privileged mobile app load arbitrary code via hooking to bypass root/jailbreak checks and evade detection. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to it?",
+  "answer": "- T1055.\n- T1055 corresponds to injecting/hooking code into a process, mapping CAPEC-660: loading arbitrary code to bypass root/jailbreak detection.",
+  "llm_cost": {
+    "input": 0.000897,
+    "cached_input": 0.0,
+    "output": 0.00099,
+    "total": 0.001887,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 718,
+      "cached_input": 0,
+      "output": 99
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.2226
+  }
+}

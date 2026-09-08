@@ -1,0 +1,378 @@
+{
+  "cluster_id": 6,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 142,
+      "node": [
+        {
+          "node_text": "Atera",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Betruger",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "CVE-2022-24521",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-27532",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "EDR monitoring",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "EDRKillshifter",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Impacket",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Q3 2024",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "RansomHub",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "RansomHub affiliate",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Rclone",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "ScreenConnect",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Splashtop",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Stowaway Proxy",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Symantec analysis",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "SystemBC",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "TightVNC",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "credential dumping",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "early 2024",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "file exfiltration",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "keylogging",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "mailer.exe",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "network scanning",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "privilege escalation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "published IOCs for Betruger",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "screenshot capture",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "turbomailer.exe",
+          "node_type": "Application"
+        }
+      ],
+      "title": " RansomHub",
+      "platform": "symantec",
+      "type": "threat actor",
+      "publish_date": "2024/2/28"
+    },
+    {
+      "blog_id": 196,
+      "node": [
+        {
+          "node_text": "AV registry entries",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "AnyDesk",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "April 2024",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Atera",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "BAT.KAPROCHANDLER.A",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "BYOVD",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-27532",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "EDR Kill Shifter",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ESXi SSH",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "February 2024",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "IOBit Unlocker",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Impacket-based SMB spreader",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Knight ransomware family",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "LaZagne",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Malaysia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Ngrok",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Organization",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "PsExec",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Python scripts",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "RClone",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "RansomHub",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Remmina",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SFTP",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SSH sessions",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "STONESTOP",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Screen Connect",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SecretServerSecretStealer",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Splashtop",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "TDSSKiller",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Threat Actor",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "United States",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Windows Defender",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "compromised VPN credentials",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "disableAV.bat",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "local administrative accounts",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "registry run keys",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "remote systems",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "spear-phishing voice scam",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "vCenter interactions",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " RansomHub",
+      "platform": "trendmicro",
+      "type": "threat actor",
+      "publish_date": "2024/2/28"
+    },
+    {
+      "blog_id": 202,
+      "node": [
+        {
+          "node_text": "2024 analysis",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "Affiliates",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "BianLian",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "BlackCat",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "EDRKillShifter",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "ESET",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "February",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Knight",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "LockBit",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Medusa",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Operation Cronos",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Play",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "RansomHub",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Tor",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "multiplatform encryptor",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "publicly known vulnerable drivers",
+          "node_type": "Vulnerability Type"
+        }
+      ],
+      "title": " RansomHub",
+      "platform": "welivesecurity",
+      "type": "threat actor",
+      "publish_date": "2025/3/26"
+    }
+  ]
+}

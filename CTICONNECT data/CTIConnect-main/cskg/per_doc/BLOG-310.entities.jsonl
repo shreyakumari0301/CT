@@ -1,0 +1,12 @@
+{"entity_type": "threat_actor", "canonical_name": "FIN7", "aliases": ["Carbanak Group", "Carbon Spider", "Sangria Tempest", "ATK32"], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}
+{"entity_type": "campaign", "canonical_name": "global phishing and malware campaign", "aliases": [], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}
+{"entity_type": "identity", "canonical_name": "Louvre", "aliases": [], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}
+{"entity_type": "identity", "canonical_name": "Meta", "aliases": [], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}
+{"entity_type": "identity", "canonical_name": "Reuters", "aliases": [], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Typosquatting", "aliases": [], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing", "aliases": ["spear-phishing"], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing Attachment", "aliases": ["weaponized Office attachments"], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["phishing kits", "phishing landing pages"], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Harvesting", "aliases": ["credential harvesting"], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral Movement", "aliases": ["potential lateral movement"], "properties": {}, "source_chunks": ["BLOG-310::ch0"]}

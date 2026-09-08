@@ -1,0 +1,19 @@
+{"src_type": "identity", "src_name": "Zero Day Initiative", "predicate": "publicly_reported", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-40477", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-40477", "predicate": "affects", "tgt_type": "identity", "tgt_name": "WinRAR", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "threat_actor", "src_name": "whalersplonk", "predicate": "published", "tgt_type": "indicator", "tgt_name": "poc.py", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "threat_actor", "src_name": "whalersplonk", "predicate": "published_on", "tgt_type": "tool", "tgt_name": "GitHub", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-25157", "predicate": "affects", "tgt_type": "identity", "tgt_name": "GeoServer", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "indicator", "src_name": "poc.py", "predicate": "repurposes_exploit_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-25157", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "indicator", "src_name": "poc.py", "predicate": "executes", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "indicator", "src_name": "poc.py", "predicate": "downloads", "tgt_type": "indicator", "tgt_name": "c.ps1", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "indicator", "src_name": "c.ps1", "predicate": "downloads", "tgt_type": "indicator", "tgt_name": "Windows.Gaming.Preview.exe", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "malware", "src_name": "VenomRAT v6.0.3", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "94.156.253.109:4449", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "malware", "src_name": "VenomRAT v6.0.3", "predicate": "uses_persistence_technique", "tgt_type": "attack_pattern", "tgt_name": "Scheduled Task/Job: Scheduled Task", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "indicator", "src_name": "Windows.Gaming.Preview.exe", "predicate": "is_payload_of", "tgt_type": "malware", "tgt_name": "VenomRAT v6.0.3", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "indicator", "src_name": "Windows.Gaming.Preview.exe", "predicate": "downloaded_from", "tgt_type": "indicator", "tgt_name": "checkblacklistwords.eu", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks WildFire", "predicate": "categorized_as_malicious", "tgt_type": "indicator", "tgt_name": "checkblacklistwords.eu", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks WildFire", "predicate": "blocked", "tgt_type": "indicator", "tgt_name": "checkblacklistwords.eu", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "identity", "src_name": "Advanced URL Filtering", "predicate": "categorized_as_malicious", "tgt_type": "indicator", "tgt_name": "checkblacklistwords.eu", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "identity", "src_name": "Advanced URL Filtering", "predicate": "blocked", "tgt_type": "indicator", "tgt_name": "checkblacklistwords.eu", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "published_on", "tgt_type": "tool", "tgt_name": "GitHub", "source_chunks": ["BLOG-87::ch0"]}
+{"src_type": "identity", "src_name": "Broadcom/Symantec", "predicate": "published_on", "tgt_type": "tool", "tgt_name": "GitHub", "source_chunks": ["BLOG-87::ch0"]}

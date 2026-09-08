@@ -1,0 +1,21 @@
+{"entity_type": "identity", "canonical_name": "NCC Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "identity", "canonical_name": "RIFT team", "aliases": [], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "malware", "canonical_name": "FiveHands", "aliases": ["FiveHands ransomware variant"], "properties": {"family": "FiveHands"}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "UNC2447", "aliases": [], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "tool", "canonical_name": "SonicWall VPN appliance", "aliases": ["SonicWall VPN"], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Services: Remote Desktop Protocol", "aliases": ["RDP"], "properties": {"technique_id": "T1021.001", "tactic": "Lateral Movement"}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Command and Scripting Interpreter: Windows Command Shell", "aliases": ["PsExec (T1059.003)"], "properties": {"technique_id": "T1059.003"}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "tool", "canonical_name": "Metasploit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "tool", "canonical_name": "SoftPerfect Netscan", "aliases": [], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced Port Scanner", "aliases": [], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Network Service Discovery", "aliases": ["network discovery (T1046)"], "properties": {"technique_id": "T1046"}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "tool", "canonical_name": "AllInOnePasswordRecoveryPro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "OS Credential Dumping: LSASS Memory", "aliases": ["credential harvesting (T1003.001)"], "properties": {"technique_id": "T1003.001"}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "tool", "canonical_name": "Remote Utilities", "aliases": ["Hostclean.exe"], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Access Software", "aliases": ["persistent C2 (T1219)"], "properties": {"technique_id": "T1219"}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "tool", "canonical_name": "pCloud", "aliases": ["pCloud.exe"], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration to Cloud Storage", "aliases": ["exfiltration (T1567.002)"], "properties": {"technique_id": "T1567.002"}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "malware", "canonical_name": "Encryptor.exe", "aliases": ["Go-written loader", "loader"], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mbed TLS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}
+{"entity_type": "tool", "canonical_name": "Windows Restart Manager", "aliases": [], "properties": {}, "source_chunks": ["BLOG-255::ch0"]}

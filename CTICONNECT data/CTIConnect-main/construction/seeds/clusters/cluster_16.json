@@ -1,0 +1,366 @@
+{
+  "cluster_id": 16,
+  "cluster_size": 3,
+  "cluster_type": "malware",
+  "blogs": [
+    {
+      "blog_id": 185,
+      "node": [
+        {
+          "node_text": "Active Directory servers",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-24362",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-27350",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-35036",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Clop",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cobalt Strike",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DEWMODE web shell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FIN11",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FIN7",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "FlawedAmmyy RAT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Fortra GoAnywhere MFT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Get2 loader",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Group Policy",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Kiteworks FTA",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "LockBit",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "May 2023",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Operators",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "RaaS",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SDBOT",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "TA505",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "TinyMet reverse shell",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Trend Micro",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Truebot",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "double extortion",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "exfiltration",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "phishing-delivered HTML attachments",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "quadruple extortion",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "reconnaissance",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "unpatched SQL injection flaw",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "zero-day campaign",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " Clop",
+      "platform": "trendmicro",
+      "type": "malware",
+      "publish_date": "2021/11/28"
+    },
+    {
+      "blog_id": 132,
+      "node": [
+        {
+          "node_text": "Attackers",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Azure settings",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "CVE-2023-34362",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Clop ransomware operation",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Data Center Security policy controls",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "IIS",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "JS.Malscript!g1",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "June 9, 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Lemurloot",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "ML detections",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "MOVEit Transfer",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "MS SQL",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "May 27, 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "May 31, 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "SQL statements",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Symantec",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Trojan.Gen.2",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "WS.Malware",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "additional vulnerabilities",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "data leaks",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "data theft",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "encryption",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "extortion",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "file-based detections",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "hard-coded credentials",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "network-based attack signatures",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "records",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "sandbox environments",
+          "node_type": "System"
+        },
+        {
+          "node_text": "secondary threat actors",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "supply-chain attacks",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "unauthorized software execution",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "user accounts",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "web-shell deployment",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "zero-day SQL injection vulnerability",
+          "node_type": "Vulnerability Type"
+        }
+      ],
+      "title": " Clop",
+      "platform": "symantec",
+      "type": " malware",
+      "publish_date": "2021/6/12"
+    },
+    {
+      "blog_id": 73,
+      "node": [
+        {
+          "node_text": "CL0P",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cortex XDR",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cortex Xpanse",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DHT trackers",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MOVEit Transfer exposures",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "MOVEit Transfer zero-day",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "May 2023",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "TA505",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Tor-hosted zip downloads",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "U.S. organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Unit 42",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "XSIAM",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "decentralized BitTorrent distribution",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "global organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "initial seeding infrastructure",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "magnet links",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "organizations",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "tradecraft opsec gaps",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " Clop-Seeds",
+      "platform": "Unit42",
+      "type": " malware",
+      "publish_date": "2023/5/28"
+    }
+  ]
+}

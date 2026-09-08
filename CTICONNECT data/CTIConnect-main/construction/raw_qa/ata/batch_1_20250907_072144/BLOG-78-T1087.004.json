@@ -1,0 +1,7 @@
+{
+  "question": "As I recently read in a security blog: \"Just four minutes later, at 13:34:15, the actors began their reconnaissance operations using the AWS API DescribeRegions.\" Additionally, \"Figure 3 shows that the threat actor starts by performing an AWS account reconnaissance operation.\" Identify the MITRE ATT&CK category that maps to this behavior and explain the mapping. How can we detect this in our SOC (using logs, sensors, or NDR tools) according to the MITRE ATT&CK's x_mitre_detection description?",
+  "answer": "1) MITRE ATT&CK Category: Cloud Account (T1087.004). 2) Mapping Explanation: The behavior described involves performing AWS account reconnaissance via AWS API calls (e.g., DescribeRegions), which is directly related to the Cloud Account discovery technique as it involves gathering information about cloud resources and environments. 3) Detection Methods: According to the x_mitre_detection guidance, detection can be achieved by monitoring processes, command-line arguments, and logs for any actions that gather cloud account information, including calls to cloud APIs that perform discovery. Analysts should look for such API calls in conjunction with other discovery events during the operation.",
+  "llm_timing": {
+    "api_call_seconds": 3.8824
+  }
+}

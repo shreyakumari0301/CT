@@ -1,0 +1,10 @@
+{"src_type": "identity", "src_name": "Google’s Threat Analysis Group", "predicate": "uncovered_exploitation_of", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-24880", "source_chunks": ["BLOG-45::ch0"]}
+{"src_type": "malware", "src_name": "Magniber", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-24880", "source_chunks": ["BLOG-45::ch0"]}
+{"src_type": "malware", "src_name": "Magniber", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-45::ch0"]}
+{"src_type": "malware", "src_name": "Magniber", "predicate": "used_bypass", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-44698", "source_chunks": ["BLOG-45::ch0"]}
+{"src_type": "malware", "src_name": "Magniber", "predicate": "shares_tooling_with", "tgt_type": "malware", "tgt_name": "QakBot", "source_chunks": ["BLOG-45::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-24880", "predicate": "bypasses", "tgt_type": "identity", "tgt_name": "SmartScreen", "source_chunks": ["BLOG-45::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-24880", "predicate": "triggers_parsing_error_in", "tgt_type": "indicator", "tgt_name": "smartscreen.exe", "source_chunks": ["BLOG-45::ch0"]}
+{"src_type": "indicator", "src_name": "smartscreen.exe", "predicate": "invokes", "tgt_type": "indicator", "tgt_name": "shdocvw.dll", "source_chunks": ["BLOG-45::ch0"]}
+{"src_type": "malware", "src_name": "QakBot", "predicate": "adopted_bypass", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-44698", "source_chunks": ["BLOG-45::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-24880", "source_chunks": ["BLOG-45::ch0"]}

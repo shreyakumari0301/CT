@@ -1,0 +1,23 @@
+{
+  "question": "A system displays user-visible identifiers such as domain names using lookalike characters from different alphabets without sufficient visual distinction, making malicious text appear identical to trusted text. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-632.\n- CAPEC-632 exploits indistinguishable lookalike characters, targeting CWE-1007: insufficient visual distinction of homoglyphs presented to users.",
+  "llm_cost": {
+    "input": 0.000755,
+    "cached_input": 0.0,
+    "output": 0.00102,
+    "total": 0.001775,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 604,
+      "cached_input": 0,
+      "output": 102
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.1074
+  }
+}

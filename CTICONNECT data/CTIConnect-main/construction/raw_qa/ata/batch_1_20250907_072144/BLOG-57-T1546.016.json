@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The malicious file is a legitimate CyberLink application installer that has been modified to include malicious code... and was signed using a valid certificate issued to CyberLink Corp.\". Based on this description, what is the MITRE ATT&CK technique category for this behavior, how does this behavior map to the technique, and where in the attack lifecycle should we expect to see this behavior (i.e., what are the kill chain phases associated with it)?",
+  "answer": "1) MITRE ATT&CK category: Installer Packages (T1546.016). 2) Mapping Explanation: The behavior of modifying a legitimate installer to embed malicious code and signing it with a valid certificate aligns with the Installer Packages technique, which involves tampering with software installers to potentially escalate privileges or maintain persistence. 3) Kill Chain Phases: privilege-escalation and persistence.",
+  "llm_timing": {
+    "api_call_seconds": 5.0574
+  }
+}

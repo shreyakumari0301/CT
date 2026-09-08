@@ -1,0 +1,25 @@
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "subordinate_to", "tgt_type": "identity", "tgt_name": "MOIS", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "launched", "tgt_type": "campaign", "tgt_name": "targeted cyber-espionage campaign against telecommunications organizations in Egypt, Sudan and Tanzania", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "malware", "tgt_name": "MuddyC2Go", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMIExec", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Revsocks", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SimpleHelp", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "malware", "tgt_name": "custom keylogger", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "LSASS Memory", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "JumpCloud", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "campaign", "src_name": "targeted cyber-espionage campaign against telecommunications organizations in Egypt, Sudan and Tanzania", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecommunications organizations in Egypt, Sudan and Tanzania", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "identity", "src_name": "telecommunications organizations in Egypt, Sudan and Tanzania", "predicate": "located_in", "tgt_type": "identity", "tgt_name": "Egypt", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "identity", "src_name": "telecommunications organizations in Egypt, Sudan and Tanzania", "predicate": "located_in", "tgt_type": "identity", "tgt_name": "Sudan", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "identity", "src_name": "telecommunications organizations in Egypt, Sudan and Tanzania", "predicate": "located_in", "tgt_type": "identity", "tgt_name": "Tanzania", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "indicator", "src_name": "vcruntime140.dll", "predicate": "dropped_in", "tgt_type": "indicator", "tgt_name": "csidl_common_appdata\\javax", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "indicator", "src_name": "vcruntime140.dll", "predicate": "invokes", "tgt_type": "tool", "tgt_name": "Invoke-WebRequest", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "tool", "src_name": "jabswitch.exe", "predicate": "sideloads", "tgt_type": "indicator", "tgt_name": "vcruntime140.dll", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "tool", "src_name": "Invoke-WebRequest", "predicate": "contacts", "tgt_type": "indicator", "tgt_name": "95.164.38.99:443", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "tool", "src_name": "Invoke-WebRequest", "predicate": "contacts", "tgt_type": "indicator", "tgt_name": "45.150.64.39:443", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Scheduled Task", "predicate": "executes_via", "tgt_type": "indicator", "tgt_name": "Microsoft\\Windows\\JavaX\\Java Autorun", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "tool", "src_name": "Impacket", "predicate": "includes", "tgt_type": "tool", "tgt_name": "WMIExec", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "tool", "src_name": "Revsocks", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "94.131.3.160:443", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "tool", "src_name": "SimpleHelp", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "146.70.124.102", "source_chunks": ["BLOG-143::ch0"]}
+{"src_type": "tool", "src_name": "SimpleHelp", "predicate": "drives", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-143::ch0"]}

@@ -1,0 +1,8 @@
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PyDCrypt", "source_chunks": ["BLOG-265::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "uses", "tgt_type": "malware", "tgt_name": "DCSrv", "source_chunks": ["BLOG-265::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "uses", "tgt_type": "malware", "tgt_name": "StrifeWater", "source_chunks": ["BLOG-265::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "uses", "tgt_type": "tool", "tgt_name": "DriveGuard", "source_chunks": ["BLOG-265::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "targets", "tgt_type": "identity", "tgt_name": "IDF intelligence personnel", "source_chunks": ["BLOG-265::ch0"]}
+{"src_type": "threat_actor", "src_name": "Moses Staff", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Israeli government entities", "source_chunks": ["BLOG-265::ch0"]}
+{"src_type": "threat_actor", "src_name": "Abraham’s Ax", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "Moses Staff", "source_chunks": ["BLOG-265::ch0"]}
+{"src_type": "threat_actor", "src_name": "Abraham’s Ax", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Saudi Arabia’s Ministry of the Interior", "source_chunks": ["BLOG-265::ch0"]}

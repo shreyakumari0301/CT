@@ -1,0 +1,132 @@
+[2026-09-06T10:47:56Z] RUN soft_gad ctibench/ate stamp=20260906Tgpt56sol_soft_gad_cb
+counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:   0%|          | 0/60 [00:00<?, ?it/s][2026-09-06T11:07:19Z] RUN soft_gad ctibench/ate stamp=20260906Tgpt56sol_soft_gad_cb
+counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:   0%|          | 0/60 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 3614.69it/s]
+counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:   2%|▏         | 1/60 [04:08<4:04:46, 248.93s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:   3%|▎         | 2/60 [04:27<1:49:48, 113.59s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:   5%|▌         | 3/60 [04:41<1:04:39, 68.07s/it] counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:   7%|▋         | 4/60 [05:14<50:29, 54.11s/it]  counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:   8%|▊         | 5/60 [05:33<37:57, 41.41s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  10%|█         | 6/60 [05:48<29:17, 32.55s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  12%|█▏        | 7/60 [06:10<25:43, 29.12s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  13%|█▎        | 8/60 [06:38<25:00, 28.85s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  15%|█▌        | 9/60 [07:11<25:36, 30.13s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  17%|█▋        | 10/60 [07:34<23:14, 27.88s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  18%|█▊        | 11/60 [08:02<22:42, 27.80s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  20%|██        | 12/60 [08:33<23:10, 28.96s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  22%|██▏       | 13/60 [08:47<19:03, 24.33s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  23%|██▎       | 14/60 [09:16<19:40, 25.66s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  25%|██▌       | 15/60 [09:36<18:01, 24.03s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  27%|██▋       | 16/60 [10:04<18:31, 25.26s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  28%|██▊       | 17/60 [10:31<18:22, 25.64s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  30%|███       | 18/60 [10:54<17:23, 24.84s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  32%|███▏      | 19/60 [11:26<18:29, 27.07s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  33%|███▎      | 20/60 [11:55<18:19, 27.50s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  35%|███▌      | 21/60 [12:29<19:08, 29.44s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  37%|███▋      | 22/60 [12:55<18:06, 28.60s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  38%|███▊      | 23/60 [13:20<16:58, 27.54s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  40%|████      | 24/60 [13:40<15:12, 25.33s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  42%|████▏     | 25/60 [14:14<16:17, 27.93s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  43%|████▎     | 26/60 [14:33<14:11, 25.03s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  45%|████▌     | 27/60 [14:41<10:59, 19.98s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  47%|████▋     | 28/60 [15:05<11:20, 21.27s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  48%|████▊     | 29/60 [15:31<11:45, 22.77s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  50%|█████     | 30/60 [15:54<11:22, 22.74s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  52%|█████▏    | 31/60 [16:19<11:18, 23.39s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  53%|█████▎    | 32/60 [16:47<11:37, 24.92s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  55%|█████▌    | 33/60 [17:14<11:22, 25.28s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  57%|█████▋    | 34/60 [17:44<11:36, 26.78s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  58%|█████▊    | 35/60 [18:07<10:42, 25.68s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  60%|██████    | 36/60 [18:23<09:04, 22.70s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  62%|██████▏   | 37/60 [18:49<09:07, 23.78s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  63%|██████▎   | 38/60 [19:07<08:06, 22.12s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  65%|██████▌   | 39/60 [19:26<07:21, 21.03s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  67%|██████▋   | 40/60 [19:52<07:33, 22.66s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  68%|██████▊   | 41/60 [20:20<07:37, 24.10s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  70%|███████   | 42/60 [20:39<06:46, 22.57s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  72%|███████▏  | 43/60 [21:02<06:25, 22.70s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  73%|███████▎  | 44/60 [21:28<06:18, 23.65s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  75%|███████▌  | 45/60 [21:56<06:15, 25.02s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  77%|███████▋  | 46/60 [22:21<05:50, 25.04s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  78%|███████▊  | 47/60 [22:42<05:10, 23.90s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  80%|████████  | 48/60 [23:11<05:06, 25.51s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  82%|████████▏ | 49/60 [23:29<04:15, 23.26s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  83%|████████▎ | 50/60 [23:52<03:49, 22.96s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  85%|████████▌ | 51/60 [24:18<03:35, 23.91s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  87%|████████▋ | 52/60 [24:43<03:13, 24.18s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  88%|████████▊ | 53/60 [25:13<03:01, 25.93s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  90%|█████████ | 54/60 [25:30<02:19, 23.24s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  92%|█████████▏| 55/60 [25:54<01:57, 23.48s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  93%|█████████▎| 56/60 [26:18<01:35, 23.87s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  95%|█████████▌| 57/60 [26:38<01:08, 22.72s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  97%|█████████▋| 58/60 [26:55<00:41, 20.92s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb:  98%|█████████▊| 59/60 [33:20<02:10, 130.11s/it]Traceback (most recent call last):
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_transports/default.py", line 98, in map_httpcore_exceptions
+    yield
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_transports/default.py", line 245, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_sync/connection_pool.py", line 242, in handle_request
+    raise exc from None
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_sync/connection_pool.py", line 224, in handle_request
+    response = connection.handle_request(pool_request.request)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_sync/connection.py", line 94, in handle_request
+    raise exc
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_sync/connection.py", line 74, in handle_request
+    stream = self._connect(request)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_sync/connection.py", line 117, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_backends/sync.py", line 203, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3.14/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpcore2/_exceptions.py", line 17, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore2.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_base_client.py", line 1076, in request
+    response = self._send_request(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_client.py", line 583, in _send_request
+    response = self._send_with_auth_retry(request, stream=stream, **kwargs)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_client.py", line 562, in _send_with_auth_retry
+    response = super()._send_request(request, stream=stream, **kwargs)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_base_client.py", line 999, in _send_request
+    return self._client.send(request, stream=stream, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 980, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 1008, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 1043, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 1076, in _send_single_request
+    response = transport.handle_request(request)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_transports/default.py", line 244, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/httpx2/_transports/default.py", line 115, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx2.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_counterfactual.py", line 190, in run_ctibench_item
+    cb_raw, rag_raw, gate, audit_hits, meta = run_task_branches(
+                                              ~~~~~~~~~~~~~~~~~^
+        task,
+        ^^^^^
+    ...<4 lines>...
+        benchmark="ctibench",
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/SK/CTI-Chatbot/tcar/task_branches.py", line 679, in run_task_branches
+    return run_ate_branches(question, retriever, cfg, chat_fn)
+  File "/mnt/c/Users/SK/CTI-Chatbot/tcar/task_branches.py", line 497, in run_ate_branches
+    cb_raw = chat_fn(cb_prompt, max_tokens=max_tokens)
+  File "/mnt/c/Users/SK/CTI-Chatbot/tcar/eval/run_counterfactual.py", line 62, in chat
+    resp = client.chat.completions.create(
+        messages=[{"role": "user", "content": user}],
+        **chat_completion_kwargs(model, max_tokens=max_tokens, temperature=temperature),
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/resources/chat/completions/completions.py", line 1296, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_base_client.py", line 1368, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/openai/_base_client.py", line 1111, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb: 100%|██████████| 60/60 [34:16<00:00, 107.86s/it]counterfactual_ctibench_ate_20260906Tgpt56sol_soft_gad_cb: 100%|██████████| 60/60 [34:16<00:00, 34.27s/it] 
+
+=== ctibench/ate (n=44) ===
+  CB score: 11.4% | Forced RAG: 75.0% | Δ +63.6%
+  Rescues: 28 | Damages: 0 | Net utility: +63.6%
+  False rejections: 10 | Harmful admissions: 0
+  Gate admit rate: 61.4% | Gate accuracy (differing): 0.6429
+  Recall@5: 100.0% | P(RAG correct|gold@5): 0.75
+
+Wrote summary -> /mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/counterfactual_summary_20260906Tgpt56sol_soft_gad_cb.json
+
+| Dataset/task | CB | Forced RAG | Rescues | Damages | Net utility | Gate acc |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| ctibench/ate | 11.4% | 75.0% | 28 | 0 | +63.6% | 64.3% |
+[2026-09-06T11:42:27Z] DONE soft_gad ctibench/ate
+[2026-09-07T07:08:54Z] RUN soft_gad ctibench/ate
+counterfactual_ctibench_ate_20260907Tgpt54mini_soft_gad_cb:   0%|          | 0/60 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A
+Loading weights:  63%|██████▎   | 65/103 [00:00<00:00, 542.45it/s][ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 612.53it/s]

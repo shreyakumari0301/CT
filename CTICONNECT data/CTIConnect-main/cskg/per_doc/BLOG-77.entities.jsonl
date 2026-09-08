@@ -1,0 +1,13 @@
+{"entity_type": "threat_actor", "canonical_name": "APT29", "aliases": ["Cloaked Ursa", "Cozy Bear", "Midnight Blizzard/Nobelium", "The Dukes", "Nobelium", "Midnight Blizzard", "UNC2452", "YTTRIUM"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "campaign", "canonical_name": "BMW 5 for sale in Kyiv flyer campaign", "aliases": ["BMW 5 for sale in Kyiv flyer"], "properties": {"first_seen": "2023-04", "last_seen": "2023-05"}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Turkish MFA earthquake relief guidance lure", "aliases": [], "properties": {"first_seen": "2023-02", "last_seen": "2023-03"}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "indicator", "canonical_name": "t.ly", "aliases": ["t[.]ly"], "properties": {"ioc_type": "domain", "value": "t.ly"}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "indicator", "canonical_name": "tinyurl.com", "aliases": ["tinyurl[.]com"], "properties": {"ioc_type": "domain", "value": "tinyurl.com"}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "indicator", "canonical_name": "https://resetlocations.com/bmw.htm", "aliases": ["hxxps://resetlocations[.]com/bmw.htm"], "properties": {"ioc_type": "url", "value": "https://resetlocations.com/bmw.htm"}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "indicator", "canonical_name": "311e9c8cf6d0b295074ffefaa9f277cb1f806343be262c59f88fbdf6fe242517", "aliases": [], "properties": {"ioc_type": "hash", "value": "311e9c8cf6d0b295074ffefaa9f277cb1f806343be262c59f88fbdf6fe242517"}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "indicator", "canonical_name": "8902bd7d085397745e05883f05c08de87623cc15fe630b36ad3d208f01ef0596", "aliases": [], "properties": {"ioc_type": "hash", "value": "8902bd7d085397745e05883f05c08de87623cc15fe630b36ad3d208f01ef0596"}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "identity", "canonical_name": "foreign missions in Kyiv", "aliases": [], "properties": {"region": "Kyiv"}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "identity", "canonical_name": "embassy addresses", "aliases": [], "properties": {}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "tool", "canonical_name": "WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-77::ch0"]}
+{"entity_type": "tool", "canonical_name": "DNS Security", "aliases": [], "properties": {}, "source_chunks": ["BLOG-77::ch0"]}

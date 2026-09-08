@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Once inside the environment, attackers have leveraged free or compromised legitimate remote management tools to access customer relationship management (CRM) platforms for sensitive data exfiltration. \u2026 Muddled Libra was particularly focused on maintaining access to targeted environments. While threat actors commonly use a free or demo version of a remote monitoring and management (RMM) tool during intrusions, Muddled Libra often installed half a dozen or more of these utilities. They did this to ensure they would maintain a backdoor into the environment even if one were discovered. Observed tools included Zoho Assist, AnyDesk, Splashtop, TeamViewer, ITarian, FleetDeck, ASG Remote Desktop, RustDesk and ManageEngine RMM.\" Please provide: 1) the MITRE ATT&CK category that maps to this behavior, 2) an explanation of how the behavior maps to the category, and 3) indicate the kill chain phase for this technique (e.g., where in the attack lifecycle should we expect this behavior)?",
+  "answer": "1) Remote Desktop Software (T1219.002). 2) Mapping Explanation: The attackers\u2019 use of multiple legitimate remote management tools (such as Zoho Assist, AnyDesk, and TeamViewer) to maintain backdoor access directly aligns with the Remote Desktop Software technique, which involves exploiting remote desktop utilities for unauthorized access and persistence. 3) Kill Chain Phase: Command-and-Control (as indicated by the MITRE ATT&CK framework).",
+  "llm_timing": {
+    "api_call_seconds": 5.6383
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "An adversary inspects an application's or browser's local cache to find and extract sensitive information that was computed or received but left unprotected. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1005.\n- T1005 corresponds to collecting cached local data, mapping CAPEC-204: retrieving sensitive information embedded in unprotected application or browser caches.",
+  "llm_cost": {
+    "input": 0.000772,
+    "cached_input": 0.0,
+    "output": 0.001,
+    "total": 0.001772,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 618,
+      "cached_input": 0,
+      "output": 100
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7748
+  }
+}

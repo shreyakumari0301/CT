@@ -1,0 +1,24 @@
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "tracks", "tgt_type": "threat_actor", "tgt_name": "Cadet Blizzard", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "collaborates_with", "tgt_type": "identity", "tgt_name": "CERT-UA", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "affiliated_with", "tgt_type": "identity", "tgt_name": "GRU", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Latin America", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "uses", "tgt_type": "malware", "tgt_name": "WhisperGate", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "conducts_operations_under", "tgt_type": "campaign", "tgt_name": "Free Civilian", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-26084", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-41040", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ProxyShell", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Impacket", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "reg", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "procdump64", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "P0wnyshell", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "reGeorg", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PAS", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "NetCat", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "GOST", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "compared_to", "tgt_type": "threat_actor", "tgt_name": "APT28", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cadet Blizzard", "predicate": "compared_to", "tgt_type": "threat_actor", "tgt_name": "Sandworm Team", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2021-26084", "predicate": "affects", "tgt_type": "tool", "tgt_name": "Confluence", "source_chunks": ["BLOG-55::ch0"]}
+{"src_type": "tool", "src_name": "procdump64", "predicate": "dumps", "tgt_type": "identity", "tgt_name": "LSASS", "source_chunks": ["BLOG-55::ch0"]}

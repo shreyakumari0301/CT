@@ -1,0 +1,23 @@
+{
+  "question": "A web server is configured so that files are processed by the wrong handler, causing content to be treated as a different type than intended and triggering unexpected server actions. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-11.\n- CAPEC-11 exploits handler misclassification, targeting CWE-430: deploying the wrong handler causes unexpected processing actions.",
+  "llm_cost": {
+    "input": 0.000742,
+    "cached_input": 0.0,
+    "output": 0.00094,
+    "total": 0.001682,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 594,
+      "cached_input": 0,
+      "output": 94
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5884
+  }
+}

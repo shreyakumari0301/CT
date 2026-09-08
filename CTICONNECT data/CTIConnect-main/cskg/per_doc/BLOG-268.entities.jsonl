@@ -1,0 +1,19 @@
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": ["Palo Alto Networks’ Unit 42"], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Jumpy Pisces", "aliases": [], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "identity", "canonical_name": "Reconnaissance General Bureau", "aliases": [], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Play ransomware gang", "aliases": ["Play"], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "tool", "canonical_name": "Sliver C2", "aliases": ["Sliver"], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "malware", "canonical_name": "DTrack", "aliases": ["custom DTrack info-stealer"], "properties": {"family": "DTrack"}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["a bespoke Mimikatz variant", "mimi"], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Initial access", "aliases": [], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Compromised user account", "aliases": [], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral movement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Persistence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privileged account creation via RDP", "aliases": ["RDP privileged-account creation"], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration of browser data", "aliases": ["exfiltrates browser history, autofill data and credit-card details"], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "malware", "canonical_name": "Play ransomware", "aliases": ["ransomware payload"], "properties": {"family": "Play"}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "tool", "canonical_name": "Remote Desktop Protocol (RDP)", "aliases": ["RDP"], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "identity", "canonical_name": "Edge", "aliases": [], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}
+{"entity_type": "identity", "canonical_name": "Brave", "aliases": [], "properties": {}, "source_chunks": ["BLOG-268::ch0"]}

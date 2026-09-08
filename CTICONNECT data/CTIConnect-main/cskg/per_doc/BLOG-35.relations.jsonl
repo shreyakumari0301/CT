@@ -1,0 +1,28 @@
+{"src_type": "campaign", "src_name": "multi-year espionage campaign uncovered by Mandiant", "predicate": "uncovered_by", "tgt_type": "identity", "tgt_name": "Mandiant", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "associated_with", "tgt_type": "campaign", "tgt_name": "multi-year espionage campaign uncovered by Mandiant", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-34048", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "causes_crash_of", "tgt_type": "tool", "tgt_name": "vmdird", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "VirtualPita", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "VirtualPie", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "delivers_via", "tgt_type": "tool", "tgt_name": "vSphere Installation Bundles", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "targets", "tgt_type": "tool", "tgt_name": "ESXi", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-20867", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Privilege Escalation", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense sector", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government sector", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecom sector", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "targets", "tgt_type": "identity", "tgt_name": "technology sector", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "targets", "tgt_type": "identity", "tgt_name": "APJ", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-41328", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Castletap", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Thincrust", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Fortinet firewall", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "threat_actor", "src_name": "UNC3886", "predicate": "reverse_engineers", "tgt_type": "tool", "tgt_name": "FortiOS", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-34048", "predicate": "affects", "tgt_type": "tool", "tgt_name": "VMware vCenter Server", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "malware", "src_name": "VirtualPita", "predicate": "delivered_via", "tgt_type": "tool", "tgt_name": "vSphere Installation Bundles", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "malware", "src_name": "VirtualPie", "predicate": "delivered_via", "tgt_type": "tool", "tgt_name": "vSphere Installation Bundles", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "tool", "src_name": "vSphere Installation Bundles", "predicate": "deployed_on", "tgt_type": "tool", "tgt_name": "ESXi", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-20867", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Privilege Escalation", "source_chunks": ["BLOG-35::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-41328", "predicate": "affects", "tgt_type": "tool", "tgt_name": "Fortinet firewall", "source_chunks": ["BLOG-35::ch0"]}

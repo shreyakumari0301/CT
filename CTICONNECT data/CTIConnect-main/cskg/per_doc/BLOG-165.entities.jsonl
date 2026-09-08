@@ -1,0 +1,21 @@
+{"entity_type": "identity", "canonical_name": "ThreatFabric", "aliases": [], "properties": {}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "malware", "canonical_name": "Octo2", "aliases": [], "properties": {"family": "Android banking Trojan", "capabilities": ["device takeover (DTO)", "remote actions", "DGA-based C2", "obfuscation", "anti-analysis", "on-device fraud", "interception of banking credentials"], "platforms": ["Android"]}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "malware", "canonical_name": "Exobot", "aliases": [], "properties": {"first_seen": "2016"}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "malware", "canonical_name": "Coper", "aliases": [], "properties": {"first_seen": "2021"}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "identity", "canonical_name": "Italy", "aliases": [], "properties": {"region": "Italy"}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "identity", "canonical_name": "Poland", "aliases": [], "properties": {"region": "Poland"}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "identity", "canonical_name": "Moldova", "aliases": [], "properties": {"region": "Moldova"}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hungary", "aliases": [], "properties": {"region": "Hungary"}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "indicator", "canonical_name": "com.xsusb_restore3", "aliases": ["Europe Enterprise com.xsusb_restore3"], "properties": {"ioc_type": "domain", "value": "com.xsusb_restore3"}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "indicator", "canonical_name": "com.havirtual06numberresources", "aliases": ["Google Chrome com.havirtual06numberresources"], "properties": {"ioc_type": "domain", "value": "com.havirtual06numberresources"}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "indicator", "canonical_name": "com.handedfastee5", "aliases": ["NordVPN com.handedfastee5"], "properties": {"ioc_type": "domain", "value": "com.handedfastee5"}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "tool", "canonical_name": "Zombinder", "aliases": [], "properties": {}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "malware", "canonical_name": "Octo", "aliases": [], "properties": {}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Architect/goodluck", "aliases": ["Architect", "goodluck"], "properties": {}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "identity", "canonical_name": "Team Cymru", "aliases": [], "properties": {}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Domain Generation Algorithms (DGA)", "aliases": ["DGA-based C2 framework"], "properties": {}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Play", "aliases": [], "properties": {}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Side-loading", "aliases": ["side-loading"], "properties": {}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Social engineering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-165::ch0"]}
+{"entity_type": "malware", "canonical_name": "Octo1", "aliases": [], "properties": {}, "source_chunks": ["BLOG-165::ch0"]}

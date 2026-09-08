@@ -1,0 +1,18 @@
+{"entity_type": "identity", "canonical_name": "Fortra", "aliases": [], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-0204", "aliases": [], "properties": {"cve_id": "CVE-2024-0204", "severity": "critical"}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "identity", "canonical_name": "GoAnywhere MFT 7.x", "aliases": ["GoAnywhere MFT"], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "identity", "canonical_name": "Horizon3’s Attack Team", "aliases": ["Horizon3"], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Authentication Bypass", "aliases": ["authentication bypass"], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Path Traversal", "aliases": ["path traversal vulnerability"], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "indicator", "canonical_name": "/InitialAccountSetup.xhtml", "aliases": ["InitialAccountSetup.xhtml"], "properties": {"ioc_type": "url", "value": "/InitialAccountSetup.xhtml"}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Clop", "aliases": ["Clop’s"], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Clop’s January 2023 campaign", "aliases": [], "properties": {"first_seen": "January 2023"}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": ["GoAnywhere RCE"], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-0669", "aliases": [], "properties": {"cve_id": "CVE-2023-0669"}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "identity", "canonical_name": "Community Health Systems", "aliases": [], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "identity", "canonical_name": "Procter & Gamble", "aliases": [], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "identity", "canonical_name": "Rubrik", "aliases": [], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "identity", "canonical_name": "City of Toronto", "aliases": [], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "identity", "canonical_name": "Accellion FTA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "identity", "canonical_name": "SolarWinds Serv-U", "aliases": ["Serv-U"], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}
+{"entity_type": "identity", "canonical_name": "MOVEit Transfer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-29::ch0"]}

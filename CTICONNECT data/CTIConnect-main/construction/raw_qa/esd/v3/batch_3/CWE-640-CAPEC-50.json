@@ -1,0 +1,23 @@
+{
+  "question": "An application\u2019s \u201cforgotten password\u201d feature uses a weak or insecure account recovery process, making it possible for an attacker to regain access as the legitimate user. Which CAPEC attack pattern exploits this weakness, and why can it succeed against such recovery mechanisms?",
+  "answer": "- CAPEC-50.\n- CAPEC-50 exploits weak password recovery, targeting CWE-640: insecure forgotten-password recovery mechanism enabling attacker account takeover.",
+  "llm_cost": {
+    "input": 0.000704,
+    "cached_input": 0.0,
+    "output": 0.00098,
+    "total": 0.001684,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 563,
+      "cached_input": 0,
+      "output": 98
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 4.3169
+  }
+}

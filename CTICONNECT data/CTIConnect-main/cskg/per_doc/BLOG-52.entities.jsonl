@@ -1,0 +1,13 @@
+{"entity_type": "identity", "canonical_name": "Microsoft Incident Response", "aliases": [], "properties": {}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "malware", "canonical_name": "StilachiRAT", "aliases": [], "properties": {"capabilities": ["system reconnaissance", "credential theft", "clipboard monitoring", "command and control", "persistence", "event-log clearing", "sandbox evasion", "API obfuscation"], "platforms": ["Windows"], "first_seen": "November 2024"}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "malware", "canonical_name": "WWStartupCtrl64.dll", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "tool", "canonical_name": "Web-Based Enterprise Management", "aliases": [], "properties": {}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "tool", "canonical_name": "Windows DPAPI", "aliases": ["DPAPI"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "tool", "canonical_name": "tcpview.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chrome cryptocurrency wallet extensions", "aliases": [], "properties": {"sector": "cryptocurrency"}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "identity", "canonical_name": "MetaMask", "aliases": [], "properties": {}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trust Wallet", "aliases": [], "properties": {}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "identity", "canonical_name": "TronLink", "aliases": [], "properties": {}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "indicator", "canonical_name": "app.95560.cc", "aliases": [], "properties": {"ioc_type": "domain", "value": "app.95560.cc"}, "source_chunks": ["BLOG-52::ch0"]}
+{"entity_type": "indicator", "canonical_name": "194.195.89.47", "aliases": [], "properties": {"ioc_type": "ip", "value": "194.195.89.47"}, "source_chunks": ["BLOG-52::ch0"]}

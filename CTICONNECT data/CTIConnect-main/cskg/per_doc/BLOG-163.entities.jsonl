@@ -1,0 +1,35 @@
+{"entity_type": "identity", "canonical_name": "Google", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-7024", "aliases": [], "properties": {"cve_id": "CVE-2023-7024", "severity": "high"}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "identity", "canonical_name": "TAG", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "identity", "canonical_name": "Clément Lecigne", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "identity", "canonical_name": "Vlad Stolyarov", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "WebRTC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "V8", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-2033", "aliases": [], "properties": {"cve_id": "CVE-2023-2033", "cvss": "8.8"}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-2136", "aliases": [], "properties": {"cve_id": "CVE-2023-2136", "cvss": "9.6"}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-3079", "aliases": [], "properties": {"cve_id": "CVE-2023-3079", "cvss": "8.8"}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-4762", "aliases": [], "properties": {"cve_id": "CVE-2023-4762", "cvss": "8.8"}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "WebP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-4863", "aliases": [], "properties": {"cve_id": "CVE-2023-4863", "cvss": "8.8"}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "libvpx", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-5217", "aliases": [], "properties": {"cve_id": "CVE-2023-5217", "cvss": "8.8"}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "Skia", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-6345", "aliases": [], "properties": {"cve_id": "CVE-2023-6345", "cvss": "9.6"}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "threat actors", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "ransomware groups", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "remote code execution", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "security-feature bypass", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "buffer manipulation", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "privilege escalation", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "input-validation flaws", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "Firefox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "Safari", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "identity", "canonical_name": "macOS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "identity", "canonical_name": "Linux", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chromium", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "Edge", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "Brave", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "Opera", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}
+{"entity_type": "tool", "canonical_name": "Vivaldi", "aliases": [], "properties": {}, "source_chunks": ["BLOG-163::ch0"]}

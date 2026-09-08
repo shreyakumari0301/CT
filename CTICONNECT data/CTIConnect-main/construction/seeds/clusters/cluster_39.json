@@ -1,0 +1,214 @@
+{
+  "cluster_id": 39,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 272,
+      "node": [
+        {
+          "node_text": "Elasticsearch",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Events API",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Fluentd",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Kubernetes Errors 101 playbook",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "Kubernetes clusters",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Kubernetes dashboard",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Lens",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Prometheus",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Prometheus-Alertmanager",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "kubectl describe",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "kubectl logs",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "metrics-server",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "openssl",
+          "node_type": "Application"
+        }
+      ],
+      "title": "Hexane",
+      "platform": "thehackernews",
+      "type": "threat actor",
+      "publish_date": "2021/11/11"
+    },
+    {
+      "blog_id": 224,
+      "node": [
+        {
+          "node_text": "Active Directory credentials",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "April 2018",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "August 2019",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "DanBot RAT",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Decrypt-RDCMan.ps1",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Dragos and SecureWorks",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Get-LAPSP.ps1",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Lyceum/Hexane",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Lyceum/Hexane campaign",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Middle East critical infrastructure",
+          "node_type": "System"
+        },
+        {
+          "node_text": "RDCMan-stored passwords",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "brute-force attacks",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "malicious Excel macros",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "password spraying",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "spear-phishing",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": "Hexane",
+      "platform": "BleepingComputer",
+      "type": "threat actor",
+      "publish_date": "2019/8/27"
+    },
+    {
+      "blog_id": 263,
+      "node": [
+        {
+          "node_text": "2018",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "2021",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "APT Hexane",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "C2 connectivity",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "DanBot RAT",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "France",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Israel",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Israeli IT and communications firms",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Israeli IT provider",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Lyceum",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Milan implant",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "SiameseKitten",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "additional organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "fake job offers",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "lure files",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "supply-chain phishing operations",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "the UK",
+          "node_type": "Location"
+        }
+      ],
+      "title": "Hexane",
+      "platform": "securityweek",
+      "type": "threat actor",
+      "publish_date": "2021/8/18"
+    }
+  ]
+}

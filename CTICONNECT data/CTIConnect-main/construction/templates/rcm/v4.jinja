@@ -1,0 +1,53 @@
+You are a Cyber Threat Intelligence (CTI) assistant.
+Given one **CVE entry (JSON)** as the **source** and one **CWE entry (JSON)** as the **target**, generate a **(question, answer) pair** for benchmarking RAG on the **Root Cause Mapping (RCM)** task.
+
+**Rules:**
+- Use only the provided inputs; do not invent facts.
+- Output exactly one JSON object with keys `question` and `answer`.
+- No extra text or formatting outside the JSON.
+
+---
+
+## INPUTS
+
+* **SOURCE CVE:**
+```json
+{{ SOURCE_NODE }}
+```
+
+* **TARGET CWE:**
+
+```json
+{{ TARGET_NODE }}
+```
+
+---
+
+## TASKS
+
+### 1. Question
+
+Write one question that:
+
+* **Describes the vulnerability behavior in natural language** based on the CVE description.
+* Asks which CWE weakness category corresponds to the described behavior.
+* Asks why that CWE is the root cause.
+* **Must NOT contain the source CVE ID** (e.g., do not write "CVE-2020-36775"). Do not paraphrase the ID either (e.g., "CVE 36775 from 2020"). The model under evaluation must infer the answer from the behavior alone.
+* **Must NOT contain the target CWE ID or CWE name.**
+* **Must NOT contain identifiers that uniquely fingerprint the specific CVE** — including vendor product names with model/version (e.g., "WordPress Plugin XYZ v2.3", "Cisco IOS 15.4"), exact internal function/method names (e.g., `install_required_plugin_callback`), exact API endpoint paths, or exact file paths. Generalize to the class of system (e.g., "a content management system plugin", "a network management product", "an authentication callback function"). Generic technology names (e.g., "Python library", "WordPress plugin", "SSH server") are acceptable.
+
+### 2. Answer
+
+Return a bullet list:
+
+* **First bullet:** The CWE ID (e.g., "CWE-770").
+* **Second bullet:** Format: `The vulnerability causes <specific behavior>, matching CWE-XXX: <a short description of the CWE, paraphrased from the TARGET CWE entry's name or description; this field must NOT be empty>.` Each bullet ≤ 22 words.
+
+---
+
+## Example
+
+{
+"question": "A vulnerability in a Python library allows remote attackers to enumerate valid usernames by observing differences in server response timing during authentication. Which CWE weakness category corresponds to this vulnerability, and why is it the root cause?",
+"answer": "- CWE-203.\n- The vulnerability causes user enumeration via response differences, matching CWE-203: observable discrepancy exposing state information."
+}

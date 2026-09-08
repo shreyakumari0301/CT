@@ -1,0 +1,23 @@
+{
+  "question": "A system-on-a-chip allows multiple components to access shared hardware or memory resources without proper separation, so one component can influence another through the shared resource. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-124.\n- CAPEC-124 exploits manipulation of shared SoC resources, targeting CWE-1189: improper isolation of shared resources on a system-on-a-chip.",
+  "llm_cost": {
+    "input": 0.000839,
+    "cached_input": 0.0,
+    "output": 0.00099,
+    "total": 0.001829,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 671,
+      "cached_input": 0,
+      "output": 99
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.578
+  }
+}

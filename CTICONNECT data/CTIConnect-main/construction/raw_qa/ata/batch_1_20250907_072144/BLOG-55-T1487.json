@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"A month before Russia invaded Ukraine, Cadet Blizzard foreshadowed future destructive activity when it created and deployed WhisperGate, a destructive capability that wipes Master Boot Records (MBRs), against Ukrainian government organizations.\" Please provide: 1) the MITRE ATT&CK category that maps to this behavior, 2) an explanation of how the described behavior maps to the MITRE technique, and 3) the kill chain phase of this technique, i.e., where in the attack lifecycle should we expect this behavior?",
+  "answer": "1) T1487 - Disk Structure Wipe. 2) Mapping Explanation: The behavior involves wiping Master Boot Records (MBRs), which directly corresponds to a destructive capability targeting disk structures as described in the MITRE ATT&CK technique T1487. 3) Kill Chain Phase: Impact, as this phase is focused on actions that disrupt or destroy system integrity.",
+  "llm_timing": {
+    "api_call_seconds": 4.449
+  }
+}

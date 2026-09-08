@@ -1,0 +1,11 @@
+{"entity_type": "identity", "canonical_name": "Trail of Bits", "aliases": [], "properties": {}, "source_chunks": ["BLOG-34::ch0"]}
+{"entity_type": "identity", "canonical_name": "AMD", "aliases": [], "properties": {}, "source_chunks": ["BLOG-34::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apple", "aliases": [], "properties": {}, "source_chunks": ["BLOG-34::ch0"]}
+{"entity_type": "identity", "canonical_name": "Qualcomm", "aliases": [], "properties": {}, "source_chunks": ["BLOG-34::ch0"]}
+{"entity_type": "identity", "canonical_name": "Imagination Technologies", "aliases": [], "properties": {}, "source_chunks": ["BLOG-34::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-4969", "aliases": ["LeftoverLocals"], "properties": {"cve_id": "CVE-2023-4969"}, "source_chunks": ["BLOG-34::ch0"]}
+{"entity_type": "identity", "canonical_name": "CERT/CC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-34::ch0"]}
+{"entity_type": "tool", "canonical_name": "OpenCL", "aliases": [], "properties": {}, "source_chunks": ["BLOG-34::ch0"]}
+{"entity_type": "tool", "canonical_name": "Vulkan", "aliases": [], "properties": {}, "source_chunks": ["BLOG-34::ch0"]}
+{"entity_type": "tool", "canonical_name": "Metal", "aliases": [], "properties": {}, "source_chunks": ["BLOG-34::ch0"]}
+{"entity_type": "tool", "canonical_name": "llama.cpp", "aliases": [], "properties": {}, "source_chunks": ["BLOG-34::ch0"]}

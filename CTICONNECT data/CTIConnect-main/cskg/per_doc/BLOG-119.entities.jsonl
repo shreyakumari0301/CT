@@ -1,0 +1,6 @@
+{"entity_type": "identity", "canonical_name": "ReversingLabs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-119::ch0"]}
+{"entity_type": "tool", "canonical_name": "SqzrFramework480", "aliases": [], "properties": {"platforms": [".NET"], "capabilities": ["screenshot capture", "credential harvesting", "data exfiltration", "network communications"]}, "source_chunks": ["BLOG-119::ch0"]}
+{"entity_type": "identity", "canonical_name": "NuGet", "aliases": [], "properties": {}, "source_chunks": ["BLOG-119::ch0"]}
+{"entity_type": "identity", "canonical_name": "Bozhon Precision Industry Technology Co.", "aliases": ["Bozhon"], "properties": {}, "source_chunks": ["BLOG-119::ch0"]}
+{"entity_type": "campaign", "canonical_name": "supply-chain espionage campaign", "aliases": [], "properties": {"objective": "espionage"}, "source_chunks": ["BLOG-119::ch0"]}
+{"entity_type": "identity", "canonical_name": "NuGet administrators", "aliases": [], "properties": {}, "source_chunks": ["BLOG-119::ch0"]}

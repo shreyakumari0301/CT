@@ -1,0 +1,23 @@
+{
+  "question": "An attacker manipulates a file\u2019s name extension so the operating system or user opens it with a different application than intended, potentially executing malicious code, causing denial of service, or exposing sensitive data. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1036.007.\n- T1036.007 corresponds to deceptive double extensions, mapping CAPEC-635: misleading filenames trigger alternative execution or data exposure.",
+  "llm_cost": {
+    "input": 0.000753,
+    "cached_input": 0.0,
+    "output": 0.00111,
+    "total": 0.001863,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 602,
+      "cached_input": 0,
+      "output": 111
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3925
+  }
+}

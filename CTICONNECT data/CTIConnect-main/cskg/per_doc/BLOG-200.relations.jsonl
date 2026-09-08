@@ -1,0 +1,31 @@
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-2725", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2017-10271", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-2729", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exploit Public-Facing Application", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Drive-by Compromise", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "tool", "tgt_name": "wmic.exe", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "tool", "tgt_name": "bcdedit.exe", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "tool", "tgt_name": "wbadmin.exe", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "tool", "tgt_name": "vssadmin.exe", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Inhibit System Recovery", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Impair Defenses: Disable or Modify Tools", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "appends_extension", "tgt_type": "indicator", "tgt_name": ".locked", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "drops_ransom_note", "tgt_type": "indicator", "tgt_name": "Contact Us.txt", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Valid Accounts", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "disables", "tgt_type": "tool", "tgt_name": "PCHunter", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "disables", "tgt_type": "tool", "tgt_name": "ProcessHacker", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "OS Credential Dumping: Security Account Manager", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Remote Services: Remote Desktop Protocol", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Remote Services: SMB/Windows Admin Shares", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AdFind", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Active Scanning: Vulnerability Scanning", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "malware", "tgt_name": "SharpRhino RAT", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Application Layer Protocol", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over C2 Channel", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "targets", "tgt_type": "identity", "tgt_name": "construction SMBs", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "targets", "tgt_type": "identity", "tgt_name": "IT SMBs", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing SMBs", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "campaign", "src_name": "Water Ouroboros", "predicate": "targets", "tgt_type": "identity", "tgt_name": "healthcare SMBs", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "malware", "src_name": "SharpRhino RAT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Application Layer Protocol", "source_chunks": ["BLOG-200::ch0"]}
+{"src_type": "malware", "src_name": "SharpRhino RAT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over C2 Channel", "source_chunks": ["BLOG-200::ch0"]}

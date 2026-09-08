@@ -1,0 +1,28 @@
+{"entity_type": "threat_actor", "canonical_name": "Volt Typhoon", "aliases": ["BRONZE SILHOUETTE", "Vanguard Panda", "Insidious Taurus"], "properties": {"country": "China", "primary_motivation": "espionage", "regions_targeted": ["United States"], "sectors_targeted": ["communications", "utilities", "transportation", "manufacturing", "government", "education", "critical infrastructure"], "first_seen": "mid-2021"}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "campaign", "canonical_name": "stealthy living-off-the-land campaigns", "aliases": [], "properties": {"objective": "post-compromise credential access, network discovery and long-term espionage with an eye toward potential disruption of Asia-U.S. communications in future crises", "first_seen": "mid-2021"}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. critical infrastructure", "aliases": [], "properties": {"region": "United States", "sector": "critical infrastructure"}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "communications", "aliases": [], "properties": {"sector": "communications"}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "utilities", "aliases": [], "properties": {"sector": "utilities"}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "transportation", "aliases": [], "properties": {"sector": "transportation"}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturing", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "government", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "education", "aliases": [], "properties": {"sector": "education"}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "Asia-U.S. communications", "aliases": [], "properties": {"region": "Asia-United States", "sector": "communications"}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "tool", "canonical_name": "Ntdsutil.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMIC", "aliases": ["wmic.exe"], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "tool", "canonical_name": "ping", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "tool", "canonical_name": "Impacket", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "tool", "canonical_name": "FRP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["PSExec", "psexec.exe"], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft 365 Defender", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Defender Antivirus", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "Defender for Endpoint", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "Fortinet FortiGuard", "aliases": ["Fortinet FortiGuard devices"], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "ASUS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "D-Link", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "NETGEAR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "Zyxel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows 11", "aliases": [], "properties": {}, "source_chunks": ["BLOG-68::ch0"]}

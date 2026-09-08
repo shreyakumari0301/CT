@@ -1,0 +1,7 @@
+{
+  "question": "Based on cross-report analysis, what is the single most notable new capability that appeared in later variants compared to earlier ones?",
+  "answer": "- Conti RaaS initial variants: spear-phishing attachments (T1566.001) and public-facing application exploits (T1190) deploying Cobalt Strike and PowerShell for discovery, lateral movement and privilege escalation\n- Trickbot-linked Conti variants: BazarLoader phishing, FortiGate/ProxyShell exploitation, credential dumping (ProcDump, Mimikatz), lateral movement via EternalBlue/PSExec, data exfiltration using Rclone/WinSCP and ChaCha20/RSA-4096 encryption with shadow-copy deletion for double extortion\n- EXOTIC LILY/BUMBLEBEE delivery: ISO files containing hidden DLLs and LNK shortcuts, WMI-based JSON data collection and a unique \u201cbumblebee\u201d user-agent to stealthily fetch payloads\n- Most Notable New Capability: ISO-based loader delivery employing hidden DLLs and LNK shortcuts (the BUMBLEBEE loader) for enhanced stealth",
+  "llm_timing": {
+    "api_call_seconds": 26.3895
+  }
+}

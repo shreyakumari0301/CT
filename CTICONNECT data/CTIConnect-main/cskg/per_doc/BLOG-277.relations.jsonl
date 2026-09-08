@@ -1,0 +1,9 @@
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "tool", "tgt_name": "mc.exe", "source_chunks": ["BLOG-277::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-18935", "source_chunks": ["BLOG-277::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "SQL injection", "source_chunks": ["BLOG-277::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-7418", "source_chunks": ["BLOG-277::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-1609", "source_chunks": ["BLOG-277::ch0"]}
+{"src_type": "identity", "src_name": "NCC Group", "predicate": "newly_identified", "tgt_type": "threat_actor", "tgt_name": "SnapMC", "source_chunks": ["BLOG-277::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2019-18935", "predicate": "in", "tgt_type": "identity", "tgt_name": "Telerik UI for ASPX.NET", "source_chunks": ["BLOG-277::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2019-7418", "predicate": "targets", "tgt_type": "identity", "tgt_name": "SonicWall", "source_chunks": ["BLOG-277::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2021-1609", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Cisco", "source_chunks": ["BLOG-277::ch0"]}

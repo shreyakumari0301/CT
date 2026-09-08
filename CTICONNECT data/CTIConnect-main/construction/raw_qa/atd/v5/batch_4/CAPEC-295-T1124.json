@@ -1,0 +1,23 @@
+{
+  "question": "An adversary sends standard requests to learn the exact time on a target system, then uses the returned timestamp to undermine time-based security like RNGs or time-based authentication. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1124.\n- T1124 corresponds to discovering system time, mapping CAPEC-295: requesting timestamps to get exact target time for time-based attacks.",
+  "llm_cost": {
+    "input": 0.000736,
+    "cached_input": 0.0,
+    "output": 0.00105,
+    "total": 0.001786,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 589,
+      "cached_input": 0,
+      "output": 105
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6505
+  }
+}

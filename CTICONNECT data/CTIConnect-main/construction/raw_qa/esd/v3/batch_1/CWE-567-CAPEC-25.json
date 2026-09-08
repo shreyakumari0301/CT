@@ -1,0 +1,23 @@
+{
+  "question": "In a multithreaded program, multiple threads access shared data without proper synchronization, allowing conflicting operations that can cause threads to wait indefinitely. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-25.\n- CAPEC-25 exploits unsynchronized shared-data access, targeting CWE-567: multithreaded shared data accessed without synchronization, enabling deadlock-driven denial of service.",
+  "llm_cost": {
+    "input": 0.000721,
+    "cached_input": 0.0,
+    "output": 0.00101,
+    "total": 0.001731,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 577,
+      "cached_input": 0,
+      "output": 101
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7309
+  }
+}

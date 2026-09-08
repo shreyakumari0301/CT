@@ -1,0 +1,31 @@
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2018-13379", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exploit Public-Facing Application", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Valid Accounts", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell Empire", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Meterpreter", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Command and Scripting Interpreter", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Signed Binary Proxy Execution", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "tool", "tgt_name": "GMER", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Process Hacker", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "impairs_defenses_by_disabling", "tgt_type": "identity", "tgt_name": "Windows Defender", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Impair Defenses", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "File and Directory Discovery", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Network Share Discovery", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "discovers", "tgt_type": "identity", "tgt_name": "Active Directory", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Lateral Tool Transfer", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "malware", "tgt_name": "StealBit", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration Over Web Service", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Data Encrypted for Impact", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "targets", "tgt_type": "identity", "tgt_name": "United States", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "targets", "tgt_type": "identity", "tgt_name": "India", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Brazil", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "targets", "tgt_type": "identity", "tgt_name": "healthcare", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "targets", "tgt_type": "identity", "tgt_name": "education", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "malware", "src_name": "LockBit", "predicate": "targets", "tgt_type": "identity", "tgt_name": "APAC", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "threat_actor", "src_name": "Water Selkie", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "LockBit", "source_chunks": ["BLOG-192::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2018-13379", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Fortinet", "source_chunks": ["BLOG-192::ch0"]}

@@ -1,0 +1,23 @@
+{
+  "question": "An application sends sensitive data over its main communication path without adequate protection, allowing an attacker to monitor or intercept the exchanged information. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-383.\n- CAPEC-383 exploits unprotected primary communication channel, targeting CWE-419: sensitive data sent over the primary channel without protection.",
+  "llm_cost": {
+    "input": 0.000821,
+    "cached_input": 0.0,
+    "output": 0.0009,
+    "total": 0.001721,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 657,
+      "cached_input": 0,
+      "output": 90
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5598
+  }
+}

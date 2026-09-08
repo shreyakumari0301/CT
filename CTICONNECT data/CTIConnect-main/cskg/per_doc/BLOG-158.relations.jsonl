@@ -1,0 +1,13 @@
+{"src_type": "malware", "src_name": "SpectralBlur", "predicate": "targets", "tgt_type": "identity", "tgt_name": "macOS", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "malware", "src_name": "SpectralBlur", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "APT38", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "malware", "src_name": "SpectralBlur", "predicate": "shares_core_functionality_with", "tgt_type": "malware", "tgt_name": "KANDYKORN", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "malware", "src_name": "SpectralBlur", "predicate": "uses", "tgt_type": "tool", "tgt_name": "grantpt", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "malware", "src_name": "SpectralBlur", "predicate": "uploaded_from", "tgt_type": "identity", "tgt_name": "Colombia", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT38", "predicate": "uses", "tgt_type": "malware", "tgt_name": "RustBucket", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT38", "predicate": "uses", "tgt_type": "malware", "tgt_name": "ObjCShellz", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT38", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "KANDYKORN", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT38", "predicate": "targets", "tgt_type": "identity", "tgt_name": "cryptocurrency and blockchain targets", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT38", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "North Korea", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "malware", "src_name": "KANDYKORN", "predicate": "targets", "tgt_type": "identity", "tgt_name": "macOS", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "malware", "src_name": "RustBucket", "predicate": "dropped_by", "tgt_type": "campaign", "tgt_name": "Lazarus campaigns", "source_chunks": ["BLOG-158::ch0"]}
+{"src_type": "malware", "src_name": "ObjCShellz", "predicate": "dropped_by", "tgt_type": "campaign", "tgt_name": "Lazarus campaigns", "source_chunks": ["BLOG-158::ch0"]}

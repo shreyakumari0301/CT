@@ -1,0 +1,9 @@
+{"entity_type": "tool", "canonical_name": "kubectl", "aliases": [], "properties": {"platforms": ["Kubernetes"]}, "source_chunks": ["BLOG-272::ch0"]}
+{"entity_type": "tool", "canonical_name": "metrics-server", "aliases": [], "properties": {"platforms": ["Kubernetes"]}, "source_chunks": ["BLOG-272::ch0"]}
+{"entity_type": "tool", "canonical_name": "Prometheus", "aliases": [], "properties": {}, "source_chunks": ["BLOG-272::ch0"]}
+{"entity_type": "tool", "canonical_name": "Kubernetes dashboard", "aliases": [], "properties": {"platforms": ["Kubernetes"]}, "source_chunks": ["BLOG-272::ch0"]}
+{"entity_type": "tool", "canonical_name": "Lens", "aliases": [], "properties": {}, "source_chunks": ["BLOG-272::ch0"]}
+{"entity_type": "tool", "canonical_name": "OpenSSL", "aliases": ["openssl"], "properties": {}, "source_chunks": ["BLOG-272::ch0"]}
+{"entity_type": "tool", "canonical_name": "Fluentd", "aliases": [], "properties": {}, "source_chunks": ["BLOG-272::ch0"]}
+{"entity_type": "tool", "canonical_name": "Elasticsearch", "aliases": [], "properties": {}, "source_chunks": ["BLOG-272::ch0"]}
+{"entity_type": "tool", "canonical_name": "Alertmanager", "aliases": ["Prometheus-Alertmanager"], "properties": {}, "source_chunks": ["BLOG-272::ch0"]}

@@ -1,0 +1,18 @@
+{"src_type": "identity", "src_name": "ESET", "predicate": "recorded_detections_of", "tgt_type": "malware", "tgt_name": "Win/TrojanDownloader.Rugmi", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "malware", "src_name": "Win/TrojanDownloader.Rugmi", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Lumma Stealer", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "malware", "src_name": "Win/TrojanDownloader.Rugmi", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Vidar", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "malware", "src_name": "Win/TrojanDownloader.Rugmi", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "RecordBreaker", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "malware", "src_name": "Win/TrojanDownloader.Rugmi", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Rescoms", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "malware", "src_name": "Lumma Stealer", "predicate": "reuses_code_from", "tgt_type": "malware", "tgt_name": "Mars", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "malware", "src_name": "Lumma Stealer", "predicate": "reuses_code_from", "tgt_type": "malware", "tgt_name": "Arkei", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "malware", "src_name": "Lumma Stealer", "predicate": "reuses_code_from", "tgt_type": "malware", "tgt_name": "Vidar", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "malware", "src_name": "Lumma Stealer", "predicate": "distributed_via", "tgt_type": "tool", "tgt_name": "Discord CDN", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "tool", "src_name": "Discord CDN", "predicate": "hosts", "tgt_type": "indicator", "tgt_name": "iMagic Inventory", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "indicator", "src_name": "iMagic Inventory", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Lumma Stealer", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "identity", "src_name": "McAfee Labs", "predicate": "disclosed", "tgt_type": "malware", "tgt_name": "NetSupport RAT", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "malware", "src_name": "NetSupport RAT", "predicate": "spawned_from", "tgt_type": "tool", "tgt_name": "NetSupport Manager", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Obfuscated JavaScript", "predicate": "triggers", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "threat_actor", "src_name": "initial access brokers", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "NetSupport RAT", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "threat_actor", "src_name": "initial access brokers", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Obfuscated JavaScript", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "threat_actor", "src_name": "initial access brokers", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. organizations", "source_chunks": ["BLOG-155::ch0"]}
+{"src_type": "threat_actor", "src_name": "initial access brokers", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Canadian organizations", "source_chunks": ["BLOG-155::ch0"]}

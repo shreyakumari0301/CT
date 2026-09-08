@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The attackers are delivering MSI files signed with an invalid but specially crafted Authenticode signature... The malformed signature causes SmartScreen to return an error that results in bypassing the security warning dialog displayed to users when an untrusted file contains a Mark-of-the-Web (MotW)... In practice, the attackers achieved a NULL cert_context by providing an Authenticode signature where the SignerInfo certificate serial number can not be found among the SignedData certificates. Magniber used CVE-2022-44698 by providing a signer certificate serial number that is not present in the signature certificates... To obtain a NULL crypt_provider_data->pPDSip->psIndirectData, the attackers corrupted the ASN1 numerical identifier (NID) of the SPC_INDIRECT_DATA_OBJID...\" Please identify the MITRE ATT&CK technique category that maps to this behavior, explain how the behavior described maps to the technique, and specify which operating systems are affected (i.e., which are the applicable platforms)?",
+  "answer": "1) MITRE ATT&CK Category: T1036.001 - Invalid Code Signature. 2) Mapping Explanation: The blog describes attackers using malformed and invalid Authenticode signatures to bypass security warnings, which is directly aligned with the Invalid Code Signature technique where attackers deliberately craft or manipulate a signature to deceive security mechanisms. 3) Applicable Platforms: macOS and Windows.",
+  "llm_timing": {
+    "api_call_seconds": 4.5714
+  }
+}

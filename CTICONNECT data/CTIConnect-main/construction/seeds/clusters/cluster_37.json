@@ -1,0 +1,221 @@
+{
+  "cluster_id": 37,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 240,
+      "node": [
+        {
+          "node_text": "APT42",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "ChainDoor RAT",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "HTTPS-based C2 channels",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Middle East",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Mimikatz",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Mint Sandstorm",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "November 2024",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "TA453",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "coin-miner payloads",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "credential harvesting",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "critical infrastructure",
+          "node_type": "System"
+        },
+        {
+          "node_text": "government ministries",
+          "node_type": "System"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "public-facing web portals",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "secondary backdoor",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "spear-phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "steganography",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "zero-day SQL injection",
+          "node_type": "Vulnerability Type"
+        }
+      ],
+      "title": "APT42",
+      "platform": "cybermaterial",
+      "type": "threat actor",
+      "publish_date": "2023/5/30"
+    },
+    {
+      "blog_id": 222,
+      "node": [
+        {
+          "node_text": "APT35",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "APT42",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Android spyware",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "BitLocker ransomware",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Exchange servers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "February 2022",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Fortinet FortiOS SSL VPN",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "IRGC",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Mandiant",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "November 2021",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "PDF attachments",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "PHOSPHORUS",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "SMS links",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "credential harvesting",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "credential theft",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "fake interview requests",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "initial access",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "lightweight custom malware",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "persistence",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "privilege escalation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "reconnaissance",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "registry keys",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "scheduled tasks",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "shortened URLs",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "spear-phishing",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "spoofed login portals",
+          "node_type": "System"
+        }
+      ],
+      "title": "APT42",
+      "platform": "BleepingComputer",
+      "type": "threat actor",
+      "publish_date": "2022/9/7"
+    },
+    {
+      "blog_id": 271,
+      "node": [],
+      "title": "APT42",
+      "platform": "thehackernews",
+      "type": "threat actor",
+      "publish_date": "2022/9/11"
+    }
+  ]
+}

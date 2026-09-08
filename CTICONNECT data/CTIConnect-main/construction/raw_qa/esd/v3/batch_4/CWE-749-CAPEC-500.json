@@ -1,0 +1,23 @@
+{
+  "question": "An application exposes a potentially dangerous method or function that an attacker can invoke from an untrusted context. Which CAPEC attack pattern exploits this weakness, and why can it leverage the exposed dangerous functionality to compromise the application?",
+  "answer": "- CAPEC-500.\n- CAPEC-500 exploits exposed dangerous methods via injected WebView code, targeting CWE-749: exposing dangerous methods or functions to attackers.",
+  "llm_cost": {
+    "input": 0.000727,
+    "cached_input": 0.0,
+    "output": 0.00093,
+    "total": 0.001658,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 582,
+      "cached_input": 0,
+      "output": 93
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6915
+  }
+}

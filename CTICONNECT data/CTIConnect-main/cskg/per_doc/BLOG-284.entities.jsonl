@@ -1,0 +1,20 @@
+{"entity_type": "threat_actor", "canonical_name": "Scattered Spider", "aliases": ["SCATTERED SPIDER", "Octo Tempest", "0ktapus", "UNC3944", "Scatter Swine", "Roasted 0ktapus", "Muddled Libra", "Storm-0875"], "properties": {"sectors_targeted": ["insurance", "retail", "airlines"], "regions_targeted": ["United States"]}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. airlines", "aliases": [], "properties": {"sector": "airlines", "region": "United States"}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Entra ID", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Help-desk voice phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "ADExplorer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "ADRecon.ps1", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "Get-ADUser", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "VMware vCenter", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "malware", "canonical_name": "Chisel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "indicator", "canonical_name": "trycloudflare.com", "aliases": ["trycloudflare[.]com"], "properties": {"ioc_type": "domain", "value": "trycloudflare.com"}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "ngrok", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "MobaXterm", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "Pinggy", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "Rsocx", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "Teleport", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "S3 Browser", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "AWS S3", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "malware", "canonical_name": "ESXi ransomware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "tool", "canonical_name": "CrowdStrike Falcon Next-Gen SIEM", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}
+{"entity_type": "identity", "canonical_name": "CrowdStrike Services", "aliases": [], "properties": {}, "source_chunks": ["BLOG-284::ch0"]}

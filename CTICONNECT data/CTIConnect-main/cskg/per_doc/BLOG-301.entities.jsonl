@@ -1,0 +1,18 @@
+{"entity_type": "threat_actor", "canonical_name": "Kimsuky", "aliases": ["APT43", "Velvet Chollima", "Black Banshee", "Emerald Sleet", "THALLIUM"], "properties": {"country": "DPRK", "primary_motivation": "espionage", "first_seen": "March 2025", "last_seen": "July 2025"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "campaign", "canonical_name": "multi-stage espionage operation against foreign embassies in South Korea", "aliases": [], "properties": {"objective": "espionage", "first_seen": "March 2025", "last_seen": "July 2025"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "identity", "canonical_name": "foreign embassies in South Korea", "aliases": [], "properties": {"sector": "diplomatic", "region": "South Korea"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "malware", "canonical_name": "XenoRAT", "aliases": [], "properties": {"family": "XenoRAT", "capabilities": ["full system control", "keystroke logging", "screenshots", "file transfers", "persistence", "system reconnaissance", "data exfiltration"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "tool", "canonical_name": "Confuser Core 1.6.0", "aliases": ["Confuser Core"], "properties": {}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing Attachment", "aliases": [], "properties": {"technique_id": "T1566.001"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "PowerShell", "aliases": [], "properties": {"technique_id": "T1059.001"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration to Cloud Storage", "aliases": [], "properties": {"technique_id": "T1567.002"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "indicator", "canonical_name": "158.247.230.196", "aliases": [], "properties": {"ioc_type": "ip", "value": "158.247.230.196"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "indicator", "canonical_name": "141.164.40.239", "aliases": ["141.164.40.239:443"], "properties": {"ioc_type": "ip", "value": "141.164.40.239"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "indicator", "canonical_name": "1e10203174fb1fcfb47bb00cac2fe6ffe660660839b7a2f53d8c0892845b0029", "aliases": [], "properties": {"ioc_type": "hash", "value": "1e10203174fb1fcfb47bb00cac2fe6ffe660660839b7a2f53d8c0892845b0029"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "indicator", "canonical_name": "cf2cba1859b2df4e927b8d52c630ce7ab6700babf9c7b4030f8243981b1a04fa", "aliases": [], "properties": {"ioc_type": "hash", "value": "cf2cba1859b2df4e927b8d52c630ce7ab6700babf9c7b4030f8243981b1a04fa"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "indicator", "canonical_name": "blairity", "aliases": [], "properties": {"ioc_type": "domain", "value": "blairity"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "indicator", "canonical_name": "landjhon", "aliases": [], "properties": {"ioc_type": "domain", "value": "landjhon"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "identity", "canonical_name": "South Korea", "aliases": [], "properties": {"region": "South Korea"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "identity", "canonical_name": "China", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-301::ch0"]}
+{"entity_type": "identity", "canonical_name": "DPRK", "aliases": [], "properties": {"region": "DPRK"}, "source_chunks": ["BLOG-301::ch0"]}

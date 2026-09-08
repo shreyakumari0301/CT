@@ -1,0 +1,18 @@
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "used", "tgt_type": "identity", "tgt_name": "Dropbox", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "used", "tgt_type": "tool", "tgt_name": "Microsoft Word", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "deployed", "tgt_type": "malware", "tgt_name": "Rising Sun", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. defense sector", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. nuclear sector", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. energy sector", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. financial sector", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "financial services", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "critical infrastructure", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Germany", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Turkey", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "the U.K.", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "targets", "tgt_type": "identity", "tgt_name": "the U.S.", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "campaign", "src_name": "Operation Sharpshooter", "predicate": "associated_with", "tgt_type": "threat_actor", "tgt_name": "Lazarus Group", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "identity", "src_name": "RSA Conference 2019", "predicate": "hosted_reveal_of", "tgt_type": "campaign", "tgt_name": "Operation Sharpshooter", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "identity", "src_name": "McAfee", "predicate": "revealed", "tgt_type": "campaign", "tgt_name": "Operation Sharpshooter", "source_chunks": ["BLOG-276::ch0"]}
+{"src_type": "malware", "src_name": "Rising Sun", "predicate": "derived_from", "tgt_type": "malware", "tgt_name": "Duuzer", "source_chunks": ["BLOG-276::ch0"]}

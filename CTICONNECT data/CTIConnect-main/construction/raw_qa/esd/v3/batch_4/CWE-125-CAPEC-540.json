@@ -1,0 +1,23 @@
+{
+  "question": "An application reads memory past the end of a defined buffer due to improper bounds checking, allowing exposure of adjacent data or crashes. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-540.\n- CAPEC-540 exploits out-of-bounds reading, targeting CWE-125: reading past buffer boundaries exposes unintended memory contents.",
+  "llm_cost": {
+    "input": 0.000734,
+    "cached_input": 0.0,
+    "output": 0.00089,
+    "total": 0.001624,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 587,
+      "cached_input": 0,
+      "output": 89
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 7.2828
+  }
+}

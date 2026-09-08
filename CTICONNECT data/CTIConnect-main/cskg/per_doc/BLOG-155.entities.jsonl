@@ -1,0 +1,18 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "malware", "canonical_name": "Win/TrojanDownloader.Rugmi", "aliases": ["Rugmi"], "properties": {"capabilities": ["loader", "downloads encrypted payloads", "in-memory execution"]}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "malware", "canonical_name": "Lumma Stealer", "aliases": ["Lumma"], "properties": {"capabilities": ["information stealing"]}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "malware", "canonical_name": "Vidar", "aliases": [], "properties": {"capabilities": ["information stealing"]}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "malware", "canonical_name": "RecordBreaker", "aliases": ["Raccoon Stealer V2"], "properties": {"capabilities": ["information stealing"]}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "malware", "canonical_name": "Rescoms", "aliases": [], "properties": {"capabilities": ["information stealing"]}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "malware", "canonical_name": "Mars", "aliases": [], "properties": {}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "malware", "canonical_name": "Arkei", "aliases": [], "properties": {}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "tool", "canonical_name": "Discord CDN", "aliases": ["Discord’s CDN"], "properties": {"capabilities": ["content delivery"]}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "indicator", "canonical_name": "iMagic Inventory", "aliases": ["“iMagic Inventory” executable"], "properties": {"ioc_type": "hash", "value": "iMagic Inventory"}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "identity", "canonical_name": "McAfee Labs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "malware", "canonical_name": "NetSupport RAT", "aliases": ["NetSupport RAT variant"], "properties": {"capabilities": ["remote access"]}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "tool", "canonical_name": "NetSupport Manager", "aliases": [], "properties": {"capabilities": ["remote administration"]}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Obfuscated JavaScript", "aliases": [], "properties": {}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["command execution", "payload retrieval"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "initial access brokers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. organizations", "aliases": ["U.S."], "properties": {"region": "United States"}, "source_chunks": ["BLOG-155::ch0"]}
+{"entity_type": "identity", "canonical_name": "Canadian organizations", "aliases": ["Canadian"], "properties": {"region": "Canada"}, "source_chunks": ["BLOG-155::ch0"]}

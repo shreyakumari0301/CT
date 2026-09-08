@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: MuddyWater\n- Aliases Resolved: SeedWorm, TEMP.Zagros\n- Primary Tools/Malware: trojanized Atera Agent MSI, weaponized Office documents with .NET loader and C# backdoor, PowGoop, Canopy/Starwhale, Mori, POWERSTATS, Python backdoor \u201cSmall Sieve\u201d, encrypted PowerShell backdoor",
+  "llm_timing": {
+    "api_call_seconds": 7.5681
+  }
+}

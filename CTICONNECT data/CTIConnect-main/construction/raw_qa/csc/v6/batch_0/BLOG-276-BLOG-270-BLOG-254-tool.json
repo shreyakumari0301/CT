@@ -1,0 +1,7 @@
+{
+  "question": "Which malicious tools and malware components are consistently used in Operation Sharpshooter across these reports?",
+  "answer": "- Weaponized Microsoft Word documents with embedded macros or shellcode as the initial infection vector\n- An in-memory downloader/loader stage that executes without writing to disk\n- The Rising Sun second-stage implant for reconnaissance and data exfiltration\n- Reuse of Lazarus Group\u2019s Duuzer backdoor source code within the Rising Sun implant\n- Communication with multiple command-and-control servers for payload delivery and data exfiltration",
+  "llm_timing": {
+    "api_call_seconds": 6.541
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "An attacker gains unauthorized access to an application, service, or device by exploiting weaknesses in an authentication mechanism or flaws in its implementation, using a carefully controlled sequence of events that causes the mechanism to grant access. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to the described attack pattern?",
+  "answer": "- T1548.\n- T1548 corresponds to abusing access-control elevation mechanisms, mapping CAPEC-114: exploiting authentication weaknesses or implementation flaws to gain unauthorized access.",
+  "llm_cost": {
+    "input": 0.000754,
+    "cached_input": 0.0,
+    "output": 0.00114,
+    "total": 0.001894,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 603,
+      "cached_input": 0,
+      "output": 114
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7924
+  }
+}

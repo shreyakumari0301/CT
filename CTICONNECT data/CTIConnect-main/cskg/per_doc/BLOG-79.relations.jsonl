@@ -1,0 +1,11 @@
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "identified_risk_in", "tgt_type": "identity", "tgt_name": "Google Workspace", "source_chunks": ["BLOG-79::ch0"]}
+{"src_type": "identity", "src_name": "Google Cloud Platform", "predicate": "enables_impersonation_in", "tgt_type": "identity", "tgt_name": "Google Workspace", "source_chunks": ["BLOG-79::ch0"]}
+{"src_type": "identity", "src_name": "Google Cloud Platform", "predicate": "enables_lateral_movement_into", "tgt_type": "identity", "tgt_name": "Google Workspace", "source_chunks": ["BLOG-79::ch0"]}
+{"src_type": "identity", "src_name": "Google Cloud Platform", "predicate": "enables_access_to", "tgt_type": "identity", "tgt_name": "Gmail", "source_chunks": ["BLOG-79::ch0"]}
+{"src_type": "identity", "src_name": "Google Cloud Platform", "predicate": "enables_access_to", "tgt_type": "identity", "tgt_name": "Google Drive", "source_chunks": ["BLOG-79::ch0"]}
+{"src_type": "identity", "src_name": "Google Cloud Platform", "predicate": "enables_access_to", "tgt_type": "identity", "tgt_name": "Google Calendar", "source_chunks": ["BLOG-79::ch0"]}
+{"src_type": "identity", "src_name": "Google Cloud Platform", "predicate": "enables_access_to", "tgt_type": "identity", "tgt_name": "Google Docs", "source_chunks": ["BLOG-79::ch0"]}
+{"src_type": "identity", "src_name": "Compute Engine", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "Google Cloud Platform", "source_chunks": ["BLOG-79::ch0"]}
+{"src_type": "tool", "src_name": "Google Recommender API", "predicate": "used_for_mitigation_of", "tgt_type": "identity", "tgt_name": "Google Workspace", "source_chunks": ["BLOG-79::ch0"]}
+{"src_type": "tool", "src_name": "Cortex XDR", "predicate": "protects", "tgt_type": "identity", "tgt_name": "Palo Alto Networks", "source_chunks": ["BLOG-79::ch0"]}
+{"src_type": "tool", "src_name": "Prisma Cloud", "predicate": "protects", "tgt_type": "identity", "tgt_name": "Palo Alto Networks", "source_chunks": ["BLOG-79::ch0"]}

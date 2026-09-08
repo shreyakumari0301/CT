@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'The environment allowed PowerShell/cmd to fetch and execute a .NET payload without verification or allowlisting, enabling untrusted code execution.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to that CWE, and 3) whether detection methods require manual testing or red-team activity to confirm the issue.",
+  "answer": "1) CWE-494: Download of Code Without Integrity Check  \n2) Mapping Explanation: The described environment allows PowerShell/cmd to fetch a .NET payload and execute it without verification or allowlisting. This maps to CWE-494 because code is being downloaded and used without performing an integrity check to ensure it has not been modified or is from a trusted source.  \n3) Detection Methods / Modes of Introduction / Platforms: Detection can be identified via configuration review and automated checks for missing integrity validation and allowlisting controls, but confirming exploitability (successful fetch-and-execute of a payload) typically requires manual testing or red-team style simulation. This issue is commonly introduced through insecure script/command execution patterns and affects environments where command shells (e.g., PowerShell/cmd) can download and run external code.",
+  "llm_timing": {
+    "api_call_seconds": 4.24
+  }
+}

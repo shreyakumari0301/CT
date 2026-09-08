@@ -1,0 +1,10 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-51467", "aliases": [], "properties": {"cve_id": "CVE-2023-51467", "severity": "critical"}, "source_chunks": ["BLOG-154::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-49070", "aliases": [], "properties": {"cve_id": "CVE-2023-49070", "cvss": "9.8", "severity": "high"}, "source_chunks": ["BLOG-154::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apache OfBiz", "aliases": ["OfBiz"], "properties": {}, "source_chunks": ["BLOG-154::ch0"]}
+{"entity_type": "identity", "canonical_name": "SonicWall Capture Labs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-154::ch0"]}
+{"entity_type": "identity", "canonical_name": "The Shadowserver Foundation", "aliases": [], "properties": {}, "source_chunks": ["BLOG-154::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Bypass authentication by sending empty or invalid USERNAME and PASSWORD parameters with requirePasswordChange=Y", "aliases": [], "properties": {}, "source_chunks": ["BLOG-154::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Server-Side Request Forgery (SSRF)", "aliases": ["SSRF"], "properties": {}, "source_chunks": ["BLOG-154::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution (RCE)", "aliases": ["RCE"], "properties": {}, "source_chunks": ["BLOG-154::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data exfiltration", "aliases": [], "properties": {}, "source_chunks": ["BLOG-154::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "System takeover", "aliases": [], "properties": {}, "source_chunks": ["BLOG-154::ch0"]}

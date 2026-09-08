@@ -1,0 +1,14 @@
+{"src_type": "identity", "src_name": "NCC Group", "predicate": "tracked", "tgt_type": "threat_actor", "tgt_name": "SnapMC", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exploit Public-Facing Application", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-18935", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Invoke-Nightmare", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "tool", "tgt_name": "JuicyPotato", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "tool", "tgt_name": "7zip", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Invoke-SQLcmd", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "tool", "tgt_name": "MinIO client", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Archive via Utility", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "threat_actor", "src_name": "SnapMC", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration to Cloud Storage", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2019-18935", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Telerik UI", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "tool", "src_name": "MinIO client", "predicate": "configured_through", "tgt_type": "indicator", "tgt_name": "config.json", "source_chunks": ["BLOG-257::ch0"]}
+{"src_type": "indicator", "src_name": "config.json", "predicate": "located_in", "tgt_type": "indicator", "tgt_name": "C:\\Windows\\Temp", "source_chunks": ["BLOG-257::ch0"]}

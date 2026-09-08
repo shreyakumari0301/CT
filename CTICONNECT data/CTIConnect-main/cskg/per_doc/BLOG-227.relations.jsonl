@@ -1,0 +1,43 @@
+{"src_type": "identity", "src_name": "CISA", "predicate": "issued_joint_advisory_with", "tgt_type": "identity", "tgt_name": "FBI", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "identity", "src_name": "CISA", "predicate": "issued_joint_advisory_with", "tgt_type": "identity", "tgt_name": "CNMF", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "identity", "src_name": "CISA", "predicate": "issued_joint_advisory_with", "tgt_type": "identity", "tgt_name": "NCSC-UK", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "identity", "src_name": "CISA", "predicate": "issued_joint_advisory_with", "tgt_type": "identity", "tgt_name": "NSA", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "identity", "src_name": "FBI", "predicate": "issued_joint_advisory_with", "tgt_type": "identity", "tgt_name": "CNMF", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "identity", "src_name": "FBI", "predicate": "issued_joint_advisory_with", "tgt_type": "identity", "tgt_name": "NCSC-UK", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "identity", "src_name": "FBI", "predicate": "issued_joint_advisory_with", "tgt_type": "identity", "tgt_name": "NSA", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "identity", "src_name": "CNMF", "predicate": "issued_joint_advisory_with", "tgt_type": "identity", "tgt_name": "NCSC-UK", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "identity", "src_name": "CNMF", "predicate": "issued_joint_advisory_with", "tgt_type": "identity", "tgt_name": "NSA", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "identity", "src_name": "NCSC-UK", "predicate": "issued_joint_advisory_with", "tgt_type": "identity", "tgt_name": "NSA", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "linked_to", "tgt_type": "identity", "tgt_name": "Iran’s Ministry of Intelligence and Security", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PowGoop", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Canopy/Starwhale", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Mori", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "malware", "tgt_name": "POWERSTATS", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Small Sieve", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "threat_actor", "src_name": "MuddyWater", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PowerShell backdoor", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecom organizations", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense organizations", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "targets", "tgt_type": "identity", "tgt_name": "local government organizations", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "targets", "tgt_type": "identity", "tgt_name": "oil and gas organizations", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "targets_region", "tgt_type": "identity", "tgt_name": "Asia", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "targets_region", "tgt_type": "identity", "tgt_name": "Africa", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "targets_region", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "targets_region", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "maintains_persistence_via", "tgt_type": "attack_pattern", "tgt_name": "persistence", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "traffic obfuscation", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "communicates_via", "tgt_type": "tool", "tgt_name": "Telegram Bot API", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "facilitates", "tgt_type": "attack_pattern", "tgt_name": "lateral movement", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "Small Sieve", "predicate": "facilitates", "tgt_type": "attack_pattern", "tgt_name": "data exfiltration", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "targets", "tgt_type": "identity", "tgt_name": "telecom organizations", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense organizations", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "targets", "tgt_type": "identity", "tgt_name": "local government organizations", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "targets", "tgt_type": "identity", "tgt_name": "oil and gas organizations", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "targets_region", "tgt_type": "identity", "tgt_name": "Asia", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "targets_region", "tgt_type": "identity", "tgt_name": "Africa", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "targets_region", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "targets_region", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "maintains_persistence_via", "tgt_type": "attack_pattern", "tgt_name": "persistence", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "traffic obfuscation", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "communicates_via", "tgt_type": "tool", "tgt_name": "Telegram Bot API", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "facilitates", "tgt_type": "attack_pattern", "tgt_name": "lateral movement", "source_chunks": ["BLOG-227::ch0"]}
+{"src_type": "malware", "src_name": "PowerShell backdoor", "predicate": "facilitates", "tgt_type": "attack_pattern", "tgt_name": "data exfiltration", "source_chunks": ["BLOG-227::ch0"]}

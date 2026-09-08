@@ -1,0 +1,11 @@
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-4966", "aliases": ["CitrixBleed"], "properties": {"cve_id": "CVE-2023-4966", "cvss": "7.5"}, "source_chunks": ["BLOG-92::ch0"]}
+{"entity_type": "identity", "canonical_name": "Citrix NetScaler ADC and Gateway", "aliases": ["Citrix NetScaler ADC", "Citrix NetScaler Gateway"], "properties": {}, "source_chunks": ["BLOG-92::ch0"]}
+{"entity_type": "identity", "canonical_name": "Comcast Xfinity", "aliases": ["Comcast"], "properties": {}, "source_chunks": ["BLOG-92::ch0"]}
+{"entity_type": "identity", "canonical_name": "Citrix", "aliases": [], "properties": {}, "source_chunks": ["BLOG-92::ch0"]}
+{"entity_type": "identity", "canonical_name": "ReliaQuest", "aliases": [], "properties": {}, "source_chunks": ["BLOG-92::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "LockBit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-92::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Session token extraction from device memory", "aliases": ["extract session tokens from device memory"], "properties": {}, "source_chunks": ["BLOG-92::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Session hijacking", "aliases": ["hijack active sessions"], "properties": {}, "source_chunks": ["BLOG-92::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Authentication bypass", "aliases": ["bypass authentication"], "properties": {}, "source_chunks": ["BLOG-92::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Data exfiltration", "aliases": ["exposed 35,879,455 customers’ usernames, hashed passwords, names, contact details, last four SSN digits, dates of birth and security Q&A", "data exfiltration"], "properties": {}, "source_chunks": ["BLOG-92::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Ransomware deployment", "aliases": ["ransomware deployment"], "properties": {}, "source_chunks": ["BLOG-92::ch0"]}

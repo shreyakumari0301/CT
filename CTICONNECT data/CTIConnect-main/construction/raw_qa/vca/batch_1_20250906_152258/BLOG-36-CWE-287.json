@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Reliance on password\u2011only authentication for webmail and other accounts meant credential\u2011phishing (email/SMS spoofing of Telegram, Ukroboronprom, CPC, etc.) could directly yield unauthorized access.' Could you provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) the common consequences of this CWE (for example, what business risks might we face such as data exposure or account takeover)?",
+  "answer": "1) CWE-287: Improper Authentication\n2) Mapping Explanation: The vulnerability highlights that relying solely on password\u2011only authentication can be exploited via phishing, which directly enables unauthorized access. This aligns with CWE-287, which deals with improper authentication mechanisms that fail to sufficiently verify user identity\n3) Common Consequences:\n   1. Impact on Integrity, Confidentiality, and Availability\n   2. Potential to read application data\n   3. Ability for attackers to gain privileges or assume identities\n   4. Risk of executing unauthorized code or commands",
+  "llm_timing": {
+    "api_call_seconds": 6.1891
+  }
+}

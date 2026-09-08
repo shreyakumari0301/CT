@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary tool or malware family consistently used by this threat actor across these reports?",
+  "answer": "- Primary Malware Family: Knight-derived RansomHub encryptor (multiplatform ransomware)\n- Supporting Custom Components: the Betruger unified backdoor and the EDRKillShifter EDR-evasion module",
+  "llm_timing": {
+    "api_call_seconds": 8.4072
+  }
+}

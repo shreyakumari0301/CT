@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"In this wave of activity, Peach Sandstorm also attempted to exploit vulnerabilities with a public proof-of-concept (POC) in Zoho ManageEngine or Confluence, to access targets’ environments. - CVE-2022-47966 is a remote code execution vulnerability affecting a subset of on-premises Zoho ManageEngine products. - CVE-2022-26134 is a remote code execution vulnerability in Confluence Server and Data Center.\" Please identify the MITRE ATT&CK category for this attack, explain how the described exploitation maps to this technique, and specify which operating systems are affected (Linux, Windows, macOS, ESXi).",
+  "answer": "1) MITRE ATT&CK Category: Exploit Public-Facing Application (T1190).\n2) Mapping Explanation: The passage describes attempting to exploit remote code execution vulnerabilities (with public POCs) in internet-accessible Zoho ManageEngine and Atlassian Confluence Server/Data Center to gain access to victims’ environments. This matches T1190, which covers adversaries exploiting vulnerabilities in public-facing applications to obtain initial access and execute code or commands on exposed systems.\n3) Applicable Platforms: Linux, Windows.",
+  "llm_timing": {
+    "api_call_seconds": 5.0128
+  }
+}

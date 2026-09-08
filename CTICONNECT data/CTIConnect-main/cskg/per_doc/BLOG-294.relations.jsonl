@@ -1,0 +1,11 @@
+{"src_type": "identity", "src_name": "Cisco Talos", "predicate": "uncovered", "tgt_type": "malware", "tgt_name": "PS1Bot", "source_chunks": ["BLOG-294::ch0"]}
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "Malvertising", "source_chunks": ["BLOG-294::ch0"]}
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "establishes_persistence_via", "tgt_type": "attack_pattern", "tgt_name": "Startup folder LNK persistence", "source_chunks": ["BLOG-294::ch0"]}
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "polls_c2_endpoint", "tgt_type": "indicator", "tgt_name": "/transform", "source_chunks": ["BLOG-294::ch0"]}
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "exfiltrates_via", "tgt_type": "attack_pattern", "tgt_name": "HTTP POST exfiltration with Base64 encoding", "source_chunks": ["BLOG-294::ch0"]}
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "AHK Bot", "source_chunks": ["BLOG-294::ch0"]}
+{"src_type": "malware", "src_name": "PS1Bot", "predicate": "associated_with", "tgt_type": "malware", "tgt_name": "Skitnet", "source_chunks": ["BLOG-294::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Malvertising", "predicate": "delivers", "tgt_type": "indicator", "tgt_name": "chapter 8 medicare benefit policy manual.zip", "source_chunks": ["BLOG-294::ch0"]}
+{"src_type": "indicator", "src_name": "chapter 8 medicare benefit policy manual.zip", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "FULL DOCUMENT.js", "source_chunks": ["BLOG-294::ch0"]}
+{"src_type": "indicator", "src_name": "FULL DOCUMENT.js", "predicate": "retrieves_components_via", "tgt_type": "tool", "tgt_name": "Invoke-Expression", "source_chunks": ["BLOG-294::ch0"]}
+{"src_type": "attack_pattern", "src_name": "PowerShell execution via Invoke-Expression", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Invoke-Expression", "source_chunks": ["BLOG-294::ch0"]}

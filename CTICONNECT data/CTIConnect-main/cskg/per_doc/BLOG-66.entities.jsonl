@@ -1,0 +1,27 @@
+{"entity_type": "campaign", "canonical_name": "stealthy espionage campaign", "aliases": [], "properties": {"objective": "espionage", "first_seen": "mid-2021"}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Flax Typhoon", "aliases": ["Ethereal Panda"], "properties": {"country": "China", "primary_motivation": "espionage", "sectors_targeted": ["Taiwanese organizations"], "regions_targeted": ["Taiwan", "Southeast Asia", "North America", "Africa"], "first_seen": "mid-2021"}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "identity", "canonical_name": "Taiwanese organizations", "aliases": [], "properties": {"region": "Taiwan"}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "identity", "canonical_name": "Southeast Asia", "aliases": [], "properties": {"region": "Southeast Asia"}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "identity", "canonical_name": "Africa", "aliases": [], "properties": {"region": "Africa"}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "malware", "canonical_name": "China Chopper", "aliases": ["China Chopper web shell"], "properties": {"family": "web shell"}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "tool", "canonical_name": "Juicy Potato", "aliases": [], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "tool", "canonical_name": "BadPotato", "aliases": [], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "tool", "canonical_name": "SoftEther", "aliases": ["SoftEther VPN-over-HTTPS bridge"], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell Invoke-WebRequest", "aliases": ["Invoke-WebRequest"], "properties": {"capabilities": ["download"]}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "tool", "canonical_name": "certutil", "aliases": [], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "tool", "canonical_name": "bitsadmin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinRM", "aliases": [], "properties": {"capabilities": ["remote execution"]}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "tool", "canonical_name": "WMIC", "aliases": [], "properties": {"capabilities": ["remote execution"]}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {"capabilities": ["credential dumping", "pass-the-hash"]}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Web Shell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exploitation of Public-Facing Application", "aliases": ["exploiting known vulnerabilities in public-facing VPN, web, Java, and SQL services"], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Disable or Modify Tools", "aliases": ["disabling RDP network-level authentication"], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Accessibility Features", "aliases": ["hijacking the Sticky Keys (sethc.exe) binary"], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Dumping", "aliases": ["harvests credentials from LSASS memory and the SAM registry hive"], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Pass the Hash", "aliases": ["pass-the-hash attacks"], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "indicator", "canonical_name": "sethc.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "sethc.exe"}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "indicator", "canonical_name": "conhost.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "conhost.exe"}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "indicator", "canonical_name": "dllhost.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "dllhost.exe"}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft 365 Defender", "aliases": [], "properties": {}, "source_chunks": ["BLOG-66::ch0"]}

@@ -1,0 +1,13 @@
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "uncovered", "tgt_type": "malware", "tgt_name": "Kasseika", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "malware", "src_name": "Kasseika", "predicate": "likely_developed_by", "tgt_type": "threat_actor", "tgt_name": "BlackMatter affiliates", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "malware", "src_name": "Kasseika", "predicate": "employs", "tgt_type": "attack_pattern", "tgt_name": "Bring Your Own Vulnerable Driver (BYOVD)", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "malware", "src_name": "Kasseika", "predicate": "abuses", "tgt_type": "tool", "tgt_name": "Martini driver", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "malware", "src_name": "Kasseika", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "malware", "src_name": "Kasseika", "predicate": "terminates", "tgt_type": "indicator", "tgt_name": "Martini.exe", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "malware", "src_name": "Kasseika", "predicate": "runs", "tgt_type": "indicator", "tgt_name": "Martini.exe", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "malware", "src_name": "Kasseika", "predicate": "deploys", "tgt_type": "indicator", "tgt_name": "Martini.sys", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "malware", "src_name": "Kasseika", "predicate": "runs", "tgt_type": "indicator", "tgt_name": "smartscreen_protected.exe", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "malware", "src_name": "Kasseika", "predicate": "uses", "tgt_type": "tool", "tgt_name": "wevutil.exe", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "malware", "src_name": "Kasseika", "predicate": "instructs_victims_to_post_proof_to", "tgt_type": "identity", "tgt_name": "Telegram", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "tool", "src_name": "Martini driver", "predicate": "associated_with", "tgt_type": "indicator", "tgt_name": "Martini.sys", "source_chunks": ["BLOG-30::ch0"]}
+{"src_type": "tool", "src_name": "Martini driver", "predicate": "associated_with", "tgt_type": "indicator", "tgt_name": "viragt64.sys", "source_chunks": ["BLOG-30::ch0"]}

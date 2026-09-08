@@ -1,0 +1,414 @@
+{
+  "cluster_id": 2,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 18,
+      "node": [
+        {
+          "node_text": "2022 invasion",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "APT44",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Atera Agent",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Australia",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "BadPilot",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "CVE-2021-34473",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2022-41352",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-23397",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-32315",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-42793",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-48788",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2024-1709",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Canada",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Central/South Asia",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Chisel",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "DNS reconfiguration",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Europe",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "IoCs",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "LocalOlive",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Microsoft",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Middle East",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "OpenSSH backdoors",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Plink",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Procdump",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Rclone",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Sandworm",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Seashell Blizzard",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Splashtop",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Tor",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Ukraine",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "United Kingdom",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "United States",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "YARA rules",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "arms manufacturing networks",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "credential theft",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "critical energy networks",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "government networks",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "hunting queries",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "intelligence gathering",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "military networks",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "multi-year campaign",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "new services",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "oil & gas networks",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "operational disruption",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "regionally managed IT service providers",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "registry modifications",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "scheduled tasks",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "shipping networks",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "supply-chain attacks",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "telecom networks",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "transportation and logistics networks",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "wiper-style destructive attacks",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": " Contagious Interview",
+      "platform": "BleepingComputer",
+      "type": "campaign",
+      "publish_date": "2025/7/28"
+    },
+    {
+      "blog_id": 93,
+      "node": [
+        {
+          "node_text": "Apple",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "BeaverTail JavaScript loader",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Contagious Interview",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "DPRK actors",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "December 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "December 2024/January 2025",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "FRIENDLYFERRET_SECD",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "FROSTYFERRET_UI",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "February 3",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Ferret",
+          "node_type": "Malware Type"
+        },
+        {
+          "node_text": "FlexibleFerret",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "InvisibleFerret",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "MULTI_FROSTYFERRET_CMDCODES",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "XProtect signature update",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "fake virtual job-interview links",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "macOS",
+          "node_type": "System"
+        }
+      ],
+      "title": " Contagious Interview",
+      "platform": "darkreading",
+      "type": "campaign",
+      "publish_date": "2024/12/28"
+    },
+    {
+      "blog_id": 148,
+      "node": [
+        {
+          "node_text": "Angeloper Agency",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "AnyDesk",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Astrill VPN",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "BeaverTail",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "BlockNovas LLC",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "ClickFake Interview",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "Contagious Interview actors",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Contagious Interview campaign",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "FROSTYFERRET",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Facebook",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "GitHub",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "GolangGhost",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Hashtopolis",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "InvisibleFerret",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Kryptoneer",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "LinkedIn",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Linux",
+          "node_type": "System"
+        },
+        {
+          "node_text": "MetaMask",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "OtterCookie",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "SoftGlide LLC",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "US FBI",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Windows",
+          "node_type": "System"
+        },
+        {
+          "node_text": "attisscmo[.]com",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "blocknovas.com",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "lianxinxiao[.]com",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "macOS",
+          "node_type": "System"
+        },
+        {
+          "node_text": "mail.blocknovas[.]com",
+          "node_type": "Indicator"
+        }
+      ],
+      "title": " Contagious Interview",
+      "platform": "thehackernews",
+      "type": "campaign",
+      "publish_date": "2024/9/28"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{"entity_type": "campaign", "canonical_name": "multi-year espionage campaign uncovered by Mandiant", "aliases": [], "properties": {"objective": "espionage", "first_seen": "late 2021", "last_seen": "October 2023"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mandiant", "aliases": [], "properties": {}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "UNC3886", "aliases": ["Chinese UNC3886 group"], "properties": {"country": "China", "sectors_targeted": ["defense", "government", "telecom", "technology"], "regions_targeted": ["US", "APJ"]}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "tool", "canonical_name": "VMware vCenter Server", "aliases": ["vCenter Server"], "properties": {}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-34048", "aliases": [], "properties": {"cve_id": "CVE-2023-34048", "severity": "critical"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "tool", "canonical_name": "vmdird", "aliases": ["vmdird service"], "properties": {}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "malware", "canonical_name": "VirtualPita", "aliases": [], "properties": {"family": "backdoor"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "malware", "canonical_name": "VirtualPie", "aliases": [], "properties": {"family": "backdoor"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "tool", "canonical_name": "vSphere Installation Bundles", "aliases": [], "properties": {}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "tool", "canonical_name": "ESXi", "aliases": ["ESXi hosts"], "properties": {}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-20867", "aliases": [], "properties": {"cve_id": "CVE-2023-20867"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privilege Escalation", "aliases": ["escalate privileges"], "properties": {}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration", "aliases": ["exfiltrate files"], "properties": {}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "tool", "canonical_name": "Fortinet firewall", "aliases": [], "properties": {}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-41328", "aliases": [], "properties": {"cve_id": "CVE-2022-41328"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "malware", "canonical_name": "Castletap", "aliases": [], "properties": {"family": "implant"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "malware", "canonical_name": "Thincrust", "aliases": [], "properties": {"family": "implant"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "tool", "canonical_name": "FortiOS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense sector", "aliases": [], "properties": {"sector": "defense"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "identity", "canonical_name": "government sector", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "identity", "canonical_name": "telecom sector", "aliases": [], "properties": {"sector": "telecom"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "identity", "canonical_name": "technology sector", "aliases": [], "properties": {"sector": "technology"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "identity", "canonical_name": "US", "aliases": ["the US"], "properties": {"region": "US"}, "source_chunks": ["BLOG-35::ch0"]}
+{"entity_type": "identity", "canonical_name": "APJ", "aliases": [], "properties": {"region": "APJ"}, "source_chunks": ["BLOG-35::ch0"]}

@@ -1,0 +1,20 @@
+{"entity_type": "threat_actor", "canonical_name": "Kimsuky", "aliases": ["DPRK-linked Kimsuky operators", "Velvet Chollima", "Black Banshee", "Emerald Sleet", "THALLIUM"], "properties": {"country": "DPRK"}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "campaign", "canonical_name": "spear-phishing attacks against European embassies in Seoul (March–July 2025)", "aliases": [], "properties": {"first_seen": "2025-03", "last_seen": "2025-07", "objective": "compromise European embassies in Seoul via tailored spear-phishing and gain full system control"}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "identity", "canonical_name": "Western European embassies in Seoul", "aliases": [], "properties": {"sector": "government", "region": "Europe"}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "identity", "canonical_name": "Central European embassies in Seoul", "aliases": [], "properties": {"sector": "government", "region": "Europe"}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "identity", "canonical_name": "Eastern European embassies in Seoul", "aliases": [], "properties": {"sector": "government", "region": "Europe"}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "identity", "canonical_name": "Southern European embassies in Seoul", "aliases": [], "properties": {"sector": "government", "region": "Europe"}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "tool", "canonical_name": "Dropbox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "tool", "canonical_name": "Daum", "aliases": [], "properties": {}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Drive", "aliases": [], "properties": {}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spearphishing Attachment", "aliases": ["highly tailored spear-phishing attacks", "embedding password-protected ZIPs"], "properties": {}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Shortcut (.LNK) execution", "aliases": ["malicious .LNK shortcuts"], "properties": {}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": ["obfuscated PowerShell scripts"], "properties": {}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "malware", "canonical_name": "XenoRAT", "aliases": ["MoonPeak"], "properties": {"capabilities": ["remote shell", "keystroke logging", "screenshots", "in-memory execution"]}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "indicator", "canonical_name": "12DE1212-167D-45BA-1284-780DA98CF901", "aliases": [], "properties": {"ioc_type": "hash", "value": "12DE1212-167D-45BA-1284-780DA98CF901"}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "indicator", "canonical_name": "Dansweit_Hk65-PSAccerdle", "aliases": ["mutex “Dansweit_Hk65-PSAccerdle”"], "properties": {"ioc_type": "hash", "value": "Dansweit_Hk65-PSAccerdle"}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled Task/Job (persistence)", "aliases": ["leveraging scheduled tasks for persistence"], "properties": {}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "tool", "canonical_name": "GitHub", "aliases": ["attackers’ private GitHub repo"], "properties": {}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over Web Service", "aliases": ["exfiltrated ... over HTTPS to the attackers’ private GitHub repo via the Contents API"], "properties": {}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "tool", "canonical_name": "GitHub Contents API", "aliases": ["Contents API"], "properties": {}, "source_chunks": ["BLOG-317::ch0"]}
+{"entity_type": "indicator", "canonical_name": "onf.txt", "aliases": [], "properties": {"ioc_type": "hash", "value": "onf.txt"}, "source_chunks": ["BLOG-317::ch0"]}

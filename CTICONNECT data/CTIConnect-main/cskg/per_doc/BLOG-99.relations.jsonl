@@ -1,0 +1,7 @@
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Qantas Airlines", "source_chunks": ["BLOG-99::ch0"]}
+{"src_type": "threat_actor", "src_name": "Scattered Spider", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Australia", "source_chunks": ["BLOG-99::ch0"]}
+{"src_type": "identity", "src_name": "FBI", "predicate": "warned_about_targeting", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-99::ch0"]}
+{"src_type": "identity", "src_name": "CyberCX", "predicate": "attributes_attack_to", "tgt_type": "threat_actor", "tgt_name": "Scattered Spider", "source_chunks": ["BLOG-99::ch0"]}
+{"src_type": "identity", "src_name": "Apollo Information Systems", "predicate": "highlights_use_of", "tgt_type": "attack_pattern", "tgt_name": "Social engineering", "source_chunks": ["BLOG-99::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Australians", "source_chunks": ["BLOG-99::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Social engineering", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Australians", "source_chunks": ["BLOG-99::ch0"]}

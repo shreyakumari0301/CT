@@ -1,0 +1,10 @@
+{"entity_type": "threat_actor", "canonical_name": "SnapMC", "aliases": ["SnapMC group"], "properties": {}, "source_chunks": ["BLOG-277::ch0"]}
+{"entity_type": "identity", "canonical_name": "NCC Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-277::ch0"]}
+{"entity_type": "tool", "canonical_name": "mc.exe", "aliases": ["mc.exe exfiltration tool"], "properties": {"capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-277::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-18935", "aliases": [], "properties": {"cve_id": "CVE-2019-18935"}, "source_chunks": ["BLOG-277::ch0"]}
+{"entity_type": "identity", "canonical_name": "Telerik UI for ASPX.NET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-277::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SQL injection", "aliases": ["SQL injection flaws"], "properties": {}, "source_chunks": ["BLOG-277::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-7418", "aliases": [], "properties": {"cve_id": "CVE-2019-7418"}, "source_chunks": ["BLOG-277::ch0"]}
+{"entity_type": "identity", "canonical_name": "SonicWall", "aliases": [], "properties": {}, "source_chunks": ["BLOG-277::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-1609", "aliases": [], "properties": {"cve_id": "CVE-2021-1609"}, "source_chunks": ["BLOG-277::ch0"]}
+{"entity_type": "identity", "canonical_name": "Cisco", "aliases": [], "properties": {}, "source_chunks": ["BLOG-277::ch0"]}

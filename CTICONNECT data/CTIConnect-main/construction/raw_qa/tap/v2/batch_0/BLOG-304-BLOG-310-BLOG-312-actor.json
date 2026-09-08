@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: FIN7\n- Resolved Aliases: none additional beyond FIN7 itself\n- Primary Tools/Malware: custom .NET droppers, Cobalt Strike beacons, NetSupport RAT, Mimikatz\n- Core Tactics: typosquatting domains, spear-phishing landing pages, malicious browser extensions, hijacked Google Ads campaigns",
+  "llm_timing": {
+    "api_call_seconds": 11.7101
+  }
+}

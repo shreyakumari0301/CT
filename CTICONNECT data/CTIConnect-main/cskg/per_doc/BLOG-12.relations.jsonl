@@ -1,0 +1,22 @@
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Double extortion", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "uses_initial_access", "tgt_type": "attack_pattern", "tgt_name": "Remote Desktop Protocol (RDP) brute force", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "uses_initial_access", "tgt_type": "attack_pattern", "tgt_name": "Use of stolen credentials", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "exploits_for_privilege_escalation", "tgt_type": "vulnerability", "tgt_name": "CVE-2017-0213", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "uses", "tgt_type": "tool", "tgt_name": "VirtualBox", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Windows XP", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Defense evasion via virtual machine execution", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Delete Volume Shadow Copies", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "disables", "tgt_type": "tool", "tgt_name": "Sophos", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "disables", "tgt_type": "tool", "tgt_name": "Veeam", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "disables", "tgt_type": "tool", "tgt_name": "Kaseya", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "disables", "tgt_type": "tool", "tgt_name": "ConnectWise", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "uses_for_lateral_movement", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "avoids_targeting", "tgt_type": "identity", "tgt_name": "CIS", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Campari Group", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Energias de Portugal", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Capcom", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "malware", "src_name": "Ragnar Locker", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Dassault Falcon Jet", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "identity", "src_name": "FBI", "predicate": "flagged", "tgt_type": "malware", "tgt_name": "Ragnar Locker", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "identity", "src_name": "FBI", "predicate": "warned_of_risk_to", "tgt_type": "identity", "tgt_name": "food/agriculture", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Multi-factor authentication (MFA)", "predicate": "mitigates", "tgt_type": "attack_pattern", "tgt_name": "Remote Desktop Protocol (RDP) brute force", "source_chunks": ["BLOG-12::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Multi-factor authentication (MFA)", "predicate": "mitigates", "tgt_type": "attack_pattern", "tgt_name": "Use of stolen credentials", "source_chunks": ["BLOG-12::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Kazuar embeds a fixed RSA public key and a hard\u2010coded GUID used across samples (for task encryption/cookies), leading to key/material reuse.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to that CWE, and 3) at what stage do developers typically introduce this issue?",
+  "answer": "1) CWE-321: Use of Hard-coded Cryptographic Key\n2) Mapping Explanation: The vulnerability arises from embedding a fixed RSA public key and a hard-coded GUID, which leads to the reuse of cryptographic material. This directly maps to CWE-321 since the issue involves using hard-coded keys that do not change across different instances, undermining secure cryptographic practices.\n3) Modes of Introduction: The issue is typically introduced during the Architecture and Design phase, where an architectural security tactic is improperly implemented, leading to the use of hard-coded values.",
+  "llm_timing": {
+    "api_call_seconds": 4.2286
+  }
+}

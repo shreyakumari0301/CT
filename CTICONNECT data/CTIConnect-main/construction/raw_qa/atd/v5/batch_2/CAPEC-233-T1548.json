@@ -1,0 +1,23 @@
+{
+  "question": "An adversary exploits a weakness to elevate their privileges, allowing actions they are not authorized to perform. Which MITRE ATT&CK technique matches this behavior, and why does it map?",
+  "answer": "- T1548.\n- T1548 corresponds to abusing elevation controls, mapping CAPEC-233: exploiting weaknesses to elevate privileges and perform unauthorized actions.",
+  "llm_cost": {
+    "input": 0.000713,
+    "cached_input": 0.0,
+    "output": 0.00084,
+    "total": 0.001553,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 570,
+      "cached_input": 0,
+      "output": 84
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.0626
+  }
+}

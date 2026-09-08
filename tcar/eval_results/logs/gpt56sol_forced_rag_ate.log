@@ -1,0 +1,44 @@
+[2026-09-04T16:53:12Z] START forced_rag task=ate workers=4
+counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:   0%|          | 0/60 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A
+Loading weights:  26%|██▌       | 27/103 [00:00<00:00, 268.26it/s][A
+
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A[A
+
+Loading weights:  31%|███       | 32/103 [00:00<00:00, 315.28it/s][A[A
+
+
+Loading weights:  31%|███       | 32/103 [00:00<00:00, 309.78it/s][A[A[A
+Loading weights:  52%|█████▏    | 54/103 [00:00<00:00, 227.58it/s][A
+
+Loading weights:  62%|██████▏   | 64/103 [00:00<00:00, 314.57it/s][A[A
+
+
+Loading weights:  61%|██████    | 63/103 [00:00<00:00, 289.52it/s][A[A[A
+Loading weights:  76%|███████▌  | 78/103 [00:00<00:00, 222.52it/s][A
+
+Loading weights:  93%|█████████▎| 96/103 [00:00<00:00, 299.45it/s][A[ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 317.47it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 267.20it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 361.61it/s]
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A
+Loading weights:  79%|███████▊  | 81/103 [00:00<00:00, 805.32it/s][ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 984.95it/s]
+counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:   2%|▏         | 1/60 [05:27<5:22:22, 327.84s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:   3%|▎         | 2/60 [05:28<2:11:02, 135.57s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:   5%|▌         | 3/60 [05:29<1:10:17, 73.99s/it] counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:   7%|▋         | 4/60 [05:38<45:16, 48.50s/it]  counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:   8%|▊         | 5/60 [05:43<29:50, 32.55s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  10%|█         | 6/60 [05:43<19:23, 21.54s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  12%|█▏        | 7/60 [05:44<13:04, 14.81s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  13%|█▎        | 8/60 [06:02<13:44, 15.86s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  15%|█▌        | 9/60 [06:07<10:42, 12.59s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  17%|█▋        | 10/60 [06:08<07:30,  9.01s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  18%|█▊        | 11/60 [06:09<05:17,  6.48s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  20%|██        | 12/60 [06:18<05:44,  7.17s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  22%|██▏       | 13/60 [06:32<07:23,  9.44s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  23%|██▎       | 14/60 [06:36<05:51,  7.64s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  25%|██▌       | 15/60 [06:37<04:10,  5.56s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  27%|██▋       | 16/60 [06:42<04:03,  5.52s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  28%|██▊       | 17/60 [06:54<05:18,  7.40s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  30%|███       | 18/60 [06:54<03:40,  5.24s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  32%|███▏      | 19/60 [06:55<02:42,  3.97s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  33%|███▎      | 20/60 [07:03<03:28,  5.21s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  35%|███▌      | 21/60 [07:19<05:23,  8.30s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  37%|███▋      | 22/60 [07:21<04:07,  6.50s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  38%|███▊      | 23/60 [07:22<02:54,  4.72s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  40%|████      | 24/60 [07:26<02:45,  4.61s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  42%|████▏     | 25/60 [07:29<02:26,  4.19s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  43%|████▎     | 26/60 [07:37<03:02,  5.38s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  45%|████▌     | 27/60 [07:41<02:44,  4.99s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  47%|████▋     | 28/60 [07:45<02:30,  4.71s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  48%|████▊     | 29/60 [07:52<02:41,  5.22s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  50%|█████     | 30/60 [08:05<03:43,  7.44s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  52%|█████▏    | 31/60 [08:07<02:51,  5.92s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  53%|█████▎    | 32/60 [08:18<03:26,  7.37s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  55%|█████▌    | 33/60 [08:18<02:25,  5.39s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  57%|█████▋    | 34/60 [08:28<02:50,  6.57s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  58%|█████▊    | 35/60 [08:30<02:12,  5.31s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  60%|██████    | 36/60 [08:34<01:59,  4.96s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  62%|██████▏   | 37/60 [08:43<02:17,  5.96s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  63%|██████▎   | 38/60 [08:46<01:54,  5.21s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  65%|██████▌   | 39/60 [08:52<01:52,  5.38s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  67%|██████▋   | 40/60 [08:58<01:52,  5.62s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  68%|██████▊   | 41/60 [08:59<01:19,  4.21s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  70%|███████   | 42/60 [09:04<01:18,  4.35s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  72%|███████▏  | 43/60 [09:07<01:10,  4.17s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  73%|███████▎  | 44/60 [09:16<01:29,  5.59s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  75%|███████▌  | 45/60 [09:26<01:42,  6.81s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  77%|███████▋  | 46/60 [09:28<01:14,  5.32s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  78%|███████▊  | 47/60 [09:40<01:36,  7.45s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  80%|████████  | 48/60 [09:40<01:03,  5.29s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  82%|████████▏ | 49/60 [09:44<00:54,  4.93s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  83%|████████▎ | 50/60 [09:48<00:45,  4.51s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  85%|████████▌ | 51/60 [10:02<01:06,  7.34s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  87%|████████▋ | 52/60 [10:07<00:52,  6.59s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  88%|████████▊ | 53/60 [10:07<00:33,  4.80s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  90%|█████████ | 54/60 [10:11<00:26,  4.37s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  92%|█████████▏| 55/60 [10:22<00:31,  6.40s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  93%|█████████▎| 56/60 [10:24<00:20,  5.19s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  95%|█████████▌| 57/60 [10:26<00:12,  4.00s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  97%|█████████▋| 58/60 [10:29<00:07,  3.86s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb:  98%|█████████▊| 59/60 [10:37<00:05,  5.22s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb: 100%|██████████| 60/60 [10:49<00:00,  7.14s/it]counterfactual_ctibench_ate_20260904Tgpt56sol_forced_rag_cb: 100%|██████████| 60/60 [10:49<00:00, 10.83s/it]
+
+=== ctibench/ate (n=60) ===
+  CB score: 18.3% | Forced RAG: 66.7% | Δ +48.3%
+  Rescues: 29 | Damages: 0 | Net utility: +48.3%
+  False rejections: 13 | Harmful admissions: 0
+  Gate admit rate: 61.7% | Gate accuracy (differing): 0.5517
+  Recall@5: 98.3% | P(RAG correct|gold@5): 0.678
+
+Wrote summary -> /mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/counterfactual_summary_20260904Tgpt56sol_forced_rag_cb.json
+
+| Dataset/task | CB | Forced RAG | Rescues | Damages | Net utility | Gate acc |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| ctibench/ate | 18.3% | 66.7% | 29 | 0 | +48.3% | 55.2% |
+[2026-09-04T17:04:48Z] DONE forced_rag task=ate

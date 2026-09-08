@@ -1,0 +1,8 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-83::ch0"]}
+{"entity_type": "malware", "canonical_name": "P2PInfect", "aliases": [], "properties": {"family": "worm", "capabilities": ["self-replication", "peer-to-peer C2", "scanning", "payload distribution", "auto-update"], "platforms": ["Linux", "Windows"], "first_seen": "2023-07-11"}, "source_chunks": ["BLOG-83::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-0543", "aliases": [], "properties": {"cve_id": "CVE-2022-0543", "cvss": "10.0", "severity": "critical"}, "source_chunks": ["BLOG-83::ch0"]}
+{"entity_type": "identity", "canonical_name": "Redis", "aliases": [], "properties": {}, "source_chunks": ["BLOG-83::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-83::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "PurpleUrchin", "aliases": [], "properties": {}, "source_chunks": ["BLOG-83::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "TeamTNT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-83::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Kinsing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-83::ch0"]}

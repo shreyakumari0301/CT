@@ -1,0 +1,12 @@
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-164::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-7593", "aliases": [], "properties": {"cve_id": "CVE-2024-7593", "cvss": "9.8", "severity": "critical"}, "source_chunks": ["BLOG-164::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ivanti Virtual Traffic Manager (vTM)", "aliases": ["vTM", "Ivanti Virtual Traffic Manager"], "properties": {}, "source_chunks": ["BLOG-164::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Authentication bypass", "aliases": ["authentication-bypass"], "properties": {}, "source_chunks": ["BLOG-164::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Create rogue administrative users", "aliases": ["create rogue administrative users"], "properties": {}, "source_chunks": ["BLOG-164::ch0"]}
+{"entity_type": "identity", "canonical_name": "Known Exploited Vulnerabilities catalog", "aliases": [], "properties": {}, "source_chunks": ["BLOG-164::ch0"]}
+{"entity_type": "identity", "canonical_name": "Federal Civilian Executive Branch agencies", "aliases": [], "properties": {}, "source_chunks": ["BLOG-164::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-8190", "aliases": [], "properties": {"cve_id": "CVE-2024-8190"}, "source_chunks": ["BLOG-164::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-8963", "aliases": [], "properties": {"cve_id": "CVE-2024-8963"}, "source_chunks": ["BLOG-164::ch0"]}
+{"entity_type": "identity", "canonical_name": "Censys", "aliases": [], "properties": {}, "source_chunks": ["BLOG-164::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ivanti Cloud Service Appliance", "aliases": [], "properties": {}, "source_chunks": ["BLOG-164::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S.", "aliases": ["United States"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-164::ch0"]}

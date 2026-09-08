@@ -1,0 +1,36 @@
+{"src_type": "identity", "src_name": "Threat Analysis Group", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "Google", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "identity", "src_name": "Threat Analysis Group", "predicate": "found", "tgt_type": "campaign", "tgt_name": "Russian state-backed phishing campaigns", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "identity", "src_name": "Threat Analysis Group", "predicate": "conducts_takedowns_against", "tgt_type": "campaign", "tgt_name": "Russian state-backed phishing campaigns", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "identity", "src_name": "Threat Analysis Group", "predicate": "recommends_enabling", "tgt_type": "identity", "tgt_name": "Enhanced Safe Browsing", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "campaign", "src_name": "Russian state-backed phishing campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "campaign", "src_name": "Russian state-backed phishing campaigns", "predicate": "led_by", "tgt_type": "threat_actor", "tgt_name": "Sandworm Team", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Exim", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "SMS-delivered phishing links", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Fake Windows update payloads", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "maintains_persistence_via", "tgt_type": "tool", "tgt_name": "webshells", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "maintains_persistence_via", "tgt_type": "tool", "tgt_name": "Adminer", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "exfiltrates_data_to", "tgt_type": "identity", "tgt_name": "CyberArmyofRussia_Reborn Telegram channel", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government sector", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense sector", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "targets", "tgt_type": "identity", "tgt_name": "energy sector", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Caspian Pipeline Consortium", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "targets", "tgt_type": "identity", "tgt_name": "transport sector", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "targets", "tgt_type": "identity", "tgt_name": "education sector", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "targets", "tgt_type": "identity", "tgt_name": "humanitarian sector", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Fake Windows update payloads", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Rhadamanthys", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "identity", "src_name": "Caspian Pipeline Consortium", "predicate": "part_of", "tgt_type": "identity", "tgt_name": "energy sector", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Reflected XSS", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian government sites", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Credential harvesting", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Reflected XSS", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian government sites", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Credential harvesting", "predicate": "sends_harvested_credentials_to", "tgt_type": "identity", "tgt_name": "Ubiquiti devices", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "PUSHCHA", "predicate": "targets", "tgt_type": "identity", "tgt_name": "regional webmail providers", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "IRA-linked actors", "predicate": "uses", "tgt_type": "identity", "tgt_name": "YouTube Shorts", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "IRA-linked actors", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Blogger", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "IRA-linked actors", "predicate": "amplifies", "tgt_type": "identity", "tgt_name": "Wagner", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cuba ransomware affiliates", "predicate": "uses", "tgt_type": "malware", "tgt_name": "RomCom", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cuba ransomware affiliates", "predicate": "targets", "tgt_type": "identity", "tgt_name": "conference attendees", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cuba ransomware affiliates", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ChatGPT", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "threat_actor", "src_name": "Cuba ransomware affiliates", "predicate": "spoofs", "tgt_type": "identity", "tgt_name": "OpenAI", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "identity", "src_name": "Safe Browsing", "predicate": "protects_against", "tgt_type": "campaign", "tgt_name": "Russian state-backed phishing campaigns", "source_chunks": ["BLOG-36::ch0"]}
+{"src_type": "identity", "src_name": "Gmail", "predicate": "issues_alerts_for", "tgt_type": "campaign", "tgt_name": "Russian state-backed phishing campaigns", "source_chunks": ["BLOG-36::ch0"]}

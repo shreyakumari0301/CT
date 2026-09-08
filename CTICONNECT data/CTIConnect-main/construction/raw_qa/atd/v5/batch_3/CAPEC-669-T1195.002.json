@@ -1,0 +1,23 @@
+{
+  "question": "An adversary gains access to an organization\u2019s software update infrastructure and inserts malware into outgoing updates sent to deployed systems, potentially altering functionality or granting control. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1195.002.\n- T1195.002 corresponds to compromising software updates, mapping CAPEC-669: inserting malware by altering outgoing software updates to fielded systems.",
+  "llm_cost": {
+    "input": 0.000785,
+    "cached_input": 0.0,
+    "output": 0.00101,
+    "total": 0.001795,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 628,
+      "cached_input": 0,
+      "output": 101
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.9644
+  }
+}

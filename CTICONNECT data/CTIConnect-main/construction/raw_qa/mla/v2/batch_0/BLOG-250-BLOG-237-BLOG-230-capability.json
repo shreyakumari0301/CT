@@ -1,0 +1,7 @@
+{
+  "question": "What is the most notable new capability that appeared in later variants compared to earlier ones?",
+  "answer": "- AES-CFB encryption of JSON configuration files via a companion go-encrypt.exe utility to conceal FrostyGoop\u2019s operational parameters",
+  "llm_timing": {
+    "api_call_seconds": 13.1259
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Use of ntlmrelayx and related tools suggests environments susceptible to NTLM relay/pass-the-hash due to weak/misconfigured authentication (e.g., lack of signing), enabling unauthorized actions with relayed credentials.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) what the detection methods are for the CWE \u2014 for example, do we need manual testing or red-team activity to confirm?",
+  "answer": "1) CWE-287: Improper Authentication\n2) Mapping Explanation: The vulnerability arises because of misconfigured authentication controls (such as missing signing), which allows NTLM relay and pass-the-hash attacks. This scenario aligns with CWE-287, where improper authentication mechanisms lead to unauthorized actions using relayed credentials.\n3) Detection Methods within the CWE framework:\n   1. Manual Static Analysis \u2013 especially using penetration testing and threat modeling, which are noted to be highly effective.\n   2. Dynamic Analysis with Manual Results Interpretation \u2013 using tools like fuzz testers and framework-based fuzzers to interactively evaluate the authentication scheme.\n   3. Automated Static Analysis \u2013 although noted to be limited, tools such as configuration checkers and source code weakness analyzers can assist in initial detection, but manual techniques are critical for confirmation.",
+  "llm_timing": {
+    "api_call_seconds": 6.8342
+  }
+}

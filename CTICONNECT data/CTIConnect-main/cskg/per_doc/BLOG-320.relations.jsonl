@@ -1,0 +1,30 @@
+{"src_type": "identity", "src_name": "US Department of Justice", "predicate": "unsealed_indictment_implicating", "tgt_type": "identity", "tgt_name": "I-SOON", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger APT", "predicate": "associated_with", "tgt_type": "identity", "tgt_name": "I-SOON", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger APT", "predicate": "conducted", "tgt_type": "campaign", "tgt_name": "Operation FishMedley", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger APT", "predicate": "uses", "tgt_type": "malware", "tgt_name": "ScatterBee", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger APT", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Spyder", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger APT", "predicate": "uses", "tgt_type": "malware", "tgt_name": "SodaMaster", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger APT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Impacket", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger APT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "LSASS memory dumping", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger APT", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Registry hive dumping", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger APT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger APT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SprySOCKS", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "threat_actor", "src_name": "FishMonger APT", "predicate": "uses", "tgt_type": "malware", "tgt_name": "BIOPASS RAT", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "campaign", "src_name": "Operation FishMedley", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government bodies in Taiwan and Thailand", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "campaign", "src_name": "Operation FishMedley", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Hungarian Catholic organization", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "campaign", "src_name": "Operation FishMedley", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Turkish entity", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "campaign", "src_name": "Operation FishMedley", "predicate": "targets", "tgt_type": "identity", "tgt_name": "US-based Catholic charity and NGO", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "campaign", "src_name": "Operation FishMedley", "predicate": "targets", "tgt_type": "identity", "tgt_name": "French think tank", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "identity", "src_name": "government bodies in Taiwan and Thailand", "predicate": "located_in", "tgt_type": "identity", "tgt_name": "Taiwan", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "identity", "src_name": "government bodies in Taiwan and Thailand", "predicate": "located_in", "tgt_type": "identity", "tgt_name": "Thailand", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "malware", "src_name": "ScatterBee", "predicate": "packed_backdoor_of", "tgt_type": "malware", "tgt_name": "ShadowPad", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "malware", "src_name": "ScatterBee", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "api.googleauthenticatoronline.com:443", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "malware", "src_name": "Spyder", "predicate": "uses_decryption_key", "tgt_type": "indicator", "tgt_name": "F4E4C69EDEE09E820000000000000000", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "malware", "src_name": "Spyder", "predicate": "injected_into", "tgt_type": "indicator", "tgt_name": "task.exe", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "malware", "src_name": "Spyder", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "61.238.103.165", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "malware", "src_name": "SodaMaster", "predicate": "decrypts_payloads_from", "tgt_type": "indicator", "tgt_name": "debug.png", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "malware", "src_name": "SodaMaster", "predicate": "decrypts_payloads_from", "tgt_type": "indicator", "tgt_name": "libvlc.dll", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "malware", "src_name": "SodaMaster", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "DLL side-loading", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "tool", "src_name": "Impacket", "predicate": "enables", "tgt_type": "attack_pattern", "tgt_name": "Lateral Movement", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "attack_pattern", "src_name": "LSASS memory dumping", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "comsvcs.dll", "source_chunks": ["BLOG-320::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Registry hive dumping", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "comsvcs.dll", "source_chunks": ["BLOG-320::ch0"]}

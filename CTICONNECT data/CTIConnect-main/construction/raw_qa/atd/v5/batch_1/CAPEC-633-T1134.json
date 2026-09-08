@@ -1,0 +1,23 @@
+{
+  "question": "An adversary exploits weaknesses in authentication to create an access token that impersonates another entity, then associates a process or thread with that forged token to influence downstream decisions based on the assumed identity. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1134.\n- T1134 corresponds to access token impersonation, mapping CAPEC-633: forging an access token and attaching it to a process/thread.",
+  "llm_cost": {
+    "input": 0.00076,
+    "cached_input": 0.0,
+    "output": 0.0011,
+    "total": 0.00186,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 608,
+      "cached_input": 0,
+      "output": 110
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3788
+  }
+}

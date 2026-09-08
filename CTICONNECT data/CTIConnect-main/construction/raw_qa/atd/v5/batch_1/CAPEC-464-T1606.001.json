@@ -1,0 +1,23 @@
+{
+  "question": "An attacker plants an extremely persistent identifier in a victim\u2019s browser environment by storing it in many different storage locations. Even if a user clears cookies through normal browser controls, the identifier survives in other stores and is recreated everywhere, persisting across different browsers due to shared storage (e.g., local shared objects). Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1606.001.\n- T1606.001 corresponds to persistent tracking via web-stored cookies, mapping CAPEC-464: ever-persistent cookie replicated across storage locations and browsers.",
+  "llm_cost": {
+    "input": 0.000861,
+    "cached_input": 0.0,
+    "output": 0.00139,
+    "total": 0.002251,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 689,
+      "cached_input": 0,
+      "output": 139
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.1414
+  }
+}

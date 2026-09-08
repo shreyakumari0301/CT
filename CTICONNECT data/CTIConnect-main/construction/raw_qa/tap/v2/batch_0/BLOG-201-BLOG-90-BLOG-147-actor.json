@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: BladedFeline\n- Aliases Resolved: APT34 / OilRig subgroup\n- Alignment: Iran-aligned cyber espionage group\n- Primary Malware/Tools: Shahmaran backdoor; Whisper (aka Veaty) email-based implant; PrimeCache malicious IIS module; VideoSRV reverse shell; Laret & Pinar reverse tunnels; Flog webshell; Hawking Listener; Spearal & Optimizer DNS-tunneling implants; Slippery Snakelet\n- Main Targets: Kurdish Regional Government and Iraqi government officials; diplomatic and oil infrastructure; Uzbekistan telecommunications provider",
+  "llm_timing": {
+    "api_call_seconds": 11.1957
+  }
+}

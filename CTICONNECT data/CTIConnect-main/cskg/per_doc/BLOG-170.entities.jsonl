@@ -1,0 +1,23 @@
+{"entity_type": "identity", "canonical_name": "Google", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-2856", "aliases": [], "properties": {"cve_id": "CVE-2022-2856", "severity": "high"}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Android", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google TAG", "aliases": ["TAG"], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ashley Shen", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Christian Resell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-2852", "aliases": [], "properties": {"cve_id": "CVE-2022-2852", "severity": "critical"}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "FedCM", "aliases": ["Federated Credential Management API"], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Project Zero", "aliases": ["Project Zero"], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Sergei Glazunov", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-0609", "aliases": [], "properties": {"cve_id": "CVE-2022-0609"}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "North Korean actors", "aliases": [], "properties": {"country": "North Korea"}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-1096", "aliases": [], "properties": {"cve_id": "CVE-2022-1096"}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-1364", "aliases": [], "properties": {"cve_id": "CVE-2022-1364"}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "V8", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-2294", "aliases": [], "properties": {"cve_id": "CVE-2022-2294"}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "WebRTC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Tenable", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Satnam Narang", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chromium", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Edge", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}
+{"entity_type": "identity", "canonical_name": "Linux distributions", "aliases": [], "properties": {}, "source_chunks": ["BLOG-170::ch0"]}

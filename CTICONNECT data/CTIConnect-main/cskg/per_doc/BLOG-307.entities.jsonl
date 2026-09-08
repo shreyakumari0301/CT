@@ -1,0 +1,19 @@
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2025-29824", "aliases": [], "properties": {"cve_id": "CVE-2025-29824"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "malware", "canonical_name": "PipeMagic", "aliases": [], "properties": {"family": "backdoor"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "campaign", "canonical_name": "RansomExx campaign", "aliases": [], "properties": {"first_seen": "December 2022"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "identity", "canonical_name": "Southeast Asian industrial firms", "aliases": [], "properties": {"sector": "industrial", "region": "Southeast Asia"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2017-0144", "aliases": [], "properties": {"cve_id": "CVE-2017-0144"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "identity", "canonical_name": "Middle East", "aliases": [], "properties": {"region": "Middle East"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "tool", "canonical_name": "ChatGPT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "indicator", "canonical_name": "127.0.0.1", "aliases": [], "properties": {"ioc_type": "ip", "value": "127.0.0.1"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "indicator", "canonical_name": "aaaaabbbbbbb.eastus.cloudapp.azure.com", "aliases": ["aaaaabbbbbbb.eastus.cloudapp.azure[.]com"], "properties": {"ioc_type": "domain", "value": "aaaaabbbbbbb.eastus.cloudapp.azure.com"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "identity", "canonical_name": "Brazil", "aliases": [], "properties": {"region": "Brazil"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Help Index File", "aliases": [], "properties": {}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "tool", "canonical_name": "MSBuild", "aliases": [], "properties": {}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "indicator", "canonical_name": "4829468622e6b82ff056e3c945dd99c94a1f0264d980774828aadda326b775e5", "aliases": [], "properties": {"ioc_type": "hash", "value": "4829468622e6b82ff056e3c945dd99c94a1f0264d980774828aadda326b775e5"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "tool", "canonical_name": "EnumDeviceMonitor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "indicator", "canonical_name": "GoogleUpdate.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "GoogleUpdate.dll"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "indicator", "canonical_name": "9C3BA5B2D3222FE5863C14D51340D7F9", "aliases": [], "properties": {"ioc_type": "hash", "value": "9C3BA5B2D3222FE5863C14D51340D7F9"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "indicator", "canonical_name": "221BA50915042098AF5F8EE40E5559C8", "aliases": [], "properties": {"ioc_type": "hash", "value": "221BA50915042098AF5F8EE40E5559C8"}, "source_chunks": ["BLOG-307::ch0"]}
+{"entity_type": "identity", "canonical_name": "BI.ZONE", "aliases": [], "properties": {}, "source_chunks": ["BLOG-307::ch0"]}

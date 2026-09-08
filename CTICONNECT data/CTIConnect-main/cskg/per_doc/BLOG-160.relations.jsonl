@@ -1,0 +1,10 @@
+{"src_type": "threat_actor", "src_name": "UAC-0099", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian state entities", "source_chunks": ["BLOG-160::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0099", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian media entities", "source_chunks": ["BLOG-160::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0099", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "LONEPAGE", "source_chunks": ["BLOG-160::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0099", "predicate": "targets", "tgt_type": "identity", "tgt_name": "foreign organizations", "source_chunks": ["BLOG-160::ch0"]}
+{"src_type": "threat_actor", "src_name": "UAC-0099", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-38831", "source_chunks": ["BLOG-160::ch0"]}
+{"src_type": "identity", "src_name": "CERT-UA", "predicate": "profiled", "tgt_type": "threat_actor", "tgt_name": "UAC-0099", "source_chunks": ["BLOG-160::ch0"]}
+{"src_type": "identity", "src_name": "CERT-UA", "predicate": "confirmed_compromises_in", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-160::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-38831", "predicate": "affects", "tgt_type": "tool", "tgt_name": "WinRAR", "source_chunks": ["BLOG-160::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "drops", "tgt_type": "malware", "tgt_name": "LONEPAGE", "source_chunks": ["BLOG-160::ch0"]}
+{"src_type": "identity", "src_name": "Deep Instinct", "predicate": "identified_samples_of", "tgt_type": "malware", "tgt_name": "LONEPAGE", "source_chunks": ["BLOG-160::ch0"]}

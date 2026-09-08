@@ -1,0 +1,7 @@
+{
+  "question": "What are the main malicious tools or malware families consistently used in this campaign?",
+  "answer": "- ANEL (aka UPPERCUT) backdoor (revived ANEL v5.5.4/v5.5.5)\n- HiddenFace backdoor\n- Heavily customized AsyncRAT variant (executed via a multi-stage chain, including running inside Windows Sandbox)\n- PowerShell loaders delivered via LNK-based execution (from spearphishing/OneDrive links)\n- Visual Studio Code Remote Tunnels abuse for covert access/C2 and arbitrary code execution",
+  "llm_timing": {
+    "api_call_seconds": 7.3514
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "task": "CTI-ATE",
+  "gold_pipeline": "reasoning_ate",
+  "metric": "Macro-F1",
+  "score": 0.7353,
+  "n": 60,
+  "n_errors": 0,
+  "route_mode": "oracle",
+  "classifier_model": null,
+  "system": "tcar_no_confusion_ctibench",
+  "variant": "no_confusion",
+  "generator": "gpt-4-turbo",
+  "retrieval_k": 5,
+  "predictions_file": "/mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/ate_tcar_no_confusion_ctibench_20260902Tate_fix.jsonl",
+  "retrieval_admitted_rate": 0.6167
+}

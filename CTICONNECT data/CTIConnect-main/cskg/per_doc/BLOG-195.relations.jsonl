@@ -1,0 +1,19 @@
+{"src_type": "malware", "src_name": "RansomEXX", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Impair Defenses: Disable or Modify Tools", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "malware", "src_name": "RansomEXX", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Data Encrypted for Impact", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "malware", "src_name": "RansomEXX", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Inhibit System Recovery", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "involves", "tgt_type": "malware", "tgt_name": "RansomEXX", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing sector", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "targets", "tgt_type": "identity", "tgt_name": "education sector", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "targets", "tgt_type": "identity", "tgt_name": "banking sector", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S.", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "targets", "tgt_type": "identity", "tgt_name": "France", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Brazil", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "associated_with_breach_of", "tgt_type": "identity", "tgt_name": "Taiwanese hardware manufacturer", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "uses", "tgt_type": "malware", "tgt_name": "IcedID", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "uses", "tgt_type": "malware", "tgt_name": "TrickBot", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "uses", "tgt_type": "malware", "tgt_name": "PyXie RAT", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "propagates", "tgt_type": "malware", "tgt_name": "VATET loader", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "campaign", "src_name": "RansomEXX activity from March 31, 2021 to March 31, 2022", "predicate": "uses", "tgt_type": "tool", "tgt_name": "LaZagne", "source_chunks": ["BLOG-195::ch0"]}
+{"src_type": "tool", "src_name": "Trend Micro Vision One", "predicate": "detects", "tgt_type": "malware", "tgt_name": "RansomEXX", "source_chunks": ["BLOG-195::ch0"]}

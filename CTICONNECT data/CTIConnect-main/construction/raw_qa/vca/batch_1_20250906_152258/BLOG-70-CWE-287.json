@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Employers\u2019 onboarding/hiring processes insufficiently authenticate remote applicants\u2019 real identities, allowing Wagemole actors using fake or borrowed identities to gain positions and access.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE category, and 3) what are the applicable platforms affected by this CWE (for example, does this CWE affect our specific stack such as Java, Python, or web frameworks)?",
+  "answer": "1) CWE-287: Improper Authentication\n2) Mapping Explanation: The vulnerability arises because the onboarding process does not adequately verify remote applicants' actual identities, enabling attackers using fake or borrowed identities to bypass authentication. This directly aligns with CWE-287, which addresses improper or insufficient authentication mechanisms.\n3) Applicable Platforms: According to the CWE reference, this issue is Not Language-Specific in terms of programming language, while being often prevalent in ICS/OT technologies.",
+  "llm_timing": {
+    "api_call_seconds": 6.6377
+  }
+}

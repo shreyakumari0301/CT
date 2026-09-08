@@ -1,0 +1,11 @@
+{"src_type": "threat_actor", "src_name": "APT3", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Trojan.Bemstour", "source_chunks": ["BLOG-130::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT3", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Hong Kong", "source_chunks": ["BLOG-130::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT3", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Belgium", "source_chunks": ["BLOG-130::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT3", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Luxembourg", "source_chunks": ["BLOG-130::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT3", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Philippines", "source_chunks": ["BLOG-130::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT3", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Vietnam", "source_chunks": ["BLOG-130::ch0"]}
+{"src_type": "tool", "src_name": "Trojan.Bemstour", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2017-0143", "source_chunks": ["BLOG-130::ch0"]}
+{"src_type": "tool", "src_name": "Trojan.Bemstour", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-0703", "source_chunks": ["BLOG-130::ch0"]}
+{"src_type": "tool", "src_name": "Trojan.Bemstour", "predicate": "installs", "tgt_type": "malware", "tgt_name": "DoublePulsar", "source_chunks": ["BLOG-130::ch0"]}
+{"src_type": "malware", "src_name": "DoublePulsar", "predicate": "derived_from", "tgt_type": "threat_actor", "tgt_name": "Equation Group", "source_chunks": ["BLOG-130::ch0"]}
+{"src_type": "identity", "src_name": "Symantec", "predicate": "reported_to", "tgt_type": "identity", "tgt_name": "Microsoft", "source_chunks": ["BLOG-130::ch0"]}

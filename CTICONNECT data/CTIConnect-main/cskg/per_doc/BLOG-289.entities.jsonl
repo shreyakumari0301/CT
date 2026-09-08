@@ -1,0 +1,17 @@
+{"entity_type": "threat_actor", "canonical_name": "FishMonger", "aliases": [], "properties": {"country": "China", "primary_motivation": "espionage", "sectors_targeted": ["government", "NGOs"], "regions_targeted": ["Southeast Asia", "Europe"], "first_seen": "2021"}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "identity", "canonical_name": "I-SOON", "aliases": [], "properties": {}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "malware", "canonical_name": "Spyder loader", "aliases": ["Spyder"], "properties": {}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "malware", "canonical_name": "SilentBreeze", "aliases": ["SilentBreeze backdoor"], "properties": {"family": "backdoor", "capabilities": ["persistence", "command-and-control", "credential harvesting", "data exfiltration", "payload download"]}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["task automation", "payload download"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Spear-phishing emails", "aliases": ["spear-phishing"], "properties": {}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Template injection in Office files", "aliases": ["template-injected Microsoft Office documents", "template injection"], "properties": {}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled task persistence", "aliases": ["scheduled PowerShell task"], "properties": {}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential harvesting", "aliases": ["harvesting credentials"], "properties": {}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration of sensitive data", "aliases": ["exfiltrating sensitive diplomatic and policy-related data"], "properties": {}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "indicator", "canonical_name": "https://cdn-storage.cloud-service.site/updates.php", "aliases": ["hxxps://cdn-storage.cloud-service.site/updates.php"], "properties": {"ioc_type": "url", "value": "https://cdn-storage.cloud-service.site/updates.php"}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "identity", "canonical_name": "government institutions", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "identity", "canonical_name": "NGOs", "aliases": [], "properties": {"sector": "non-profit"}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "identity", "canonical_name": "Southeast Asia", "aliases": [], "properties": {"region": "Southeast Asia"}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "identity", "canonical_name": "South China Sea", "aliases": [], "properties": {"region": "South China Sea"}, "source_chunks": ["BLOG-289::ch0"]}
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": ["ESET researchers"], "properties": {}, "source_chunks": ["BLOG-289::ch0"]}

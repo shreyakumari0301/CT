@@ -1,0 +1,23 @@
+{
+  "question": "A program converts numeric values from an unsigned type into a signed type without proper validation, potentially turning large values into negative or unexpectedly small numbers. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-92.\n- CAPEC-92 exploits unsigned-to-signed conversion errors, targeting CWE-196: incorrect conversion of unsigned values into signed integers.",
+  "llm_cost": {
+    "input": 0.000766,
+    "cached_input": 0.0,
+    "output": 0.00093,
+    "total": 0.001696,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 613,
+      "cached_input": 0,
+      "output": 93
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3646
+  }
+}

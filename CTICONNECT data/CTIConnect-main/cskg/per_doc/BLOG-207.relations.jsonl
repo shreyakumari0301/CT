@@ -1,0 +1,8 @@
+{"src_type": "threat_actor", "src_name": "Evasive Panda APT", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "dual-pronged cyberespionage campaign against the Tibetan diaspora", "source_chunks": ["BLOG-207::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evasive Panda APT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Tibetan diaspora", "source_chunks": ["BLOG-207::ch0"]}
+{"src_type": "threat_actor", "src_name": "Evasive Panda APT", "predicate": "compromises", "tgt_type": "identity", "tgt_name": "Kagyu International Monlam Trust", "source_chunks": ["BLOG-207::ch0"]}
+{"src_type": "campaign", "src_name": "dual-pronged cyberespionage campaign against the Tibetan diaspora", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Tibetan diaspora", "source_chunks": ["BLOG-207::ch0"]}
+{"src_type": "malware", "src_name": "Nightdoor", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "update.devicebug.com", "source_chunks": ["BLOG-207::ch0"]}
+{"src_type": "malware", "src_name": "Nightdoor", "predicate": "deployed_alongside", "tgt_type": "malware", "tgt_name": "MgBot", "source_chunks": ["BLOG-207::ch0"]}
+{"src_type": "indicator", "src_name": "tibetpost.net", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Nightdoor", "source_chunks": ["BLOG-207::ch0"]}
+{"src_type": "indicator", "src_name": "tibetpost.net", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "MgBot", "source_chunks": ["BLOG-207::ch0"]}

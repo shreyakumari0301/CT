@@ -1,0 +1,15 @@
+{"entity_type": "identity", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "identity", "canonical_name": "GitHub’s Bug Bounty Program", "aliases": ["Bug Bounty Program"], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-0200", "aliases": [], "properties": {"cve_id": "CVE-2024-0200"}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "identity", "canonical_name": "GitHub.com", "aliases": [], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": ["remote code execution"], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "identity", "canonical_name": "GitHub Enterprise Server", "aliases": ["Enterprise Server", "GHES"], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-0507", "aliases": [], "properties": {"cve_id": "CVE-2024-0507", "severity": "high"}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "identity", "canonical_name": "Management Console", "aliases": [], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Privilege Escalation", "aliases": ["escalate privileges"], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "identity", "canonical_name": "Actions", "aliases": [], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "identity", "canonical_name": "Codespaces", "aliases": [], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "identity", "canonical_name": "Dependabot", "aliases": [], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "identity", "canonical_name": "API", "aliases": [], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "identity", "canonical_name": "Desktop", "aliases": [], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}
+{"entity_type": "identity", "canonical_name": "Atom", "aliases": [], "properties": {}, "source_chunks": ["BLOG-27::ch0"]}

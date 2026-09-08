@@ -1,0 +1,23 @@
+{
+  "question": "An attacker secretly inserts malicious code into a reputable developer\u2019s software by compromising the development or build process, and the unaware developer digitally signs and distributes the altered software. Victims trust and deploy it as legitimate. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.002.\n- T1195.002 corresponds to software supply chain compromise, mapping CAPEC-673: maliciously altered software gets signed by an unaware developer.",
+  "llm_cost": {
+    "input": 0.00083,
+    "cached_input": 0.0,
+    "output": 0.00116,
+    "total": 0.00199,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 664,
+      "cached_input": 0,
+      "output": 116
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.483
+  }
+}

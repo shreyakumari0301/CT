@@ -1,0 +1,23 @@
+{
+  "question": "An application accepts user input containing paired delimiter characters but fails to properly sanitize or neutralize those delimiter pairs, enabling crafted input to break out of intended boundaries. Which CAPEC attack pattern exploits this weakness, and why can it leverage unhandled delimiters to append attacker-controlled commands onto legitimate ones?",
+  "answer": "- CAPEC-15.\n- CAPEC-15 exploits unsanitized paired delimiters, targeting CWE-157: failure to sanitize paired delimiter characters in input.",
+  "llm_cost": {
+    "input": 0.000801,
+    "cached_input": 0.0,
+    "output": 0.00107,
+    "total": 0.001871,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 641,
+      "cached_input": 0,
+      "output": 107
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7182
+  }
+}

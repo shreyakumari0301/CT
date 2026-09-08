@@ -1,0 +1,38 @@
+{"src_type": "identity", "src_name": "Citrix", "predicate": "released_patches_for", "tgt_type": "identity", "tgt_name": "Netscaler ADC", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Citrix", "predicate": "released_patches_for", "tgt_type": "identity", "tgt_name": "Netscaler Gateway", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Netscaler ADC", "predicate": "exposed_in", "tgt_type": "identity", "tgt_name": "United States", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Netscaler ADC", "predicate": "exposed_in", "tgt_type": "identity", "tgt_name": "Germany", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Netscaler ADC", "predicate": "exposed_in", "tgt_type": "identity", "tgt_name": "China", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Netscaler ADC", "predicate": "exposed_in", "tgt_type": "identity", "tgt_name": "United Kingdom", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Netscaler Gateway", "predicate": "exposed_in", "tgt_type": "identity", "tgt_name": "United States", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Netscaler Gateway", "predicate": "exposed_in", "tgt_type": "identity", "tgt_name": "Germany", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Netscaler Gateway", "predicate": "exposed_in", "tgt_type": "identity", "tgt_name": "China", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Netscaler Gateway", "predicate": "exposed_in", "tgt_type": "identity", "tgt_name": "United Kingdom", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "campaign", "src_name": "Citrix Bleed", "predicate": "associated_with_vulnerability", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-4966", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-4966", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Netscaler ADC", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-4966", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Netscaler Gateway", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-4966", "predicate": "added_to", "tgt_type": "identity", "tgt_name": "CISA Known Exploited Vulnerabilities Catalog", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Assetnote", "predicate": "published_proof_of_concept_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-4966", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "threat_actor", "src_name": "ransomware affiliates", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-4966", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42 Incident Response", "predicate": "observed_exploitation_of", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-4966", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Managed Threat Hunting teams", "predicate": "observed_exploitation_of", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-4966", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "spawns", "tgt_type": "tool", "tgt_name": "cmd.exe", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "tool", "src_name": "cmd.exe", "predicate": "runs", "tgt_type": "tool", "tgt_name": "whoami", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "tool", "src_name": "cmd.exe", "predicate": "runs", "tgt_type": "tool", "tgt_name": "WMIC", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "tool", "src_name": "cmd.exe", "predicate": "runs", "tgt_type": "tool", "tgt_name": "tasklist", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "tool", "src_name": "cmd.exe", "predicate": "runs", "tgt_type": "tool", "tgt_name": "net user", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "tool", "src_name": "XScan", "predicate": "deployed_on", "tgt_type": "identity", "tgt_name": "VDI hosts", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "tool", "src_name": "Python", "predicate": "used_for_exploitation_of", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-4966", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "tool", "src_name": "Python", "predicate": "runs_http_servers_on", "tgt_type": "identity", "tgt_name": "VDI hosts", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "tool", "src_name": "mRemoteNG", "predicate": "deployed_on", "tgt_type": "identity", "tgt_name": "VDI hosts", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Cortex Xpanse", "predicate": "identified_exposed", "tgt_type": "identity", "tgt_name": "Netscaler Gateway", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Cortex Xpanse", "predicate": "identified_exposed", "tgt_type": "identity", "tgt_name": "Netscaler ADC", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "advises_patching_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-4966", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "advises_patching_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-4967", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "recommends_engagement_of", "tgt_type": "identity", "tgt_name": "Unit 42", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "recommends_deployment_of", "tgt_type": "identity", "tgt_name": "Next-Generation Firewalls", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "recommends_updates_to", "tgt_type": "identity", "tgt_name": "Advanced WildFire", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "recommends", "tgt_type": "identity", "tgt_name": "Cortex Xpanse Threat Response Event", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Palo Alto Networks", "predicate": "recommends_deployment_of", "tgt_type": "identity", "tgt_name": "Cortex XDR/XSIAM", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Next-Generation Firewalls", "predicate": "uses_signature", "tgt_type": "indicator", "tgt_name": "94483", "source_chunks": ["BLOG-74::ch0"]}
+{"src_type": "identity", "src_name": "Next-Generation Firewalls", "predicate": "uses", "tgt_type": "identity", "tgt_name": "Advanced Threat Prevention", "source_chunks": ["BLOG-74::ch0"]}

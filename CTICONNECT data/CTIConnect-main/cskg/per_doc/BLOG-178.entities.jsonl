@@ -1,0 +1,10 @@
+{"entity_type": "threat_actor", "canonical_name": "TA558", "aliases": [], "properties": {"primary_motivation": "financial", "sectors_targeted": ["travel", "hospitality"], "regions_targeted": ["Latin America", "North America", "Western Europe"], "first_seen": "2018"}, "source_chunks": ["BLOG-178::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2017-11882", "aliases": [], "properties": {"cve_id": "CVE-2017-11882"}, "source_chunks": ["BLOG-178::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-178::ch0"]}
+{"entity_type": "malware", "canonical_name": "AsyncRAT", "aliases": [], "properties": {"family": "AsyncRAT"}, "source_chunks": ["BLOG-178::ch0"]}
+{"entity_type": "malware", "canonical_name": "Loda", "aliases": [], "properties": {"family": "Loda"}, "source_chunks": ["BLOG-178::ch0"]}
+{"entity_type": "malware", "canonical_name": "RevengeRAT", "aliases": [], "properties": {"family": "RevengeRAT"}, "source_chunks": ["BLOG-178::ch0"]}
+{"entity_type": "identity", "canonical_name": "travel and hospitality organizations", "aliases": ["travel sector"], "properties": {"sector": "travel and hospitality"}, "source_chunks": ["BLOG-178::ch0"]}
+{"entity_type": "identity", "canonical_name": "Latin America", "aliases": [], "properties": {"region": "Latin America"}, "source_chunks": ["BLOG-178::ch0"]}
+{"entity_type": "identity", "canonical_name": "North America", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-178::ch0"]}
+{"entity_type": "identity", "canonical_name": "Western Europe", "aliases": [], "properties": {"region": "Western Europe"}, "source_chunks": ["BLOG-178::ch0"]}

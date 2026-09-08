@@ -1,0 +1,65 @@
+{
+  "stamp": "20260831Tsmoke5",
+  "method": "Confidence-gated CTA-RAG (TCAR no_confusion + TAA gated)",
+  "variant": "no_confusion",
+  "generator": "gpt-4-turbo",
+  "retrieval_k": 5,
+  "tasks": {
+    "mcq": {
+      "task": "CTI-MCQ",
+      "gold_pipeline": "memorization",
+      "metric": "Acc",
+      "score": 1.0,
+      "n": 1,
+      "n_errors": 0,
+      "route_mode": "oracle",
+      "classifier_model": null,
+      "system": "tcar_no_confusion_ctibench",
+      "variant": "no_confusion",
+      "generator": "gpt-4-turbo",
+      "retrieval_k": 5,
+      "predictions_file": "/mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/mcq_tcar_no_confusion_ctibench_20260831Tsmoke5.jsonl",
+      "retrieval_admitted_rate": 0.0
+    },
+    "vsp": {
+      "task": "CTI-VSP",
+      "gold_pipeline": "problem_solving",
+      "metric": "MAD",
+      "score": 0.75,
+      "n": 1,
+      "n_errors": 0,
+      "route_mode": "oracle",
+      "classifier_model": null,
+      "score_base_score_mad": 3.5,
+      "system": "tcar_no_confusion_ctibench",
+      "variant": "no_confusion",
+      "generator": "gpt-4-turbo",
+      "retrieval_k": 5,
+      "predictions_file": "/mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/vsp_tcar_no_confusion_ctibench_20260831Tsmoke5.jsonl",
+      "retrieval_admitted_rate": 0.0
+    }
+  },
+  "oracle_cta_rag_reference": {
+    "mcq": {
+      "metric": "Acc",
+      "score": 0.781
+    },
+    "rcm": {
+      "metric": "Acc",
+      "score": 0.781
+    },
+    "vsp": {
+      "metric": "MAD",
+      "score": 1.06
+    },
+    "ate": {
+      "metric": "Macro-F1",
+      "score": 0.9451
+    },
+    "taa": {
+      "metric": "Correct Acc",
+      "score": 0.52,
+      "plausible_acc": 0.86
+    }
+  }
+}

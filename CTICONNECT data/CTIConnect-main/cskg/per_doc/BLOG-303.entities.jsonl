@@ -1,0 +1,9 @@
+{"entity_type": "campaign", "canonical_name": "Operation ForumTroll", "aliases": [], "properties": {"objective": "espionage"}, "source_chunks": ["BLOG-303::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian media", "aliases": [], "properties": {"region": "Russia", "sector": "media"}, "source_chunks": ["BLOG-303::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian academic personnel", "aliases": [], "properties": {"region": "Russia", "sector": "academia"}, "source_chunks": ["BLOG-303::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian government personnel", "aliases": [], "properties": {"region": "Russia", "sector": "government"}, "source_chunks": ["BLOG-303::ch0"]}
+{"entity_type": "malware", "canonical_name": "previously unknown malware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-303::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing emails", "aliases": [], "properties": {"tactic": "Initial Access"}, "source_chunks": ["BLOG-303::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2025-2783", "aliases": [], "properties": {"cve_id": "CVE-2025-2783", "severity": "zero-day"}, "source_chunks": ["BLOG-303::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Chrome", "aliases": ["Chrome", "Chromium-based browser"], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-303::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google", "aliases": [], "properties": {}, "source_chunks": ["BLOG-303::ch0"]}

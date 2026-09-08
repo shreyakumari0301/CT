@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors and regions mentioned across these reports?",
+  "answer": "- Primary Target Sectors: government (including military), manufacturing, media, telecommunications\n- Primary Target Regions: Hong Kong, Taiwan, the Philippines, Vietnam, Indonesia (APAC)",
+  "llm_timing": {
+    "api_call_seconds": 5.1894
+  }
+}

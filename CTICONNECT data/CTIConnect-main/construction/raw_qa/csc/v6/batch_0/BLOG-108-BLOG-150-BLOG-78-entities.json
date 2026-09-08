@@ -1,0 +1,7 @@
+{
+  "question": "What threat actor group, malware names, or cloud exploitation patterns appear consistently across these reports?",
+  "answer": "- Threat Actor Group: EleKtra-Leak\n- Malware/Tool: custom Monero mining software\n- Cloud Exploitation Patterns: automated GitHub repository cloning, rapid AWS IAM credential harvesting, spinning up EC2 instances (e.g., c5a.24xlarge) via VPN for cryptojacking\n- Evasion Techniques: blocklisting high-risk or decoy repositories and accounts to avoid honey traps",
+  "llm_timing": {
+    "api_call_seconds": 7.1657
+  }
+}

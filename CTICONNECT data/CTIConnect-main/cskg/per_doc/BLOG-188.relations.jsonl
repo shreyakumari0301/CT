@@ -1,0 +1,22 @@
+{"src_type": "malware", "src_name": "DarkSide", "predicate": "mimics", "tgt_type": "malware", "tgt_name": "Maze", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "malware", "src_name": "DarkSide", "predicate": "mimics", "tgt_type": "malware", "tgt_name": "Nefilim", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "malware", "src_name": "DarkSide", "predicate": "spares", "tgt_type": "identity", "tgt_name": "medical sector", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "malware", "src_name": "DarkSide", "predicate": "spares", "tgt_type": "identity", "tgt_name": "education sector", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "malware", "src_name": "DarkSide", "predicate": "spares", "tgt_type": "identity", "tgt_name": "non-profit sector", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "malware", "src_name": "DarkSide", "predicate": "spares", "tgt_type": "identity", "tgt_name": "government sector", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "tool", "src_name": "Toolbox", "predicate": "bundles", "tgt_type": "tool", "tgt_name": "Mimikatz", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "tool", "src_name": "Toolbox", "predicate": "bundles", "tgt_type": "tool", "tgt_name": "NirSoft RDP PassView", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "tool", "src_name": "Toolbox", "predicate": "bundles", "tgt_type": "tool", "tgt_name": "Hash Suite Tools", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "campaign", "src_name": "Negasteal/Agent Tesla campaigns", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Negasteal", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "campaign", "src_name": "Negasteal/Agent Tesla campaigns", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Agent Tesla", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "campaign", "src_name": "Negasteal/Agent Tesla campaigns", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2017-11882", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "campaign", "src_name": "Negasteal/Agent Tesla campaigns", "predicate": "spoofs", "tgt_type": "identity", "tgt_name": "Krung Thai Bank", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "malware", "src_name": "Monero coinminer", "predicate": "bundled_with", "tgt_type": "tool", "tgt_name": "TeamViewer", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "malware", "src_name": "Monero coinminer", "predicate": "bundled_with", "tgt_type": "tool", "tgt_name": "Rufus", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "malware", "src_name": "Monero coinminer", "predicate": "bundled_with", "tgt_type": "tool", "tgt_name": "YTD Video Downloader", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "malware", "src_name": "Monero coinminer", "predicate": "fetches_loaders_from", "tgt_type": "indicator", "tgt_name": "pastebin", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "malware", "src_name": "Monero coinminer", "predicate": "fetches_loaders_from", "tgt_type": "indicator", "tgt_name": "monerohash.com:3333", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "tool", "src_name": "Apex One", "predicate": "detects", "tgt_type": "malware", "tgt_name": "Monero coinminer", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "tool", "src_name": "Apex One", "predicate": "detects", "tgt_type": "tool", "tgt_name": "NirSoft RDP PassView", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "tool", "src_name": "XDR", "predicate": "detects", "tgt_type": "malware", "tgt_name": "Monero coinminer", "source_chunks": ["BLOG-188::ch0"]}
+{"src_type": "tool", "src_name": "XDR", "predicate": "detects", "tgt_type": "tool", "tgt_name": "NirSoft RDP PassView", "source_chunks": ["BLOG-188::ch0"]}

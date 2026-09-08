@@ -1,0 +1,23 @@
+{
+  "question": "An adversary attempts to access a system by trying well-known vendor default credentials, empty passwords, and common username/password combinations that users often choose. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1078.001.\n- T1078.001 corresponds to abusing default credentials, mapping CAPEC-70: trying common or vendor default usernames and passwords for access.",
+  "llm_cost": {
+    "input": 0.000867,
+    "cached_input": 0.0,
+    "output": 0.00103,
+    "total": 0.001898,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 694,
+      "cached_input": 0,
+      "output": 103
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.5505
+  }
+}

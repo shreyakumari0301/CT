@@ -1,0 +1,7 @@
+{
+  "question": "Based on the cross-report analysis, what is the single most notable new capability that appeared in later Magniber variants compared to earlier ones?",
+  "answer": "- Initial Magniber (2017) used malvertising and an IE memory corruption exploit (CVE-2016-0189) to deliver a reverse-RC4 payload that unpacks in memory, executes AES-128 encryption, appends a \".ihsdj\" extension and exits on non-Korean systems via a UI language check\n- 2022 variants broadened initial access through multiple public-facing flaws and exploit kits (including CVE-2018-8174, CVE-2019-1367, CVE-2020-0968, CVE-2021-26411, CVE-2021-40444, PrintNightmare, CVE-2022-44698), deployed fake MSI/CPL installers with Mark-of-the-Web bypass, and introduced advanced defense evasion (NtQuerySystemInformation discovery, thread hijacking, process injection, UAC bypass via Fodhelper, shadow-copy deletion) plus AES per-block encryption with RSA-wrapped keys\n- Most notable new capability: the SmartScreen bypass using malformed Authenticode certificates (CVE-2023-24880) that exploit parsing errors to suppress security warnings",
+  "llm_timing": {
+    "api_call_seconds": 10.8164
+  }
+}

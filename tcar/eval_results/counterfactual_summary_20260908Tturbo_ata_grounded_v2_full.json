@@ -1,0 +1,52 @@
+{
+  "stamp": "20260908Tturbo_ata_grounded_v2_full",
+  "model": "gpt-4-turbo",
+  "variant": "no_confusion",
+  "k_retrieve": 5,
+  "gad_mode": "off",
+  "rcm_retrieval": "corpus_kb",
+  "tasks": {
+    "cticonnect/ata": {
+      "n": 160,
+      "metric": "F1>=1",
+      "closed_book_score": 0.1688,
+      "forced_rag_score": 0.35,
+      "score_delta": 0.1812,
+      "rescues": 38,
+      "damages": 9,
+      "neutral_correct": 18,
+      "neutral_wrong": 95,
+      "rescue_rate": 0.2375,
+      "damage_rate": 0.0563,
+      "net_retrieval_utility": 0.1812,
+      "false_rejections": 37,
+      "harmful_admissions": 0,
+      "false_rejection_rate": 0.2313,
+      "harmful_admission_rate": 0.0,
+      "gate_decision_accuracy": 0.2128,
+      "n_branches_differ": 47,
+      "gate_admit_rate": 0.0125,
+      "p_rag_correct_given_gold_at_5": 0.6122,
+      "n_gold_at_5": 49,
+      "mrr_at_20": 0.173,
+      "mean_gold_rank": 3.13,
+      "gate_policies": {
+        "always_closed_book": 0.1688,
+        "always_rag": 0.35,
+        "current_gate": 0.175,
+        "random_matched_rate": 0.1688,
+        "oracle_utility": 0.4062,
+        "oracle_ceiling": 0.4062,
+        "gate_admit_rate": 0.0125,
+        "gate_accuracy_differing": 0.2128,
+        "n_differing": 47
+      },
+      "recall@1": 0.0938,
+      "recall@3": 0.2625,
+      "recall@5": 0.3063,
+      "recall@10": 0.3438,
+      "recall@20": 0.3438,
+      "pred_path": "/mnt/c/Users/SK/CTI-Chatbot/tcar/eval_results/counterfactual_cticonnect_ata_20260908Tturbo_ata_grounded_v2_full.jsonl"
+    }
+  }
+}

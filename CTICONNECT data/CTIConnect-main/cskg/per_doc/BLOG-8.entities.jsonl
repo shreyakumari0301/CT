@@ -1,0 +1,7 @@
+{"entity_type": "malware", "canonical_name": "FARGO ransomware", "aliases": ["FARGO", "Mallox/TargetCompany"], "properties": {"family": "ransomware", "capabilities": ["encrypts files", "encrypts databases", "extortion"], "platforms": ["Windows", "Microsoft SQL Server"]}, "source_chunks": ["BLOG-8::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["CobaltStrike", "CS Beacon"], "properties": {"capabilities": ["beaconing", "command and control"]}, "source_chunks": ["BLOG-8::ch0"]}
+{"entity_type": "tool", "canonical_name": "cmd.exe", "aliases": [], "properties": {"capabilities": ["command execution"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-8::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["script execution", "download execution"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-8::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Brute Force", "aliases": ["brute-force login attempts"], "properties": {"technique_id": "T1110", "tactic": "Credential Access"}, "source_chunks": ["BLOG-8::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft SQL servers", "aliases": ["Microsoft SQL", "SQL servers"], "properties": {}, "source_chunks": ["BLOG-8::ch0"]}
+{"entity_type": "identity", "canonical_name": "Telegram", "aliases": [], "properties": {}, "source_chunks": ["BLOG-8::ch0"]}

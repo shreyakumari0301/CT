@@ -1,0 +1,14 @@
+{"entity_type": "identity", "canonical_name": "Apache", "aliases": [], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "malware", "canonical_name": "OfBiz ERP framework", "aliases": ["OfBiz", "Apache OfBiz"], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-51467", "aliases": [], "properties": {"cve_id": "CVE-2023-51467"}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Authentication Bypass", "aliases": ["bypass authentication", "auth-bypass vectors"], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Server-Side Request Forgery", "aliases": ["server-side request forgery", "SSRF"], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": ["remote code execution", "RCE", "XML-RPC RCE"], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-49070", "aliases": [], "properties": {"cve_id": "CVE-2023-49070"}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "identity", "canonical_name": "SonicWall", "aliases": [], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hasib Vhora", "aliases": [], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "identity", "canonical_name": "Gao Tian", "aliases": [], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "identity", "canonical_name": "L0ne1y", "aliases": [], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "unknown groups", "aliases": ["unauthenticated attackers", "adversaries"], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "identity", "canonical_name": "Atlassian Jira", "aliases": ["Jira"], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}
+{"entity_type": "identity", "canonical_name": "Apache Security Response Team", "aliases": [], "properties": {}, "source_chunks": ["BLOG-88::ch0"]}

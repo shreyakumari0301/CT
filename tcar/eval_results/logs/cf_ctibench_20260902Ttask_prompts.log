@@ -1,0 +1,17 @@
+counterfactual_ctibench_rcm_20260902Ttask_prompts_cb:   0%|          | 0/1000 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A
+
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A[A
+Loading weights:  29%|██▉       | 30/103 [00:00<00:00, 295.22it/s][A
+
+Loading weights:  28%|██▊       | 29/103 [00:00<00:00, 288.58it/s][A[A
+
+
+Loading weights:  34%|███▍      | 35/103 [00:00<00:00, 337.32it/s][A[A[A
+Loading weights:  75%|███████▍  | 77/103 [00:00<00:00, 392.29it/s][A
+
+Loading weights:  82%|████████▏ | 84/103 [00:00<00:00, 437.71it/s]

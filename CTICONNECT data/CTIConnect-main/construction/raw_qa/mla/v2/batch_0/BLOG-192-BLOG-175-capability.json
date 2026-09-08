@@ -1,0 +1,7 @@
+{
+  "question": "In the evolution of the LockBit ransomware described in these reports, what is the most notable new capability seen in later variants?",
+  "answer": "- No clear *new technical capability* is described; later “evolution” highlights a shift in operator tradecraft.\n- LockBit is adopted by Evil Corp/UNC2165 as a RaaS payload to **blend in with affiliates and obscure attribution**, helping **bypass the impact of U.S. sanctions** (an operational/attribution-evasion capability rather than a new encryption or propagation feature).",
+  "llm_timing": {
+    "api_call_seconds": 14.6992
+  }
+}

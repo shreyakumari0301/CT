@@ -1,0 +1,12 @@
+{"entity_type": "threat_actor", "canonical_name": "Moses Staff", "aliases": ["Cobalt Sapling"], "properties": {"country": "Iran", "first_seen": "November 2020", "last_seen": "December 2022"}, "source_chunks": ["BLOG-265::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Abraham’s Ax", "aliases": [], "properties": {"first_seen": "November 2022"}, "source_chunks": ["BLOG-265::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israel", "aliases": [], "properties": {"region": "Israel"}, "source_chunks": ["BLOG-265::ch0"]}
+{"entity_type": "identity", "canonical_name": "IDF intelligence personnel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-265::ch0"]}
+{"entity_type": "identity", "canonical_name": "Saudi Arabia’s Ministry of the Interior", "aliases": [], "properties": {"region": "Saudi Arabia"}, "source_chunks": ["BLOG-265::ch0"]}
+{"entity_type": "identity", "canonical_name": "Saudi government entities", "aliases": [], "properties": {"region": "Saudi Arabia"}, "source_chunks": ["BLOG-265::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israeli government entities", "aliases": [], "properties": {"region": "Israel"}, "source_chunks": ["BLOG-265::ch0"]}
+{"entity_type": "identity", "canonical_name": "Iranian toolsets", "aliases": [], "properties": {"region": "Iran"}, "source_chunks": ["BLOG-265::ch0"]}
+{"entity_type": "malware", "canonical_name": "PyDCrypt", "aliases": ["PyDCrypt custom loader"], "properties": {}, "source_chunks": ["BLOG-265::ch0"]}
+{"entity_type": "malware", "canonical_name": "DCSrv", "aliases": ["DCSrv cryptographic wiper"], "properties": {}, "source_chunks": ["BLOG-265::ch0"]}
+{"entity_type": "malware", "canonical_name": "StrifeWater", "aliases": ["StrifeWater RAT"], "properties": {}, "source_chunks": ["BLOG-265::ch0"]}
+{"entity_type": "tool", "canonical_name": "DriveGuard", "aliases": ["DriveGuard monitoring utility"], "properties": {}, "source_chunks": ["BLOG-265::ch0"]}

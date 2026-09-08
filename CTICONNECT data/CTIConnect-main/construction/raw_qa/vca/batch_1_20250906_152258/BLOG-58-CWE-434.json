@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Vulnerable web applications allowed deployment of a web shell (e.g., China Chopper), enabling arbitrary server-side code execution.\" Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) what are the detection methods recommended in the CWE reference (for example, do we need manual testing or red-team activity to confirm)?",
+  "answer": "1) CWE-434: Unrestricted Upload of File with Dangerous Type\n2) Mapping Explanation: The vulnerability described involves an application allowing the upload of a dangerous file (a web shell such as China Chopper), which directly corresponds to CWE-434. This category covers improper validation of file uploads that can lead to the execution of arbitrary server-side code.\n3) Detection Methods Recommended in the CWE are:\n   1. Dynamic Analysis with Automated Results Interpretation (using tools like Web Application Scanners, Web Services Scanners, and Database Scanners)\n   2. Dynamic Analysis with Manual Results Interpretation (using methods such as Fuzz Testers and Framework-based Fuzzers)\n   3. Manual Static Analysis - Source Code (e.g., focused manual spot checks or manual source code review)\n   4. Automated Static Analysis - Source Code (using source code weakness analyzers)\n   5. Architecture or Design Review (using Formal Methods, inspections per IEEE 1028 standard)",
+  "llm_timing": {
+    "api_call_seconds": 6.8419
+  }
+}

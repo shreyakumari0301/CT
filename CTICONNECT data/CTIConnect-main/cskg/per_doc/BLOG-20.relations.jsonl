@@ -1,0 +1,22 @@
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "APT28", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-35730", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-43770", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Cross-site Scripting (stored and reflected)", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Credential theft", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "uses_attack_pattern", "tgt_type": "attack_pattern", "tgt_name": "Data exfiltration over HTTP POST", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Roundcube", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Horde", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "MDaemon", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Zimbra", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government entities in Greece", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government entities in Ukraine", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government entities in Serbia", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government entities in Cameroon", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "military units in Ukraine", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "military units in Ecuador", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense contractors in Ukraine", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense contractors in Bulgaria", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense contractors in Romania", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "critical infrastructure in Ukraine", "source_chunks": ["BLOG-20::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "critical infrastructure in Bulgaria", "source_chunks": ["BLOG-20::ch0"]}

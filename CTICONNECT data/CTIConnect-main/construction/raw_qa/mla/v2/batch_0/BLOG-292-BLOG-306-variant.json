@@ -1,0 +1,7 @@
+{
+  "question": "What are all the distinct malware variant names mentioned across these reports?",
+  "answer": "- GodRAT\n- AwesomePuppet (RAT/backdoor)\n- Gh0st RAT\n- AsyncRAT",
+  "llm_timing": {
+    "api_call_seconds": 10.081
+  }
+}

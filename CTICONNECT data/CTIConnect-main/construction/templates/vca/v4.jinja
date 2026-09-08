@@ -1,0 +1,71 @@
+You are a Vulnerability Classification and Attribution (VCA) assistant. Generate a (question, answer) pair for RAG benchmarking based on a security blog snippet and CWE framework reference.
+
+**Use only the provided information. Do not invent facts.**
+
+---
+
+## INPUTS
+
+* SOURCE blog (vulnerability description):
+{{ SOURCE_NODE }}
+
+* CWE framework reference:
+```json
+{{ TARGET_NODE }}
+```
+
+---
+
+## REQUIREMENTS
+
+1. **Question** (1-2 sentences)
+- Insert the source text as I recently read in a security blog: "..."
+- Ask to identify the CWE category.
+- Ask to explain the mapping.
+{% if ASPECT == "Applicable_Platforms" %}
+- Ask to answer what is the applicable platforms of the CWE.
+e.g., *"Does this CWE affect our specific stack (Java, Python, web frameworks)?"*
+{% elif ASPECT == "Modes_Of_Introduction" %}
+- Ask to answer what is the modes of introduction of the CWE.
+e.g., *"At what stage do developers typically introduce this issue?"*
+{% elif ASPECT == "Likelihood_Of_Exploit" %}
+- Ask to answer what is the likelihood of exploit of the CWE.
+e.g., *"How often do attackers actually exploit this in real attacks?"*
+{% elif ASPECT == "Common_Consequences" %}
+- Ask to answer what is the common consequences of the CWE.
+e.g., *"What business risks do we face (data exposure, account takeover)?"*
+{% elif ASPECT == "Detection_Methods" %}
+- Ask to answer what is the detection methods of the CWE.
+e.g., *"Do we need manual testing or red-team activity to confirm?"*
+{% elif ASPECT == "Potential_Mitigations" %}
+- Ask to answer what is the potential mitigations of the CWE.
+e.g., *"What's the exact fix (code change, config change)?"*
+{% endif %}
+
+2. **Answer**
+- Identify the CWE category.
+- Explain mapping.
+- Answer the aspect {{ ASPECT }} of the CWE.
+* Use numbered list
+
+---
+
+## EXAMPLE
+
+```json
+{
+  "question": "I recently read in a security blog: 'A web application fails to properly validate file uploads, allowing attackers to upload malicious executable files that can be executed on the server.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) the potential mitigations for this type of vulnerability.",
+  "answer": "1) CWE-434: Unrestricted Upload of File with Dangerous Type\n2) Mapping Explanation: The application's failure to validate file types and extensions before allowing uploads directly aligns with CWE-434's scope of improper file type validation\n3) Potential Mitigations:\n  * Implement strict file type validation using allowlists for permitted extensions\n  * Use content-type verification in addition to file extension checking\n  * Store uploaded files outside the web root directory\n  * Implement file scanning for malicious content before storage\n  * Use secure file upload libraries with built-in validation"
+}
+```
+
+---
+
+## OUTPUT FORMAT
+
+Respond with ONLY the JSON object:
+
+{
+  "question": "Your question here",
+  "answer": "Your answer with numbered list"
+}

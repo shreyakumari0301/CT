@@ -1,0 +1,11 @@
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "deploys_subgroup", "tgt_type": "threat_actor", "tgt_name": "BadPilot", "source_chunks": ["BLOG-89::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "conducts_campaign", "tgt_type": "campaign", "tgt_name": "NotPetya", "source_chunks": ["BLOG-89::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-89::ch0"]}
+{"src_type": "threat_actor", "src_name": "Sandworm Team", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Denmark’s energy sector", "source_chunks": ["BLOG-89::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-41352", "source_chunks": ["BLOG-89::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2021-34473", "source_chunks": ["BLOG-89::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-23397", "source_chunks": ["BLOG-89::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-48788", "source_chunks": ["BLOG-89::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-1709", "source_chunks": ["BLOG-89::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "uses", "tgt_type": "malware", "tgt_name": "LocalOlive", "source_chunks": ["BLOG-89::ch0"]}
+{"src_type": "threat_actor", "src_name": "BadPilot", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ShadowLink", "source_chunks": ["BLOG-89::ch0"]}

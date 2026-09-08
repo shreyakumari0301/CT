@@ -1,0 +1,342 @@
+{
+  "cluster_id": 45,
+  "cluster_size": 3,
+  "cluster_type": "malware",
+  "blogs": [
+    {
+      "blog_id": 245,
+      "node": [
+        {
+          "node_text": "72 hours of operational downtime",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Cynet automated threat detection",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Evil Corp operators",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "LLMNR",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "NBT-NS",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "NTLMv2 hashes",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "PSExec",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Report",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "Responder",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "WMI",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "WastedLocker",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Windows hosts",
+          "node_type": "System"
+        },
+        {
+          "node_text": "abnormal name-resolution traffic",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "cleartext credentials",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "credential resets",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "critical servers and workstations",
+          "node_type": "System"
+        },
+        {
+          "node_text": "disabling LLMNR",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "disabling NBT-NS",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "enforcing SMB signing",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "enforcing least-privilege service accounts",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "excessive SMB authentication failures",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "host isolation",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "monitoring NTLM authentication events",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "network segmentation",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "pass-the-hash",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "privilege escalation",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "scheduled tasks",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "Wastedlocker",
+      "platform": "cynet",
+      "type": "malware",
+      "publish_date": "2025/6/10"
+    },
+    {
+      "blog_id": 239,
+      "node": [
+        {
+          "node_text": ".wasted",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cobalt Strike",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cridex",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "DLL hijacking",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "December 2019",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Dridex",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Evil Corp",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Garmin",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "May 2020",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "SocGholish",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "US DOJ",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "WastedLocker",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Windows shadow copies",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "credential theft",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "network-stored backups",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "privilege escalation",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ransomware",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "reconnaissance",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Wastedlocker",
+      "platform": "csoonline",
+      "type": "malware",
+      "publish_date": "2020/9/22"
+    },
+    {
+      "blog_id": 234,
+      "node": [
+        {
+          "node_text": "Airmail",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "AutoFocus tagging",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Cobalt Strike payloads",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Cortex XDR",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Dridex",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Evil Corp group",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "NGFW DNS signatures",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "Organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "ProtonMail",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "PsExec",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "SocGholish JavaScript loader",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Unit 42",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "WMI",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "WastedLocker",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "WastedLocker activity",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "WildFire",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Windows Defender",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "ZIP files",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "backup systems",
+          "node_type": "System"
+        },
+        {
+          "node_text": "files",
+          "node_type": "System"
+        },
+        {
+          "node_text": "hardened cybersecurity controls",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "high-value systems",
+          "node_type": "System"
+        },
+        {
+          "node_text": "large U.S. organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "legitimate updates",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "privileges",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "ransom notes",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "robust off-site backup strategies",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "shadow copies",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "systems",
+          "node_type": "System"
+        },
+        {
+          "node_text": "targeted ransomware",
+          "node_type": "Malware Type"
+        }
+      ],
+      "title": "Wastedlocker",
+      "platform": "Unit42",
+      "type": "malware",
+      "publish_date": "2020/7/30"
+    }
+  ]
+}

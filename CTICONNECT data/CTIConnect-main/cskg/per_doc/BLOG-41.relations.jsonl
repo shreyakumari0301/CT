@@ -1,0 +1,51 @@
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "conducts", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "YouTube creators", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "RedLine", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Vidar", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Predator The Thief", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Nexus Stealer", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Azorult", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Raccoon", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Grand Stealer", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Vikro Stealer", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Masad", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Kantal", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Sorano", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "AdamantiumThief", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "shifted_to", "tgt_type": "indicator", "tgt_name": "email.cz", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "shifted_to", "tgt_type": "indicator", "tgt_name": "seznam.cz", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "shifted_to", "tgt_type": "indicator", "tgt_name": "post.cz", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "threat_actor", "src_name": "hack-for-hire group", "predicate": "shifted_to", "tgt_type": "indicator", "tgt_name": "aol.com", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "targets", "tgt_type": "identity", "tgt_name": "YouTube creators", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "RedLine", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Vidar", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Predator The Thief", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Nexus Stealer", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Azorult", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Raccoon", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Grand Stealer", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Vikro Stealer", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Masad", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Kantal", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Sorano", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "AdamantiumThief", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Gmail", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "identity", "src_name": "Safe Browsing", "predicate": "mitigates", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "partnered_with", "tgt_type": "identity", "tgt_name": "YouTube", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "partnered_with", "tgt_type": "identity", "tgt_name": "Gmail", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "partnered_with", "tgt_type": "identity", "tgt_name": "Trust & Safety", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "partnered_with", "tgt_type": "identity", "tgt_name": "Cybercrime Investigation", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "partnered_with", "tgt_type": "identity", "tgt_name": "Safe Browsing", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "reduced", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "RedLine", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "Vidar", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "Predator The Thief", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "Nexus Stealer", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "Azorult", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "Raccoon", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "Grand Stealer", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "Vikro Stealer", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "Masad", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "Kantal", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "Sorano", "source_chunks": ["BLOG-41::ch0"]}
+{"src_type": "tool", "src_name": "VirusTotal", "predicate": "used_to_scan_for", "tgt_type": "malware", "tgt_name": "AdamantiumThief", "source_chunks": ["BLOG-41::ch0"]}

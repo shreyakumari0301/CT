@@ -1,0 +1,15 @@
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "finance organizations", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "architecture organizations", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing organizations", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "energy organizations", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "targets", "tgt_type": "identity", "tgt_name": "APAC retail", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "SMB/Windows Admin Shares Discovery", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses_tool", "tgt_type": "tool", "tgt_name": "Nmap", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Valid Accounts", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Encrypted Channel", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Data Exfiltration", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uploads_to", "tgt_type": "indicator", "tgt_name": "wt-prod-euwest1-storm.s3.eu-west-1.amazonaws.com", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses_tool", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Remote Services", "source_chunks": ["BLOG-249::ch0"]}
+{"src_type": "malware", "src_name": "Lynx ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "External Remote Services", "source_chunks": ["BLOG-249::ch0"]}

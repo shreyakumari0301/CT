@@ -1,0 +1,15 @@
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "malware", "canonical_name": "FiveHands", "aliases": ["FiveHands ransomware"], "properties": {"platforms": ["C++"]}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "malware", "canonical_name": "DeathRansom", "aliases": [], "properties": {}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "malware", "canonical_name": "HelloKitty", "aliases": [], "properties": {}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "UNC2447", "aliases": [], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "identity", "canonical_name": "European", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "identity", "canonical_name": "North American", "aliases": [], "properties": {"region": "North America"}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "malware", "canonical_name": "SombRAT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "tool", "canonical_name": "NTRUEncrypt", "aliases": ["NTRUEncrypt-powered"], "properties": {}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltrate Data", "aliases": ["exfiltrate data"], "properties": {}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Volume Shadow Copy Deletion", "aliases": ["erases Volume Shadow Copies", "shadow copy deletion"], "properties": {}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "identity", "canonical_name": "CISA malware analysis (MAR)", "aliases": ["MAR"], "properties": {}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "identity", "canonical_name": "accompanying report (AR)", "aliases": ["AR"], "properties": {}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "identity", "canonical_name": "IST", "aliases": [], "properties": {}, "source_chunks": ["BLOG-262::ch0"]}
+{"entity_type": "identity", "canonical_name": "NCIJTF", "aliases": [], "properties": {}, "source_chunks": ["BLOG-262::ch0"]}

@@ -1,0 +1,23 @@
+{
+  "question": "A program allocates memory sequentially but fails to properly control or limit those allocations, allowing a crafted request to trigger unusually large resource consumption. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-130.\n- CAPEC-130 exploits improper sequential memory allocation control, targeting CWE-1325: sequential memory allocations are not properly controlled.",
+  "llm_cost": {
+    "input": 0.000829,
+    "cached_input": 0.0,
+    "output": 0.00092,
+    "total": 0.001749,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 663,
+      "cached_input": 0,
+      "output": 92
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6043
+  }
+}

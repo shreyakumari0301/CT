@@ -1,0 +1,7 @@
+{
+  "question": "How does the LockBit ransomware family’s lineage/evolution appear across these reports, particularly in terms of how it is adopted and operated over time?",
+  "answer": "- LockBit is portrayed as an actively evolving ransomware-as-a-service (RaaS) family whose \"affiliate-driven\" model enables continuous operational innovation.\n- Its core capability is marketed as very fast “head-only” encryption (AES-128 on the first ~4 KB of files) with RSA-wrapped keys.\n- The family’s evolution is reflected less as a single linear code rewrite and more as expanding deployment pathways: affiliates (and other actors) deliver LockBit via varied initial-access methods (e.g., phishing, VPN exploits, compromised RDP/VPN accounts) and multiple execution/lateral-movement toolchains.\n- LockBit’s lineage in the ecosystem includes adoption by other threat actors for obfuscation: the Evil Corp-linked UNC2165 reportedly pivoted to deploying LockBit to blend in with RaaS affiliates and reduce attribution, indicating LockBit’s role as a mature, widely “reused” extortion payload.\n- By late 2021–early 2022 the reports describe intensified global activity and a growing victim set (including leak-site posting), consistent with a scaling and iterating operation rather than a static ransomware strain.",
+  "llm_timing": {
+    "api_call_seconds": 13.9806
+  }
+}

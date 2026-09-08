@@ -1,0 +1,53 @@
+{
+  "n": 75,
+  "modes": {
+    "off": {
+      "cb": {
+        "n": 75,
+        "exact": 0.09333333333333334,
+        "mad8": 0.2833333333333333,
+        "mode": "off",
+        "branch": "cb"
+      },
+      "rag": {
+        "n": 75,
+        "exact": 0.12,
+        "mad8": 0.27666666666666667,
+        "mode": "off",
+        "branch": "rag"
+      }
+    },
+    "all": {
+      "cb": {
+        "n": 75,
+        "exact": 0.06666666666666667,
+        "mad8": 0.3283333333333333,
+        "mode": "all",
+        "branch": "cb"
+      },
+      "rag": {
+        "n": 75,
+        "exact": 0.08,
+        "mad8": 0.33166666666666667,
+        "mode": "all",
+        "branch": "rag"
+      }
+    },
+    "high_precision": {
+      "cb": {
+        "n": 75,
+        "exact": 0.09333333333333334,
+        "mad8": 0.2833333333333333,
+        "mode": "high_precision",
+        "branch": "cb"
+      },
+      "rag": {
+        "n": 75,
+        "exact": 0.12,
+        "mad8": 0.27666666666666667,
+        "mode": "high_precision",
+        "branch": "rag"
+      }
+    }
+  }
+}

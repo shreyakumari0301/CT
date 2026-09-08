@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target industries or regions mentioned across these reports?",
+  "answer": "- Technology firms\n- Manufacturing firms\n- East Asia\n- Western Europe\n- North America",
+  "llm_timing": {
+    "api_call_seconds": 3.3487
+  }
+}

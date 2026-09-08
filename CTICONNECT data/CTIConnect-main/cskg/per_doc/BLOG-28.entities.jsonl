@@ -1,0 +1,13 @@
+{"entity_type": "identity", "canonical_name": "GitLab", "aliases": [], "properties": {}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-7028", "aliases": [], "properties": {"cve_id": "CVE-2023-7028", "cvss": "10.0", "severity": "critical"}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "identity", "canonical_name": "Community Edition", "aliases": [], "properties": {}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "identity", "canonical_name": "Enterprise Edition", "aliases": [], "properties": {}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "identity", "canonical_name": "ShadowServer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "identity", "canonical_name": "United States", "aliases": ["US"], "properties": {"region": "United States"}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "identity", "canonical_name": "Germany", "aliases": [], "properties": {"region": "Germany"}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russia", "aliases": [], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "identity", "canonical_name": "China", "aliases": [], "properties": {"region": "China"}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "identity", "canonical_name": "France", "aliases": [], "properties": {"region": "France"}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "identity", "canonical_name": "United Kingdom", "aliases": ["UK"], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "identity", "canonical_name": "India", "aliases": [], "properties": {"region": "India"}, "source_chunks": ["BLOG-28::ch0"]}
+{"entity_type": "identity", "canonical_name": "Canada", "aliases": [], "properties": {"region": "Canada"}, "source_chunks": ["BLOG-28::ch0"]}

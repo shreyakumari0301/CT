@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: Void Blizzard\n- Aliases Resolved: LAUNDRY BEAR (aka Laundry Bear)\n- Notable Overlapping Monikers: Forest Blizzard, Midnight Blizzard, Secret Blizzard",
+  "llm_timing": {
+    "api_call_seconds": 5.678
+  }
+}

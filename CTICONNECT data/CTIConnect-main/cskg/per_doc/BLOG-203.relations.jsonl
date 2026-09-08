@@ -1,0 +1,29 @@
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "APT28", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spear-phishing emails", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Cross-site scripting (XSS)", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "uses", "tgt_type": "malware", "tgt_name": "SpyPress", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-35730", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-11182", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-43770", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-27443", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Roundcube", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "MDaemon", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Zimbra", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Horde", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "governmental entities in Eastern Europe", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense entities in Eastern Europe", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Bulgaria", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Romania", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Africa", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "campaign", "src_name": "Operation RoundPress", "predicate": "targets", "tgt_type": "identity", "tgt_name": "South America", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "conducts", "tgt_type": "campaign", "tgt_name": "Operation RoundPress", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spear-phishing emails", "predicate": "delivers", "tgt_type": "attack_pattern", "tgt_name": "Cross-site scripting (XSS)", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "malware", "src_name": "SpyPress", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration over HTTP POST", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "malware", "src_name": "SpyPress", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Email forwarding rule persistence (Sieve rules)", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "malware", "src_name": "SpyPress", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Bypass two-factor authentication", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2020-35730", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Roundcube", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-11182", "predicate": "affects", "tgt_type": "identity", "tgt_name": "MDaemon", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-43770", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Roundcube", "source_chunks": ["BLOG-203::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-27443", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Zimbra", "source_chunks": ["BLOG-203::ch0"]}

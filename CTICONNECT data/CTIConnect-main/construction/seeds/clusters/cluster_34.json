@@ -1,0 +1,294 @@
+{
+  "cluster_id": 34,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 265,
+      "node": [
+        {
+          "node_text": "Abraham’s Ax",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "CCTV system",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Cobalt Sapling",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "DCSrv cryptographic wiper",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "DriveGuard monitoring utility",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Iran",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Israeli terror site",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Moses Staff",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "November 2020",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "PyDCrypt custom loader",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Saudi Arabia’s Ministry of the Interior",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Secureworks",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "September 2021",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "StrifeWater RAT",
+          "node_type": "Malware"
+        }
+      ],
+      "title": "Moses Staff",
+      "platform": "securityweek",
+      "type": "threat actor",
+      "publish_date": "2023/1/27"
+    },
+    {
+      "blog_id": 238,
+      "node": [
+        {
+          "node_text": "CPU architecture",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Chile",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Cybereason",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "DCSrv",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Germany",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "India",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Israeli organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Italy",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Microsoft Exchange",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Moses Staff",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "OS version",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "PsExec",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "PyDCrypt",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "September 2021",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "StrifeWater",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Turkey",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "U.S.",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "UAE",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "WMIC",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "calc.exe",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "commands",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "file encryption",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "hard-coded C2 IPs",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "hard-coded C2 URLs",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "hard-coded C2 domain names",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "machine name",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "operational disruption",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "public-facing server vulnerabilities",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "scheduled tasks",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "screens",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "time zone",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "user privileges",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": "Moses Staff",
+      "platform": "csoonline",
+      "type": "threat actor",
+      "publish_date": "2022/2/3"
+    },
+    {
+      "blog_id": 226,
+      "node": [
+        {
+          "node_text": "BlackShadow",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Check Point",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "DiskCryptor",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Israeli organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Microsoft Exchange servers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Moses Staff",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Palestine",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "Pay2Key",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "PowerShell",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "PsExec",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "PyDCrypt",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "PyDCrypt samples",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "September 2021",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "Telegram channels",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Twitter",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "WMIC",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "public-facing servers",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "ransomless encryptions",
+          "node_type": "Attack Pattern"
+        }
+      ],
+      "title": "Moses Staff",
+      "platform": "BleepingComputer",
+      "type": "threat actor",
+      "publish_date": "2021/11/15"
+    }
+  ]
+}

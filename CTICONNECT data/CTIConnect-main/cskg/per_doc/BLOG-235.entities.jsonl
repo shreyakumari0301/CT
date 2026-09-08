@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "Check Point Research", "aliases": [], "properties": {}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Void Manticore", "aliases": ["Homeland Justice", "Karma", "Storm-0842"], "properties": {"country": "Iran", "primary_motivation": "espionage"}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "campaign", "canonical_name": "2022 Albania campaign", "aliases": [], "properties": {"first_seen": "2022"}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "identity", "canonical_name": "Albania", "aliases": [], "properties": {"region": "Albania"}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "campaign", "canonical_name": "2023–2024 Israel attacks", "aliases": [], "properties": {"first_seen": "2023", "last_seen": "2024"}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "identity", "canonical_name": "Israel", "aliases": [], "properties": {"region": "Israel"}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Scarred Manticore", "aliases": ["Storm-0861"], "properties": {}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-0604", "aliases": [], "properties": {"cve_id": "CVE-2019-0604"}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "tool", "canonical_name": "Foxshell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "tool", "canonical_name": "Liontail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "tool", "canonical_name": "LionHead", "aliases": [], "properties": {}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "malware", "canonical_name": "CI Wiper", "aliases": [], "properties": {"platforms": ["Windows"]}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "malware", "canonical_name": "CL Wiper", "aliases": [], "properties": {"platforms": ["Linux"]}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "malware", "canonical_name": "LowEraser", "aliases": ["partition-table LowEraser"], "properties": {}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "malware", "canonical_name": "BiBi Wiper", "aliases": ["the BiBi Wiper"], "properties": {}, "source_chunks": ["BLOG-235::ch0"]}
+{"entity_type": "identity", "canonical_name": "SharePoint", "aliases": [], "properties": {}, "source_chunks": ["BLOG-235::ch0"]}

@@ -1,0 +1,25 @@
+{"entity_type": "identity", "canonical_name": "Microsoft Threat Intelligence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Cadet Blizzard", "aliases": ["DEV-0586"], "properties": {"country": "Russia", "first_seen": "2020", "last_seen": "2023", "sectors_targeted": ["government", "law enforcement", "NGO", "IT service providers"], "regions_targeted": ["Ukraine", "Europe", "Latin America"]}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "identity", "canonical_name": "GRU", "aliases": [], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "identity", "canonical_name": "Latin America", "aliases": [], "properties": {"region": "Latin America"}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "malware", "canonical_name": "WhisperGate", "aliases": ["WhisperGate MBR-wiper"], "properties": {"capabilities": ["disk wiping"]}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Free Civilian", "aliases": ["“Free Civilian” forum"], "properties": {"objective": "hack-and-leak operations", "first_seen": "2023-01"}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-26084", "aliases": [], "properties": {"cve_id": "CVE-2021-26084"}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "tool", "canonical_name": "Confluence", "aliases": [], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-41040", "aliases": [], "properties": {"cve_id": "CVE-2022-41040"}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "tool", "canonical_name": "ProxyShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "tool", "canonical_name": "Impacket", "aliases": ["Impacket modules"], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": ["PowerShell get-volume"], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "tool", "canonical_name": "reg", "aliases": ["reg save"], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "tool", "canonical_name": "procdump64", "aliases": ["renamed procdump64"], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "identity", "canonical_name": "LSASS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "tool", "canonical_name": "P0wnyshell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "tool", "canonical_name": "reGeorg", "aliases": [], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "tool", "canonical_name": "PAS", "aliases": ["PAS variants"], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "tool", "canonical_name": "NetCat", "aliases": [], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "tool", "canonical_name": "GOST", "aliases": [], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT28", "aliases": ["Forest Blizzard", "Forest", "Fancy Bear", "Sofacy", "Sednit", "STRONTIUM", "Pawn Storm", "Tsar Team"], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Sandworm Team", "aliases": ["Seashell Blizzard", "Seashell", "Sandworm", "Voodoo Bear", "BlackEnergy Group", "Telebots", "ELECTRUM", "IRIDIUM"], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}
+{"entity_type": "identity", "canonical_name": "CERT-UA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-55::ch0"]}

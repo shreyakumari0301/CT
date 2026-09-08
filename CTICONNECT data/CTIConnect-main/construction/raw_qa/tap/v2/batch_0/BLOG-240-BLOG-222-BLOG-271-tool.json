@@ -1,0 +1,7 @@
+{
+  "question": "What is the primary tool or malware family consistently used by this threat actor across these reports?",
+  "answer": "- Primary Malware Family: Custom Remote Access Trojans (RATs)\n- Windows RAT: ChainDoor\n- Android Variant: Custom APT42 Android spyware",
+  "llm_timing": {
+    "api_call_seconds": 5.5124
+  }
+}

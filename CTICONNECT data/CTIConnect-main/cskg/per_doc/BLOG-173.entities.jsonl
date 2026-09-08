@@ -1,0 +1,11 @@
+{"entity_type": "identity", "canonical_name": "Hikvision", "aliases": [], "properties": {}, "source_chunks": ["BLOG-173::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-36260", "aliases": [], "properties": {"cve_id": "CVE-2021-36260", "cvss": "9.8/10", "severity": "critical"}, "source_chunks": ["BLOG-173::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Command injection", "aliases": [], "properties": {}, "source_chunks": ["BLOG-173::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote code execution", "aliases": [], "properties": {}, "source_chunks": ["BLOG-173::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT41", "aliases": ["MISSION2025/APT41", "Barium", "Winnti", "Wicked Panda", "Brass Typhoon", "Double Dragon"], "properties": {}, "source_chunks": ["BLOG-173::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT10", "aliases": ["MenuPass", "Stone Panda", "Bronze Riverside", "Cicada", "Red Apollo", "ChessMaster"], "properties": {}, "source_chunks": ["BLOG-173::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russia", "aliases": ["Russian"], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-173::ch0"]}
+{"entity_type": "tool", "canonical_name": "Shodan", "aliases": [], "properties": {}, "source_chunks": ["BLOG-173::ch0"]}
+{"entity_type": "tool", "canonical_name": "Censys", "aliases": [], "properties": {}, "source_chunks": ["BLOG-173::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S.", "aliases": ["the U.S."], "properties": {"region": "United States"}, "source_chunks": ["BLOG-173::ch0"]}
+{"entity_type": "identity", "canonical_name": "FCC", "aliases": [], "properties": {}, "source_chunks": ["BLOG-173::ch0"]}

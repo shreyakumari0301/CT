@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors or regions mentioned across these reports?",
+  "answer": "- Sector: Small educational enterprises\n- Regions: United States, Malaysia",
+  "llm_timing": {
+    "api_call_seconds": 6.0433
+  }
+}

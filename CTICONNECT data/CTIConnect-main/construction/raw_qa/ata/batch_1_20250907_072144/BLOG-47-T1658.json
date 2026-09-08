@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"In November 2022, TAG discovered exploit chains with 0-days affecting Android and iOS that were delivered via bit.ly links sent over SMS to users located in Italy, Malaysia and Kazakhstan. When clicked, the links redirected visitors to pages hosting exploits for either Android or iOS...\". Please provide: 1) the MITRE ATT&CK category that maps to this behavior, 2) an explanation of how the behavior maps to the category, and 3) the detection methods indicated by the MITRE ATT&CK reference (x_mitre_detection).",
+  "answer": "1) MITRE ATT&CK Category: T1658 \u2013 Exploitation for Client Execution.\n2) Mapping Explanation: The attack involves delivering exploit chains via SMS with redirection links that target mobile operating systems. This aligns with T1658 because it involves exploiting vulnerabilities on the client side (in this case, mobile devices) to achieve code execution after a user interacts with a malicious link.\n3) Detection Methods (x_mitre_detection): The MITRE ATT&CK reference does not provide specific detection methods for this technique.",
+  "llm_timing": {
+    "api_call_seconds": 5.8722
+  }
+}

@@ -1,0 +1,11 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": ["ESET researchers", "ESET telemetry"], "properties": {}, "source_chunks": ["BLOG-209::ch0"]}
+{"entity_type": "malware", "canonical_name": "GravityRAT", "aliases": ["Android GravityRAT variant"], "properties": {"platforms": ["Android"], "capabilities": ["command-and-control", "data exfiltration", "file deletion", "contact list deletion", "call log deletion"]}, "source_chunks": ["BLOG-209::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "SpaceCobra", "aliases": ["SpaceCobra threat group"], "properties": {}, "source_chunks": ["BLOG-209::ch0"]}
+{"entity_type": "tool", "canonical_name": "OMEMO Instant Messenger", "aliases": ["open-source OMEMO Instant Messenger app"], "properties": {}, "source_chunks": ["BLOG-209::ch0"]}
+{"entity_type": "tool", "canonical_name": "BingeChat", "aliases": [], "properties": {}, "source_chunks": ["BLOG-209::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chatico", "aliases": [], "properties": {}, "source_chunks": ["BLOG-209::ch0"]}
+{"entity_type": "indicator", "canonical_name": "dev.androidadbserver.com", "aliases": ["dev.androidadbserver[.]com"], "properties": {"ioc_type": "domain", "value": "dev.androidadbserver.com"}, "source_chunks": ["BLOG-209::ch0"]}
+{"entity_type": "indicator", "canonical_name": "cld.androidadbserver.com", "aliases": ["cld.androidadbserver[.]com"], "properties": {"ioc_type": "domain", "value": "cld.androidadbserver.com"}, "source_chunks": ["BLOG-209::ch0"]}
+{"entity_type": "indicator", "canonical_name": "ping.androidadbserver.com", "aliases": ["ping.androidadbserver[.]com"], "properties": {"ioc_type": "domain", "value": "ping.androidadbserver.com"}, "source_chunks": ["BLOG-209::ch0"]}
+{"entity_type": "tool", "canonical_name": "WhatsApp", "aliases": [], "properties": {}, "source_chunks": ["BLOG-209::ch0"]}
+{"entity_type": "identity", "canonical_name": "India", "aliases": ["India-based"], "properties": {"region": "India"}, "source_chunks": ["BLOG-209::ch0"]}

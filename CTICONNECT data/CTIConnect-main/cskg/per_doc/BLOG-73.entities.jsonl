@@ -1,0 +1,10 @@
+{"entity_type": "threat_actor", "canonical_name": "CL0P", "aliases": ["Clop"], "properties": {"primary_motivation": "ransomware"}, "source_chunks": ["BLOG-73::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "TA505", "aliases": ["Hive0065", "Chimborazo"], "properties": {}, "source_chunks": ["BLOG-73::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. organizations", "aliases": [], "properties": {"region": "United States"}, "source_chunks": ["BLOG-73::ch0"]}
+{"entity_type": "identity", "canonical_name": "global organizations", "aliases": [], "properties": {}, "source_chunks": ["BLOG-73::ch0"]}
+{"entity_type": "identity", "canonical_name": "Tor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-73::ch0"]}
+{"entity_type": "tool", "canonical_name": "BitTorrent", "aliases": [], "properties": {}, "source_chunks": ["BLOG-73::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR/XSIAM", "aliases": ["Cortex XDR", "XSIAM"], "properties": {}, "source_chunks": ["BLOG-73::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex Xpanse", "aliases": [], "properties": {}, "source_chunks": ["BLOG-73::ch0"]}
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": ["Unit 42 incident response"], "properties": {}, "source_chunks": ["BLOG-73::ch0"]}
+{"entity_type": "identity", "canonical_name": "MOVEit Transfer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-73::ch0"]}

@@ -1,0 +1,24 @@
+{"src_type": "identity", "src_name": "ESET Research", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "Operation AkaiRyū", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "identity", "src_name": "ESET Research", "predicate": "presented_at", "tgt_type": "identity", "tgt_name": "JSAC January 2025", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "MirrorFace", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Central European diplomatic institute", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "related_to", "tgt_type": "campaign", "tgt_name": "Expo 2025", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "uses", "tgt_type": "tool", "tgt_name": "OneDrive", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "VBA macros", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "AsyncRAT", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Visual Studio Code", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "installs", "tgt_type": "malware", "tgt_name": "HiddenFace", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "uses_decoy_document", "tgt_type": "indicator", "tgt_name": "tmp.docx", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "campaign", "src_name": "Operation AkaiRyū", "predicate": "uses_decoy_document", "tgt_type": "indicator", "tgt_name": "normal_.dotm", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "threat_actor", "src_name": "MirrorFace", "predicate": "subgroup_of", "tgt_type": "threat_actor", "tgt_name": "APT10", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "tool", "src_name": "OneDrive", "predicate": "triggers", "tgt_type": "attack_pattern", "tgt_name": "LNK-based execution", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "attack_pattern", "src_name": "LNK-based execution", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "attack_pattern", "src_name": "VBA macros", "predicate": "drops", "tgt_type": "malware", "tgt_name": "ANEL", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "malware", "src_name": "ANEL", "predicate": "side_loaded_via", "tgt_type": "tool", "tgt_name": "McAfee", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "malware", "src_name": "ANEL", "predicate": "side_loaded_via", "tgt_type": "tool", "tgt_name": "JustSystems", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "malware", "src_name": "AsyncRAT", "predicate": "runs_inside", "tgt_type": "tool", "tgt_name": "Windows Sandbox", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "tool", "src_name": "Visual Studio Code", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "File exfiltration", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "malware", "src_name": "HiddenFace", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "File exfiltration", "source_chunks": ["BLOG-319::ch0"]}
+{"src_type": "tool", "src_name": "WMI", "predicate": "executes_via", "tgt_type": "indicator", "tgt_name": "wlrmdr.exe", "source_chunks": ["BLOG-319::ch0"]}

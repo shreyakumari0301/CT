@@ -1,0 +1,18 @@
+{"entity_type": "identity", "canonical_name": "Cybereason", "aliases": [], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT41", "aliases": ["Winnti", "Barium", "Wicked Panda", "Axiom", "Brass Typhoon", "Double Dragon"], "properties": {"country": "China", "primary_motivation": "espionage", "sectors_targeted": ["technology", "manufacturing"], "regions_targeted": ["Asia", "Europe", "North America"], "first_seen": "2019"}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Operation CuckooBees", "aliases": [], "properties": {"objective": "steal trade secrets", "first_seen": "2019"}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": ["RCE"], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "JSP web shells", "aliases": ["web shells"], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Windows Remote Management", "aliases": ["WinRM"], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled tasks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL hijacking", "aliases": ["side-loads"], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "malware", "canonical_name": "Spyder Loader", "aliases": [], "properties": {"family": "loader"}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "tool", "canonical_name": "SQLite3 DLL", "aliases": ["SQLite3"], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "malware", "canonical_name": "STASHLOG", "aliases": [], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "malware", "canonical_name": "SPARKLOG", "aliases": [], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "malware", "canonical_name": "PRIVATELOG", "aliases": [], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "malware", "canonical_name": "DEPLOYLOG", "aliases": [], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "malware", "canonical_name": "WINNKIT", "aliases": [], "properties": {"family": "rootkit", "capabilities": ["command execution", "file enumeration", "SOCKS5 proxy", "RDP", "process control"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "identity", "canonical_name": "BenQ", "aliases": [], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "tool", "canonical_name": "Transactional NTFS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}
+{"entity_type": "tool", "canonical_name": "Common Log File System", "aliases": ["CLFS"], "properties": {}, "source_chunks": ["BLOG-236::ch0"]}

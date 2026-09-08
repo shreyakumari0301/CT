@@ -1,0 +1,7 @@
+{
+  "question": "What malware families, threat groups, or vulnerability IDs appear consistently across these reports?",
+  "answer": "- Malware Families: TOSHIS, DESFY, GTELAM, C6DOOR, Cobalt Strike\n- Threat Actor Groups: TAOTH\n- Vulnerability IDs: None mentioned",
+  "llm_timing": {
+    "api_call_seconds": 12.3844
+  }
+}

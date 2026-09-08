@@ -1,0 +1,6 @@
+{
+  "n_chunks": 226,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "source": "MITRE ATT&CK enterprise intrusion-set",
+  "stix_cache": "C:\\Users\\SK\\CTI-Chatbot\\data\\ctibench_taa\\enterprise-attack.json"
+}

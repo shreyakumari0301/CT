@@ -1,0 +1,17 @@
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": ["Palo Alto Networks’"], "properties": {}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "malware", "canonical_name": "SnipBot", "aliases": [], "properties": {"family": "RomCom RAT"}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "malware", "canonical_name": "RomCom RAT", "aliases": ["RomCom"], "properties": {"first_seen": "2022"}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "indicator", "canonical_name": "xeontime.com", "aliases": ["xeontime[.]com"], "properties": {"ioc_type": "domain", "value": "xeontime.com"}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "indicator", "canonical_name": "drvmcprotect.com", "aliases": ["drvmcprotect[.]com"], "properties": {"ioc_type": "domain", "value": "drvmcprotect.com"}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "indicator", "canonical_name": "config-pdf.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "config-pdf.dll"}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "indicator", "canonical_name": "keyprov.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "keyprov.dll"}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "indicator", "canonical_name": "single.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "single.dll"}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "indicator", "canonical_name": "SnipMutex", "aliases": [], "properties": {"ioc_type": "hash", "value": "SnipMutex"}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "COM hijacking", "aliases": ["registry-based COM hijacking"], "properties": {}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "control-flow obfuscation", "aliases": ["window message–based control-flow obfuscation", "unique obfuscation"], "properties": {}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "anti-sandbox checks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "network pivoting", "aliases": [], "properties": {}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "file exfiltration", "aliases": ["targeted file exfiltration"], "properties": {}, "source_chunks": ["BLOG-86::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "SnipBot threat actor", "aliases": [], "properties": {"primary_motivation": "intelligence gathering", "first_seen": "December 2023"}, "source_chunks": ["BLOG-86::ch0"]}

@@ -1,0 +1,270 @@
+{
+  "cluster_id": 12,
+  "cluster_size": 3,
+  "cluster_type": "campaign",
+  "blogs": [
+    {
+      "blog_id": 108,
+      "node": [
+        {
+          "node_text": "474 unique malicious miners",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "AWS",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "EC2 instances",
+          "node_type": "System"
+        },
+        {
+          "node_text": "EleKtra-Leak",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "GitHub",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Palo Alto Networks Unit 42",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "VPN",
+          "node_type": "System"
+        },
+        {
+          "node_text": "automated tools",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "cryptojacking",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "decoy or high-risk repositories",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "multiple EC2 instances",
+          "node_type": "System"
+        },
+        {
+          "node_text": "plaintext AWS IAM credentials",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "public GitHub repositories",
+          "node_type": "System Feature"
+        }
+      ],
+      "title": " EleKtra-Leak",
+      "platform": "securityweek",
+      "type": "campaign",
+      "publish_date": "2025/7/28"
+    },
+    {
+      "blog_id": 150,
+      "node": [
+        {
+          "node_text": "AWS",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "AWS IAM credentials",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "AWSCompromisedKeyQuarantine policy",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "August 30 and October 6, 2023",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "EleKtra-Leak",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "EleKtra-Leak",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "GitHub",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "GitHub secret scanning",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Google Drive",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "January 2021 cryptojacking campaign targeting unsecured Docker services",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "Monero",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "Palo Alto Networks Unit 42",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "account reconnaissance",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "adversary",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "bespoke mining software",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "c5a.24xlarge EC2 instances",
+          "node_type": "System"
+        },
+        {
+          "node_text": "custom miner",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "exposed API keys",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "repository cloning events",
+          "node_type": "Indicator Type"
+        },
+        {
+          "node_text": "security groups",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "two minutes",
+          "node_type": "Time"
+        },
+        {
+          "node_text": "unsecured Docker services",
+          "node_type": "System"
+        },
+        {
+          "node_text": "victim accounts",
+          "node_type": "System"
+        }
+      ],
+      "title": " EleKtra-Leak",
+      "platform": "thehackernews",
+      "type": "campaign",
+      "publish_date": "2020/12/28"
+    },
+    {
+      "blog_id": 78,
+      "node": [
+        {
+          "node_text": "AWS reconnaissance",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CI/CD IaC scanning",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Cortex XDR",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "December 2020",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "EC2 instances",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "EleKtra-Leak",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Monero cryptojacking",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Prisma Cloud HoneyCloud project",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Prisma Cloud Secrets Security",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Threat Actor",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Unit42",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "automated scripts",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "continuous monitoring",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "custom mining software",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ephemeral key leaks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "exposed AWS IAM keys",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "high-profile AWS account IDs",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "independent repository scanning",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "policy overrides",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "public GitHub repositories",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "security groups",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "strict IAM policies",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": " Exposed-IAM-Keys",
+      "platform": "Unit42",
+      "type": "campaign",
+      "publish_date": "2020/12/28"
+    }
+  ]
+}

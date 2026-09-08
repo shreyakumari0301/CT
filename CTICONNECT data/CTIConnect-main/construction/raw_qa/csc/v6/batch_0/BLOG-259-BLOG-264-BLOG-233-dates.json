@@ -1,0 +1,7 @@
+{
+  "question": "What is the time span of this campaign based on the earliest and latest report dates?",
+  "answer": "- Earliest observed activity: mid-2016\n- Latest observed activity: ongoing (continues beyond the most recent analysis)",
+  "llm_timing": {
+    "api_call_seconds": 5.88
+  }
+}

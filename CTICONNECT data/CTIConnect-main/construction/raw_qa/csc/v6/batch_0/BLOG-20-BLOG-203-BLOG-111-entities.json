@@ -1,0 +1,7 @@
+{
+  "question": "What malware families, threat groups, or vulnerability IDs appear consistently across these reports?",
+  "answer": "- Threat Actor Groups: APT28 (aka Fancy Bear, Sednit)\n- Vulnerability IDs: CVE-2020-35730, CVE-2023-43770",
+  "llm_timing": {
+    "api_call_seconds": 6.9962
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target industries or regions mentioned across these reports?",
+  "answer": "- Industries: Energy (including power and utilities), Oil & Gas, Telecommunications, Shipping, Arms Manufacturing, Government (including military), Transportation and Logistics\n- Regions: Ukraine, Europe, Central and South Asia, Middle East, United States, United Kingdom, Canada, Australia",
+  "llm_timing": {
+    "api_call_seconds": 5.0325
+  }
+}

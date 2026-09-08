@@ -1,0 +1,23 @@
+{
+  "question": "An application trusts an externally supplied file\u2019s name or extension to decide how to handle it, rather than verifying the file\u2019s real content type. Which CAPEC attack pattern exploits this weakness, and why can it exploit it?",
+  "answer": "- CAPEC-209.\n- CAPEC-209 exploits MIME type mismatch scripting, targeting CWE-646: relying on external file name/extension instead of validating actual file content.",
+  "llm_cost": {
+    "input": 0.000807,
+    "cached_input": 0.0,
+    "output": 0.00096,
+    "total": 0.001767,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 646,
+      "cached_input": 0,
+      "output": 96
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.9084
+  }
+}

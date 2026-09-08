@@ -1,0 +1,30 @@
+{"entity_type": "malware", "canonical_name": "Cuba ransomware", "aliases": ["Cuba"], "properties": {"first_seen": "late 2019"}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "malware", "canonical_name": "Hancitor", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": ["phishing emails"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine’s armed forces press service", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-41080", "aliases": [], "properties": {"cve_id": "CVE-2022-41080"}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-41040", "aliases": [], "properties": {"cve_id": "CVE-2022-41040"}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Exchange", "aliases": ["Exchange"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Compromised Credentials", "aliases": ["compromised credentials"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "tool", "canonical_name": "RDP", "aliases": ["legitimate RDP"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cobalt Strike", "aliases": ["Cobalt Strike beacons", "CobaltStrike", "CS Beacon"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "tool", "canonical_name": "PsExec", "aliases": ["psexec.exe"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "malware", "canonical_name": "pones.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "malware", "canonical_name": "krots.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "malware", "canonical_name": "KPOT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Theft", "aliases": ["credential theft"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "malware", "canonical_name": "Tropical Scorpius", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "malware", "canonical_name": "RomCom RAT", "aliases": ["RomCom"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "indicator", "canonical_name": "rmtpak.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "rmtpak.dll"}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "malware", "canonical_name": "Spy ransomware", "aliases": ["Spy"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "malware", "canonical_name": "ApcHelper.sys", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "LAPSUS", "aliases": ["LAPSUS-stolen"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "identity", "canonical_name": "NVIDIA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chilean government", "aliases": [], "properties": {"region": "Chile"}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "identity", "canonical_name": "VMware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft ESXi", "aliases": ["Microsoft ESXi servers"], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "identity", "canonical_name": "The Philadelphia Inquirer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-6::ch0"]}

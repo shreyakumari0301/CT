@@ -1,0 +1,22 @@
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "NGOs", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "government organizations", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense organizations", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "transportation organizations", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "media organizations", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "healthcare organizations", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "NATO member states", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Western Europe", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "North America", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukraine", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Password Spraying", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AzureHound", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "enumerates_entra_id_via", "tgt_type": "tool", "tgt_name": "AzureHound", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "shifted_to_using", "tgt_type": "attack_pattern", "tgt_name": "Adversary-in-the-Middle Spear-Phishing", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "micsrosoftonline.com", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Evilginx", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Pass-the-Cookie", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "breached_account_of", "tgt_type": "identity", "tgt_name": "Dutch police", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "overlaps_with", "tgt_type": "threat_actor", "tgt_name": "APT28", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "overlaps_with", "tgt_type": "threat_actor", "tgt_name": "APT29", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "threat_actor", "src_name": "Void Blizzard", "predicate": "overlaps_with", "tgt_type": "threat_actor", "tgt_name": "Turla", "source_chunks": ["BLOG-161::ch0"]}
+{"src_type": "tool", "src_name": "Evilginx", "predicate": "supports", "tgt_type": "attack_pattern", "tgt_name": "Adversary-in-the-Middle Spear-Phishing", "source_chunks": ["BLOG-161::ch0"]}

@@ -1,0 +1,7 @@
+{
+  "question": "From these cross-report analyses of Lorenz ransomware, what is the single most notable new capability that appeared in later variants compared to earlier ones?",
+  "answer": "- Early variants (2021) functioned as a rebranding of sZ40/ThunderCrypt with standard double-extortion tactics and ransom demands\n- Mid-2022 activity introduced exploitation of CVE-2022-29499 for initial access, Chisel tunneling over HTTP, PDF web shells for persistence, and BitLocker-based encryption alongside Lorenz payloads\n- Later variants added advanced anti-forensic measures (renaming binaries to \u201cmemdump\u201d), SSL pipe creation via mkfifo/OpenSSL, comprehensive log wiping, and HTTP-based encryption progress beaconing\n- Most Notable New Capability: Automated, worm-like propagation of BitLocker encryption across domain controllers and ESXi hosts via a custom \u201cworm.txt\u201d script",
+  "llm_timing": {
+    "api_call_seconds": 12.6317
+  }
+}

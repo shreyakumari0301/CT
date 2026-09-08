@@ -1,0 +1,9 @@
+{"src_type": "malware", "src_name": "Gh0st RAT", "predicate": "originally_released_by", "tgt_type": "identity", "tgt_name": "Chinese C.Rufus Security Team", "source_chunks": ["BLOG-94::ch0"]}
+{"src_type": "malware", "src_name": "SugarGh0st RAT", "predicate": "reemerged_as", "tgt_type": "malware", "tgt_name": "Gh0st RAT", "source_chunks": ["BLOG-94::ch0"]}
+{"src_type": "threat_actor", "src_name": "China-linked actor", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "SugarGh0st RAT", "source_chunks": ["BLOG-94::ch0"]}
+{"src_type": "threat_actor", "src_name": "China-linked actor", "predicate": "targets", "tgt_type": "identity", "tgt_name": "South Korean targets", "source_chunks": ["BLOG-94::ch0"]}
+{"src_type": "threat_actor", "src_name": "China-linked actor", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Uzbekistan’s Ministry of Foreign Affairs", "source_chunks": ["BLOG-94::ch0"]}
+{"src_type": "threat_actor", "src_name": "China-linked actor", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Phishing", "source_chunks": ["BLOG-94::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Phishing", "predicate": "delivers", "tgt_type": "tool", "tgt_name": "Windows .LNK shortcuts", "source_chunks": ["BLOG-94::ch0"]}
+{"src_type": "tool", "src_name": "Windows .LNK shortcuts", "predicate": "executes", "tgt_type": "tool", "tgt_name": "JavaScript", "source_chunks": ["BLOG-94::ch0"]}
+{"src_type": "identity", "src_name": "Cisco Talos", "predicate": "highlights_modifications_in", "tgt_type": "malware", "tgt_name": "SugarGh0st RAT", "source_chunks": ["BLOG-94::ch0"]}

@@ -1,0 +1,14 @@
+{"entity_type": "identity", "canonical_name": "Qantas", "aliases": [], "properties": {"sector": "aviation"}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "identity", "canonical_name": "Australian Cyber Security Centre", "aliases": [], "properties": {"region": "Australia"}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "identity", "canonical_name": "Office of the Australian Information Commissioner", "aliases": [], "properties": {"region": "Australia"}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "identity", "canonical_name": "Australian Federal Police", "aliases": [], "properties": {"region": "Australia"}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Scattered Spider", "aliases": ["0ktapus", "UNC3944", "Scatter Swine", "Starfraud", "Muddled Libra", "Octo Tempest", "Roasted 0ktapus", "Storm-0875"], "properties": {}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SIM swapping", "aliases": [], "properties": {}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "MFA bombing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Help-desk phone calls", "aliases": ["help-desk phone calls"], "properties": {}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Self-service password reset exploit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hawaiian Airlines", "aliases": [], "properties": {"sector": "aviation"}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "identity", "canonical_name": "WestJet", "aliases": [], "properties": {"sector": "aviation"}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Threat Intelligence Group", "aliases": [], "properties": {}, "source_chunks": ["BLOG-19::ch0"]}
+{"entity_type": "identity", "canonical_name": "Palo Alto Networks", "aliases": [], "properties": {}, "source_chunks": ["BLOG-19::ch0"]}

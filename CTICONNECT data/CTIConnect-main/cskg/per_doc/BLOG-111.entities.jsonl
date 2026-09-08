@@ -1,0 +1,10 @@
+{"entity_type": "threat_actor", "canonical_name": "APT28", "aliases": ["Fancy Bear", "Forest Blizzard", "Sednit", "Sofacy", "STRONTIUM", "Pawn Storm", "Tsar Team"], "properties": {"first_seen": "2004", "regions_targeted": ["Europe", "Africa", "South America"]}, "source_chunks": ["BLOG-111::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Operation RoundPress", "aliases": ["Operation RoundPress,"], "properties": {"first_seen": "September 2023"}, "source_chunks": ["BLOG-111::ch0"]}
+{"entity_type": "malware", "canonical_name": "SpyPress", "aliases": [], "properties": {"family": "JavaScript implant", "capabilities": ["credential theft", "harvest messages", "harvest contacts", "create forwarding rules", "defeat two-factor authentication"], "platforms": ["web browser"]}, "source_chunks": ["BLOG-111::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-35730", "aliases": [], "properties": {"cve_id": "CVE-2020-35730"}, "source_chunks": ["BLOG-111::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-43770", "aliases": [], "properties": {"cve_id": "CVE-2023-43770"}, "source_chunks": ["BLOG-111::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-11182", "aliases": [], "properties": {"cve_id": "CVE-2024-11182"}, "source_chunks": ["BLOG-111::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine’s government", "aliases": [], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-111::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense firms in Bulgaria", "aliases": [], "properties": {"sector": "defense", "region": "Bulgaria"}, "source_chunks": ["BLOG-111::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense firms in Romania", "aliases": [], "properties": {"sector": "defense", "region": "Romania"}, "source_chunks": ["BLOG-111::ch0"]}
+{"entity_type": "identity", "canonical_name": "French organizations", "aliases": [], "properties": {"region": "France"}, "source_chunks": ["BLOG-111::ch0"]}

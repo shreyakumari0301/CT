@@ -1,0 +1,16 @@
+{"src_type": "identity", "src_name": "Akamai", "predicate": "disclosed", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-35384", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "identity", "src_name": "Akamai", "predicate": "disclosed", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-23397", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "identity", "src_name": "Akamai", "predicate": "disclosed", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-36710", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-35384", "predicate": "bypasses", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-23397", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-35384", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Microsoft Outlook", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-35384", "predicate": "exploited_against", "tgt_type": "identity", "tgt_name": "Microsoft Outlook", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-23397", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Microsoft Outlook", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-36710", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Windows Media Foundation", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-36710", "predicate": "used_in_exploit_chain_against", "tgt_type": "identity", "tgt_name": "Microsoft Outlook", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-23397", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-35384", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "patched", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-36710", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "provided_mitigation", "tgt_type": "tool", "tgt_name": "MapUrlToZone", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "observed_using_techniques_in_exploit_chain", "tgt_type": "identity", "tgt_name": "Microsoft Outlook", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT28", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Exchange", "source_chunks": ["BLOG-98::ch0"]}
+{"src_type": "tool", "src_name": "MapUrlToZone", "predicate": "mitigates", "tgt_type": "identity", "tgt_name": "Microsoft Outlook", "source_chunks": ["BLOG-98::ch0"]}

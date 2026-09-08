@@ -1,0 +1,10 @@
+{"entity_type": "identity", "canonical_name": "Google’s Threat Analysis Group", "aliases": ["Threat Analysis Group", "TAG"], "properties": {}, "source_chunks": ["BLOG-45::ch0"]}
+{"entity_type": "malware", "canonical_name": "Magniber", "aliases": ["Magniber ransomware", "Magnitude EK successor"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-45::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-24880", "aliases": [], "properties": {"cve_id": "CVE-2023-24880"}, "source_chunks": ["BLOG-45::ch0"]}
+{"entity_type": "identity", "canonical_name": "SmartScreen", "aliases": [], "properties": {}, "source_chunks": ["BLOG-45::ch0"]}
+{"entity_type": "indicator", "canonical_name": "smartscreen.exe", "aliases": [], "properties": {"ioc_type": "hash", "value": "smartscreen.exe"}, "source_chunks": ["BLOG-45::ch0"]}
+{"entity_type": "indicator", "canonical_name": "shdocvw.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "shdocvw.dll"}, "source_chunks": ["BLOG-45::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-44698", "aliases": [], "properties": {"cve_id": "CVE-2022-44698"}, "source_chunks": ["BLOG-45::ch0"]}
+{"entity_type": "malware", "canonical_name": "QakBot", "aliases": ["Qakbot", "Qbot", "Pinkslipbot", "Quakbot"], "properties": {}, "source_chunks": ["BLOG-45::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-45::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europe", "aliases": [], "properties": {"region": "Europe"}, "source_chunks": ["BLOG-45::ch0"]}

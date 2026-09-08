@@ -1,0 +1,10 @@
+{"entity_type": "identity", "canonical_name": "Akamai", "aliases": ["Akamai researchers"], "properties": {}, "source_chunks": ["BLOG-98::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-35384", "aliases": [], "properties": {"cve_id": "CVE-2023-35384"}, "source_chunks": ["BLOG-98::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-23397", "aliases": [], "properties": {"cve_id": "CVE-2023-23397"}, "source_chunks": ["BLOG-98::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-36710", "aliases": [], "properties": {"cve_id": "CVE-2023-36710"}, "source_chunks": ["BLOG-98::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": ["Microsoft’s"], "properties": {}, "source_chunks": ["BLOG-98::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft Outlook", "aliases": ["Outlook"], "properties": {}, "source_chunks": ["BLOG-98::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows Media Foundation", "aliases": [], "properties": {}, "source_chunks": ["BLOG-98::ch0"]}
+{"entity_type": "identity", "canonical_name": "Exchange", "aliases": [], "properties": {}, "source_chunks": ["BLOG-98::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT28", "aliases": ["Fancy Bear", "Russia’s Fancy Bear", "Sofacy", "Sednit", "STRONTIUM", "Pawn Storm", "Forest Blizzard", "Tsar Team"], "properties": {"country": "Russia"}, "source_chunks": ["BLOG-98::ch0"]}
+{"entity_type": "tool", "canonical_name": "MapUrlToZone", "aliases": ["MapUrlToZone mitigations"], "properties": {}, "source_chunks": ["BLOG-98::ch0"]}

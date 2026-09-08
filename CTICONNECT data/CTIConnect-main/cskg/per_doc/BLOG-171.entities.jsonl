@@ -1,0 +1,18 @@
+{"entity_type": "identity", "canonical_name": "Microsoft Threat Intelligence Center", "aliases": ["MSTIC"], "properties": {}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "malware", "canonical_name": "H0lyGh0st", "aliases": ["H0lyGh0st ransomware"], "properties": {"family": "ransomware", "first_seen": "June 2021"}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "DEV-0530", "aliases": [], "properties": {"country": "North Korea", "primary_motivation": "financial"}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Andariel", "aliases": ["PLUTONIUM", "DarkSeoul/Andariel", "DarkSeoul", "Silent Chollima", "Onyx Sleet"], "properties": {}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "identity", "canonical_name": "small-to-mid-sized businesses", "aliases": [], "properties": {}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "identity", "canonical_name": "manufacturers", "aliases": [], "properties": {"sector": "manufacturing"}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "identity", "canonical_name": "banks", "aliases": [], "properties": {"sector": "financial"}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "identity", "canonical_name": "schools", "aliases": [], "properties": {"sector": "education"}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "identity", "canonical_name": "event planners", "aliases": [], "properties": {}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "malware", "canonical_name": "SiennaPurple", "aliases": ["BTLC_C.exe"], "properties": {}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "malware", "canonical_name": "SiennaBlue", "aliases": ["HolyRS.exe", "HolyLock.exe", "BLTC.exe"], "properties": {}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".h0lyenc", "aliases": [".h0lyenc extension"], "properties": {"ioc_type": "domain", "value": ".h0lyenc"}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "tool", "canonical_name": "Scheduled Task", "aliases": ["scheduled task"], "properties": {}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "indicator", "canonical_name": "lockertask", "aliases": ["“lockertask”"], "properties": {"ioc_type": "domain", "value": "lockertask"}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "String Obfuscation", "aliases": ["string obfuscation"], "properties": {}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Scheduled Task/Job: Scheduled Task", "aliases": ["enforce persistence via a scheduled task"], "properties": {}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration Over C2 Channel", "aliases": ["uploads victim public keys to a C2 server"], "properties": {}, "source_chunks": ["BLOG-171::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credentials from Password Stores", "aliases": ["hard-codes ServerBaseURL fallback credentials"], "properties": {}, "source_chunks": ["BLOG-171::ch0"]}

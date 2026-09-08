@@ -1,0 +1,17 @@
+{"entity_type": "identity", "canonical_name": "Socket Threat Research", "aliases": [], "properties": {}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Contagious Interview", "aliases": [], "properties": {}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "identity", "canonical_name": "DPRK", "aliases": ["North Korean"], "properties": {"region": "North Korea"}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Typosquatting", "aliases": [], "properties": {}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "identity", "canonical_name": "npm", "aliases": [], "properties": {}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "indicator", "canonical_name": "react-plaid-sdk", "aliases": [], "properties": {"ioc_type": "domain", "value": "react-plaid-sdk"}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "indicator", "canonical_name": "vite-plugin-next-refresh", "aliases": [], "properties": {"ioc_type": "domain", "value": "vite-plugin-next-refresh"}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "indicator", "canonical_name": "framer-motion-ext", "aliases": [], "properties": {"ioc_type": "domain", "value": "framer-motion-ext"}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "tool", "canonical_name": "LinkedIn", "aliases": [], "properties": {}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "tool", "canonical_name": "Google Docs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "tool", "canonical_name": "Bitbucket", "aliases": [], "properties": {}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "malware", "canonical_name": "HexEval", "aliases": ["HexEval loader"], "properties": {"family": "HexEval", "capabilities": ["host fingerprinting", "payload download"]}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Dynamic execution via eval()", "aliases": ["eval()"], "properties": {}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "malware", "canonical_name": "BeaverTail", "aliases": [], "properties": {"family": "BeaverTail", "capabilities": ["browser cookie theft", "cryptocurrency wallet theft"]}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "malware", "canonical_name": "InvisibleFerret", "aliases": [], "properties": {"family": "InvisibleFerret", "capabilities": ["persistence", "remote control", "file theft", "screenshot capture"]}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "malware", "canonical_name": "keylogger", "aliases": ["selective low-level keylogger"], "properties": {"capabilities": ["keystroke logging"]}, "source_chunks": ["BLOG-18::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lazarus", "aliases": [], "properties": {}, "source_chunks": ["BLOG-18::ch0"]}

@@ -1,0 +1,17 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "campaign", "canonical_name": "FlyGram Android campaign", "aliases": [], "properties": {"first_seen": "July 2020"}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Signal Plus Android campaign", "aliases": ["Signal Plus Messenger Android campaign"], "properties": {"first_seen": "July 2022"}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "malware", "canonical_name": "BadBazaar", "aliases": [], "properties": {"family": "BadBazaar", "platforms": ["Android"], "capabilities": ["espionage", "data exfiltration"]}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "GREF", "aliases": ["GREF group", "GREF cluster"], "properties": {"country": "China", "primary_motivation": "espionage"}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google Play", "aliases": [], "properties": {}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "identity", "canonical_name": "Samsung Galaxy Store", "aliases": [], "properties": {}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "tool", "canonical_name": "Signal", "aliases": [], "properties": {"platforms": ["Android"]}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "tool", "canonical_name": "Telegram", "aliases": [], "properties": {"platforms": ["Android"]}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "malware", "canonical_name": "Signal Plus Messenger", "aliases": ["Signal Plus", "trojanized Signal"], "properties": {"platforms": ["Android"], "capabilities": ["data exfiltration", "credential theft", "account takeover"]}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "malware", "canonical_name": "FlyGram", "aliases": ["trojanized Telegram"], "properties": {"platforms": ["Android"], "capabilities": ["data exfiltration"]}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "indicator", "canonical_name": "signalplus.org", "aliases": ["signalplus.org:4332"], "properties": {"ioc_type": "domain", "value": "signalplus.org"}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "indicator", "canonical_name": "flygram.org", "aliases": [], "properties": {"ioc_type": "domain", "value": "flygram.org"}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Exfiltration of device and account data", "aliases": [], "properties": {"tactic": "Exfiltration"}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Abuse of Signal “link device” mechanism to silently pair devices", "aliases": ["link device mechanism abuse"], "properties": {}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "identity", "canonical_name": "Uyghur minorities", "aliases": ["Uyghur minority"], "properties": {}, "source_chunks": ["BLOG-205::ch0"]}
+{"entity_type": "identity", "canonical_name": "Turkic minorities", "aliases": ["Turkic minority"], "properties": {}, "source_chunks": ["BLOG-205::ch0"]}

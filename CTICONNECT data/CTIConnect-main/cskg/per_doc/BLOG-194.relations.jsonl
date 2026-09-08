@@ -1,0 +1,23 @@
+{"src_type": "identity", "src_name": "Trend Micro", "predicate": "identified_resurgence_of", "tgt_type": "malware", "tgt_name": "URSA/Mispadu", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "malware", "src_name": "URSA/Mispadu", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Spam campaigns", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "malware", "src_name": "URSA/Mispadu", "predicate": "checks_for", "tgt_type": "tool", "tgt_name": "Hyper-V", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "malware", "src_name": "URSA/Mispadu", "predicate": "checks_for", "tgt_type": "tool", "tgt_name": "VirtualBox", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "malware", "src_name": "URSA/Mispadu", "predicate": "checks_for", "tgt_type": "tool", "tgt_name": "VMware", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "malware", "src_name": "URSA/Mispadu", "predicate": "aborts_on_host", "tgt_type": "indicator", "tgt_name": "JOHN-PC", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "malware", "src_name": "URSA/Mispadu", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AutoIT", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "malware", "src_name": "URSA/Mispadu", "predicate": "uses", "tgt_type": "tool", "tgt_name": "NirSoft WebBrowserPassView", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "malware", "src_name": "URSA/Mispadu", "predicate": "uses", "tgt_type": "tool", "tgt_name": "NirSoft MailPassView", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "malware", "src_name": "URSA/Mispadu", "predicate": "exfiltrates_to", "tgt_type": "indicator", "tgt_name": "*.ddns.net", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "malware", "src_name": "URSA/Mispadu", "predicate": "exfiltrates_to", "tgt_type": "indicator", "tgt_name": "*.freedynamicdns.org", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "malware", "src_name": "URSA/Mispadu", "predicate": "exfiltrates_to", "tgt_type": "indicator", "tgt_name": "87.98.137.173", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spam campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Spanish- and Portuguese-language systems", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spam campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Mexico", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spam campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Spain", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spam campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Portugal", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Spam campaigns", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Overdue invoice phishing emails", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Overdue invoice phishing emails", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "URSA/Mispadu", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "identity", "src_name": "CronUp Red Team", "predicate": "provided_findings_supporting", "tgt_type": "malware", "tgt_name": "URSA/Mispadu", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "indicator", "src_name": "Trojan.VBS.MISPADU.THIAHBO", "predicate": "indicator_of", "tgt_type": "malware", "tgt_name": "URSA/Mispadu", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "indicator", "src_name": "AutoIt.MISPADO.THIADBO", "predicate": "indicator_of", "tgt_type": "malware", "tgt_name": "URSA/Mispadu", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "tool", "src_name": "Trend Micro Email Security", "predicate": "detects_and_quarantines", "tgt_type": "malware", "tgt_name": "URSA/Mispadu", "source_chunks": ["BLOG-194::ch0"]}
+{"src_type": "tool", "src_name": "Deep Discovery Email Inspector", "predicate": "detects_and_quarantines", "tgt_type": "malware", "tgt_name": "URSA/Mispadu", "source_chunks": ["BLOG-194::ch0"]}

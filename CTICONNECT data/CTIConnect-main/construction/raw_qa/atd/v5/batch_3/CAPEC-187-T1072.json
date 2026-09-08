@@ -1,0 +1,23 @@
+{
+  "question": "An attacker redirects an automated software update process to a hostile server by exploiting weak server authentication, then delivers malicious code because the client fails to validate the downloaded update\u2019s identity and integrity. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to that technique?",
+  "answer": "- T1072.\n- T1072 corresponds to abusing deployment mechanisms, mapping CAPEC-187: redirecting automated updates to deliver malicious code without integrity validation.",
+  "llm_cost": {
+    "input": 0.000812,
+    "cached_input": 0.0,
+    "output": 0.00106,
+    "total": 0.001873,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 650,
+      "cached_input": 0,
+      "output": 106
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.943
+  }
+}

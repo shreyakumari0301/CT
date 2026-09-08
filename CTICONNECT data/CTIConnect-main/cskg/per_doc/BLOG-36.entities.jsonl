@@ -1,0 +1,39 @@
+{"entity_type": "identity", "canonical_name": "Google", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "Threat Analysis Group", "aliases": ["TAG", "Google’s Threat Analysis Group (TAG)"], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Russian state-backed phishing campaigns", "aliases": [], "properties": {"first_seen": "Q1 2023"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russia", "aliases": ["Russian"], "properties": {"region": "Russia"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": ["Ukrainian"], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Sandworm Team", "aliases": ["FROZENBARENTS", "Sandworm", "GRU Unit 74455", "Voodoo Bear", "BlackEnergy Group", "Telebots", "ELECTRUM", "IRIDIUM", "Seashell Blizzard"], "properties": {"country": "Russia", "regions_targeted": ["Ukraine"]}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "tool", "canonical_name": "Exim", "aliases": ["EXIM"], "properties": {"platforms": ["mail servers"]}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SMS-delivered phishing links", "aliases": ["SMS phishing"], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Fake Windows update payloads", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "malware", "canonical_name": "Rhadamanthys", "aliases": ["Rhadamanthys stealer"], "properties": {"capabilities": ["credential theft"]}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "tool", "canonical_name": "Adminer", "aliases": [], "properties": {"capabilities": ["data access"]}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "tool", "canonical_name": "webshells", "aliases": [], "properties": {"capabilities": ["persistence", "remote access"]}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "CyberArmyofRussia_Reborn Telegram channel", "aliases": ["CyberArmyofRussia_Reborn"], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "government sector", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "defense sector", "aliases": [], "properties": {"sector": "defense"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "energy sector", "aliases": [], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "Caspian Pipeline Consortium", "aliases": [], "properties": {"sector": "energy"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "transport sector", "aliases": [], "properties": {"sector": "transport"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "education sector", "aliases": [], "properties": {"sector": "education"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "humanitarian sector", "aliases": [], "properties": {"sector": "humanitarian"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "APT28", "aliases": ["FROZENLAKE", "Fancy Bear", "Sofacy", "Sednit", "STRONTIUM", "Pawn Storm", "Forest Blizzard", "Tsar Team"], "properties": {"regions_targeted": ["Ukraine"]}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Reflected XSS", "aliases": ["reflected XSS"], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian government sites", "aliases": [], "properties": {"sector": "government", "region": "Ukraine"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential harvesting", "aliases": ["harvested credentials"], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ubiquiti devices", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "PUSHCHA", "aliases": [], "properties": {"country": "Belarus"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "regional webmail providers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "IRA-linked actors", "aliases": ["IRA-linked"], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "YouTube Shorts", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "Blogger", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "Wagner", "aliases": ["pro-Wagner"], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Cuba ransomware affiliates", "aliases": ["Cuba"], "properties": {"primary_motivation": "financial"}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "malware", "canonical_name": "RomCom", "aliases": ["RomCom malware"], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "tool", "canonical_name": "ChatGPT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "OpenAI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "conference attendees", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "Safe Browsing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "Gmail", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}
+{"entity_type": "identity", "canonical_name": "Enhanced Safe Browsing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-36::ch0"]}

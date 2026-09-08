@@ -1,0 +1,23 @@
+{
+  "question": "A system mishandles lock behavior when transitioning power states, potentially leaving resources incorrectly locked or unlocked after sleep, reboot, or power cycling. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-166.\n- CAPEC-166 exploits resetting to a prior state, targeting CWE-1232: improper lock behavior after power state transitions.",
+  "llm_cost": {
+    "input": 0.000735,
+    "cached_input": 0.0,
+    "output": 0.00092,
+    "total": 0.001655,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 588,
+      "cached_input": 0,
+      "output": 92
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.3917
+  }
+}

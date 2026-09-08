@@ -1,0 +1,205 @@
+{
+  "cluster_id": 28,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 312,
+      "node": [],
+      "title": "FIN7",
+      "platform": "thehackernews",
+      "type": "threat actor",
+      "publish_date": "2024/5/11"
+    },
+    {
+      "blog_id": 304,
+      "node": [
+        {
+          "node_text": "CVE-2025-2783",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Chrome version 134.0.6998.177/178",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Chrome-Windows interface",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "GReAT team",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Google",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Operation ForumTroll",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "attackers",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "browser sandbox",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "legitimate forum site",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "malicious links",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "organizations",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "phishing links",
+          "node_type": "Indicator"
+        },
+        {
+          "node_text": "unknown malware",
+          "node_type": "Malware"
+        }
+      ],
+      "title": "FIN7",
+      "platform": "krebsonsecurity",
+      "type": "threat actor",
+      "publish_date": "2024/7/10"
+    },
+    {
+      "blog_id": 310,
+      "node": [
+        {
+          "node_text": "API/UI flaws",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "Amazon S3",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Australian agencies",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Canadian agencies",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "DragonForce ransomware",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "MEGA.nz",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "Muddled Libra",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "RCE vulnerabilities",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "RMM tools",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "RattyRAT",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "Scatter Swine",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Scattered Spider",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Snowflake environments",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Starfraud",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "TTPs",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "UK",
+          "node_type": "Location"
+        },
+        {
+          "node_text": "UNC2165",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "UNC2465",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "UNC3944",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "UNC4393",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "UNC6040",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "US agencies",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "VMware ESXi servers",
+          "node_type": "System"
+        },
+        {
+          "node_text": "advanced social engineering",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "backup platforms",
+          "node_type": "System"
+        },
+        {
+          "node_text": "hacking forums",
+          "node_type": "Application"
+        },
+        {
+          "node_text": "misconfigurations",
+          "node_type": "Vulnerability Type"
+        },
+        {
+          "node_text": "permissions",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "routines",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "weak credentials",
+          "node_type": "Vulnerability Type"
+        }
+      ],
+      "title": "FIN7",
+      "platform": "slientpush",
+      "type": "threat actor",
+      "publish_date": "2024/7/10"
+    }
+  ]
+}

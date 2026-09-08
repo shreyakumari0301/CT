@@ -1,0 +1,7 @@
+{
+  "question": "Which malware families, threat actor designations, or vulnerability identifiers are consistently mentioned across these reports?",
+  "answer": "- Malware Families: BeaverTail, InvisibleFerret\n- Threat Actor Designation: DPRK \u201cContagious Interview\u201d campaign\n- Vulnerability IDs: None specified",
+  "llm_timing": {
+    "api_call_seconds": 11.624
+  }
+}

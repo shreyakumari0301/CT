@@ -1,0 +1,23 @@
+{
+  "question": "An adversary manipulates a software product\u2019s configuration management system so malicious code is inserted, modified, or replaced during builds, updates, or deployed baselines, causing clients to receive insecure updates. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1195.001.\n- T1195.001 corresponds to compromising development dependencies/tools, mapping CAPEC-445: manipulating configuration management to insert malicious logic into builds/updates.",
+  "llm_cost": {
+    "input": 0.00082,
+    "cached_input": 0.0,
+    "output": 0.00111,
+    "total": 0.00193,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 656,
+      "cached_input": 0,
+      "output": 111
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.926
+  }
+}

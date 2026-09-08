@@ -1,0 +1,23 @@
+{
+  "question": "An adversary evades or circumvents an authentication mechanism to gain access to an application, service, or device with authorized or privileged user access, obtaining protected data without authenticating. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1548.\n- T1548 corresponds to bypassing authentication controls, mapping CAPEC-115: evading authentication to access protected data as an authorized user.",
+  "llm_cost": {
+    "input": 0.000735,
+    "cached_input": 0.0,
+    "output": 0.00108,
+    "total": 0.001815,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 588,
+      "cached_input": 0,
+      "output": 108
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.0642
+  }
+}

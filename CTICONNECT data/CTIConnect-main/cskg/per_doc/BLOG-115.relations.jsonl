@@ -1,0 +1,37 @@
+{"src_type": "identity", "src_name": "Check Point", "predicate": "observed", "tgt_type": "threat_actor", "tgt_name": "Magnet Goblin", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-24086", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Magento", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ivanti VPNs", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-46805", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-21887", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-21888", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2024-21893", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Qlik Sense", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-41265", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-41266", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2023-48365", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "potentially_targets", "tgt_type": "identity", "tgt_name": "Apache ActiveMQ", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "NerbianRAT", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "uses", "tgt_type": "malware", "tgt_name": "NerbianRAT", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "MiniNerbian", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "uses", "tgt_type": "malware", "tgt_name": "Warpwire", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "chains", "tgt_type": "malware", "tgt_name": "Warpwire", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Ligolo", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "establishes_c2_channels_with", "tgt_type": "tool", "tgt_name": "Ligolo", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ScreenConnect", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "establishes_c2_channels_with", "tgt_type": "tool", "tgt_name": "ScreenConnect", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "threat_actor", "src_name": "Magnet Goblin", "predicate": "establishes_c2_channels_with", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-24086", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Magento", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-46805", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Ivanti VPNs", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-21887", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Ivanti VPNs", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-21888", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Ivanti VPNs", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2024-21893", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Ivanti VPNs", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-41265", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Qlik Sense", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-41266", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Qlik Sense", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2023-48365", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Qlik Sense", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "malware", "src_name": "MiniNerbian", "predicate": "variant_of", "tgt_type": "malware", "tgt_name": "NerbianRAT", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "malware", "src_name": "Warpwire", "predicate": "chained_with", "tgt_type": "malware", "tgt_name": "NerbianRAT", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "malware", "src_name": "Warpwire", "predicate": "chained_with", "tgt_type": "tool", "tgt_name": "Ligolo", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "malware", "src_name": "Warpwire", "predicate": "chained_with", "tgt_type": "tool", "tgt_name": "ScreenConnect", "source_chunks": ["BLOG-115::ch0"]}
+{"src_type": "malware", "src_name": "Warpwire", "predicate": "chained_with", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-115::ch0"]}

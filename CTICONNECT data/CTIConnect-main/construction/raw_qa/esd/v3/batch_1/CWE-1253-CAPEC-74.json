@@ -1,0 +1,23 @@
+{
+  "question": "A device is configured with the wrong fuse settings, resulting in unintended hardware behavior and potentially weakened security controls. Which CAPEC attack pattern exploits this weakness, and why can it take advantage of misconfigured fuses to force unintended state changes?",
+  "answer": "- CAPEC-74.\n- CAPEC-74 exploits fuse misconfiguration enabling unintended state transitions, targeting CWE-1253: incorrect selection of hardware fuse values.",
+  "llm_cost": {
+    "input": 0.00085,
+    "cached_input": 0.0,
+    "output": 0.00096,
+    "total": 0.00181,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 680,
+      "cached_input": 0,
+      "output": 96
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.855
+  }
+}

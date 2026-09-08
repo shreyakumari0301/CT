@@ -1,0 +1,25 @@
+{"entity_type": "identity", "canonical_name": "Fortra", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2024-0204", "aliases": [], "properties": {"cve_id": "CVE-2024-0204", "cvss": "9.8", "severity": "critical"}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "GoAnywhere MFT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "authentication bypass", "aliases": ["authentication-bypass"], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "create arbitrary admin users", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "full device takeover", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "data theft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "malware deployment", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "lateral movement", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "Mohammed Eldeeb", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "Islam Elrfai", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "Spark Engineering Consultants", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "indicator", "canonical_name": "InitialAccountSetup.xhtml", "aliases": [], "properties": {"ioc_type": "url", "value": "InitialAccountSetup.xhtml"}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Clop", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "malware", "canonical_name": "Cl0p", "aliases": ["Clop ransomware", "Clop", "CL0P"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-0669", "aliases": [], "properties": {"cve_id": "CVE-2023-0669"}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "remote code execution", "aliases": ["remote-code-execution"], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "Crown Resorts", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "CHS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hatch Bank", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "Rubrik", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "City of Toronto", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hitachi Energy", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "Procter & Gamble", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}
+{"entity_type": "identity", "canonical_name": "Saks Fifth Avenue", "aliases": [], "properties": {}, "source_chunks": ["BLOG-26::ch0"]}

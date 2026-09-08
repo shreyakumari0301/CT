@@ -1,0 +1,23 @@
+{
+  "question": "An attacker alters a public DNS resolver\u2019s cached records so domain names resolve to attacker-chosen IP addresses, redirecting clients to malicious sites or enabling phishing-like redirection. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to that technique?",
+  "answer": "- T1584.002.\n- T1584.002 corresponds to leveraging DNS infrastructure, mapping CAPEC-142: poisoning DNS caches to redirect victims to attacker-controlled addresses.",
+  "llm_cost": {
+    "input": 0.000821,
+    "cached_input": 0.0,
+    "output": 0.00107,
+    "total": 0.001891,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 657,
+      "cached_input": 0,
+      "output": 107
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.2333
+  }
+}

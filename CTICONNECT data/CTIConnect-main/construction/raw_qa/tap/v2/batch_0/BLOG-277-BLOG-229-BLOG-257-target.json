@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors or regions mentioned across these reports?",
+  "answer": "- Primary target sectors: organizations operating unpatched VPN gateways and web server applications (notably those using Telerik UI for ASPX.NET and SQL-backed web services)\n- No specific regions are identified, indicating a broad, opportunistic focus on any vulnerable public-facing infrastructure",
+  "llm_timing": {
+    "api_call_seconds": 6.103
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question": "What are the main malicious tools or malware families consistently used in this campaign?",
+  "answer": "- PowerShell-based downloaders and droppers\n- Custom document and executable loaders\n- IRC bots/backdoors\n- Python-based Pupy RAT",
+  "llm_timing": {
+    "api_call_seconds": 8.3755
+  }
+}

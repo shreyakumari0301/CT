@@ -1,0 +1,19 @@
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-22047", "aliases": [], "properties": {"cve_id": "CVE-2022-22047", "cvss": "7.8", "severity": "high"}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows Client Server Runtime Subsystem", "aliases": ["CSRSS"], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows", "aliases": ["Windows 7", "Windows 11"], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows Server", "aliases": ["Server 2008–2022"], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "identity", "canonical_name": "Known Exploited Vulnerabilities Catalog", "aliases": [], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "identity", "canonical_name": "Microsoft", "aliases": [], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "campaign", "canonical_name": "July 5 Patch Tuesday update", "aliases": [], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "identity", "canonical_name": "federal agencies", "aliases": [], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Elevation of Privilege", "aliases": ["elevation-of-privilege", "escalate to SYSTEM privileges"], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Local or Physical Access", "aliases": ["local or physical access"], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": ["RCE"], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Lateral Movement", "aliases": ["lateral movement"], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "identity", "canonical_name": "FortiGuard Labs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "identity", "canonical_name": "Trend Micro", "aliases": [], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "identity", "canonical_name": "ZDI", "aliases": ["Trend Micro’s ZDI"], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "tool", "canonical_name": "VBA macros", "aliases": ["macros"], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "identity", "canonical_name": "Office", "aliases": [], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}
+{"entity_type": "identity", "canonical_name": "Adobe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-167::ch0"]}

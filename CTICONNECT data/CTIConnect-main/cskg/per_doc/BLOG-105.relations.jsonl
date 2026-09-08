@@ -1,0 +1,23 @@
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "sponsored_by", "tgt_type": "identity", "tgt_name": "Kremlin", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "NATO-aligned NGOs", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "think tanks", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "journalists", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "academic institutions", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukraine supporters", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "weaponizes", "tgt_type": "tool", "tgt_name": "MailerLite", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "weaponizes", "tgt_type": "tool", "tgt_name": "HubSpot", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Evilginx", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses_domain_registrar", "tgt_type": "tool", "tgt_name": "Namecheap", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "uses_tls_certificates_from", "tgt_type": "tool", "tgt_name": "Let’s Encrypt", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. grants-management portals", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "UK officials", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Richard Dearlove", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Stewart McDonald", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "threat_actor", "src_name": "Star Blizzard", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. nuclear labs", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "disrupted", "tgt_type": "threat_actor", "tgt_name": "Star Blizzard", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "identity", "src_name": "Recorded Future", "predicate": "monitors", "tgt_type": "threat_actor", "tgt_name": "Star Blizzard", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "tool", "src_name": "MailerLite", "predicate": "redirects_to", "tgt_type": "tool", "tgt_name": "Evilginx", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "tool", "src_name": "HubSpot", "predicate": "redirects_to", "tgt_type": "tool", "tgt_name": "Evilginx", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "identity", "src_name": "Richard Dearlove", "predicate": "former_chief_of", "tgt_type": "identity", "tgt_name": "MI6", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "identity", "src_name": "Richard Dearlove", "predicate": "is_uk_official", "tgt_type": "identity", "tgt_name": "UK officials", "source_chunks": ["BLOG-105::ch0"]}
+{"src_type": "identity", "src_name": "Stewart McDonald", "predicate": "is_uk_official", "tgt_type": "identity", "tgt_name": "UK officials", "source_chunks": ["BLOG-105::ch0"]}

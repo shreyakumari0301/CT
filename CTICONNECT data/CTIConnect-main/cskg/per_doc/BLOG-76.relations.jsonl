@@ -1,0 +1,19 @@
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "CryptoClippy", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Portugal", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "leverages", "tgt_type": "attack_pattern", "tgt_name": "SEO poisoning via Google Ads", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "redirects", "tgt_type": "identity", "tgt_name": "WhatsApp Web", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SysWhispers2", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "injects_into", "tgt_type": "indicator", "tgt_name": "svchost.exe", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "impacts", "tgt_type": "identity", "tgt_name": "manufacturing", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "impacts", "tgt_type": "identity", "tgt_name": "IT services", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "impacts", "tgt_type": "identity", "tgt_name": "real estate", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "mitigated_by", "tgt_type": "identity", "tgt_name": "Cortex XDR", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "mitigated_by", "tgt_type": "identity", "tgt_name": "Advanced URL Filtering", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "campaign", "src_name": "CryptoClippy", "predicate": "mitigated_by", "tgt_type": "identity", "tgt_name": "DNS Security", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "attack_pattern", "src_name": "SEO poisoning via Google Ads", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Google Ads", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "tool", "src_name": "SysWhispers2", "predicate": "used_to_inject_into", "tgt_type": "indicator", "tgt_name": "svchost.exe", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "indicator", "src_name": "Ricoly.bat", "predicate": "launches", "tgt_type": "indicator", "tgt_name": "Ricoly.ps1", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "identity", "src_name": "Next-Generation Firewall", "predicate": "provides_protection_through", "tgt_type": "identity", "tgt_name": "Advanced URL Filtering", "source_chunks": ["BLOG-76::ch0"]}
+{"src_type": "identity", "src_name": "Next-Generation Firewall", "predicate": "provides_protection_through", "tgt_type": "identity", "tgt_name": "DNS Security", "source_chunks": ["BLOG-76::ch0"]}

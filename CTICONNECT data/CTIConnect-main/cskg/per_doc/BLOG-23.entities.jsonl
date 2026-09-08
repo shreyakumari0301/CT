@@ -1,0 +1,5 @@
+{"entity_type": "identity", "canonical_name": "Atlassian", "aliases": [], "properties": {}, "source_chunks": ["BLOG-23::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-22527", "aliases": [], "properties": {"cve_id": "CVE-2023-22527", "severity": "critical"}, "source_chunks": ["BLOG-23::ch0"]}
+{"entity_type": "identity", "canonical_name": "Confluence Server", "aliases": [], "properties": {}, "source_chunks": ["BLOG-23::ch0"]}
+{"entity_type": "identity", "canonical_name": "Confluence Data Center", "aliases": ["Data Center"], "properties": {}, "source_chunks": ["BLOG-23::ch0"]}
+{"entity_type": "identity", "canonical_name": "Shadowserver", "aliases": [], "properties": {}, "source_chunks": ["BLOG-23::ch0"]}

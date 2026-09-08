@@ -1,0 +1,7 @@
+{
+  "question": "What is the time span of the Operation Honeybee campaign based on the earliest and latest report dates?",
+  "answer": "- Earliest observed: August 2017\n- Latest reported: March 2018",
+  "llm_timing": {
+    "api_call_seconds": 4.1304
+  }
+}

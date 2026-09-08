@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Double extortion succeeds because attackers can access and exfiltrate sensitive data prior to encryption, indicating inadequate data access controls.\" Could you please identify the CWE category that maps to this vulnerability, explain how this mapping is justified, and also mention the likelihood of exploit as indicated in the CWE framework?",
+  "answer": "1) CWE-200: Exposure of Sensitive Information to an Unauthorized Actor\n2) Mapping Explanation: The vulnerability described involves attackers accessing and exfiltrating sensitive data, which is indicative of improper data access controls. This scenario aligns with CWE-200 because it covers situations where sensitive information is exposed to unauthorized actors.\n3) Likelihood of Exploit: High",
+  "llm_timing": {
+    "api_call_seconds": 5.5425
+  }
+}

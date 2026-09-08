@@ -1,0 +1,22 @@
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "uncovered_attack_by", "tgt_type": "threat_actor", "tgt_name": "Lazarus Group", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "alerted", "tgt_type": "identity", "tgt_name": "CyberLink Corp.", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "notified_customers", "tgt_type": "identity", "tgt_name": "Microsoft Defender for Endpoint", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "reported_payload_to", "tgt_type": "identity", "tgt_name": "GitHub", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "identity", "src_name": "Microsoft Threat Intelligence", "predicate": "published_detection", "tgt_type": "malware", "tgt_name": "Trojan:Win32/LambLoad", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "uses", "tgt_type": "malware", "tgt_name": "LambLoad", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Japan", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Taiwan", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Canada", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "United States", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "IT organizations", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "defense organizations", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "threat_actor", "src_name": "Lazarus Group", "predicate": "targets", "tgt_type": "identity", "tgt_name": "media organizations", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "malware", "src_name": "LambLoad", "predicate": "has_sha256", "tgt_type": "indicator", "tgt_name": "166d1a6ddcde4e859a89c2c825cd3c8c953a86bfa92b343de7e5bfbfb5afb8be", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "malware", "src_name": "LambLoad", "predicate": "targets_edr_process", "tgt_type": "tool", "tgt_name": "csfalconservice.exe", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "malware", "src_name": "LambLoad", "predicate": "targets_edr_process", "tgt_type": "tool", "tgt_name": "xagt.exe", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "malware", "src_name": "LambLoad", "predicate": "targets_edr_process", "tgt_type": "tool", "tgt_name": "taniumclient.exe", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "malware", "src_name": "LambLoad", "predicate": "downloads_payload_with_sha256", "tgt_type": "indicator", "tgt_name": "089573b3a1167f387dcdad5e014a5132e998b2c89bff29bcf8b06dd497d4e63d", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "malware", "src_name": "LambLoad", "predicate": "decrypts_payload_to_sha256", "tgt_type": "indicator", "tgt_name": "915c2495e03ff7408f11a2a197f23344004c533ff87db4b807cc937f80c217a1", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "identity", "src_name": "CrowdStrike", "predicate": "associated_with", "tgt_type": "tool", "tgt_name": "csfalconservice.exe", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "identity", "src_name": "FireEye", "predicate": "associated_with", "tgt_type": "tool", "tgt_name": "xagt.exe", "source_chunks": ["BLOG-57::ch0"]}
+{"src_type": "identity", "src_name": "Tanium", "predicate": "associated_with", "tgt_type": "tool", "tgt_name": "taniumclient.exe", "source_chunks": ["BLOG-57::ch0"]}

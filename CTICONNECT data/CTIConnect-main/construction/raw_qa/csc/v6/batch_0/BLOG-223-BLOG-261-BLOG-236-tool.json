@@ -1,0 +1,7 @@
+{
+  "question": "What are the main malicious tools or malware families consistently used in this campaign?",
+  "answer": "- Winnti (also tracked as APT41/Barium/Blackfly/Wicked Panda/Axiom) and its kernel-level rootkit WINNKIT\n- DEPLOYLOG backdoor and CLFS-based loaders (STASHLOG, SPARKLOG) hiding payloads in Windows logs\n- Spyder Loader disguised as an SQLite3 DLL and MFSDLL.exe loader (with mktzx64.dll)\n- JSP-based web shells (e.g., up_win32.jsp variant) and VBScript web shells for persistence\n- WinRM abuse, scheduled-task scripts, and reg save credential dumping for lateral movement\n- Digitally-signed WinRAR archives wrapped in rundll32.exe and DLL side-loading via IKEEXT and PrintNotify services",
+  "llm_timing": {
+    "api_call_seconds": 8.9366
+  }
+}

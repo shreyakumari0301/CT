@@ -1,0 +1,23 @@
+{
+  "question": "An application fails to properly handle parameters, allowing an attacker to influence how inputs are interpreted or processed. Which CAPEC attack pattern exploits this weakness, and why can it succeed when client-side tokens or parameters are trusted without adequate protection from tampering?",
+  "answer": "- CAPEC-39.\n- CAPEC-39 exploits improper parameter handling, targeting CWE-233: parameters are handled incorrectly, enabling attacker-controlled token or data manipulation.",
+  "llm_cost": {
+    "input": 0.000774,
+    "cached_input": 0.0,
+    "output": 0.00099,
+    "total": 0.001764,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 619,
+      "cached_input": 0,
+      "output": 99
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.1228
+  }
+}

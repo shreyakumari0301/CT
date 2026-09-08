@@ -1,0 +1,23 @@
+{
+  "question": "An application stores sensitive information in a cache without adequate protection, allowing an attacker to inspect the cache and extract that data. Which CAPEC attack pattern exploits this weakness, and why can it succeed here?",
+  "answer": "- CAPEC-204.\n- CAPEC-204 exploits unprotected cached sensitive data, targeting CWE-524: use of a cache containing sensitive information.",
+  "llm_cost": {
+    "input": 0.000744,
+    "cached_input": 0.0,
+    "output": 0.00087,
+    "total": 0.001614,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 595,
+      "cached_input": 0,
+      "output": 87
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7753
+  }
+}

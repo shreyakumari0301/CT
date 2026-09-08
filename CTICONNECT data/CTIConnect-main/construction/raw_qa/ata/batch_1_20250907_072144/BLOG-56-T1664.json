@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"For example, the initial access vector was a successful SQL injection attack that allowed the attackers to run queries on the SQL Server.\" Please provide: 1) the MITRE ATT&CK category that maps to this behavior, 2) an explanation of how the SQL injection attack corresponds to this technique, and 3) what detection methods might be applied (e.g., logs, sensors, NDR tools) based on the MITRE reference.",
+  "answer": "1) T1664 - Exploitation for Initial Access. 2) Mapping Explanation: The SQL injection attack described in the blog uses an exploitation method to execute unauthorized queries on a SQL Server, which fits the technique of 'Exploitation for Initial Access' where vulnerabilities are exploited to gain initial access. 3) x_mitre_detection: The provided MITRE reference does not include specific detection methods, so one would need to implement monitoring through SQL query logs, intrusion detection systems, and network detection and response tools to potentially detect such attacks.",
+  "llm_timing": {
+    "api_call_seconds": 6.9324
+  }
+}

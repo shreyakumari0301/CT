@@ -1,0 +1,19 @@
+{"entity_type": "campaign", "canonical_name": "Operation Sharpshooter", "aliases": [], "properties": {"objective": "espionage", "first_seen": "September 2017", "last_seen": "ongoing"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "RSA Conference 2019", "aliases": [], "properties": {}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "McAfee", "aliases": [], "properties": {}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "Dropbox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "tool", "canonical_name": "Microsoft Word", "aliases": [], "properties": {}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "malware", "canonical_name": "Rising Sun", "aliases": [], "properties": {"family": "implant", "capabilities": ["reconnaissance", "encrypts data", "exfiltration", "command-and-control communication"]}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Lazarus Group", "aliases": ["Hidden Cobra", "ZINC", "Diamond Sleet", "Labyrinth Chollima", "Guardians of Peace"], "properties": {}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "malware", "canonical_name": "Duuzer", "aliases": ["Duuzer backdoor"], "properties": {"family": "backdoor"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. defense sector", "aliases": [], "properties": {"sector": "defense", "region": "United States"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. nuclear sector", "aliases": [], "properties": {"sector": "nuclear", "region": "United States"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. energy sector", "aliases": [], "properties": {"sector": "energy", "region": "United States"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. financial sector", "aliases": [], "properties": {"sector": "financial", "region": "United States"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "financial services", "aliases": [], "properties": {"sector": "financial services"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "government", "aliases": [], "properties": {"sector": "government"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "critical infrastructure", "aliases": [], "properties": {"sector": "critical infrastructure"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "Germany", "aliases": [], "properties": {"region": "Germany"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "Turkey", "aliases": [], "properties": {"region": "Turkey"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "the U.K.", "aliases": ["U.K."], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-276::ch0"]}
+{"entity_type": "identity", "canonical_name": "the U.S.", "aliases": ["U.S."], "properties": {"region": "United States"}, "source_chunks": ["BLOG-276::ch0"]}

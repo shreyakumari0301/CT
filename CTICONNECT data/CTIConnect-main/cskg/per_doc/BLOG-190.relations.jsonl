@@ -1,0 +1,21 @@
+{"src_type": "campaign", "src_name": "Operation Earth Kitsune", "predicate": "attributed_to", "tgt_type": "threat_actor", "tgt_name": "SLUB", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "threat_actor", "src_name": "SLUB", "predicate": "abused", "tgt_type": "tool", "tgt_name": "Slack", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "threat_actor", "src_name": "SLUB", "predicate": "abused", "tgt_type": "tool", "tgt_name": "GitHub", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "threat_actor", "src_name": "SLUB", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Mattermost", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "threat_actor", "src_name": "SLUB", "predicate": "conducts", "tgt_type": "attack_pattern", "tgt_name": "Watering-hole campaign", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "threat_actor", "src_name": "SLUB", "predicate": "uses", "tgt_type": "malware", "tgt_name": "dneSpy", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "threat_actor", "src_name": "SLUB", "predicate": "uses", "tgt_type": "malware", "tgt_name": "agfSpy", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Watering-hole campaign", "predicate": "targets", "tgt_type": "tool", "tgt_name": "GNUBoard", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Watering-hole campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Korean American National Coordinating Council domain", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Watering-hole campaign", "predicate": "redirects_to_weaponized_poc_for", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-5782", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Watering-hole campaign", "predicate": "delivers", "tgt_type": "indicator", "tgt_name": "1.jpg", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Watering-hole campaign", "predicate": "delivers", "tgt_type": "indicator", "tgt_name": "2.jpg", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Watering-hole campaign", "predicate": "delivers", "tgt_type": "indicator", "tgt_name": "3.jpg", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Watering-hole campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-0674", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Watering-hole campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Watering-hole campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2016-0189", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Watering-hole campaign", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-1458", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2019-5782", "predicate": "affects", "tgt_type": "tool", "tgt_name": "Chrome", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2020-0674", "predicate": "affects", "tgt_type": "tool", "tgt_name": "Internet Explorer", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2020-0674", "source_chunks": ["BLOG-190::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2019-1458", "source_chunks": ["BLOG-190::ch0"]}

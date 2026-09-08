@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: Karakurt\n- Aliases: Karakurt Team, Karakurt Lair\n- First Observed: June 2021\n- Motivation: Financially driven pure data-extortion (no ransomware encryption)\n- Initial Access: Stolen or brokered VPN credentials (often single-factor FortiGate VPNs, unpatched devices), phishing\n- Privilege Escalation: Attempted CVE-2020-1472 (Zerologon), achieved domain-admin via PsExec and RDP\n- Persistence: Service creation, deployment of AnyDesk, Cobalt Strike C2 beacons\n- Credential Harvesting: Mimikatz, PowerShell dumps of ntds.dit, Volume Shadow Copy extraction of NTDS.dit\n- Lateral Movement: PsExec and RDP to primary domain controller\n- Data Exfiltration: Compression with WinZip/7zip; use of Rclone, SFTP, FileZilla to Mega.io and other cloud hosts\n- Notable Artefacts: 11.6 BTC moved into Conti wallets, shared file-tree.txt, DNS zone export generating Event ID 3150",
+  "llm_timing": {
+    "api_call_seconds": 15.5246
+  }
+}

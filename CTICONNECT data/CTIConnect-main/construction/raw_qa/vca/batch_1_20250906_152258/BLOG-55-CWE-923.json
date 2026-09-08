@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: 'Lack of egress controls allowed generic tunnels (Netcat, GOST, ngrok) and C2 over arbitrary sockets to attacker infrastructure.' Please provide: 1) the CWE category that maps to this vulnerability, 2) an explanation of how this vulnerability maps to the CWE, and 3) what applicable platforms does this CWE affect (e.g., does this CWE affect our specific stack such as Java, Python, web frameworks)?",
+  "answer": "1) CWE-923: Improper Restriction of Communication Channel to Intended Endpoints\n2) Mapping Explanation: The blog describes a scenario where the lack of proper egress controls allows attackers to create generic tunnels and command-and-control channels using arbitrary sockets. This directly fits into CWE-923, which deals with improperly restricting the communication channels to only those endpoints that are intended and safe.\n3) Applicable Platforms: The CWE is marked as Not Language-Specific with an undetermined prevalence, indicating that it can affect any platform regardless of the programming language or specific technology stack in use.",
+  "llm_timing": {
+    "api_call_seconds": 6.5984
+  }
+}

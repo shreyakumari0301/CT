@@ -1,0 +1,26 @@
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "linked_to", "tgt_type": "identity", "tgt_name": "North Korea", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "deployed_fake_firm", "tgt_type": "identity", "tgt_name": "BlockNovas LLC", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "deployed_fake_firm", "tgt_type": "identity", "tgt_name": "Angeloper Agency", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "deployed_fake_firm", "tgt_type": "identity", "tgt_name": "SoftGlide LLC", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "runs_campaign", "tgt_type": "campaign", "tgt_name": "ClickFake Interview", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "runs_campaign", "tgt_type": "campaign", "tgt_name": "Wagemole", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "malware", "tgt_name": "BeaverTail", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "malware", "tgt_name": "InvisibleFerret", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "malware", "tgt_name": "OtterCookie", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "malware", "tgt_name": "FROSTYFERRET", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "uses", "tgt_type": "malware", "tgt_name": "GolangGhost", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "hosts", "tgt_type": "tool", "tgt_name": "Hashtopolis", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "uses_infrastructure", "tgt_type": "indicator", "tgt_name": "attisscmo.com", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "obfuscates_traffic_via", "tgt_type": "tool", "tgt_name": "Astrill VPN", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "uses_personas_on", "tgt_type": "identity", "tgt_name": "LinkedIn", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "uses_personas_on", "tgt_type": "identity", "tgt_name": "Facebook", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "uses_personas_on", "tgt_type": "identity", "tgt_name": "GitHub", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ukrainian professionals", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "enables_installation_of", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "MetaMask", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "threat_actor", "src_name": "Contagious Interview", "predicate": "potential_infrastructure_collaboration_with", "tgt_type": "identity", "tgt_name": "Russia", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "identity", "src_name": "US FBI", "predicate": "seized_domain", "tgt_type": "indicator", "tgt_name": "blocknovas.com", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "malware", "src_name": "BeaverTail", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "lianxinxiao.com", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "malware", "src_name": "BeaverTail", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "InvisibleFerret", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "malware", "src_name": "BeaverTail", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "OtterCookie", "source_chunks": ["BLOG-148::ch0"]}
+{"src_type": "tool", "src_name": "Hashtopolis", "predicate": "hosted_on", "tgt_type": "indicator", "tgt_name": "mail.blocknovas.com", "source_chunks": ["BLOG-148::ch0"]}

@@ -1,0 +1,22 @@
+{"src_type": "identity", "src_name": "Microsoft", "predicate": "tracked", "tgt_type": "threat_actor", "tgt_name": "APT33", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Password Spraying", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Tor", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AzureHound", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Roadtools", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "establishes_persistence_via", "tgt_type": "identity", "tgt_name": "Azure", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "establishes_persistence_via", "tgt_type": "identity", "tgt_name": "Azure Arc", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-47966", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "exploits", "tgt_type": "vulnerability", "tgt_name": "CVE-2022-26134", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "AnyDesk", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Golden SAML", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "DLL Search Order Hijacking", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "tunnels_traffic_with", "tgt_type": "tool", "tgt_name": "EagleRelay", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Remote Services", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "threat_actor", "src_name": "APT33", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Exfiltration", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "tool", "src_name": "AzureHound", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Microsoft Entra ID", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "tool", "src_name": "Roadtools", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Microsoft Entra ID", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-47966", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Zoho ManageEngine", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "vulnerability", "src_name": "CVE-2022-26134", "predicate": "affects", "tgt_type": "identity", "tgt_name": "Confluence", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "attack_pattern", "src_name": "Golden SAML", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Microsoft 365", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "attack_pattern", "src_name": "DLL Search Order Hijacking", "predicate": "abuses", "tgt_type": "identity", "tgt_name": "VMware", "source_chunks": ["BLOG-64::ch0"]}
+{"src_type": "identity", "src_name": "Azure Security Benchmark", "predicate": "mitigates", "tgt_type": "threat_actor", "tgt_name": "APT33", "source_chunks": ["BLOG-64::ch0"]}

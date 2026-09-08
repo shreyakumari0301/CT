@@ -1,0 +1,15 @@
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "uncovered", "tgt_type": "campaign", "tgt_name": "Lampion infostealer campaign", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "campaign", "src_name": "Lampion infostealer campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Portuguese government organizations", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "campaign", "src_name": "Lampion infostealer campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Portuguese finance organizations", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "campaign", "src_name": "Lampion infostealer campaign", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Portuguese transportation organizations", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "campaign", "src_name": "Lampion infostealer campaign", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "ClickFix social-engineering lures", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "campaign", "src_name": "Lampion infostealer campaign", "predicate": "uses", "tgt_type": "indicator", "tgt_name": "autoridade-tributaria.com", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "campaign", "src_name": "Lampion infostealer campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "campaign", "src_name": "Lampion infostealer campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Visual Basic script", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "campaign", "src_name": "Lampion infostealer campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "campaign", "src_name": "Lampion infostealer campaign", "predicate": "uses", "tgt_type": "tool", "tgt_name": "rundll32.exe", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "campaign", "src_name": "Lampion infostealer campaign", "predicate": "delivers", "tgt_type": "malware", "tgt_name": "Lampion", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "tool", "src_name": "Cortex XDR", "predicate": "mitigates", "tgt_type": "campaign", "tgt_name": "Lampion infostealer campaign", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "tool", "src_name": "WildFire", "predicate": "mitigates", "tgt_type": "campaign", "tgt_name": "Lampion infostealer campaign", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "tool", "src_name": "URL Filtering", "predicate": "mitigates", "tgt_type": "campaign", "tgt_name": "Lampion infostealer campaign", "source_chunks": ["BLOG-81::ch0"]}
+{"src_type": "tool", "src_name": "DNS Security", "predicate": "mitigates", "tgt_type": "campaign", "tgt_name": "Lampion infostealer campaign", "source_chunks": ["BLOG-81::ch0"]}

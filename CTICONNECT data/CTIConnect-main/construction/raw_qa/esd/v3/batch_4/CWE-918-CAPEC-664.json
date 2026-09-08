@@ -1,0 +1,23 @@
+{
+  "question": "A server application accepts untrusted input that influences outbound network requests, allowing an attacker to force the server to request internal services, itself, or external third parties under the server\u2019s privileges. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-664.\n- CAPEC-664 exploits server-induced request manipulation, targeting CWE-918: forcing a server to make unintended network requests (SSRF).",
+  "llm_cost": {
+    "input": 0.000864,
+    "cached_input": 0.0,
+    "output": 0.00104,
+    "total": 0.001904,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 691,
+      "cached_input": 0,
+      "output": 104
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7546
+  }
+}

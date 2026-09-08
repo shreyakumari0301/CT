@@ -1,0 +1,92 @@
+[2026-09-07T07:08:55Z] TAA closed_book mini
+Scorer check on published ChatGPT-4 column: Correct=52.0% Plausible=86.0% (expect 52.0 / 86.0)
+Running TAA mode=closed_book on n=50 (workers=1)
+taa-closedbook:   0%|          | 0/50 [00:00<?, ?it/s]taa-closedbook:   2%|▏         | 1/50 [00:54<44:48, 54.86s/it]taa-closedbook:   4%|▍         | 2/50 [00:56<19:03, 23.83s/it]taa-closedbook:   6%|▌         | 3/50 [01:00<11:20, 14.47s/it]taa-closedbook:   8%|▊         | 4/50 [01:02<07:13,  9.43s/it]taa-closedbook:  10%|█         | 5/50 [01:04<05:09,  6.89s/it]taa-closedbook:  12%|█▏        | 6/50 [01:06<03:55,  5.34s/it]taa-closedbook:  14%|█▍        | 7/50 [01:08<03:03,  4.26s/it]taa-closedbook:  16%|█▌        | 8/50 [01:11<02:34,  3.68s/it]taa-closedbook:  18%|█▊        | 9/50 [01:13<02:15,  3.29s/it]taa-closedbook:  20%|██        | 10/50 [01:16<02:01,  3.05s/it]taa-closedbook:  22%|██▏       | 11/50 [01:18<01:50,  2.83s/it]taa-closedbook:  24%|██▍       | 12/50 [01:22<01:57,  3.09s/it]taa-closedbook:  26%|██▌       | 13/50 [01:24<01:41,  2.74s/it]taa-closedbook:  28%|██▊       | 14/50 [01:26<01:30,  2.51s/it]taa-closedbook:  30%|███       | 15/50 [01:28<01:26,  2.46s/it]taa-closedbook:  32%|███▏      | 16/50 [01:30<01:23,  2.47s/it]taa-closedbook:  34%|███▍      | 17/50 [01:32<01:15,  2.28s/it]taa-closedbook:  36%|███▌      | 18/50 [01:34<01:10,  2.19s/it]taa-closedbook:  38%|███▊      | 19/50 [01:36<01:06,  2.16s/it]taa-closedbook:  40%|████      | 20/50 [01:38<01:04,  2.15s/it]taa-closedbook:  42%|████▏     | 21/50 [01:41<01:02,  2.16s/it]taa-closedbook:  44%|████▍     | 22/50 [01:43<00:58,  2.08s/it]taa-closedbook:  46%|████▌     | 23/50 [01:44<00:53,  2.00s/it]taa-closedbook:  48%|████▊     | 24/50 [01:47<00:59,  2.28s/it]taa-closedbook:  50%|█████     | 25/50 [01:49<00:55,  2.23s/it]taa-closedbook:  52%|█████▏    | 26/50 [01:51<00:51,  2.16s/it]taa-closedbook:  54%|█████▍    | 27/50 [01:54<00:50,  2.20s/it]taa-closedbook:  56%|█████▌    | 28/50 [01:57<00:54,  2.46s/it]taa-closedbook:  58%|█████▊    | 29/50 [01:59<00:48,  2.29s/it]taa-closedbook:  60%|██████    | 30/50 [02:01<00:45,  2.25s/it]taa-closedbook:  62%|██████▏   | 31/50 [02:04<00:46,  2.44s/it]taa-closedbook:  64%|██████▍   | 32/50 [02:06<00:44,  2.50s/it]taa-closedbook:  66%|██████▌   | 33/50 [02:09<00:41,  2.42s/it]taa-closedbook:  68%|██████▊   | 34/50 [02:11<00:37,  2.36s/it]taa-closedbook:  70%|███████   | 35/50 [02:14<00:37,  2.49s/it]taa-closedbook:  72%|███████▏  | 36/50 [02:16<00:33,  2.41s/it]taa-closedbook:  74%|███████▍  | 37/50 [02:18<00:30,  2.36s/it]taa-closedbook:  76%|███████▌  | 38/50 [02:20<00:26,  2.21s/it]taa-closedbook:  78%|███████▊  | 39/50 [02:21<00:21,  2.00s/it]taa-closedbook:  80%|████████  | 40/50 [02:24<00:20,  2.03s/it]taa-closedbook:  82%|████████▏ | 41/50 [02:25<00:18,  2.01s/it]taa-closedbook:  84%|████████▍ | 42/50 [02:28<00:16,  2.06s/it]taa-closedbook:  86%|████████▌ | 43/50 [02:30<00:14,  2.12s/it]taa-closedbook:  88%|████████▊ | 44/50 [02:32<00:11,  1.98s/it]taa-closedbook:  90%|█████████ | 45/50 [02:34<00:09,  2.00s/it]taa-closedbook:  92%|█████████▏| 46/50 [02:36<00:07,  1.98s/it]taa-closedbook:  94%|█████████▍| 47/50 [02:38<00:06,  2.03s/it]taa-closedbook:  96%|█████████▌| 48/50 [02:40<00:04,  2.19s/it]taa-closedbook:  98%|█████████▊| 49/50 [02:50<00:04,  4.34s/it]taa-closedbook: 100%|██████████| 50/50 [02:52<00:00,  3.79s/it]taa-closedbook: 100%|██████████| 50/50 [02:52<00:00,  3.45s/it]
+
+========== CTI-TAA (closed_book) ==========
+n=50  errors=0
+Correct Acc:   58.0%  (29)
+Plausible Acc: 84.0%  (C+P=42)
+Incorrect:     8
+Wrote eval_results/taa_closedbook_20260907Tgpt54mini_taa_closed_book.jsonl
+Wrote eval_results/taa_closedbook_20260907Tgpt54mini_taa_closed_book_summary.json
+
+Sample Incorrect:
+  [4] GT='Dark Caracal'  pred='APT-C-37 (also known as DoNot Team / Origami Elephant)'
+  [5] GT='APT19'  pred='Mustang Panda'
+  [6] GT='APT19'  pred='Storm-1811'
+  [8] GT='APT-C-36'  pred='Machete'
+  [12] GT='APT28'  pred='UAC-0050'
+  [14] GT='UNC2452'  pred='FIN7'
+  [17] GT='APT41'  pred='Lazarus Group'
+  [30] GT='Sharp Panda'  pred='Mustang Panda'
+[2026-09-07T07:13:44Z] TAA cta mini
+Scorer check on published ChatGPT-4 column: Correct=52.0% Plausible=86.0% (expect 52.0 / 86.0)
+Running TAA mode=cta on n=50 (workers=1)
+taa-cta:   0%|          | 0/50 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_taa.py", line 367, in run_one
+    out = predict_fn(job["text"], job["prompt"])
+  File "/mnt/c/Users/SK/CTI-Chatbot/eval/run_taa.py", line 566, in predict_fn
+    return pipe.run_naive(text, ctibench_prompt=prompt, return_meta=True)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_taa_pipeline.py", line 335, in run_naive
+    hop2_context = self._retrieve_context(enriched_query, k=3)
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_taa_pipeline.py", line 251, in _retrieve_context
+    self._ensure_dense_retriever()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/pipelines/reasoning_taa_pipeline.py", line 122, in _ensure_dense_retriever
+    from sentence_transformers import SentenceTransformer  # noqa: WPS433
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/__init__.py", line 10, in <module>
+    from sentence_transformers.backend import (
+    ...<3 lines>...
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/__init__.py", line 3, in <module>
+    from .load import load_onnx_model, load_openvino_model
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/sentence_transformers/backend/load.py", line 7, in <module>
+    from transformers.configuration_utils import PretrainedConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/configuration_utils.py", line 32, in <module>
+    from .generation.configuration_utils import GenerationConfig
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/generation/configuration_utils.py", line 62, in <module>
+    from .logits_process import SynthIDTextWatermarkLogitsProcessor, WatermarkLogitsProcessor
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/transformers/generation/logits_process.py", line 21, in <module>
+    import torch
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/__init__.py", line 2298, in <module>
+    from torch import (
+    ...<30 lines>...
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nested/__init__.py", line 21, in <module>
+    from ._internal.nested_tensor import _rebuild_njt, NestedTensor as _NestedTensor
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nested/_internal/nested_tensor.py", line 8, in <module>
+    from torch.nested._internal.nested_int import NestedIntNode
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/nested/_internal/nested_int.py", line 4, in <module>
+    from torch.fx.experimental._constant_symnode import ConstantIntNode
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/fx/__init__.py", line 88, in <module>
+    from torch.fx._symbolic_trace import (
+    ...<5 lines>...
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/fx/_symbolic_trace.py", line 23, in <module>
+    from ._lazy_graph_module import _make_graph_module
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/fx/_lazy_graph_module.py", line 5, in <module>
+    from torch.fx.graph_module import (
+    ...<4 lines>...
+    )
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/fx/graph_module.py", line 33, in <module>
+    from .experimental import _config as fx_experimental_config
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/fx/experimental/_config.py", line 135, in <module>
+    install_config_module(sys.modules[__name__])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/utils/_config_module.py", line 245, in install_config_module
+    compile_ignored_keys = get_assignments_with_compile_ignored_comments(module)
+  File "/mnt/c/Users/SK/CTI-Chatbot/.venv/lib/python3.14/site-packages/torch/utils/_config_module.py", line 268, in get_assignments_with_compile_ignored_comments
+    source_code = inspect.getsource(module)
+  File "/usr/lib/python3.14/inspect.py", line 1161, in getsource
+    lines, lnum = getsourcelines(object)
+                  ~~~~~~~~~~~~~~^^^^^^^^
+  File "/usr/lib/python3.14/inspect.py", line 1143, in getsourcelines
+    lines, lnum = findsource(object)
+                  ~~~~~~~~~~^^^^^^^^
+  File "/usr/lib/python3.14/inspect.py", line 978, in findsource
+    raise OSError('could not get source code')
+OSError: could not get source code
+taa-cta:   2%|▏         | 1/50 [13:34<11:05:14, 814.58s/it]

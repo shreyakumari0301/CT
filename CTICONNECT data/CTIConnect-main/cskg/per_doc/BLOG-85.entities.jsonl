@@ -1,0 +1,16 @@
+{"entity_type": "identity", "canonical_name": "Unit 42", "aliases": [], "properties": {}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Black Basta", "aliases": [], "properties": {}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "malware", "canonical_name": "PlugX", "aliases": ["PlugX implant", "Korplug"], "properties": {}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "malware", "canonical_name": "GootLoader", "aliases": [], "properties": {}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "tool", "canonical_name": "Brute Ratel C4", "aliases": [], "properties": {}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "tool", "canonical_name": "x32dbg", "aliases": ["x32dbg.exe"], "properties": {}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "DLL Side-Loading", "aliases": ["DLL side-loading"], "properties": {"technique_id": "T1574.002"}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "indicator", "canonical_name": "x32bridge.dll", "aliases": [], "properties": {"ioc_type": "hash", "value": "x32bridge.dll"}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "indicator", "canonical_name": "x32bridge.dat", "aliases": [], "properties": {"ioc_type": "hash", "value": "x32bridge.dat"}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "indicator", "canonical_name": "desktop.ini", "aliases": [], "properties": {"ioc_type": "hash", "value": "desktop.ini"}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "indicator", "canonical_name": "%comspec%/q/c", "aliases": [], "properties": {"ioc_type": "url", "value": "%comspec%/q/c"}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows Explorer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "tool", "canonical_name": "cmd.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "identity", "canonical_name": "OPM", "aliases": [], "properties": {}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "tool", "canonical_name": "Cortex XDR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-85::ch0"]}
+{"entity_type": "tool", "canonical_name": "WildFire", "aliases": [], "properties": {}, "source_chunks": ["BLOG-85::ch0"]}

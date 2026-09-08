@@ -1,0 +1,13 @@
+{"entity_type": "campaign", "canonical_name": "Operation ForumTroll", "aliases": [], "properties": {"first_seen": "mid-March 2025"}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "identity", "canonical_name": "Russian media outlets", "aliases": [], "properties": {"sector": "media", "region": "Russia"}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "identity", "canonical_name": "educational institutions", "aliases": [], "properties": {"sector": "education"}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "campaign", "canonical_name": "Primakov Readings", "aliases": ["“Primakov Readings” forum"], "properties": {}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2025-2783", "aliases": [], "properties": {"cve_id": "CVE-2025-2783", "severity": "critical"}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "identity", "canonical_name": "Windows", "aliases": [], "properties": {}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "malware", "canonical_name": "Exploit.Win32.Generic", "aliases": [], "properties": {}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "malware", "canonical_name": "Trojan.Win64.Agent", "aliases": [], "properties": {}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "malware", "canonical_name": "Trojan.Win64.Convagent.gen", "aliases": [], "properties": {}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "identity", "canonical_name": "Google", "aliases": [], "properties": {}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "identity", "canonical_name": "K7 Security Labs", "aliases": [], "properties": {}, "source_chunks": ["BLOG-290::ch0"]}
+{"entity_type": "indicator", "canonical_name": "primakovreadings.info", "aliases": ["primakovreadings[.]info"], "properties": {"ioc_type": "domain", "value": "primakovreadings.info"}, "source_chunks": ["BLOG-290::ch0"]}

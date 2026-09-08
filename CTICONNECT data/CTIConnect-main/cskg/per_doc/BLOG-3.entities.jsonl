@@ -1,0 +1,28 @@
+{"entity_type": "threat_actor", "canonical_name": "Akira ransomware group", "aliases": ["Akira", "Akira actors"], "properties": {"first_seen": "March 2023", "regions_targeted": ["North America", "Europe", "Australia"]}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "identity", "canonical_name": "Avertium", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "identity", "canonical_name": "UK architecture practice", "aliases": [], "properties": {"region": "United Kingdom"}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "identity", "canonical_name": "U.S. IT services provider", "aliases": [], "properties": {"sector": "IT services", "region": "United States"}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "identity", "canonical_name": "European pharmaceutical company", "aliases": [], "properties": {"sector": "pharmaceutical", "region": "Europe"}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "malware", "canonical_name": "Akira", "aliases": ["C++ Akira", "Akira ransomware"], "properties": {"family": "ransomware", "platforms": ["Windows", "Linux", "VMware ESXi"]}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "malware", "canonical_name": "Megazord", "aliases": ["Rust-based Megazord/Akira_v2", "Akira_v2"], "properties": {"family": "ransomware"}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "tool", "canonical_name": "FileZilla", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinRAR", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "tool", "canonical_name": "WinSCP", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "tool", "canonical_name": "RClone", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mimikatz", "aliases": ["mimi"], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "tool", "canonical_name": "LaZagne", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "tool", "canonical_name": "SoftPerfect", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "tool", "canonical_name": "Advanced IP Scanner", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerTool", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {"tactic": "Initial Access"}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "RDP brute-force", "aliases": [], "properties": {"tactic": "Initial Access"}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Kerberoasting", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Domain controller abuse", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "indicator", "canonical_name": "itadm", "aliases": ["“itadm” account"], "properties": {"ioc_type": "email", "value": "itadm"}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".akira", "aliases": [], "properties": {"ioc_type": "hash", "value": ".akira"}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".powerranges", "aliases": [], "properties": {"ioc_type": "hash", "value": ".powerranges"}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "indicator", "canonical_name": ".akiranew", "aliases": [], "properties": {"ioc_type": "hash", "value": ".akiranew"}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "identity", "canonical_name": "FBI", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "identity", "canonical_name": "CISA", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "identity", "canonical_name": "Europol", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}
+{"entity_type": "identity", "canonical_name": "NCSC-NL", "aliases": [], "properties": {}, "source_chunks": ["BLOG-3::ch0"]}

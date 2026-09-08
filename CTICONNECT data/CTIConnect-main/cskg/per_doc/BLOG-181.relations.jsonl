@@ -1,0 +1,27 @@
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "conducted", "tgt_type": "campaign", "tgt_name": "ToddyCat multi-wave intrusion campaigns", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "uses", "tgt_type": "tool", "tgt_name": "China Chopper", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "installs", "tgt_type": "malware", "tgt_name": "Samurai", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "loads", "tgt_type": "malware", "tgt_name": "iiswmi.dll", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "launches", "tgt_type": "malware", "tgt_name": "Ninja", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "abuses", "tgt_type": "vulnerability", "tgt_name": "ProxyLogon", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "compromises_organizations_in", "tgt_type": "identity", "tgt_name": "Iran", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "compromises_organizations_in", "tgt_type": "identity", "tgt_name": "India", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "compromises_organizations_in", "tgt_type": "identity", "tgt_name": "Malaysia", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "compromises_organizations_in", "tgt_type": "identity", "tgt_name": "Slovakia", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "compromises_organizations_in", "tgt_type": "identity", "tgt_name": "Russia", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "compromises_organizations_in", "tgt_type": "identity", "tgt_name": "UK", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "expanded_scope_to_targets_in", "tgt_type": "identity", "tgt_name": "Indonesia", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "expanded_scope_to_targets_in", "tgt_type": "identity", "tgt_name": "Uzbekistan", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "ToddyCat", "predicate": "expanded_scope_to_targets_in", "tgt_type": "identity", "tgt_name": "Kyrgyzstan", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "campaign", "src_name": "ToddyCat multi-wave intrusion campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Microsoft Exchange", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "campaign", "src_name": "ToddyCat multi-wave intrusion campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Asia", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "campaign", "src_name": "ToddyCat multi-wave intrusion campaigns", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Europe", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "campaign", "src_name": "ToddyCat multi-wave intrusion campaigns", "predicate": "first_targeted", "tgt_type": "identity", "tgt_name": "Taiwan", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "campaign", "src_name": "ToddyCat multi-wave intrusion campaigns", "predicate": "first_targeted", "tgt_type": "identity", "tgt_name": "Vietnam", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "tool", "src_name": "China Chopper", "predicate": "drops", "tgt_type": "malware", "tgt_name": "Samurai", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "identity", "src_name": "ESET", "predicate": "has_telemetry_mapped", "tgt_type": "threat_actor", "tgt_name": "ToddyCat", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "identity", "src_name": "Websiic", "predicate": "affiliated_with", "tgt_type": "identity", "tgt_name": "ESET", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "identity", "src_name": "GTSC", "predicate": "has_telemetry_mapped", "tgt_type": "threat_actor", "tgt_name": "ToddyCat", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "FunnyDream", "predicate": "uses", "tgt_type": "malware", "tgt_name": "FunnyDream Exchange backdoor", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "FunnyDream", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Microsoft Exchange", "source_chunks": ["BLOG-181::ch0"]}
+{"src_type": "threat_actor", "src_name": "FunnyDream", "predicate": "overlaps_with", "tgt_type": "threat_actor", "tgt_name": "ToddyCat", "source_chunks": ["BLOG-181::ch0"]}

@@ -1,0 +1,11 @@
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "harvests_credentials_from", "tgt_type": "identity", "tgt_name": "GitHub", "source_chunks": ["BLOG-150::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "targets", "tgt_type": "identity", "tgt_name": "AWS", "source_chunks": ["BLOG-150::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Account reconnaissance", "source_chunks": ["BLOG-150::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Steal cloud account credentials (AWS IAM credentials exposed in public repositories)", "source_chunks": ["BLOG-150::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Cryptocurrency mining", "source_chunks": ["BLOG-150::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "downloads_malware_via", "tgt_type": "identity", "tgt_name": "Google Drive", "source_chunks": ["BLOG-150::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "uses", "tgt_type": "malware", "tgt_name": "custom miner", "source_chunks": ["BLOG-150::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "targets", "tgt_type": "attack_pattern", "tgt_name": "Exploit unsecured Docker services", "source_chunks": ["BLOG-150::ch0"]}
+{"src_type": "campaign", "src_name": "EleKtra-Leak", "predicate": "associated_with", "tgt_type": "attack_pattern", "tgt_name": "Exploit unsecured Docker services", "source_chunks": ["BLOG-150::ch0"]}
+{"src_type": "malware", "src_name": "custom miner", "predicate": "fetched_via", "tgt_type": "identity", "tgt_name": "Google Drive", "source_chunks": ["BLOG-150::ch0"]}
+{"src_type": "malware", "src_name": "custom miner", "predicate": "used_for", "tgt_type": "attack_pattern", "tgt_name": "Cryptocurrency mining", "source_chunks": ["BLOG-150::ch0"]}

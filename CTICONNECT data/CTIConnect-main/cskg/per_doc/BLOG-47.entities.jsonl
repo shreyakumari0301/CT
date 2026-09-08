@@ -1,0 +1,32 @@
+{"entity_type": "identity", "canonical_name": "Google Threat Analysis Group", "aliases": ["TAG"], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "commercial spyware vendors", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "government-backed actors", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "dissidents", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "journalists", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "human rights workers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "UAE users", "aliases": [], "properties": {"region": "UAE"}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "indicator", "canonical_name": "bit.ly", "aliases": [], "properties": {"ioc_type": "domain", "value": "bit.ly"}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-42856", "aliases": [], "properties": {"cve_id": "CVE-2022-42856"}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2021-30900", "aliases": [], "properties": {"cve_id": "CVE-2021-30900"}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-3723", "aliases": [], "properties": {"cve_id": "CVE-2022-3723"}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-4135", "aliases": [], "properties": {"cve_id": "CVE-2022-4135"}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-38181", "aliases": [], "properties": {"cve_id": "CVE-2022-38181"}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-4262", "aliases": [], "properties": {"cve_id": "CVE-2022-4262"}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-3038", "aliases": [], "properties": {"cve_id": "CVE-2022-3038"}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2022-22706", "aliases": [], "properties": {"cve_id": "CVE-2022-22706"}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-0266", "aliases": [], "properties": {"cve_id": "CVE-2023-0266"}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "Cytrox", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "malware", "canonical_name": "Predator", "aliases": ["Cytrox’s Predator"], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "malware", "canonical_name": "Heliconia", "aliases": ["Heliconia-style landing page"], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "Sergei Glazunov", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "Android", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "iOS", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "Samsung Internet Browser", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "WebKit", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "Chromium", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "identity", "canonical_name": "Linux kernel", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "smishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "SMS link campaign", "aliases": ["one-time SMS link campaign"], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "0-day exploits", "aliases": ["0-day"], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "n-day exploits", "aliases": ["n-day"], "properties": {}, "source_chunks": ["BLOG-47::ch0"]}

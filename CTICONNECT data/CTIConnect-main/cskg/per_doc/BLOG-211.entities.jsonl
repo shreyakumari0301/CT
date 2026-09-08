@@ -1,0 +1,13 @@
+{"entity_type": "identity", "canonical_name": "ESET", "aliases": [], "properties": {}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "campaign", "canonical_name": "novel crimeware campaign", "aliases": [], "properties": {"first_seen": "November 2023", "last_seen": "March 2024"}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "identity", "canonical_name": "Czechia", "aliases": [], "properties": {"region": "Czechia"}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "identity", "canonical_name": "three Czech banks", "aliases": ["three banks"], "properties": {"sector": "banking", "region": "Czechia"}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Social engineering", "aliases": [], "properties": {}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Deceptive SMS links", "aliases": [], "properties": {}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "malware", "canonical_name": "NGate", "aliases": [], "properties": {"family": "custom Android malware", "platforms": ["Android"], "capabilities": ["credential harvesting", "NFC data relay", "payment card emulation", "facilitation of unauthorized ATM withdrawals"]}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "tool", "canonical_name": "NFCGate", "aliases": [], "properties": {"capabilities": ["NFC data relay"]}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Progressive Web App (PWA) abuse", "aliases": ["PWAs", "malicious progressive web apps"], "properties": {}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "WebAPK abuse", "aliases": ["WebAPKs"], "properties": {}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential harvesting", "aliases": ["harvesting credentials"], "properties": {}, "source_chunks": ["BLOG-211::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Illicit bank-to-bank transfers", "aliases": [], "properties": {}, "source_chunks": ["BLOG-211::ch0"]}

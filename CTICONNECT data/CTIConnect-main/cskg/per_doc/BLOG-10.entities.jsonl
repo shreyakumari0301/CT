@@ -1,0 +1,13 @@
+{"entity_type": "malware", "canonical_name": "CryptNet", "aliases": [], "properties": {"family": "ransomware", "capabilities": ["encryption", "disable shadow copies", "disable backup services", "data exfiltration", "Tor-based negotiation portal", "leak site"], "platforms": [".NET"], "first_seen": "April 2023"}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "malware", "canonical_name": "Chaos", "aliases": ["Chaos/Yashma"], "properties": {}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "malware", "canonical_name": "Yashma", "aliases": ["Chaos/Yashma"], "properties": {}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "malware", "canonical_name": "Mallox", "aliases": [], "properties": {"family": "ransomware", "capabilities": ["exploit vulnerabilities", "brute force", "phishing", "delete shadow copies", "delete logs", "double extortion"], "platforms": ["PowerShell", "MS-SQL"], "first_seen": "June 2021"}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-0618", "aliases": [], "properties": {"cve_id": "CVE-2020-0618"}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-1068", "aliases": [], "properties": {"cve_id": "CVE-2019-1068"}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "malware", "canonical_name": "Xollam", "aliases": [], "properties": {"family": "TargetCompany/Mallox", "capabilities": ["phishing", "pseudo-fileless execution", "PowerShell reflective loading"], "platforms": ["PowerShell", "OneNote"], "first_seen": "February 2023"}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "malware", "canonical_name": "TargetCompany/Mallox", "aliases": ["TargetCompany/Mallox family"], "properties": {}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {"capabilities": ["fetch payloads", "reflective loading"], "platforms": ["Windows"]}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Brute Force", "aliases": ["brute-force"], "properties": {}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "OneNote phishing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-10::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "MS-SQL exploitation", "aliases": ["MS-SQL vulnerabilities"], "properties": {}, "source_chunks": ["BLOG-10::ch0"]}

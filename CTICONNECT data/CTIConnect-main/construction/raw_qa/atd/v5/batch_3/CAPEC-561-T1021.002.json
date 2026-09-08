@@ -1,0 +1,23 @@
+{
+  "question": "An adversary obtains legitimate Windows administrator credentials (e.g., stolen or guessed userID/password) and uses them to access administrative network shares on a local machine or within a Windows domain. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1021.002.\n- T1021.002 corresponds to accessing Windows Admin Shares with stolen admin credentials, mapping CAPEC-561: using legitimate admin logins to reach admin shares.",
+  "llm_cost": {
+    "input": 0.000735,
+    "cached_input": 0.0,
+    "output": 0.00115,
+    "total": 0.001885,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 588,
+      "cached_input": 0,
+      "output": 115
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.7433
+  }
+}

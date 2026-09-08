@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"The group\u2019s phishing attacks include callback phishing where they impersonate food delivery and software providers in emails that look like subscription renewals. The phishing emails contain phone numbers that the victim must contact to cancel the 'subscription.' Once the victim calls the number, they speak to threat actors who use social engineering to convince the victim to install remote access software.\" Please identify the MITRE ATT&CK category that maps to this behavior, explain the mapping, and indicate in which kill chain phase this behavior is expected.",
+  "answer": "1) MITRE ATT&CK Technique: T1566 - Phishing. 2) Mapping Explanation: The behavior described in the blog involves using fraudulent communications (emails with callback instructions) to lure victims into contacting threat actors and installing remote access software, which aligns directly with the phishing technique defined in MITRE ATT&CK. 3) Kill Chain Phase: Initial-access (as the phishing attack is used to gain initial entry into the victim's environment).",
+  "llm_timing": {
+    "api_call_seconds": 3.7754
+  }
+}

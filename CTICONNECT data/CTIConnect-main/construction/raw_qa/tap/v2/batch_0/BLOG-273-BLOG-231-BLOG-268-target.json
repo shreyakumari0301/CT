@@ -1,0 +1,7 @@
+{
+  "question": "What are the primary target sectors or regions mentioned across these reports?",
+  "answer": "- Corporate networks within private sector organizations\n- Cloud and platform infrastructure environments\n- A global geographic reach, indicating potential victims worldwide",
+  "llm_timing": {
+    "api_call_seconds": 5.4693
+  }
+}

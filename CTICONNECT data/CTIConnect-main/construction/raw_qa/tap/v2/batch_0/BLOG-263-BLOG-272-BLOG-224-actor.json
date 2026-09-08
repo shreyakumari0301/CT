@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports, and what are its primary tactics, targets, and tools?",
+  "answer": "- Canonical Threat Actor Name: APT Hexane\n- Aliases: Lyceum, SiameseKitten\n- Active Since: At least 2018\n- Primary Targets: Middle East and Africa oil & gas and telecommunications sectors; Israeli IT and communications firms\n- Key Tactics: Password spraying and brute-force attacks; spear-phishing via compromised internal accounts; supply-chain phishing with fake job offers on LinkedIn\n- Primary Tools and Malware: DanBot RAT, Milan implant, malicious Excel macros, PoshC2 PowerShell scripts (Decrypt-RDCMan.ps1, Get-LAPSP.ps1)",
+  "llm_timing": {
+    "api_call_seconds": 9.0749
+  }
+}

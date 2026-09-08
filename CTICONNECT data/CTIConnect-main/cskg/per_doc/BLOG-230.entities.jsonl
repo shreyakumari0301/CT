@@ -1,0 +1,7 @@
+{"entity_type": "malware", "canonical_name": "FrostyGoop", "aliases": ["BUSTLEBERM"], "properties": {"platforms": ["OT", "ICS"], "capabilities": ["Modbus read/write command execution", "Disruption of heating services", "Configuration via JSON", "Configuration via command-line arguments", "Anti-analysis (PEB BeingDebugged flag check)"], "first_seen": "July 2024"}, "source_chunks": ["BLOG-230::ch0"]}
+{"entity_type": "tool", "canonical_name": "MikroTik routers", "aliases": ["MikroTik"], "properties": {}, "source_chunks": ["BLOG-230::ch0"]}
+{"entity_type": "malware", "canonical_name": "go-encrypt.exe", "aliases": [], "properties": {"platforms": ["Windows"], "capabilities": ["Encrypt/decrypt JSON files (AES-CFB)"], "first_seen": "Oct. 10, 2023"}, "source_chunks": ["BLOG-230::ch0"]}
+{"entity_type": "indicator", "canonical_name": "task_test.json", "aliases": [], "properties": {"ioc_type": "hash", "value": "task_test.json"}, "source_chunks": ["BLOG-230::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukraine", "aliases": ["Ukrainian"], "properties": {"region": "Ukraine"}, "source_chunks": ["BLOG-230::ch0"]}
+{"entity_type": "identity", "canonical_name": "Romania", "aliases": [], "properties": {"region": "Romania"}, "source_chunks": ["BLOG-230::ch0"]}
+{"entity_type": "identity", "canonical_name": "Ukrainian municipal energy provider", "aliases": [], "properties": {"sector": "energy", "region": "Ukraine"}, "source_chunks": ["BLOG-230::ch0"]}

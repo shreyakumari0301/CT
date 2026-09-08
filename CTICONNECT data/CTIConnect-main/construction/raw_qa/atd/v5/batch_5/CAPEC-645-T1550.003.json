@@ -1,0 +1,23 @@
+{
+  "question": "An adversary steals Kerberos authentication tickets (such as service tickets or ticket-granting tickets) and reuses them to access Kerberos-protected systems or resources without knowing account credentials, potentially enabling broader domain access depending on the ticket type. Which MITRE ATT&CK technique corresponds to this attack pattern, and why does it map to this behavior?",
+  "answer": "- T1550.003.\n- T1550.003 corresponds to reusing stolen Kerberos tickets for authentication, mapping CAPEC-645: using captured Kerberos tickets to access resources without credentials.",
+  "llm_cost": {
+    "input": 0.000835,
+    "cached_input": 0.0,
+    "output": 0.00128,
+    "total": 0.002115,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 668,
+      "cached_input": 0,
+      "output": 128
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.9716
+  }
+}

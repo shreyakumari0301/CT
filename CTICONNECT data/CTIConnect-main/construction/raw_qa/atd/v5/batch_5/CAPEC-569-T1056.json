@@ -1,0 +1,23 @@
+{
+  "question": "An attacker installs or leverages a mechanism on a target system to capture information a user legitimately types or enters, such as using a keylogger, triggering credential prompts, or wrapping the credential provider to record inputs for later attacks. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map?",
+  "answer": "- T1056.\n- T1056 corresponds to capturing user-entered data, mapping CAPEC-569: mechanisms like keyloggers or prompts record legitimate user input.",
+  "llm_cost": {
+    "input": 0.000812,
+    "cached_input": 0.0,
+    "output": 0.00114,
+    "total": 0.001952,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 650,
+      "cached_input": 0,
+      "output": 114
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.3266
+  }
+}

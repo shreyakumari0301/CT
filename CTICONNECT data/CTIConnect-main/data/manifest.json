@@ -1,0 +1,120 @@
+{
+ "name": "CTIConnect",
+ "version": "v1.0.0",
+ "released": "2026-05-28",
+ "license_code": "MIT",
+ "license_data": "CC-BY-4.0",
+ "paper": "CTIConnect: A Benchmark for Retrieval-Augmented LLMs over Heterogeneous Cyber Threat Intelligence (KDD 2026)",
+ "subsample_seed": 42,
+ "tasks": {
+  "rcm": {
+   "category": "entity_linking",
+   "count": 290,
+   "eval_type": "single_id_match",
+   "source_type": "cve",
+   "target_type": "cwe",
+   "construction_sources": [
+    "construction/raw_qa/rcm"
+   ],
+   "sha256": "8adc1dde139532b1be76774ca296b6a801159dba477d0df88a736e6b1c11097b",
+   "relative_path": "data/entity_linking/rcm.jsonl"
+  },
+  "wim": {
+   "category": "entity_linking",
+   "count": 308,
+   "eval_type": "single_id_match",
+   "source_type": "cwe",
+   "target_type": "cve",
+   "construction_sources": [
+    "construction/raw_qa/wim"
+   ],
+   "sha256": "2f412b493e8aa6b5aa9a02d52eeafc02246d82e4c276eb78f71c1a5ea428c3f6",
+   "relative_path": "data/entity_linking/wim.jsonl"
+  },
+  "atd": {
+   "category": "entity_linking",
+   "count": 261,
+   "eval_type": "single_id_match",
+   "source_type": "capec",
+   "target_type": "mitre",
+   "construction_sources": [
+    "construction/raw_qa/atd"
+   ],
+   "sha256": "34619e01add2a5e286df554f706b40a1f8bfa1e83d1a7c70c2365c128f6ca22f",
+   "relative_path": "data/entity_linking/atd.jsonl"
+  },
+  "esd": {
+   "category": "entity_linking",
+   "count": 280,
+   "eval_type": "single_id_match",
+   "source_type": "cwe",
+   "target_type": "capec",
+   "construction_sources": [
+    "construction/raw_qa/esd"
+   ],
+   "sha256": "56c0c3eb110ae1f57d58fc68fdec230b3077a0f6f9ce99b7f68c3b29f504f1d6",
+   "relative_path": "data/entity_linking/esd.jsonl"
+  },
+  "ata": {
+   "category": "entity_attribution",
+   "count": 160,
+   "eval_type": "id_set_match",
+   "source_type": "blog",
+   "target_type": "mitre",
+   "construction_sources": [
+    "construction/raw_qa/ata"
+   ],
+   "sha256": "73e263e82144d097bd16896dbfe6324e1e275d9831adfae5fa53189ae51872bc",
+   "relative_path": "data/entity_attribution/ata.jsonl"
+  },
+  "vca": {
+   "category": "entity_attribution",
+   "count": 219,
+   "eval_type": "id_set_match",
+   "source_type": "blog",
+   "target_type": "cwe",
+   "construction_sources": [
+    "construction/raw_qa/vca"
+   ],
+   "sha256": "4cceb8527c055b6241882ab63490bc197becb4e3bdab08846350a2cebd0173f5",
+   "relative_path": "data/entity_attribution/vca.jsonl"
+  },
+  "csc": {
+   "category": "multi_doc_synthesis",
+   "count": 111,
+   "eval_type": "judge",
+   "source_type": "blog_cluster",
+   "target_type": "free_text",
+   "construction_sources": [
+    "construction/raw_qa/csc"
+   ],
+   "sha256": "4b6b58cd78355da308a7531c0a72f1003143f4c04e9fff5831f696ce234283e7",
+   "relative_path": "data/multi_doc_synthesis/csc.jsonl"
+  },
+  "tap": {
+   "category": "multi_doc_synthesis",
+   "count": 135,
+   "eval_type": "judge",
+   "source_type": "blog_cluster",
+   "target_type": "free_text",
+   "construction_sources": [
+    "construction/raw_qa/tap"
+   ],
+   "sha256": "ed97452acb273063569baa6f6f10c535d99a4591543b8ad1a7d4bd7fb851b09c",
+   "relative_path": "data/multi_doc_synthesis/tap.jsonl"
+  },
+  "mla": {
+   "category": "multi_doc_synthesis",
+   "count": 95,
+   "eval_type": "judge",
+   "source_type": "blog_cluster",
+   "target_type": "free_text",
+   "construction_sources": [
+    "construction/raw_qa/mla"
+   ],
+   "sha256": "74c58883ff578b0d26b3ec1f2511392d39e2a1c315b480a21fe84d3700d780eb",
+   "relative_path": "data/multi_doc_synthesis/mla.jsonl"
+  }
+ },
+ "total_count": 1859
+}

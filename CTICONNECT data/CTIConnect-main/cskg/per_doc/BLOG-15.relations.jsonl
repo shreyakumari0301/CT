@@ -1,0 +1,28 @@
+{"src_type": "identity", "src_name": "Sophos", "predicate": "reported_on", "tgt_type": "identity", "tgt_name": "healthcare organizations", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "splintered_from", "tgt_type": "malware", "tgt_name": "Conti", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "taken_over_by", "tgt_type": "threat_actor", "tgt_name": "Conti Team Two", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "deploys", "tgt_type": "malware", "tgt_name": "Jormungandr", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "OSINT", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "spamming", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "callback phishing", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "uses_initial_access_via", "tgt_type": "malware", "tgt_name": "IcedID", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "lateral movement", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PsExec", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "encryption", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "exfiltration", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "Quantum ransomware", "predicate": "drops", "tgt_type": "indicator", "tgt_name": "README_TO_DECRYPT.html", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "attack_pattern", "src_name": "callback phishing", "predicate": "tricks_victims_into_installing", "tgt_type": "tool", "tgt_name": "legitimate remote-access tools", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "attack_pattern", "src_name": "callback phishing", "predicate": "mitigated_by", "tgt_type": "attack_pattern", "tgt_name": "LSASS memory monitoring", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "IcedID", "predicate": "embedded_in", "tgt_type": "attack_pattern", "tgt_name": "mountable ISO files", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "malware", "src_name": "IcedID", "predicate": "embedded_in", "tgt_type": "attack_pattern", "tgt_name": "malicious LNK shortcuts", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "attack_pattern", "src_name": "lateral movement", "predicate": "uses", "tgt_type": "tool", "tgt_name": "RDP", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "tool", "src_name": "WMI", "predicate": "used_to_push", "tgt_type": "malware", "tgt_name": "ttsel.exe", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "tool", "src_name": "PsExec", "predicate": "used_to_push", "tgt_type": "malware", "tgt_name": "ttsel.exe", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "campaign", "src_name": "Quantum’s brand-impersonation phishing campaigns", "predicate": "masquerades_as", "tgt_type": "identity", "tgt_name": "Oracle", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "campaign", "src_name": "Quantum’s brand-impersonation phishing campaigns", "predicate": "masquerades_as", "tgt_type": "identity", "tgt_name": "CrowdStrike", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "campaign", "src_name": "Quantum’s brand-impersonation phishing campaigns", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "New Jersey behavioral‐health system", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "campaign", "src_name": "Quantum’s brand-impersonation phishing campaigns", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "Interim Healthcare", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "campaign", "src_name": "Quantum’s brand-impersonation phishing campaigns", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "biopharmaceutical research firm", "source_chunks": ["BLOG-15::ch0"]}
+{"src_type": "campaign", "src_name": "Quantum’s brand-impersonation phishing campaigns", "predicate": "compromised", "tgt_type": "identity", "tgt_name": "IVF clinic in Delhi", "source_chunks": ["BLOG-15::ch0"]}

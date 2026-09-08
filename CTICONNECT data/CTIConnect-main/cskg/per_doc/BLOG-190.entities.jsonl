@@ -1,0 +1,20 @@
+{"entity_type": "campaign", "canonical_name": "Operation Earth Kitsune", "aliases": [], "properties": {}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "SLUB", "aliases": [], "properties": {}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "tool", "canonical_name": "Slack", "aliases": [], "properties": {}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "tool", "canonical_name": "GitHub", "aliases": [], "properties": {}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "tool", "canonical_name": "Mattermost", "aliases": [], "properties": {}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Watering-hole campaign", "aliases": [], "properties": {}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "tool", "canonical_name": "GNUBoard", "aliases": ["GNUBoard CMS"], "properties": {}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "identity", "canonical_name": "Korean American National Coordinating Council domain", "aliases": [], "properties": {}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-5782", "aliases": [], "properties": {"cve_id": "CVE-2019-5782"}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "tool", "canonical_name": "Chrome", "aliases": [], "properties": {}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "indicator", "canonical_name": "1.jpg", "aliases": [], "properties": {"ioc_type": "url", "value": "1.jpg"}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "indicator", "canonical_name": "2.jpg", "aliases": [], "properties": {"ioc_type": "url", "value": "2.jpg"}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "indicator", "canonical_name": "3.jpg", "aliases": [], "properties": {"ioc_type": "url", "value": "3.jpg"}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2020-0674", "aliases": [], "properties": {"cve_id": "CVE-2020-0674"}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "tool", "canonical_name": "Internet Explorer", "aliases": [], "properties": {}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "tool", "canonical_name": "PowerShell", "aliases": [], "properties": {}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2019-1458", "aliases": [], "properties": {"cve_id": "CVE-2019-1458"}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2016-0189", "aliases": [], "properties": {"cve_id": "CVE-2016-0189"}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "malware", "canonical_name": "dneSpy", "aliases": [], "properties": {"capabilities": ["system-information exfiltration", "remote control"]}, "source_chunks": ["BLOG-190::ch0"]}
+{"entity_type": "malware", "canonical_name": "agfSpy", "aliases": [], "properties": {"capabilities": ["system-information exfiltration", "remote control"]}, "source_chunks": ["BLOG-190::ch0"]}

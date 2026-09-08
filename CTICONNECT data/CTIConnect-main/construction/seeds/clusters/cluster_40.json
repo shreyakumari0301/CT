@@ -1,0 +1,394 @@
+{
+  "cluster_id": 40,
+  "cluster_size": 3,
+  "cluster_type": "threat actor",
+  "blogs": [
+    {
+      "blog_id": 247,
+      "node": [
+        {
+          "node_text": "APT Salt Typhoon",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Brass Typhoon’s cross-domain implants",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Flax Typhoon’s 200,000-device IoT botnet",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Fortune 100 users",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Mustang Panda’s telco intrusions",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Salt Typhoon campaign",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Sept. 25, 2024",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Taiwan contingency",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "U.S. cable and broadband ISPs",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Volt Typhoon’s telecom backdoors",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Wall Street Journal",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "billing metadata",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "blink-the-lights attacks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "carriers",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "communications metadata",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "disruptive capabilities",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "federal users",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "firmware",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "infiltration of U.S. cable and broadband ISPs by APT Salt Typhoon",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "infrastructure-crippling attacks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "long-term persistence",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "military users",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "routing security",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "shift to blink-the-lights attacks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "shift to infrastructure-crippling attacks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "subscriber location metadata",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "supply-chain compromises",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "supply-chain controls",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "threat-intelligence sharing",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Salt Typhoon",
+      "platform": "darkreading",
+      "type": "threat actor",
+      "publish_date": "2024/9/25"
+    },
+    {
+      "blog_id": 228,
+      "node": [
+        {
+          "node_text": "13-nation advisory",
+          "node_type": "Report"
+        },
+        {
+          "node_text": "AT&T",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Beijing Huanyu Tianqiong Information Technology Co. Ltd.",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "CVE-2018-0171",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-20198",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2023-20273",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2024-21887",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "CVE-2024-3400",
+          "node_type": "Vulnerability"
+        },
+        {
+          "node_text": "Cisco Guest Shell",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "GRE tunnels",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "IPsec tunnels",
+          "node_type": "System Feature"
+        },
+        {
+          "node_text": "Lumen",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Salt Typhoon",
+          "node_type": "Threat Actor"
+        },
+        {
+          "node_text": "Sichuan Juxinhe Network Technology Co. Ltd.",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "Sichuan Zhixin Ruijie Network Technology Co. Ltd.",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "U.S. Army National Guard network",
+          "node_type": "System"
+        },
+        {
+          "node_text": "Verizon",
+          "node_type": "Organization"
+        },
+        {
+          "node_text": "cmd1",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "cmd3",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "global cyber-espionage",
+          "node_type": "Campaign"
+        },
+        {
+          "node_text": "government networks",
+          "node_type": "System"
+        },
+        {
+          "node_text": "lateral movement",
+          "node_type": "Attack Pattern"
+        },
+        {
+          "node_text": "lodging networks",
+          "node_type": "System"
+        },
+        {
+          "node_text": "military networks",
+          "node_type": "System"
+        },
+        {
+          "node_text": "new2",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "sft",
+          "node_type": "Malware"
+        },
+        {
+          "node_text": "telecommunications networks",
+          "node_type": "System"
+        },
+        {
+          "node_text": "transportation networks",
+          "node_type": "System"
+        }
+      ],
+      "title": "Salt Typhoon",
+      "platform": "BleepingComputer",
+      "type": "threat actor",
+      "publish_date": "2025/8/27"
+    },
+    {
+      "blog_id": 266,
+      "node": [
+        {
+          "node_text": "2021",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "ACL tampering",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Australia",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "BGP route hijacks",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Beijing Huanyu Tianqiong",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2018-0171",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-20198",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2023-20273",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2024-21887",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "CVE-2024-3400",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Canada",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Chinese intelligence services",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "GhostEmperor",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "New Zealand",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Operator Panda",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "RedMike",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Salt Typhoon",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Sichuan Juxinhe",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "Sichuan Zhixin Ruijie",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "UNC5807",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "United Kingdom",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "United States",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "United States National Guard unit",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "backbone routers",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "custom tunnels",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "edge routers",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "log deletion",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "logging disabling",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "multi-hop tools",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "non-standard port opening",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "peering connection abuse",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "privileged account creation",
+          "node_type": "Unknown"
+        },
+        {
+          "node_text": "telecom firms",
+          "node_type": "Unknown"
+        }
+      ],
+      "title": "Salt Typhoon",
+      "platform": "securityweek",
+      "type": "threat actor",
+      "publish_date": "2025/8/28"
+    }
+  ]
+}

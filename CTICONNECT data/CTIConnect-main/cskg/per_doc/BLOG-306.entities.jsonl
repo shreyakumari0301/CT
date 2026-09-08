@@ -1,0 +1,22 @@
+{"entity_type": "threat_actor", "canonical_name": "APT41", "aliases": ["Winnti", "Winnti-linked APT", "Barium", "Wicked Panda", "Brass Typhoon", "Double Dragon"], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "identity", "canonical_name": "trading and brokerage firms", "aliases": [], "properties": {"sector": "financial"}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "tool", "canonical_name": "Skype", "aliases": [], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "malware", "canonical_name": "GodRAT", "aliases": [], "properties": {"family": "Gh0st RAT variant"}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "malware", "canonical_name": "Gh0st RAT", "aliases": ["Gh0st RAT variant"], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "malware", "canonical_name": "AwesomePuppet", "aliases": ["AwesomePuppet backdoor"], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "tool", "canonical_name": "Valve.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "tool", "canonical_name": "SDL2.dll", "aliases": [], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "tool", "canonical_name": "UPX", "aliases": [], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "tool", "canonical_name": "curl.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "tool", "canonical_name": "cmd.exe", "aliases": [], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "tool", "canonical_name": "zlib", "aliases": [], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "tool", "canonical_name": "7zip", "aliases": ["7zip-based extraction"], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Process Injection", "aliases": ["inject the decoded first-stage shellcode into legitimate processes", "in-memory plugin injection"], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Steganography", "aliases": ["steganographically embedded shellcode", "extracting shellcode from JPG images"], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Credential Theft", "aliases": ["Chrome and Edge password stealers", "financial credential theft"], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "malware", "canonical_name": "AsyncRAT", "aliases": [], "properties": {}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "identity", "canonical_name": "Hong Kong", "aliases": [], "properties": {"region": "Hong Kong"}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "identity", "canonical_name": "UAE", "aliases": ["United Arab Emirates"], "properties": {"region": "UAE"}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "identity", "canonical_name": "Jordan", "aliases": [], "properties": {"region": "Jordan"}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "identity", "canonical_name": "Lebanon", "aliases": [], "properties": {"region": "Lebanon"}, "source_chunks": ["BLOG-306::ch0"]}
+{"entity_type": "identity", "canonical_name": "Malaysia", "aliases": [], "properties": {"region": "Malaysia"}, "source_chunks": ["BLOG-306::ch0"]}

@@ -1,0 +1,11 @@
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "disclosed_activity_of", "tgt_type": "threat_actor", "tgt_name": "Charming Kitten", "source_chunks": ["BLOG-44::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "published_detection_data_for", "tgt_type": "tool", "tgt_name": "HYPERSCRAPE", "source_chunks": ["BLOG-44::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "urges_enrollment_in", "tgt_type": "identity", "tgt_name": "Google Advanced Protection Program", "source_chunks": ["BLOG-44::ch0"]}
+{"src_type": "identity", "src_name": "Google Threat Analysis Group", "predicate": "urges_enabling", "tgt_type": "identity", "tgt_name": "Enhanced Safe Browsing", "source_chunks": ["BLOG-44::ch0"]}
+{"src_type": "threat_actor", "src_name": "Charming Kitten", "predicate": "uses", "tgt_type": "tool", "tgt_name": "HYPERSCRAPE", "source_chunks": ["BLOG-44::ch0"]}
+{"src_type": "tool", "src_name": "HYPERSCRAPE", "predicate": "targets_accounts_on", "tgt_type": "identity", "tgt_name": "Gmail", "source_chunks": ["BLOG-44::ch0"]}
+{"src_type": "tool", "src_name": "HYPERSCRAPE", "predicate": "targets_accounts_on", "tgt_type": "identity", "tgt_name": "Yahoo!", "source_chunks": ["BLOG-44::ch0"]}
+{"src_type": "tool", "src_name": "HYPERSCRAPE", "predicate": "targets_accounts_on", "tgt_type": "identity", "tgt_name": "Outlook", "source_chunks": ["BLOG-44::ch0"]}
+{"src_type": "tool", "src_name": "HYPERSCRAPE", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Iran", "source_chunks": ["BLOG-44::ch0"]}
+{"src_type": "tool", "src_name": "HYPERSCRAPE", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "136.243.108.14", "source_chunks": ["BLOG-44::ch0"]}
+{"src_type": "tool", "src_name": "HYPERSCRAPE", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "173.209.51.54", "source_chunks": ["BLOG-44::ch0"]}

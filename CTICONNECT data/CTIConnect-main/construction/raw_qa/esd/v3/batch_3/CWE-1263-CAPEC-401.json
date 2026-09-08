@@ -1,0 +1,23 @@
+{
+  "question": "A system lacks adequate controls to prevent unauthorized people from physically accessing installed hardware, enabling them to make changes or secretly replace components. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-401.\n- CAPEC-401 exploits weak physical access control, targeting CWE-1263: improper control of unauthorized physical access to hardware.",
+  "llm_cost": {
+    "input": 0.000701,
+    "cached_input": 0.0,
+    "output": 0.00089,
+    "total": 0.001591,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 561,
+      "cached_input": 0,
+      "output": 89
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.1089
+  }
+}

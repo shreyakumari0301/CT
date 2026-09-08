@@ -1,0 +1,23 @@
+{
+  "question": "An attacker undermines the integrity of a product, software, or technology by tampering with it somewhere in the distribution channel, such as during integration or packaging across multiple suppliers. Which MITRE ATT&CK technique corresponds to this behavior, and why does it map to this attack pattern?",
+  "answer": "- T1195.\n- T1195 corresponds to distribution-channel tampering, mapping CAPEC-439: modifying products or components during multi-stage distribution, integration, or packaging.",
+  "llm_cost": {
+    "input": 0.00077,
+    "cached_input": 0.0,
+    "output": 0.00109,
+    "total": 0.00186,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 616,
+      "cached_input": 0,
+      "output": 109
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 2.6397
+  }
+}

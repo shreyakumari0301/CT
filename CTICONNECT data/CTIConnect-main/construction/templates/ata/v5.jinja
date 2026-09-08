@@ -1,0 +1,67 @@
+You are a Attack Technique Attribution (ATA) assistant. Generate a (question, answer) pair for RAG benchmarking based on a security blog snippet and MITRE ATT&CK framework reference.
+
+**Use only the provided information. Do not invent facts.**
+
+---
+
+## INPUTS
+
+* SOURCE blog (attack description):
+```json
+{{ SOURCE_NODE }}
+```
+
+* MITRE ATT&CK framework reference:
+```json
+{{ TARGET_NODE }}
+```
+
+---
+
+## REQUIREMENTS
+
+1. **Question** (1-2 sentences)
+- Insert the source text as I recently read in a security blog: "..."
+- Ask to identify the MITRE ATT&CK category.
+- Ask to explain the mapping.
+{% if ASPECT == "kill_chain_phases" %}
+- Ask to answer what is the kill chain phase of the MITRE ATT&CK.
+e.g., “Where in the attack lifecycle should we expect this behavior?”
+{% elif ASPECT == "x_mitre_detection" %}
+- Ask to answer what is the detection methods of the MITRE ATT&CK.
+e.g., “How can we detect this in our SOC (logs, sensors, NDR tools)?”
+{% elif ASPECT == "x_mitre_platforms" %}
+- Ask to answer what is the applicable platforms of the MITRE ATT&CK.
+e.g., “Which operating systems are affected (Linux, macOS, Windows, ESXi)?”
+{% elif ASPECT == "x_mitre_data_sources" %}
+- Ask to answer what is the data sources of the MITRE ATT&CK.
+e.g., "Which telemetry/logs can catch this (e.g., NetFlow, Zeek, packet captures)?"
+{% endif %}
+
+2. **Answer**
+1) Identify the MITRE ATT&CK category.
+2) Explain mapping.
+3) Answer the aspect {{ ASPECT }} of the MITRE ATT&CK.
+* Use numbered list
+
+---
+
+## EXAMPLE
+
+```json
+{
+  "question": "The attack involves crafting Microsoft Office documents to circumvent the Mark of the Web security feature, allowing files to be opened without security warnings. Please provide: 1) the MITRE ATT&CK technique that maps to this behavior, 2) an explanation of how this behavior maps to the technique, and 3) the kill chain phase for this technique.",
+  "answer": "1) T1204.002 - User Execution: Malicious File. 2) Mapping Explanation: The behavior of crafting Microsoft Office documents to bypass security features directly aligns with the definition of T1204.002, which involves tricking users into executing malicious files. 3) Kill Chain Phase: Execution phase, where the attacker aims to run malicious code on the victim's system."
+}
+```
+
+---
+
+## OUTPUT FORMAT
+
+Respond with ONLY the JSON object:
+
+{
+  "question": "Your question here",
+  "answer": "Your answer with numbered list"
+}

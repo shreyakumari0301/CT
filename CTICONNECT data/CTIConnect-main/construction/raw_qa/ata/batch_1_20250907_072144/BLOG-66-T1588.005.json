@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"In cases where the process compromised via web shell does not have local administrator privileges, Flax Typhoon downloads and runs a piece of malware that exploits one or more known vulnerabilities to obtain local system privileges. Microsoft has observed the actor use Juicy Potato, BadPotato, and other open-source tools to exploit these vulnerabilities.\" Please provide: 1) What is the MITRE ATT&CK category that maps to this behavior? 2) Explain how this behavior aligns with the technique. 3) Which operating systems are affected (Linux, macOS, Windows, ESXi) according to the applicable x_mitre_platforms?",
+  "answer": "1) Exploits (MITRE ATT&CK ID T1588.005). 2) Mapping Explanation: The attack involves using malware to exploit known vulnerabilities in order to escalate privileges, which directly aligns with the Exploits technique as defined in the MITRE framework. 3) Applicable Platforms: PRE.",
+  "llm_timing": {
+    "api_call_seconds": 4.2656
+  }
+}

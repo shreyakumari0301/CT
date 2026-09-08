@@ -1,0 +1,23 @@
+{
+  "question": "An application uses externally influenced values to access elements in an array but fails to properly validate that the index stays within bounds, potentially leading to out-of-range memory access. Which CAPEC attack pattern exploits this weakness, and why can it do so?",
+  "answer": "- CAPEC-100.\n- CAPEC-100 exploits missing bounds checks on array indices, targeting CWE-129: improper validation of array index values.",
+  "llm_cost": {
+    "input": 0.000721,
+    "cached_input": 0.0,
+    "output": 0.00096,
+    "total": 0.001681,
+    "unit_prices_per_million_tokens": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10.0
+    },
+    "tokens": {
+      "input": 577,
+      "cached_input": 0,
+      "output": 96
+    }
+  },
+  "llm_timing": {
+    "api_call_seconds": 3.3005
+  }
+}

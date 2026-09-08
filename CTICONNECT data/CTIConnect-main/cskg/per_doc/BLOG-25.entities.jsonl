@@ -1,0 +1,12 @@
+{"entity_type": "identity", "canonical_name": "Citrix", "aliases": [], "properties": {}, "source_chunks": ["BLOG-25::ch0"]}
+{"entity_type": "malware", "canonical_name": "ransomware", "aliases": [], "properties": {}, "source_chunks": ["BLOG-25::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-6548", "aliases": [], "properties": {"cve_id": "CVE-2023-6548"}, "source_chunks": ["BLOG-25::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Remote Code Execution", "aliases": [], "properties": {}, "source_chunks": ["BLOG-25::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-6549", "aliases": [], "properties": {"cve_id": "CVE-2023-6549"}, "source_chunks": ["BLOG-25::ch0"]}
+{"entity_type": "attack_pattern", "canonical_name": "Denial-of-Service", "aliases": ["denial-of-service"], "properties": {}, "source_chunks": ["BLOG-25::ch0"]}
+{"entity_type": "identity", "canonical_name": "Shadowserver", "aliases": [], "properties": {}, "source_chunks": ["BLOG-25::ch0"]}
+{"entity_type": "identity", "canonical_name": "HHS HC3", "aliases": [], "properties": {}, "source_chunks": ["BLOG-25::ch0"]}
+{"entity_type": "vulnerability", "canonical_name": "CVE-2023-4966", "aliases": ["Citrix Bleed"], "properties": {"cve_id": "CVE-2023-4966"}, "source_chunks": ["BLOG-25::ch0"]}
+{"entity_type": "threat_actor", "canonical_name": "threat actors", "aliases": [], "properties": {}, "source_chunks": ["BLOG-25::ch0"]}
+{"entity_type": "identity", "canonical_name": "government agencies", "aliases": [], "properties": {}, "source_chunks": ["BLOG-25::ch0"]}
+{"entity_type": "identity", "canonical_name": "Boeing", "aliases": [], "properties": {}, "source_chunks": ["BLOG-25::ch0"]}

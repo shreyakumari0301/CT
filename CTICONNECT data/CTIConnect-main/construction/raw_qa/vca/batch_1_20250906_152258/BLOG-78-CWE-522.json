@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"Credentials were stored in plaintext (or trivially encoded) and not managed as short\u2010lived/rotated secrets, lacking preventive controls before and after exposure.\" Please identify 1) the CWE category that applies to this vulnerability, 2) provide an explanation of how this vulnerability maps to the CWE category, and 3) outline the detection methods recommended for this type of vulnerability (i.e., do we need manual testing or red\u2011team activity to confirm this issue?)",
+  "answer": "1) CWE-522: Insufficiently Protected Credentials. \n2) Mapping Explanation: The vulnerability described matches CWE-522 because it involves the storage of credentials in plaintext or using trivial encoding, along with the absence of proper management such as short-lived secret use or rotation, which are fundamental aspects of protecting sensitive credentials. \n3) Detection Methods: The recommended detection method is Automated Static Analysis (commonly known as SAST), which effectively analyzes the source or compiled code to identify vulnerable patterns. This approach typically means that manual testing or red\u2011team activities are not the primary means for detecting this specific issue.",
+  "llm_timing": {
+    "api_call_seconds": 5.9891
+  }
+}

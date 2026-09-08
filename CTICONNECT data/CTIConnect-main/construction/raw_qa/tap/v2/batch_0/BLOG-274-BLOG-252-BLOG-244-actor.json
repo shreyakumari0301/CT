@@ -1,0 +1,7 @@
+{
+  "question": "What is the canonical threat actor name, resolving any aliases mentioned across these reports?",
+  "answer": "- Canonical Threat Actor Name: Slow Pisces\n- Aliases Resolved: Jade Sleet, TraderTraitor, PUKCHONG\n- Primary Tools/Malware: RN Loader, RN Stealer, PySlowDrop backdoor\n- Tactics & Techniques: Social engineering via LinkedIn and GitHub, YAML deserialization backdoors, EJS escapeFunction embedding, fileless payloads, environment\u2010aware sandbox evasion\n- Primary Targets: Cryptocurrency developers and software engineers in North America and Europe",
+  "llm_timing": {
+    "api_call_seconds": 4.306
+  }
+}

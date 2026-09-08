@@ -1,0 +1,26 @@
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S. financial firms", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "manufacturing", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "IT services", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "consultancy", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "targets", "tgt_type": "identity", "tgt_name": "engineering", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "mirrors_toolkit_and_playbook_of", "tgt_type": "threat_actor", "tgt_name": "Thieflock", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "possibly_affiliated_with", "tgt_type": "threat_actor", "tgt_name": "Thieflock", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "mirrors_toolkit_and_playbook_of", "tgt_type": "threat_actor", "tgt_name": "Fivehands", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "possibly_affiliated_with", "tgt_type": "threat_actor", "tgt_name": "Fivehands", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "uses", "tgt_type": "tool", "tgt_name": "AdFind", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "uses", "tgt_type": "malware", "tgt_name": "BazarLoader", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "enables", "tgt_type": "tool", "tgt_name": "RDP", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "uses", "tgt_type": "tool", "tgt_name": "ConnectWise", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "uses", "tgt_type": "tool", "tgt_name": "SoftPerfect Network Scanner", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "uses", "tgt_type": "tool", "tgt_name": "KeeThief", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "uses", "tgt_type": "tool", "tgt_name": "secretdump.exe", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "deploys", "tgt_type": "tool", "tgt_name": "Cobalt Strike Beacon", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "incident_response_recommendations_provided_by", "tgt_type": "identity", "tgt_name": "FBI", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "campaign", "src_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "predicate": "incident_response_recommendations_provided_by", "tgt_type": "identity", "tgt_name": "CISA", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "identity", "src_name": "Symantec Threat Hunter Team", "predicate": "first_observed", "tgt_type": "campaign", "tgt_name": "Yanluowang ransomware-as-a-service (RaaS) operation", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "tool", "src_name": "AdFind", "predicate": "used_for_reconnaissance_of", "tgt_type": "tool", "tgt_name": "Active Directory", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "tool", "src_name": "PowerShell", "predicate": "drives_implant", "tgt_type": "malware", "tgt_name": "BazarLoader", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "tool", "src_name": "ConnectWise", "predicate": "used_for", "tgt_type": "tool", "tgt_name": "RDP", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "tool", "src_name": "SoftPerfect Network Scanner", "predicate": "used_for_lateral_movement", "tgt_type": "tool", "tgt_name": "Active Directory", "source_chunks": ["BLOG-16::ch0"]}
+{"src_type": "tool", "src_name": "Cobalt Strike Beacon", "predicate": "part_of", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-16::ch0"]}

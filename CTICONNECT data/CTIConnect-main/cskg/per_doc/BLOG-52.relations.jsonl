@@ -1,0 +1,12 @@
+{"src_type": "identity", "src_name": "Microsoft Incident Response", "predicate": "uncovered", "tgt_type": "malware", "tgt_name": "StilachiRAT", "source_chunks": ["BLOG-52::ch0"]}
+{"src_type": "malware", "src_name": "StilachiRAT", "predicate": "uses_module", "tgt_type": "malware", "tgt_name": "WWStartupCtrl64.dll", "source_chunks": ["BLOG-52::ch0"]}
+{"src_type": "malware", "src_name": "StilachiRAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Chrome cryptocurrency wallet extensions", "source_chunks": ["BLOG-52::ch0"]}
+{"src_type": "malware", "src_name": "StilachiRAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "MetaMask", "source_chunks": ["BLOG-52::ch0"]}
+{"src_type": "malware", "src_name": "StilachiRAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Trust Wallet", "source_chunks": ["BLOG-52::ch0"]}
+{"src_type": "malware", "src_name": "StilachiRAT", "predicate": "targets", "tgt_type": "identity", "tgt_name": "TronLink", "source_chunks": ["BLOG-52::ch0"]}
+{"src_type": "malware", "src_name": "StilachiRAT", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Windows DPAPI", "source_chunks": ["BLOG-52::ch0"]}
+{"src_type": "malware", "src_name": "StilachiRAT", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "app.95560.cc", "source_chunks": ["BLOG-52::ch0"]}
+{"src_type": "malware", "src_name": "StilachiRAT", "predicate": "communicates_with", "tgt_type": "indicator", "tgt_name": "194.195.89.47", "source_chunks": ["BLOG-52::ch0"]}
+{"src_type": "malware", "src_name": "StilachiRAT", "predicate": "checks_for", "tgt_type": "tool", "tgt_name": "tcpview.exe", "source_chunks": ["BLOG-52::ch0"]}
+{"src_type": "malware", "src_name": "WWStartupCtrl64.dll", "predicate": "queries_via", "tgt_type": "tool", "tgt_name": "WMI", "source_chunks": ["BLOG-52::ch0"]}
+{"src_type": "malware", "src_name": "WWStartupCtrl64.dll", "predicate": "queries_via", "tgt_type": "tool", "tgt_name": "Web-Based Enterprise Management", "source_chunks": ["BLOG-52::ch0"]}

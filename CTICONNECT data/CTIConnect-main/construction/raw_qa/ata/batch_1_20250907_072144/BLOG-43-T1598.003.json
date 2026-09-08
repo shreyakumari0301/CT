@@ -1,0 +1,7 @@
+{
+  "question": "I recently read in a security blog: \"In early 2021, APT35 compromised a website affiliated with a UK university to host a phishing kit. Attackers sent email messages with links to this website to harvest credentials for platforms such as Gmail, Hotmail, and Yahoo. Users were instructed to activate an invitation to a (fake) webinar by logging in. The phishing kit will also ask for second-factor authentication codes sent to devices.\" Please provide: 1) the MITRE ATT&CK technique that maps to this behavior, 2) an explanation of how this behavior aligns with that technique, and 3) which operating systems (if applicable) or platforms are affected as per the x_mitre_platforms information.",
+  "answer": "1) T1598.003 - Spearphishing Link. 2) Mapping Explanation: The attack involved sending phishing emails containing links to a compromised website hosting a phishing kit, which is characteristic of spearphishing via links; attackers lure victims into clicking on a link that directs them to a fraudulent login page, thereby harvesting credentials. 3) Affected Platforms: PRE.",
+  "llm_timing": {
+    "api_call_seconds": 4.1937
+  }
+}

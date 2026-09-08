@@ -1,0 +1,24 @@
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "hospitals", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "911 dispatch centers", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "EMS", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "law enforcement", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "U.S.", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "targets", "tgt_type": "identity", "tgt_name": "Ireland", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "gains_initial_access_via", "tgt_type": "attack_pattern", "tgt_name": "Spearphishing Attachment", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "gains_initial_access_via", "tgt_type": "attack_pattern", "tgt_name": "Exploit Public-Facing Application", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "Cobalt Strike", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "tool", "tgt_name": "PowerShell", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "File and Directory Discovery", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Network Share Discovery", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "SMB/Windows Admin Shares", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "DLL Injection", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Obfuscated Files or Information", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "uses", "tgt_type": "attack_pattern", "tgt_name": "Deobfuscate/Decode Files or Information", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Data Encrypted for Impact", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "malware", "src_name": "Conti", "predicate": "performs", "tgt_type": "attack_pattern", "tgt_name": "Inhibit System Recovery", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "identity", "src_name": "FBI", "predicate": "links_to_attacks_by", "tgt_type": "malware", "tgt_name": "Conti", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "identity", "src_name": "WildFire", "predicate": "mitigates", "tgt_type": "malware", "tgt_name": "Conti", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "identity", "src_name": "Cortex XDR", "predicate": "mitigates", "tgt_type": "malware", "tgt_name": "Conti", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "identity", "src_name": "Cortex XSOAR", "predicate": "mitigates", "tgt_type": "malware", "tgt_name": "Conti", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "publishes_iocs_via", "tgt_type": "identity", "tgt_name": "GitHub", "source_chunks": ["BLOG-75::ch0"]}
+{"src_type": "identity", "src_name": "Unit 42", "predicate": "publishes_iocs_via", "tgt_type": "identity", "tgt_name": "TAXII", "source_chunks": ["BLOG-75::ch0"]}
