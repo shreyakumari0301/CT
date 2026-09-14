@@ -1,3 +1,46 @@
 cta_env/
 cti_env/
+.venv/
+.venv-graphrag/
+.venv-selfrag/
+models/
+tools/llama.cpp/
 .env
+!.env.example
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+.vscode/
+=1.40
+graphrag_cti/.env
+graphrag_cti/output/
+graphrag_cti/cache/
+graphrag_cti/logs/
+graphrag_cti/input/
+graphrag_cti/edge_index/
+
+# Eval dumps / logs (keep local; do not push)
+eval_results/
+tcar/eval_results/
+**/worker_*_console*.log
+**/*_console_forever.log
+**/PAUSE_*.flag
+**/SKIP_*.flag
+**/SKIP_BLOCKED.md
+**/WORKER_STATE_*.json
+**/STAGE_STATE.json
+
+# Local scratch / agent helper scripts
+tcar/eval/controlled_benchmark/_*.sh
+tcar/eval/controlled_benchmark/_*.py
+
+# local GPU pack (optional)
+tcar/eval_results/_gpu_friend_bundle/
+tcar/eval_results/logs/*.nohup.out
+*.bak_*
+
+# Large local backups
+vector_dbs/**/*_backup*/
+vector_dbs/**/*leaky*
