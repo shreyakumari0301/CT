@@ -31,16 +31,22 @@ tcar/eval_results/
 **/SKIP_BLOCKED.md
 **/WORKER_STATE_*.json
 **/STAGE_STATE.json
+*.bak_*
+*.nohup.out
+
+# GPU / friend-machine bootstrap (removed from tree)
+run_on_gpu.sh
+**/pack_gpu_friend_artifacts.sh
+tcar/eval_results/_gpu_friend_bundle/
 
 # Local scratch / agent helper scripts
 tcar/eval/controlled_benchmark/_*.sh
 tcar/eval/controlled_benchmark/_*.py
+tcar/eval/_*.py
+tcar/eval/_*.sh
 
-# local GPU pack (optional)
-tcar/eval_results/_gpu_friend_bundle/
-tcar/eval_results/logs/*.nohup.out
-*.bak_*
-
-# Large local backups
+# Large local data / backups (do not push)
+CTICONNECT data/
 vector_dbs/**/*_backup*/
 vector_dbs/**/*leaky*
+*.pdf
