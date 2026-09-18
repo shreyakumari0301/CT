@@ -807,9 +807,9 @@ does not attribute those changes to retrieval alone.
 The 50-item TAA evaluation is a negative result for the current specialist.
 Using the same parser and alias policy for every system, CTA-RAG obtains
 25/50 benchmark-compatible matches (50.0\%) and 23/50 strict canonical
-matches (46.0\%). TAdaRAG is highest at 36/50, followed by Unified RAG,
-Self-Critique RAG, and the local GraphRAG adaptation at 35/50, while
-Adaptive-RAG reaches 34/50 and Closed Book 23/50. Thus the specialist
+matches (46.0\%). GraphRAG-local is highest at 37/50 benchmark-compatible
+matches, followed by TAdaRAG at 36/50 and Unified RAG and Self-Critique RAG
+at 35/50; Adaptive-RAG reaches 34/50 and Closed Book 23/50. Thus the specialist
 advantage observed on RCM, VSP, and ATE does not extend to attribution.
 
 The saved retrieval traces identify candidate generation as the principal
@@ -827,8 +827,8 @@ not an end-to-end TAA score.
 The baseline audit also constrains interpretation. Unified and local GraphRAG
 have identical prompt-hash and evidence-size traces on all 50 items and differ
 on only one prediction in the earlier TAA reproduction, so that reproduction
-is not independent GraphRAG evidence. The corrected ATA GraphRAG-local run is
-reported separately below.
+is not independent evidence for the upstream GraphRAG method. The corrected
+GraphRAG-local end-to-end ATA run is reported separately below.
 Self-Critique RAG is somewhat distinct, but changes only a small subset of
 items. The controlled CTA-RAG score therefore remains 25/50, and any
 graph-enhanced result must be validated on a new held-out attribution set
@@ -886,10 +886,11 @@ GraphRAG-local & \textbf{79/160 (49.38\%)} & 49.38\% & 49.38\% & 0/0 \\
 \end{tabular}
 \end{table*}
 
-GraphRAG-local is the strongest ATA result by four items over CTA-RAG, but
-the implementation remains a local adaptation rather than a full upstream
-GraphRAG reproduction. The ATA result is an end-to-end GPT evaluation; in
-contrast, the TAA graph audit is offline and uses no GPT calls.
+GraphRAG-local is the strongest ATA result by four items over CTA-RAG. This is
+an end-to-end GPT evaluation using the corrected local adaptation, rather than
+a full reproduction of the upstream GraphRAG checkpoint. The separate TAA
+candidate-recall audit is retrieval-only and does not replace this
+end-to-end GraphRAG result.
 
 \subsection{External transfer and operational reliability}\label{sec:transfer}
 
