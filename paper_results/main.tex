@@ -143,71 +143,236 @@ Two design decisions deserve justification. First, the label space has five elem
 Second, $\hat{\tau}$ is discrete and single-valued. We deliberately do not compute continuous cognitive-demand features at inference and blend pipelines, because the downstream scorers accept mutually exclusive artefacts: a letter, an identifier, a vector, a set, a name. A soft mixture over incompatible contracts has no valid projection into any of them. Cognitive structure therefore enters at design time, shaping each module's index, prompt, and parser according to the reasoning role it serves \citep{newell1972human,anderson1983architecture}, and enters at inference only through a hard selection.
 
 Figure~\ref{fig:arch} shows the resulting flow: one routing decision, one pipeline, one generation.
-
 \begin{figure*}[t]
 \centering
+
 \resizebox{\textwidth}{!}{%
 \begin{tikzpicture}[
-    font=\scriptsize,
     >=Stealth,
-    head/.style={draw=black!55, rounded corners=2pt, minimum height=0.6cm,
-      text width=2.3cm, align=center, font=\scriptsize\bfseries},
-    step/.style={draw=black!45, rounded corners=2pt, minimum height=0.6cm,
-      text width=2.3cm, align=center, fill=white},
-    arr/.style={-{Stealth[length=1.5mm]}, thick},
-    darr/.style={-{Stealth[length=1.5mm]}, thick, dashed, gray!60}
+    font=\scriptsize,
+    box/.style={
+        draw=black!55,
+        rounded corners=3pt,
+        align=center,
+        minimum height=0.9cm
+    },
+    module/.style={
+        box,
+        text width=2.35cm,
+        font=\scriptsize\bfseries
+    },
+    stage/.style={
+        box,
+        text width=2.35cm,
+        minimum height=0.78cm,
+        fill=white
+    },
+    arr/.style={
+        -{Stealth[length=1.6mm]},
+        thick,
+        draw=black!65
+    },
+    route/.style={
+        -{Stealth[length=1.6mm]},
+        thick,
+        dashed,
+        draw=gray!65
+    }
 ]
-\node[draw=blue!70!black, fill=blue!10, rounded corners, text width=3.0cm,
-  align=center, minimum height=0.75cm, font=\scriptsize\bfseries]
-  (query) at (0,0) {Unlabelled analyst query\\instruction + content};
-\node[draw=orange!70!black, fill=orange!15, rounded corners, text width=3.2cm,
-  align=center, minimum height=0.75cm, font=\scriptsize\bfseries,
-  right=0.8cm of query] (router)
-  {Cascade router\\regex $\rightarrow$ classifier $\rightarrow$ override};
+
+% --------------------------------------------------
+% Query and router
+% --------------------------------------------------
+
+\node[
+    box,
+    fill=blue!12,
+    text width=3.2cm,
+    font=\scriptsize\bfseries
+] (query) at (-2.3,0)
+{Unlabelled Analyst Query\\Instruction + Content};
+
+\node[
+    box,
+    fill=orange!18,
+    text width=3.7cm,
+    font=\scriptsize\bfseries
+] (router) at (2.3,0)
+{Cascade Router\\
+Regex $\rightarrow$ Classifier $\rightarrow$ Override};
+
 \draw[arr] (query) -- (router);
 
-\node[head, fill=green!15] (m0) at (-6.0,-1.6) {Memorization\\CTI-MCQ};
-\node[head, fill=cyan!15] (u0) at (-3.0,-1.6) {Understanding\\CTI-RCM};
-\node[head, fill=violet!15] (p0) at (0,-1.6) {Problem-solving\\CTI-VSP};
-\node[head, fill=purple!15] (a0) at (3.0,-1.6) {Reasoning-ATE\\CTI-ATE};
-\node[head, fill=magenta!15] (t0) at (6.0,-1.6) {Reasoning-TAA\\CTI-TAA};
-\coordinate (junction) at ($(router.south)+(0,-0.45)$);
-\draw[arr] (router.south) -- (junction);
-\draw[darr] (junction) -| (m0.north);
-\draw[darr] (junction) -| (u0.north);
-\draw[arr]  (junction) -| (p0.north);
-\draw[darr] (junction) -| (a0.north);
-\draw[darr] (junction) -| (t0.north);
+\node[
+    font=\tiny,
+    text=gray!70
+] at (2.3,-0.65)
+{select exactly one specialist before retrieval};
 
-\node[step, below=0.15cm of m0] (m1) {Web CTI / ATT\&CK\\top-$k=5$ cosine};
-\node[step, fill=green!6, below=0.10cm of m1] (m2) {Direct context\\letter-only prompt};
-\node[step, fill=purple!7, below=0.10cm of m2] (m3) {A--D choice\\Accuracy};
-\draw[arr] (m0)--(m1)--(m2)--(m3);
-\node[step, below=0.15cm of u0] (u1) {CTI KB\\top-$k=3$};
-\node[step, fill=green!6, below=0.10cm of u1] (u2) {Taxonomy-guided\\JSON prompt};
-\node[step, fill=purple!7, below=0.10cm of u2] (u3) {CWE identifier\\Exact match};
-\draw[arr] (u0)--(u1)--(u2)--(u3);
-\node[step, below=0.15cm of p0] (p1) {Sanitized CVE analogues\\top-$k=3$};
-\node[step, fill=green!6, below=0.10cm of p1] (p2) {Rule-guided\\CVSS prompt};
-\node[step, fill=purple!7, below=0.10cm of p2] (p3) {CVSS:3.1 vector\\MAD};
-\draw[arr] (p0)--(p1)--(p2)--(p3);
-\node[step, below=0.15cm of a0] (a1) {ATT\&CK domain\\top-$k=5$};
-\node[step, fill=green!6, below=0.10cm of a1] (a2) {CoT + structured\\T-ID list};
-\node[step, fill=purple!7, below=0.10cm of a2] (a3) {Technique set\\F1};
-\draw[arr] (a0)--(a1)--(a2)--(a3);
-\node[step, below=0.15cm of t0] (t1) {Intrusion-set store\\enriched $k=3$};
-\node[step, fill=green!6, below=0.10cm of t1] (t2) {Clue inference\\+ attribution};
-\node[step, fill=purple!7, below=0.10cm of t2] (t3) {Actor / family\\Correct / plausible};
-\draw[arr] (t0)--(t1)--(t2)--(t3);
+% --------------------------------------------------
+% Specialist modules
+% --------------------------------------------------
+
+\node[module,fill=green!15]
+(mcq) at (-7.5,-2.0)
+{Memorization\\CTI-MCQ};
+
+\node[module,fill=cyan!15]
+(rcm) at (-4.5,-2.0)
+{Understanding\\CTI-RCM};
+
+\node[module,fill=violet!15]
+(vsp) at (-1.5,-2.0)
+{Problem-Solving\\CTI-VSP};
+
+\node[module,fill=purple!15]
+(ate) at (1.5,-2.0)
+{Reasoning\\CTI-ATE};
+
+\node[module,fill=orange!12]
+(ata) at (4.5,-2.0)
+{Reasoning\\CTI-ATA};
+
+\node[module,fill=magenta!15]
+(taa) at (7.5,-2.0)
+{Reasoning\\CTI-TAA};
+
+% --------------------------------------------------
+% Clean router bus
+% --------------------------------------------------
+
+\coordinate (busTop) at ($(router.south)+(0,-0.42)$);
+\coordinate (busLeft) at (-7.5,-1.22);
+\coordinate (busRight) at (7.5,-1.22);
+
+\draw[arr] (router.south) -- (busTop);
+\draw[gray!65,thick] (busLeft) -- (busRight);
+
+\foreach \n in {mcq,rcm,vsp,ate,ata,taa}{
+    \draw[route] (\n.north |- busLeft) -- (\n.north);
+}
+
+% connect router to horizontal bus
+\draw[gray!65,thick] (busTop) -- (2.3,-1.22);
+
+% --------------------------------------------------
+% MCQ
+% --------------------------------------------------
+
+\node[stage,below=0.18cm of mcq]
+(mcq1)
+{Web CTI / ATT\&CK\\Top-$k=5$};
+
+\node[stage,fill=green!6,below=0.10cm of mcq1]
+(mcq2)
+{Direct Context\\Letter-Only Prompt};
+
+\node[stage,fill=yellow!10,below=0.10cm of mcq2]
+(mcq3)
+{A--D Choice\\Accuracy};
+
+\draw[arr] (mcq)--(mcq1)--(mcq2)--(mcq3);
+
+% --------------------------------------------------
+% RCM
+% --------------------------------------------------
+
+\node[stage,below=0.18cm of rcm]
+(rcm1)
+{CTI Knowledge Base\\Top-$k=3$};
+
+\node[stage,fill=green!6,below=0.10cm of rcm1]
+(rcm2)
+{Taxonomy-Guided\\JSON Prompt};
+
+\node[stage,fill=yellow!10,below=0.10cm of rcm2]
+(rcm3)
+{CWE Identifier\\Exact Match};
+
+\draw[arr] (rcm)--(rcm1)--(rcm2)--(rcm3);
+
+% --------------------------------------------------
+% VSP
+% --------------------------------------------------
+
+\node[stage,below=0.18cm of vsp]
+(vsp1)
+{Sanitized CVE\\Analogues, $k=3$};
+
+\node[stage,fill=green!6,below=0.10cm of vsp1]
+(vsp2)
+{Rule-Guided\\CVSS Prompt};
+
+\node[stage,fill=yellow!10,below=0.10cm of vsp2]
+(vsp3)
+{CVSS:3.1 Vector\\MAD};
+
+\draw[arr] (vsp)--(vsp1)--(vsp2)--(vsp3);
+
+% --------------------------------------------------
+% ATE
+% --------------------------------------------------
+
+\node[stage,below=0.18cm of ate]
+(ate1)
+{ATT\&CK Domain\\Top-$k=5$};
+
+\node[stage,fill=green!6,below=0.10cm of ate1]
+(ate2)
+{CoT + Structured\\T-ID Prompt};
+
+\node[stage,fill=yellow!10,below=0.10cm of ate2]
+(ate3)
+{Technique Set\\F1};
+
+\draw[arr] (ate)--(ate1)--(ate2)--(ate3);
+
+% --------------------------------------------------
+% ATA
+% --------------------------------------------------
+
+\node[stage,below=0.18cm of ata]
+(ata1)
+{Hybrid ATT\&CK Retrieval\\RRF Top-$k=5$};
+
+\node[stage,fill=green!6,below=0.10cm of ata1]
+(ata2)
+{Technique Attribution\\Smallest Supported Set};
+
+\node[stage,fill=yellow!10,below=0.10cm of ata2]
+(ata3)
+{ATT\&CK ID Set\\Exact Set / F1};
+
+\draw[arr] (ata)--(ata1)--(ata2)--(ata3);
+
+% --------------------------------------------------
+% TAA
+% --------------------------------------------------
+
+\node[stage,below=0.18cm of taa]
+(taa1)
+{Intrusion-Set Store\\Enriched $k=3$};
+
+\node[stage,fill=green!6,below=0.10cm of taa1]
+(taa2)
+{Clue Inference\\+ Attribution};
+
+\node[stage,fill=yellow!10,below=0.10cm of taa2]
+(taa3)
+{Actor / Family\\Correct / Plausible};
+
+\draw[arr] (taa)--(taa1)--(taa2)--(taa3);
+
 \end{tikzpicture}%
 }
-\caption{\textbf{CTA-RAG architecture.} A cascade router selects one of five
-schema-specific pipelines before retrieval. Each specialist uses task-matched
-evidence, prompting, decoding, output parsing, and evaluation. Only the selected
-pipeline executes for a query.}
-\label{fig:arch}
-\end{figure*}
 
+\caption{\textbf{CTA-RAG architecture.}
+A cascade router selects one of six schema-specific pipelines before retrieval.
+Each specialist uses task-matched evidence, prompting, decoding, output parsing,
+and evaluation. Only the selected pipeline executes for a query.}
+\label{fig:arch}
+
+\end{figure*}
 \subsection{The cascade router}\label{sec:router}
 
 The router observes only the concatenated instruction and content. It never sees gold answers, oracle labels, or file names, and it returns a label from Eq.~\eqref{eq:router-space} and nothing else. It is a short-circuit cascade of three stages. Stage~1 applies ordered regular-expression probes and, on the first match, returns immediately with no model call and no override. If no probe fires, Stage~2 invokes a light classifier constrained to at most ten output tokens, with no documents in context. Stage~3 applies conservative post-overrides when a dominant schema cue contradicts the classifier, for example forcing \texttt{memorization} when explicit A--D options are present. Invalid labels default to \texttt{understanding}.
@@ -423,57 +588,276 @@ no-retrieval run; the remaining baseline names describe the mechanisms
 implemented under the controlled protocol.
 \end{table*}
 
-Figure~\ref{fig:current-results} visualizes the current seven-system comparison on separate metric axes.
+Figure~\ref{fig:current-results} summarizes the seven-system comparison across the four CTIBench tasks.
+
 \begin{figure*}[t]
 \centering
+
 \begin{tikzpicture}
+
 \begin{groupplot}[
- group style={group size=2 by 2,horizontal sep=1.7cm,vertical sep=1.25cm},
- width=0.43\textwidth,height=5.1cm,
- xbar,bar width=7pt,
- ytick={1,2,3,4,5,6,7},
- yticklabels={CB,Unified,Self,Entity,Adaptive,Dual,CTA},
- ymin=0.4,ymax=7.6,y dir=reverse,
- tick label style={font=\scriptsize},
- title style={font=\small},label style={font=\scriptsize},
- xmajorgrids=true,grid style={gray!20},axis lines*=left,
- xmin=0,point meta=x,
- nodes near coords,
- every node near coord/.append style={font=\tiny,/pgf/number format/fixed,/pgf/number format/precision=2},
+group style={
+    group size=2 by 2,
+    horizontal sep=1.7cm,
+    vertical sep=1.8cm
+},
+width=0.42\textwidth,
+height=4.5cm,
+ytick={1,2,3,4,5,6,7},
+ymin=0.5,
+ymax=7.5,
+y dir=reverse,
+tick label style={font=\scriptsize},
+title style={font=\small\bfseries},
+label style={font=\scriptsize},
+xmajorgrids=true,
+grid style={gray!15},
+axis lines*=left,
+clip=false
 ]
-\nextgroupplot[title={MCQ: accuracy},xlabel={Accuracy (\%)},xmax=80]
-\addplot[fill=gray!45,draw=gray!65] coordinates {(71,1) (73.92,2) (74,3) (74.16,4) (75.48,5) (74.48,6)};
-\addplot[fill=teal!65,draw=teal!80!black] coordinates {(74.84,7)};
-\nextgroupplot[title={RCM: accuracy},xlabel={Accuracy (\%)},xmax=80]
-\addplot[fill=gray!45,draw=gray!65] coordinates {(68.9,1) (68.7,2) (69.4,3) (68.8,4) (69.5,5) (69.2,6)};
-\addplot[fill=teal!65,draw=teal!80!black] coordinates {(73.4,7)};
-\nextgroupplot[title={VSP: severity error},xlabel={MAD (lower is better)},xmax=1.6]
-\addplot[fill=gray!45,draw=gray!65] coordinates {(1.3302,1) (1.2638,2) (1.2531,3) (1.3043,4) (1.217,5) (1.3297,6)};
-\addplot[fill=teal!65,draw=teal!80!black] coordinates {(1.099,7)};
-\nextgroupplot[title={ATE: technique extraction},xlabel={Mean per-instance F1},xmax=1.12]
-\addplot[fill=gray!45,draw=gray!65] coordinates {(0.4149,1) (0.9167,2) (0.9178,3) (0.9178,4) (0.9133,5) (0.9158,6)};
-\addplot[fill=teal!65,draw=teal!80!black] coordinates {(0.9554,7)};
+
+% ==================================================
+% MCQ
+% ==================================================
+
+\nextgroupplot[
+title={MCQ Accuracy},
+xlabel={Accuracy (\%)},
+xmin=68,
+xmax=78,
+yticklabels={
+Closed Book,
+Unified,
+Self-Critique,
+Entity-Guided,
+Adaptive,
+Dual-Query,
+CTA-RAG
+}
+]
+
+% baseline guide lines
+\addplot[gray!45,thin] coordinates {(68,1) (71.00,1)};
+\addplot[gray!45,thin] coordinates {(68,2) (73.92,2)};
+\addplot[gray!45,thin] coordinates {(68,3) (74.00,3)};
+\addplot[gray!45,thin] coordinates {(68,4) (74.16,4)};
+\addplot[gray!45,thin] coordinates {(68,5) (75.48,5)};
+\addplot[gray!45,thin] coordinates {(68,6) (74.48,6)};
+\addplot[teal!70!black,thick] coordinates {(68,7) (74.84,7)};
+
+% baseline points
+\addplot[
+only marks,
+mark=*,
+mark size=2.2pt,
+gray!65
+] coordinates {
+(71.00,1)
+(73.92,2)
+(74.00,3)
+(74.16,4)
+(75.48,5)
+(74.48,6)
+};
+
+% CTA point
+\addplot[
+only marks,
+mark=*,
+mark size=3.2pt,
+teal!80!black
+] coordinates {
+(74.84,7)
+};
+
+% labels
+\node[font=\tiny,anchor=west] at (axis cs:71.00,1) {71.00};
+\node[font=\tiny,anchor=west] at (axis cs:73.92,2) {73.92};
+\node[font=\tiny,anchor=west] at (axis cs:74.00,3) {74.00};
+\node[font=\tiny,anchor=west] at (axis cs:74.16,4) {74.16};
+\node[font=\tiny,anchor=west] at (axis cs:75.48,5) {75.48};
+\node[font=\tiny,anchor=west] at (axis cs:74.48,6) {74.48};
+\node[font=\tiny\bfseries,text=teal!80!black,anchor=west] at (axis cs:74.84,7) {74.84};
+
+
+% ==================================================
+% RCM
+% ==================================================
+
+\nextgroupplot[
+title={RCM Accuracy},
+xlabel={Accuracy (\%)},
+xmin=66,
+xmax=76,
+yticklabels={}
+]
+
+\addplot[gray!45,thin] coordinates {(66,1) (68.90,1)};
+\addplot[gray!45,thin] coordinates {(66,2) (68.70,2)};
+\addplot[gray!45,thin] coordinates {(66,3) (69.40,3)};
+\addplot[gray!45,thin] coordinates {(66,4) (68.80,4)};
+\addplot[gray!45,thin] coordinates {(66,5) (69.50,5)};
+\addplot[gray!45,thin] coordinates {(66,6) (69.20,6)};
+\addplot[teal!70!black,thick] coordinates {(66,7) (73.40,7)};
+
+\addplot[
+only marks,
+mark=*,
+mark size=2.2pt,
+gray!65
+] coordinates {
+(68.90,1)
+(68.70,2)
+(69.40,3)
+(68.80,4)
+(69.50,5)
+(69.20,6)
+};
+
+\addplot[
+only marks,
+mark=*,
+mark size=3.2pt,
+teal!80!black
+] coordinates {
+(73.40,7)
+};
+
+\node[font=\tiny,anchor=west] at (axis cs:68.90,1) {68.90};
+\node[font=\tiny,anchor=west] at (axis cs:68.70,2) {68.70};
+\node[font=\tiny,anchor=west] at (axis cs:69.40,3) {69.40};
+\node[font=\tiny,anchor=west] at (axis cs:68.80,4) {68.80};
+\node[font=\tiny,anchor=west] at (axis cs:69.50,5) {69.50};
+\node[font=\tiny,anchor=west] at (axis cs:69.20,6) {69.20};
+\node[font=\tiny\bfseries,text=teal!80!black,anchor=west] at (axis cs:73.40,7) {73.40};
+
+
+% ==================================================
+% VSP
+% ==================================================
+
+\nextgroupplot[
+title={VSP Severity Error},
+xlabel={MAD $\downarrow$},
+xmin=0.88,
+xmax=1.50,
+yticklabels={
+Closed Book,
+Unified,
+Self-Critique,
+Entity-Guided,
+Adaptive,
+Dual-Query,
+CTA-RAG
+}
+]
+
+\addplot[gray!45,thin] coordinates {(0.88,1) (1.3302,1)};
+\addplot[gray!45,thin] coordinates {(0.88,2) (1.2638,2)};
+\addplot[gray!45,thin] coordinates {(0.88,3) (1.2531,3)};
+\addplot[gray!45,thin] coordinates {(0.88,4) (1.3043,4)};
+\addplot[gray!45,thin] coordinates {(0.88,5) (1.2170,5)};
+\addplot[gray!45,thin] coordinates {(0.88,6) (1.3297,6)};
+\addplot[teal!70!black,thick] coordinates {(0.88,7) (1.0990,7)};
+
+\addplot[
+only marks,
+mark=*,
+mark size=2.2pt,
+gray!65
+] coordinates {
+(1.3302,1)
+(1.2638,2)
+(1.2531,3)
+(1.3043,4)
+(1.2170,5)
+(1.3297,6)
+};
+
+\addplot[
+only marks,
+mark=*,
+mark size=3.2pt,
+teal!80!black
+] coordinates {
+(1.0990,7)
+};
+
+\node[font=\tiny,anchor=west] at (axis cs:1.3302,1) {1.33};
+\node[font=\tiny,anchor=west] at (axis cs:1.2638,2) {1.26};
+\node[font=\tiny,anchor=west] at (axis cs:1.2531,3) {1.25};
+\node[font=\tiny,anchor=west] at (axis cs:1.3043,4) {1.30};
+\node[font=\tiny,anchor=west] at (axis cs:1.2170,5) {1.22};
+\node[font=\tiny,anchor=west] at (axis cs:1.3297,6) {1.33};
+\node[font=\tiny\bfseries,text=teal!80!black,anchor=west] at (axis cs:1.0990,7) {1.10};
+
+
+% ==================================================
+% ATE
+% ==================================================
+
+\nextgroupplot[
+title={ATE Technique Extraction},
+xlabel={Mean per-instance F1},
+xmin=0.35,
+xmax=1.05,
+yticklabels={}
+]
+
+\addplot[gray!45,thin] coordinates {(0.35,1) (0.4149,1)};
+\addplot[gray!45,thin] coordinates {(0.35,2) (0.9167,2)};
+\addplot[gray!45,thin] coordinates {(0.35,3) (0.9178,3)};
+\addplot[gray!45,thin] coordinates {(0.35,4) (0.9178,4)};
+\addplot[gray!45,thin] coordinates {(0.35,5) (0.9133,5)};
+\addplot[gray!45,thin] coordinates {(0.35,6) (0.9158,6)};
+\addplot[teal!70!black,thick] coordinates {(0.35,7) (0.9554,7)};
+
+\addplot[
+only marks,
+mark=*,
+mark size=2.2pt,
+gray!65
+] coordinates {
+(0.4149,1)
+(0.9167,2)
+(0.9178,3)
+(0.9178,4)
+(0.9133,5)
+(0.9158,6)
+};
+
+\addplot[
+only marks,
+mark=*,
+mark size=3.2pt,
+teal!80!black
+] coordinates {
+(0.9554,7)
+};
+
+\node[font=\tiny,anchor=west] at (axis cs:0.4149,1) {0.41};
+\node[font=\tiny,anchor=west] at (axis cs:0.9167,2) {0.92};
+\node[font=\tiny,anchor=west] at (axis cs:0.9178,3) {0.92};
+\node[font=\tiny,anchor=west] at (axis cs:0.9178,4) {0.92};
+\node[font=\tiny,anchor=west] at (axis cs:0.9133,5) {0.91};
+\node[font=\tiny,anchor=west] at (axis cs:0.9158,6) {0.92};
+\node[font=\tiny\bfseries,text=teal!80!black,anchor=west] at (axis cs:0.9554,7) {0.96};
+
 \end{groupplot}
+
 \end{tikzpicture}
-\caption{Current controlled CTIBench results. Each panel uses its own metric scale; lower is better only for VSP. CB denotes Closed Book; Self, Entity, Adaptive, and Dual denote Self-Critique RAG, Entity-Guided Multi-Query RAG, Adaptive-RAG-adapted, and Dual-Query RAG. CTA-RAG is highlighted. Bars show point estimates, not statistical significance; paired inference is reported in Table~\ref{tab:paired-focus}.}
+
+\caption{
+\textbf{Controlled CTIBench comparison across seven systems.}
+Dots denote point estimates and horizontal stems aid comparison across systems.
+CTA-RAG is highlighted in teal. Higher values are better for MCQ, RCM,
+and ATE; lower values are better for VSP. Paired statistical comparisons
+are reported in Table~\ref{tab:paired-focus}.
+}
+
 \label{fig:current-results}
 \end{figure*}
-
-
-\paragraph{Paired statistical evidence.}
-CTA-RAG is compared with all six baselines across the four tasks, producing
-24 paired contrasts. Exact two-sided McNemar tests are used for MCQ and
-RCM, while paired label-swap tests are used for the mean VSP and ATE
-differences. Holm correction is applied jointly to all 24 tests. Pointwise
-95\% confidence intervals are calculated using 50,000 paired bootstrap
-resamples of the matched evaluation items.
-% Label-swap tests enumerate all
-% assignments when feasible and otherwise use 1,000,000 randomized assignments
-% with a plus-one correction. The complete statistical results are provided
-% in the appendix, while 
-Table~\ref{tab:paired-focus} presents the principal
-comparisons.
-
+    
 After multiplicity correction, CTA-RAG significantly outperforms Unified
 RAG on RCM ($p_{\mathrm{Holm}}=0.0213$) and VSP
 ($p_{\mathrm{Holm}}=0.0483$). The VSP result is close to the 0.05
@@ -513,51 +897,291 @@ MCQ and RCM effects are percentage points, VSP effects are reductions in
 MAD, and ATE effects are increases in F1. Holm correction covers all
 24 primary comparisons, including those omitted from this compact table.
 \end{table*}
-
 Figure~\ref{fig:paired-effects} shows the paired effect sizes and their uncertainty on task-specific scales.
+
 \begin{figure*}[t]
 \centering
-\begin{tikzpicture}
-\begin{groupplot}[
- group style={group size=2 by 2,horizontal sep=2cm,vertical sep=1.5cm},
- width=0.40\textwidth,height=4.5cm,
- ymin=0.5,ymax=3.5,
- ytick={1,2},yticklabels={Unified,Adaptive},
- tick label style={font=\scriptsize},label style={font=\scriptsize},title style={font=\small},
- xmajorgrids=true,grid style={gray!20},axis lines*=left,
-]
-\nextgroupplot[title={MCQ},xlabel={Accuracy difference (pp)},xmin=-3,xmax=3]
-\addplot[gray,dashed,forget plot] coordinates {(0,0.5) (0,3.5)};
-\addplot[teal!80!black,thick,mark=|] coordinates {(-0.48,1) (2.32,1)};
-\addplot[only marks,mark=*,teal!80!black] coordinates {(0.92,1)};
-\addplot[teal!80!black,thick,mark=|] coordinates {(-2.08,2) (0.76,2)};
-\addplot[only marks,mark=*,teal!80!black] coordinates {(-0.64,2)};
-\nextgroupplot[title={RCM},xlabel={Accuracy difference (pp)},xmin=-1,xmax=8]
-\addplot[gray,dashed,forget plot] coordinates {(0,0.5) (0,3.5)};
-\addplot[teal!80!black,thick,mark=|] coordinates {(2,1) (7.5,1)};
-\addplot[only marks,mark=*,teal!80!black] coordinates {(4.7,1)};
-\addplot[teal!80!black,thick,mark=|] coordinates {(1.2,2) (6.6,2)};
-\addplot[only marks,mark=*,teal!80!black] coordinates {(3.9,2)};
-\nextgroupplot[title={VSP},xlabel={Reduction in MAD},xmin=-0.03,xmax=0.3]
-\addplot[gray,dashed,forget plot] coordinates {(0,0.5) (0,3.5)};
-\addplot[teal!80!black,thick,mark=|] coordinates {(0.0552,1) (0.2717,1)};
-\addplot[only marks,mark=*,teal!80!black] coordinates {(0.1648,1)};
-\addplot[teal!80!black,thick,mark=|] coordinates {(0.0108,2) (0.2229,2)};
-\addplot[only marks,mark=*,teal!80!black] coordinates {(0.118,2)};
-\nextgroupplot[title={ATE},xlabel={Increase in F1},xmin=-0.01,xmax=0.09,ytick={1,2,3},yticklabels={Unified,Self,Entity}]
-\addplot[gray,dashed,forget plot] coordinates {(0,0.5) (0,3.5)};
-\addplot[teal!80!black,thick,mark=|] coordinates {(0.0007,1) (0.0766,1)};
-\addplot[only marks,mark=*,teal!80!black] coordinates {(0.0386,1)};
-\addplot[teal!80!black,thick,mark=|] coordinates {(-0.0003,2) (0.0753,2)};
-\addplot[only marks,mark=*,teal!80!black] coordinates {(0.0375,2)};
-\addplot[teal!80!black,thick,mark=|] coordinates {(-0.0003,3) (0.0753,3)};
-\addplot[only marks,mark=*,teal!80!black] coordinates {(0.0375,3)};
-\end{groupplot}
-\end{tikzpicture}
-\caption{CTA-RAG effects relative to selected baselines, with pointwise 95\% paired bootstrap intervals. Positive values favor CTA-RAG; the dashed line denotes no difference. Panels have different units and scales. Adaptive denotes Adaptive-RAG-adapted; Self and Entity denote the two tied strongest ATE retrieval baselines. These intervals are not multiplicity-adjusted: an interval excluding zero does not imply rejection after Holm correction across 24 tests (Table~\ref{tab:paired-focus}).}
-\label{fig:paired-effects}
-\end{figure*}
 
+\begin{tikzpicture}
+
+\begin{groupplot}[
+group style={
+    group size=2 by 2,
+    horizontal sep=2.0cm,
+    vertical sep=2.0cm
+},
+width=0.40\textwidth,
+height=4.3cm,
+ymin=0.5,
+ymax=2.5,
+ytick={1,2},
+tick label style={font=\scriptsize},
+label style={font=\scriptsize},
+title style={font=\small\bfseries},
+xmajorgrids=true,
+grid style={gray!20},
+axis lines*=left,
+clip=false
+]
+
+% ==================================================
+% MCQ
+% ==================================================
+
+\nextgroupplot[
+title={MCQ},
+xlabel={Accuracy difference (pp)},
+xmin=-3,
+xmax=3,
+yticklabels={Unified,Adaptive}
+]
+
+% zero reference
+\addplot[
+gray,
+dashed,
+forget plot
+] coordinates {
+(0,0.5)
+(0,2.5)
+};
+
+% Unified
+\addplot[
+teal!80!black,
+thick,
+mark=|
+] coordinates {
+(-0.48,1)
+(2.32,1)
+};
+
+\addplot[
+only marks,
+mark=*,
+mark size=2.5pt,
+teal!80!black
+] coordinates {
+(0.92,1)
+};
+
+% Adaptive
+\addplot[
+teal!80!black,
+thick,
+mark=|
+] coordinates {
+(-2.08,2)
+(0.76,2)
+};
+
+\addplot[
+only marks,
+mark=*,
+mark size=2.5pt,
+teal!80!black
+] coordinates {
+(-0.64,2)
+};
+
+
+% ==================================================
+% RCM
+% ==================================================
+
+\nextgroupplot[
+title={RCM},
+xlabel={Accuracy difference (pp)},
+xmin=-1,
+xmax=8,
+yticklabels={Unified,Adaptive}
+]
+
+\addplot[
+gray,
+dashed,
+forget plot
+] coordinates {
+(0,0.5)
+(0,2.5)
+};
+
+% Unified
+\addplot[
+teal!80!black,
+thick,
+mark=|
+] coordinates {
+(2.00,1)
+(7.50,1)
+};
+
+\addplot[
+only marks,
+mark=*,
+mark size=2.5pt,
+teal!80!black
+] coordinates {
+(4.70,1)
+};
+
+% Adaptive
+\addplot[
+teal!80!black,
+thick,
+mark=|
+] coordinates {
+(1.20,2)
+(6.60,2)
+};
+
+\addplot[
+only marks,
+mark=*,
+mark size=2.5pt,
+teal!80!black
+] coordinates {
+(3.90,2)
+};
+
+
+% ==================================================
+% VSP
+% ==================================================
+
+\nextgroupplot[
+title={VSP},
+xlabel={Reduction in MAD},
+xmin=-0.03,
+xmax=0.30,
+yticklabels={Unified,Adaptive}
+]
+
+\addplot[
+gray,
+dashed,
+forget plot
+] coordinates {
+(0,0.5)
+(0,2.5)
+};
+
+% Unified
+\addplot[
+teal!80!black,
+thick,
+mark=|
+] coordinates {
+(0.0552,1)
+(0.2717,1)
+};
+
+\addplot[
+only marks,
+mark=*,
+mark size=2.5pt,
+teal!80!black
+] coordinates {
+(0.1648,1)
+};
+
+% Adaptive
+\addplot[
+teal!80!black,
+thick,
+mark=|
+] coordinates {
+(0.0108,2)
+(0.2229,2)
+};
+
+\addplot[
+only marks,
+mark=*,
+mark size=2.5pt,
+teal!80!black
+] coordinates {
+(0.1180,2)
+};
+
+
+% ==================================================
+% ATE
+% ==================================================
+
+\nextgroupplot[
+title={ATE},
+xlabel={Increase in F1},
+xmin=-0.01,
+xmax=0.09,
+yticklabels={Unified,{Self / Entity}}
+]
+
+\addplot[
+gray,
+dashed,
+forget plot
+] coordinates {
+(0,0.5)
+(0,2.5)
+};
+
+% Unified
+\addplot[
+teal!80!black,
+thick,
+mark=|
+] coordinates {
+(0.0007,1)
+(0.0766,1)
+};
+
+\addplot[
+only marks,
+mark=*,
+mark size=2.5pt,
+teal!80!black
+] coordinates {
+(0.0386,1)
+};
+
+% Self-Critique and Entity-Guided are tied
+\addplot[
+teal!80!black,
+thick,
+mark=|
+] coordinates {
+(-0.0003,2)
+(0.0753,2)
+};
+
+\addplot[
+only marks,
+mark=*,
+mark size=2.5pt,
+teal!80!black
+] coordinates {
+(0.0375,2)
+};
+
+\end{groupplot}
+
+\end{tikzpicture}
+
+\caption{
+\textbf{Paired effects of CTA-RAG relative to selected retrieval baselines.}
+Points denote paired effect estimates and horizontal intervals show pointwise
+95\% bootstrap confidence intervals. Positive values favor CTA-RAG, and the
+dashed vertical line denotes no difference. Adaptive denotes
+Adaptive-RAG-adapted. Self-Critique RAG and Entity-Guided Multi-Query RAG
+have identical ATE estimates and are therefore shown as a single
+\emph{Self / Entity} row. Intervals are not multiplicity-adjusted; statistical
+inference after Holm correction is reported in Table~\ref{tab:paired-focus}.
+}
+
+\label{fig:paired-effects}
+
+\end{figure*}
 
 \paragraph{MCQ: shared retrieval remains competitive.}
 Adaptive-RAG-adapted achieves 75.48\% accuracy, compared with 74.84\% for
@@ -712,31 +1336,98 @@ denotes the mean reduction in error or increase in F1, rather than the
 difference between the improved and worsened item counts.
 \end{table*}
 
-Figure~\ref{fig:current-utility} shows the balance of improved and worsened predictions in the current paired analysis.
+Figure~\ref{fig:current-utility} shows the balance of improved and worsened
+predictions in the current paired analysis.
+
 \begin{figure*}[t]
 \centering
+
 \begin{tikzpicture}
 \begin{axis}[
- width=0.88\textwidth,height=6cm,
- ybar,bar width=8pt,
- xmin=0.4,xmax=8.6,ymin=0,ymax=105,
- xtick={1,2,3,4,5,6,7,8},
- xticklabels={MCQ U,MCQ CTA,RCM U,RCM CTA,VSP U,VSP CTA,ATE U,ATE CTA},
- x tick label style={rotate=35,anchor=east,font=\scriptsize},
- yticklabel style={font=\scriptsize},
- ylabel={Share of evaluated items (\%)},
- ymajorgrids=true,grid style={gray!20},axis lines*=left,
- legend style={at={(0.5,1.03)},anchor=south,legend columns=2,draw=none,font=\scriptsize}
+    width=0.94\textwidth,
+    height=6.3cm,
+    ybar,
+    bar width=8pt,
+    xmin=0.4,
+    xmax=8.6,
+    ymin=0,
+    ymax=105,
+    xtick={1,2,3,4,5,6,7,8},
+    xticklabels={
+        MCQ Unified RAG,
+        MCQ CTA-RAG,
+        RCM Unified RAG,
+        RCM CTA-RAG,
+        VSP Unified RAG,
+        VSP CTA-RAG,
+        ATE Unified RAG,
+        ATE CTA-RAG
+    },
+    x tick label style={
+        rotate=35,
+        anchor=east,
+        font=\scriptsize
+    },
+    yticklabel style={font=\scriptsize},
+    ylabel={Share of evaluated items (\%)},
+    ylabel style={font=\scriptsize},
+    ymajorgrids=true,
+    grid style={gray!20},
+    axis lines*=left,
+    legend style={
+        at={(0.5,1.03)},
+        anchor=south,
+        legend columns=2,
+        draw=none,
+        font=\scriptsize
+    }
 ]
-\addplot[fill=teal!60,draw=teal!80!black] coordinates {(1,5.96) (2,10.68) (3,3.8) (4,12.5) (5,39.1) (6,50) (7,90) (8,96.6667)};
-\addplot[fill=orange!65,draw=orange!80!black] coordinates {(1,3.04) (2,6.84) (3,4) (4,8) (5,34.1) (6,26.7) (7,6.6667) (8,0)};
+
+% Improved
+\addplot[
+    fill=teal!60,
+    draw=teal!80!black
+] coordinates {
+    (1,5.96)
+    (2,10.68)
+    (3,3.80)
+    (4,12.50)
+    (5,39.10)
+    (6,50.00)
+    (7,90.00)
+    (8,96.67)
+};
+
+% Worsened
+\addplot[
+    fill=orange!65,
+    draw=orange!80!black
+] coordinates {
+    (1,3.04)
+    (2,6.84)
+    (3,4.00)
+    (4,8.00)
+    (5,34.10)
+    (6,26.70)
+    (7,6.67)
+    (8,0.00)
+};
+
 \legend{Improved,Worsened}
+
 \end{axis}
 \end{tikzpicture}
-\caption{Paired changes relative to Closed Book, expressed as percentages of each task's full denominator. U denotes Unified RAG. Improvement means a newly correct answer for MCQ/RCM, lower error for VSP, or higher item F1 for ATE. Unchanged items are omitted. These are end-to-end system effects; the proportions alone do not measure the magnitude of score changes.}
+
+\caption{
+\textbf{Paired prediction changes relative to Closed Book.}
+Bars show the percentage of evaluated items whose predictions improve or
+worsen under Unified RAG and CTA-RAG. For MCQ and RCM, improvement denotes
+a newly correct answer; for VSP, lower item-level error; and for ATE, higher
+per-instance F1. Unchanged items are omitted.
+}
+
 \label{fig:current-utility}
 \end{figure*}
-
 
 \paragraph{MCQ and RCM show different retrieval behavior.}
 Unified RAG rescues 149 MCQ answers while damaging 76, resulting in
@@ -777,131 +1468,115 @@ metric difference by itself. VSP errors and ATE F1 changes vary in magnitude,
 so the average score also depends on how large each item-level change is.
 
 \paragraph{Illustrative prediction changes.}
-For the first ATE item, which describes 3PARA RAT, Closed Book predicts the
-four reference techniques together with \texttt{T1027} and \texttt{T1552},
-producing an F1 of 0.80. Unified RAG and CTA-RAG return the reference set
-and obtain an F1 of 1.00. The improvement therefore comes from greater
-precision rather than output parseability.
+The paired transitions illustrate both effects of retrieval. On the first
+ATE item, describing 3PARA RAT, Closed Book predicts the four reference
+techniques together with \texttt{T1027} and \texttt{T1552} (F1 $=0.80$),
+whereas Unified RAG and CTA-RAG recover the reference set exactly
+(F1 $=1.00$). Conversely, on RCM item 6, Closed Book correctly predicts
+\texttt{CWE-269}, while Unified RAG predicts \texttt{CWE-78} and CTA-RAG
+predicts \texttt{CWE-732}. Thus, retrieval can both remove unsupported
+predictions and introduce plausible but incorrect identifiers.
 
-Retrieval can also introduce valid but incorrect identifiers. On RCM item
-6, describing local privilege escalation in ZXCLOUD iRAI, Closed Book
-matches the reference label \texttt{CWE-269}. Unified RAG instead predicts
-\texttt{CWE-78}, while CTA-RAG predicts \texttt{CWE-732}. Both outputs
-are syntactically valid but incorrect under the benchmark's exact-label
-criterion. These examples illustrate the observed transition categories;
-they are not estimates of error prevalence and do not identify which
-retrieved passage caused each change.
+Across the four primary tasks, retrieval is most consistently beneficial
+for ATE and substantially reduces VSP error, while its effect on exact CWE
+mapping is less uniform. The paired analysis measures complete system
+behavior---including retrieval, prompting, routing, and output handling---
+and therefore does not attribute individual changes to retrieval alone.
 
-Overall, retrieval is most consistently useful for ATE and provides a
-substantial reduction in VSP error. Its effect is less reliable for exact
-CWE mapping: shared retrieval produces nearly equal numbers of RCM rescues
-and damages, whereas CTA-RAG shifts this balance toward beneficial changes.
-The paired analysis nevertheless measures the complete system, including
-retrieval, prompting, routing, and output handling. It therefore demonstrates
-when each architecture changes decisions beneficially or harmfully, but
-does not attribute those changes to retrieval alone.
-
-
-\subsection{Threat-actor attribution: candidate recall limits CTA-RAG}\label{sec:taa-results}
-
-The 50-item TAA evaluation is a negative result for the current specialist.
-Using the same parser and alias policy for every system, CTA-RAG obtains
-25/50 benchmark-compatible matches (50.0\%) and 23/50 strict canonical
-matches (46.0\%). GraphRAG-local is highest at 37/50 benchmark-compatible
-matches, followed by TAdaRAG at 36/50 and Unified RAG and Self-Critique RAG
-at 35/50; Adaptive-RAG reaches 34/50 and Closed Book 23/50. Thus the specialist
-advantage observed on RCM, VSP, and ATE does not extend to attribution.
-
-The saved retrieval traces identify candidate generation as the principal
-bottleneck. Among the 12 items solved by TAdaRAG but missed by CTA-RAG, the
-gold actor is absent from CTA's internal top-10 pool in nine cases, appears
-at ranks 4--10 in two, and is already in the top three in one. A revised
-comparison prompt can directly address only the last category; the dominant
-failure is that the correct actor is never shown to the generator. We therefore
-implemented a provenance-aware graph-inclusion retriever. Its offline 50-item
-candidate audit improves dense Recall@1/3/10 from 44/48/60\% to 46/52/68\%,
-and MRR@10 from 0.477 to 0.516. This is retrieval-only analysis with no GPT
-calls and is exploratory because the same items informed development; it is
-not an end-to-end TAA score.
-
-The baseline audit also constrains interpretation. Unified and local GraphRAG
-have identical prompt-hash and evidence-size traces on all 50 items and differ
-on only one prediction in the earlier TAA reproduction, so that reproduction
-is not independent evidence for the upstream GraphRAG method. The corrected
-GraphRAG-local end-to-end ATA run is reported separately below.
-Self-Critique RAG is somewhat distinct, but changes only a small subset of
-items. The controlled CTA-RAG score therefore remains 25/50, and any
-graph-enhanced result must be validated on a new held-out attribution set
-before replacing this primary comparison.
+\paragraph{Threat-actor attribution (TAA).}
+The 50-item CTIBench TAA evaluation is a negative result for the current
+CTA-RAG specialist. Using the same task instances, generation procedure,
+parser, alias handling, and scorer, CTA-RAG obtains 25/50
+benchmark-compatible matches (50.0\%) and 23/50 strict canonical matches
+(46.0\%). Entity-Guided Multi-Query RAG obtains the highest
+benchmark-compatible score at 37/50 (74.0\%), followed by TAdaRAG-adapted
+at 36/50 (72.0\%) and Unified RAG and Self-Critique RAG at 35/50 (70.0\%).
+The specialist advantage observed on RCM, VSP, and ATE therefore does not
+extend to threat-actor attribution.
 
 \begin{table*}[t]
 \centering
 \small
-\caption{Corrected 50-item CTIBench threat-actor attribution results. All
-systems use the same parser and alias normalization; strict identity is a
-sensitivity analysis. The local GraphRAG adaptation is reported for
-completeness but is not an independent reproduction.}
+\caption{End-to-end 50-item CTIBench threat-actor attribution results.
+All systems use the same parser and alias normalization.}
 \label{tab:taa-main}
 \begin{tabular}{@{}lcc@{}}
 \toprule
 System & Benchmark-compatible & Strict identity \\
 \midrule
-Closed Book & 23/50 (46.0\%) & 22/50 (44.0\%) \\
-Unified RAG & 35/50 (70.0\%) & 35/50 (70.0\%) \\
-Self-Critique RAG & 35/50 (70.0\%) & 35/50 (70.0\%) \\
-GraphRAG (local adaptation) & 37/50 (74.0\%) & 33/50 (66.0\%) \\
-Adaptive-RAG-adapted & 34/50 (68.0\%) & 34/50 (68.0\%) \\
-TAdaRAG-adapted & \textbf{36/50 (72.0\%)} & \textbf{36/50 (72.0\%)} \\
-CTA-RAG & 25/50 (50.0\%) & 23/50 (46.0\%) \\
+Closed Book                    & 23/50 (46.0\%) & 22/50 (44.0\%) \\
+Unified RAG                    & 35/50 (70.0\%) & 35/50 (70.0\%) \\
+Self-Critique RAG              & 35/50 (70.0\%) & 35/50 (70.0\%) \\
+Entity-Guided Multi-Query RAG  & \textbf{37/50 (74.0\%)} & 33/50 (66.0\%) \\
+Adaptive-RAG-adapted           & 34/50 (68.0\%) & 34/50 (68.0\%) \\
+TAdaRAG-adapted                & 36/50 (72.0\%) & \textbf{36/50 (72.0\%)} \\
+CTA-RAG                        & 25/50 (50.0\%) & 23/50 (46.0\%) \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
-\subsection{CTIConnect ATA comparison}\label{sec:ata-results}
+The saved traces identify candidate generation as the main CTA-RAG
+bottleneck. Among the 12 items solved by TAdaRAG but missed by CTA-RAG,
+the gold actor is absent from CTA-RAG's top-10 candidate pool in nine,
+appears at ranks 4--10 in two, and is already in the top three in only one.
+Thus, the dominant failure occurs before final generation: the correct
+actor is usually not presented to the model. This diagnosis motivates the
+provenance-aware candidate-inclusion retriever, but its post-hoc gains are
+not included in the reported CTA-RAG score and require validation on a
+new held-out set.
 
-The corrected 160-item CTIConnect ATA evaluation uses exact-set accuracy as
-the primary metric. Because each item has one gold identifier and the systems
-emit one identifier, mean instance F1, precision, recall, and exact-set
-accuracy coincide numerically here. The frozen configuration uses hybrid
-retrieval with RRF and sends the direct RRF top five candidates to GPT; the
-generic MS MARCO reranker is disabled.
+\paragraph{ATT\&CK technique attribution (ATA).}
+We also evaluate ATA on 160 CTIConnect items using the same end-to-end
+procedure. Each system retrieves evidence according to its configuration,
+generates an answer, and emits one ATT\&CK identifier. Because every item
+contains one gold identifier and each system predicts one identifier,
+exact-set accuracy, precision, recall, and mean per-instance F1 coincide
+numerically.
 
 \begin{table*}[t]
 \centering
 \small
-\caption{Corrected 160-item CTIConnect ATA results.}
+\caption{End-to-end 160-item CTIConnect ATT\&CK technique-attribution results.}
 \label{tab:ata-main}
 \begin{tabular}{@{}lcccc@{}}
 \toprule
 System & Exact set / F1 & Precision & Recall & API / parse failures \\
 \midrule
-Closed Book & 56/160 (35.00\%) & 35.00\% & 35.00\% & 0/0 \\
-Unified RAG & 73/160 (45.63\%) & 45.63\% & 45.63\% & 0/0 \\
-Self-Critique RAG & 75/160 (46.88\%) & 46.88\% & 46.88\% & 0/0 \\
-Adaptive-RAG-adapted & 70/160 (43.75\%) & 43.75\% & 43.75\% & 0/0 \\
-TAdaRAG-adapted & 75/160 (46.88\%) & 46.88\% & 46.88\% & 0/0 \\
-CTA-RAG & 75/160 (46.88\%) & 46.88\% & 46.88\% & 0/0 \\
-GraphRAG-local & \textbf{79/160 (49.38\%)} & 49.38\% & 49.38\% & 0/0 \\
+Closed Book                    & 56/160 (35.00\%) & 35.00\% & 35.00\% & 0/0 \\
+Unified RAG                    & 73/160 (45.63\%) & 45.63\% & 45.63\% & 0/0 \\
+Self-Critique RAG              & 75/160 (46.88\%) & 46.88\% & 46.88\% & 0/0 \\
+Adaptive-RAG-adapted           & 70/160 (43.75\%) & 43.75\% & 43.75\% & 0/0 \\
+TAdaRAG-adapted                & 75/160 (46.88\%) & 46.88\% & 46.88\% & 0/0 \\
+CTA-RAG                        & 75/160 (46.88\%) & 46.88\% & 46.88\% & 0/0 \\
+Entity-Guided Multi-Query RAG  & \textbf{79/160 (49.38\%)} &
+                                  \textbf{49.38\%} &
+                                  \textbf{49.38\%} & 0/0 \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
-GraphRAG-local is the strongest ATA result by four items over CTA-RAG. This is
-an end-to-end GPT evaluation using the corrected local adaptation, rather than
-a full reproduction of the upstream GraphRAG checkpoint. The separate TAA
-candidate-recall audit is retrieval-only and does not replace this
-end-to-end GraphRAG result.
+Entity-Guided Multi-Query RAG obtains the highest ATA point estimate at
+79/160 (49.38\%). CTA-RAG, Self-Critique RAG, and TAdaRAG-adapted each
+obtain 75/160 (46.88\%). This result reinforces the broader RQ3 finding:
+retrieval strategy can materially alter outcomes, but CTA-RAG does not
+dominate uniformly across attribution tasks.
 
-\subsection{External transfer and operational reliability}\label{sec:transfer}
+Overall, the RQ3 results show that retrieval can both rescue and damage
+individual predictions. CTA-RAG shifts this balance favorably on RCM, VSP,
+and ATE, but not on TAA or ATA, where candidate generation and retrieval
+quality remain limiting factors.
+    
+\subsection{External RCM transfer and operational reliability}\label{sec:transfer}
 
-The completed CTIConnect evaluation covers RCM: every system is evaluated
-on the same 290 item IDs and reference mappings. The task's identifier
-scorer accepts the dataset's declared alternative targets; with the
-single-primary-CWE outputs in these runs, per-item F1 is binary. All items,
-including invalid outputs, remain in the denominator. Table~\ref{tab:transfer}
-reports the resulting mean F1 and recorded parse validity. No completed
-CTIConnect technique-attribution predictions are available, so external
-transfer claims here are restricted to RCM.
+The external RCM evaluation covers 290 matched CTIConnect items. Every
+system is evaluated on the same item IDs and reference mappings. The
+dataset's identifier scorer accepts declared alternative targets; with the
+single-primary-CWE outputs observed in these runs, per-item F1 is binary.
+All attempted items, including invalid outputs, remain in the denominator.
+Table~\ref{tab:transfer} reports the resulting mean F1 and recorded parse
+validity. The separate 160-item CTIConnect ATA experiment is reported under
+RQ3 as an additional attribution analysis; this subsection focuses on
+external RCM transfer and operational reliability.
 
 \begin{table*}[t]
 \centering
@@ -978,11 +1653,12 @@ the telemetry audit for reproducibility but do not infer cost or latency
 superiority from it.
 
 \paragraph{External-transfer and reliability finding.}
-The observed CTA-RAG advantage extends to this external weakness-mapping
-test, while the other external task remains unevaluated. The results are
-consistent with corpus--task alignment mattering, but do not isolate it
-causally. Operational success, parse validity, and semantic accuracy must
-be reported as distinct outcomes.
+The observed CTA-RAG advantage extends to external weakness mapping on
+CTIConnect. The separate ATA experiment shows a different pattern, with
+Entity-Guided Multi-Query RAG obtaining the highest point estimate. Together,
+these results reinforce that external performance is task-dependent rather
+than evidence of uniform transfer. Operational success, parse validity, and
+semantic accuracy must therefore be reported as distinct outcomes.
 
 \paragraph{Reproducibility.}
 We retain item-level predictions, normalized outputs, available run metadata,
@@ -1032,8 +1708,11 @@ advantage.
 %%==============================================================================
 
 \paragraph{Benchmark coverage and generalization.}
-The main results cover four CTIBench tasks; the external evaluation covers
-only CTIConnect RCM. ATE has 60 items, and its additional specialist gain
+The primary results cover four CTIBench tasks. Additional experiments
+evaluate CTIBench TAA and CTIConnect ATA, while external transfer of a
+primary task is evaluated on CTIConnect RCM. These evaluations use different
+task contracts and sample sizes and should not be interpreted as evidence of
+uniform cross-dataset transfer. ATE has 60 items, and its additional specialist gain
 is not established after multiplicity correction. The paired tests quantify
 item-sampling uncertainty for these saved predictions, not model-run
 variability. They assume independently sampled evaluation items; shared
