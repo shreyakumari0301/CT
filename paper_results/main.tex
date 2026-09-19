@@ -532,30 +532,20 @@ Because benchmark examples and retrieval corpora can share public vulnerability 
 \section{Results and Analysis}\label{sec:results}
 %%==============================================================================
 
-We organize the evaluation around three questions: whether complete task
-specialization improves on shared RAG, whether the specialist can be selected
-automatically, and when retrieved evidence helps or harms the final decision.
-The main experiments use 2,500 MCQ, 1,000 RCM, 1,000 VSP, and 60 ATE items.
-MCQ and RCM accuracy include invalid answers as errors. ATE uses mean
-per-instance F1 after mapping sub-techniques to parent technique identifiers.
-VSP uses CVSS v3.1 base-score mean absolute difference (MAD), assigning a
-penalty of 10 to malformed vectors and unresolved operational failures.
-Thus, the primary comparison includes every attempted item. A common
-992-item successful-execution subset is reported only as a VSP sensitivity
-analysis. An external CTIConnect \citep{cheng2026cticonnect} RCM evaluation follows the three main
-questions.
+We evaluate three questions: whether task specialization improves performance,
+whether specialists can be selected automatically, and when retrieval helps
+or harms individual predictions. The primary evaluation covers 2,500 MCQ,
+1,000 RCM, 1,000 VSP, and 60 ATE items using full-attempt denominators.
+External RCM transfer is evaluated separately on CTIConnect.
 
 \subsection{RQ1: Does task specialization improve CTI performance?}
 \label{sec:main-results}
 
-CTA-RAG achieves the highest observed RCM accuracy and ATE F1 and the
-lowest VSP MAD, whereas Adaptive-RAG-adapted obtains the highest MCQ
-accuracy (Table~\ref{tab:main}). Relative to Unified RAG, CTA-RAG improves
-RCM accuracy by 4.70 percentage points and reduces VSP MAD by 0.1648.
-The corresponding differences on MCQ and ATE are smaller, at 0.92
-percentage points and 0.0386 F1, respectively. These results indicate that
-the value of specialization depends on the decision required by each task
-rather than retrieval being uniformly beneficial.
+CTA-RAG achieves the highest RCM accuracy and ATE F1 and the lowest VSP
+MAD, while Adaptive-RAG-adapted obtains the highest MCQ accuracy
+(Table~\ref{tab:main}). Relative to Unified RAG, CTA-RAG improves RCM by
+4.70 percentage points and reduces VSP MAD by 0.1648, indicating that the
+benefit of specialization is task-dependent.
 
 \begin{table*}[t]
 \centering
@@ -858,13 +848,10 @@ are reported in Table~\ref{tab:paired-focus}.
 \label{fig:current-results}
 \end{figure*}
     
-After multiplicity correction, CTA-RAG significantly outperforms Unified
+After Holm correction across 24 comparisons, CTA-RAG outperforms Unified
 RAG on RCM ($p_{\mathrm{Holm}}=0.0213$) and VSP
-($p_{\mathrm{Holm}}=0.0483$). The VSP result is close to the 0.05
-threshold and should therefore be interpreted cautiously. The MCQ
-difference is not statistically established. Although CTA-RAG has the
-highest observed ATE F1, its advantage over the retrieval baselines does
-not remain significant after correction.
+($p_{\mathrm{Holm}}=0.0483$). Differences on MCQ and ATE are not
+statistically established after correction.
 
 \begin{table*}[t]
 \centering
@@ -1183,126 +1170,44 @@ inference after Holm correction is reported in Table~\ref{tab:paired-focus}.
 
 \end{figure*}
 
-\paragraph{MCQ: shared retrieval remains competitive.}
-Adaptive-RAG-adapted achieves 75.48\% accuracy, compared with 74.84\% for
-CTA-RAG, corresponding to a difference of 16 questions. Their paired
-comparison does not establish a statistically significant difference after
-correction. Nevertheless, every retrieval-based system performs above the
-71.00\% Closed Book result. This suggests that supplying relevant factual
-evidence captures much of the available MCQ benefit and that specialization
-does not provide a demonstrated advantage over the adaptive configuration
-for this task.
+\paragraph{Task-level interpretation.}
+MCQ shows the weakest case for specialization: Adaptive-RAG-adapted reaches
+75.48\% compared with 74.84\% for CTA-RAG, with no statistically established
+difference. RCM shows a clearer effect, with CTA-RAG reaching 73.40\%
+versus 68.70\% for Unified RAG; this improvement remains supported after
+Holm correction.
 
-\paragraph{RCM: exact mapping benefits from task-aligned constraints.}
-CTA-RAG reaches 73.40\% accuracy, compared with 68.70\% for Unified RAG
-and 69.50\% for Adaptive-RAG-adapted, the strongest competing retrieval
-baseline on this task. The RCM specialist combines knowledge-base evidence
-with CWE-specific instructions while avoiding the automatic injection of
-potentially confusing catalogue neighbours. This design reflects the
-task's requirement to identify one primary weakness rather than return a
-set of related concepts. The improvement over Unified RAG is statistically
-supported, whereas the 3.90-point advantage over Adaptive-RAG-adapted does
-not remain significant after Holm correction
-($p_{\mathrm{Holm}}=0.0730$).
+For VSP, CTA-RAG reduces full-attempt MAD to 1.0990 from 1.2638 for
+Unified RAG. On the 992-item common-success subset, CTA-RAG and
+Adaptive-RAG-adapted obtain 1.0272 and 1.2073 MAD, respectively, although
+this conditional subset is only a sensitivity analysis. On ATE, retrieval
+provides most of the improvement: Unified RAG raises F1 from 0.4149 to
+0.9167, while CTA-RAG reaches 0.9554; the additional specialist margin is
+not established after multiplicity correction.
 
-\paragraph{VSP: task-aligned evidence reduces severity error.}
-CTA-RAG obtains a full-attempt MAD of 1.0990, compared with 1.2638 for
-Unified RAG and 1.2170 for Adaptive-RAG-adapted. The VSP specialist uses
-sanitized historical vulnerability descriptions together with
-CVSS-specific instructions to infer the eight base metrics. The baselines
-also receive CVSS instructions, so the difference cannot be attributed
-to the presence of metric definitions alone. The improvement over Unified
-RAG remains significant after correction, while the 0.1180 reduction
-relative to Adaptive-RAG-adapted does not
-($p_{\mathrm{Holm}}=0.3237$).
-
-On the 992 items successfully completed by every system, CTA-RAG and
-Adaptive-RAG-adapted obtain MAD values of 1.0272 and 1.2073,
-respectively. This conditional comparison is included only as a sensitivity
-analysis because excluding operational failures changes the evaluation
-denominator and increases the estimated benefit.
-
-\paragraph{ATE: retrieval provides most of the improvement.}
-Unified RAG increases ATE F1 from 0.4149 for Closed Book to 0.9167, while
-the other retrieval baselines score between 0.9133 and 0.9178. CTA-RAG
-achieves the highest observed F1 of 0.9554, but its smaller advantage over
-the retrieval baselines is not statistically established after correction
-on the 60-item test set. Technique-focused evidence and output constraints
-may contribute to this margin, but the present experiment does not isolate
-their causal effect. All saved ATE responses are parseable, indicating that
-the large Closed Book deficit primarily reflects incomplete or incorrect
-technique sets rather than formatting failures.
-
-Taken together, the results show that the value of specialization is
-task-dependent. CTA-RAG provides statistically supported improvements over
-Unified RAG on RCM and VSP, where retrieved evidence must be converted into
-tightly constrained decisions. Adaptive retrieval remains competitive on
-MCQ, while retrieval itself accounts for most of the improvement on ATE.
-These findings support task-aligned evidence selection, prompting, and
-output constraints, but they do not identify routing as the sole cause
-because the specialist indexes, prompts, and pipeline behavior vary
-together.
+Overall, specialization provides its clearest evidence on RCM and VSP,
+while adaptive/shared retrieval remains competitive on MCQ and accounts
+for most of the improvement on ATE.
 
 \subsection{RQ2: Can the appropriate specialist be selected automatically?}
 \label{sec:robustness}
 
-Under the benchmark instructions used in the controlled evaluation, CTA-RAG
-selects the expected specialist for 2,498 of 2,500 MCQ items, 992 of
-1,000 RCM items, and every VSP and ATE item. This corresponds to an
-overall routing accuracy of 99.78\% (4,550/4,560). The task results are
-therefore produced through automatic routing rather than oracle selection,
-with only ten routing errors across the complete CTIBench evaluation.
+CTA-RAG selects the expected specialist for 4,550/4,560 items (99.78\%):
+2,498/2,500 MCQ, 992/1,000 RCM, and all VSP and ATE items. Routing accuracy
+is distinct from answer accuracy: seven of eight misrouted RCM items are
+incorrect, whereas both misrouted MCQ items are answered correctly.
 
-High routing accuracy does not imply high answer accuracy. For example,
-RCM routing accuracy is 99.20\%, whereas its final answer accuracy is
-73.40\%. Seven of the eight misrouted RCM items result in incorrect
-answers, showing that routing errors can propagate to the final prediction.
-However, both misrouted MCQ items are answered correctly, indicating that
-a routing error does not necessarily produce an incorrect answer. Routing
-quality and downstream task performance must therefore be evaluated
-separately.
-
-These results establish that the router is reliable for the structured
-instructions used in the benchmark. They do not, by themselves, establish
-robustness to paraphrased, conversational, underspecified, or content-only
-requests. In deployment, the router should detect uncertain task assignments
-and request clarification or abstain rather than silently selecting a
-potentially inappropriate specialist.
-
-
-Figure~\ref{fig:route-accuracy} summarizes routing under the current benchmark instructions.
-\begin{figure}[t]
-\centering
-\begin{tikzpicture}
-\begin{axis}[
- width=0.90\linewidth,height=5.4cm,
- ybar,bar width=18pt,
- symbolic x coords={MCQ,RCM,VSP,ATE},xtick=data,
- ymin=0,ymax=112,ylabel={Routing accuracy (\%)},
- enlarge x limits=0.22,
- tick label style={font=\scriptsize},label style={font=\scriptsize},
- ymajorgrids=true,grid style={gray!20},axis lines*=left,
- nodes near coords,every node near coord/.append style={font=\scriptsize,/pgf/number format/fixed,/pgf/number format/precision=2}
-]
-\addplot[fill=teal!60,draw=teal!80!black] coordinates {(MCQ,99.92) (RCM,99.20) (VSP,100) (ATE,100)};
-\end{axis}
-\end{tikzpicture}
-\caption{Automatic routing accuracy on the current controlled runs: 2,498/2,500 MCQ, 992/1,000 RCM, 1,000/1,000 VSP, and 60/60 ATE items. Pooled accuracy is 99.78\%. These values measure pipeline selection, not answer correctness or robustness to instruction rewrites.}
-\label{fig:route-accuracy}
-\end{figure}
+These results establish reliable routing under the benchmark instructions,
+but not robustness to paraphrased, conversational, underspecified, or
+content-only requests.
 
 \subsection{RQ3: When does retrieval help or hurt?}
 \label{sec:ablations}
 
-Aggregate scores do not reveal whether retrieval consistently improves
-predictions or whether its gains offset substantial regressions. We therefore
-pair each retrieval-based prediction with the corresponding Closed Book
-prediction. For MCQ and RCM, an improvement changes an incorrect answer
-to a correct one, while a worsening changes a correct answer to an incorrect
-one. For VSP, improvement denotes a reduction in item-level absolute error;
-for ATE, it denotes an increase in per-item F1. Table~\ref{tab:utility}
-reports both directions using the complete task denominators and the primary
-failure-handling policy.
+Aggregate scores can hide item-level regressions. We therefore pair each
+retrieval-based prediction with its Closed Book counterpart. Improvement
+means a newly correct answer for MCQ/RCM, lower absolute error for VSP,
+and higher per-item F1 for ATE; worsening denotes the reverse.
 
 \begin{table*}[t]
 \centering
@@ -1429,43 +1334,16 @@ per-instance F1. Unchanged items are omitted.
 \label{fig:current-utility}
 \end{figure*}
 
-\paragraph{MCQ and RCM show different retrieval behavior.}
-Unified RAG rescues 149 MCQ answers while damaging 76, resulting in
-73 additional correct answers. CTA-RAG produces a larger net MCQ gain,
-with 267 rescues and 171 damages. Both systems therefore benefit from
-retrieval on MCQ, although the gains coexist with regressions on individual
-questions.
+\paragraph{Paired-change patterns.}
+MCQ benefits from both retrieval configurations despite item-level
+regressions. RCM behaves differently: Unified RAG is nearly balanced
+between rescues and damages (38 versus 40), whereas CTA-RAG shifts the
+balance toward improvement (125 versus 80). CTA-RAG similarly improves
+more VSP items than it worsens (500 versus 267) and improves 58/60 ATE
+items without worsening any.
 
-The RCM pattern is substantially different. Unified RAG produces 38 rescues
-and 40 damages, resulting in a small net loss of two answers. Retrieval
-changes the prediction on many items but provides almost no aggregate
-benefit because helpful and harmful changes are approximately balanced.
-CTA-RAG produces 125 rescues and 80 damages, yielding 45 additional correct
-answers over Closed Book.
-
-A direct comparison between CTA-RAG and Unified RAG shows that CTA-RAG
-repairs 124 Unified RAG errors while losing 77 Unified RAG correct answers.
-The resulting net improvement of 47 items corresponds to the 4.70-point
-accuracy difference reported in Table~\ref{tab:main}. CTA-RAG's advantage
-therefore arises from a better balance between helpful and harmful changes,
-not from eliminating retrieval-related damage.
-
-\paragraph{VSP and ATE benefit more consistently.}
-For VSP, Unified RAG reduces error on 391 items and increases it on 341,
-whereas CTA-RAG improves 500 items and worsens 267. The larger CTA-RAG
-benefit is therefore distributed across many predictions rather than being
-caused by a small number of extreme cases.
-
-Retrieval is most consistently beneficial on ATE. Unified RAG improves
-per-item F1 on 54 of 60 items and decreases it on four. CTA-RAG improves
-58 items, worsens none, and leaves two unchanged. This pattern is consistent
-with the large difference between Closed Book and all retrieval-based ATE
-systems: external evidence frequently supplies techniques that the model
-does not identify from parametric knowledge alone.
-
-The number of improved and worsened items should not be interpreted as the
-metric difference by itself. VSP errors and ATE F1 changes vary in magnitude,
-so the average score also depends on how large each item-level change is.
+For VSP and ATE, counts alone do not determine the aggregate metric because
+item-level changes vary in magnitude.
 
 \paragraph{Illustrative prediction changes.}
 The paired transitions illustrate both effects of retrieval. On the first
@@ -1477,21 +1355,11 @@ whereas Unified RAG and CTA-RAG recover the reference set exactly
 predicts \texttt{CWE-732}. Thus, retrieval can both remove unsupported
 predictions and introduce plausible but incorrect identifiers.
 
-Across the four primary tasks, retrieval is most consistently beneficial
-for ATE and substantially reduces VSP error, while its effect on exact CWE
-mapping is less uniform. The paired analysis measures complete system
-behavior---including retrieval, prompting, routing, and output handling---
-and therefore does not attribute individual changes to retrieval alone.
-
 \paragraph{Threat-actor attribution (TAA).}
-The 50-item CTIBench TAA evaluation is a negative result for the current
-CTA-RAG specialist. Using the same task instances, generation procedure,
-parser, alias handling, and scorer, CTA-RAG obtains 25/50
-benchmark-compatible matches (50.0\%) and 23/50 strict canonical matches
-(46.0\%). Entity-Guided Multi-Query RAG obtains the highest
-benchmark-compatible score at 37/50 (74.0\%), followed by TAdaRAG-adapted
-at 36/50 (72.0\%) and Unified RAG and Self-Critique RAG at 35/50 (70.0\%).
-The specialist advantage observed on RCM, VSP, and ATE therefore does not
+The 50-item TAA evaluation exposes a limitation of the current specialist.
+CTA-RAG obtains 25/50 benchmark-compatible matches (50.0\%), compared with
+37/50 for Entity-Guided Multi-Query RAG and 36/50 for TAdaRAG-adapted.
+Thus, the specialist advantage observed on RCM, VSP, and ATE does not
 extend to threat-actor attribution.
 
 \begin{table*}[t]
@@ -1515,23 +1383,18 @@ CTA-RAG                        & 25/50 (50.0\%) & 23/50 (46.0\%) \\
 \end{tabular}
 \end{table*}
 
-The saved traces identify candidate generation as the main CTA-RAG
-bottleneck. Among the 12 items solved by TAdaRAG but missed by CTA-RAG,
-the gold actor is absent from CTA-RAG's top-10 candidate pool in nine,
-appears at ranks 4--10 in two, and is already in the top three in only one.
-Thus, the dominant failure occurs before final generation: the correct
-actor is usually not presented to the model. This diagnosis motivates the
-provenance-aware candidate-inclusion retriever, but its post-hoc gains are
-not included in the reported CTA-RAG score and require validation on a
-new held-out set.
+Trace analysis points to candidate recall as the primary bottleneck. Among
+12 items solved by TAdaRAG but missed by CTA-RAG, the gold actor is absent
+from CTA-RAG's top-10 candidates in nine cases and appears within the top
+three in only one. The post-hoc candidate-inclusion modification therefore
+requires validation on a new held-out set and is not included in the
+reported CTA-RAG score.
 
 \paragraph{ATT\&CK technique attribution (ATA).}
-We also evaluate ATA on 160 CTIConnect items using the same end-to-end
-procedure. Each system retrieves evidence according to its configuration,
-generates an answer, and emits one ATT\&CK identifier. Because every item
-contains one gold identifier and each system predicts one identifier,
-exact-set accuracy, precision, recall, and mean per-instance F1 coincide
-numerically.
+We additionally evaluate 160 CTIConnect ATA items end-to-end. Each item
+contains one gold ATT\&CK identifier and each system emits one identifier;
+therefore exact-set accuracy, precision, recall, and per-instance F1
+coincide numerically.
 
 \begin{table*}[t]
 \centering
@@ -1555,16 +1418,14 @@ Entity-Guided Multi-Query RAG  & \textbf{79/160 (49.38\%)} &
 \end{tabular}
 \end{table*}
 
-Entity-Guided Multi-Query RAG obtains the highest ATA point estimate at
-79/160 (49.38\%). CTA-RAG, Self-Critique RAG, and TAdaRAG-adapted each
-obtain 75/160 (46.88\%). This result reinforces the broader RQ3 finding:
-retrieval strategy can materially alter outcomes, but CTA-RAG does not
-dominate uniformly across attribution tasks.
+Entity-Guided Multi-Query RAG obtains the highest point estimate at
+79/160 (49.38\%), while CTA-RAG, Self-Critique RAG, and TAdaRAG-adapted
+each obtain 75/160 (46.88\%). CTA-RAG therefore does not dominate uniformly
+across attribution tasks.
 
-Overall, the RQ3 results show that retrieval can both rescue and damage
-individual predictions. CTA-RAG shifts this balance favorably on RCM, VSP,
-and ATE, but not on TAA or ATA, where candidate generation and retrieval
-quality remain limiting factors.
+Overall, retrieval can both rescue and damage predictions. CTA-RAG shifts
+this balance favorably on RCM, VSP, and ATE, but its advantage does not
+extend uniformly to TAA or ATA.
     
 \subsection{External RCM transfer and operational reliability}\label{sec:transfer}
 
@@ -1623,42 +1484,23 @@ Figure~\ref{fig:external-rcm} separates correctness from recorded parse validity
 \end{figure*}
 
 
-CTA-RAG scores 0.5138, compared with 0.4345 for Closed Book, the strongest
-baseline on this dataset, and 0.4241 for Unified RAG. Its improvement over
-Closed Book is 23 additional correct mappings, or 7.93 percentage points
-(paired 95\% interval: 3.10--12.76 points). Exact McNemar tests
-with Holm correction across the six external contrasts support CTA-RAG's
-advantage over every baseline (all corrected $p\leq0.0115$).
-This is an exploratory external-test family, separate from the 24 main
-contrasts. Absolute scores are lower than on CTIBench, and shared retrieval
-does not outperform Closed Book here. The findings support an external
-RCM advantage, not transfer of the entire four-task pattern or proof that
-the external corpus is free of retrieval overlap.
+CTA-RAG obtains 149/290 correct mappings (F1 $=0.5138$), compared with
+126/290 for Closed Book and 123/290 for Unified RAG. Relative to Closed
+Book, this is a 7.93-point improvement (paired 95\% CI: 3.10--12.76).
+Holm-corrected McNemar tests across the six external contrasts support
+CTA-RAG's advantage over each baseline (all $p\leq0.0115$). This separate
+external-test family supports RCM transfer only, not uniform transfer
+across tasks.
 
-Reliability remains separate from these semantic scores. CTA-RAG produces
-valid outputs for all MCQ and ATE items, 930/1,000 CTIBench RCM items,
-987/1,000 VSP items, and 283/290 external RCM items. The VSP shortfall
-contains five malformed answers and eight unresolved API failures, all
-included in the primary penalty-based score. On the external RCM task,
-high parse validity coexists with much lower correctness; formatting
-alone is not an adequate success criterion.
+CTA-RAG produces valid outputs for all MCQ and ATE items, 930/1,000
+CTIBench RCM items, 987/1,000 VSP items, and 283/290 external RCM items.
+Parse validity remains distinct from semantic correctness: external RCM,
+for example, reaches 97.59\% validity but 51.38\% correctness.
 
-Recorded CTA invocation-time medians are 6.11, 4.88, 2.31, and 10.74
-seconds for MCQ, RCM, VSP, and ATE, respectively. They describe the saved
-attempts, not matched end-to-end service latency: CTA timers cover the
-pipeline invocation, while baseline timers record the final generation
-call, and subsequent format repair is not uniformly included. Internal
-token and call accounting is also incomplete for CTA. We therefore provide
-the telemetry audit for reproducibility but do not infer cost or latency
-superiority from it.
-
-\paragraph{External-transfer and reliability finding.}
-The observed CTA-RAG advantage extends to external weakness mapping on
-CTIConnect. The separate ATA experiment shows a different pattern, with
-Entity-Guided Multi-Query RAG obtaining the highest point estimate. Together,
-these results reinforce that external performance is task-dependent rather
-than evidence of uniform transfer. Operational success, parse validity, and
-semantic accuracy must therefore be reported as distinct outcomes.
+Recorded CTA median invocation times are 6.11, 4.88, 2.31, and 10.74
+seconds for MCQ, RCM, VSP, and ATE. Because CTA and baseline timers cover
+different execution boundaries and internal token/call accounting is
+incomplete, we make no controlled latency or cost claim.
 
 \paragraph{Reproducibility.}
 We retain item-level predictions, normalized outputs, available run metadata,
@@ -1671,130 +1513,72 @@ uncertainty rather than repeated-generation variability.
 
 %%==============================================================================
 \section{Operational Implications}\label{sec:impact}
-%%==============================================================================
 
-The strongest practical implication is to select a pipeline by the decision
-it must support. Shared retrieval is competitive for factual multiple-choice
-questions and supplies substantial benefit for technique extraction; weakness
-mapping and severity scoring benefit from closer alignment between evidence
-and the required answer. The paired analysis also shows that improvements
-are accompanied by regressions on other items. An analyst-facing deployment
-should therefore evaluate consequential errors, escalation thresholds, and
-review burden rather than equating a higher average score with safer triage.
-These workflow outcomes were not measured in the benchmark.
+The practical implication is to align the pipeline with the decision it
+must support. Shared retrieval remains competitive for factual MCQ and
+provides most of the ATE gain, whereas weakness mapping and severity
+prediction benefit more clearly from task-aligned evidence and output
+constraints. Because retrieval can also damage individual predictions,
+deployment should distinguish average benchmark gains from consequential
+errors and review burden.
 
-Structured outputs make some failures observable and support rejection,
-retry, or human review before downstream use. They do not establish semantic
-correctness or injection resistance: an incorrect or attacker-influenced
-answer can still be a valid CWE or CVSS vector. A practical interface should
-request the intended output explicitly, clarify ambiguous requests, and admit
-abstention outside the specialist inventory. Complete timing and token
-instrumentation is also needed before claiming efficiency benefits. These
-controls complement specialization and can be applied to shared RAG systems
-as well.
+Structured outputs enable rejection, retry, and human review but do not
+guarantee semantic correctness or resistance to malicious retrieved
+content. Specialization also increases maintenance: each task-specific
+retrieval configuration, prompt, and parser requires regression testing as
+sources evolve. We do not quantify this engineering cost.
 
-\paragraph{Maintenance Cost of Specialization..}
-CTA-RAG shares model-client utilities, embedding interfaces, vector-store
-components, and evaluation code, but maintains task-specific retrieval
-configurations, prompts, and output handling. Each specialist therefore
-requires separate regression coverage, and source updates must be checked
-against the pipelines that consume them. Adding a task expands this
-configuration and testing surface beyond extending a shared prompt. We did
-not measure developer person-hours and claim no quantified maintenance
-advantage.
-
-%%==============================================================================
 \section{Limitations}\label{sec:limitations}
-%%==============================================================================
 
-\paragraph{Benchmark coverage and generalization.}
-The primary results cover four CTIBench tasks. Additional experiments
-evaluate CTIBench TAA and CTIConnect ATA, while external transfer of a
-primary task is evaluated on CTIConnect RCM. These evaluations use different
-task contracts and sample sizes and should not be interpreted as evidence of
-uniform cross-dataset transfer. ATE has 60 items, and its additional specialist gain
-is not established after multiplicity correction. The paired tests quantify
-item-sampling uncertainty for these saved predictions, not model-run
-variability. They assume independently sampled evaluation items; shared
-reports, related CVEs, or other clustering could make item-level intervals
-too narrow. Neither the external result nor template routing accuracy
-establishes generalization to unconstrained analyst traffic.
-The evaluated datasets, prompts, and routing cues are English, and retrieval
-is evaluated in an English-language setting. Dependence on English schema
-terms and possible changes in embedding behavior limit multilingual claims.
-Translated or native-language CTI benchmarks and language-aware routing and
-retrieval are needed to assess that scope.
+\paragraph{Coverage and generalization.}
+The primary evaluation covers four CTIBench tasks, with additional TAA,
+CTIConnect ATA, and external RCM experiments. These tasks differ in sample
+size and output contract and do not establish uniform cross-dataset
+transfer. ATE contains only 60 items, routing is tested under benchmark
+instructions rather than unconstrained analyst requests, and all evaluated
+data and routing cues are English.
 
 \paragraph{Baseline fidelity and causal attribution.}
-Self-Critique RAG, Entity-Guided Multi-Query RAG, Adaptive-RAG-adapted, and
-Dual-Query RAG denote the implemented mechanisms, not full reproductions
-of upstream architectures. CTA-RAG differs in prompts, indexes, and pipeline
-behavior, so its paired gains do not isolate specialization or retrieval
-alone. The task-level mechanisms discussed above are interpretations
-supported by the design and diagnostics, not mediation analyses. The
-statistical analysis is retrospective rather than preregistered; all
-24 primary contrasts are tested and jointly corrected to limit selective
-reporting.
-The 50-item TAA set was used for post-hoc diagnosis of candidate recall. The
-graph-inclusion audit is retrieval-only and exploratory, so it does not replace
-the primary end-to-end TAA comparison. The online GraphRAG-local evaluation
-obtained 33/50 exact benchmark matches and 37/50 plausible matches. The ATA
-table reports the completed corrected 160-item comparison.
-The four cognitive modes are an operational decomposition by evidence,
-reasoning, and output requirements, not a uniquely necessary taxonomy.
-The main comparison does not isolate this grouping against alternatives
-based on task identity, knowledge source, output schema, or retrieval
-complexity; it therefore cannot establish that the cognitive grouping is
-uniquely optimal. The controlled shared-corpus comparison uses dense
-retrieval; hybrid BM25--dense retrieval is an orthogonal ablation not
-evaluated in the reported main results.
+Self-Critique RAG, Entity-Guided Multi-Query RAG, Adaptive-RAG-adapted,
+and Dual-Query RAG are local implementations of selected mechanisms rather
+than full upstream reproductions. CTA-RAG also changes indexes, prompts,
+and pipeline behavior jointly, so the experiments do not isolate retrieval,
+routing, or cognitive grouping as individual causal factors. The statistical
+analysis is retrospective, although all 24 primary contrasts are jointly
+Holm-corrected. The post-hoc TAA candidate-inclusion audit is exploratory;
+the reported TAA and ATA tables remain end-to-end comparisons.
 
-\paragraph{Operational reliability.}
-Full-attempt VSP scoring uses an explicit maximum-error penalty for eight
-API failures; other service-failure conventions can change the effect size.
-The common-success subset is a sensitivity analysis, not a replacement for
-the primary denominator. Invalid RCM outputs remain a substantial weakness
-of CTA-RAG. Incomplete internal provider, token, and call metadata and
-different timing boundaries prevent a controlled efficiency comparison.
+\paragraph{Reliability and uncertainty.}
+Paired intervals quantify item-sampling uncertainty for saved predictions,
+not repeated-generation variability, and may be optimistic if evaluation
+items are clustered. Full-attempt VSP scoring assigns maximum error to
+operational failures, while incomplete timing and token metadata prevent
+a controlled efficiency comparison.
 
-\paragraph{Corpus overlap and security.}
-Query-time sanitization removes selected leakage signals but does not
-establish independence between retrieval corpora and evaluation items,
-including the external dataset. Index-level exclusion and overlap audits
-would provide stronger evidence. No poisoning or prompt-injection attacks
-were evaluated. Task-scoped indexes may limit document exposure when
-properly isolated, but neither compartmentalization nor schema validation
-should be presented as a measured adversarial defense.
-The evaluation also assumes sufficiently reliable indexed sources. The
-pipelines do not implement temporal conflict resolution, source-authority
-weighting, or cross-source contradiction detection. Task scoping cannot
-correct stale or erroneous information within an allowed source, and saved
-retrieval provenance is incomplete. Deployment requires source provenance,
-snapshot versioning, update monitoring, and abstention or human review when
-authoritative sources disagree.
+\paragraph{Corpus and security assumptions.}
+Query-time sanitization reduces selected leakage signals but does not prove
+independence between retrieval corpora and evaluation items. We do not
+evaluate poisoning or prompt-injection attacks, and task scoping cannot
+correct stale, erroneous, or contradictory information within an allowed
+source. Deployment therefore requires stronger provenance, corpus-version
+auditing, update monitoring, and abstention or human review under source
+conflict.
 
-%%==============================================================================
 \section{Conclusion}\label{sec:conclusion}
 %%==============================================================================
 
-The evaluation shows why task specialization is a useful complement to
-retrieval rather than a universal replacement for it. Shared RAG already
-provides substantial technique-grounding benefits and remains competitive
-on MCQ. CTA-RAG adds statistically supported RCM and VSP gains over Unified
-RAG under the full-attempt protocol, while its additional ATE gain and its
-differences from the strongest adaptive baseline remain uncertain after
-correction. The external RCM evaluation provides further support for the
-complete configuration, without establishing four-task transfer.
-
-The answers to the three research questions are therefore connected:
-specialization helps selected decision contracts; automatic routing works
-well under the tested instructions but remains untested under wording changes; and
-retrieval can both rescue and damage individual decisions. The central
-design lesson is to align retrieved evidence, instructions, and validation
-with the requested decision, and to evaluate that alignment using paired
-outcomes and explicit reliability accounting. Isolating the contribution
-of each component and validating analyst-workflow benefits remain necessary
-steps toward deployment.
+CTA-RAG shows that task specialization can complement retrieval in
+heterogeneous CTI workflows. Under the full-attempt protocol, it provides
+statistically supported improvements over Unified RAG on weakness mapping
+and severity prediction, while shared or adaptive retrieval remains
+competitive on MCQ and accounts for most of the gain on technique
+extraction. Automatic routing is highly accurate under the tested benchmark
+instructions, but retrieval still both rescues and damages individual
+decisions, and CTA-RAG does not dominate the additional TAA and ATA
+evaluations. The central design lesson is therefore to align evidence,
+instructions, and output validation with the requested decision while
+evaluating routing, semantic accuracy, and operational reliability as
+separate outcomes.
 
 
 \bibliography{references}
