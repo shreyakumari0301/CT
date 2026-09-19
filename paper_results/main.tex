@@ -493,9 +493,10 @@ The controlled harness configures \texttt{gpt-4-turbo} with temperature zero, $t
 
 Table~\ref{tab:ctibench-cognitive} positions all five CTIBench tasks within
 the four cognitive modes \citep{alam2024ctibench}. TAA is included in the
-main CTIBench results table as benchmark-compatible accuracy; its separate
-strict-identity analysis is discussed in the Results because attribution
-uses a different official scorer and has a distinct retrieval failure mode.
+main CTIBench results table as benchmark-compatible accuracy; its strict-
+identity sensitivity analysis is reported in Table~\ref{tab:taa-main}.
+The two TAA scores are shown separately since the benchmark-compatible
+scorer and canonical-identity scorer measure different notions of a match.
 
 \begin{table*}[t]
 \centering
@@ -516,15 +517,34 @@ Reasoning & CTI-TAA & $n{=}50$ anonymised intelligence reports; attribute the ac
 \end{table*}
 
 \subsection{Knowledge infrastructure}\label{sec:kb}
-The shared-corpus controls use dense retrieval through FAISS \citep{johnson2019billion} and sentence-transformer embeddings \citep{reimers2019sentence}. CTA-RAG selects task-specific sources, including CTI reporting, weakness knowledge, sanitized vulnerability descriptions, and ATT\&CK technique or intrusion-set records. The primary weakness configuration disables the optional catalogue arm. Hybrid BM25--dense retrieval is an orthogonal ablation and is not evaluated in the reported main results. Changes in evidence, instructions, and output handling are evaluated jointly rather than treated as isolated causes.
+The shared-corpus CTIBench controls use dense FAISS retrieval \citep{johnson2019billion}
+with sentence-transformer embeddings \citep{reimers2019sentence}. CTA-RAG selects
+task-specific sources, including CTI reporting, weakness knowledge, sanitized
+vulnerability descriptions, and ATT\&CK technique or intrusion-set records. Its
+RCM configuration uses the general CTI knowledge base and leaves the optional
+CWE-catalogue arm disabled, avoiding an additional catalogue-neighbour ablation
+in the primary comparison. The separate CTIConnect ATA experiment uses hybrid
+BM25--dense retrieval with reciprocal-rank fusion; this retriever choice is
+reported with that experiment in Section~\ref{sec:ablations} and is not mixed
+with the dense-retrieval CTIBench results. Evidence, instructions, and output
+handling vary together across complete systems, so these experiments compare
+end-to-end configurations rather than isolate component effects.
 
 \subsection{Controlled baselines}\label{sec:baselines}
-The seven locally evaluated systems are Closed Book, Unified RAG, Self-Critique RAG, Entity-Guided Multi-Query RAG, Adaptive-RAG-adapted, Dual-Query RAG, and CTA-RAG. The four retrieval-adaptive controls implement selected mechanisms motivated by prior work \citep{asai2023selfrag,edge2024graphrag,jeong2024adaptive,zhang2026tadarag}; they are not full reproductions with the upstream trained checkpoints. All columns come from local item-level predictions and are rescored with a common parser and alias policy. In the attribution audit, the local Entity-Guided Multi-Query implementation produced the same prompt and evidence-size traces as Unified RAG on all 50 items and differed in only one prediction; it is therefore interpreted as a local mechanism implementation rather than evidence for an upstream architecture.
+The seven locally evaluated systems are Closed Book, Unified RAG, Self-Critique RAG,
+Entity-Guided Multi-Query RAG, Adaptive-RAG-adapted, Dual-Query RAG, and CTA-RAG.
+The four retrieval-adaptive controls implement selected mechanisms motivated by
+prior work \citep{asai2023selfrag,edge2024graphrag,jeong2024adaptive,zhang2026tadarag};
+they are local implementations rather than full reproductions with upstream
+trained checkpoints. All columns come from local item-level predictions and use
+a common parser and alias policy. The Entity-Guided Multi-Query label therefore
+identifies the implementation evaluated here; its trace audit is summarized with
+the TAA results in Section~\ref{sec:taa-results}.
 
 \subsection{Evaluation protocol and leakage controls}\label{sec:integrity}
-CTA-RAG uses automatic router selection without oracle task labels in the main runs. Task scores and route accuracy are reported separately. Full attempted denominators are 2,500 MCQ, 1,000 RCM, 1,000 VSP, and 60 ATE items. Invalid categorical outputs count as incorrect; invalid severity vectors and unresolved operational failures receive an error penalty of 10. Paired tests, uncertainty intervals, and multiplicity correction are specified in Section~\ref{sec:main-results}.
+CTA-RAG uses automatic router selection without oracle task labels in the main runs. Task scores and route accuracy are reported separately. Invalid categorical outputs count as incorrect. Invalid severity vectors and unresolved operational failures receive the maximum error value of 10 in the VSP metric; this convention is also stated in Table~\ref{tab:main}. Paired tests, uncertainty intervals, and multiplicity correction are specified in Section~\ref{sec:main-results}.
 
-Because benchmark examples and retrieval corpora can share public vulnerability sources, query-time controls sanitize answer-bearing metadata and filter overlapping retrieval context. These controls do not establish index-level independence or exclude parametric overlap. Earlier configurations and their aggregate summaries are not pooled with the current controlled comparison. External evaluation covers the 290 matched RCM items from CTIConnect \citep{cheng2026cticonnect}; no complete four-task external-transfer claim is made.
+Benchmark examples and retrieval corpora can share public vulnerability sources. Query-time controls therefore sanitize answer-bearing metadata and filter overlapping retrieval context, although they do not establish index-level independence or exclude parametric overlap. Earlier configurations and aggregate summaries are not pooled with the current controlled comparison. External evaluation is limited to the 290-item CTIConnect RCM set and the 160-item CTIConnect ATA set; these are reported as task-specific external checks rather than a four-task transfer claim.
 
 
 
@@ -538,9 +558,8 @@ Because benchmark examples and retrieval corpora can share public vulnerability 
 
 We evaluate three questions: whether task specialization improves performance,
 whether specialists can be selected automatically, and when retrieval helps
-or harms individual predictions. The primary evaluation covers 2,500 MCQ,
-1,000 RCM, 1,000 VSP, and 60 ATE items using full-attempt denominators.
-External RCM transfer is evaluated separately on CTIConnect.
+or harms individual predictions. External CTIConnect checks cover RCM and ATA
+separately from the CTIBench comparison.
 
 \subsection{RQ1: Does task specialization improve CTI performance?}
 \label{sec:main-results}
@@ -557,8 +576,7 @@ benefit of specialization is task-dependent.
 \caption{Full-attempt CTIBench results. MCQ, RCM, and TAA are reported as
 benchmark-compatible accuracy percentages, ATE as mean per-instance F1,
 and VSP as CVSS base-score MAD, where lower is better. Invalid vectors and unresolved API
-failures receive an error of 10 in the primary VSP evaluation. Bold denotes
-the best point estimate and does not imply statistical significance.}
+failures receive an error of 10 in the primary VSP evaluation.}
 \label{tab:main}
 \setlength{\tabcolsep}{5pt}
 \begin{tabular}{@{}lrrrrr@{}}
@@ -854,8 +872,8 @@ are reported in Table~\ref{tab:paired-focus}.
     
 After Holm correction across 24 comparisons, CTA-RAG outperforms Unified
 RAG on RCM ($p_{\mathrm{Holm}}=0.0213$) and VSP
-($p_{\mathrm{Holm}}=0.0483$). Differences on MCQ and ATE are not
-statistically established after correction.
+($p_{\mathrm{Holm}}=0.0483$); the corresponding MCQ and ATE contrasts do
+not pass the adjusted threshold.
 
 \begin{table*}[t]
 \centering
@@ -1181,8 +1199,8 @@ difference. RCM shows a clearer effect, with CTA-RAG reaching 73.40\%
 versus 68.70\% for Unified RAG; this improvement remains supported after
 Holm correction.
 
-For VSP, CTA-RAG reduces full-attempt MAD to 1.0990 from 1.2638 for
-Unified RAG. On the 992-item common-success subset, CTA-RAG and
+For VSP, CTA-RAG has full-attempt MAD 1.0990 (approximately 1.10), compared
+with 1.2638 for Unified RAG. On the 992-item common-success subset, CTA-RAG and
 Adaptive-RAG-adapted obtain 1.0272 and 1.2073 MAD, respectively, although
 this conditional subset is only a sensitivity analysis. On ATE, retrieval
 provides most of the improvement: Unified RAG raises F1 from 0.4149 to
@@ -1398,7 +1416,8 @@ requires validation on a new held-out set and is not included in the
 reported CTA-RAG score.
 
 \paragraph{ATT\&CK technique attribution (ATA).}
-We additionally evaluate 160 CTIConnect ATA items end-to-end. Each item
+We additionally evaluate 160 CTIConnect ATA items end-to-end in this RQ3
+analysis (Section~\ref{sec:ablations}). Each item
 contains one gold ATT\&CK identifier and each system emits one identifier.
 Precision, recall, F1, and exact-match accuracy therefore coincide in this
 setting; to avoid redundant columns, we report exact-match accuracy together
@@ -1446,9 +1465,9 @@ dataset's identifier scorer accepts declared alternative targets; with the
 single-primary-CWE outputs observed in these runs, per-item F1 is binary.
 All attempted items, including invalid outputs, remain in the denominator.
 Table~\ref{tab:transfer} reports the resulting mean F1 and recorded parse
-validity. The separate 160-item CTIConnect ATA experiment is reported under
-RQ3 as an additional attribution analysis; this subsection focuses on
-external RCM transfer and operational reliability.
+validity. The 160-item CTIConnect ATA experiment is reported under RQ3
+(Section~\ref{sec:ablations}); this subsection focuses on external RCM
+transfer and operational reliability.
 
 \begin{table*}[t]
 \centering
