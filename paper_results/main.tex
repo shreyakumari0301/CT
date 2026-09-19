@@ -1367,20 +1367,23 @@ extend to threat-actor attribution.
 \begin{table*}[t]
 \centering
 \small
-\caption{End-to-end 50-item CTIBench threat-actor attribution results.
-All systems use the same parser and alias normalization.}
+\caption{End-to-end 50-item CTIBench threat-actor attribution results
+($n=50$). Benchmark-compatible accuracy follows the benchmark scorer;
+strict accuracy requires canonical actor identity. ``--'' indicates that a
+configuration was not evaluated for this task.}
 \label{tab:taa-main}
-\begin{tabular}{@{}lcc@{}}
+\begin{tabular}{@{}lrr@{}}
 \toprule
-System & Benchmark-compatible & Strict identity \\
+System & Benchmark-compatible (\%) $\uparrow$ & Strict accuracy (\%) $\uparrow$ \\
 \midrule
-Closed Book                    & 23/50 (46.0\%) & 22/50 (44.0\%) \\
-Unified RAG                    & 35/50 (70.0\%) & 35/50 (70.0\%) \\
-Self-Critique RAG              & 35/50 (70.0\%) & 35/50 (70.0\%) \\
-Entity-Guided Multi-Query RAG  & \textbf{37/50 (74.0\%)} & 33/50 (66.0\%) \\
-Adaptive-RAG-adapted           & 34/50 (68.0\%) & 34/50 (68.0\%) \\
-TAdaRAG-adapted                & 36/50 (72.0\%) & \textbf{36/50 (72.0\%)} \\
-CTA-RAG                        & 25/50 (50.0\%) & 23/50 (46.0\%) \\
+Closed Book                    & 46.00 & 44.00 \\
+Unified RAG                    & 70.00 & 70.00 \\
+Self-Critique RAG              & 70.00 & 70.00 \\
+Entity-Guided Multi-Query RAG  & \textbf{74.00} & 66.00 \\
+Adaptive-RAG-adapted           & 68.00 & 68.00 \\
+Dual-Query RAG                 & -- & -- \\
+TAdaRAG-adapted                & 72.00 & \textbf{72.00} \\
+CTA-RAG                        & 50.00 & 46.00 \\
 \bottomrule
 \end{tabular}
 \end{table*}
@@ -1394,28 +1397,31 @@ reported CTA-RAG score.
 
 \paragraph{ATT\&CK technique attribution (ATA).}
 We additionally evaluate 160 CTIConnect ATA items end-to-end. Each item
-contains one gold ATT\&CK identifier and each system emits one identifier;
-therefore exact-set accuracy, precision, recall, and per-instance F1
-coincide numerically.
+contains one gold ATT\&CK identifier and each system emits one identifier.
+Precision, recall, F1, and exact-match accuracy therefore coincide in this
+setting; to avoid redundant columns, we report exact-match accuracy together
+with output validity.
 
 \begin{table*}[t]
 \centering
 \small
-\caption{End-to-end 160-item CTIConnect ATT\&CK technique-attribution results.}
+\caption{End-to-end CTIConnect ATT\&CK technique-attribution results
+($n=160$). Accuracy is exact identifier match. All evaluated systems
+produced parseable outputs; ``--'' indicates that a configuration was not
+evaluated for this task.}
 \label{tab:ata-main}
-\begin{tabular}{@{}lcccc@{}}
+\begin{tabular}{@{}lrrr@{}}
 \toprule
-System & Exact set / F1 & Precision & Recall & API / parse failures \\
+System & Correct / $N$ & Accuracy (\%) $\uparrow$ & Valid outputs (\%) \\
 \midrule
-Closed Book                    & 56/160 (35.00\%) & 35.00\% & 35.00\% & 0/0 \\
-Unified RAG                    & 73/160 (45.63\%) & 45.63\% & 45.63\% & 0/0 \\
-Self-Critique RAG              & 75/160 (46.88\%) & 46.88\% & 46.88\% & 0/0 \\
-Adaptive-RAG-adapted           & 70/160 (43.75\%) & 43.75\% & 43.75\% & 0/0 \\
-TAdaRAG-adapted                & 75/160 (46.88\%) & 46.88\% & 46.88\% & 0/0 \\
-CTA-RAG                        & 75/160 (46.88\%) & 46.88\% & 46.88\% & 0/0 \\
-Entity-Guided Multi-Query RAG  & \textbf{79/160 (49.38\%)} &
-                                  \textbf{49.38\%} &
-                                  \textbf{49.38\%} & 0/0 \\
+Closed Book                    & 56/160 & 35.00 & 100.00 \\
+Unified RAG                    & 73/160 & 45.63 & 100.00 \\
+Self-Critique RAG              & 75/160 & 46.88 & 100.00 \\
+Entity-Guided Multi-Query RAG  & \textbf{79/160} & \textbf{49.38} & 100.00 \\
+Adaptive-RAG-adapted           & 70/160 & 43.75 & 100.00 \\
+Dual-Query RAG                 & -- & -- & -- \\
+TAdaRAG-adapted                & 75/160 & 46.88 & 100.00 \\
+CTA-RAG                        & 75/160 & 46.88 & 100.00 \\
 \bottomrule
 \end{tabular}
 \end{table*}
@@ -1444,20 +1450,22 @@ external RCM transfer and operational reliability.
 \begin{table*}[t]
 \centering
 \small
-\caption{Completed external CTIConnect RCM evaluation on 290 shared items. No unresolved API failures remain. Recorded parse validity is shown separately from correctness. The dataset-aware identifier scorer gives binary item F1 for the observed single-CWE predictions.}
+\caption{External CTIConnect root-cause mapping results ($n=290$).
+Accuracy denotes correct CWE mapping under the dataset-aware identifier
+scorer. Valid outputs measure parseability independently of correctness.}
 \label{tab:transfer}
 \setlength{\tabcolsep}{5pt}
 \begin{tabular}{@{}lrrr@{}}
 \toprule
-System & Correct & Mean F1 & Parse validity \\
+System & Correct / $N$ & Accuracy (\%) $\uparrow$ & Valid outputs (\%) \\
 \midrule
-Closed Book & 126/290 & 0.4345 & 67.59\% \\
-Unified RAG & 123/290 & 0.4241 & 78.62\% \\
-Self-Critique RAG & 124/290 & 0.4276 & 82.07\% \\
-Entity-Guided Multi-Query RAG & 110/290 & 0.3793 & 80.00\% \\
-Adaptive-RAG-adapted & 123/290 & 0.4241 & 78.62\% \\
-Dual-Query RAG & 119/290 & 0.4103 & 77.59\% \\
-CTA-RAG & 149/290 & 0.5138 & 97.59\% \\
+Closed Book & 126/290 & 43.45 & 67.59 \\
+Unified RAG & 123/290 & 42.41 & 78.62 \\
+Self-Critique RAG & 124/290 & 42.76 & 82.07 \\
+Entity-Guided Multi-Query RAG & 110/290 & 37.93 & 80.00 \\
+Adaptive-RAG-adapted & 123/290 & 42.41 & 78.62 \\
+Dual-Query RAG & 119/290 & 41.03 & 77.59 \\
+CTA-RAG & \textbf{149/290} & \textbf{51.38} & \textbf{97.59} \\
 \bottomrule
 \end{tabular}
 

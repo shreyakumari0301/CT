@@ -1,157 +1,192 @@
-# CTI-Chatbot (CTA-RAG)
+﻿# CTA-RAG — Cognitive-Task-Aware Retrieval-Augmented Generation
 
-Cognitive-Task-Aware RAG for cyber threat intelligence. This repo contains the
-specialist pipelines, the cascade router, and a **controlled multi-system
-benchmark** (CTA-RAG vs Closed Book / Unified / Self-RAG / GraphL / Adaptive / TAda).
+CTA-RAG is a task-conditional retrieval-augmented generation system for cyber threat intelligence (CTI). It routes an unlabelled analyst request to a specialist pipeline whose evidence source, prompt, decoding, parser, and evaluation contract match the requested decision.
 
----
+The repository contains the implementation, controlled benchmark runners, saved evaluation artifacts, and the paper manuscript.
+
+## What CTA-RAG does
+
+A single CTI queue may contain several different requests:
+
+```text
+MCQ question ──┐
+CWE mapping  ──┤
+CVSS scoring ──┼──▶ automatic router ──▶ one specialist ──▶ validated output
+ATT&CK extraction ─┤
+Actor attribution ─┘
+```
+
+The router selects one of five primary CTA-RAG specialists:
+
+| Specialist | Task | Output contract |
+|---|---|---|
+| Memorization | CTIBench MCQ | One answer letter (A–D) |
+| Understanding | CTIBench RCM | Primary CWE identifier |
+| Problem-solving | CTIBench VSP | Complete CVSS v3.1 vector |
+| Reasoning-ATE | CTIBench ATE | ATT&CK technique-ID set |
+| Reasoning-TAA | CTIBench TAA | Threat actor or family |
+
+The CTIConnect ATA experiment is an additional end-to-end attribution evaluation and is reported separately from the five-task primary router.
+
+## Architecture
+
+```text
+raw analyst query
+      │
+      ▼
+┌──────────────────────────────┐
+│ Cascade router               │
+│ regex → classifier → override│
+└──────────────┬───────────────┘
+               │ one task label
+   ┌───────────┼───────────┬───────────────┬──────────────┐
+   ▼           ▼           ▼               ▼              ▼
+ MCQ        RCM          VSP             ATE            TAA
+   │           │           │               │              │
+ task index  CTI KB   sanitized CVEs  ATT&CK store  actor store
+ task prompt CWE JSON CVSS rules      T-ID list     attribution
+   │           │           │               │              │
+   └───────────┴───────────┴───────────────┴──────────────┘
+                         ▼
+              schema parser + scorer
+```
+
+Only the selected specialist executes. Retrieval is task-scoped; output validation is deterministic where the contract permits it.
+
+## Repository layout
+
+```text
+classifier/
+  llm_classifier.py                 Router and fallback classifier
+pipelines/
+  memorization_pipeline.py          MCQ specialist
+  understanding_pipeline.py         RCM specialist
+  problem_solving_pipeline.py       VSP specialist
+  reasoning_ate_pipeline.py         ATE specialist
+  reasoning_taa_pipeline.py         TAA specialist
+  errors.py                          Pipeline/API error handling
+utils/
+  llm_client.py                     Shared model client
+  cve_sanitize.py                   CVE retrieval sanitization
+  taa_actor_retrieval.py             TAA candidate retrieval utilities
+eval/
+  run_ctibench.py                   CTIBench loader and dispatch
+  run_all_archs.py                  Controlled baseline runner
+  run_cta_only.py                   CTA-RAG runner
+  scoring.py                        Shared parsing and metrics
+  cticonnect_loader.py              CTIConnect loader
+  cticonnect_metrics.py             CTIConnect scoring
+  controlled_benchmark/              Resumable controlled experiments
+vector_dbs/                          Local FAISS indexes and metadata
+data/                               CTIBench and CTIConnect inputs
+eval_results/                        Saved predictions, manifests, and reports
+paper_results/main.tex               Main manuscript
+paper_results/references.bib         Bibliography
+paper_results/statistical_appendix.tex Supplementary statistical tables
+paper_results/figures/               Editable paper figures
+```
+
+Dataset files, vector indexes, API keys, and large run outputs are local assets and may be excluded from Git. Keep the exact dataset and index versions used for a run.
 
 ## Setup
 
+### Requirements
+
+- Python 3.10 or newer
+- OpenAI-compatible model credentials used by the configured client
+- FAISS and sentence-transformers for retrieval
+- LaTeX/pdflatex plus the Springer Nature `sn-jnl.cls` and `sn-mathphys-num.bst` files to compile the manuscript
+
+Create an environment and install dependencies:
+
 ```bash
-# From repo root
+git clone https://github.com/shreyakumari0301/CT.git
+cd CT
 python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
 pip install -r requirements.txt
-
-cp .env.example .env               # put OPENAI_API_KEY in .env (never commit .env)
-export PYTHONPATH=.
 ```
 
-CTIBench TSVs live under `data/` (see [xashru/cti-bench](https://github.com/xashru/cti-bench)).  
-FAISS indices live under `vector_dbs/`.
+Create `.env` from `.env.example` and add the model credentials required by the selected runner. Never commit `.env` or API keys.
 
----
+## Data and retrieval assets
 
-## Quick evaluation (what you usually want)
+Place the CTIBench task files and CTIConnect records under `data/` using the paths expected by the loaders. Place the corresponding FAISS indexes and metadata under `vector_dbs/`. Retrieval assets are not generated automatically by installing the package; they must be provisioned from the same corpus versions used in the evaluation.
 
-Two entry points wrap the controlled runner:
+The primary controls use dense FAISS retrieval. The reported CTIConnect ATA run uses the frozen entity-guided configuration with its configured retrieval strategy. Hybrid retrieval is an orthogonal experiment and should not be assumed for the primary CTIBench tables.
 
-| Goal | Command |
-|------|---------|
-| **CTA-RAG only** on one dataset | `python -m eval.run_cta_only --task rcm` |
-| **All architectures** on one dataset | `python -m eval.run_all_archs --task rcm` |
+## Running evaluations
 
-### 1) Run only CTA-RAG
+Run a small smoke test before a full experiment:
 
 ```bash
-# Smoke (50 items)
-python -m eval.run_cta_only --task rcm --n 50
-
-# Full CTIBench RCM (1000)
-python -m eval.run_cta_only --task rcm
-
-# Other tasks
-python -m eval.run_cta_only --task mcq --n 100
-python -m eval.run_cta_only --task vsp
-python -m eval.run_cta_only --task ate
-python -m eval.run_cta_only --task cticonnect_rcm
-
-# Diagnostic: force gold pipeline (oracle), not the live router
-python -m eval.run_cta_only --task rcm --n 50 --oracle
+python eval/controlled_benchmark/run_controlled_smoke.py
 ```
 
-### 2) Run all architectures on one dataset
-
-Example — compare every main-table system on **RCM**:
+Run a selected CTIBench task or architecture through the controlled harness:
 
 ```bash
-python -m eval.run_all_archs --task rcm --n 50     # smoke
-python -m eval.run_all_archs --task rcm            # full 1000
+python eval/run_ctibench.py
+python eval/run_all_archs.py
+python eval/run_cta_only.py
 ```
 
-Same pattern for other datasets:
+Full runs can be resumed with the staged controlled runner in `eval/controlled_benchmark/`. Keep worker-state files and manifests with the saved predictions. Do not mix outputs from different prompts, model versions, scorer versions, or corpus snapshots.
 
-```bash
-python -m eval.run_all_archs --task mcq --n 100
-python -m eval.run_all_archs --task vsp
-python -m eval.run_all_archs --task ate
-python -m eval.run_all_archs --task cticonnect_rcm
-python -m eval.run_all_archs --task cticonnect_ata
-```
+## Reported evaluation results
 
-Useful flags:
+The current manuscript reports the following end-to-end results. These values are descriptive point estimates; consult the manuscript and appendix for paired tests, confidence intervals, denominators, and limitations.
 
-```bash
-python -m eval.run_all_archs --task rcm --rag-only   # no Closed Book
-python -m eval.run_all_archs --task rcm --no-cta     # peers only
-python -m eval.run_all_archs --task rcm \
-  --systems closed_book,unified_rag,cta_rag_original_e2e
-```
+| Task | CTA-RAG result | Strongest reported comparator |
+|---|---:|---:|
+| CTIBench MCQ | 74.84% | Adaptive-RAG-adapted: 75.48% |
+| CTIBench RCM | 73.40% | CTA-RAG: 73.40% |
+| CTIBench VSP | MAD 1.0990 | CTA-RAG: 1.0990 |
+| CTIBench ATE | F1 0.9554 | CTA-RAG: 0.9554 |
+| CTIBench TAA | 25/50 benchmark-compatible | Entity-Guided Multi-Query RAG: 37/50 |
+| CTIConnect ATA | 75/160 | Entity-Guided Multi-Query RAG: 79/160 |
+| CTIConnect RCM | 149/290 | CTA-RAG: 149/290 |
 
-### Tasks / full sizes
+Automatic routing selects the expected specialist for 4,550/4,560 primary CTIBench items (99.78%). This measures routing under benchmark instructions and does not establish robustness to paraphrased or unconstrained analyst requests.
 
-| `--task` | Benchmark | Full `n` | Metric |
-|----------|-----------|----------|--------|
-| `mcq` | CTIBench MCQ | 2500 | Acc ↑ |
-| `rcm` | CTIBench RCM | 1000 | Acc ↑ |
-| `vsp` | CTIBench VSP | 1000 | MAD ↓ |
-| `ate` | CTIBench ATE | 60 | F1 ↑ |
-| `cticonnect_rcm` | CTIConnect RCM | 290 | F1 ↑ |
-| `cticonnect_ata` | CTIConnect ATA | 160 | F1 ↑ |
+## Manuscript
 
-### Systems (main table)
-
-`closed_book` · `unified_rag` · `self_rag_inspired` · `graphrag_local` ·  
-`adaptive_rag_adapted` · `tadarag_inspired` · `cta_rag_original_e2e`
-
-Protocol defaults: `gpt-4-turbo`, temperature `0`, `USE_OPENROUTER=0`, resume on.
-
----
-
-## Where results go
+The main paper is `paper_results/main.tex`. The manuscript uses the Springer Nature class and bibliography style:
 
 ```text
-tcar/eval_results/controlled_benchmark/full/<system>/<task>.jsonl
+paper_results/sn-jnl.cls
+paper_results/sn-mathphys-num.bst
+paper_results/references.bib
 ```
 
-Print a live scoreboard:
+Compile with pdfLaTeX and BibTeX after placing the Springer template files beside `main.tex`:
 
 ```bash
-python tcar/eval/controlled_benchmark/print_results_table.py
+cd paper_results
+pdflatex main.tex
+bibtex main
+pdflatex main.tex
+pdflatex main.tex
 ```
 
----
+The editable CTA-RAG architecture figure is in `paper_results/figures/`. Paper diagrams should remain editable TikZ/SVG sources; use the installed `paper-figure-creation` skill for new figures and plots.
 
-## Lower-level runner (optional)
+## Reproducibility
 
-The wrappers call:
+Saved runs should retain item-level predictions, normalized outputs, prompt versions, model identifiers, corpus/index fingerprints, route decisions, parser status, and analysis seeds. Statistics must be recomputed from frozen records rather than manually transcribed table values. API generation can vary across model revisions, so paired intervals describe item-sampling uncertainty rather than repeated-generation variability.
 
-```bash
-python -u tcar/eval/controlled_benchmark/run_controlled_staged.py \
-  --task-worker --task rcm --n 1000 \
-  --systems closed_book,unified_rag,...,cta_rag_original_e2e \
-  --budget-usd 900
-```
+## Known limitations
 
-Legacy CTA-RAG oracle (older path):
+- The primary benchmark is CTIBench; external transfer is evaluated on selected CTIConnect tasks.
+- TAA and ATA use distinct attribution contracts and should not be read as uniform transfer evidence.
+- Baselines are local mechanism adaptations, not necessarily full reproductions of upstream trained systems.
+- Retrieval, prompting, routing, and parsing vary together in the complete-system comparison.
+- Query-time sanitization does not prove index independence or resistance to poisoning and prompt injection.
+- The candidate-inclusion TAA diagnostic is post-hoc and exploratory; it is not a replacement for the reported end-to-end CTA-RAG score.
 
-```bash
-python -m eval.run_ctibench --route_mode oracle --task rcm --limit 50
-```
+## License and attribution
 
----
-
-## Repo layout (code you care about)
-
-```text
-pipelines/          # CTA specialist pipelines
-classifier/         # cascade router
-eval/
-  run_cta_only.py   # CTA-RAG only
-  run_all_archs.py  # all architectures × one dataset
-  run_ctibench.py   # legacy CTIBench runner
-tcar/eval/controlled_benchmark/   # controlled multi-system protocol
-vector_dbs/         # FAISS indices
-data/               # CTIBench TSVs (local)
-```
-
-Eval dumps under `tcar/eval_results/` and `eval_results/` are **gitignored** — keep them local.
-
----
-
-## Notes
-
-- Do not commit `.env` or API keys.
-- One OpenAI worker is safer under rate limits; parallelize only when quota allows.
-- CTA-E2E uses the live router; `--oracle` is diagnostic only (not the main paper table).
+This repository is an internal research implementation. It uses FAISS, sentence-transformers, CTIBench, CTIConnect, MITRE ATT&CK, CWE/NVD content, and model-provider APIs. Respect the licenses and terms of each source when redistributing datasets, indexes, or reports.
