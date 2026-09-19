@@ -53,6 +53,32 @@ raw analyst query
 
 Only the selected specialist executes. Retrieval is task-scoped; output validation is deterministic where the contract permits it.
 
+### TAA pipeline
+
+The CTIBench threat-actor attribution specialist is the `reasoning_taa`
+pipeline. It performs attribution in six observable steps:
+
+```text
+unlabelled report
+      ↓
+router selects reasoning_taa
+      ↓
+behavioural clue extraction
+      ↓
+report + clues form an enriched query
+      ↓
+top-3 retrieval from the intrusion-set / actor store
+      ↓
+actor or family attribution
+      ↓
+canonical actor parsing and TAA scoring
+```
+
+The generator receives the retrieved actor evidence and produces one actor or
+family name. Evaluation records both benchmark-compatible matching and strict
+canonical identity. The candidate-inclusion retrieval audit is exploratory and
+does not replace the reported end-to-end CTA-RAG TAA result.
+
 ## Repository layout
 
 ```text
