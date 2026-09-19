@@ -150,7 +150,7 @@ The current manuscript reports the following end-to-end results. These values ar
 | CTIConnect ATA | 75/160 | Entity-Guided Multi-Query RAG: 79/160 |
 | CTIConnect RCM | 149/290 | CTA-RAG: 149/290 |
 
-Automatic routing selects the expected specialist for 4,550/4,560 primary CTIBench items (99.78%). This measures routing under benchmark instructions and does not establish robustness to paraphrased or unconstrained analyst requests.
+Automatic routing selects the expected specialist for 4,550/4,560 primary CTIBench items (99.78%). This measures routing under benchmark instructions and does not establish robustness to paraphrased or unconstrained analyst requests. The existing TAA/ATA outputs stored under the internal `tadarag_inspired` directory correspond to the paper's Dual-Query RAG row; internal directory names are not paper method names.
 
 ## Manuscript
 

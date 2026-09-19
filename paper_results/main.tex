@@ -515,7 +515,7 @@ Reasoning & CTI-TAA & $n{=}50$ anonymised intelligence reports; attribute the ac
 The shared-corpus controls use dense retrieval through FAISS \citep{johnson2019billion} and sentence-transformer embeddings \citep{reimers2019sentence}. CTA-RAG selects task-specific sources, including CTI reporting, weakness knowledge, sanitized vulnerability descriptions, and ATT\&CK technique or intrusion-set records. The primary weakness configuration disables the optional catalogue arm. Hybrid BM25--dense retrieval is an orthogonal ablation and is not evaluated in the reported main results. Changes in evidence, instructions, and output handling are evaluated jointly rather than treated as isolated causes.
 
 \subsection{Controlled baselines}\label{sec:baselines}
-The seven locally evaluated systems are Closed Book, Unified RAG, Self-Critique RAG, Entity-Guided Multi-Query RAG, Adaptive-RAG-adapted, Dual-Query RAG, and CTA-RAG. The four retrieval-adaptive controls implement selected mechanisms motivated by prior work \citep{asai2023selfrag,edge2024graphrag,jeong2024adaptive,zhang2026tadarag}; they are not full reproductions with the upstream trained checkpoints. All columns come from local item-level predictions and are rescored with a common parser and alias policy. In the attribution audit, the local GraphRAG adaptation produced the same prompt and evidence-size traces as Unified RAG on all 50 items and differed in only one prediction; it is therefore treated as a fallback implementation rather than independent GraphRAG evidence.
+The seven locally evaluated systems are Closed Book, Unified RAG, Self-Critique RAG, Entity-Guided Multi-Query RAG, Adaptive-RAG-adapted, Dual-Query RAG, and CTA-RAG. The four retrieval-adaptive controls implement selected mechanisms motivated by prior work \citep{asai2023selfrag,edge2024graphrag,jeong2024adaptive,zhang2026tadarag}; they are not full reproductions with the upstream trained checkpoints. All columns come from local item-level predictions and are rescored with a common parser and alias policy. In the attribution audit, the local Entity-Guided Multi-Query implementation produced the same prompt and evidence-size traces as Unified RAG on all 50 items and differed in only one prediction; it is therefore interpreted as a local mechanism implementation rather than evidence for an upstream architecture.
 
 \subsection{Evaluation protocol and leakage controls}\label{sec:integrity}
 CTA-RAG uses automatic router selection without oracle task labels in the main runs. Task scores and route accuracy are reported separately. Full attempted denominators are 2,500 MCQ, 1,000 RCM, 1,000 VSP, and 60 ATE items. Invalid categorical outputs count as incorrect; invalid severity vectors and unresolved operational failures receive an error penalty of 10. Paired tests, uncertainty intervals, and multiplicity correction are specified in Section~\ref{sec:main-results}.
@@ -1360,7 +1360,7 @@ predictions and introduce plausible but incorrect identifiers.
 \paragraph{Threat-actor attribution (TAA).}
 The 50-item TAA evaluation exposes a limitation of the current specialist.
 CTA-RAG obtains 25/50 benchmark-compatible matches (50.0\%), compared with
-37/50 for Entity-Guided Multi-Query RAG and 36/50 for TAdaRAG-adapted.
+37/50 for Entity-Guided Multi-Query RAG and 36/50 for Dual-Query RAG.
 Thus, the specialist advantage observed on RCM, VSP, and ATE does not
 extend to threat-actor attribution.
 
@@ -1381,15 +1381,15 @@ Unified RAG                    & 70.00 & 70.00 \\
 Self-Critique RAG              & 70.00 & 70.00 \\
 Entity-Guided Multi-Query RAG  & \textbf{74.00} & 66.00 \\
 Adaptive-RAG-adapted           & 68.00 & 68.00 \\
-Dual-Query RAG                 & -- & -- \\
-TAdaRAG-adapted                & 72.00 & \textbf{72.00} \\
+Dual-Query RAG                 & 72.00 & \textbf{72.00} \\
+TAdaRAG-adapted                & -- & -- \\
 CTA-RAG                        & 50.00 & 46.00 \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
 Trace analysis points to candidate recall as the primary bottleneck. Among
-12 items solved by TAdaRAG but missed by CTA-RAG, the gold actor is absent
+12 items solved by Dual-Query RAG but missed by CTA-RAG, the gold actor is absent
 from CTA-RAG's top-10 candidates in nine cases and appears within the top
 three in only one. The post-hoc candidate-inclusion modification therefore
 requires validation on a new held-out set and is not included in the
@@ -1419,15 +1419,15 @@ Unified RAG                    & 73/160 & 45.63 & 100.00 \\
 Self-Critique RAG              & 75/160 & 46.88 & 100.00 \\
 Entity-Guided Multi-Query RAG  & \textbf{79/160} & \textbf{49.38} & 100.00 \\
 Adaptive-RAG-adapted           & 70/160 & 43.75 & 100.00 \\
-Dual-Query RAG                 & -- & -- & -- \\
-TAdaRAG-adapted                & 75/160 & 46.88 & 100.00 \\
+Dual-Query RAG                 & 75/160 & 46.88 & 100.00 \\
+TAdaRAG-adapted                & -- & -- & -- \\
 CTA-RAG                        & 75/160 & 46.88 & 100.00 \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
 Entity-Guided Multi-Query RAG obtains the highest point estimate at
-79/160 (49.38\%), while CTA-RAG, Self-Critique RAG, and TAdaRAG-adapted
+79/160 (49.38\%), while CTA-RAG, Self-Critique RAG, and Dual-Query RAG
 each obtain 75/160 (46.88\%). CTA-RAG therefore does not dominate uniformly
 across attribution tasks.
 
