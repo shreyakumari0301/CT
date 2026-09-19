@@ -550,30 +550,30 @@ benefit of specialization is task-dependent.
 \begin{table*}[t]
 \centering
 \small
-\caption{Full-attempt CTIBench results. MCQ and RCM are reported as
-accuracy percentages, ATE as mean per-instance F1, and VSP as CVSS
-base-score MAD, where lower is better. Invalid vectors and unresolved API
+\caption{Full-attempt CTIBench results. MCQ, RCM, and TAA are reported as
+benchmark-compatible accuracy percentages, ATE as mean per-instance F1,
+and VSP as CVSS base-score MAD, where lower is better. Invalid vectors and unresolved API
 failures receive an error of 10 in the primary VSP evaluation. Bold denotes
 the best point estimate and does not imply statistical significance.}
 \label{tab:main}
 \setlength{\tabcolsep}{5pt}
-\begin{tabular}{@{}lrrrr@{}}
+\begin{tabular}{@{}lrrrrr@{}}
 \toprule
-System & MCQ $\uparrow$ & RCM $\uparrow$ & VSP $\downarrow$ & ATE $\uparrow$ \\
+System & MCQ $\uparrow$ & RCM $\uparrow$ & VSP $\downarrow$ & ATE $\uparrow$ & TAA $\uparrow$ \\
 \midrule
-Closed Book                    & 71.00 & 68.90 & 1.3302 & 0.4149 \\
-Unified RAG                    & 73.92 & 68.70 & 1.2638 & 0.9167 \\
-Self-Critique RAG              & 74.00 & 69.40 & 1.2531 & 0.9178 \\
-Entity-Guided Multi-Query RAG  & 74.16 & 68.80 & 1.3043 & 0.9178 \\
-Adaptive-RAG-adapted           & \textbf{75.48} & 69.50 & 1.2170 & 0.9133 \\
-Dual-Query RAG                 & 74.48 & 69.20 & 1.3297 & 0.9158 \\
-CTA-RAG                        & 74.84 & \textbf{73.40} & \textbf{1.0990} & \textbf{0.9554} \\
+Closed Book                    & 71.00 & 68.90 & 1.3302 & 0.4149 & 46.00 \\
+Unified RAG                    & 73.92 & 68.70 & 1.2638 & 0.9167 & 70.00 \\
+Self-Critique RAG              & 74.00 & 69.40 & 1.2531 & 0.9178 & 70.00 \\
+Entity-Guided Multi-Query RAG  & 74.16 & 68.80 & 1.3043 & 0.9178 & \textbf{74.00} \\
+Adaptive-RAG-adapted           & \textbf{75.48} & 69.50 & 1.2170 & 0.9133 & 68.00 \\
+Dual-Query RAG                 & 74.48 & 69.20 & 1.3297 & 0.9158 & 72.00 \\
+CTA-RAG                        & 74.84 & \textbf{73.40} & \textbf{1.0990} & \textbf{0.9554} & 50.00 \\
 \bottomrule
 \end{tabular}
 \par\smallskip
 \footnotesize
 The task sizes are $n=2{,}500$ for MCQ, $n=1{,}000$ for RCM,
-$n=1{,}000$ for VSP, and $n=60$ for ATE. Closed Book denotes our local
+$n=1{,}000$ for VSP, $n=60$ for ATE, and $n=50$ for TAA. Closed Book denotes our local
 no-retrieval run; the remaining baseline names describe the mechanisms
 implemented under the controlled protocol.
 \end{table*}
@@ -1369,8 +1369,7 @@ extend to threat-actor attribution.
 \small
 \caption{End-to-end 50-item CTIBench threat-actor attribution results
 ($n=50$). Benchmark-compatible accuracy follows the benchmark scorer;
-strict accuracy requires canonical actor identity. ``--'' indicates that a
-configuration was not evaluated for this task.}
+ strict accuracy requires canonical actor identity.}
 \label{tab:taa-main}
 \begin{tabular}{@{}lrr@{}}
 \toprule
@@ -1382,7 +1381,6 @@ Self-Critique RAG              & 70.00 & 70.00 \\
 Entity-Guided Multi-Query RAG  & \textbf{74.00} & 66.00 \\
 Adaptive-RAG-adapted           & 68.00 & 68.00 \\
 Dual-Query RAG                 & 72.00 & \textbf{72.00} \\
-TAdaRAG-adapted                & -- & -- \\
 CTA-RAG                        & 50.00 & 46.00 \\
 \bottomrule
 \end{tabular}
@@ -1407,8 +1405,7 @@ with output validity.
 \small
 \caption{End-to-end CTIConnect ATT\&CK technique-attribution results
 ($n=160$). Accuracy is exact identifier match. All evaluated systems
-produced parseable outputs; ``--'' indicates that a configuration was not
-evaluated for this task.}
+produced parseable outputs.}
 \label{tab:ata-main}
 \begin{tabular}{@{}lrrr@{}}
 \toprule
@@ -1420,7 +1417,6 @@ Self-Critique RAG              & 75/160 & 46.88 & 100.00 \\
 Entity-Guided Multi-Query RAG  & \textbf{79/160} & \textbf{49.38} & 100.00 \\
 Adaptive-RAG-adapted           & 70/160 & 43.75 & 100.00 \\
 Dual-Query RAG                 & 75/160 & 46.88 & 100.00 \\
-TAdaRAG-adapted                & -- & -- & -- \\
 CTA-RAG                        & 75/160 & 46.88 & 100.00 \\
 \bottomrule
 \end{tabular}
