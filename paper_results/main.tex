@@ -1380,7 +1380,8 @@ predicts \texttt{CWE-732}. Thus, retrieval can both remove unsupported
 predictions and introduce plausible but incorrect identifiers.
 
 \paragraph{Threat-actor attribution (TAA).}
-The 50-item TAA evaluation exposes a limitation of the current specialist.
+The 50-item TAA evaluation exposes a limitation of the current specialist
+(Table~\ref{tab:taa-main}).
 CTA-RAG obtains 25/50 benchmark-compatible matches (50.0\%), compared with
 37/50 for Entity-Guided Multi-Query RAG and 36/50 for Dual-Query RAG.
 Thus, the specialist advantage observed on RCM, VSP, and ATE does not
@@ -1417,7 +1418,7 @@ reported CTA-RAG score.
 
 \paragraph{ATT\&CK technique attribution (ATA).}
 We additionally evaluate 160 CTIConnect ATA items end-to-end in this RQ3
-analysis (Section~\ref{sec:ablations}). Each item
+analysis (Table~\ref{tab:ata-main}; Section~\ref{sec:ablations}). Each item
 contains one gold ATT\&CK identifier and each system emits one identifier.
 Precision, recall, F1, and exact-match accuracy therefore coincide in this
 setting; to avoid redundant columns, we report exact-match accuracy together
@@ -1459,7 +1460,8 @@ extend uniformly to TAA or ATA.
     
 \subsection{External RCM transfer and operational reliability}\label{sec:transfer}
 
-The external RCM evaluation covers 290 matched CTIConnect items. Every
+The external RCM evaluation covers 290 matched CTIConnect items
+(Table~\ref{tab:transfer}). Every
 system is evaluated on the same item IDs and reference mappings. The
 dataset's identifier scorer accepts declared alternative targets; with the
 single-primary-CWE outputs observed in these runs, per-item F1 is binary.
