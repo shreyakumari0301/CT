@@ -1202,6 +1202,11 @@ answers, whereas both misrouted MCQ items are answered correctly. The result
 therefore demonstrates reliable routing under the structured benchmark
 instructions, but does not establish robustness to paraphrased,
 conversational, underspecified, or content-only requests.
+The remaining ten cases are route-selection errors: two occur in MCQ and
+eight in RCM, while VSP and ATE are routed correctly throughout. They are
+separate from API and parsing failures. Because the run manifest records the
+selected and expected routes but not item-level explanations, these errors
+cannot be attributed to a specific heuristic or wording cue.
 
 \subsection{RQ3: When does retrieval help or hurt?}
 \label{sec:ablations}
