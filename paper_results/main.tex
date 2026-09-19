@@ -1398,14 +1398,17 @@ We additionally evaluate 160 CTIConnect ATA items end-to-end. Each item
 contains one gold ATT\&CK identifier and each system emits one identifier.
 Precision, recall, F1, and exact-match accuracy therefore coincide in this
 setting; to avoid redundant columns, we report exact-match accuracy together
-with output validity.
+with output validity. All 160 items produced a parseable answer for every
+system, so the reported 100.00\% validity corresponds to zero API or parse
+failures in this evaluation.
 
 \begin{table*}[t]
 \centering
 \small
 \caption{End-to-end CTIConnect ATT\&CK technique-attribution results
 ($n=160$). Accuracy is exact identifier match. All evaluated systems
-produced parseable outputs.}
+produced parseable outputs; 100.00\% validity denotes zero API or parse
+failures.}
 \label{tab:ata-main}
 \begin{tabular}{@{}lrrr@{}}
 \toprule
