@@ -1192,14 +1192,16 @@ for most of the improvement on ATE.
 \subsection{RQ2: Can the appropriate specialist be selected automatically?}
 \label{sec:robustness}
 
-CTA-RAG selects the expected specialist for 4,550/4,560 items (99.78\%):
-2,498/2,500 MCQ, 992/1,000 RCM, and all VSP and ATE items. Routing accuracy
-is distinct from answer accuracy: seven of eight misrouted RCM items are
-incorrect, whereas both misrouted MCQ items are answered correctly.
-
-These results establish reliable routing under the benchmark instructions,
-but not robustness to paraphrased, conversational, underspecified, or
-content-only requests.
+\paragraph{Automatic routing.}
+CTA-RAG selects the expected specialist for 4,550 of 4,560 CTIBench items
+(99.78\%): 2,498 of 2,500 MCQ items, 992 of 1,000 RCM items, and all VSP
+and ATE items. These results are obtained using the automatic router rather
+than benchmark-provided task labels. Routing accuracy is distinct from
+answer accuracy: seven of the eight misrouted RCM items produce incorrect
+answers, whereas both misrouted MCQ items are answered correctly. The result
+therefore demonstrates reliable routing under the structured benchmark
+instructions, but does not establish robustness to paraphrased,
+conversational, underspecified, or content-only requests.
 
 \subsection{RQ3: When does retrieval help or hurt?}
 \label{sec:ablations}
