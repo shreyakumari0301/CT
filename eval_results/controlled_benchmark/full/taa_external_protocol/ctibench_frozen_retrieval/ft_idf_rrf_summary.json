@@ -1,0 +1,1063 @@
+{
+  "n": 50,
+  "method": "fixed RRF of frozen FT-MiniLM and existing IDF rankings",
+  "metrics": {
+    "Recall@1": 0.44,
+    "Recall@3": 0.56,
+    "Recall@10": 0.64,
+    "MRR@10": 0.5035555555555555
+  },
+  "rows": [
+    {
+      "id": "taa-0",
+      "gold": "SideCopy",
+      "ranking": [
+        "Transparent Tribe",
+        "SideCopy",
+        "Kimsuky",
+        "APT-C-36",
+        "Mustang Panda",
+        "Contagious Interview",
+        "Aquatic Panda",
+        "EXOTIC LILY",
+        "MuddyWater",
+        "APT19"
+      ],
+      "top3": [
+        "Transparent Tribe",
+        "SideCopy",
+        "Kimsuky"
+      ]
+    },
+    {
+      "id": "taa-1",
+      "gold": "MUSTANG PANDA",
+      "ranking": [
+        "Mustang Panda",
+        "Daggerfly",
+        "Axiom",
+        "APT3",
+        "Cinnamon Tempest",
+        "Andariel",
+        "Threat Group-3390",
+        "HAFNIUM",
+        "LuminousMoth",
+        "Magic Hound"
+      ],
+      "top3": [
+        "Mustang Panda",
+        "Daggerfly",
+        "Axiom"
+      ]
+    },
+    {
+      "id": "taa-2",
+      "gold": "MUSTANG PANDA",
+      "ranking": [
+        "Mustang Panda",
+        "APT41",
+        "Leviathan",
+        "Threat Group-3390",
+        "GALLIUM",
+        "ToddyCat",
+        "menuPass",
+        "Earth Lusca",
+        "APT29",
+        "Aquatic Panda"
+      ],
+      "top3": [
+        "Mustang Panda",
+        "APT41",
+        "Leviathan"
+      ]
+    },
+    {
+      "id": "taa-3",
+      "gold": "MUMMY SPIDER",
+      "ranking": [
+        "FIN7",
+        "HAFNIUM",
+        "Magic Hound",
+        "Scattered Spider",
+        "ShinyHunters",
+        "Storm-1811",
+        "APT28",
+        "Andariel",
+        "APT32",
+        "Winter Vivern"
+      ],
+      "top3": [
+        "FIN7",
+        "HAFNIUM",
+        "Magic Hound"
+      ]
+    },
+    {
+      "id": "taa-4",
+      "gold": "Dark Caracal",
+      "ranking": [
+        "Dark Caracal",
+        "APT18",
+        "BRONZE BUTLER",
+        "GALLIUM",
+        "Orangeworm",
+        "Volt Typhoon",
+        "menuPass",
+        "APT-C-23",
+        "BlackByte",
+        "APT-C-36"
+      ],
+      "top3": [
+        "Dark Caracal",
+        "APT18",
+        "BRONZE BUTLER"
+      ]
+    },
+    {
+      "id": "taa-5",
+      "gold": "APT19",
+      "ranking": [
+        "LuminousMoth",
+        "Cobalt Group",
+        "Sandworm Team",
+        "Leviathan",
+        "Naikon",
+        "APT29",
+        "TA505",
+        "Mustang Panda",
+        "Magic Hound",
+        "RedCurl"
+      ],
+      "top3": [
+        "LuminousMoth",
+        "Cobalt Group",
+        "Sandworm Team"
+      ]
+    },
+    {
+      "id": "taa-6",
+      "gold": "APT19",
+      "ranking": [
+        "Storm-1811",
+        "Wizard Spider",
+        "Fox Kitten",
+        "Scattered Spider",
+        "FIN7",
+        "TA551",
+        "Kimsuky",
+        "GOLD SOUTHFIELD",
+        "Sandworm Team",
+        "EXOTIC LILY"
+      ],
+      "top3": [
+        "Storm-1811",
+        "Wizard Spider",
+        "Fox Kitten"
+      ]
+    },
+    {
+      "id": "taa-7",
+      "gold": "APT-C-36",
+      "ranking": [
+        "APT-C-36",
+        "Kimsuky",
+        "TA2541",
+        "BRONZE BUTLER",
+        "menuPass",
+        "Gorgon Group",
+        "LazyScripter",
+        "Patchwork",
+        "APT3",
+        "GALLIUM"
+      ],
+      "top3": [
+        "APT-C-36",
+        "Kimsuky",
+        "TA2541"
+      ]
+    },
+    {
+      "id": "taa-8",
+      "gold": "APT-C-36",
+      "ranking": [
+        "APT-C-36",
+        "Kimsuky",
+        "Patchwork",
+        "LazyScripter",
+        "APT28",
+        "Gorgon Group",
+        "menuPass",
+        "Contagious Interview",
+        "BackdoorDiplomacy",
+        "ShinyHunters"
+      ],
+      "top3": [
+        "APT-C-36",
+        "Kimsuky",
+        "Patchwork"
+      ]
+    },
+    {
+      "id": "taa-9",
+      "gold": "Turla",
+      "ranking": [
+        "Mustang Panda",
+        "APT41",
+        "Cobalt Group",
+        "Earth Lusca",
+        "Sidewinder",
+        "UNC3886",
+        "Winter Vivern",
+        "Leviathan",
+        "Medusa Group",
+        "Contagious Interview"
+      ],
+      "top3": [
+        "Mustang Panda",
+        "APT41",
+        "Cobalt Group"
+      ]
+    },
+    {
+      "id": "taa-10",
+      "gold": "Turla",
+      "ranking": [
+        "APT19",
+        "Medusa Group",
+        "APT32",
+        "Daggerfly",
+        "APT28",
+        "Blue Mockingbird",
+        "APT18",
+        "Kimsuky",
+        "Cobalt Group",
+        "TeamTNT"
+      ],
+      "top3": [
+        "APT19",
+        "Medusa Group",
+        "APT32"
+      ]
+    },
+    {
+      "id": "taa-11",
+      "gold": "APT28",
+      "ranking": [
+        "Threat Group-3390",
+        "BRONZE BUTLER",
+        "GALLIUM",
+        "APT18",
+        "Volt Typhoon",
+        "menuPass",
+        "Orangeworm",
+        "APT-C-36",
+        "OilRig",
+        "APT32"
+      ],
+      "top3": [
+        "Threat Group-3390",
+        "BRONZE BUTLER",
+        "GALLIUM"
+      ]
+    },
+    {
+      "id": "taa-12",
+      "gold": "APT28",
+      "ranking": [
+        "APT-C-36",
+        "Ember Bear",
+        "APT19",
+        "RedCurl",
+        "APT28",
+        "Sidewinder",
+        "APT29",
+        "Winter Vivern",
+        "APT3",
+        "HEXANE"
+      ],
+      "top3": [
+        "APT-C-36",
+        "Ember Bear",
+        "APT19"
+      ]
+    },
+    {
+      "id": "taa-13",
+      "gold": "UNC2452",
+      "ranking": [
+        "APT29",
+        "Magic Hound",
+        "APT28",
+        "Kimsuky",
+        "BlackByte",
+        "VOID MANTICORE",
+        "Gamaredon Group",
+        "Silent Librarian",
+        "Ember Bear",
+        "Strider"
+      ],
+      "top3": [
+        "APT29",
+        "Magic Hound",
+        "APT28"
+      ]
+    },
+    {
+      "id": "taa-14",
+      "gold": "UNC2452",
+      "ranking": [
+        "Storm-1811",
+        "GOLD SOUTHFIELD",
+        "MuddyWater",
+        "Scattered Spider",
+        "APT19",
+        "APT29",
+        "APT32",
+        "APT41",
+        "Earth Lusca",
+        "ShinyHunters"
+      ],
+      "top3": [
+        "Storm-1811",
+        "GOLD SOUTHFIELD",
+        "MuddyWater"
+      ]
+    },
+    {
+      "id": "taa-15",
+      "gold": "CHRYSENE",
+      "ranking": [
+        "OilRig",
+        "HEXANE",
+        "Magic Hound",
+        "GALLIUM",
+        "Kimsuky",
+        "menuPass",
+        "BRONZE BUTLER",
+        "RedCurl",
+        "APT18",
+        "Sandworm Team"
+      ],
+      "top3": [
+        "OilRig",
+        "HEXANE",
+        "Magic Hound"
+      ]
+    },
+    {
+      "id": "taa-16",
+      "gold": "CHRYSENE",
+      "ranking": [
+        "APT-C-36",
+        "APT32",
+        "HAFNIUM",
+        "VOID MANTICORE",
+        "APT28",
+        "Kimsuky",
+        "CURIUM",
+        "Turla",
+        "Axiom",
+        "EXOTIC LILY"
+      ],
+      "top3": [
+        "APT-C-36",
+        "APT32",
+        "HAFNIUM"
+      ]
+    },
+    {
+      "id": "taa-17",
+      "gold": "APT41",
+      "ranking": [
+        "BRONZE BUTLER",
+        "APT3",
+        "Kimsuky",
+        "GALLIUM",
+        "menuPass",
+        "Volt Typhoon",
+        "APT-C-36",
+        "APT18",
+        "APT32",
+        "Orangeworm"
+      ],
+      "top3": [
+        "BRONZE BUTLER",
+        "APT3",
+        "Kimsuky"
+      ]
+    },
+    {
+      "id": "taa-18",
+      "gold": "lazarus",
+      "ranking": [
+        "Lazarus Group",
+        "Andariel",
+        "Volt Typhoon",
+        "APT32",
+        "menuPass",
+        "BRONZE BUTLER",
+        "Scattered Spider",
+        "APT18",
+        "Mustang Panda",
+        "GALLIUM"
+      ],
+      "top3": [
+        "Lazarus Group",
+        "Andariel",
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "id": "taa-19",
+      "gold": "Kimsuky",
+      "ranking": [
+        "Kimsuky",
+        "AppleJeus",
+        "Cobalt Group",
+        "Andariel",
+        "APT37",
+        "ShinyHunters",
+        "APT33",
+        "Dragonfly",
+        "Scattered Spider",
+        "Contagious Interview"
+      ],
+      "top3": [
+        "Kimsuky",
+        "AppleJeus",
+        "Cobalt Group"
+      ]
+    },
+    {
+      "id": "taa-20",
+      "gold": "Kimsuky",
+      "ranking": [
+        "menuPass",
+        "Kimsuky",
+        "APT32",
+        "APT42",
+        "Volt Typhoon",
+        "APT18",
+        "Mustang Panda",
+        "APT39",
+        "BRONZE BUTLER",
+        "GALLIUM"
+      ],
+      "top3": [
+        "menuPass",
+        "Kimsuky",
+        "APT32"
+      ]
+    },
+    {
+      "id": "taa-21",
+      "gold": "APT36",
+      "ranking": [
+        "SideCopy",
+        "HAFNIUM",
+        "MuddyWater",
+        "Axiom",
+        "Kimsuky",
+        "Andariel",
+        "FIN7",
+        "Magic Hound",
+        "Patchwork",
+        "APT-C-36"
+      ],
+      "top3": [
+        "SideCopy",
+        "HAFNIUM",
+        "MuddyWater"
+      ]
+    },
+    {
+      "id": "taa-22",
+      "gold": "APT35",
+      "ranking": [
+        "Magic Hound",
+        "APT28",
+        "Kimsuky",
+        "APT39",
+        "Mustang Panda",
+        "Dragonfly",
+        "ShinyHunters",
+        "Medusa Group",
+        "Sandworm Team",
+        "HAFNIUM"
+      ],
+      "top3": [
+        "Magic Hound",
+        "APT28",
+        "Kimsuky"
+      ]
+    },
+    {
+      "id": "taa-23",
+      "gold": "MuddyWater",
+      "ranking": [
+        "Magic Hound",
+        "MuddyWater",
+        "VOID MANTICORE",
+        "APT-C-36",
+        "APT18",
+        "HAFNIUM",
+        "RedCurl",
+        "Scattered Spider",
+        "Sandworm Team",
+        "INC Ransom"
+      ],
+      "top3": [
+        "Magic Hound",
+        "MuddyWater",
+        "VOID MANTICORE"
+      ]
+    },
+    {
+      "id": "taa-24",
+      "gold": "MuddyWater",
+      "ranking": [
+        "BRONZE BUTLER",
+        "APT3",
+        "Volt Typhoon",
+        "Kimsuky",
+        "GALLIUM",
+        "menuPass",
+        "Inception",
+        "APT18",
+        "Leviathan",
+        "Orangeworm"
+      ],
+      "top3": [
+        "BRONZE BUTLER",
+        "APT3",
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "id": "taa-25",
+      "gold": "CharmingCypress",
+      "ranking": [
+        "Magic Hound",
+        "MuddyWater",
+        "APT42",
+        "BRONZE BUTLER",
+        "GALLIUM",
+        "WIRTE",
+        "Volt Typhoon",
+        "APT18",
+        "Wizard Spider",
+        "APT-C-36"
+      ],
+      "top3": [
+        "Magic Hound",
+        "MuddyWater",
+        "APT42"
+      ]
+    },
+    {
+      "id": "taa-26",
+      "gold": "Mint Sandstorm",
+      "ranking": [
+        "Magic Hound",
+        "APT42",
+        "Kimsuky",
+        "Fox Kitten",
+        "Inception",
+        "APT29",
+        "DarkHydrus",
+        "Ember Bear",
+        "Molerats",
+        "Dragonfly"
+      ],
+      "top3": [
+        "Magic Hound",
+        "APT42",
+        "Kimsuky"
+      ]
+    },
+    {
+      "id": "taa-27",
+      "gold": "APT31",
+      "ranking": [
+        "Mustang Panda",
+        "Threat Group-3390",
+        "GALLIUM",
+        "Kimsuky",
+        "APT28",
+        "Scattered Spider",
+        "menuPass",
+        "Axiom",
+        "ZIRCONIUM",
+        "APT32"
+      ],
+      "top3": [
+        "Mustang Panda",
+        "Threat Group-3390",
+        "GALLIUM"
+      ]
+    },
+    {
+      "id": "taa-28",
+      "gold": "Gamaredon",
+      "ranking": [
+        "Magic Hound",
+        "Silence",
+        "HAFNIUM",
+        "Sandworm Team",
+        "Andariel",
+        "RedCurl",
+        "APT-C-36",
+        "Mustang Panda",
+        "APT29",
+        "TeamTNT"
+      ],
+      "top3": [
+        "Magic Hound",
+        "Silence",
+        "HAFNIUM"
+      ]
+    },
+    {
+      "id": "taa-29",
+      "gold": "Gamaredon",
+      "ranking": [
+        "APT28",
+        "Deep Panda",
+        "Gamaredon Group",
+        "Magic Hound",
+        "RedCurl",
+        "Cobalt Group",
+        "MuddyWater",
+        "LAPSUS$",
+        "Lazarus Group",
+        "Mustang Panda"
+      ],
+      "top3": [
+        "APT28",
+        "Deep Panda",
+        "Gamaredon Group"
+      ]
+    },
+    {
+      "id": "taa-30",
+      "gold": "Sharp Panda",
+      "ranking": [
+        "Mustang Panda",
+        "Naikon",
+        "APT41",
+        "APT30",
+        "Magic Hound",
+        "LuminousMoth",
+        "Sandworm Team",
+        "HAFNIUM",
+        "APT3",
+        "Molerats"
+      ],
+      "top3": [
+        "Mustang Panda",
+        "Naikon",
+        "APT41"
+      ]
+    },
+    {
+      "id": "taa-31",
+      "gold": "Bitter APT",
+      "ranking": [
+        "BITTER",
+        "HEXANE",
+        "Magic Hound",
+        "Sandworm Team",
+        "Sidewinder",
+        "MuddyWater",
+        "APT28",
+        "RedCurl",
+        "APT32",
+        "Machete"
+      ],
+      "top3": [
+        "BITTER",
+        "HEXANE",
+        "Magic Hound"
+      ]
+    },
+    {
+      "id": "taa-32",
+      "gold": "Confucius",
+      "ranking": [
+        "HAFNIUM",
+        "Mustang Panda",
+        "MuddyWater",
+        "ShinyHunters",
+        "Andariel",
+        "Daggerfly",
+        "Magic Hound",
+        "SideCopy",
+        "APT-C-23",
+        "APT33"
+      ],
+      "top3": [
+        "HAFNIUM",
+        "Mustang Panda",
+        "MuddyWater"
+      ]
+    },
+    {
+      "id": "taa-33",
+      "gold": "Dragonfly",
+      "ranking": [
+        "Dragonfly",
+        "APT39",
+        "Kimsuky",
+        "OilRig",
+        "APT28",
+        "Ember Bear",
+        "Gamaredon Group",
+        "Moses Staff",
+        "Sandworm Team",
+        "ShinyHunters"
+      ],
+      "top3": [
+        "Dragonfly",
+        "APT39",
+        "Kimsuky"
+      ]
+    },
+    {
+      "id": "taa-34",
+      "gold": "Andariel",
+      "ranking": [
+        "Kimsuky",
+        "BRONZE BUTLER",
+        "APT18",
+        "GALLIUM",
+        "Volt Typhoon",
+        "Orangeworm",
+        "menuPass",
+        "APT-C-36",
+        "Leviathan",
+        "APT32"
+      ],
+      "top3": [
+        "Kimsuky",
+        "BRONZE BUTLER",
+        "APT18"
+      ]
+    },
+    {
+      "id": "taa-35",
+      "gold": "COLDRIVER",
+      "ranking": [
+        "APT-C-36",
+        "Gamaredon Group",
+        "APT29",
+        "APT3",
+        "RedCurl",
+        "APT32",
+        "Winter Vivern",
+        "APT33",
+        "Scattered Spider",
+        "APT38"
+      ],
+      "top3": [
+        "APT-C-36",
+        "Gamaredon Group",
+        "APT29"
+      ]
+    },
+    {
+      "id": "taa-36",
+      "gold": "Bahamut",
+      "ranking": [
+        "APT-C-23",
+        "APT37",
+        "Confucius",
+        "APT-C-36",
+        "LAPSUS$",
+        "Contagious Interview",
+        "Scattered Spider",
+        "Axiom",
+        "EXOTIC LILY",
+        "INC Ransom"
+      ],
+      "top3": [
+        "APT-C-23",
+        "APT37",
+        "Confucius"
+      ]
+    },
+    {
+      "id": "taa-37",
+      "gold": "APT37",
+      "ranking": [
+        "APT-C-36",
+        "MuddyWater",
+        "APT19",
+        "OilRig",
+        "APT28",
+        "Threat Group-3390",
+        "APT29",
+        "Aquatic Panda",
+        "APT3",
+        "Gorgon Group"
+      ],
+      "top3": [
+        "APT-C-36",
+        "MuddyWater",
+        "APT19"
+      ]
+    },
+    {
+      "id": "taa-38",
+      "gold": "APT33",
+      "ranking": [
+        "APT33",
+        "APT37",
+        "Scattered Spider",
+        "HAFNIUM",
+        "Kimsuky",
+        "Sandworm Team",
+        "Fox Kitten",
+        "Tonto Team",
+        "MuddyWater",
+        "APT28"
+      ],
+      "top3": [
+        "APT33",
+        "APT37",
+        "Scattered Spider"
+      ]
+    },
+    {
+      "id": "taa-39",
+      "gold": "APT29",
+      "ranking": [
+        "APT29",
+        "APT28",
+        "Turla",
+        "Gamaredon Group",
+        "Agrius",
+        "Sandworm Team",
+        "Ember Bear",
+        "HEXANE",
+        "Winter Vivern",
+        "APT38"
+      ],
+      "top3": [
+        "APT29",
+        "APT28",
+        "Turla"
+      ]
+    },
+    {
+      "id": "taa-40",
+      "gold": "APT29",
+      "ranking": [
+        "APT29",
+        "APT28",
+        "Ember Bear",
+        "HAFNIUM",
+        "Magic Hound",
+        "Dragonfly",
+        "HEXANE",
+        "Saint Bear",
+        "APT-C-36",
+        "Lazarus Group"
+      ],
+      "top3": [
+        "APT29",
+        "APT28",
+        "Ember Bear"
+      ]
+    },
+    {
+      "id": "taa-41",
+      "gold": "APT29",
+      "ranking": [
+        "APT-C-36",
+        "Ember Bear",
+        "APT19",
+        "Gamaredon Group",
+        "APT28",
+        "Machete",
+        "APT29",
+        "Molerats",
+        "APT3",
+        "RedCurl"
+      ],
+      "top3": [
+        "APT-C-36",
+        "Ember Bear",
+        "APT19"
+      ]
+    },
+    {
+      "id": "taa-42",
+      "gold": "Diamond Sleet",
+      "ranking": [
+        "Lazarus Group",
+        "FIN7",
+        "Andariel",
+        "APT28",
+        "Contagious Interview",
+        "UNC3886",
+        "OilRig",
+        "FIN8",
+        "Kimsuky",
+        "Medusa Group"
+      ],
+      "top3": [
+        "Lazarus Group",
+        "FIN7",
+        "Andariel"
+      ]
+    },
+    {
+      "id": "taa-43",
+      "gold": "Lazarus",
+      "ranking": [
+        "Lazarus Group",
+        "BRONZE BUTLER",
+        "Contagious Interview",
+        "APT18",
+        "GALLIUM",
+        "Orangeworm",
+        "EXOTIC LILY",
+        "Volt Typhoon",
+        "Kimsuky",
+        "Andariel"
+      ],
+      "top3": [
+        "Lazarus Group",
+        "BRONZE BUTLER",
+        "Contagious Interview"
+      ]
+    },
+    {
+      "id": "taa-44",
+      "gold": "Lazarus",
+      "ranking": [
+        "Lazarus Group",
+        "Mustang Panda",
+        "Earth Lusca",
+        "FIN7",
+        "menuPass",
+        "Leviathan",
+        "Andariel",
+        "Threat Group-3390",
+        "Contagious Interview",
+        "Tonto Team"
+      ],
+      "top3": [
+        "Lazarus Group",
+        "Mustang Panda",
+        "Earth Lusca"
+      ]
+    },
+    {
+      "id": "taa-45",
+      "gold": "Lazarus",
+      "ranking": [
+        "Kimsuky",
+        "Storm-1811",
+        "Andariel",
+        "INC Ransom",
+        "HAFNIUM",
+        "HEXANE",
+        "Magic Hound",
+        "Medusa Group",
+        "APT-C-23",
+        "BlackByte"
+      ],
+      "top3": [
+        "Kimsuky",
+        "Storm-1811",
+        "Andariel"
+      ]
+    },
+    {
+      "id": "taa-46",
+      "gold": "Lazarus",
+      "ranking": [
+        "Lazarus Group",
+        "FIN7",
+        "APT41",
+        "ShinyHunters",
+        "Leviathan",
+        "APT28",
+        "Play",
+        "APT39",
+        "menuPass",
+        "APT42"
+      ],
+      "top3": [
+        "Lazarus Group",
+        "FIN7",
+        "APT41"
+      ]
+    },
+    {
+      "id": "taa-47",
+      "gold": "OilRig",
+      "ranking": [
+        "OilRig",
+        "HEXANE",
+        "Sandworm Team",
+        "Storm-0501",
+        "Magic Hound",
+        "MuddyWater",
+        "APT29",
+        "VOID MANTICORE",
+        "Agrius",
+        "Scattered Spider"
+      ],
+      "top3": [
+        "OilRig",
+        "HEXANE",
+        "Sandworm Team"
+      ]
+    },
+    {
+      "id": "taa-48",
+      "gold": "MuddyWater",
+      "ranking": [
+        "OilRig",
+        "APT38",
+        "MuddyWater",
+        "APT39",
+        "Sandworm Team",
+        "Kimsuky",
+        "VOID MANTICORE",
+        "APT-C-36",
+        "Turla",
+        "APT18"
+      ],
+      "top3": [
+        "OilRig",
+        "APT38",
+        "MuddyWater"
+      ]
+    },
+    {
+      "id": "taa-49",
+      "gold": "Turla",
+      "ranking": [
+        "Turla",
+        "APT29",
+        "Earth Lusca",
+        "Mustang Panda",
+        "Confucius",
+        "SilverTerrier",
+        "Cobalt Group",
+        "FIN7",
+        "Kimsuky",
+        "HEXANE"
+      ],
+      "top3": [
+        "Turla",
+        "APT29",
+        "Earth Lusca"
+      ]
+    }
+  ],
+  "api_calls": 0
+}
