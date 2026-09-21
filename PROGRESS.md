@@ -61,7 +61,7 @@ top-3 baseline.
 
 ## Experiment 3 — leakage-aware reranker ensemble
 
-**Status: submitted as one-CPU Slurm job `272112`.** The superseded GPU job
+**Status: complete as one-CPU Slurm job `272112`.** The superseded GPU job
 `272108` was canceled before it ran because this score-only analysis does not
 need a GPU.
 
@@ -72,6 +72,23 @@ need a GPU.
 | Fusions | Per-report score min-max normalization and rank-percentile normalization; four-model convex weight sweep. |
 | Anti-overfitting check | Five-fold out-of-fold selection: weights for each held-out fold are selected using only the other four folds. |
 | Acceptance criterion | Five-fold OOF R@3 exceeds 68%; exploratory full-set metrics are explicitly not treated as unbiased. |
+
+**Result:** the rank-normalized exploratory sweep reached 70% R@3, but five-
+fold OOF R@3 was only 64%; score-normalized OOF R@3 was 60%. The apparent gain
+does not generalize under the predeclared leakage check, so no ensemble is
+promoted to the system.
+
+## Experiment 4 — evidence-focused Qwen query
+
+**Status: implementation starting.**
+
+| Item | Planned method |
+| --- | --- |
+| Hypothesis | Long CTI reports can exceed Qwen's 2,048-token cross-encoder budget, hiding late attribution clues; a deterministic evidence-focused report view may improve Qwen's top-3 ordering. |
+| Query construction | Select report sentences containing high-specificity malware/tool/campaign/infrastructure matches, CVEs/IOCs/ATT&CK IDs, targeting cues, and behavior cues. Fit the selected evidence to a fixed query-token budget. |
+| Candidate pool | The original frozen CTA top-10 plus shared BM25 top-20 union, unchanged from the 68% Qwen3 4B baseline. |
+| Anti-leakage rule | Uses only the report and frozen profiles; it never reads gold labels or other model rankings. |
+| Acceptance criterion | R@3 exceeds 68% with the same candidate-pool coverage as the baseline. |
 
 ## Reproducibility
 

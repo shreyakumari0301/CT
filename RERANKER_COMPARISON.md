@@ -31,6 +31,9 @@ run stores its full per-case candidate ordering and model score in its
   and R@1 to 50%, but also produces 66% R@3. It does not meet the top-3
   acceptance criterion and should remain an ablation rather than replace the
   baseline.
+- A four-model reranker ensemble achieved 70% R@3 only after selecting weights
+  on these same 50 cases; its five-fold out-of-fold R@3 was 64%. It is recorded
+  as exploratory analysis, not a deployable result.
 - **Jina Reranker v3.5** is best overall: it has the highest Recall@1,
   Recall@5, Recall@10, and MRR@10. It is the preferred model when users can
   inspect five to ten candidates.

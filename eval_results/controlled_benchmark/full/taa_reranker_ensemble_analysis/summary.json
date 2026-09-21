@@ -1,0 +1,232 @@
+{
+  "models": [
+    "qwen3_0.6b",
+    "qwen3_4b",
+    "qwen3_8b",
+    "jina_v3.5"
+  ],
+  "grid_step": 0.1,
+  "n": 50,
+  "methods": {
+    "rank": {
+      "exploratory_full_set": {
+        "weights": {
+          "qwen3_0.6b": 0.0,
+          "qwen3_4b": 0.3,
+          "qwen3_8b": 0.2,
+          "jina_v3.5": 0.5
+        },
+        "metrics": {
+          "Recall@1": 0.48,
+          "Recall@3": 0.7,
+          "Recall@5": 0.74,
+          "Recall@10": 0.78,
+          "Recall@20": 0.82,
+          "MRR@10": 0.5833333333333334
+        }
+      },
+      "five_fold_oof": {
+        "metrics": {
+          "Recall@1": 0.46,
+          "Recall@3": 0.64,
+          "Recall@5": 0.68,
+          "Recall@10": 0.72,
+          "Recall@20": 0.8,
+          "MRR@10": 0.5617460317460318
+        },
+        "fold_selection": {
+          "0": {
+            "weights": {
+              "qwen3_0.6b": 0.0,
+              "qwen3_4b": 0.3,
+              "qwen3_8b": 0.2,
+              "jina_v3.5": 0.5
+            },
+            "training_metrics": {
+              "Recall@1": 0.525,
+              "Recall@3": 0.7,
+              "Recall@5": 0.75,
+              "Recall@10": 0.8,
+              "Recall@20": 0.85,
+              "MRR@10": 0.6041666666666667
+            }
+          },
+          "1": {
+            "weights": {
+              "qwen3_0.6b": 0.0,
+              "qwen3_4b": 0.3,
+              "qwen3_8b": 0.2,
+              "jina_v3.5": 0.5
+            },
+            "training_metrics": {
+              "Recall@1": 0.5,
+              "Recall@3": 0.75,
+              "Recall@5": 0.8,
+              "Recall@10": 0.85,
+              "Recall@20": 0.875,
+              "MRR@10": 0.6208333333333333
+            }
+          },
+          "2": {
+            "weights": {
+              "qwen3_0.6b": 0.0,
+              "qwen3_4b": 0.7,
+              "qwen3_8b": 0.3,
+              "jina_v3.5": 0.0
+            },
+            "training_metrics": {
+              "Recall@1": 0.525,
+              "Recall@3": 0.7,
+              "Recall@5": 0.725,
+              "Recall@10": 0.725,
+              "Recall@20": 0.775,
+              "MRR@10": 0.6145833333333333
+            }
+          },
+          "3": {
+            "weights": {
+              "qwen3_0.6b": 0.3,
+              "qwen3_4b": 0.4,
+              "qwen3_8b": 0.2,
+              "jina_v3.5": 0.1
+            },
+            "training_metrics": {
+              "Recall@1": 0.475,
+              "Recall@3": 0.65,
+              "Recall@5": 0.65,
+              "Recall@10": 0.7,
+              "Recall@20": 0.75,
+              "MRR@10": 0.5611111111111111
+            }
+          },
+          "4": {
+            "weights": {
+              "qwen3_0.6b": 0.0,
+              "qwen3_4b": 0.6,
+              "qwen3_8b": 0.4,
+              "jina_v3.5": 0.0
+            },
+            "training_metrics": {
+              "Recall@1": 0.525,
+              "Recall@3": 0.7,
+              "Recall@5": 0.7,
+              "Recall@10": 0.75,
+              "Recall@20": 0.8,
+              "MRR@10": 0.6152777777777778
+            }
+          }
+        }
+      }
+    },
+    "score": {
+      "exploratory_full_set": {
+        "weights": {
+          "qwen3_0.6b": 0.0,
+          "qwen3_4b": 0.9,
+          "qwen3_8b": 0.0,
+          "jina_v3.5": 0.1
+        },
+        "metrics": {
+          "Recall@1": 0.5,
+          "Recall@3": 0.66,
+          "Recall@5": 0.76,
+          "Recall@10": 0.82,
+          "Recall@20": 0.82,
+          "MRR@10": 0.6050238095238095
+        }
+      },
+      "five_fold_oof": {
+        "metrics": {
+          "Recall@1": 0.44,
+          "Recall@3": 0.6,
+          "Recall@5": 0.74,
+          "Recall@10": 0.8,
+          "Recall@20": 0.82,
+          "MRR@10": 0.5583571428571429
+        },
+        "fold_selection": {
+          "0": {
+            "weights": {
+              "qwen3_0.6b": 0.0,
+              "qwen3_4b": 0.9,
+              "qwen3_8b": 0.0,
+              "jina_v3.5": 0.1
+            },
+            "training_metrics": {
+              "Recall@1": 0.55,
+              "Recall@3": 0.7,
+              "Recall@5": 0.775,
+              "Recall@10": 0.85,
+              "Recall@20": 0.85,
+              "MRR@10": 0.6450297619047619
+            }
+          },
+          "1": {
+            "weights": {
+              "qwen3_0.6b": 0.0,
+              "qwen3_4b": 0.3,
+              "qwen3_8b": 0.1,
+              "jina_v3.5": 0.6
+            },
+            "training_metrics": {
+              "Recall@1": 0.575,
+              "Recall@3": 0.7,
+              "Recall@5": 0.825,
+              "Recall@10": 0.875,
+              "Recall@20": 0.875,
+              "MRR@10": 0.6669047619047619
+            }
+          },
+          "2": {
+            "weights": {
+              "qwen3_0.6b": 0.0,
+              "qwen3_4b": 0.9,
+              "qwen3_8b": 0.0,
+              "jina_v3.5": 0.1
+            },
+            "training_metrics": {
+              "Recall@1": 0.475,
+              "Recall@3": 0.625,
+              "Recall@5": 0.75,
+              "Recall@10": 0.775,
+              "Recall@20": 0.775,
+              "MRR@10": 0.5745833333333333
+            }
+          },
+          "3": {
+            "weights": {
+              "qwen3_0.6b": 0.3,
+              "qwen3_4b": 0.0,
+              "qwen3_8b": 0.5,
+              "jina_v3.5": 0.2
+            },
+            "training_metrics": {
+              "Recall@1": 0.45,
+              "Recall@3": 0.65,
+              "Recall@5": 0.725,
+              "Recall@10": 0.775,
+              "Recall@20": 0.775,
+              "MRR@10": 0.5650595238095237
+            }
+          },
+          "4": {
+            "weights": {
+              "qwen3_0.6b": 0.0,
+              "qwen3_4b": 0.9,
+              "qwen3_8b": 0.0,
+              "jina_v3.5": 0.1
+            },
+            "training_metrics": {
+              "Recall@1": 0.475,
+              "Recall@3": 0.675,
+              "Recall@5": 0.75,
+              "Recall@10": 0.825,
+              "Recall@20": 0.825,
+              "MRR@10": 0.595029761904762
+            }
+          }
+        }
+      }
+    }
+  }
+}
