@@ -61,7 +61,9 @@ top-3 baseline.
 
 ## Experiment 3 — leakage-aware reranker ensemble
 
-**Status: submitted as Slurm job `272108`.**
+**Status: submitted as one-CPU Slurm job `272112`.** The superseded GPU job
+`272108` was canceled before it ran because this score-only analysis does not
+need a GPU.
 
 | Item | Planned method |
 | --- | --- |
