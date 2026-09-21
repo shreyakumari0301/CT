@@ -80,7 +80,7 @@ promoted to the system.
 
 ## Experiment 4 — evidence-focused Qwen query
 
-**Status: implementation starting.**
+**Status: submitted as one-GPU/one-CPU Slurm job `272119`.**
 
 | Item | Planned method |
 | --- | --- |
