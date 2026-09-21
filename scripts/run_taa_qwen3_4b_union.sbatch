@@ -6,6 +6,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --partition=cscc-gpu-p
 #SBATCH --qos=cscc-gpu-qos
+#SBATCH --exclude=gpu-05
 #SBATCH --time=24:00:00
 #SBATCH --output=/home/ashish.mehta/ss/CT/logs/%x_%j.out
 #SBATCH --error=/home/ashish.mehta/ss/CT/logs/%x_%j.err
