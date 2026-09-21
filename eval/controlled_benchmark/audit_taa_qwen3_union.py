@@ -20,6 +20,8 @@ OUT = ROOT / os.environ.get(
     "eval_results/controlled_benchmark/full/taa_qwen3_union_audit",
 )
 BATCH_SIZE = int(os.environ.get("QWEN_RERANKER_BATCH_SIZE", "32"))
+CTA_TOP_K = int(os.environ.get("QWEN_CTA_TOP_K", "20"))
+BM25_TOP_K = int(os.environ.get("QWEN_BM25_TOP_K", "20"))
 OUT.mkdir(parents=True, exist_ok=True)
 REPORTS = {
     f"taa-{i}": row["Text"]
@@ -56,7 +58,9 @@ def main():
         if item_id in complete_ids:
             continue
 
-        pool = list(dict.fromkeys(cta_row["ranking"][:20] + bm25_row["bm25"][:20]))
+        cta_candidates = cta_row["ranking"][:CTA_TOP_K]
+        bm25_candidates = bm25_row["bm25"][:BM25_TOP_K]
+        pool = list(dict.fromkeys(cta_candidates + bm25_candidates))
         passages = []
         for name in pool:
             profile = by_name.get(name, {})
@@ -106,6 +110,8 @@ def main():
         row = {
             "id": item_id,
             "gold": cta_row["gold"],
+            "cta_candidates": cta_candidates,
+            "bm25_candidates": bm25_candidates,
             "rank": rank,
             "candidate_pool": pool,
             "ranking": ranking,
@@ -122,8 +128,18 @@ def main():
         for k in (1, 3, 5, 10, 20)
     }
     metrics["MRR@10"] = sum(1 / rank if rank and rank <= 10 else 0 for rank in ranks) / len(ranks)
+    candidate_pool_coverage = sum(
+        any(benchmark_alias_match(actor, row["gold"]) for actor in row["candidate_pool"])
+        for row in rows
+    ) / len(rows)
     summary = {
         "model": MODEL_NAME,
+        "candidate_generation": {
+            "cta_top_k_requested": CTA_TOP_K,
+            "bm25_top_k": BM25_TOP_K,
+            "candidate_pool_coverage": candidate_pool_coverage,
+            "mean_candidate_pool_size": sum(len(row["candidate_pool"]) for row in rows) / len(rows),
+        },
         "metrics": metrics,
         "n": len(rows),
         "complete": len(rows) == 50,
