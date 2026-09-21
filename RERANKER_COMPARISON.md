@@ -14,6 +14,7 @@ run stores its full per-case candidate ordering and model score in its
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Qwen3-Reranker-0.6B | 46% | 58% | 62% | 70% | 80% | 0.533 |
 | Qwen3-Reranker-4B | 48% | **68%** | 70% | 74% | 80% | 0.585 |
+| Qwen3 4B, CTA + BM25 top-40 | **50%** | 66% | 70% | 76% | **84%** | **0.591** |
 | Qwen3-Reranker-8B | 44% | 64% | 68% | 74% | 80% | 0.548 |
 | Jina Reranker v3.5 | **50%** | 62% | **72%** | **80%** | 80% | **0.589** |
 | Contextual MiniLM + BM25 -> Qwen3 4B | 20% | 42% | 52% | 64% | 74% | 0.335 |
@@ -22,6 +23,9 @@ run stores its full per-case candidate ordering and model score in its
 
 - **Qwen3 4B** is the best top-3 reranker (68% Recall@3), making it the
   preferred model when the product shows exactly three candidates.
+- Expanding shared BM25 from top-20 to top-40 raises candidate-pool coverage
+  from 82% to 90% and improves Qwen3 4B's R@10/R@20/MRR, but lowers R@3 from
+  68% to 66%. Use this variant for deeper result lists, not the top-3 product.
 - **Jina Reranker v3.5** is best overall: it has the highest Recall@1,
   Recall@5, Recall@10, and MRR@10. It is the preferred model when users can
   inspect five to ten candidates.
@@ -44,6 +48,7 @@ run stores its full per-case candidate ordering and model score in its
 | --- | --- | --- |
 | Qwen3 0.6B | [summary](eval_results/controlled_benchmark/full/taa_qwen3_union_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_qwen3_union_audit/checkpoint.json) |
 | Qwen3 4B | [summary](eval_results/controlled_benchmark/full/taa_qwen3_4b_union_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_qwen3_4b_union_audit/checkpoint.json) |
+| Qwen3 4B, CTA + BM25 top-40 | [summary](eval_results/controlled_benchmark/full/taa_qwen3_4b_bm25_40_union_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_qwen3_4b_bm25_40_union_audit/checkpoint.json) |
 | Qwen3 8B | [summary](eval_results/controlled_benchmark/full/taa_qwen3_8b_union_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_qwen3_8b_union_audit/checkpoint.json) |
 | Jina v3.5 | [summary](eval_results/controlled_benchmark/full/taa_jina_v35_union_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_jina_v35_union_audit/checkpoint.json) |
 | Contextual MiniLM + BM25 -> Qwen3 4B | [summary](eval_results/controlled_benchmark/full/taa_contextual_union_qwen4b_full_profile_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_contextual_union_qwen4b_full_profile_audit/checkpoint.json) |

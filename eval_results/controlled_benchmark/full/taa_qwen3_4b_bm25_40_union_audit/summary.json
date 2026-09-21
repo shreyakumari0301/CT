@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen3-Reranker-4B",
+  "candidate_generation": {
+    "cta_top_k_requested": 10,
+    "bm25_top_k": 40,
+    "candidate_pool_coverage": 0.9,
+    "mean_candidate_pool_size": 44.4
+  },
+  "metrics": {
+    "Recall@1": 0.5,
+    "Recall@3": 0.66,
+    "Recall@5": 0.7,
+    "Recall@10": 0.76,
+    "Recall@20": 0.84,
+    "MRR@10": 0.5912222222222222
+  },
+  "n": 50,
+  "complete": true,
+  "per_case_results": "checkpoint.json contains every candidate and reranker score."
+}

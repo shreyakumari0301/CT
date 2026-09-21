@@ -20,7 +20,7 @@ The detailed comparison and links to all completed artifacts are in
 
 ## Experiment 1 — expanded BM25 candidate pool
 
-**Status: submitted as Slurm job `272076`; it runs separately from later experiments.**
+**Status: complete (Slurm job `272076`).**
 
 | Item | Value |
 | --- | --- |
@@ -30,13 +30,19 @@ The detailed comparison and links to all completed artifacts are in
 | Measured coverage before reranking | 45/50 (90%) gold actors, versus 41/50 (82%) for CTA top-10 plus shared BM25 top-20. |
 | Evaluation output | `eval_results/controlled_benchmark/full/taa_qwen3_4b_bm25_40_union_audit/` |
 | Slurm resources | One A100 GPU and one CPU. |
+| Result | R@1 50%, R@3 66%, R@5 70%, R@10 76%, R@20 84%, MRR@10 0.591. |
+
+The expanded pool improved candidate coverage (82% to 90%), R@10 (74% to
+76%), R@20 (80% to 84%), and MRR@10 (0.585 to 0.591). It did **not** improve
+the top-3 target: R@3 fell from 68% to 66%. It is therefore a useful deeper
+ranking variant, not a replacement for the existing top-3 Qwen3 4B pipeline.
 
 The run records the CTA candidates, BM25 candidates, deduplicated pool, full
 Qwen score ordering, final rank, candidate coverage, and ranking metrics.
 
 ## Experiment 2 — targeted multi-query BM25 candidate generation
 
-**Status: queued; do not submit until Experiment 1 completes and is recorded.**
+**Status: implementation starting after Experiment 1 was recorded.**
 
 | Item | Planned method |
 | --- | --- |
