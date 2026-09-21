@@ -23,8 +23,9 @@ export TRANSFORMERS_CACHE="$HF_HOME/transformers"
 export PIP_CACHE_DIR=/l/users/ashish.mehta/ct_pip_cache
 export CONTEXTUAL_EMBEDDING_CACHE=/l/users/ashish.mehta/ct_hf_cache/contextual_taa_embeddings
 export CONTEXTUAL_QWEN_MODEL=Qwen/Qwen3-Reranker-4B
-export CONTEXTUAL_QWEN_OUTPUT=eval_results/controlled_benchmark/full/taa_contextual_union_qwen4b_audit
+export CONTEXTUAL_QWEN_OUTPUT=eval_results/controlled_benchmark/full/taa_contextual_union_qwen4b_full_profile_audit
 export CONTEXTUAL_QWEN_BATCH_SIZE=8
+export CONTEXTUAL_QWEN_PASSAGE_MODE=full_profile
 export TOKENIZERS_PARALLELISM=false
 mkdir -p "$HF_HOME" "$HF_DATASETS_CACHE" "$TRANSFORMERS_CACHE" "$PIP_CACHE_DIR" "$CONTEXTUAL_EMBEDDING_CACHE"
 

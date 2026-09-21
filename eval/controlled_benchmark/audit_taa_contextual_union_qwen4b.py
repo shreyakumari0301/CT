@@ -24,12 +24,15 @@ PROFILE_PATH = (
     / "eval_results/controlled_benchmark/taa20_20260918/actor_retrieval_study_v2"
     / "actor_profiles.json"
 )
-OUT = ROOT / os.environ.get(
-    "CONTEXTUAL_QWEN_OUTPUT",
-    "eval_results/controlled_benchmark/full/taa_contextual_union_qwen4b_audit",
-)
 MODEL_NAME = os.environ.get("CONTEXTUAL_QWEN_MODEL", "Qwen/Qwen3-Reranker-4B")
 BATCH_SIZE = int(os.environ.get("CONTEXTUAL_QWEN_BATCH_SIZE", "8"))
+PASSAGE_MODE = os.environ.get("CONTEXTUAL_QWEN_PASSAGE_MODE", "full_profile")
+if PASSAGE_MODE not in {"full_profile", "contextual_retrieved_chunks"}:
+    raise ValueError("CONTEXTUAL_QWEN_PASSAGE_MODE must be full_profile or contextual_retrieved_chunks")
+OUT = ROOT / os.environ.get(
+    "CONTEXTUAL_QWEN_OUTPUT",
+    "eval_results/controlled_benchmark/full/taa_contextual_union_qwen4b_full_profile_audit",
+)
 TOP_K = 20
 CHUNK_TOKENS = 180
 OUT.mkdir(parents=True, exist_ok=True)
@@ -110,6 +113,28 @@ def build_documents(profiles: list[dict], tokenizer) -> list[dict]:
     return documents
 
 
+def full_profile_passage(profile: dict) -> str:
+    """Match the established Qwen audit evidence representation exactly."""
+    fields = (
+        "aliases",
+        "malware",
+        "tools",
+        "techniques",
+        "campaigns",
+        "target_regions",
+        "target_sectors",
+        "infrastructure",
+    )
+    return (
+        "Actor: "
+        + profile["canonical_actor"]
+        + "\n"
+        + profile.get("profile_text", "")
+        + "\n"
+        + "\n".join(f"{field}: " + ", ".join(map(str, profile.get(field, []))) for field in fields)
+    )
+
+
 class LocalBM25:
     """Small deterministic BM25 implementation; avoids another runtime package."""
 
@@ -163,6 +188,19 @@ def retrieval_metrics(rows: list[dict], key: str) -> dict[str, float]:
         )
         / len(rows)
         for cutoff in (1, 3, 5, 10, 20)
+    }
+
+
+def pool_coverage(rows: list[dict]) -> dict[str, float]:
+    from eval.taa_protocol import benchmark_alias_match
+
+    return {
+        "Recall@pool": sum(
+            any(benchmark_alias_match(actor, row["gold"]) for actor in row["candidate_pool"])
+            for row in rows
+        )
+        / len(rows),
+        "mean_pool_size": sum(len(row["candidate_pool"]) for row in rows) / len(rows),
     }
 
 
@@ -227,7 +265,10 @@ def main() -> None:
         for actor in pool:
             actor_index = actor_indices[actor]
             selected = list(dict.fromkeys([dense_best_doc[actor_index], bm25_best_doc[actor_index]]))
-            passage = "\n\n".join(documents[index]["text"] for index in selected)
+            if PASSAGE_MODE == "full_profile":
+                passage = full_profile_passage(profiles[actor_index])
+            else:
+                passage = "\n\n".join(documents[index]["text"] for index in selected)
             passage_pairs.append((actor, passage))
             candidate_documents[actor] = [
                 {"field": documents[index]["field"], "chunk_index": documents[index]["chunk_index"]}
@@ -279,14 +320,15 @@ def main() -> None:
     summary = {
         "method": "contextual natural passages -> MiniLM/BM25 top-20 union -> Qwen3 4B",
         "retrieval_context": "Each indexed natural passage has deterministic actor, evidence-type, alias, malware/tool, and targeting context prepended.",
+        "reranker_passage_mode": PASSAGE_MODE,
         "model": MODEL_NAME,
         "documents": len(documents),
         "n": len(rows),
         "complete": len(rows) == len(reports),
         "candidate_generation_metrics": {
-            "contextual_dense": retrieval_metrics(rows, "contextual_dense_top20"),
-            "contextual_bm25": retrieval_metrics(rows, "contextual_bm25_top20"),
-            "contextual_union": retrieval_metrics(rows, "candidate_pool"),
+            "contextual_dense_top20": retrieval_metrics(rows, "contextual_dense_top20"),
+            "contextual_bm25_top20": retrieval_metrics(rows, "contextual_bm25_top20"),
+            "contextual_union_pool": pool_coverage(rows),
         },
         "reranked_metrics": rank_metrics(rows),
         "per_case_results": "checkpoint.json contains contextual dense/BM25 candidates, selected passages, and all Qwen scores.",
