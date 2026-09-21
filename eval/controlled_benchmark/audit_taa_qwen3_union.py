@@ -7,7 +7,7 @@ REPORTS={f'taa-{i}':r['Text'] for i,r in enumerate(csv.DictReader((ROOT/'data/ct
 def main():
  from sentence_transformers import CrossEncoder
  from eval.taa_protocol import benchmark_alias_match
- by={p['canonical_actor']:p for p in PROFILES}; model=CrossEncoder('Qwen/Qwen3-Reranker-0.6B',max_length=2048); checkpoint=OUT/'checkpoint.json'; rows=json.loads(checkpoint.read_text()) if checkpoint.exists() else []; done={r['id'] for r in rows}
+ by={p['canonical_actor']:p for p in PROFILES}; model=CrossEncoder('Qwen/Qwen3-Reranker-0.6B',max_length=2048,device='cuda'); checkpoint=OUT/'checkpoint.json'; rows=json.loads(checkpoint.read_text()) if checkpoint.exists() else []; done={r['id'] for r in rows}
  for x,y in zip(CTA,SHARED):
   if x['id'] in done: continue
   pool=list(dict.fromkeys(x['ranking'][:20]+y['bm25'][:20])); passages=[]
