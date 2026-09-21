@@ -42,7 +42,7 @@ Qwen score ordering, final rank, candidate coverage, and ranking metrics.
 
 ## Experiment 2 — targeted multi-query BM25 candidate generation
 
-**Status: implementation starting after Experiment 1 was recorded.**
+**Status: submitted as Slurm job `272090` after Experiment 1 was recorded.**
 
 | Item | Planned method |
 | --- | --- |
