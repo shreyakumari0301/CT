@@ -3,11 +3,9 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --gres=gpu:1
-#SBATCH --partition=cscc-gpu-p
-#SBATCH --qos=cscc-gpu-qos
-# gpu-05 has no visible CUDA device; gpu-54 lacks the required /l mount.
-#SBATCH --exclude=gpu-05,gpu-54
+#SBATCH --partition=cscc-cpu-p
+#SBATCH --account=cscc-users
+#SBATCH --qos=normal
 #SBATCH --time=00:30:00
 #SBATCH --output=/home/ashish.mehta/ss/CT/logs/%x_%j.out
 #SBATCH --error=/home/ashish.mehta/ss/CT/logs/%x_%j.err
