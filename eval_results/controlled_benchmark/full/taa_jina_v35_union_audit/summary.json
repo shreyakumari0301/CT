@@ -1,0 +1,14 @@
+{
+  "model": "jinaai/jina-reranker-v3.5",
+  "metrics": {
+    "Recall@1": 0.5,
+    "Recall@3": 0.62,
+    "Recall@5": 0.72,
+    "Recall@10": 0.8,
+    "Recall@20": 0.8,
+    "MRR@10": 0.5891904761904762
+  },
+  "n": 50,
+  "complete": true,
+  "per_case_results": "checkpoint.json contains every candidate and Jina relevance score."
+}

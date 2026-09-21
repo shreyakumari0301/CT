@@ -1,0 +1,7082 @@
+[
+  {
+    "id": "taa-0",
+    "gold": "SideCopy",
+    "rank": 2,
+    "candidate_pool": [
+      "Transparent Tribe",
+      "SideCopy",
+      "Kimsuky",
+      "APT-C-36",
+      "Mustang Panda",
+      "Contagious Interview",
+      "Aquatic Panda",
+      "EXOTIC LILY",
+      "MuddyWater",
+      "APT19",
+      "Patchwork",
+      "APT37",
+      "Moonstone Sleet",
+      "LuminousMoth",
+      "VOID MANTICORE",
+      "Sidewinder",
+      "WIRTE",
+      "Andariel",
+      "Mofang",
+      "Darkhotel",
+      "CURIUM",
+      "Sandworm Team",
+      "APT38",
+      "Machete",
+      "Turla",
+      "Ember Bear",
+      "Confucius"
+    ],
+    "ranking": [
+      {
+        "actor": "Transparent Tribe",
+        "score": 0.5394973158836365
+      },
+      {
+        "actor": "SideCopy",
+        "score": 0.20033545792102814
+      },
+      {
+        "actor": "Confucius",
+        "score": 0.11558525264263153
+      },
+      {
+        "actor": "WIRTE",
+        "score": 0.08757524192333221
+      },
+      {
+        "actor": "Kimsuky",
+        "score": 0.08267118036746979
+      },
+      {
+        "actor": "Sidewinder",
+        "score": 0.0041003841906785965
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": -0.030512480065226555
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.037992216646671295
+      },
+      {
+        "actor": "APT37",
+        "score": -0.0475769080221653
+      },
+      {
+        "actor": "MuddyWater",
+        "score": -0.04788663983345032
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.05735645443201065
+      },
+      {
+        "actor": "Aquatic Panda",
+        "score": -0.07023762166500092
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.07293843477964401
+      },
+      {
+        "actor": "Turla",
+        "score": -0.07501190155744553
+      },
+      {
+        "actor": "Mofang",
+        "score": -0.0957440584897995
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.09587252885103226
+      },
+      {
+        "actor": "APT19",
+        "score": -0.09903142601251602
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.10170739144086838
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.11313659697771072
+      },
+      {
+        "actor": "Machete",
+        "score": -0.1139720231294632
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.11569742858409882
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.12292692065238953
+      },
+      {
+        "actor": "EXOTIC LILY",
+        "score": -0.1238941177725792
+      },
+      {
+        "actor": "Darkhotel",
+        "score": -0.1471138298511505
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.14917053282260895
+      },
+      {
+        "actor": "APT38",
+        "score": -0.15374189615249634
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": -0.1555575281381607
+      }
+    ]
+  },
+  {
+    "id": "taa-1",
+    "gold": "MUSTANG PANDA",
+    "rank": 1,
+    "candidate_pool": [
+      "Mustang Panda",
+      "Daggerfly",
+      "Axiom",
+      "APT3",
+      "Cinnamon Tempest",
+      "Andariel",
+      "Threat Group-3390",
+      "HAFNIUM",
+      "LuminousMoth",
+      "Magic Hound",
+      "Lazarus Group",
+      "Naikon",
+      "Kimsuky",
+      "Patchwork",
+      "Volt Typhoon",
+      "Gamaredon Group",
+      "APT38",
+      "APT37",
+      "Ember Bear",
+      "Machete",
+      "GALLIUM",
+      "APT39",
+      "APT28",
+      "VOID MANTICORE",
+      "Medusa Group",
+      "MuddyWater",
+      "Sandworm Team"
+    ],
+    "ranking": [
+      {
+        "actor": "Mustang Panda",
+        "score": 0.31268027424812317
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": 0.2622561752796173
+      },
+      {
+        "actor": "GALLIUM",
+        "score": 0.07827593386173248
+      },
+      {
+        "actor": "APT3",
+        "score": 0.06071902811527252
+      },
+      {
+        "actor": "Naikon",
+        "score": 0.05569545924663544
+      },
+      {
+        "actor": "Daggerfly",
+        "score": 0.05069584771990776
+      },
+      {
+        "actor": "Axiom",
+        "score": -0.008515053428709507
+      },
+      {
+        "actor": "APT37",
+        "score": -0.010663316585123539
+      },
+      {
+        "actor": "MuddyWater",
+        "score": -0.0363309383392334
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.03842803090810776
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.03870061784982681
+      },
+      {
+        "actor": "Threat Group-3390",
+        "score": -0.0454377718269825
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.051655642688274384
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.055318206548690796
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.07113282382488251
+      },
+      {
+        "actor": "APT39",
+        "score": -0.08336750417947769
+      },
+      {
+        "actor": "APT28",
+        "score": -0.10579268634319305
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.10915347933769226
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.11946607381105423
+      },
+      {
+        "actor": "Machete",
+        "score": -0.12492849677801132
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.12867480516433716
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.13342225551605225
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.1479557305574417
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.14810411632061005
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.1535748988389969
+      },
+      {
+        "actor": "Gamaredon Group",
+        "score": -0.1943327635526657
+      },
+      {
+        "actor": "APT38",
+        "score": -0.2043701708316803
+      }
+    ]
+  },
+  {
+    "id": "taa-2",
+    "gold": "MUSTANG PANDA",
+    "rank": 1,
+    "candidate_pool": [
+      "Mustang Panda",
+      "APT41",
+      "Leviathan",
+      "Threat Group-3390",
+      "GALLIUM",
+      "ToddyCat",
+      "menuPass",
+      "Earth Lusca",
+      "APT29",
+      "Aquatic Panda",
+      "Akira",
+      "LuminousMoth",
+      "APT38",
+      "Volt Typhoon",
+      "APT28",
+      "Lazarus Group",
+      "APT32",
+      "Rocke",
+      "RedCurl",
+      "Andariel",
+      "Kimsuky",
+      "FIN6",
+      "BlackByte",
+      "Sandworm Team",
+      "APT37",
+      "Machete",
+      "Naikon",
+      "AppleJeus"
+    ],
+    "ranking": [
+      {
+        "actor": "Mustang Panda",
+        "score": 0.11160790175199509
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": 0.09526970982551575
+      },
+      {
+        "actor": "Leviathan",
+        "score": 0.09278067201375961
+      },
+      {
+        "actor": "Naikon",
+        "score": 0.0659266859292984
+      },
+      {
+        "actor": "APT41",
+        "score": 0.06455647200345993
+      },
+      {
+        "actor": "menuPass",
+        "score": 0.0162657517939806
+      },
+      {
+        "actor": "APT29",
+        "score": -0.000649256631731987
+      },
+      {
+        "actor": "Threat Group-3390",
+        "score": -0.011164067313075066
+      },
+      {
+        "actor": "APT32",
+        "score": -0.025321858003735542
+      },
+      {
+        "actor": "Akira",
+        "score": -0.05268142744898796
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.05786476284265518
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.06465843319892883
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.06854268908500671
+      },
+      {
+        "actor": "Rocke",
+        "score": -0.07212260365486145
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.07240506261587143
+      },
+      {
+        "actor": "Machete",
+        "score": -0.10242445021867752
+      },
+      {
+        "actor": "ToddyCat",
+        "score": -0.10256559401750565
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.11376526206731796
+      },
+      {
+        "actor": "APT37",
+        "score": -0.1152314618229866
+      },
+      {
+        "actor": "Earth Lusca",
+        "score": -0.11709971725940704
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.12029780447483063
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.13091237843036652
+      },
+      {
+        "actor": "FIN6",
+        "score": -0.13796168565750122
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.14118634164333344
+      },
+      {
+        "actor": "Aquatic Panda",
+        "score": -0.14555209875106812
+      },
+      {
+        "actor": "APT28",
+        "score": -0.15168578922748566
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.15487104654312134
+      },
+      {
+        "actor": "APT38",
+        "score": -0.17695556581020355
+      }
+    ]
+  },
+  {
+    "id": "taa-3",
+    "gold": "MUMMY SPIDER",
+    "rank": 1,
+    "candidate_pool": [
+      "FIN7",
+      "HAFNIUM",
+      "Magic Hound",
+      "Scattered Spider",
+      "ShinyHunters",
+      "Storm-1811",
+      "APT28",
+      "Andariel",
+      "APT32",
+      "Winter Vivern",
+      "APT42",
+      "Machete",
+      "Contagious Interview",
+      "Medusa Group",
+      "Saint Bear",
+      "Kimsuky",
+      "Indrik Spider",
+      "APT-C-36",
+      "Darkhotel",
+      "MuddyWater",
+      "Lazarus Group",
+      "Patchwork",
+      "Cobalt Group",
+      "VOID MANTICORE",
+      "APT37",
+      "Volt Typhoon"
+    ],
+    "ranking": [
+      {
+        "actor": "FIN7",
+        "score": 0.09731586277484894
+      },
+      {
+        "actor": "APT32",
+        "score": 0.0012865231838077307
+      },
+      {
+        "actor": "Indrik Spider",
+        "score": -0.0034667677246034145
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.05959092453122139
+      },
+      {
+        "actor": "APT28",
+        "score": -0.06062563508749008
+      },
+      {
+        "actor": "Saint Bear",
+        "score": -0.06410891562700272
+      },
+      {
+        "actor": "APT37",
+        "score": -0.08113778382539749
+      },
+      {
+        "actor": "MuddyWater",
+        "score": -0.08171331137418747
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.08650947362184525
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.08675608783960342
+      },
+      {
+        "actor": "Storm-1811",
+        "score": -0.09748364239931107
+      },
+      {
+        "actor": "Darkhotel",
+        "score": -0.10070189088582993
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.10245635360479355
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.10645592212677002
+      },
+      {
+        "actor": "APT42",
+        "score": -0.11260761320590973
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.11354084312915802
+      },
+      {
+        "actor": "Machete",
+        "score": -0.12212470918893814
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.12249736487865448
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.1227438822388649
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.13043183088302612
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.13168016076087952
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.13507682085037231
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.13789473474025726
+      },
+      {
+        "actor": "ShinyHunters",
+        "score": -0.14779284596443176
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.15445011854171753
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": -0.15793757140636444
+      }
+    ]
+  },
+  {
+    "id": "taa-4",
+    "gold": "Dark Caracal",
+    "rank": 1,
+    "candidate_pool": [
+      "Dark Caracal",
+      "APT18",
+      "BRONZE BUTLER",
+      "GALLIUM",
+      "Orangeworm",
+      "Volt Typhoon",
+      "menuPass",
+      "APT-C-23",
+      "BlackByte",
+      "APT-C-36",
+      "APT37",
+      "Lazarus Group",
+      "Akira",
+      "APT42",
+      "Rocke",
+      "Deep Panda",
+      "Medusa Group",
+      "CURIUM",
+      "Patchwork",
+      "Kimsuky",
+      "RedCurl",
+      "Cinnamon Tempest",
+      "APT39",
+      "LuminousMoth",
+      "APT28",
+      "AppleJeus",
+      "Cobalt Group",
+      "APT19"
+    ],
+    "ranking": [
+      {
+        "actor": "Dark Caracal",
+        "score": 0.25978395342826843
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.05767460912466049
+      },
+      {
+        "actor": "APT19",
+        "score": -0.07447654008865356
+      },
+      {
+        "actor": "Rocke",
+        "score": -0.08150050789117813
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.08476129174232483
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.09484434127807617
+      },
+      {
+        "actor": "APT39",
+        "score": -0.10216369479894638
+      },
+      {
+        "actor": "APT37",
+        "score": -0.10513130575418472
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.1116965189576149
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.11187975853681564
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.11648160219192505
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.12170549482107162
+      },
+      {
+        "actor": "APT28",
+        "score": -0.12233588844537735
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.12790653109550476
+      },
+      {
+        "actor": "Akira",
+        "score": -0.13074086606502533
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.13516955077648163
+      },
+      {
+        "actor": "BRONZE BUTLER",
+        "score": -0.13978201150894165
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.14179593324661255
+      },
+      {
+        "actor": "APT18",
+        "score": -0.1425270438194275
+      },
+      {
+        "actor": "Orangeworm",
+        "score": -0.1437157392501831
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.1458536833524704
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.1459781527519226
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.16123661398887634
+      },
+      {
+        "actor": "APT-C-23",
+        "score": -0.1700071394443512
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.17362214624881744
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.18289697170257568
+      },
+      {
+        "actor": "APT42",
+        "score": -0.18529273569583893
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.20162661373615265
+      }
+    ]
+  },
+  {
+    "id": "taa-5",
+    "gold": "APT19",
+    "rank": null,
+    "candidate_pool": [
+      "LuminousMoth",
+      "Cobalt Group",
+      "Sandworm Team",
+      "Leviathan",
+      "Naikon",
+      "APT29",
+      "TA505",
+      "Mustang Panda",
+      "Magic Hound",
+      "RedCurl",
+      "APT42",
+      "Kimsuky",
+      "Volt Typhoon",
+      "Andariel",
+      "Medusa Group",
+      "Lazarus Group",
+      "APT37",
+      "GALLIUM",
+      "Patchwork",
+      "APT38",
+      "VOID MANTICORE",
+      "APT32",
+      "Akira",
+      "OilRig",
+      "Machete",
+      "BlackByte"
+    ],
+    "ranking": [
+      {
+        "actor": "LuminousMoth",
+        "score": 0.1892276555299759
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": 0.06029042974114418
+      },
+      {
+        "actor": "Leviathan",
+        "score": 0.01901688240468502
+      },
+      {
+        "actor": "Naikon",
+        "score": -0.0016385155031457543
+      },
+      {
+        "actor": "TA505",
+        "score": -0.009395393542945385
+      },
+      {
+        "actor": "APT32",
+        "score": -0.01351845171302557
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.017879987135529518
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.04655074328184128
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.060400888323783875
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.0638299435377121
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.07344784587621689
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.07915227115154266
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.0819898173213005
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.09039847552776337
+      },
+      {
+        "actor": "APT42",
+        "score": -0.09693466871976852
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.09762268513441086
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.09989842772483826
+      },
+      {
+        "actor": "Machete",
+        "score": -0.10244067758321762
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.10276001691818237
+      },
+      {
+        "actor": "APT37",
+        "score": -0.10461682826280594
+      },
+      {
+        "actor": "APT29",
+        "score": -0.10806547105312347
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.12775717675685883
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.1454164683818817
+      },
+      {
+        "actor": "Akira",
+        "score": -0.1484663039445877
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.15348310768604279
+      },
+      {
+        "actor": "APT38",
+        "score": -0.20741987228393555
+      }
+    ]
+  },
+  {
+    "id": "taa-6",
+    "gold": "APT19",
+    "rank": null,
+    "candidate_pool": [
+      "Storm-1811",
+      "Wizard Spider",
+      "Fox Kitten",
+      "Scattered Spider",
+      "FIN7",
+      "TA551",
+      "Kimsuky",
+      "GOLD SOUTHFIELD",
+      "Sandworm Team",
+      "EXOTIC LILY",
+      "Medusa Group",
+      "VOID MANTICORE",
+      "Akira",
+      "Volt Typhoon",
+      "LAPSUS$",
+      "APT42",
+      "BlackByte",
+      "Cinnamon Tempest",
+      "APT38",
+      "Deep Panda",
+      "Moonstone Sleet",
+      "Lazarus Group",
+      "AppleJeus",
+      "RedCurl",
+      "APT37"
+    ],
+    "ranking": [
+      {
+        "actor": "Storm-1811",
+        "score": 0.4144034683704376
+      },
+      {
+        "actor": "GOLD SOUTHFIELD",
+        "score": 0.025819433853030205
+      },
+      {
+        "actor": "Wizard Spider",
+        "score": 0.01339557021856308
+      },
+      {
+        "actor": "TA551",
+        "score": 0.007611064240336418
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.00732436403632164
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.021413838490843773
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.039943352341651917
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.054150283336639404
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.055731453001499176
+      },
+      {
+        "actor": "LAPSUS$",
+        "score": -0.07986779510974884
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.08384782820940018
+      },
+      {
+        "actor": "EXOTIC LILY",
+        "score": -0.08925973623991013
+      },
+      {
+        "actor": "APT37",
+        "score": -0.09229043126106262
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.10660989582538605
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.11402413249015808
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.11553464829921722
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.11679521948099136
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.12001234292984009
+      },
+      {
+        "actor": "APT38",
+        "score": -0.1244380995631218
+      },
+      {
+        "actor": "Akira",
+        "score": -0.1372310221195221
+      },
+      {
+        "actor": "APT42",
+        "score": -0.13818460702896118
+      },
+      {
+        "actor": "Fox Kitten",
+        "score": -0.13976524770259857
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.14622801542282104
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.17535075545310974
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.1815866082906723
+      }
+    ]
+  },
+  {
+    "id": "taa-7",
+    "gold": "APT-C-36",
+    "rank": 1,
+    "candidate_pool": [
+      "APT-C-36",
+      "Kimsuky",
+      "TA2541",
+      "BRONZE BUTLER",
+      "menuPass",
+      "Gorgon Group",
+      "LazyScripter",
+      "Patchwork",
+      "APT3",
+      "GALLIUM",
+      "APT28",
+      "Sandworm Team",
+      "Cobalt Group",
+      "Andariel",
+      "Machete",
+      "VOID MANTICORE",
+      "APT38",
+      "Winter Vivern",
+      "APT37",
+      "APT42",
+      "Saint Bear",
+      "Mofang",
+      "Lazarus Group",
+      "APT19",
+      "Earth Lusca",
+      "Ember Bear",
+      "RedCurl",
+      "FIN7"
+    ],
+    "ranking": [
+      {
+        "actor": "APT-C-36",
+        "score": 0.16051796078681946
+      },
+      {
+        "actor": "Machete",
+        "score": 0.14484326541423798
+      },
+      {
+        "actor": "Mofang",
+        "score": -0.023241758346557617
+      },
+      {
+        "actor": "LazyScripter",
+        "score": -0.03624578192830086
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.0363229438662529
+      },
+      {
+        "actor": "Earth Lusca",
+        "score": -0.04045708850026131
+      },
+      {
+        "actor": "BRONZE BUTLER",
+        "score": -0.04533858224749565
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.045412298291921616
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.04807876795530319
+      },
+      {
+        "actor": "TA2541",
+        "score": -0.052156150341033936
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.06183130666613579
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.07049652189016342
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.07973146438598633
+      },
+      {
+        "actor": "APT42",
+        "score": -0.08484970778226852
+      },
+      {
+        "actor": "APT19",
+        "score": -0.09275095909833908
+      },
+      {
+        "actor": "APT3",
+        "score": -0.09302089363336563
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.10358261317014694
+      },
+      {
+        "actor": "Gorgon Group",
+        "score": -0.10433528572320938
+      },
+      {
+        "actor": "APT37",
+        "score": -0.1058274582028389
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.11442957818508148
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.11550020426511765
+      },
+      {
+        "actor": "Saint Bear",
+        "score": -0.12234458327293396
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.1285611093044281
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.13558094203472137
+      },
+      {
+        "actor": "APT38",
+        "score": -0.14288558065891266
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.1442505121231079
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.15702150762081146
+      },
+      {
+        "actor": "APT28",
+        "score": -0.22703389823436737
+      }
+    ]
+  },
+  {
+    "id": "taa-8",
+    "gold": "APT-C-36",
+    "rank": 1,
+    "candidate_pool": [
+      "APT-C-36",
+      "Kimsuky",
+      "Patchwork",
+      "LazyScripter",
+      "APT28",
+      "Gorgon Group",
+      "menuPass",
+      "Contagious Interview",
+      "BackdoorDiplomacy",
+      "ShinyHunters",
+      "APT42",
+      "Cobalt Group",
+      "Axiom",
+      "Medusa Group",
+      "BlackByte",
+      "Machete",
+      "Winter Vivern",
+      "APT3",
+      "Moonstone Sleet",
+      "Deep Panda",
+      "APT38",
+      "Akira",
+      "VOID MANTICORE",
+      "Saint Bear",
+      "Silence",
+      "Naikon"
+    ],
+    "ranking": [
+      {
+        "actor": "APT-C-36",
+        "score": 0.3328871726989746
+      },
+      {
+        "actor": "Machete",
+        "score": 0.16537871956825256
+      },
+      {
+        "actor": "Kimsuky",
+        "score": 0.04797723889350891
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.021907076239585876
+      },
+      {
+        "actor": "APT38",
+        "score": -0.023048747330904007
+      },
+      {
+        "actor": "Axiom",
+        "score": -0.028180407360196114
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.036637865006923676
+      },
+      {
+        "actor": "LazyScripter",
+        "score": -0.046822499483823776
+      },
+      {
+        "actor": "Gorgon Group",
+        "score": -0.05528712645173073
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.06710898131132126
+      },
+      {
+        "actor": "BackdoorDiplomacy",
+        "score": -0.07377784699201584
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.08417391777038574
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.08593884855508804
+      },
+      {
+        "actor": "APT3",
+        "score": -0.09030192345380783
+      },
+      {
+        "actor": "Silence",
+        "score": -0.09400591999292374
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.10128864645957947
+      },
+      {
+        "actor": "ShinyHunters",
+        "score": -0.10165558755397797
+      },
+      {
+        "actor": "Naikon",
+        "score": -0.10384294390678406
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.10603349655866623
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.10797508805990219
+      },
+      {
+        "actor": "Saint Bear",
+        "score": -0.11139491200447083
+      },
+      {
+        "actor": "APT42",
+        "score": -0.11291877925395966
+      },
+      {
+        "actor": "APT28",
+        "score": -0.1416703164577484
+      },
+      {
+        "actor": "Akira",
+        "score": -0.14372405409812927
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": -0.15648265182971954
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.16241565346717834
+      }
+    ]
+  },
+  {
+    "id": "taa-9",
+    "gold": "Turla",
+    "rank": 4,
+    "candidate_pool": [
+      "Mustang Panda",
+      "APT41",
+      "Cobalt Group",
+      "Earth Lusca",
+      "Sidewinder",
+      "UNC3886",
+      "Winter Vivern",
+      "Leviathan",
+      "Medusa Group",
+      "Contagious Interview",
+      "RedCurl",
+      "CURIUM",
+      "Patchwork",
+      "Cinnamon Tempest",
+      "APT19",
+      "VOID MANTICORE",
+      "Gamaredon Group",
+      "Metador",
+      "Turla",
+      "LuminousMoth",
+      "Machete",
+      "Darkhotel",
+      "Volt Typhoon",
+      "APT37",
+      "APT3",
+      "Andariel",
+      "Kimsuky",
+      "Akira",
+      "APT5"
+    ],
+    "ranking": [
+      {
+        "actor": "UNC3886",
+        "score": 0.10736463218927383
+      },
+      {
+        "actor": "Gamaredon Group",
+        "score": 0.07431694865226746
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": 0.07313365489244461
+      },
+      {
+        "actor": "Turla",
+        "score": 0.04206733778119087
+      },
+      {
+        "actor": "RedCurl",
+        "score": 0.02563302591443062
+      },
+      {
+        "actor": "APT41",
+        "score": -0.01586076244711876
+      },
+      {
+        "actor": "Leviathan",
+        "score": -0.045964159071445465
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.06429968774318695
+      },
+      {
+        "actor": "Earth Lusca",
+        "score": -0.07090288400650024
+      },
+      {
+        "actor": "APT5",
+        "score": -0.07703537493944168
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.07737480103969574
+      },
+      {
+        "actor": "APT19",
+        "score": -0.07829948514699936
+      },
+      {
+        "actor": "Metador",
+        "score": -0.08392783999443054
+      },
+      {
+        "actor": "APT3",
+        "score": -0.08548054099082947
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.09806980937719345
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.10151195526123047
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.10859823226928711
+      },
+      {
+        "actor": "Sidewinder",
+        "score": -0.11857672780752182
+      },
+      {
+        "actor": "APT37",
+        "score": -0.12298683077096939
+      },
+      {
+        "actor": "Darkhotel",
+        "score": -0.12585918605327606
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.12895143032073975
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.12935954332351685
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.1344582587480545
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.14625713229179382
+      },
+      {
+        "actor": "Akira",
+        "score": -0.14651502668857574
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.15159732103347778
+      },
+      {
+        "actor": "Machete",
+        "score": -0.16149382293224335
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.16331875324249268
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": -0.16414594650268555
+      }
+    ]
+  },
+  {
+    "id": "taa-10",
+    "gold": "Turla",
+    "rank": null,
+    "candidate_pool": [
+      "APT19",
+      "Medusa Group",
+      "APT32",
+      "Daggerfly",
+      "APT28",
+      "Blue Mockingbird",
+      "APT18",
+      "Kimsuky",
+      "Cobalt Group",
+      "TeamTNT",
+      "Lazarus Group",
+      "APT38",
+      "AppleJeus",
+      "Saint Bear",
+      "Deep Panda",
+      "Machete",
+      "APT42",
+      "FIN7",
+      "VOID MANTICORE",
+      "Contagious Interview",
+      "Scarlet Mimic",
+      "Naikon",
+      "LuminousMoth",
+      "APT37",
+      "Moonstone Sleet",
+      "CURIUM",
+      "Mofang"
+    ],
+    "ranking": [
+      {
+        "actor": "APT32",
+        "score": 0.011619776487350464
+      },
+      {
+        "actor": "APT19",
+        "score": 0.0038096292410045862
+      },
+      {
+        "actor": "Blue Mockingbird",
+        "score": -0.023594530299305916
+      },
+      {
+        "actor": "APT28",
+        "score": -0.04719668626785278
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.04754957929253578
+      },
+      {
+        "actor": "APT18",
+        "score": -0.07101263105869293
+      },
+      {
+        "actor": "APT37",
+        "score": -0.0724160224199295
+      },
+      {
+        "actor": "Machete",
+        "score": -0.07451903074979782
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.0778910368680954
+      },
+      {
+        "actor": "Saint Bear",
+        "score": -0.09320961683988571
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.09484466910362244
+      },
+      {
+        "actor": "Mofang",
+        "score": -0.09547312557697296
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.10730073601007462
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.10962788760662079
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.11626097559928894
+      },
+      {
+        "actor": "Naikon",
+        "score": -0.12358919531106949
+      },
+      {
+        "actor": "TeamTNT",
+        "score": -0.12747453153133392
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.12967649102210999
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.13184410333633423
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": -0.1322905570268631
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.13948747515678406
+      },
+      {
+        "actor": "Daggerfly",
+        "score": -0.14294975996017456
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.143284410238266
+      },
+      {
+        "actor": "APT42",
+        "score": -0.1576453298330307
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.16880206763744354
+      },
+      {
+        "actor": "Scarlet Mimic",
+        "score": -0.18400779366493225
+      },
+      {
+        "actor": "APT38",
+        "score": -0.1857917606830597
+      }
+    ]
+  },
+  {
+    "id": "taa-11",
+    "gold": "APT28",
+    "rank": 26,
+    "candidate_pool": [
+      "Threat Group-3390",
+      "BRONZE BUTLER",
+      "GALLIUM",
+      "APT18",
+      "Volt Typhoon",
+      "menuPass",
+      "Orangeworm",
+      "APT-C-36",
+      "OilRig",
+      "APT32",
+      "APT28",
+      "APT38",
+      "Moonstone Sleet",
+      "Winter Vivern",
+      "Higaisa",
+      "CURIUM",
+      "HAFNIUM",
+      "Patchwork",
+      "APT37",
+      "APT19",
+      "HEXANE",
+      "APT3",
+      "Rocke",
+      "Magic Hound",
+      "Blue Mockingbird",
+      "Andariel",
+      "APT39",
+      "FIN13"
+    ],
+    "ranking": [
+      {
+        "actor": "BRONZE BUTLER",
+        "score": 0.17001570761203766
+      },
+      {
+        "actor": "APT18",
+        "score": 0.15283262729644775
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": 0.14330486953258514
+      },
+      {
+        "actor": "Higaisa",
+        "score": 0.08258853852748871
+      },
+      {
+        "actor": "APT32",
+        "score": 0.07321701943874359
+      },
+      {
+        "actor": "Threat Group-3390",
+        "score": 0.07262122631072998
+      },
+      {
+        "actor": "APT39",
+        "score": 0.07069672644138336
+      },
+      {
+        "actor": "APT3",
+        "score": 0.021909715607762337
+      },
+      {
+        "actor": "CURIUM",
+        "score": 0.012757412157952785
+      },
+      {
+        "actor": "Magic Hound",
+        "score": 0.011028979904949665
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.005327788647264242
+      },
+      {
+        "actor": "Rocke",
+        "score": -0.007455740589648485
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.011018968187272549
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.017105670645833015
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.0293915756046772
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.04184103384613991
+      },
+      {
+        "actor": "Orangeworm",
+        "score": -0.05248468741774559
+      },
+      {
+        "actor": "APT19",
+        "score": -0.05284753441810608
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.05543633550405502
+      },
+      {
+        "actor": "APT37",
+        "score": -0.05618598684668541
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.056882645934820175
+      },
+      {
+        "actor": "FIN13",
+        "score": -0.06665311008691788
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.08089514076709747
+      },
+      {
+        "actor": "HEXANE",
+        "score": -0.08658415824174881
+      },
+      {
+        "actor": "Blue Mockingbird",
+        "score": -0.08744621276855469
+      },
+      {
+        "actor": "APT28",
+        "score": -0.10451961308717728
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.11425834894180298
+      },
+      {
+        "actor": "APT38",
+        "score": -0.16233348846435547
+      }
+    ]
+  },
+  {
+    "id": "taa-12",
+    "gold": "APT28",
+    "rank": 2,
+    "candidate_pool": [
+      "APT-C-36",
+      "Ember Bear",
+      "APT19",
+      "RedCurl",
+      "APT28",
+      "Sidewinder",
+      "APT29",
+      "Winter Vivern",
+      "APT3",
+      "HEXANE",
+      "Naikon",
+      "Sandworm Team",
+      "Turla",
+      "OilRig",
+      "APT38",
+      "Higaisa",
+      "Gorgon Group",
+      "Magic Hound",
+      "Volt Typhoon",
+      "Moonstone Sleet",
+      "admin@338",
+      "VOID MANTICORE",
+      "Kimsuky",
+      "ShinyHunters",
+      "Deep Panda",
+      "Ajax Security Team",
+      "Windigo"
+    ],
+    "ranking": [
+      {
+        "actor": "RedCurl",
+        "score": 0.26810160279273987
+      },
+      {
+        "actor": "APT28",
+        "score": 0.17294952273368835
+      },
+      {
+        "actor": "Ember Bear",
+        "score": 0.15495344996452332
+      },
+      {
+        "actor": "APT29",
+        "score": 0.04228206351399422
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": 0.030825354158878326
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": 0.004845163319259882
+      },
+      {
+        "actor": "Turla",
+        "score": -0.006335408892482519
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.01283356361091137
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.01876445859670639
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.01993246003985405
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.020617468282580376
+      },
+      {
+        "actor": "Naikon",
+        "score": -0.04082884266972542
+      },
+      {
+        "actor": "APT19",
+        "score": -0.04437893256545067
+      },
+      {
+        "actor": "Windigo",
+        "score": -0.04940766468644142
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.06078030541539192
+      },
+      {
+        "actor": "HEXANE",
+        "score": -0.061937540769577026
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.07367116212844849
+      },
+      {
+        "actor": "admin@338",
+        "score": -0.08634285628795624
+      },
+      {
+        "actor": "Sidewinder",
+        "score": -0.10748729109764099
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.1179371103644371
+      },
+      {
+        "actor": "APT3",
+        "score": -0.11945964395999908
+      },
+      {
+        "actor": "Higaisa",
+        "score": -0.12086494266986847
+      },
+      {
+        "actor": "ShinyHunters",
+        "score": -0.13270926475524902
+      },
+      {
+        "actor": "Gorgon Group",
+        "score": -0.14049102365970612
+      },
+      {
+        "actor": "Ajax Security Team",
+        "score": -0.14374136924743652
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.15512192249298096
+      },
+      {
+        "actor": "APT38",
+        "score": -0.18396879732608795
+      }
+    ]
+  },
+  {
+    "id": "taa-13",
+    "gold": "UNC2452",
+    "rank": 1,
+    "candidate_pool": [
+      "APT29",
+      "Magic Hound",
+      "APT28",
+      "Kimsuky",
+      "BlackByte",
+      "VOID MANTICORE",
+      "Gamaredon Group",
+      "Silent Librarian",
+      "Ember Bear",
+      "Strider",
+      "Scattered Spider",
+      "Volt Typhoon",
+      "AppleJeus",
+      "Cobalt Group",
+      "Medusa Group",
+      "Akira",
+      "APT42",
+      "APT37",
+      "HAFNIUM",
+      "GALLIUM",
+      "Andariel",
+      "RedCurl",
+      "Winter Vivern",
+      "Lazarus Group",
+      "APT32"
+    ],
+    "ranking": [
+      {
+        "actor": "APT29",
+        "score": 0.31468379497528076
+      },
+      {
+        "actor": "RedCurl",
+        "score": 0.13711845874786377
+      },
+      {
+        "actor": "APT28",
+        "score": 0.041788920760154724
+      },
+      {
+        "actor": "Ember Bear",
+        "score": 0.026444751769304276
+      },
+      {
+        "actor": "GALLIUM",
+        "score": 0.01793784275650978
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.006026510149240494
+      },
+      {
+        "actor": "APT37",
+        "score": -0.013638211414217949
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.02155139297246933
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.03226827085018158
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.06216738000512123
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.07004189491271973
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.07601095736026764
+      },
+      {
+        "actor": "Strider",
+        "score": -0.07758259773254395
+      },
+      {
+        "actor": "Akira",
+        "score": -0.08590769022703171
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.08660835027694702
+      },
+      {
+        "actor": "Silent Librarian",
+        "score": -0.08829576522111893
+      },
+      {
+        "actor": "Gamaredon Group",
+        "score": -0.09423963725566864
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.11429215222597122
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.11471448838710785
+      },
+      {
+        "actor": "APT32",
+        "score": -0.11613436043262482
+      },
+      {
+        "actor": "APT42",
+        "score": -0.12381764501333237
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.12568067014217377
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.1330265998840332
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.13983431458473206
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.14571815729141235
+      }
+    ]
+  },
+  {
+    "id": "taa-14",
+    "gold": "UNC2452",
+    "rank": 6,
+    "candidate_pool": [
+      "Storm-1811",
+      "GOLD SOUTHFIELD",
+      "MuddyWater",
+      "Scattered Spider",
+      "APT19",
+      "APT29",
+      "APT32",
+      "APT41",
+      "Earth Lusca",
+      "ShinyHunters",
+      "RedCurl",
+      "Cinnamon Tempest",
+      "Kimsuky",
+      "APT28",
+      "Cobalt Group",
+      "Magic Hound",
+      "BlackByte",
+      "APT42",
+      "Akira",
+      "Indrik Spider",
+      "Volt Typhoon",
+      "Moonstone Sleet",
+      "CURIUM",
+      "Medusa Group",
+      "VOID MANTICORE",
+      "FIN7",
+      "Water Galura"
+    ],
+    "ranking": [
+      {
+        "actor": "Storm-1811",
+        "score": 0.479110449552536
+      },
+      {
+        "actor": "APT19",
+        "score": 0.1133570447564125
+      },
+      {
+        "actor": "APT32",
+        "score": 0.03219272941350937
+      },
+      {
+        "actor": "BlackByte",
+        "score": 0.025338632985949516
+      },
+      {
+        "actor": "MuddyWater",
+        "score": 0.015676531940698624
+      },
+      {
+        "actor": "APT29",
+        "score": 0.014001568779349327
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.01953543722629547
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.02381065860390663
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.025818470865488052
+      },
+      {
+        "actor": "Akira",
+        "score": -0.026961443945765495
+      },
+      {
+        "actor": "GOLD SOUTHFIELD",
+        "score": -0.04656722769141197
+      },
+      {
+        "actor": "Water Galura",
+        "score": -0.05058155208826065
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.05490488186478615
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.06215928867459297
+      },
+      {
+        "actor": "Indrik Spider",
+        "score": -0.06336924433708191
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.06979836523532867
+      },
+      {
+        "actor": "Earth Lusca",
+        "score": -0.08455973118543625
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.10115692764520645
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.11380389332771301
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.11743950843811035
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.13192495703697205
+      },
+      {
+        "actor": "ShinyHunters",
+        "score": -0.14215122163295746
+      },
+      {
+        "actor": "APT41",
+        "score": -0.14526773989200592
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.15217052400112152
+      },
+      {
+        "actor": "APT42",
+        "score": -0.1668425351381302
+      },
+      {
+        "actor": "APT28",
+        "score": -0.1706916242837906
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.2062762826681137
+      }
+    ]
+  },
+  {
+    "id": "taa-15",
+    "gold": "CHRYSENE",
+    "rank": 1,
+    "candidate_pool": [
+      "OilRig",
+      "HEXANE",
+      "Magic Hound",
+      "GALLIUM",
+      "Kimsuky",
+      "menuPass",
+      "BRONZE BUTLER",
+      "RedCurl",
+      "APT18",
+      "Sandworm Team",
+      "VOID MANTICORE",
+      "APT28",
+      "APT37",
+      "APT42",
+      "AppleJeus",
+      "Cobalt Group",
+      "APT38",
+      "Earth Lusca",
+      "Andariel",
+      "POLONIUM",
+      "Deep Panda",
+      "CURIUM",
+      "Machete",
+      "Akira",
+      "WIRTE",
+      "LuminousMoth",
+      "Patchwork"
+    ],
+    "ranking": [
+      {
+        "actor": "OilRig",
+        "score": 0.4762038290500641
+      },
+      {
+        "actor": "POLONIUM",
+        "score": 0.06893161684274673
+      },
+      {
+        "actor": "Magic Hound",
+        "score": 0.04609318822622299
+      },
+      {
+        "actor": "HEXANE",
+        "score": 0.016445552930235863
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.010762595571577549
+      },
+      {
+        "actor": "APT42",
+        "score": -0.02502557821571827
+      },
+      {
+        "actor": "WIRTE",
+        "score": -0.031629595905542374
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.052216533571481705
+      },
+      {
+        "actor": "APT37",
+        "score": -0.05436047539114952
+      },
+      {
+        "actor": "APT18",
+        "score": -0.05456220358610153
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.07512053102254868
+      },
+      {
+        "actor": "Earth Lusca",
+        "score": -0.08038035780191422
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.08194223046302795
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.09110468626022339
+      },
+      {
+        "actor": "BRONZE BUTLER",
+        "score": -0.09115376323461533
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.09912874549627304
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.09913831949234009
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.1087975949048996
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.11136962473392487
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.11214379221200943
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.12386590987443924
+      },
+      {
+        "actor": "Akira",
+        "score": -0.1270386129617691
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.13483156263828278
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.13672411441802979
+      },
+      {
+        "actor": "Machete",
+        "score": -0.13910599052906036
+      },
+      {
+        "actor": "APT38",
+        "score": -0.1449861079454422
+      },
+      {
+        "actor": "APT28",
+        "score": -0.162668377161026
+      }
+    ]
+  },
+  {
+    "id": "taa-16",
+    "gold": "CHRYSENE",
+    "rank": null,
+    "candidate_pool": [
+      "APT-C-36",
+      "APT32",
+      "HAFNIUM",
+      "VOID MANTICORE",
+      "APT28",
+      "Kimsuky",
+      "CURIUM",
+      "Turla",
+      "Axiom",
+      "EXOTIC LILY",
+      "Akira",
+      "Patchwork",
+      "APT42",
+      "Medusa Group",
+      "Indrik Spider",
+      "Cinnamon Tempest",
+      "Volt Typhoon",
+      "GALLIUM",
+      "Lazarus Group",
+      "The White Company",
+      "APT3",
+      "APT37",
+      "Scattered Spider",
+      "Dragonfly",
+      "RedCurl"
+    ],
+    "ranking": [
+      {
+        "actor": "APT42",
+        "score": 0.19868285953998566
+      },
+      {
+        "actor": "APT32",
+        "score": 0.08024151623249054
+      },
+      {
+        "actor": "CURIUM",
+        "score": 0.07406415045261383
+      },
+      {
+        "actor": "APT37",
+        "score": 0.03299729898571968
+      },
+      {
+        "actor": "APT3",
+        "score": 0.015034406445920467
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.005686645396053791
+      },
+      {
+        "actor": "Akira",
+        "score": -0.028587033972144127
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.05924048274755478
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.062024857848882675
+      },
+      {
+        "actor": "Dragonfly",
+        "score": -0.06386155635118484
+      },
+      {
+        "actor": "APT28",
+        "score": -0.08235204219818115
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.08901387453079224
+      },
+      {
+        "actor": "EXOTIC LILY",
+        "score": -0.09345775097608566
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.09429258108139038
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.09514327347278595
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.09992542862892151
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.10273158550262451
+      },
+      {
+        "actor": "Indrik Spider",
+        "score": -0.11689154803752899
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.11740437150001526
+      },
+      {
+        "actor": "Turla",
+        "score": -0.11983656138181686
+      },
+      {
+        "actor": "The White Company",
+        "score": -0.12243368476629257
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.1230425238609314
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.13707506656646729
+      },
+      {
+        "actor": "Axiom",
+        "score": -0.13875964283943176
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.14547689259052277
+      }
+    ]
+  },
+  {
+    "id": "taa-17",
+    "gold": "APT41",
+    "rank": 1,
+    "candidate_pool": [
+      "BRONZE BUTLER",
+      "APT3",
+      "Kimsuky",
+      "GALLIUM",
+      "menuPass",
+      "Volt Typhoon",
+      "APT-C-36",
+      "APT18",
+      "APT32",
+      "Orangeworm",
+      "Medusa Group",
+      "APT42",
+      "Turla",
+      "Patchwork",
+      "APT41",
+      "Deep Panda",
+      "Moonstone Sleet",
+      "MirrorFace",
+      "GOLD SOUTHFIELD",
+      "OilRig",
+      "BlackByte",
+      "Naikon",
+      "LuminousMoth",
+      "Ember Bear",
+      "APT37",
+      "Akira",
+      "APT28"
+    ],
+    "ranking": [
+      {
+        "actor": "APT41",
+        "score": 0.19891878962516785
+      },
+      {
+        "actor": "BRONZE BUTLER",
+        "score": 0.17493019998073578
+      },
+      {
+        "actor": "GALLIUM",
+        "score": 0.15168502926826477
+      },
+      {
+        "actor": "APT3",
+        "score": 0.1417473554611206
+      },
+      {
+        "actor": "Kimsuky",
+        "score": 0.12341029942035675
+      },
+      {
+        "actor": "APT37",
+        "score": 0.08900442719459534
+      },
+      {
+        "actor": "Turla",
+        "score": 0.08379632979631424
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.020780066028237343
+      },
+      {
+        "actor": "APT32",
+        "score": -0.028633523732423782
+      },
+      {
+        "actor": "MirrorFace",
+        "score": -0.04265745356678963
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.04457586631178856
+      },
+      {
+        "actor": "Naikon",
+        "score": -0.05091783031821251
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.05527381971478462
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.057422712445259094
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.06785663217306137
+      },
+      {
+        "actor": "APT18",
+        "score": -0.06971035897731781
+      },
+      {
+        "actor": "Orangeworm",
+        "score": -0.0786648765206337
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.08275821059942245
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.09152275323867798
+      },
+      {
+        "actor": "APT42",
+        "score": -0.09268982708454132
+      },
+      {
+        "actor": "APT28",
+        "score": -0.09367188066244125
+      },
+      {
+        "actor": "Akira",
+        "score": -0.10038141161203384
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.10211534798145294
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.11226926743984222
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.11641868948936462
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.11675809323787689
+      },
+      {
+        "actor": "GOLD SOUTHFIELD",
+        "score": -0.13105401396751404
+      }
+    ]
+  },
+  {
+    "id": "taa-18",
+    "gold": "lazarus",
+    "rank": 2,
+    "candidate_pool": [
+      "Lazarus Group",
+      "Andariel",
+      "Volt Typhoon",
+      "APT32",
+      "menuPass",
+      "BRONZE BUTLER",
+      "Scattered Spider",
+      "APT18",
+      "Mustang Panda",
+      "GALLIUM",
+      "Kimsuky",
+      "Medusa Group",
+      "APT37",
+      "Higaisa",
+      "APT38",
+      "Akira",
+      "Patchwork",
+      "AppleJeus",
+      "BlackByte",
+      "VOID MANTICORE",
+      "Moonstone Sleet",
+      "Saint Bear",
+      "CURIUM",
+      "POLONIUM",
+      "Ember Bear",
+      "Darkhotel",
+      "admin@338"
+    ],
+    "ranking": [
+      {
+        "actor": "Andariel",
+        "score": 0.488963782787323
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": 0.16459602117538452
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": 0.04083666205406189
+      },
+      {
+        "actor": "APT18",
+        "score": 0.008358830586075783
+      },
+      {
+        "actor": "APT37",
+        "score": 0.008354083634912968
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.0072938078083097935
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.015788452699780464
+      },
+      {
+        "actor": "APT32",
+        "score": -0.01977074332535267
+      },
+      {
+        "actor": "Higaisa",
+        "score": -0.02519761584699154
+      },
+      {
+        "actor": "POLONIUM",
+        "score": -0.03465401381254196
+      },
+      {
+        "actor": "admin@338",
+        "score": -0.03665684908628464
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": -0.05278158187866211
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.05576901137828827
+      },
+      {
+        "actor": "APT38",
+        "score": -0.0643434002995491
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.07766635715961456
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.07782583683729172
+      },
+      {
+        "actor": "Saint Bear",
+        "score": -0.08902076631784439
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.09035775810480118
+      },
+      {
+        "actor": "BRONZE BUTLER",
+        "score": -0.0992603749036789
+      },
+      {
+        "actor": "Darkhotel",
+        "score": -0.10193166136741638
+      },
+      {
+        "actor": "Akira",
+        "score": -0.10420334339141846
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.11251454800367355
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.12343250960111618
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.12953276932239532
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.13359425961971283
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.13428516685962677
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.13777518272399902
+      }
+    ]
+  },
+  {
+    "id": "taa-19",
+    "gold": "Kimsuky",
+    "rank": 1,
+    "candidate_pool": [
+      "Kimsuky",
+      "AppleJeus",
+      "Cobalt Group",
+      "Andariel",
+      "APT37",
+      "ShinyHunters",
+      "APT33",
+      "Dragonfly",
+      "Scattered Spider",
+      "Contagious Interview",
+      "Lazarus Group",
+      "APT28",
+      "APT38",
+      "Moonstone Sleet",
+      "Sandworm Team",
+      "Deep Panda",
+      "Medusa Group",
+      "VOID MANTICORE",
+      "Ember Bear",
+      "Darkhotel",
+      "Naikon",
+      "Magic Hound",
+      "OilRig",
+      "APT42",
+      "Patchwork",
+      "BlackByte"
+    ],
+    "ranking": [
+      {
+        "actor": "Kimsuky",
+        "score": 0.24444150924682617
+      },
+      {
+        "actor": "APT37",
+        "score": 0.1463054120540619
+      },
+      {
+        "actor": "Andariel",
+        "score": 0.12217169255018234
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": 0.11815056204795837
+      },
+      {
+        "actor": "APT33",
+        "score": -0.014383012428879738
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.014478353783488274
+      },
+      {
+        "actor": "Darkhotel",
+        "score": -0.043177530169487
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.05491113290190697
+      },
+      {
+        "actor": "APT38",
+        "score": -0.06179802864789963
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.06531091034412384
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": -0.09159526973962784
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.09325001388788223
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.09431473165750504
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.09520722180604935
+      },
+      {
+        "actor": "Dragonfly",
+        "score": -0.09716414660215378
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.105141781270504
+      },
+      {
+        "actor": "Naikon",
+        "score": -0.11536533385515213
+      },
+      {
+        "actor": "APT42",
+        "score": -0.11848203837871552
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.12162040919065475
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.129808709025383
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.131324902176857
+      },
+      {
+        "actor": "ShinyHunters",
+        "score": -0.13396094739437103
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.1371978521347046
+      },
+      {
+        "actor": "APT28",
+        "score": -0.14417524635791779
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.14910319447517395
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.17664194107055664
+      }
+    ]
+  },
+  {
+    "id": "taa-20",
+    "gold": "Kimsuky",
+    "rank": 4,
+    "candidate_pool": [
+      "menuPass",
+      "Kimsuky",
+      "APT32",
+      "APT42",
+      "Volt Typhoon",
+      "APT18",
+      "Mustang Panda",
+      "APT39",
+      "BRONZE BUTLER",
+      "GALLIUM",
+      "RedCurl",
+      "Cobalt Group",
+      "Andariel",
+      "APT37",
+      "Darkhotel",
+      "Medusa Group",
+      "Moonstone Sleet",
+      "Akira",
+      "FIN7",
+      "APT28",
+      "LuminousMoth",
+      "Patchwork",
+      "Lazarus Group",
+      "APT3",
+      "BlackByte",
+      "Higaisa",
+      "Winter Vivern"
+    ],
+    "ranking": [
+      {
+        "actor": "Lazarus Group",
+        "score": 0.08806202560663223
+      },
+      {
+        "actor": "Higaisa",
+        "score": 0.07566091418266296
+      },
+      {
+        "actor": "APT37",
+        "score": 0.07070720940828323
+      },
+      {
+        "actor": "Kimsuky",
+        "score": 0.04601326957345009
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.0031178288627415895
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.008145039901137352
+      },
+      {
+        "actor": "APT39",
+        "score": -0.008318858221173286
+      },
+      {
+        "actor": "Darkhotel",
+        "score": -0.018761998042464256
+      },
+      {
+        "actor": "APT32",
+        "score": -0.020586712285876274
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": -0.025720303878188133
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.03807920962572098
+      },
+      {
+        "actor": "APT18",
+        "score": -0.043961022049188614
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.05088748410344124
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.07041075080633163
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.07242164015769958
+      },
+      {
+        "actor": "BRONZE BUTLER",
+        "score": -0.08043619990348816
+      },
+      {
+        "actor": "APT3",
+        "score": -0.0821794793009758
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.08500167727470398
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.0905999168753624
+      },
+      {
+        "actor": "Akira",
+        "score": -0.09386689960956573
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.10158596932888031
+      },
+      {
+        "actor": "APT42",
+        "score": -0.10636340081691742
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.1132316067814827
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.11721853166818619
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.1271001547574997
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.1356029361486435
+      },
+      {
+        "actor": "APT28",
+        "score": -0.1407448649406433
+      }
+    ]
+  },
+  {
+    "id": "taa-21",
+    "gold": "APT36",
+    "rank": null,
+    "candidate_pool": [
+      "SideCopy",
+      "HAFNIUM",
+      "MuddyWater",
+      "Axiom",
+      "Kimsuky",
+      "Andariel",
+      "FIN7",
+      "Magic Hound",
+      "Patchwork",
+      "APT-C-36",
+      "Lazarus Group",
+      "Volt Typhoon",
+      "APT37",
+      "Gamaredon Group",
+      "Akira",
+      "BlackByte",
+      "Medusa Group",
+      "APT42",
+      "Moonstone Sleet",
+      "Sidewinder",
+      "GALLIUM",
+      "ShinyHunters",
+      "APT3",
+      "Saint Bear",
+      "VOID MANTICORE",
+      "LuminousMoth"
+    ],
+    "ranking": [
+      {
+        "actor": "SideCopy",
+        "score": 0.567455530166626
+      },
+      {
+        "actor": "Sidewinder",
+        "score": 0.06765085458755493
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.04864496365189552
+      },
+      {
+        "actor": "Akira",
+        "score": -0.058288559317588806
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.06228349357843399
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.06702881306409836
+      },
+      {
+        "actor": "MuddyWater",
+        "score": -0.07588961720466614
+      },
+      {
+        "actor": "APT37",
+        "score": -0.07842308282852173
+      },
+      {
+        "actor": "APT3",
+        "score": -0.0819784551858902
+      },
+      {
+        "actor": "ShinyHunters",
+        "score": -0.08236481994390488
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.0935472622513771
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.10021226108074188
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.10056983679533005
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.10688924044370651
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.1088135838508606
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.11057990044355392
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.11366564780473709
+      },
+      {
+        "actor": "Axiom",
+        "score": -0.11398766189813614
+      },
+      {
+        "actor": "Saint Bear",
+        "score": -0.11644595861434937
+      },
+      {
+        "actor": "APT42",
+        "score": -0.11706917732954025
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.12075518816709518
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.13760536909103394
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.15220998227596283
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.16516496241092682
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.18357840180397034
+      },
+      {
+        "actor": "Gamaredon Group",
+        "score": -0.20245179533958435
+      }
+    ]
+  },
+  {
+    "id": "taa-22",
+    "gold": "APT35",
+    "rank": 1,
+    "candidate_pool": [
+      "Magic Hound",
+      "APT28",
+      "Kimsuky",
+      "APT39",
+      "Mustang Panda",
+      "Dragonfly",
+      "ShinyHunters",
+      "Medusa Group",
+      "Sandworm Team",
+      "HAFNIUM",
+      "Scattered Spider",
+      "CURIUM",
+      "VOID MANTICORE",
+      "RedCurl",
+      "Silent Librarian",
+      "Akira",
+      "WIRTE",
+      "Volt Typhoon",
+      "AppleJeus",
+      "APT42",
+      "Winter Vivern",
+      "FIN7",
+      "LuminousMoth",
+      "admin@338",
+      "Saint Bear"
+    ],
+    "ranking": [
+      {
+        "actor": "Magic Hound",
+        "score": 0.39865773916244507
+      },
+      {
+        "actor": "Silent Librarian",
+        "score": 0.20069259405136108
+      },
+      {
+        "actor": "WIRTE",
+        "score": 0.1687304675579071
+      },
+      {
+        "actor": "CURIUM",
+        "score": 0.16776296496391296
+      },
+      {
+        "actor": "APT42",
+        "score": 0.05781981348991394
+      },
+      {
+        "actor": "APT39",
+        "score": 0.0029847081750631332
+      },
+      {
+        "actor": "admin@338",
+        "score": 0.0015747185098007321
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.058579664677381516
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.06081844121217728
+      },
+      {
+        "actor": "APT28",
+        "score": -0.06440019607543945
+      },
+      {
+        "actor": "Saint Bear",
+        "score": -0.08075030148029327
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.08400824666023254
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.0860917866230011
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.08754941076040268
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.09633170068264008
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": -0.09889932721853256
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.09905671328306198
+      },
+      {
+        "actor": "ShinyHunters",
+        "score": -0.09975399821996689
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.1060498058795929
+      },
+      {
+        "actor": "Akira",
+        "score": -0.10805819928646088
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.10964648425579071
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.11623605340719223
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.12173076719045639
+      },
+      {
+        "actor": "Dragonfly",
+        "score": -0.12835285067558289
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.1372283697128296
+      }
+    ]
+  },
+  {
+    "id": "taa-23",
+    "gold": "MuddyWater",
+    "rank": 4,
+    "candidate_pool": [
+      "Magic Hound",
+      "MuddyWater",
+      "VOID MANTICORE",
+      "APT-C-36",
+      "APT18",
+      "HAFNIUM",
+      "RedCurl",
+      "Scattered Spider",
+      "Sandworm Team",
+      "INC Ransom",
+      "Kimsuky",
+      "Andariel",
+      "Lazarus Group",
+      "Ember Bear",
+      "Medusa Group",
+      "APT37",
+      "POLONIUM",
+      "APT38",
+      "Akira",
+      "Scarlet Mimic",
+      "Volt Typhoon",
+      "FIN7",
+      "Cinnamon Tempest",
+      "Moonstone Sleet",
+      "OilRig",
+      "Agrius"
+    ],
+    "ranking": [
+      {
+        "actor": "Agrius",
+        "score": 0.30959466099739075
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": 0.18572090566158295
+      },
+      {
+        "actor": "POLONIUM",
+        "score": 0.1232982948422432
+      },
+      {
+        "actor": "MuddyWater",
+        "score": 0.10234054177999496
+      },
+      {
+        "actor": "Magic Hound",
+        "score": 0.08528991788625717
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.03490394353866577
+      },
+      {
+        "actor": "APT18",
+        "score": -0.043957844376564026
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.07099110633134842
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.09217005223035812
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.09258642792701721
+      },
+      {
+        "actor": "APT37",
+        "score": -0.09867100417613983
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.10080017149448395
+      },
+      {
+        "actor": "Akira",
+        "score": -0.10333627462387085
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.11547806113958359
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.11746081709861755
+      },
+      {
+        "actor": "Scarlet Mimic",
+        "score": -0.12492788583040237
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.13773956894874573
+      },
+      {
+        "actor": "INC Ransom",
+        "score": -0.1419704109430313
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.1554511934518814
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.1575697809457779
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.16179122030735016
+      },
+      {
+        "actor": "APT38",
+        "score": -0.16187644004821777
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.16760796308517456
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.17038311064243317
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.17084336280822754
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.17655931413173676
+      }
+    ]
+  },
+  {
+    "id": "taa-24",
+    "gold": "MuddyWater",
+    "rank": null,
+    "candidate_pool": [
+      "BRONZE BUTLER",
+      "APT3",
+      "Volt Typhoon",
+      "Kimsuky",
+      "GALLIUM",
+      "menuPass",
+      "Inception",
+      "APT18",
+      "Leviathan",
+      "Orangeworm",
+      "Deep Panda",
+      "Medusa Group",
+      "Patchwork",
+      "APT19",
+      "GOLD SOUTHFIELD",
+      "APT37",
+      "APT38",
+      "OilRig",
+      "Sandworm Team",
+      "APT39",
+      "Higaisa",
+      "VOID MANTICORE",
+      "Tonto Team",
+      "Ember Bear",
+      "APT42",
+      "Moonstone Sleet",
+      "FIN7"
+    ],
+    "ranking": [
+      {
+        "actor": "APT39",
+        "score": 0.4147389829158783
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": 0.13735252618789673
+      },
+      {
+        "actor": "GALLIUM",
+        "score": 0.11457870155572891
+      },
+      {
+        "actor": "Inception",
+        "score": 0.10421780496835709
+      },
+      {
+        "actor": "OilRig",
+        "score": 0.10098524391651154
+      },
+      {
+        "actor": "APT42",
+        "score": 0.08585640043020248
+      },
+      {
+        "actor": "BRONZE BUTLER",
+        "score": 0.0513656809926033
+      },
+      {
+        "actor": "APT37",
+        "score": 0.00669757928699255
+      },
+      {
+        "actor": "APT3",
+        "score": -0.009499103762209415
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.015936225652694702
+      },
+      {
+        "actor": "APT19",
+        "score": -0.016494177281856537
+      },
+      {
+        "actor": "Leviathan",
+        "score": -0.02440810203552246
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.03648201376199722
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.04043598100543022
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.04967189207673073
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.049864206463098526
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.056777700781822205
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.07729384303092957
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.0829225555062294
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.08674886077642441
+      },
+      {
+        "actor": "APT18",
+        "score": -0.0911606028676033
+      },
+      {
+        "actor": "Higaisa",
+        "score": -0.0946226418018341
+      },
+      {
+        "actor": "Tonto Team",
+        "score": -0.09473472088575363
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.09890550374984741
+      },
+      {
+        "actor": "Orangeworm",
+        "score": -0.10618674755096436
+      },
+      {
+        "actor": "GOLD SOUTHFIELD",
+        "score": -0.1174093633890152
+      },
+      {
+        "actor": "APT38",
+        "score": -0.13166247308254242
+      }
+    ]
+  },
+  {
+    "id": "taa-25",
+    "gold": "CharmingCypress",
+    "rank": 5,
+    "candidate_pool": [
+      "Magic Hound",
+      "MuddyWater",
+      "APT42",
+      "BRONZE BUTLER",
+      "GALLIUM",
+      "WIRTE",
+      "Volt Typhoon",
+      "APT18",
+      "Wizard Spider",
+      "APT-C-36",
+      "Kimsuky",
+      "Medusa Group",
+      "VOID MANTICORE",
+      "CURIUM",
+      "Moonstone Sleet",
+      "ShinyHunters",
+      "Lazarus Group",
+      "APT28",
+      "Cobalt Group",
+      "RedCurl",
+      "Scattered Spider",
+      "Cinnamon Tempest",
+      "FIN4",
+      "APT29",
+      "Mustang Panda",
+      "FIN7",
+      "BlackOasis",
+      "AppleJeus",
+      "HAFNIUM"
+    ],
+    "ranking": [
+      {
+        "actor": "CURIUM",
+        "score": 0.1739005446434021
+      },
+      {
+        "actor": "APT42",
+        "score": 0.16416122019290924
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": 0.16330432891845703
+      },
+      {
+        "actor": "BlackOasis",
+        "score": 0.126460462808609
+      },
+      {
+        "actor": "Magic Hound",
+        "score": 0.11087904870510101
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": 0.06021767482161522
+      },
+      {
+        "actor": "WIRTE",
+        "score": 0.059405915439128876
+      },
+      {
+        "actor": "MuddyWater",
+        "score": 0.02834657020866871
+      },
+      {
+        "actor": "Kimsuky",
+        "score": 0.009355182759463787
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": 0.0057932110503315926
+      },
+      {
+        "actor": "RedCurl",
+        "score": 0.0026660296134650707
+      },
+      {
+        "actor": "APT29",
+        "score": -0.029559750109910965
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.0586918406188488
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.05923321470618248
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.06819798797369003
+      },
+      {
+        "actor": "FIN4",
+        "score": -0.07310686260461807
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.07331766188144684
+      },
+      {
+        "actor": "APT18",
+        "score": -0.09828048199415207
+      },
+      {
+        "actor": "BRONZE BUTLER",
+        "score": -0.10886359959840775
+      },
+      {
+        "actor": "ShinyHunters",
+        "score": -0.10998523980379105
+      },
+      {
+        "actor": "Wizard Spider",
+        "score": -0.11055594682693481
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.11938679963350296
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.12412005662918091
+      },
+      {
+        "actor": "APT28",
+        "score": -0.1266462653875351
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.12926779687404633
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.13459789752960205
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.14145934581756592
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.14287897944450378
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.1620432287454605
+      }
+    ]
+  },
+  {
+    "id": "taa-26",
+    "gold": "Mint Sandstorm",
+    "rank": 1,
+    "candidate_pool": [
+      "Magic Hound",
+      "APT42",
+      "Kimsuky",
+      "Fox Kitten",
+      "Inception",
+      "APT29",
+      "DarkHydrus",
+      "Ember Bear",
+      "Molerats",
+      "Dragonfly",
+      "VOID MANTICORE",
+      "Medusa Group",
+      "Lazarus Group",
+      "AppleJeus",
+      "Volt Typhoon",
+      "CURIUM",
+      "Andariel",
+      "POLONIUM",
+      "Silent Librarian",
+      "Scattered Spider",
+      "OilRig",
+      "Machete",
+      "APT28",
+      "FIN7",
+      "HAFNIUM",
+      "Akira"
+    ],
+    "ranking": [
+      {
+        "actor": "Magic Hound",
+        "score": 0.3377722501754761
+      },
+      {
+        "actor": "APT42",
+        "score": 0.22374626994132996
+      },
+      {
+        "actor": "OilRig",
+        "score": 0.06240362673997879
+      },
+      {
+        "actor": "Silent Librarian",
+        "score": 0.04018077999353409
+      },
+      {
+        "actor": "Fox Kitten",
+        "score": 0.019244320690631866
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.013953500427305698
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.015478712506592274
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.037497639656066895
+      },
+      {
+        "actor": "POLONIUM",
+        "score": -0.06101909652352333
+      },
+      {
+        "actor": "DarkHydrus",
+        "score": -0.06606505066156387
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.07414472848176956
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.09650770574808121
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.09746706485748291
+      },
+      {
+        "actor": "Inception",
+        "score": -0.10124584287405014
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.11264604330062866
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.11513813585042953
+      },
+      {
+        "actor": "Akira",
+        "score": -0.11831696331501007
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.12160293757915497
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.1259809136390686
+      },
+      {
+        "actor": "Molerats",
+        "score": -0.12697197496891022
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.13053512573242188
+      },
+      {
+        "actor": "Machete",
+        "score": -0.13659778237342834
+      },
+      {
+        "actor": "Dragonfly",
+        "score": -0.13750779628753662
+      },
+      {
+        "actor": "APT28",
+        "score": -0.13788160681724548
+      },
+      {
+        "actor": "APT29",
+        "score": -0.1434836983680725
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.1670355647802353
+      }
+    ]
+  },
+  {
+    "id": "taa-27",
+    "gold": "APT31",
+    "rank": 7,
+    "candidate_pool": [
+      "Mustang Panda",
+      "Threat Group-3390",
+      "GALLIUM",
+      "Kimsuky",
+      "APT28",
+      "Scattered Spider",
+      "menuPass",
+      "Axiom",
+      "ZIRCONIUM",
+      "APT32",
+      "APT42",
+      "Volt Typhoon",
+      "Medusa Group",
+      "Andariel",
+      "BlackByte",
+      "Lazarus Group",
+      "Sandworm Team",
+      "APT3",
+      "Ember Bear",
+      "APT38",
+      "VOID MANTICORE",
+      "APT37",
+      "CURIUM",
+      "APT19",
+      "HAFNIUM",
+      "Water Galura"
+    ],
+    "ranking": [
+      {
+        "actor": "Volt Typhoon",
+        "score": 0.21386978030204773
+      },
+      {
+        "actor": "APT3",
+        "score": 0.09059956669807434
+      },
+      {
+        "actor": "APT19",
+        "score": 0.0687614232301712
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": 0.06389335542917252
+      },
+      {
+        "actor": "Threat Group-3390",
+        "score": 0.04187031835317612
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": 0.024837831035256386
+      },
+      {
+        "actor": "ZIRCONIUM",
+        "score": 0.017853524535894394
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.012786098755896091
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.02127336524426937
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.06225316599011421
+      },
+      {
+        "actor": "Water Galura",
+        "score": -0.0635766014456749
+      },
+      {
+        "actor": "Axiom",
+        "score": -0.065452441573143
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.09980577230453491
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.10090713948011398
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.10122431069612503
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.10155922919511795
+      },
+      {
+        "actor": "APT37",
+        "score": -0.10231057554483414
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.10521378368139267
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.11065778881311417
+      },
+      {
+        "actor": "APT32",
+        "score": -0.11438217759132385
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.12529301643371582
+      },
+      {
+        "actor": "APT28",
+        "score": -0.1313226968050003
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.13334713876247406
+      },
+      {
+        "actor": "APT42",
+        "score": -0.13914239406585693
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.1718025654554367
+      },
+      {
+        "actor": "APT38",
+        "score": -0.2121841013431549
+      }
+    ]
+  },
+  {
+    "id": "taa-28",
+    "gold": "Gamaredon",
+    "rank": 1,
+    "candidate_pool": [
+      "Magic Hound",
+      "Silence",
+      "HAFNIUM",
+      "Sandworm Team",
+      "Andariel",
+      "RedCurl",
+      "APT-C-36",
+      "Mustang Panda",
+      "APT29",
+      "TeamTNT",
+      "APT42",
+      "APT37",
+      "Gamaredon Group",
+      "Lazarus Group",
+      "Moonstone Sleet",
+      "LuminousMoth",
+      "CURIUM",
+      "APT32",
+      "Patchwork",
+      "APT38",
+      "Akira",
+      "Contagious Interview",
+      "Naikon",
+      "Machete",
+      "Darkhotel",
+      "Winter Vivern",
+      "Medusa Group"
+    ],
+    "ranking": [
+      {
+        "actor": "Gamaredon Group",
+        "score": 0.28084203600883484
+      },
+      {
+        "actor": "RedCurl",
+        "score": 0.12697969377040863
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": 0.05653541535139084
+      },
+      {
+        "actor": "Magic Hound",
+        "score": 0.03463030606508255
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": 0.030823422595858574
+      },
+      {
+        "actor": "Silence",
+        "score": 0.0003466500202193856
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.027089538052678108
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": -0.05255308374762535
+      },
+      {
+        "actor": "APT29",
+        "score": -0.06264302879571915
+      },
+      {
+        "actor": "APT37",
+        "score": -0.07577643543481827
+      },
+      {
+        "actor": "Machete",
+        "score": -0.08373547345399857
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.08425118029117584
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.09052848070859909
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.09231672435998917
+      },
+      {
+        "actor": "Darkhotel",
+        "score": -0.09261439740657806
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.0971236601471901
+      },
+      {
+        "actor": "APT42",
+        "score": -0.11371506750583649
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.11743821948766708
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.12180576473474503
+      },
+      {
+        "actor": "TeamTNT",
+        "score": -0.12219705432653427
+      },
+      {
+        "actor": "APT32",
+        "score": -0.1288006454706192
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.1364762783050537
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.13825389742851257
+      },
+      {
+        "actor": "Akira",
+        "score": -0.13958528637886047
+      },
+      {
+        "actor": "Naikon",
+        "score": -0.1477379947900772
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": -0.15536467730998993
+      },
+      {
+        "actor": "APT38",
+        "score": -0.180712029337883
+      }
+    ]
+  },
+  {
+    "id": "taa-29",
+    "gold": "Gamaredon",
+    "rank": 1,
+    "candidate_pool": [
+      "APT28",
+      "Deep Panda",
+      "Gamaredon Group",
+      "Magic Hound",
+      "RedCurl",
+      "Cobalt Group",
+      "MuddyWater",
+      "LAPSUS$",
+      "Lazarus Group",
+      "Mustang Panda",
+      "APT37",
+      "CURIUM",
+      "Winter Vivern",
+      "VOID MANTICORE",
+      "APT38",
+      "Volt Typhoon",
+      "Kimsuky",
+      "Saint Bear",
+      "OilRig",
+      "APT42",
+      "BRONZE BUTLER",
+      "APT3",
+      "LuminousMoth",
+      "Leviathan",
+      "Ember Bear"
+    ],
+    "ranking": [
+      {
+        "actor": "Gamaredon Group",
+        "score": 0.49931034445762634
+      },
+      {
+        "actor": "APT28",
+        "score": 0.25788840651512146
+      },
+      {
+        "actor": "Ember Bear",
+        "score": 0.1843719184398651
+      },
+      {
+        "actor": "Saint Bear",
+        "score": 0.09767379611730576
+      },
+      {
+        "actor": "RedCurl",
+        "score": 0.04086367413401604
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.001865737373009324
+      },
+      {
+        "actor": "MuddyWater",
+        "score": -0.03588208556175232
+      },
+      {
+        "actor": "APT37",
+        "score": -0.05560437962412834
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.05711055546998978
+      },
+      {
+        "actor": "BRONZE BUTLER",
+        "score": -0.06329106539487839
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.07562381029129028
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.08768583089113235
+      },
+      {
+        "actor": "Leviathan",
+        "score": -0.093396857380867
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.09806300699710846
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.10049762576818466
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.10054294019937515
+      },
+      {
+        "actor": "APT3",
+        "score": -0.10252848267555237
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.11520034819841385
+      },
+      {
+        "actor": "LAPSUS$",
+        "score": -0.12108179181814194
+      },
+      {
+        "actor": "APT42",
+        "score": -0.12248869985342026
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.12693257629871368
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.1340942233800888
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.14509113132953644
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": -0.17136870324611664
+      },
+      {
+        "actor": "APT38",
+        "score": -0.17473255097866058
+      }
+    ]
+  },
+  {
+    "id": "taa-30",
+    "gold": "Sharp Panda",
+    "rank": null,
+    "candidate_pool": [
+      "Mustang Panda",
+      "Naikon",
+      "APT41",
+      "APT30",
+      "Magic Hound",
+      "LuminousMoth",
+      "Sandworm Team",
+      "HAFNIUM",
+      "APT3",
+      "Molerats",
+      "Kimsuky",
+      "Lazarus Group",
+      "Andariel",
+      "APT37",
+      "APT42",
+      "AppleJeus",
+      "Moonstone Sleet",
+      "VOID MANTICORE",
+      "APT38",
+      "Ember Bear",
+      "GALLIUM",
+      "Saint Bear",
+      "APT19",
+      "Medusa Group",
+      "Machete",
+      "Mofang",
+      "Akira"
+    ],
+    "ranking": [
+      {
+        "actor": "Mustang Panda",
+        "score": 0.29878363013267517
+      },
+      {
+        "actor": "Naikon",
+        "score": 0.28193047642707825
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": 0.20583949983119965
+      },
+      {
+        "actor": "APT41",
+        "score": 0.13632716238498688
+      },
+      {
+        "actor": "APT30",
+        "score": 0.1164635717868805
+      },
+      {
+        "actor": "APT3",
+        "score": 0.08913951367139816
+      },
+      {
+        "actor": "Mofang",
+        "score": 0.05469711124897003
+      },
+      {
+        "actor": "GALLIUM",
+        "score": 0.006015975493937731
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.0031032979022711515
+      },
+      {
+        "actor": "APT37",
+        "score": -0.0037589333951473236
+      },
+      {
+        "actor": "APT19",
+        "score": -0.04710918292403221
+      },
+      {
+        "actor": "Saint Bear",
+        "score": -0.06334184855222702
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.06347864121198654
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.0644390732049942
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.0656169056892395
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.07495447993278503
+      },
+      {
+        "actor": "Akira",
+        "score": -0.08275024592876434
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.09438398480415344
+      },
+      {
+        "actor": "APT42",
+        "score": -0.09786135703325272
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.10562807321548462
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.11279679089784622
+      },
+      {
+        "actor": "Machete",
+        "score": -0.11435108631849289
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.11573664098978043
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.13252170383930206
+      },
+      {
+        "actor": "Molerats",
+        "score": -0.14780345559120178
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.15748432278633118
+      },
+      {
+        "actor": "APT38",
+        "score": -0.16777297854423523
+      }
+    ]
+  },
+  {
+    "id": "taa-31",
+    "gold": "Bitter APT",
+    "rank": 1,
+    "candidate_pool": [
+      "BITTER",
+      "HEXANE",
+      "Magic Hound",
+      "Sandworm Team",
+      "Sidewinder",
+      "MuddyWater",
+      "APT28",
+      "RedCurl",
+      "APT32",
+      "Machete",
+      "Lazarus Group",
+      "Volt Typhoon",
+      "Kimsuky",
+      "Andariel",
+      "APT42",
+      "OilRig",
+      "APT38",
+      "CURIUM",
+      "AppleJeus",
+      "Winter Vivern",
+      "APT37",
+      "Saint Bear",
+      "GALLIUM",
+      "VOID MANTICORE",
+      "Cobalt Group",
+      "Ember Bear"
+    ],
+    "ranking": [
+      {
+        "actor": "BITTER",
+        "score": 0.5463123917579651
+      },
+      {
+        "actor": "Sidewinder",
+        "score": 0.06489746272563934
+      },
+      {
+        "actor": "APT32",
+        "score": 0.020689604803919792
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.02203880436718464
+      },
+      {
+        "actor": "MuddyWater",
+        "score": -0.02404644340276718
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.02642122097313404
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.03664424642920494
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.0397205613553524
+      },
+      {
+        "actor": "Saint Bear",
+        "score": -0.0400390550494194
+      },
+      {
+        "actor": "APT37",
+        "score": -0.047346699982881546
+      },
+      {
+        "actor": "APT42",
+        "score": -0.055601198226213455
+      },
+      {
+        "actor": "HEXANE",
+        "score": -0.05783563852310181
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.06784023344516754
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.06795503944158554
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.07045108079910278
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.07346030324697495
+      },
+      {
+        "actor": "Machete",
+        "score": -0.08646509796380997
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.0911436378955841
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.09260021150112152
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.09473318606615067
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.10191193968057632
+      },
+      {
+        "actor": "APT28",
+        "score": -0.11514195799827576
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.12240420281887054
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.1372760385274887
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.1388569474220276
+      },
+      {
+        "actor": "APT38",
+        "score": -0.16675853729248047
+      }
+    ]
+  },
+  {
+    "id": "taa-32",
+    "gold": "Confucius",
+    "rank": 2,
+    "candidate_pool": [
+      "HAFNIUM",
+      "Mustang Panda",
+      "MuddyWater",
+      "ShinyHunters",
+      "Andariel",
+      "Daggerfly",
+      "Magic Hound",
+      "SideCopy",
+      "APT-C-23",
+      "APT33",
+      "Medusa Group",
+      "Kimsuky",
+      "APT42",
+      "APT37",
+      "Lazarus Group",
+      "BlackByte",
+      "APT38",
+      "Patchwork",
+      "Metador",
+      "Indrik Spider",
+      "APT41",
+      "Akira",
+      "Deep Panda",
+      "FIN7",
+      "Cinnamon Tempest",
+      "Naikon",
+      "CURIUM",
+      "Moonstone Sleet",
+      "Confucius"
+    ],
+    "ranking": [
+      {
+        "actor": "APT-C-23",
+        "score": 0.18949870765209198
+      },
+      {
+        "actor": "Confucius",
+        "score": 0.16353246569633484
+      },
+      {
+        "actor": "SideCopy",
+        "score": 0.006905983202159405
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": -0.014967919327318668
+      },
+      {
+        "actor": "APT37",
+        "score": -0.025871923193335533
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.06968224793672562
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.07245746999979019
+      },
+      {
+        "actor": "APT41",
+        "score": -0.08213239163160324
+      },
+      {
+        "actor": "Naikon",
+        "score": -0.08414463698863983
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.08789605647325516
+      },
+      {
+        "actor": "APT33",
+        "score": -0.09236524999141693
+      },
+      {
+        "actor": "APT42",
+        "score": -0.09957456588745117
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.10124088823795319
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.10856827348470688
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.11188866943120956
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.12098156660795212
+      },
+      {
+        "actor": "Daggerfly",
+        "score": -0.12167814373970032
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.12692201137542725
+      },
+      {
+        "actor": "Metador",
+        "score": -0.12843337655067444
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.13821955025196075
+      },
+      {
+        "actor": "ShinyHunters",
+        "score": -0.13865244388580322
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.14112357795238495
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.15015529096126556
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.1531091034412384
+      },
+      {
+        "actor": "Akira",
+        "score": -0.15356527268886566
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.16168847680091858
+      },
+      {
+        "actor": "MuddyWater",
+        "score": -0.16301175951957703
+      },
+      {
+        "actor": "APT38",
+        "score": -0.1709846705198288
+      },
+      {
+        "actor": "Indrik Spider",
+        "score": -0.18356285989284515
+      }
+    ]
+  },
+  {
+    "id": "taa-33",
+    "gold": "Dragonfly",
+    "rank": 6,
+    "candidate_pool": [
+      "Dragonfly",
+      "APT39",
+      "Kimsuky",
+      "OilRig",
+      "APT28",
+      "Ember Bear",
+      "Gamaredon Group",
+      "Moses Staff",
+      "Sandworm Team",
+      "ShinyHunters",
+      "Cobalt Group",
+      "APT42",
+      "Andariel",
+      "Medusa Group",
+      "CURIUM",
+      "APT38",
+      "Lazarus Group",
+      "Patchwork",
+      "Volt Typhoon",
+      "APT37",
+      "Deep Panda",
+      "Mofang",
+      "RedCurl",
+      "VOID MANTICORE",
+      "AppleJeus",
+      "Machete"
+    ],
+    "ranking": [
+      {
+        "actor": "Sandworm Team",
+        "score": 0.2318679839372635
+      },
+      {
+        "actor": "APT28",
+        "score": 0.14025263488292694
+      },
+      {
+        "actor": "RedCurl",
+        "score": 0.13417214155197144
+      },
+      {
+        "actor": "APT39",
+        "score": 0.12631067633628845
+      },
+      {
+        "actor": "OilRig",
+        "score": 0.1056714579463005
+      },
+      {
+        "actor": "Dragonfly",
+        "score": 0.08471705764532089
+      },
+      {
+        "actor": "Patchwork",
+        "score": 0.08459802716970444
+      },
+      {
+        "actor": "Ember Bear",
+        "score": 0.07534162700176239
+      },
+      {
+        "actor": "Machete",
+        "score": -0.028263576328754425
+      },
+      {
+        "actor": "APT42",
+        "score": -0.047868095338344574
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.051663268357515335
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.056977253407239914
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.06237955391407013
+      },
+      {
+        "actor": "Moses Staff",
+        "score": -0.06696092337369919
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.0675329640507698
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.07946589589118958
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.0842570811510086
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.08902134001255035
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.09969820082187653
+      },
+      {
+        "actor": "Gamaredon Group",
+        "score": -0.10962535440921783
+      },
+      {
+        "actor": "Mofang",
+        "score": -0.11522699892520905
+      },
+      {
+        "actor": "ShinyHunters",
+        "score": -0.11571923643350601
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.12799249589443207
+      },
+      {
+        "actor": "APT37",
+        "score": -0.13293775916099548
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.14391981065273285
+      },
+      {
+        "actor": "APT38",
+        "score": -0.15622051060199738
+      }
+    ]
+  },
+  {
+    "id": "taa-34",
+    "gold": "Andariel",
+    "rank": null,
+    "candidate_pool": [
+      "Kimsuky",
+      "BRONZE BUTLER",
+      "APT18",
+      "GALLIUM",
+      "Volt Typhoon",
+      "Orangeworm",
+      "menuPass",
+      "APT-C-36",
+      "Leviathan",
+      "APT32",
+      "APT37",
+      "APT28",
+      "APT38",
+      "APT42",
+      "BlackByte",
+      "Medusa Group",
+      "Dragonfly",
+      "Darkhotel",
+      "Cobalt Group",
+      "RedCurl",
+      "Sandworm Team",
+      "Rocke",
+      "Moonstone Sleet",
+      "Ember Bear",
+      "Akira",
+      "Patchwork",
+      "APT29"
+    ],
+    "ranking": [
+      {
+        "actor": "Kimsuky",
+        "score": 0.12608522176742554
+      },
+      {
+        "actor": "APT18",
+        "score": 0.06413009017705917
+      },
+      {
+        "actor": "APT37",
+        "score": -0.0022491938434541225
+      },
+      {
+        "actor": "APT32",
+        "score": -0.0402083620429039
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.07478095591068268
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.07898353040218353
+      },
+      {
+        "actor": "Darkhotel",
+        "score": -0.08139099180698395
+      },
+      {
+        "actor": "Rocke",
+        "score": -0.08290214091539383
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.0920209214091301
+      },
+      {
+        "actor": "Leviathan",
+        "score": -0.0986650288105011
+      },
+      {
+        "actor": "BRONZE BUTLER",
+        "score": -0.10098672658205032
+      },
+      {
+        "actor": "Akira",
+        "score": -0.1026567816734314
+      },
+      {
+        "actor": "APT29",
+        "score": -0.10274353623390198
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.10578266531229019
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.10685677826404572
+      },
+      {
+        "actor": "APT38",
+        "score": -0.10686670988798141
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.10983157902956009
+      },
+      {
+        "actor": "Dragonfly",
+        "score": -0.11093421280384064
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.11315733194351196
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.1136336624622345
+      },
+      {
+        "actor": "Orangeworm",
+        "score": -0.12239827960729599
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.1240365281701088
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.12846027314662933
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.13332264125347137
+      },
+      {
+        "actor": "APT42",
+        "score": -0.1522963047027588
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.16391567885875702
+      },
+      {
+        "actor": "APT28",
+        "score": -0.204569011926651
+      }
+    ]
+  },
+  {
+    "id": "taa-35",
+    "gold": "COLDRIVER",
+    "rank": 1,
+    "candidate_pool": [
+      "APT-C-36",
+      "Gamaredon Group",
+      "APT29",
+      "APT3",
+      "RedCurl",
+      "APT32",
+      "Winter Vivern",
+      "APT33",
+      "Scattered Spider",
+      "APT38",
+      "CURIUM",
+      "Medusa Group",
+      "APT42",
+      "FIN7",
+      "Lazarus Group",
+      "Akira",
+      "GALLIUM",
+      "Contagious Interview",
+      "Volt Typhoon",
+      "Kimsuky",
+      "Machete",
+      "Cobalt Group",
+      "APT28",
+      "HAFNIUM",
+      "Star Blizzard",
+      "Mofang",
+      "Cinnamon Tempest",
+      "Sandworm Team",
+      "VOID MANTICORE"
+    ],
+    "ranking": [
+      {
+        "actor": "Star Blizzard",
+        "score": 0.5477503538131714
+      },
+      {
+        "actor": "Gamaredon Group",
+        "score": 0.22983615100383759
+      },
+      {
+        "actor": "APT28",
+        "score": 0.1353316456079483
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": 0.13019952178001404
+      },
+      {
+        "actor": "APT-C-36",
+        "score": 0.10019076615571976
+      },
+      {
+        "actor": "APT29",
+        "score": 0.06168491393327713
+      },
+      {
+        "actor": "RedCurl",
+        "score": 0.03522084280848503
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": -0.03542719781398773
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.036238741129636765
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.036631807684898376
+      },
+      {
+        "actor": "Mofang",
+        "score": -0.04071730002760887
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.04693722724914551
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.049719542264938354
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.05119781196117401
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.06307416409254074
+      },
+      {
+        "actor": "Machete",
+        "score": -0.07550128549337387
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.09520997107028961
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.09584755450487137
+      },
+      {
+        "actor": "APT42",
+        "score": -0.09771016985177994
+      },
+      {
+        "actor": "APT32",
+        "score": -0.10478252917528152
+      },
+      {
+        "actor": "APT3",
+        "score": -0.1102101132273674
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.12699122726917267
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.12811242043972015
+      },
+      {
+        "actor": "Akira",
+        "score": -0.13477668166160583
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.14429451525211334
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.149743914604187
+      },
+      {
+        "actor": "APT33",
+        "score": -0.15708649158477783
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.163964182138443
+      },
+      {
+        "actor": "APT38",
+        "score": -0.1800713986158371
+      }
+    ]
+  },
+  {
+    "id": "taa-36",
+    "gold": "Bahamut",
+    "rank": null,
+    "candidate_pool": [
+      "APT-C-23",
+      "APT37",
+      "Confucius",
+      "APT-C-36",
+      "LAPSUS$",
+      "Contagious Interview",
+      "Scattered Spider",
+      "Axiom",
+      "EXOTIC LILY",
+      "INC Ransom",
+      "Medusa Group",
+      "Scarlet Mimic",
+      "CURIUM",
+      "Sea Turtle",
+      "Moonstone Sleet",
+      "APT42",
+      "Patchwork",
+      "Sandworm Team",
+      "LuminousMoth",
+      "Winter Vivern",
+      "Darkhotel",
+      "Machete",
+      "VOID MANTICORE",
+      "Ember Bear",
+      "BlackByte",
+      "APT28"
+    ],
+    "ranking": [
+      {
+        "actor": "APT-C-23",
+        "score": 0.11663579195737839
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.02270573377609253
+      },
+      {
+        "actor": "APT42",
+        "score": -0.03426070883870125
+      },
+      {
+        "actor": "APT37",
+        "score": -0.08152397722005844
+      },
+      {
+        "actor": "Sea Turtle",
+        "score": -0.09463627636432648
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.11314337700605392
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.11605954170227051
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.11825279146432877
+      },
+      {
+        "actor": "Confucius",
+        "score": -0.12425007671117783
+      },
+      {
+        "actor": "Machete",
+        "score": -0.12857118248939514
+      },
+      {
+        "actor": "Scarlet Mimic",
+        "score": -0.13073371350765228
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.13209587335586548
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.13511188328266144
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.1352880299091339
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.13923048973083496
+      },
+      {
+        "actor": "Darkhotel",
+        "score": -0.14010456204414368
+      },
+      {
+        "actor": "LAPSUS$",
+        "score": -0.14511094987392426
+      },
+      {
+        "actor": "APT28",
+        "score": -0.14752855896949768
+      },
+      {
+        "actor": "Axiom",
+        "score": -0.15118050575256348
+      },
+      {
+        "actor": "EXOTIC LILY",
+        "score": -0.15127460658550262
+      },
+      {
+        "actor": "INC Ransom",
+        "score": -0.1530766636133194
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.15406055748462677
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.15603509545326233
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.15791064500808716
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": -0.17669926583766937
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.17800064384937286
+      }
+    ]
+  },
+  {
+    "id": "taa-37",
+    "gold": "APT37",
+    "rank": 1,
+    "candidate_pool": [
+      "APT-C-36",
+      "MuddyWater",
+      "APT19",
+      "OilRig",
+      "APT28",
+      "Threat Group-3390",
+      "APT29",
+      "Aquatic Panda",
+      "APT3",
+      "Gorgon Group",
+      "APT37",
+      "APT38",
+      "Kimsuky",
+      "RedCurl",
+      "APT42",
+      "Medusa Group",
+      "Andariel",
+      "Cobalt Group",
+      "Lazarus Group",
+      "Higaisa",
+      "AppleJeus",
+      "Deep Panda",
+      "HAFNIUM",
+      "LuminousMoth",
+      "Sea Turtle",
+      "GALLIUM",
+      "Darkhotel",
+      "Whitefly"
+    ],
+    "ranking": [
+      {
+        "actor": "APT37",
+        "score": 0.36225736141204834
+      },
+      {
+        "actor": "Kimsuky",
+        "score": 0.22752025723457336
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": 0.13320870697498322
+      },
+      {
+        "actor": "Andariel",
+        "score": 0.04010820761322975
+      },
+      {
+        "actor": "AppleJeus",
+        "score": 0.02992286905646324
+      },
+      {
+        "actor": "APT38",
+        "score": 0.009435093030333519
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.004641348961740732
+      },
+      {
+        "actor": "APT19",
+        "score": -0.01679227128624916
+      },
+      {
+        "actor": "MuddyWater",
+        "score": -0.03436582162976265
+      },
+      {
+        "actor": "Whitefly",
+        "score": -0.03867090120911598
+      },
+      {
+        "actor": "APT3",
+        "score": -0.04339626803994179
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.05735262855887413
+      },
+      {
+        "actor": "APT42",
+        "score": -0.07148333638906479
+      },
+      {
+        "actor": "Sea Turtle",
+        "score": -0.08088944852352142
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.08497154712677002
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.08962134271860123
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.09232128411531448
+      },
+      {
+        "actor": "APT29",
+        "score": -0.09526536613702774
+      },
+      {
+        "actor": "Darkhotel",
+        "score": -0.09671411663293839
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.10856633633375168
+      },
+      {
+        "actor": "APT28",
+        "score": -0.10899921506643295
+      },
+      {
+        "actor": "Higaisa",
+        "score": -0.10955267399549484
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.11827690899372101
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.12159363180398941
+      },
+      {
+        "actor": "Aquatic Panda",
+        "score": -0.12827761471271515
+      },
+      {
+        "actor": "Gorgon Group",
+        "score": -0.13163571059703827
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.14808642864227295
+      },
+      {
+        "actor": "Threat Group-3390",
+        "score": -0.16289694607257843
+      }
+    ]
+  },
+  {
+    "id": "taa-38",
+    "gold": "APT33",
+    "rank": 1,
+    "candidate_pool": [
+      "APT33",
+      "APT37",
+      "Scattered Spider",
+      "HAFNIUM",
+      "Kimsuky",
+      "Sandworm Team",
+      "Fox Kitten",
+      "Tonto Team",
+      "MuddyWater",
+      "APT28",
+      "Andariel",
+      "VOID MANTICORE",
+      "Lazarus Group",
+      "Volt Typhoon",
+      "Moses Staff",
+      "Medusa Group",
+      "Ember Bear",
+      "OilRig",
+      "Ajax Security Team",
+      "APT38",
+      "APT39",
+      "Dragonfly",
+      "CURIUM",
+      "Contagious Interview"
+    ],
+    "ranking": [
+      {
+        "actor": "APT33",
+        "score": 0.360905259847641
+      },
+      {
+        "actor": "Ajax Security Team",
+        "score": 0.14854195713996887
+      },
+      {
+        "actor": "MuddyWater",
+        "score": 0.08592499792575836
+      },
+      {
+        "actor": "Dragonfly",
+        "score": -0.011618377640843391
+      },
+      {
+        "actor": "APT39",
+        "score": -0.015038542449474335
+      },
+      {
+        "actor": "Fox Kitten",
+        "score": -0.018014462664723396
+      },
+      {
+        "actor": "Moses Staff",
+        "score": -0.03613542392849922
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.03693713992834091
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.03906209394335747
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.04918931424617767
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.0601111575961113
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.07320167869329453
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.08098660409450531
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.08198095858097076
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.0823104977607727
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.08651211112737656
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": -0.1074131578207016
+      },
+      {
+        "actor": "APT37",
+        "score": -0.11490201205015182
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.12546582520008087
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.15269383788108826
+      },
+      {
+        "actor": "APT28",
+        "score": -0.15574930608272552
+      },
+      {
+        "actor": "Tonto Team",
+        "score": -0.15773515403270721
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.1620216816663742
+      },
+      {
+        "actor": "APT38",
+        "score": -0.22581571340560913
+      }
+    ]
+  },
+  {
+    "id": "taa-39",
+    "gold": "APT29",
+    "rank": 1,
+    "candidate_pool": [
+      "APT29",
+      "APT28",
+      "Turla",
+      "Gamaredon Group",
+      "Agrius",
+      "Sandworm Team",
+      "Ember Bear",
+      "HEXANE",
+      "Winter Vivern",
+      "APT38",
+      "Kimsuky",
+      "APT42",
+      "Patchwork",
+      "Akira",
+      "Lazarus Group",
+      "Saint Bear",
+      "Medusa Group",
+      "BlackByte",
+      "Volt Typhoon",
+      "FIN7",
+      "VOID MANTICORE",
+      "Naikon",
+      "APT37",
+      "RedCurl",
+      "Mustang Panda",
+      "Cobalt Group"
+    ],
+    "ranking": [
+      {
+        "actor": "APT29",
+        "score": 0.1594158560037613
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": 0.09394722431898117
+      },
+      {
+        "actor": "APT28",
+        "score": 0.02454516477882862
+      },
+      {
+        "actor": "Saint Bear",
+        "score": 0.011490337550640106
+      },
+      {
+        "actor": "Turla",
+        "score": -0.042404353618621826
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.048494402319192886
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.06403904408216476
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": -0.06619986891746521
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.08954602479934692
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.09638319164514542
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.10389954596757889
+      },
+      {
+        "actor": "Akira",
+        "score": -0.10508282482624054
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.10684822499752045
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.11126377433538437
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.12646900117397308
+      },
+      {
+        "actor": "APT37",
+        "score": -0.12990787625312805
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.13169139623641968
+      },
+      {
+        "actor": "Naikon",
+        "score": -0.13305343687534332
+      },
+      {
+        "actor": "Agrius",
+        "score": -0.13851745426654816
+      },
+      {
+        "actor": "HEXANE",
+        "score": -0.14200307428836823
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.15178509056568146
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.15328896045684814
+      },
+      {
+        "actor": "Gamaredon Group",
+        "score": -0.16863837838172913
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.17763429880142212
+      },
+      {
+        "actor": "APT42",
+        "score": -0.18227407336235046
+      },
+      {
+        "actor": "APT38",
+        "score": -0.23176513612270355
+      }
+    ]
+  },
+  {
+    "id": "taa-40",
+    "gold": "APT29",
+    "rank": 1,
+    "candidate_pool": [
+      "APT29",
+      "APT28",
+      "Ember Bear",
+      "HAFNIUM",
+      "Magic Hound",
+      "Dragonfly",
+      "HEXANE",
+      "Saint Bear",
+      "APT-C-36",
+      "Lazarus Group",
+      "Kimsuky",
+      "Scattered Spider",
+      "Medusa Group",
+      "VOID MANTICORE",
+      "Machete",
+      "APT42",
+      "CURIUM",
+      "Cobalt Group",
+      "Akira",
+      "Mofang",
+      "LAPSUS$",
+      "BlackByte",
+      "AppleJeus",
+      "RedCurl"
+    ],
+    "ranking": [
+      {
+        "actor": "APT29",
+        "score": 0.3685295879840851
+      },
+      {
+        "actor": "APT28",
+        "score": 0.07172612100839615
+      },
+      {
+        "actor": "Dragonfly",
+        "score": -0.0637931302189827
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.07012622803449631
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.091658815741539
+      },
+      {
+        "actor": "Machete",
+        "score": -0.09475617110729218
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.10237888246774673
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.1052618995308876
+      },
+      {
+        "actor": "LAPSUS$",
+        "score": -0.10545604676008224
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.10967463254928589
+      },
+      {
+        "actor": "HEXANE",
+        "score": -0.11778868734836578
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.12265539914369583
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.12582927942276
+      },
+      {
+        "actor": "Mofang",
+        "score": -0.12734605371952057
+      },
+      {
+        "actor": "Saint Bear",
+        "score": -0.12926580011844635
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.1375264674425125
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.13754813373088837
+      },
+      {
+        "actor": "Akira",
+        "score": -0.15122924745082855
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.1619860976934433
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.16637039184570312
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.16677862405776978
+      },
+      {
+        "actor": "APT42",
+        "score": -0.16878068447113037
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.18371367454528809
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.19470317661762238
+      }
+    ]
+  },
+  {
+    "id": "taa-41",
+    "gold": "APT29",
+    "rank": 5,
+    "candidate_pool": [
+      "APT-C-36",
+      "Ember Bear",
+      "APT19",
+      "Gamaredon Group",
+      "APT28",
+      "Machete",
+      "APT29",
+      "Molerats",
+      "APT3",
+      "RedCurl",
+      "APT38",
+      "APT37",
+      "Kimsuky",
+      "Andariel",
+      "Silence",
+      "APT42",
+      "Patchwork",
+      "Mofang",
+      "Moonstone Sleet",
+      "Cobalt Group",
+      "FIN7",
+      "VOID MANTICORE",
+      "CURIUM",
+      "Water Galura"
+    ],
+    "ranking": [
+      {
+        "actor": "Gamaredon Group",
+        "score": 0.1974174976348877
+      },
+      {
+        "actor": "APT28",
+        "score": 0.17856088280677795
+      },
+      {
+        "actor": "RedCurl",
+        "score": 0.1423588991165161
+      },
+      {
+        "actor": "Ember Bear",
+        "score": 0.13411596417427063
+      },
+      {
+        "actor": "APT29",
+        "score": 0.04980383813381195
+      },
+      {
+        "actor": "Silence",
+        "score": -0.03500160574913025
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.03787407651543617
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.068906269967556
+      },
+      {
+        "actor": "Water Galura",
+        "score": -0.07229715585708618
+      },
+      {
+        "actor": "APT19",
+        "score": -0.08671850711107254
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.09911365807056427
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.09988380968570709
+      },
+      {
+        "actor": "APT37",
+        "score": -0.1052103266119957
+      },
+      {
+        "actor": "APT42",
+        "score": -0.1115645244717598
+      },
+      {
+        "actor": "APT3",
+        "score": -0.1405673772096634
+      },
+      {
+        "actor": "Machete",
+        "score": -0.14662443101406097
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.14669066667556763
+      },
+      {
+        "actor": "Molerats",
+        "score": -0.15910008549690247
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.16276419162750244
+      },
+      {
+        "actor": "Mofang",
+        "score": -0.16471455991268158
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.16583697497844696
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.1732700765132904
+      },
+      {
+        "actor": "APT38",
+        "score": -0.1915901154279709
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.20777803659439087
+      }
+    ]
+  },
+  {
+    "id": "taa-42",
+    "gold": "Diamond Sleet",
+    "rank": 1,
+    "candidate_pool": [
+      "Lazarus Group",
+      "FIN7",
+      "Andariel",
+      "APT28",
+      "Contagious Interview",
+      "UNC3886",
+      "OilRig",
+      "FIN8",
+      "Kimsuky",
+      "Medusa Group",
+      "Scattered Spider",
+      "Moonstone Sleet",
+      "Volt Typhoon",
+      "AppleJeus",
+      "CURIUM",
+      "APT37",
+      "APT42",
+      "Cobalt Group",
+      "Deep Panda",
+      "VOID MANTICORE",
+      "APT38",
+      "APT41",
+      "RedCurl",
+      "Akira"
+    ],
+    "ranking": [
+      {
+        "actor": "Lazarus Group",
+        "score": 0.33277779817581177
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": 0.30684155225753784
+      },
+      {
+        "actor": "Andariel",
+        "score": 0.1649566888809204
+      },
+      {
+        "actor": "APT37",
+        "score": 0.053667373955249786
+      },
+      {
+        "actor": "AppleJeus",
+        "score": 0.043794989585876465
+      },
+      {
+        "actor": "Kimsuky",
+        "score": 0.04349564388394356
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": 0.01845734566450119
+      },
+      {
+        "actor": "Akira",
+        "score": -0.012608624063432217
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.012764379382133484
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.04887872934341431
+      },
+      {
+        "actor": "APT41",
+        "score": -0.049126047641038895
+      },
+      {
+        "actor": "APT38",
+        "score": -0.06361493468284607
+      },
+      {
+        "actor": "UNC3886",
+        "score": -0.07519329339265823
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.0813911035656929
+      },
+      {
+        "actor": "APT28",
+        "score": -0.08278951048851013
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.08574078232049942
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.08741647005081177
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.09675617516040802
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.10013575851917267
+      },
+      {
+        "actor": "APT42",
+        "score": -0.10106018930673599
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.10341809689998627
+      },
+      {
+        "actor": "FIN8",
+        "score": -0.13155882060527802
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.13862834870815277
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.15429742634296417
+      }
+    ]
+  },
+  {
+    "id": "taa-43",
+    "gold": "Lazarus",
+    "rank": 1,
+    "candidate_pool": [
+      "Lazarus Group",
+      "BRONZE BUTLER",
+      "Contagious Interview",
+      "APT18",
+      "GALLIUM",
+      "Orangeworm",
+      "EXOTIC LILY",
+      "Volt Typhoon",
+      "Kimsuky",
+      "Andariel",
+      "APT37",
+      "FIN7",
+      "Higaisa",
+      "Moonstone Sleet",
+      "Medusa Group",
+      "The White Company",
+      "Scattered Spider",
+      "Rocke",
+      "OilRig",
+      "CURIUM",
+      "APT38",
+      "Gamaredon Group",
+      "Naikon",
+      "RedEcho"
+    ],
+    "ranking": [
+      {
+        "actor": "Lazarus Group",
+        "score": 0.5622916221618652
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": 0.19101883471012115
+      },
+      {
+        "actor": "Andariel",
+        "score": 0.030338402837514877
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": 0.029876137152314186
+      },
+      {
+        "actor": "APT37",
+        "score": -0.007512791082262993
+      },
+      {
+        "actor": "APT18",
+        "score": -0.013737761415541172
+      },
+      {
+        "actor": "Naikon",
+        "score": -0.02934958226978779
+      },
+      {
+        "actor": "Higaisa",
+        "score": -0.04493504390120506
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.0533781535923481
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.06073618680238724
+      },
+      {
+        "actor": "Rocke",
+        "score": -0.07108517736196518
+      },
+      {
+        "actor": "EXOTIC LILY",
+        "score": -0.08352795243263245
+      },
+      {
+        "actor": "The White Company",
+        "score": -0.08667545765638351
+      },
+      {
+        "actor": "APT38",
+        "score": -0.08805908262729645
+      },
+      {
+        "actor": "RedEcho",
+        "score": -0.08847884088754654
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.09344404935836792
+      },
+      {
+        "actor": "BRONZE BUTLER",
+        "score": -0.09487047791481018
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.11214500665664673
+      },
+      {
+        "actor": "Orangeworm",
+        "score": -0.1170671358704567
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.11893366277217865
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.12160312384366989
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.13349303603172302
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.14059650897979736
+      },
+      {
+        "actor": "Gamaredon Group",
+        "score": -0.17947809398174286
+      }
+    ]
+  },
+  {
+    "id": "taa-44",
+    "gold": "Lazarus",
+    "rank": 1,
+    "candidate_pool": [
+      "Lazarus Group",
+      "Mustang Panda",
+      "Earth Lusca",
+      "FIN7",
+      "menuPass",
+      "Leviathan",
+      "Andariel",
+      "Threat Group-3390",
+      "Contagious Interview",
+      "Tonto Team",
+      "Kimsuky",
+      "APT38",
+      "APT37",
+      "Medusa Group",
+      "VOID MANTICORE",
+      "GALLIUM",
+      "Deep Panda",
+      "Volt Typhoon",
+      "Cinnamon Tempest",
+      "Moonstone Sleet",
+      "APT28",
+      "RedCurl",
+      "BlackByte",
+      "Patchwork",
+      "Ember Bear",
+      "APT42",
+      "Akira"
+    ],
+    "ranking": [
+      {
+        "actor": "Lazarus Group",
+        "score": 0.36302998661994934
+      },
+      {
+        "actor": "Andariel",
+        "score": 0.2261955887079239
+      },
+      {
+        "actor": "APT37",
+        "score": 0.12831953167915344
+      },
+      {
+        "actor": "APT38",
+        "score": 0.03234276548027992
+      },
+      {
+        "actor": "Kimsuky",
+        "score": 0.02375181019306183
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": 0.00531398318707943
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": 0.003327055834233761
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.0032127706799656153
+      },
+      {
+        "actor": "Contagious Interview",
+        "score": -0.007491665426641703
+      },
+      {
+        "actor": "APT42",
+        "score": -0.03611580282449722
+      },
+      {
+        "actor": "Akira",
+        "score": -0.043587762862443924
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.04742882400751114
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.04892178997397423
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.048997294157743454
+      },
+      {
+        "actor": "Leviathan",
+        "score": -0.053675197064876556
+      },
+      {
+        "actor": "Tonto Team",
+        "score": -0.07392343878746033
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.0820845514535904
+      },
+      {
+        "actor": "Earth Lusca",
+        "score": -0.08801581710577011
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.08900441974401474
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.09078580141067505
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.09158215671777725
+      },
+      {
+        "actor": "APT28",
+        "score": -0.09900253266096115
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.10014382004737854
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.10516753792762756
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.11830582469701767
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.12352082878351212
+      },
+      {
+        "actor": "Threat Group-3390",
+        "score": -0.15139110386371613
+      }
+    ]
+  },
+  {
+    "id": "taa-45",
+    "gold": "Lazarus",
+    "rank": 6,
+    "candidate_pool": [
+      "Kimsuky",
+      "Storm-1811",
+      "Andariel",
+      "INC Ransom",
+      "HAFNIUM",
+      "HEXANE",
+      "Magic Hound",
+      "Medusa Group",
+      "APT-C-23",
+      "BlackByte",
+      "Deep Panda",
+      "APT19",
+      "Volt Typhoon",
+      "GALLIUM",
+      "Scarlet Mimic",
+      "Lazarus Group",
+      "APT38",
+      "Earth Lusca",
+      "POLONIUM",
+      "Tonto Team",
+      "Scattered Spider",
+      "LAPSUS$",
+      "menuPass",
+      "VOID MANTICORE",
+      "CURIUM",
+      "AppleJeus"
+    ],
+    "ranking": [
+      {
+        "actor": "Deep Panda",
+        "score": 0.3102027177810669
+      },
+      {
+        "actor": "Kimsuky",
+        "score": 0.2671971321105957
+      },
+      {
+        "actor": "LAPSUS$",
+        "score": 0.21912957727909088
+      },
+      {
+        "actor": "APT19",
+        "score": 0.20153850317001343
+      },
+      {
+        "actor": "menuPass",
+        "score": 0.14087623357772827
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": 0.06163894757628441
+      },
+      {
+        "actor": "Tonto Team",
+        "score": 0.01507381722331047
+      },
+      {
+        "actor": "INC Ransom",
+        "score": 0.014918285422027111
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": 0.0035106262657791376
+      },
+      {
+        "actor": "Andariel",
+        "score": 0.003310133470222354
+      },
+      {
+        "actor": "Earth Lusca",
+        "score": -0.005867926869541407
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.027842950075864792
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.027916522696614265
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.03255590796470642
+      },
+      {
+        "actor": "AppleJeus",
+        "score": -0.05309801921248436
+      },
+      {
+        "actor": "POLONIUM",
+        "score": -0.05500706657767296
+      },
+      {
+        "actor": "APT38",
+        "score": -0.06326296925544739
+      },
+      {
+        "actor": "HEXANE",
+        "score": -0.07413821667432785
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.08616788685321808
+      },
+      {
+        "actor": "APT-C-23",
+        "score": -0.08706492930650711
+      },
+      {
+        "actor": "Scarlet Mimic",
+        "score": -0.08833339065313339
+      },
+      {
+        "actor": "Storm-1811",
+        "score": -0.0888003334403038
+      },
+      {
+        "actor": "GALLIUM",
+        "score": -0.09031865745782852
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.09349388629198074
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.09718526154756546
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.10315411537885666
+      }
+    ]
+  },
+  {
+    "id": "taa-46",
+    "gold": "Lazarus",
+    "rank": 3,
+    "candidate_pool": [
+      "Lazarus Group",
+      "FIN7",
+      "APT41",
+      "ShinyHunters",
+      "Leviathan",
+      "APT28",
+      "Play",
+      "APT39",
+      "menuPass",
+      "APT42",
+      "Kimsuky",
+      "Medusa Group",
+      "Cobalt Group",
+      "Scattered Spider",
+      "APT37",
+      "Deep Panda",
+      "VOID MANTICORE",
+      "HAFNIUM",
+      "GOLD SOUTHFIELD",
+      "Akira",
+      "Indrik Spider",
+      "APT19",
+      "Andariel",
+      "CURIUM",
+      "APT38",
+      "AppleJeus",
+      "Volt Typhoon",
+      "OilRig"
+    ],
+    "ranking": [
+      {
+        "actor": "AppleJeus",
+        "score": 0.3871707022190094
+      },
+      {
+        "actor": "APT41",
+        "score": 0.10299709439277649
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": 0.07385556399822235
+      },
+      {
+        "actor": "CURIUM",
+        "score": 0.04050024598836899
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.0028388011269271374
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.007966432720422745
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.01214638538658619
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.01356351189315319
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.024863315746188164
+      },
+      {
+        "actor": "Play",
+        "score": -0.036050062626600266
+      },
+      {
+        "actor": "Leviathan",
+        "score": -0.047662410885095596
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.05123019590973854
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.054943542927503586
+      },
+      {
+        "actor": "GOLD SOUTHFIELD",
+        "score": -0.05736619606614113
+      },
+      {
+        "actor": "APT42",
+        "score": -0.05817316472530365
+      },
+      {
+        "actor": "OilRig",
+        "score": -0.05876056104898453
+      },
+      {
+        "actor": "APT19",
+        "score": -0.06254507601261139
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.06483208388090134
+      },
+      {
+        "actor": "APT37",
+        "score": -0.06712248921394348
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.08077846467494965
+      },
+      {
+        "actor": "Akira",
+        "score": -0.08843737840652466
+      },
+      {
+        "actor": "ShinyHunters",
+        "score": -0.09583581238985062
+      },
+      {
+        "actor": "Indrik Spider",
+        "score": -0.10448960959911346
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.10477787256240845
+      },
+      {
+        "actor": "APT39",
+        "score": -0.1099223718047142
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.11452827602624893
+      },
+      {
+        "actor": "APT38",
+        "score": -0.11509540677070618
+      },
+      {
+        "actor": "APT28",
+        "score": -0.12603597342967987
+      }
+    ]
+  },
+  {
+    "id": "taa-47",
+    "gold": "OilRig",
+    "rank": 1,
+    "candidate_pool": [
+      "OilRig",
+      "HEXANE",
+      "Sandworm Team",
+      "Storm-0501",
+      "Magic Hound",
+      "MuddyWater",
+      "APT29",
+      "VOID MANTICORE",
+      "Agrius",
+      "Scattered Spider",
+      "APT42",
+      "Kimsuky",
+      "Medusa Group",
+      "Deep Panda",
+      "Volt Typhoon",
+      "Moonstone Sleet",
+      "APT37",
+      "POLONIUM",
+      "WIRTE",
+      "Cobalt Group",
+      "CURIUM",
+      "Lazarus Group",
+      "Winter Vivern",
+      "Cinnamon Tempest",
+      "Ember Bear",
+      "APT28",
+      "Machete",
+      "APT41"
+    ],
+    "ranking": [
+      {
+        "actor": "OilRig",
+        "score": 0.3449101448059082
+      },
+      {
+        "actor": "POLONIUM",
+        "score": 0.17082719504833221
+      },
+      {
+        "actor": "CURIUM",
+        "score": 0.032801754772663116
+      },
+      {
+        "actor": "APT41",
+        "score": 0.019638214260339737
+      },
+      {
+        "actor": "Agrius",
+        "score": -0.031169693917036057
+      },
+      {
+        "actor": "Magic Hound",
+        "score": -0.03304380550980568
+      },
+      {
+        "actor": "MuddyWater",
+        "score": -0.03592892736196518
+      },
+      {
+        "actor": "APT42",
+        "score": -0.036789167672395706
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.038792774081230164
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.04715462401509285
+      },
+      {
+        "actor": "HEXANE",
+        "score": -0.06265465170145035
+      },
+      {
+        "actor": "Lazarus Group",
+        "score": -0.08092104643583298
+      },
+      {
+        "actor": "WIRTE",
+        "score": -0.08234228193759918
+      },
+      {
+        "actor": "APT37",
+        "score": -0.09508372098207474
+      },
+      {
+        "actor": "Storm-0501",
+        "score": -0.10455109924077988
+      },
+      {
+        "actor": "APT28",
+        "score": -0.10906335711479187
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.11403247714042664
+      },
+      {
+        "actor": "Machete",
+        "score": -0.11422472447156906
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.12154931575059891
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.1271740347146988
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.1296430230140686
+      },
+      {
+        "actor": "Scattered Spider",
+        "score": -0.13520954549312592
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.1358535885810852
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.1360854208469391
+      },
+      {
+        "actor": "APT29",
+        "score": -0.1416534036397934
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.14805607497692108
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.14871914684772491
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.15020088851451874
+      }
+    ]
+  },
+  {
+    "id": "taa-48",
+    "gold": "MuddyWater",
+    "rank": 3,
+    "candidate_pool": [
+      "OilRig",
+      "APT38",
+      "MuddyWater",
+      "APT39",
+      "Sandworm Team",
+      "Kimsuky",
+      "VOID MANTICORE",
+      "APT-C-36",
+      "Turla",
+      "APT18",
+      "Medusa Group",
+      "APT42",
+      "APT37",
+      "Andariel",
+      "Deep Panda",
+      "Patchwork",
+      "Cobalt Group",
+      "CURIUM",
+      "RedCurl",
+      "Tonto Team",
+      "Cinnamon Tempest",
+      "Volt Typhoon",
+      "APT28",
+      "BlackOasis",
+      "Machete",
+      "menuPass"
+    ],
+    "ranking": [
+      {
+        "actor": "OilRig",
+        "score": 0.44887104630470276
+      },
+      {
+        "actor": "APT42",
+        "score": 0.2052154690027237
+      },
+      {
+        "actor": "MuddyWater",
+        "score": 0.19370660185813904
+      },
+      {
+        "actor": "CURIUM",
+        "score": 0.18315577507019043
+      },
+      {
+        "actor": "APT39",
+        "score": 0.09707421809434891
+      },
+      {
+        "actor": "APT38",
+        "score": -0.017378557473421097
+      },
+      {
+        "actor": "menuPass",
+        "score": -0.02509085088968277
+      },
+      {
+        "actor": "BlackOasis",
+        "score": -0.025847146287560463
+      },
+      {
+        "actor": "Turla",
+        "score": -0.042544543743133545
+      },
+      {
+        "actor": "APT18",
+        "score": -0.04768018051981926
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": -0.06016811728477478
+      },
+      {
+        "actor": "APT37",
+        "score": -0.062286920845508575
+      },
+      {
+        "actor": "Deep Panda",
+        "score": -0.07205808907747269
+      },
+      {
+        "actor": "Medusa Group",
+        "score": -0.0730743482708931
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.08432453125715256
+      },
+      {
+        "actor": "Patchwork",
+        "score": -0.08917124569416046
+      },
+      {
+        "actor": "APT28",
+        "score": -0.08976086974143982
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.0956820696592331
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.11050496995449066
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.1145501583814621
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.11622273176908493
+      },
+      {
+        "actor": "Machete",
+        "score": -0.11652709543704987
+      },
+      {
+        "actor": "Cinnamon Tempest",
+        "score": -0.1264542192220688
+      },
+      {
+        "actor": "Tonto Team",
+        "score": -0.13280966877937317
+      },
+      {
+        "actor": "Andariel",
+        "score": -0.1364297717809677
+      },
+      {
+        "actor": "APT-C-36",
+        "score": -0.13956348598003387
+      }
+    ]
+  },
+  {
+    "id": "taa-49",
+    "gold": "Turla",
+    "rank": 1,
+    "candidate_pool": [
+      "Turla",
+      "APT29",
+      "Earth Lusca",
+      "Mustang Panda",
+      "Confucius",
+      "SilverTerrier",
+      "Cobalt Group",
+      "FIN7",
+      "Kimsuky",
+      "HEXANE",
+      "Medusa Group",
+      "Winter Vivern",
+      "Volt Typhoon",
+      "APT42",
+      "CURIUM",
+      "Sandworm Team",
+      "Ember Bear",
+      "HAFNIUM",
+      "VOID MANTICORE",
+      "BlackByte",
+      "MuddyWater",
+      "RedCurl",
+      "Machete",
+      "Moonstone Sleet",
+      "Dragonfly",
+      "LuminousMoth",
+      "ToddyCat"
+    ],
+    "ranking": [
+      {
+        "actor": "Turla",
+        "score": 0.6327059864997864
+      },
+      {
+        "actor": "Medusa Group",
+        "score": 0.09476915001869202
+      },
+      {
+        "actor": "APT29",
+        "score": 0.09419304132461548
+      },
+      {
+        "actor": "Dragonfly",
+        "score": 0.07217942923307419
+      },
+      {
+        "actor": "Sandworm Team",
+        "score": 0.019003864377737045
+      },
+      {
+        "actor": "ToddyCat",
+        "score": -0.01626421883702278
+      },
+      {
+        "actor": "Ember Bear",
+        "score": -0.038435906171798706
+      },
+      {
+        "actor": "RedCurl",
+        "score": -0.04818078130483627
+      },
+      {
+        "actor": "Moonstone Sleet",
+        "score": -0.06750457733869553
+      },
+      {
+        "actor": "MuddyWater",
+        "score": -0.07262150943279266
+      },
+      {
+        "actor": "Cobalt Group",
+        "score": -0.07285063713788986
+      },
+      {
+        "actor": "Mustang Panda",
+        "score": -0.08246611058712006
+      },
+      {
+        "actor": "HAFNIUM",
+        "score": -0.08725719898939133
+      },
+      {
+        "actor": "HEXANE",
+        "score": -0.08828101307153702
+      },
+      {
+        "actor": "Kimsuky",
+        "score": -0.08951304107904434
+      },
+      {
+        "actor": "Confucius",
+        "score": -0.09581216424703598
+      },
+      {
+        "actor": "APT42",
+        "score": -0.09687490016222
+      },
+      {
+        "actor": "Winter Vivern",
+        "score": -0.10339876264333725
+      },
+      {
+        "actor": "CURIUM",
+        "score": -0.10591433942317963
+      },
+      {
+        "actor": "SilverTerrier",
+        "score": -0.11374197900295258
+      },
+      {
+        "actor": "Machete",
+        "score": -0.11539109796285629
+      },
+      {
+        "actor": "VOID MANTICORE",
+        "score": -0.11958320438861847
+      },
+      {
+        "actor": "BlackByte",
+        "score": -0.12116952240467072
+      },
+      {
+        "actor": "LuminousMoth",
+        "score": -0.13136246800422668
+      },
+      {
+        "actor": "Volt Typhoon",
+        "score": -0.1325993686914444
+      },
+      {
+        "actor": "FIN7",
+        "score": -0.13816967606544495
+      },
+      {
+        "actor": "Earth Lusca",
+        "score": -0.15628422796726227
+      }
+    ]
+  }
+]
