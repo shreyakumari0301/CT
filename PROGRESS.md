@@ -42,7 +42,7 @@ Qwen score ordering, final rank, candidate coverage, and ranking metrics.
 
 ## Experiment 2 — targeted multi-query BM25 candidate generation
 
-**Status: submitted as Slurm job `272090` after Experiment 1 was recorded.**
+**Status: complete (Slurm job `272090`).**
 
 | Item | Planned method |
 | --- | --- |
@@ -51,6 +51,13 @@ Qwen score ordering, final rank, candidate coverage, and ranking metrics.
 | Candidate generation | Run local BM25 over unprefixed frozen actor-profile fields for each view, RRF their top actors, union with CTA top-10 and shared BM25 top-20, then Qwen3 4B reranks complete actor profiles. |
 | Primary comparison | Experiment 1 and the existing Qwen3 4B baseline. |
 | Acceptance criterion | Improve R@3 without lowering candidate-pool coverage. |
+
+**Result:** candidate-pool coverage 86%, R@1 50%, R@3 66%, R@5 68%, R@10
+72%, R@20 80%, MRR@10 0.586. The targeted queries improved pool coverage over
+the original 82% pool and tied the expanded-pool R@1, but they failed the
+acceptance criterion: R@3 is below the 68% Qwen3 4B baseline. This experiment
+is retained as a fully recorded negative result and should not replace the
+top-3 baseline.
 
 ## Reproducibility
 

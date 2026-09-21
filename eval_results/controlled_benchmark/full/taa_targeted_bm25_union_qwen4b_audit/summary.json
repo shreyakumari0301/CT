@@ -1,0 +1,30 @@
+{
+  "method": "CTA top-10 + shared BM25 top-20 + targeted multi-query actor-field BM25 RRF top-20 -> Qwen3 4B",
+  "queries": "report-only indicators, targeting, behavior, and full-report sparse views",
+  "model": "Qwen/Qwen3-Reranker-4B",
+  "documents": 881,
+  "n": 50,
+  "complete": true,
+  "candidate_generation_metrics": {
+    "targeted_bm25_rrf_top20": {
+      "Recall@1": 0.4,
+      "Recall@3": 0.46,
+      "Recall@5": 0.52,
+      "Recall@10": 0.6,
+      "Recall@20": 0.68
+    },
+    "final_union_pool": {
+      "Recall@pool": 0.86,
+      "mean_pool_size": 37.04
+    }
+  },
+  "reranked_metrics": {
+    "Recall@1": 0.5,
+    "Recall@3": 0.66,
+    "Recall@5": 0.68,
+    "Recall@10": 0.72,
+    "Recall@20": 0.8,
+    "MRR@10": 0.5857460317460318
+  },
+  "per_case_results": "checkpoint.json contains report-derived query terms, each BM25 view, the fused candidates, and all Qwen scores."
+}
