@@ -20,7 +20,7 @@ The detailed comparison and links to all completed artifacts are in
 
 ## Experiment 1 — expanded BM25 candidate pool
 
-**Status: submitted / running separately from later experiments.**
+**Status: submitted as Slurm job `272076`; it runs separately from later experiments.**
 
 | Item | Value |
 | --- | --- |
