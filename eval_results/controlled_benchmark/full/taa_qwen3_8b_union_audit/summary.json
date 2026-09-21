@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen3-Reranker-8B",
+  "metrics": {
+    "Recall@1": 0.44,
+    "Recall@3": 0.64,
+    "Recall@5": 0.68,
+    "Recall@10": 0.74,
+    "Recall@20": 0.8,
+    "MRR@10": 0.5484126984126985
+  },
+  "n": 50,
+  "complete": true,
+  "per_case_results": "checkpoint.json contains every candidate and reranker score."
+}
