@@ -1,0 +1,38 @@
+{
+  "method": "contextual natural passages -> MiniLM/BM25 top-20 union -> Qwen3 4B",
+  "retrieval_context": "Each indexed natural passage has deterministic actor, evidence-type, alias, malware/tool, and targeting context prepended.",
+  "reranker_passage_mode": "full_profile",
+  "model": "Qwen/Qwen3-Reranker-4B",
+  "documents": 1782,
+  "n": 50,
+  "complete": true,
+  "candidate_generation_metrics": {
+    "contextual_dense_top20": {
+      "Recall@1": 0.08,
+      "Recall@3": 0.26,
+      "Recall@5": 0.36,
+      "Recall@10": 0.46,
+      "Recall@20": 0.64
+    },
+    "contextual_bm25_top20": {
+      "Recall@1": 0.22,
+      "Recall@3": 0.36,
+      "Recall@5": 0.44,
+      "Recall@10": 0.54,
+      "Recall@20": 0.74
+    },
+    "contextual_union_pool": {
+      "Recall@pool": 0.84,
+      "mean_pool_size": 34.54
+    }
+  },
+  "reranked_metrics": {
+    "Recall@1": 0.2,
+    "Recall@3": 0.42,
+    "Recall@5": 0.52,
+    "Recall@10": 0.64,
+    "Recall@20": 0.74,
+    "MRR@10": 0.3352698412698413
+  },
+  "per_case_results": "checkpoint.json contains contextual dense/BM25 candidates, selected passages, and all Qwen scores."
+}
