@@ -48,7 +48,7 @@ Qwen score ordering, final rank, candidate coverage, and ranking metrics.
 | --- | --- |
 | Goal | Reduce long-report noise before sparse retrieval without using gold labels. |
 | Queries | Four report-derived views: high-specificity indicators (malware/tool/CVE/IOC), targeting, ATT&CK behavior, and full report. |
-| Candidate generation | Run BM25 for each view, union/RRF their top actors with CTA candidates, then Qwen3 4B reranks complete actor profiles. |
+| Candidate generation | Run local BM25 over unprefixed frozen actor-profile fields for each view, RRF their top actors, union with CTA top-10 and shared BM25 top-20, then Qwen3 4B reranks complete actor profiles. |
 | Primary comparison | Experiment 1 and the existing Qwen3 4B baseline. |
 | Acceptance criterion | Improve R@3 without lowering candidate-pool coverage. |
 
