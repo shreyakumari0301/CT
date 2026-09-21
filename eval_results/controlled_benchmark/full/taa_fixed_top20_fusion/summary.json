@@ -1,0 +1,126 @@
+{
+  "n": 50,
+  "budget": 20,
+  "methods": {
+    "existing_order_top20": {
+      "metrics": {
+        "rank": {
+          "R@1": 0.44,
+          "R@3": 0.56,
+          "R@5": 0.6,
+          "R@10": 0.64,
+          "R@20": 0.78,
+          "MRR@10": 0.5035555555555555
+        },
+        "strict_rank": {
+          "R@1": 0.42,
+          "R@3": 0.52,
+          "R@5": 0.54,
+          "R@10": 0.6,
+          "R@20": 0.72,
+          "MRR@10": 0.47574603174603175
+        }
+      },
+      "correct_top20": 39,
+      "mean_pool_size": 26.52,
+      "pool_coverage": 0.84,
+      "gains_vs_existing": [],
+      "losses_vs_existing": []
+    },
+    "existing_rrf_top20": {
+      "metrics": {
+        "rank": {
+          "R@1": 0.3,
+          "R@3": 0.48,
+          "R@5": 0.6,
+          "R@10": 0.7,
+          "R@20": 0.78,
+          "MRR@10": 0.4148809523809524
+        },
+        "strict_rank": {
+          "R@1": 0.28,
+          "R@3": 0.44,
+          "R@5": 0.56,
+          "R@10": 0.62,
+          "R@20": 0.72,
+          "MRR@10": 0.3803809523809524
+        }
+      },
+      "correct_top20": 39,
+      "mean_pool_size": 26.52,
+      "pool_coverage": 0.84,
+      "gains_vs_existing": [],
+      "losses_vs_existing": []
+    },
+    "procedure_rrf_top20": {
+      "metrics": {
+        "rank": {
+          "R@1": 0.38,
+          "R@3": 0.52,
+          "R@5": 0.58,
+          "R@10": 0.68,
+          "R@20": 0.8,
+          "MRR@10": 0.4665555555555556
+        },
+        "strict_rank": {
+          "R@1": 0.36,
+          "R@3": 0.46,
+          "R@5": 0.56,
+          "R@10": 0.66,
+          "R@20": 0.74,
+          "MRR@10": 0.4345555555555556
+        }
+      },
+      "correct_top20": 40,
+      "mean_pool_size": 37.06,
+      "pool_coverage": 0.92,
+      "gains_vs_existing": [
+        "taa-16",
+        "taa-24",
+        "taa-31",
+        "taa-35"
+      ],
+      "losses_vs_existing": [
+        "taa-27",
+        "taa-6",
+        "taa-9"
+      ]
+    },
+    "enriched_rrf_top20": {
+      "metrics": {
+        "rank": {
+          "R@1": 0.38,
+          "R@3": 0.54,
+          "R@5": 0.58,
+          "R@10": 0.68,
+          "R@20": 0.8,
+          "MRR@10": 0.4692142857142857
+        },
+        "strict_rank": {
+          "R@1": 0.36,
+          "R@3": 0.5,
+          "R@5": 0.56,
+          "R@10": 0.66,
+          "R@20": 0.74,
+          "MRR@10": 0.4408809523809524
+        }
+      },
+      "correct_top20": 40,
+      "mean_pool_size": 37.7,
+      "pool_coverage": 0.9,
+      "gains_vs_existing": [
+        "taa-16",
+        "taa-24",
+        "taa-31",
+        "taa-35"
+      ],
+      "losses_vs_existing": [
+        "taa-27",
+        "taa-6",
+        "taa-9"
+      ]
+    }
+  },
+  "complete": true,
+  "scope": "Development-set offline retrieval. Fixed equal-weight RRF, no Qwen, no label-selected candidates. Local scorer; not directly comparable to remote 82% pool until parity is established."
+}

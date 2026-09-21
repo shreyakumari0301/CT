@@ -1,0 +1,4120 @@
+{
+  "version": "taa-aliases-v2-20260918",
+  "policy": "MITRE primary; ambiguous aliases unresolved; no transitive equivalence or subgroup merging",
+  "sources": {
+    "enterprise-attack.json": "f7eaf37fe53b50404084fe1fe67237278f7317e61c11ad550295722d13ede259",
+    "alias_dict.pickle": "0e7a9cfafe38633683691e63c9fc04387910fb307f727cb5bbb3002ba7d188a5"
+  },
+  "benchmark_supplements": [
+    {
+      "alias": "sandworm",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; single MITRE entity match"
+    },
+    {
+      "alias": "gamaredon",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; single MITRE entity match"
+    },
+    {
+      "alias": "chrysene",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; single MITRE entity match"
+    },
+    {
+      "alias": "windy phoenix",
+      "canonical": "Windshift",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "confucius apt",
+      "canonical": "Confucius",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "atk13",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "blue python",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0010",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "group 88",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "hippo team",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "iron hunter",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "itg12",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "krypton",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "makersmark",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "pacifier apt",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "pfinet",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "popeye",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "sig23",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "summit",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "secret blizzard",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "snake",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "tag 0530",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "uac 0003",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "uac 0024",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "uac 0144",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "unc4210",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "uroburos",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "venomous bear",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "wraith",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "waterbug",
+      "canonical": "Turla",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "atk51",
+      "canonical": "MuddyWater",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "boggy serpens",
+      "canonical": "MuddyWater",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "cobalt ulster",
+      "canonical": "MuddyWater",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "earth vetala",
+      "canonical": "MuddyWater",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0069",
+      "canonical": "MuddyWater",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "mercury",
+      "canonical": "MuddyWater",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "mango sandstorm",
+      "canonical": "MuddyWater",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "seedworm",
+      "canonical": "MuddyWater",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "static kitten",
+      "canonical": "MuddyWater",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ta450",
+      "canonical": "MuddyWater",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "temp zagros",
+      "canonical": "MuddyWater",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt44",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "blue echidna",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "electrum",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "frozenbarents",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0034",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "iridium",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "iron viking",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "quedagh",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "seashell blizzard",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "temp noble",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "telebots",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "uac 0082",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "uac 0113",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "voodoo bear",
+      "canonical": "Sandworm Team",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt34",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "helix kitten",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "cobalt gypsym",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "crambus or siamesekitten",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt 34",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "atk40",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "cobalt gypsy",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "crambus",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "europium",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "evasive serpens",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0049",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "hazel sandstorm",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "irn2",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ta452",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "twisted kitten",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt c 26",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "atk117",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "atk3",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "appleworm",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "bureau 121",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "covellite",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "dev 0139",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "dev 1222",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "dark seoul",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0032",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0082",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "genie spider",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "group 77",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "hastati group",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "newromanic cyber army team",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "operation applejeus",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "operation darkseoul",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "operation ghostsecret",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "subgroup  bluenoroff",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ta404",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "unit 121",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "whois hacking team",
+      "canonical": "lazarus",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt36",
+      "canonical": "Transparent Tribe",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "basin",
+      "canonical": "Mustang Panda",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "bronze president",
+      "canonical": "Mustang Panda",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "earth preta",
+      "canonical": "Mustang Panda",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "honeymyte",
+      "canonical": "Mustang Panda",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "polaris",
+      "canonical": "Mustang Panda",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "red lich",
+      "canonical": "Mustang Panda",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "stately taurus",
+      "canonical": "Mustang Panda",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ta416",
+      "canonical": "Mustang Panda",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "tantalum",
+      "canonical": "Mustang Panda",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "temp hex",
+      "canonical": "Mustang Panda",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "twill typhoon",
+      "canonical": "Mustang Panda",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "gold crestwood",
+      "canonical": "mummy spider",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ta542",
+      "canonical": "mummy spider",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "emotet",
+      "canonical": "mummy spider",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "atk7",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "blue kitsune",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "bluebravo",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "cozy bear",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "cloaked ursa",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0016",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "group 100",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "iron hemlock",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "itg11",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "midnight blizzard",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "minidionis",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "nobelium",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "seaduke",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ta421",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "the dukes",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "uac 0029",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "yttrium",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0070",
+      "canonical": "Dark Caracal",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt 33",
+      "canonical": "APT33",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "atk35",
+      "canonical": "APT33",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "cobalt trinity",
+      "canonical": "APT33",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "elfin",
+      "canonical": "APT33",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0064",
+      "canonical": "APT33",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "holmium",
+      "canonical": "APT33",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "magnallium",
+      "canonical": "APT33",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "peach sandstorm",
+      "canonical": "APT33",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "refined kitten",
+      "canonical": "APT33",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ta451",
+      "canonical": "APT33",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "bronze firestone",
+      "canonical": "APT19",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "codoso",
+      "canonical": "APT19",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0009",
+      "canonical": "APT19",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0073",
+      "canonical": "APT19",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "group 13",
+      "canonical": "APT19",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "pupa",
+      "canonical": "APT19",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "sunshop group",
+      "canonical": "APT19",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "temp avengers",
+      "canonical": "APT19",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt 37",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "atk4",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0067",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "group 123",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "group123",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "inkysquid",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "moldy pisces",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "operation daybreak",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "operation erebus",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "reaper",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "reaper group",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "red eyes",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ricochet chollima",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "scarcruft",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "venus 121",
+      "canonical": "APT37",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "callisto",
+      "canonical": "Star Blizzard",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "bluecharlie",
+      "canonical": "Star Blizzard",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "gossamer bear",
+      "canonical": "Star Blizzard",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "reuse team",
+      "canonical": "Star Blizzard",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "seaborgium",
+      "canonical": "Star Blizzard",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "star blizzard",
+      "canonical": "Star Blizzard",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ta446",
+      "canonical": "Star Blizzard",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "silent chollima",
+      "canonical": "Andariel",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "gop",
+      "canonical": "Andariel",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "guardian of peace",
+      "canonical": "Andariel",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "onyx sleet",
+      "canonical": "Andariel",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "plutonium",
+      "canonical": "Andariel",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "energetic bear",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "allanite",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "atk6",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "berserk bear",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "bromine",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "blue kraken",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "castle",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "crouching yeti",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "dymalloy",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0035",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ghost blizzard",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "group 24",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "havex",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "iron liberty",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "itg15",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "koala team",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "tg 4192",
+      "canonical": "Dragonfly",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "actinium",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "aqua blizzard",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "blue otso",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "bluealpha",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "dev 0157",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0047",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "iron tilden",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "primitive bear",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "shuckworm",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "trident ursa",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "uac 0010",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "unc530",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "winterflounder",
+      "canonical": "Gamaredon Group",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "bronze vinewood",
+      "canonical": "ZIRCONIUM",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "judgment panda",
+      "canonical": "ZIRCONIUM",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "red keres",
+      "canonical": "ZIRCONIUM",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ta412",
+      "canonical": "ZIRCONIUM",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "violet typhoon",
+      "canonical": "ZIRCONIUM",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "zirconium",
+      "canonical": "ZIRCONIUM",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt35",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0058",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "group 83",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "newsbeef",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "newscaster",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "phosphorus",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "parastoo",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ikittens",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "blind eagle",
+      "canonical": "APT-C-36",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt c 20",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "atk5",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "blue athena",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "fancy bear",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "frozenlake",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "fighting ursa",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "forest blizzard",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0007",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "grey cloud",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "group 74",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "group 4127",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "iron twilight",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "itg05",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "pawn storm",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "sig40",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "snakemackerel",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "strontium",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "sednit",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "sofacy",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "swallowtail",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "t apt 12",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ta422",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "tg 4127",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "tsar team",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "tsarteam",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "uac 0028",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "sofacy group",
+      "canonical": "APT28",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt29",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "darkhalo",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "solar phoenix",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "stellarparticle",
+      "canonical": "APT29",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "greenbug",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "oilrig",
+      "canonical": "OilRig",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "amoeba",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "barium",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "bronze atlas",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "bronze export",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "brass typhoon",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "earth baku",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0044",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0096",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "grayfly",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "hoodoo",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "lead",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "red kelpie",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "ta415",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "wicked panda",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "wicked spider",
+      "canonical": "APT41",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "subgroup  andariel",
+      "canonical": "Andariel",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "whois team",
+      "canonical": "Andariel",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt43",
+      "canonical": "Kimsuky",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "black banshee",
+      "canonical": "Kimsuky",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "emerald sleet",
+      "canonical": "Kimsuky",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0086",
+      "canonical": "Kimsuky",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "operation stolen pencil",
+      "canonical": "Kimsuky",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "thallium",
+      "canonical": "Kimsuky",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "velvet chollima",
+      "canonical": "Kimsuky",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "apt 36",
+      "canonical": "Transparent Tribe",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "c major",
+      "canonical": "Transparent Tribe",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "copper fieldstone",
+      "canonical": "Transparent Tribe",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "earth karkaddan",
+      "canonical": "Transparent Tribe",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "green havildar",
+      "canonical": "Transparent Tribe",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "mythic leopard",
+      "canonical": "Transparent Tribe",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "projectm",
+      "canonical": "Transparent Tribe",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "tmp lapis",
+      "canonical": "Transparent Tribe",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "transparent tribe",
+      "canonical": "Transparent Tribe",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "cobalt mirage",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "g0059",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "magic hound",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "newscaster team",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    },
+    {
+      "alias": "tunnelvision",
+      "canonical": "Magic Hound",
+      "source": "benchmark alias_dict.pickle; unambiguous direct owner; no MITRE entity collision"
+    }
+  ],
+  "entities": [
+    {
+      "canonical": "APT38",
+      "aliases": [
+        "APT38",
+        "NICKEL GLADSTONE",
+        "BeagleBoyz",
+        "Bluenoroff",
+        "Stardust Chollima",
+        "Sapphire Sleet",
+        "COPERNICIUM"
+      ],
+      "source_id": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
+      "modified": "2026-07-31T20:48:22.752Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0082"
+      ]
+    },
+    {
+      "canonical": "Indrik Spider",
+      "aliases": [
+        "Indrik Spider",
+        "Evil Corp",
+        "Manatee Tempest",
+        "DEV-0243",
+        "UNC2165"
+      ],
+      "source_id": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
+      "modified": "2026-07-31T18:47:34.523Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0119"
+      ]
+    },
+    {
+      "canonical": "NEODYMIUM",
+      "aliases": [
+        "NEODYMIUM"
+      ],
+      "source_id": "intrusion-set--025bdaa9-897d-4bad-afa6-013ba5734653",
+      "modified": "2026-07-31T18:47:34.711Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0055"
+      ]
+    },
+    {
+      "canonical": "BlackByte",
+      "aliases": [
+        "BlackByte",
+        "Hecamede"
+      ],
+      "source_id": "intrusion-set--02b16bd6-ae88-417a-8a3f-02c5e166175a",
+      "modified": "2026-07-31T18:47:34.923Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1043"
+      ]
+    },
+    {
+      "canonical": "Elderwood",
+      "aliases": [
+        "Elderwood",
+        "Elderwood Gang",
+        "Beijing Group",
+        "Sneaky Panda"
+      ],
+      "source_id": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+      "modified": "2026-07-31T18:47:35.392Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0066"
+      ]
+    },
+    {
+      "canonical": "SideCopy",
+      "aliases": [
+        "SideCopy"
+      ],
+      "source_id": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+      "modified": "2026-07-31T18:47:36.181Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1008"
+      ]
+    },
+    {
+      "canonical": "GALLIUM",
+      "aliases": [
+        "GALLIUM",
+        "Granite Typhoon"
+      ],
+      "source_id": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
+      "modified": "2026-07-31T18:47:36.314Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0093"
+      ]
+    },
+    {
+      "canonical": "APT17",
+      "aliases": [
+        "APT17",
+        "Deputy Dog"
+      ],
+      "source_id": "intrusion-set--090242d7-73fc-4738-af68-20162f7a5aae",
+      "modified": "2026-07-31T18:47:36.723Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0025"
+      ]
+    },
+    {
+      "canonical": "APT3",
+      "aliases": [
+        "APT3",
+        "Gothic Panda",
+        "Pirpi",
+        "UPS Team",
+        "Buckeye",
+        "Threat Group-0110",
+        "TG-0110"
+      ],
+      "source_id": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
+      "modified": "2026-07-31T18:47:36.902Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0022"
+      ]
+    },
+    {
+      "canonical": "Mustard Tempest",
+      "aliases": [
+        "Mustard Tempest",
+        "DEV-0206",
+        "TA569",
+        "GOLD PRELUDE",
+        "UNC1543"
+      ],
+      "source_id": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
+      "modified": "2026-07-31T18:47:37.053Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1020"
+      ]
+    },
+    {
+      "canonical": "GCMAN",
+      "aliases": [
+        "GCMAN"
+      ],
+      "source_id": "intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f",
+      "modified": "2026-07-31T18:47:37.385Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0036"
+      ]
+    },
+    {
+      "canonical": "Kimsuky",
+      "aliases": [
+        "Kimsuky",
+        "Black Banshee",
+        "Velvet Chollima",
+        "Emerald Sleet",
+        "THALLIUM",
+        "APT43",
+        "TA427",
+        "Springtail",
+        "Earth Kumiho",
+        "PatheticSlug",
+        "apt43",
+        "black banshee",
+        "emerald sleet",
+        "g0086",
+        "operation stolen pencil",
+        "thallium",
+        "velvet chollima"
+      ],
+      "source_id": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
+      "modified": "2026-07-31T20:48:24.117Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0094"
+      ]
+    },
+    {
+      "canonical": "EXOTIC LILY",
+      "aliases": [
+        "EXOTIC LILY"
+      ],
+      "source_id": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
+      "modified": "2026-07-31T18:47:37.990Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1011"
+      ]
+    },
+    {
+      "canonical": "TA577",
+      "aliases": [
+        "TA577"
+      ],
+      "source_id": "intrusion-set--13ef3485-70d2-4567-b934-0e83c1eafcf1",
+      "modified": "2026-07-31T18:47:37.994Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1037"
+      ]
+    },
+    {
+      "canonical": "AppleJeus",
+      "aliases": [
+        "AppleJeus",
+        "Gleaming Pisces",
+        "Citrine Sleet",
+        "UNC1720",
+        "UNC4736"
+      ],
+      "source_id": "intrusion-set--14225573-63b5-4e50-ba9a-5fdcaf6a7b4c",
+      "modified": "2026-07-31T18:47:38.399Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1049"
+      ]
+    },
+    {
+      "canonical": "admin@338",
+      "aliases": [
+        "admin@338"
+      ],
+      "source_id": "intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756",
+      "modified": "2026-07-31T18:47:38.827Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0018"
+      ]
+    },
+    {
+      "canonical": "Volt Typhoon",
+      "aliases": [
+        "Volt Typhoon",
+        "BRONZE SILHOUETTE",
+        "Vanguard Panda",
+        "DEV-0391",
+        "UNC3236",
+        "Voltzite",
+        "Insidious Taurus",
+        "DazedToad"
+      ],
+      "source_id": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
+      "modified": "2026-07-31T18:47:38.941Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1017"
+      ]
+    },
+    {
+      "canonical": "Patchwork",
+      "aliases": [
+        "Patchwork",
+        "Hangover Group",
+        "Dropping Elephant",
+        "Chinastrats",
+        "MONSOON",
+        "Operation Hangover"
+      ],
+      "source_id": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
+      "modified": "2026-07-31T20:48:25.895Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0040"
+      ]
+    },
+    {
+      "canonical": "APT41",
+      "aliases": [
+        "APT41",
+        "Wicked Panda",
+        "Brass Typhoon",
+        "BARIUM",
+        "amoeba",
+        "barium",
+        "bronze atlas",
+        "bronze export",
+        "brass typhoon",
+        "earth baku",
+        "g0044",
+        "g0096",
+        "grayfly",
+        "hoodoo",
+        "lead",
+        "red kelpie",
+        "ta415",
+        "wicked panda",
+        "wicked spider"
+      ],
+      "source_id": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
+      "modified": "2026-07-31T20:48:26.542Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0096"
+      ]
+    },
+    {
+      "canonical": "Salt Typhoon",
+      "aliases": [
+        "Salt Typhoon"
+      ],
+      "source_id": "intrusion-set--1c3dcf91-b859-4aae-a09c-ae26dc8b6390",
+      "modified": "2026-07-31T18:47:41.313Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1045"
+      ]
+    },
+    {
+      "canonical": "Dragonfly",
+      "aliases": [
+        "Dragonfly",
+        "TEMP.Isotope",
+        "DYMALLOY",
+        "Berserk Bear",
+        "TG-4192",
+        "Crouching Yeti",
+        "IRON LIBERTY",
+        "Energetic Bear",
+        "Ghost Blizzard",
+        "BROMINE",
+        "energetic bear",
+        "allanite",
+        "atk6",
+        "berserk bear",
+        "bromine",
+        "blue kraken",
+        "castle",
+        "crouching yeti",
+        "dymalloy",
+        "g0035",
+        "ghost blizzard",
+        "group 24",
+        "havex",
+        "iron liberty",
+        "itg15",
+        "koala team",
+        "tg 4192"
+      ],
+      "source_id": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
+      "modified": "2026-07-31T20:48:28.048Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0035"
+      ]
+    },
+    {
+      "canonical": "Evilnum",
+      "aliases": [
+        "Evilnum"
+      ],
+      "source_id": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
+      "modified": "2026-07-31T18:47:41.686Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0120"
+      ]
+    },
+    {
+      "canonical": "Gorgon Group",
+      "aliases": [
+        "Gorgon Group"
+      ],
+      "source_id": "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
+      "modified": "2026-07-31T18:47:42.035Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0078"
+      ]
+    },
+    {
+      "canonical": "menuPass",
+      "aliases": [
+        "menuPass",
+        "Cicada",
+        "POTASSIUM",
+        "Stone Panda",
+        "APT10",
+        "Red Apollo",
+        "CVNX",
+        "HOGFISH",
+        "BRONZE RIVERSIDE"
+      ],
+      "source_id": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+      "modified": "2026-07-31T18:47:42.898Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0045"
+      ]
+    },
+    {
+      "canonical": "APT32",
+      "aliases": [
+        "APT32",
+        "SeaLotus",
+        "OceanLotus",
+        "APT-C-00",
+        "Canvas Cyclone",
+        "BISMUTH"
+      ],
+      "source_id": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+      "modified": "2026-07-31T18:47:43.271Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0050"
+      ]
+    },
+    {
+      "canonical": "HAFNIUM",
+      "aliases": [
+        "HAFNIUM",
+        "Operation Exchange Marauder",
+        "Silk Typhoon"
+      ],
+      "source_id": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+      "modified": "2026-07-31T18:47:43.478Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0125"
+      ]
+    },
+    {
+      "canonical": "MuddyWater",
+      "aliases": [
+        "MuddyWater",
+        "Earth Vetala",
+        "MERCURY",
+        "Static Kitten",
+        "Seedworm",
+        "TEMP.Zagros",
+        "Mango Sandstorm",
+        "TA450",
+        "MuddyKrill",
+        "atk51",
+        "boggy serpens",
+        "cobalt ulster",
+        "earth vetala",
+        "g0069",
+        "mercury",
+        "mango sandstorm",
+        "seedworm",
+        "static kitten",
+        "ta450",
+        "temp zagros"
+      ],
+      "source_id": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
+      "modified": "2026-07-31T20:48:29.347Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0069"
+      ]
+    },
+    {
+      "canonical": "Strider",
+      "aliases": [
+        "Strider",
+        "ProjectSauron"
+      ],
+      "source_id": "intrusion-set--277d2f87-2ae5-4730-a3aa-50c1fdff9656",
+      "modified": "2026-07-31T18:47:44.949Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0041"
+      ]
+    },
+    {
+      "canonical": "Naikon",
+      "aliases": [
+        "Naikon"
+      ],
+      "source_id": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+      "modified": "2026-07-31T18:47:45.049Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0019"
+      ]
+    },
+    {
+      "canonical": "FIN6",
+      "aliases": [
+        "FIN6",
+        "Magecart Group 6",
+        "ITG08",
+        "Skeleton Spider",
+        "TAAL",
+        "Camouflage Tempest"
+      ],
+      "source_id": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+      "modified": "2026-07-31T20:48:30.435Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0037"
+      ]
+    },
+    {
+      "canonical": "RedEcho",
+      "aliases": [
+        "RedEcho"
+      ],
+      "source_id": "intrusion-set--2c40f629-6cf9-4f75-af32-9a98caec24ae",
+      "modified": "2026-07-31T18:47:46.134Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1042"
+      ]
+    },
+    {
+      "canonical": "Gamaredon Group",
+      "aliases": [
+        "Gamaredon Group",
+        "IRON TILDEN",
+        "Primitive Bear",
+        "ACTINIUM",
+        "Armageddon",
+        "Shuckworm",
+        "DEV-0157",
+        "Aqua Blizzard",
+        "NastyShrew",
+        "gamaredon",
+        "actinium",
+        "aqua blizzard",
+        "blue otso",
+        "bluealpha",
+        "dev 0157",
+        "g0047",
+        "iron tilden",
+        "primitive bear",
+        "shuckworm",
+        "trident ursa",
+        "uac 0010",
+        "unc530",
+        "winterflounder"
+      ],
+      "source_id": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+      "modified": "2026-07-31T18:47:46.487Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0047"
+      ]
+    },
+    {
+      "canonical": "Moafee",
+      "aliases": [
+        "Moafee"
+      ],
+      "source_id": "intrusion-set--2e5d3a83-fe00-41a5-9b60-237efc84832f",
+      "modified": "2026-07-31T18:47:46.635Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0002"
+      ]
+    },
+    {
+      "canonical": "Gallmaker",
+      "aliases": [
+        "Gallmaker"
+      ],
+      "source_id": "intrusion-set--2fd2be6a-d3a2-4a65-b499-05ea2693abee",
+      "modified": "2026-07-31T18:47:47.052Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0084"
+      ]
+    },
+    {
+      "canonical": "Storm-1811",
+      "aliases": [
+        "Storm-1811"
+      ],
+      "source_id": "intrusion-set--319fd652-edde-46b2-9987-3519493989f5",
+      "modified": "2026-07-31T18:47:47.257Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1046"
+      ]
+    },
+    {
+      "canonical": "Leafminer",
+      "aliases": [
+        "Leafminer",
+        "Raspite"
+      ],
+      "source_id": "intrusion-set--32bca8ff-d900-4877-aa65-d70baa041b74",
+      "modified": "2026-07-31T18:47:48.258Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0077"
+      ]
+    },
+    {
+      "canonical": "TeamTNT",
+      "aliases": [
+        "TeamTNT"
+      ],
+      "source_id": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
+      "modified": "2026-07-31T18:47:48.259Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0139"
+      ]
+    },
+    {
+      "canonical": "FIN7",
+      "aliases": [
+        "FIN7",
+        "GOLD NIAGARA",
+        "ITG14",
+        "Carbon Spider",
+        "ELBRUS",
+        "Sangria Tempest"
+      ],
+      "source_id": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
+      "modified": "2026-07-31T20:48:31.412Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0046"
+      ]
+    },
+    {
+      "canonical": "Sandworm Team",
+      "aliases": [
+        "Sandworm Team",
+        "ELECTRUM",
+        "Telebots",
+        "IRON VIKING",
+        "BlackEnergy (Group)",
+        "Quedagh",
+        "Voodoo Bear",
+        "IRIDIUM",
+        "Seashell Blizzard",
+        "FROZENBARENTS",
+        "APT44",
+        "sandworm",
+        "apt44",
+        "blue echidna",
+        "electrum",
+        "frozenbarents",
+        "g0034",
+        "iridium",
+        "iron viking",
+        "quedagh",
+        "seashell blizzard",
+        "temp noble",
+        "telebots",
+        "uac 0082",
+        "uac 0113",
+        "voodoo bear"
+      ],
+      "source_id": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+      "modified": "2026-07-31T20:48:32.342Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0034"
+      ]
+    },
+    {
+      "canonical": "Machete",
+      "aliases": [
+        "Machete",
+        "APT-C-43",
+        "El Machete"
+      ],
+      "source_id": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
+      "modified": "2026-07-31T18:47:49.445Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0095"
+      ]
+    },
+    {
+      "canonical": "APT18",
+      "aliases": [
+        "APT18",
+        "TG-0416",
+        "Dynamite Panda",
+        "Threat Group-0416"
+      ],
+      "source_id": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
+      "modified": "2026-07-31T18:47:50.082Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0026"
+      ]
+    },
+    {
+      "canonical": "Andariel",
+      "aliases": [
+        "Andariel",
+        "Silent Chollima",
+        "PLUTONIUM",
+        "Onyx Sleet",
+        "silent chollima",
+        "gop",
+        "guardian of peace",
+        "onyx sleet",
+        "plutonium",
+        "subgroup  andariel",
+        "whois team"
+      ],
+      "source_id": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
+      "modified": "2026-07-31T18:47:50.220Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0138"
+      ]
+    },
+    {
+      "canonical": "CURIUM",
+      "aliases": [
+        "CURIUM",
+        "Crimson Sandstorm",
+        "TA456",
+        "Tortoise Shell",
+        "Yellow Liderc"
+      ],
+      "source_id": "intrusion-set--3ea7add5-5b8f-45d8-b1f1-905d2729d62a",
+      "modified": "2026-07-31T18:47:50.794Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1012"
+      ]
+    },
+    {
+      "canonical": "Sidewinder",
+      "aliases": [
+        "Sidewinder",
+        "T-APT-04",
+        "Rattlesnake"
+      ],
+      "source_id": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
+      "modified": "2026-07-31T18:47:50.955Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0121"
+      ]
+    },
+    {
+      "canonical": "Mustang Panda",
+      "aliases": [
+        "Mustang Panda",
+        "TA416",
+        "RedDelta",
+        "BRONZE PRESIDENT",
+        "STATELY TAURUS",
+        "FIREANT",
+        "CAMARO DRAGON",
+        "EARTH PRETA",
+        "HIVE0154",
+        "TWILL TYPHOON",
+        "TANTALUM",
+        "LUMINOUS MOTH",
+        "UNC6384",
+        "TEMP.Hex",
+        "Red Lich",
+        "ClumsyToad",
+        "basin",
+        "bronze president",
+        "earth preta",
+        "honeymyte",
+        "polaris",
+        "red lich",
+        "stately taurus",
+        "ta416",
+        "tantalum",
+        "temp hex",
+        "twill typhoon"
+      ],
+      "source_id": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",
+      "modified": "2026-07-31T18:47:51.001Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0129"
+      ]
+    },
+    {
+      "canonical": "ZIRCONIUM",
+      "aliases": [
+        "ZIRCONIUM",
+        "APT31",
+        "Violet Typhoon",
+        "bronze vinewood",
+        "judgment panda",
+        "red keres",
+        "ta412",
+        "violet typhoon",
+        "zirconium"
+      ],
+      "source_id": "intrusion-set--4283ae19-69c7-4347-a35e-b56f08eb660b",
+      "modified": "2026-07-31T18:47:51.321Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0128"
+      ]
+    },
+    {
+      "canonical": "Rocke",
+      "aliases": [
+        "Rocke"
+      ],
+      "source_id": "intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad",
+      "modified": "2026-07-31T18:47:51.614Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0106"
+      ]
+    },
+    {
+      "canonical": "Scattered Spider",
+      "aliases": [
+        "Scattered Spider",
+        "Roasted 0ktapus",
+        "Octo Tempest",
+        "Storm-0875",
+        "UNC3944"
+      ],
+      "source_id": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
+      "modified": "2026-07-31T20:48:33.778Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1015"
+      ]
+    },
+    {
+      "canonical": "APT39",
+      "aliases": [
+        "APT39",
+        "ITG07",
+        "Chafer",
+        "Remix Kitten"
+      ],
+      "source_id": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
+      "modified": "2026-07-31T18:47:52.580Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0087"
+      ]
+    },
+    {
+      "canonical": "UNC3886",
+      "aliases": [
+        "UNC3886"
+      ],
+      "source_id": "intrusion-set--461b8e25-8f4a-4ea2-a4a8-e39df7ce6630",
+      "modified": "2026-07-31T18:47:52.855Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1048"
+      ]
+    },
+    {
+      "canonical": "Contagious Interview",
+      "aliases": [
+        "Contagious Interview",
+        "DeceptiveDevelopment",
+        "Gwisin Gang",
+        "Tenacious Pungsan",
+        "DEV#POPPER",
+        "PurpleBravo",
+        "TAG-121"
+      ],
+      "source_id": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",
+      "modified": "2026-07-31T18:47:53.854Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1052"
+      ]
+    },
+    {
+      "canonical": "TA2541",
+      "aliases": [
+        "TA2541"
+      ],
+      "source_id": "intrusion-set--467271fd-47c0-4e90-a3f9-d84f5cf790d0",
+      "modified": "2026-07-31T18:47:54.288Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1018"
+      ]
+    },
+    {
+      "canonical": "Akira",
+      "aliases": [
+        "Akira",
+        "GOLD SAHARA",
+        "PUNK SPIDER",
+        "Howling Scorpius"
+      ],
+      "source_id": "intrusion-set--46bb06cb-f2d9-4b37-8c92-a27e224ad90d",
+      "modified": "2026-07-31T18:47:54.331Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1024"
+      ]
+    },
+    {
+      "canonical": "APT37",
+      "aliases": [
+        "APT37",
+        "InkySquid",
+        "ScarCruft",
+        "Reaper",
+        "Group123",
+        "TEMP.Reaper",
+        "Ricochet Chollima",
+        "apt 37",
+        "atk4",
+        "g0067",
+        "group 123",
+        "group123",
+        "inkysquid",
+        "moldy pisces",
+        "operation daybreak",
+        "operation erebus",
+        "reaper",
+        "reaper group",
+        "red eyes",
+        "ricochet chollima",
+        "scarcruft",
+        "venus 121"
+      ],
+      "source_id": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
+      "modified": "2026-07-31T18:47:54.407Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0067"
+      ]
+    },
+    {
+      "canonical": "Moses Staff",
+      "aliases": [
+        "Moses Staff",
+        "DEV-0500",
+        "Marigold Sandstorm"
+      ],
+      "source_id": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
+      "modified": "2026-07-31T18:47:55.061Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1009"
+      ]
+    },
+    {
+      "canonical": "OilRig",
+      "aliases": [
+        "OilRig",
+        "COBALT GYPSY",
+        "IRN2",
+        "APT34",
+        "Helix Kitten",
+        "Evasive Serpens",
+        "Hazel Sandstorm",
+        "EUROPIUM",
+        "ITG13",
+        "Earth Simnavaz",
+        "Crambus",
+        "TA452",
+        "chrysene",
+        "apt34",
+        "helix kitten",
+        "cobalt gypsym",
+        "crambus or siamesekitten",
+        "apt 34",
+        "atk40",
+        "cobalt gypsy",
+        "crambus",
+        "europium",
+        "evasive serpens",
+        "g0049",
+        "hazel sandstorm",
+        "irn2",
+        "ta452",
+        "twisted kitten",
+        "greenbug",
+        "oilrig"
+      ],
+      "source_id": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
+      "modified": "2026-07-31T20:48:34.886Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0049"
+      ]
+    },
+    {
+      "canonical": "Windigo",
+      "aliases": [
+        "Windigo"
+      ],
+      "source_id": "intrusion-set--4e868dad-682d-4897-b8df-2dc98f46c68a",
+      "modified": "2026-07-31T18:47:55.695Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0124"
+      ]
+    },
+    {
+      "canonical": "Higaisa",
+      "aliases": [
+        "Higaisa"
+      ],
+      "source_id": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+      "modified": "2026-07-31T18:47:55.735Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0126"
+      ]
+    },
+    {
+      "canonical": "Carbanak",
+      "aliases": [
+        "Carbanak",
+        "Anunak"
+      ],
+      "source_id": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
+      "modified": "2026-07-31T18:47:55.855Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0008"
+      ]
+    },
+    {
+      "canonical": "Tropic Trooper",
+      "aliases": [
+        "Tropic Trooper",
+        "Pirate Panda",
+        "KeyBoy"
+      ],
+      "source_id": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
+      "modified": "2026-07-31T18:47:56.506Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0081"
+      ]
+    },
+    {
+      "canonical": "Orangeworm",
+      "aliases": [
+        "Orangeworm"
+      ],
+      "source_id": "intrusion-set--5636b7b3-d99b-4edd-aa05-ee649c1d4ef1",
+      "modified": "2026-07-31T18:47:56.740Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0071"
+      ]
+    },
+    {
+      "canonical": "Sea Turtle",
+      "aliases": [
+        "Sea Turtle",
+        "Teal Kurma",
+        "Marbled Dust",
+        "Cosmic Wolf",
+        "SILICON"
+      ],
+      "source_id": "intrusion-set--56a05d27-4d47-418a-b330-781c5614f202",
+      "modified": "2026-07-31T18:47:56.961Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1041"
+      ]
+    },
+    {
+      "canonical": "Suckfly",
+      "aliases": [
+        "Suckfly"
+      ],
+      "source_id": "intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d",
+      "modified": "2026-07-31T18:47:57.501Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0039"
+      ]
+    },
+    {
+      "canonical": "Putter Panda",
+      "aliases": [
+        "Putter Panda",
+        "APT2",
+        "MSUpdater"
+      ],
+      "source_id": "intrusion-set--5ce5392a-3a6c-4e07-9df3-9b6a9159ac45",
+      "modified": "2026-07-31T18:47:57.762Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0024"
+      ]
+    },
+    {
+      "canonical": "POLONIUM",
+      "aliases": [
+        "POLONIUM",
+        "Plaid Rain"
+      ],
+      "source_id": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",
+      "modified": "2026-07-31T18:47:57.978Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1005"
+      ]
+    },
+    {
+      "canonical": "TA459",
+      "aliases": [
+        "TA459"
+      ],
+      "source_id": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
+      "modified": "2026-07-31T18:47:58.066Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0062"
+      ]
+    },
+    {
+      "canonical": "Aquatic Panda",
+      "aliases": [
+        "Aquatic Panda"
+      ],
+      "source_id": "intrusion-set--64b52e7d-b2c4-4a02-9372-08a463f5dc11",
+      "modified": "2026-07-31T18:47:58.464Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0143"
+      ]
+    },
+    {
+      "canonical": "Aoqin Dragon",
+      "aliases": [
+        "Aoqin Dragon"
+      ],
+      "source_id": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+      "modified": "2026-07-31T18:47:58.829Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1007"
+      ]
+    },
+    {
+      "canonical": "Ferocious Kitten",
+      "aliases": [
+        "Ferocious Kitten"
+      ],
+      "source_id": "intrusion-set--6566aac9-dad8-4332-ae73-20c23bad7f02",
+      "modified": "2026-07-31T18:47:58.927Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0137"
+      ]
+    },
+    {
+      "canonical": "The White Company",
+      "aliases": [
+        "The White Company"
+      ],
+      "source_id": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+      "modified": "2026-07-31T18:47:59.296Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0089"
+      ]
+    },
+    {
+      "canonical": "Ke3chang",
+      "aliases": [
+        "Ke3chang",
+        "APT15",
+        "Mirage",
+        "Vixen Panda",
+        "GREF",
+        "Playful Dragon",
+        "RoyalAPT",
+        "NICKEL",
+        "Nylon Typhoon"
+      ],
+      "source_id": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+      "modified": "2026-07-31T18:47:59.619Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0004"
+      ]
+    },
+    {
+      "canonical": "Saint Bear",
+      "aliases": [
+        "Saint Bear",
+        "Storm-0587",
+        "TA471",
+        "UAC-0056",
+        "Lorec53"
+      ],
+      "source_id": "intrusion-set--674582ec-51c4-42ce-b409-797239e37a2a",
+      "modified": "2026-07-31T18:47:59.664Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1031"
+      ]
+    },
+    {
+      "canonical": "APT1",
+      "aliases": [
+        "APT1",
+        "Comment Crew",
+        "Comment Group",
+        "Comment Panda"
+      ],
+      "source_id": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+      "modified": "2026-07-31T18:47:59.697Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0006"
+      ]
+    },
+    {
+      "canonical": "DarkHydrus",
+      "aliases": [
+        "DarkHydrus"
+      ],
+      "source_id": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+      "modified": "2026-07-31T20:48:36.928Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0079"
+      ]
+    },
+    {
+      "canonical": "Confucius",
+      "aliases": [
+        "Confucius",
+        "Confucius APT",
+        "confucius apt"
+      ],
+      "source_id": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+      "modified": "2026-07-31T20:48:37.252Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0142"
+      ]
+    },
+    {
+      "canonical": "BlackTech",
+      "aliases": [
+        "BlackTech",
+        "Palmerworm"
+      ],
+      "source_id": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+      "modified": "2026-07-31T18:48:01.102Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0098"
+      ]
+    },
+    {
+      "canonical": "Leviathan",
+      "aliases": [
+        "Leviathan",
+        "MUDCARP",
+        "Kryptonite Panda",
+        "Gadolinium",
+        "BRONZE MOHAWK",
+        "TEMP.Jumper",
+        "APT40",
+        "TEMP.Periscope",
+        "Gingham Typhoon"
+      ],
+      "source_id": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
+      "modified": "2026-07-31T20:48:37.749Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0065"
+      ]
+    },
+    {
+      "canonical": "MoustachedBouncer",
+      "aliases": [
+        "MoustachedBouncer"
+      ],
+      "source_id": "intrusion-set--7251b44b-6072-476c-b8d9-a6e32c355b28",
+      "modified": "2026-07-31T20:48:38.550Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1019"
+      ]
+    },
+    {
+      "canonical": "Group5",
+      "aliases": [
+        "Group5"
+      ],
+      "source_id": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
+      "modified": "2026-07-31T18:48:01.862Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0043"
+      ]
+    },
+    {
+      "canonical": "Blue Mockingbird",
+      "aliases": [
+        "Blue Mockingbird"
+      ],
+      "source_id": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+      "modified": "2026-07-31T18:48:01.934Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0108"
+      ]
+    },
+    {
+      "canonical": "Winter Vivern",
+      "aliases": [
+        "Winter Vivern",
+        "TA473",
+        "UAC-0114"
+      ],
+      "source_id": "intrusion-set--75a07184-a7e5-4222-95a1-a04dbc96a29c",
+      "modified": "2026-07-31T18:48:02.493Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1035"
+      ]
+    },
+    {
+      "canonical": "SilverTerrier",
+      "aliases": [
+        "SilverTerrier"
+      ],
+      "source_id": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
+      "modified": "2026-07-31T18:48:02.596Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0083"
+      ]
+    },
+    {
+      "canonical": "Turla",
+      "aliases": [
+        "Turla",
+        "IRON HUNTER",
+        "Group 88",
+        "Waterbug",
+        "WhiteBear",
+        "Snake",
+        "Krypton",
+        "Venomous Bear",
+        "Secret Blizzard",
+        "BELUGASTURGEON",
+        "atk13",
+        "blue python",
+        "g0010",
+        "group 88",
+        "hippo team",
+        "iron hunter",
+        "itg12",
+        "krypton",
+        "makersmark",
+        "pacifier apt",
+        "pfinet",
+        "popeye",
+        "sig23",
+        "summit",
+        "secret blizzard",
+        "snake",
+        "tag 0530",
+        "uac 0003",
+        "uac 0024",
+        "uac 0144",
+        "unc4210",
+        "uroburos",
+        "venomous bear",
+        "wraith",
+        "waterbug"
+      ],
+      "source_id": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+      "modified": "2026-07-31T18:48:02.956Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0010"
+      ]
+    },
+    {
+      "canonical": "Storm-0501",
+      "aliases": [
+        "Storm-0501"
+      ],
+      "source_id": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",
+      "modified": "2026-07-31T18:48:03.011Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1053"
+      ]
+    },
+    {
+      "canonical": "Poseidon Group",
+      "aliases": [
+        "Poseidon Group"
+      ],
+      "source_id": "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",
+      "modified": "2026-07-31T18:48:04.495Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0033"
+      ]
+    },
+    {
+      "canonical": "TA505",
+      "aliases": [
+        "TA505",
+        "Hive0065",
+        "Spandex Tempest",
+        "CHIMBORAZO"
+      ],
+      "source_id": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",
+      "modified": "2026-07-31T18:48:04.495Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0092"
+      ]
+    },
+    {
+      "canonical": "BITTER",
+      "aliases": [
+        "BITTER",
+        "T-APT-17"
+      ],
+      "source_id": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+      "modified": "2026-07-31T20:48:39.235Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1002"
+      ]
+    },
+    {
+      "canonical": "DarkVishnya",
+      "aliases": [
+        "DarkVishnya"
+      ],
+      "source_id": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
+      "modified": "2026-07-31T18:48:04.496Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0105"
+      ]
+    },
+    {
+      "canonical": "RedCurl",
+      "aliases": [
+        "RedCurl"
+      ],
+      "source_id": "intrusion-set--82323c70-4186-4b61-94f5-b227c3b28e89",
+      "modified": "2026-07-31T18:48:05.317Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1039"
+      ]
+    },
+    {
+      "canonical": "APT-C-23",
+      "aliases": [
+        "APT-C-23",
+        "Mantis",
+        "Arid Viper",
+        "Desert Falcon",
+        "TAG-63",
+        "Grey Karkadann",
+        "Big Bang APT",
+        "Two-tailed Scorpion"
+      ],
+      "source_id": "intrusion-set--8332952e-b86b-486b-acc3-1c2a85d39394",
+      "modified": "2026-07-31T20:48:39.666Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1028"
+      ]
+    },
+    {
+      "canonical": "FIN5",
+      "aliases": [
+        "FIN5"
+      ],
+      "source_id": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+      "modified": "2026-07-31T20:48:39.976Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0053"
+      ]
+    },
+    {
+      "canonical": "Mofang",
+      "aliases": [
+        "Mofang"
+      ],
+      "source_id": "intrusion-set--88489675-d216-4884-a98f-49a89fcc1643",
+      "modified": "2026-07-31T18:48:06.005Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0103"
+      ]
+    },
+    {
+      "canonical": "Lotus Blossom",
+      "aliases": [
+        "Lotus Blossom",
+        "DRAGONFISH",
+        "Spring Dragon",
+        "RADIUM",
+        "Raspberry Typhoon",
+        "Bilbug",
+        "Thrip"
+      ],
+      "source_id": "intrusion-set--88b7dbc2-32d3-4e31-af2f-3fc24e1582d7",
+      "modified": "2026-07-31T18:48:06.109Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0030"
+      ]
+    },
+    {
+      "canonical": "Stealth Falcon",
+      "aliases": [
+        "Stealth Falcon"
+      ],
+      "source_id": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
+      "modified": "2026-07-31T18:48:06.436Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0038"
+      ]
+    },
+    {
+      "canonical": "APT29",
+      "aliases": [
+        "APT29",
+        "IRON RITUAL",
+        "IRON HEMLOCK",
+        "NobleBaron",
+        "Dark Halo",
+        "NOBELIUM",
+        "UNC2452",
+        "YTTRIUM",
+        "The Dukes",
+        "Cozy Bear",
+        "CozyDuke",
+        "SolarStorm",
+        "Blue Kitsune",
+        "UNC3524",
+        "Midnight Blizzard",
+        "atk7",
+        "blue kitsune",
+        "bluebravo",
+        "cozy bear",
+        "cloaked ursa",
+        "g0016",
+        "group 100",
+        "iron hemlock",
+        "itg11",
+        "midnight blizzard",
+        "minidionis",
+        "nobelium",
+        "seaduke",
+        "ta421",
+        "the dukes",
+        "uac 0029",
+        "yttrium",
+        "apt29",
+        "darkhalo",
+        "solar phoenix",
+        "stellarparticle"
+      ],
+      "source_id": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
+      "modified": "2026-07-31T18:48:06.517Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0016"
+      ]
+    },
+    {
+      "canonical": "Dark Caracal",
+      "aliases": [
+        "Dark Caracal",
+        "g0070"
+      ],
+      "source_id": "intrusion-set--8a831aaa-f3e0-47a3-bed8-a9ced744dd12",
+      "modified": "2026-07-31T20:48:40.500Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0070"
+      ]
+    },
+    {
+      "canonical": "Cinnamon Tempest",
+      "aliases": [
+        "Cinnamon Tempest",
+        "DEV-0401",
+        "Emperor Dragonfly",
+        "BRONZE STARLIGHT"
+      ],
+      "source_id": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
+      "modified": "2026-07-31T18:48:07.234Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1021"
+      ]
+    },
+    {
+      "canonical": "Chimera",
+      "aliases": [
+        "Chimera"
+      ],
+      "source_id": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
+      "modified": "2026-07-31T20:48:40.932Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0114"
+      ]
+    },
+    {
+      "canonical": "MirrorFace",
+      "aliases": [
+        "MirrorFace",
+        "Earth Kasha"
+      ],
+      "source_id": "intrusion-set--8cf6e33b-b6ef-4a1f-a77c-0ecdde93161f",
+      "modified": "2026-07-31T18:48:07.598Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1054"
+      ]
+    },
+    {
+      "canonical": "Cleaver",
+      "aliases": [
+        "Cleaver",
+        "Threat Group 2889",
+        "TG-2889"
+      ],
+      "source_id": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
+      "modified": "2026-07-31T18:48:08.140Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0003"
+      ]
+    },
+    {
+      "canonical": "Silent Librarian",
+      "aliases": [
+        "Silent Librarian",
+        "TA407",
+        "COBALT DICKENS"
+      ],
+      "source_id": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+      "modified": "2026-07-31T18:48:08.693Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0122"
+      ]
+    },
+    {
+      "canonical": "Medusa Group",
+      "aliases": [
+        "Medusa Group"
+      ],
+      "source_id": "intrusion-set--918da025-04bd-48af-b6c4-f3e4d1b915eb",
+      "modified": "2026-07-31T18:48:09.341Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1051"
+      ]
+    },
+    {
+      "canonical": "BRONZE BUTLER",
+      "aliases": [
+        "BRONZE BUTLER",
+        "REDBALDKNIGHT",
+        "Tick"
+      ],
+      "source_id": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+      "modified": "2026-07-31T18:48:09.344Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0060"
+      ]
+    },
+    {
+      "canonical": "TA551",
+      "aliases": [
+        "TA551",
+        "GOLD CABIN",
+        "Shathak"
+      ],
+      "source_id": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+      "modified": "2026-07-31T18:48:09.361Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0127"
+      ]
+    },
+    {
+      "canonical": "TEMP.Veles",
+      "aliases": [
+        "TEMP.Veles",
+        "XENOTIME"
+      ],
+      "source_id": "intrusion-set--9538b1a4-4120-4e2d-bf59-3b11fcab05a4",
+      "modified": "2026-07-31T20:48:41.930Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0088"
+      ]
+    },
+    {
+      "canonical": "Equation",
+      "aliases": [
+        "Equation"
+      ],
+      "source_id": "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9",
+      "modified": "2026-07-31T18:48:10.359Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0020"
+      ]
+    },
+    {
+      "canonical": "BackdoorDiplomacy",
+      "aliases": [
+        "BackdoorDiplomacy"
+      ],
+      "source_id": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+      "modified": "2026-07-31T18:48:10.579Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0135"
+      ]
+    },
+    {
+      "canonical": "Star Blizzard",
+      "aliases": [
+        "Star Blizzard",
+        "SEABORGIUM",
+        "Callisto Group",
+        "TA446",
+        "COLDRIVER",
+        "callisto",
+        "bluecharlie",
+        "gossamer bear",
+        "reuse team",
+        "seaborgium",
+        "star blizzard",
+        "ta446"
+      ],
+      "source_id": "intrusion-set--9b36c218-4d80-4ec6-a68d-cc2886bbe410",
+      "modified": "2026-07-31T20:48:42.370Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1033"
+      ]
+    },
+    {
+      "canonical": "Darkhotel",
+      "aliases": [
+        "Darkhotel",
+        "DUBNIUM",
+        "Zigzag Hail"
+      ],
+      "source_id": "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383",
+      "modified": "2026-07-31T18:48:11.260Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0012"
+      ]
+    },
+    {
+      "canonical": "Axiom",
+      "aliases": [
+        "Axiom",
+        "Group 72"
+      ],
+      "source_id": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
+      "modified": "2026-07-31T18:48:11.488Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0001"
+      ]
+    },
+    {
+      "canonical": "TA578",
+      "aliases": [
+        "TA578"
+      ],
+      "source_id": "intrusion-set--a5cfbc79-316c-42f2-915d-6e8fef4085f8",
+      "modified": "2026-07-31T18:48:11.583Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1038"
+      ]
+    },
+    {
+      "canonical": "Deep Panda",
+      "aliases": [
+        "Deep Panda",
+        "Shell Crew",
+        "WebMasters",
+        "KungFu Kittens",
+        "PinkPanther",
+        "Black Vine"
+      ],
+      "source_id": "intrusion-set--a653431d-6a5e-4600-8ad3-609b5af57064",
+      "modified": "2026-07-31T18:48:11.915Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0009"
+      ]
+    },
+    {
+      "canonical": "Ember Bear",
+      "aliases": [
+        "Ember Bear",
+        "UNC2589",
+        "Bleeding Bear",
+        "DEV-0586",
+        "Cadet Blizzard",
+        "Frozenvista",
+        "UAC-0056"
+      ],
+      "source_id": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
+      "modified": "2026-07-31T18:48:12.127Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1003"
+      ]
+    },
+    {
+      "canonical": "LazyScripter",
+      "aliases": [
+        "LazyScripter"
+      ],
+      "source_id": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
+      "modified": "2026-07-31T18:48:12.417Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0140"
+      ]
+    },
+    {
+      "canonical": "Windshift",
+      "aliases": [
+        "Windshift",
+        "Bahamut",
+        "windy phoenix"
+      ],
+      "source_id": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+      "modified": "2026-07-31T20:48:43.267Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0112"
+      ]
+    },
+    {
+      "canonical": "Volatile Cedar",
+      "aliases": [
+        "Volatile Cedar",
+        "Lebanese Cedar"
+      ],
+      "source_id": "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3",
+      "modified": "2026-07-31T18:48:12.835Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0123"
+      ]
+    },
+    {
+      "canonical": "ToddyCat",
+      "aliases": [
+        "ToddyCat"
+      ],
+      "source_id": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+      "modified": "2026-07-31T18:48:13.519Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1022"
+      ]
+    },
+    {
+      "canonical": "Whitefly",
+      "aliases": [
+        "Whitefly"
+      ],
+      "source_id": "intrusion-set--b74f909f-8e52-4b69-b770-162bf59a1b4e",
+      "modified": "2026-07-31T18:48:13.766Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0107"
+      ]
+    },
+    {
+      "canonical": "LuminousMoth",
+      "aliases": [
+        "LuminousMoth"
+      ],
+      "source_id": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+      "modified": "2026-07-31T18:48:13.778Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1014"
+      ]
+    },
+    {
+      "canonical": "Agrius",
+      "aliases": [
+        "Agrius",
+        "Pink Sandstorm",
+        "AMERICIUM",
+        "Agonizing Serpens",
+        "BlackShadow"
+      ],
+      "source_id": "intrusion-set--b8137919-38cb-4db0-90f3-437be885faba",
+      "modified": "2026-07-31T18:48:13.867Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1030"
+      ]
+    },
+    {
+      "canonical": "Water Galura",
+      "aliases": [
+        "Water Galura",
+        "GOLD FEATHER"
+      ],
+      "source_id": "intrusion-set--be8847e0-9512-45db-895e-f871ab6d3820",
+      "modified": "2026-07-31T18:48:14.500Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1050"
+      ]
+    },
+    {
+      "canonical": "APT28",
+      "aliases": [
+        "APT28",
+        "IRON TWILIGHT",
+        "SNAKEMACKEREL",
+        "Swallowtail",
+        "Group 74",
+        "Sednit",
+        "Sofacy",
+        "Pawn Storm",
+        "Fancy Bear",
+        "STRONTIUM",
+        "Tsar Team",
+        "Threat Group-4127",
+        "TG-4127",
+        "Forest Blizzard",
+        "FROZENLAKE",
+        "GruesomeLarch",
+        "apt c 20",
+        "atk5",
+        "blue athena",
+        "fancy bear",
+        "frozenlake",
+        "fighting ursa",
+        "forest blizzard",
+        "g0007",
+        "grey cloud",
+        "group 74",
+        "group 4127",
+        "iron twilight",
+        "itg05",
+        "pawn storm",
+        "sig40",
+        "snakemackerel",
+        "strontium",
+        "sednit",
+        "sofacy",
+        "swallowtail",
+        "t apt 12",
+        "ta422",
+        "tg 4127",
+        "tsar team",
+        "tsarteam",
+        "uac 0028",
+        "sofacy group"
+      ],
+      "source_id": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
+      "modified": "2026-07-31T20:48:44.067Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0007"
+      ]
+    },
+    {
+      "canonical": "Malteiro",
+      "aliases": [
+        "Malteiro"
+      ],
+      "source_id": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+      "modified": "2026-07-31T18:48:14.986Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1026"
+      ]
+    },
+    {
+      "canonical": "Metador",
+      "aliases": [
+        "Metador"
+      ],
+      "source_id": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
+      "modified": "2026-07-31T18:48:15.057Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1013"
+      ]
+    },
+    {
+      "canonical": "APT42",
+      "aliases": [
+        "APT42"
+      ],
+      "source_id": "intrusion-set--c0291346-defe-48d7-9542-9e074ba1bdfb",
+      "modified": "2026-07-31T18:48:15.085Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1044"
+      ]
+    },
+    {
+      "canonical": "APT5",
+      "aliases": [
+        "APT5",
+        "Mulberry Typhoon",
+        "MANGANESE",
+        "BRONZE FLEETWOOD",
+        "Keyhole Panda",
+        "UNC2630"
+      ],
+      "source_id": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
+      "modified": "2026-07-31T18:48:16.107Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1023"
+      ]
+    },
+    {
+      "canonical": "Fox Kitten",
+      "aliases": [
+        "Fox Kitten",
+        "UNC757",
+        "Parisite",
+        "Pioneer Kitten",
+        "RUBIDIUM",
+        "Lemon Sandstorm"
+      ],
+      "source_id": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+      "modified": "2026-07-31T18:48:16.208Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0117"
+      ]
+    },
+    {
+      "canonical": "RTM",
+      "aliases": [
+        "RTM"
+      ],
+      "source_id": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
+      "modified": "2026-07-31T18:48:16.598Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0048"
+      ]
+    },
+    {
+      "canonical": "APT12",
+      "aliases": [
+        "APT12",
+        "IXESHE",
+        "DynCalc",
+        "Numbered Panda",
+        "DNSCALC"
+      ],
+      "source_id": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
+      "modified": "2026-07-31T18:48:17.463Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0005"
+      ]
+    },
+    {
+      "canonical": "APT-C-36",
+      "aliases": [
+        "APT-C-36",
+        "Blind Eagle",
+        "TAG-144",
+        "AguilaCiega",
+        "APT-Q-98",
+        "blind eagle"
+      ],
+      "source_id": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+      "modified": "2026-07-31T18:48:17.693Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0099"
+      ]
+    },
+    {
+      "canonical": "Scarlet Mimic",
+      "aliases": [
+        "Scarlet Mimic"
+      ],
+      "source_id": "intrusion-set--c5574ca0-d5a4-490a-b207-e4658e5fd1d7",
+      "modified": "2026-07-31T18:48:17.922Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0029"
+      ]
+    },
+    {
+      "canonical": "Winnti Group",
+      "aliases": [
+        "Winnti Group",
+        "Blackfly"
+      ],
+      "source_id": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
+      "modified": "2026-07-31T18:48:18.078Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0044"
+      ]
+    },
+    {
+      "canonical": "Tonto Team",
+      "aliases": [
+        "Tonto Team",
+        "Earth Akhlut",
+        "BRONZE HUNTLEY",
+        "CactusPete",
+        "Karma Panda"
+      ],
+      "source_id": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+      "modified": "2026-07-31T18:48:18.168Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0131"
+      ]
+    },
+    {
+      "canonical": "GOLD SOUTHFIELD",
+      "aliases": [
+        "GOLD SOUTHFIELD",
+        "Pinchy Spider"
+      ],
+      "source_id": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+      "modified": "2026-07-31T20:48:45.767Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0115"
+      ]
+    },
+    {
+      "canonical": "Lazarus Group",
+      "aliases": [
+        "Lazarus Group",
+        "Labyrinth Chollima",
+        "HIDDEN COBRA",
+        "Guardians of Peace",
+        "ZINC",
+        "NICKEL ACADEMY",
+        "Diamond Sleet",
+        "Lazarus",
+        "apt c 26",
+        "atk117",
+        "atk3",
+        "appleworm",
+        "bureau 121",
+        "covellite",
+        "dev 0139",
+        "dev 1222",
+        "dark seoul",
+        "g0032",
+        "g0082",
+        "genie spider",
+        "group 77",
+        "hastati group",
+        "newromanic cyber army team",
+        "operation applejeus",
+        "operation darkseoul",
+        "operation ghostsecret",
+        "subgroup  bluenoroff",
+        "ta404",
+        "unit 121",
+        "whois hacking team"
+      ],
+      "source_id": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+      "modified": "2026-07-31T20:48:46.106Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0032"
+      ]
+    },
+    {
+      "canonical": "INC Ransom",
+      "aliases": [
+        "INC Ransom",
+        "GOLD IONIC"
+      ],
+      "source_id": "intrusion-set--cb41e991-65f4-4668-a65f-f4200545b5a1",
+      "modified": "2026-07-31T20:48:47.333Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1032"
+      ]
+    },
+    {
+      "canonical": "Earth Lusca",
+      "aliases": [
+        "Earth Lusca",
+        "TAG-22",
+        "Charcoal Typhoon",
+        "CHROMIUM",
+        "ControlX"
+      ],
+      "source_id": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+      "modified": "2026-07-31T20:48:47.844Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1006"
+      ]
+    },
+    {
+      "canonical": "FIN4",
+      "aliases": [
+        "FIN4"
+      ],
+      "source_id": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
+      "modified": "2026-07-31T20:48:48.493Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0085"
+      ]
+    },
+    {
+      "canonical": "Silence",
+      "aliases": [
+        "Silence",
+        "Whisper Spider"
+      ],
+      "source_id": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+      "modified": "2026-07-31T18:48:20.506Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0091"
+      ]
+    },
+    {
+      "canonical": "Sowbug",
+      "aliases": [
+        "Sowbug"
+      ],
+      "source_id": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
+      "modified": "2026-07-31T18:48:20.561Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0054"
+      ]
+    },
+    {
+      "canonical": "Threat Group-1314",
+      "aliases": [
+        "Threat Group-1314",
+        "TG-1314"
+      ],
+      "source_id": "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983",
+      "modified": "2026-07-31T18:48:20.978Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0028"
+      ]
+    },
+    {
+      "canonical": "Thrip",
+      "aliases": [
+        "Thrip"
+      ],
+      "source_id": "intrusion-set--d69e568e-9ac8-4c08-b32c-d93b43ba9172",
+      "modified": "2026-07-31T18:48:21.405Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0076"
+      ]
+    },
+    {
+      "canonical": "APT16",
+      "aliases": [
+        "APT16"
+      ],
+      "source_id": "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70",
+      "modified": "2026-07-31T18:48:21.512Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0023"
+      ]
+    },
+    {
+      "canonical": "LAPSUS$",
+      "aliases": [
+        "LAPSUS$",
+        "DEV-0537",
+        "Strawberry Tempest"
+      ],
+      "source_id": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
+      "modified": "2026-07-31T20:48:49.009Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1004"
+      ]
+    },
+    {
+      "canonical": "BlackOasis",
+      "aliases": [
+        "BlackOasis"
+      ],
+      "source_id": "intrusion-set--da49b9f1-ca99-443f-9728-0a074db66850",
+      "modified": "2026-07-31T18:48:22.124Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0063"
+      ]
+    },
+    {
+      "canonical": "Cobalt Group",
+      "aliases": [
+        "Cobalt Group",
+        "GOLD KINGSWOOD",
+        "Cobalt Gang",
+        "Cobalt Spider"
+      ],
+      "source_id": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+      "modified": "2026-07-31T18:48:22.149Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0080"
+      ]
+    },
+    {
+      "canonical": "CopyKittens",
+      "aliases": [
+        "CopyKittens"
+      ],
+      "source_id": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+      "modified": "2026-07-31T18:48:22.254Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0052"
+      ]
+    },
+    {
+      "canonical": "Wizard Spider",
+      "aliases": [
+        "Wizard Spider",
+        "UNC1878",
+        "TEMP.MixMaster",
+        "Grim Spider",
+        "FIN12",
+        "GOLD BLACKBURN",
+        "ITG23",
+        "Periwinkle Tempest",
+        "DEV-0193",
+        "Pistachio Tempest",
+        "DEV-0237"
+      ],
+      "source_id": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+      "modified": "2026-07-31T20:48:49.730Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0102"
+      ]
+    },
+    {
+      "canonical": "Molerats",
+      "aliases": [
+        "Molerats",
+        "Operation Molerats",
+        "Gaza Cybergang"
+      ],
+      "source_id": "intrusion-set--df71bb3b-813c-45eb-a8bc-f2a419837411",
+      "modified": "2026-07-31T18:48:22.843Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0021"
+      ]
+    },
+    {
+      "canonical": "Velvet Ant",
+      "aliases": [
+        "Velvet Ant"
+      ],
+      "source_id": "intrusion-set--e1fc262c-dad2-4b82-abda-5f08dd134971",
+      "modified": "2026-07-31T18:48:23.128Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1047"
+      ]
+    },
+    {
+      "canonical": "Transparent Tribe",
+      "aliases": [
+        "Transparent Tribe",
+        "COPPER FIELDSTONE",
+        "APT36",
+        "Mythic Leopard",
+        "ProjectM",
+        "apt36",
+        "apt 36",
+        "c major",
+        "copper fieldstone",
+        "earth karkaddan",
+        "green havildar",
+        "mythic leopard",
+        "projectm",
+        "tmp lapis",
+        "transparent tribe"
+      ],
+      "source_id": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
+      "modified": "2026-07-31T18:48:23.430Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0134"
+      ]
+    },
+    {
+      "canonical": "IndigoZebra",
+      "aliases": [
+        "IndigoZebra"
+      ],
+      "source_id": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+      "modified": "2026-07-31T18:48:23.936Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0136"
+      ]
+    },
+    {
+      "canonical": "Moonstone Sleet",
+      "aliases": [
+        "Moonstone Sleet",
+        "Storm-1789"
+      ],
+      "source_id": "intrusion-set--e6db1e55-b199-4b6b-8633-989345ee45e0",
+      "modified": "2026-07-31T18:48:24.240Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1036"
+      ]
+    },
+    {
+      "canonical": "Inception",
+      "aliases": [
+        "Inception",
+        "Inception Framework",
+        "Cloud Atlas"
+      ],
+      "source_id": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+      "modified": "2026-07-31T18:48:24.355Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0100"
+      ]
+    },
+    {
+      "canonical": "VOID MANTICORE",
+      "aliases": [
+        "VOID MANTICORE",
+        "COBALT MYSTIQUE",
+        "Handala Hack",
+        "Homeland Justice",
+        "Karma",
+        "Karmabelow80",
+        "BANISHED KITTEN",
+        "Red Sandstorm"
+      ],
+      "source_id": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",
+      "modified": "2026-07-31T18:48:24.451Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1055"
+      ]
+    },
+    {
+      "canonical": "Play",
+      "aliases": [
+        "Play"
+      ],
+      "source_id": "intrusion-set--ecbf507f-6786-4121-a4cc-0fd6a8d3a29d",
+      "modified": "2026-07-31T18:48:24.924Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1040"
+      ]
+    },
+    {
+      "canonical": "PROMETHIUM",
+      "aliases": [
+        "PROMETHIUM",
+        "StrongPity"
+      ],
+      "source_id": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
+      "modified": "2026-07-31T20:48:51.011Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0056"
+      ]
+    },
+    {
+      "canonical": "APT30",
+      "aliases": [
+        "APT30"
+      ],
+      "source_id": "intrusion-set--f047ee18-7985-4946-8bfb-4ed754d3a0dd",
+      "modified": "2026-07-31T18:48:25.451Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0013"
+      ]
+    },
+    {
+      "canonical": "HEXANE",
+      "aliases": [
+        "HEXANE",
+        "Lyceum",
+        "Siamesekitten",
+        "Spirlin"
+      ],
+      "source_id": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
+      "modified": "2026-07-31T20:48:51.374Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1001"
+      ]
+    },
+    {
+      "canonical": "DragonOK",
+      "aliases": [
+        "DragonOK"
+      ],
+      "source_id": "intrusion-set--f3bdec95-3d62-42d9-a840-29630f6cdc1a",
+      "modified": "2026-07-31T18:48:26.131Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0017"
+      ]
+    },
+    {
+      "canonical": "Daggerfly",
+      "aliases": [
+        "Daggerfly",
+        "Evasive Panda",
+        "BRONZE HIGHLAND"
+      ],
+      "source_id": "intrusion-set--f3be6240-f68e-47e1-90d2-ad8f3b3bb8a6",
+      "modified": "2026-07-31T18:48:26.166Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1034"
+      ]
+    },
+    {
+      "canonical": "Rancor",
+      "aliases": [
+        "Rancor"
+      ],
+      "source_id": "intrusion-set--f40eb8ce-2a74-4e56-89a1-227021410142",
+      "modified": "2026-07-31T18:48:26.231Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0075"
+      ]
+    },
+    {
+      "canonical": "WIRTE",
+      "aliases": [
+        "WIRTE",
+        "Ashen Lepus"
+      ],
+      "source_id": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
+      "modified": "2026-07-31T20:48:52.082Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0090"
+      ]
+    },
+    {
+      "canonical": "PLATINUM",
+      "aliases": [
+        "PLATINUM"
+      ],
+      "source_id": "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694",
+      "modified": "2026-07-31T18:48:27.175Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0068"
+      ]
+    },
+    {
+      "canonical": "Magic Hound",
+      "aliases": [
+        "Magic Hound",
+        "TA453",
+        "COBALT ILLUSION",
+        "Charming Kitten",
+        "ITG18",
+        "Phosphorus",
+        "Newscaster",
+        "APT35",
+        "Mint Sandstorm",
+        "apt35",
+        "g0058",
+        "group 83",
+        "newsbeef",
+        "newscaster",
+        "phosphorus",
+        "parastoo",
+        "ikittens",
+        "cobalt mirage",
+        "g0059",
+        "magic hound",
+        "newscaster team",
+        "tunnelvision"
+      ],
+      "source_id": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+      "modified": "2026-07-31T18:48:27.286Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0059"
+      ]
+    },
+    {
+      "canonical": "Ajax Security Team",
+      "aliases": [
+        "Ajax Security Team",
+        "Operation Woolen-Goldfish",
+        "AjaxTM",
+        "Rocket Kitten",
+        "Flying Kitten",
+        "Operation Saffron Rose"
+      ],
+      "source_id": "intrusion-set--fa19de15-6169-428d-9cd6-3ca3d56075b7",
+      "modified": "2026-07-31T18:48:27.351Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0130"
+      ]
+    },
+    {
+      "canonical": "Threat Group-3390",
+      "aliases": [
+        "Threat Group-3390",
+        "Earth Smilodon",
+        "TG-3390",
+        "Emissary Panda",
+        "BRONZE UNION",
+        "APT27",
+        "Iron Tiger",
+        "LuckyMouse",
+        "Linen Typhoon"
+      ],
+      "source_id": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+      "modified": "2026-07-31T18:48:27.731Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0027"
+      ]
+    },
+    {
+      "canonical": "APT33",
+      "aliases": [
+        "APT33",
+        "HOLMIUM",
+        "Elfin",
+        "Peach Sandstorm",
+        "apt 33",
+        "atk35",
+        "cobalt trinity",
+        "elfin",
+        "g0064",
+        "holmium",
+        "magnallium",
+        "peach sandstorm",
+        "refined kitten",
+        "ta451"
+      ],
+      "source_id": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
+      "modified": "2026-07-31T20:48:52.730Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0064"
+      ]
+    },
+    {
+      "canonical": "FIN10",
+      "aliases": [
+        "FIN10"
+      ],
+      "source_id": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
+      "modified": "2026-07-31T18:48:28.130Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0051"
+      ]
+    },
+    {
+      "canonical": "FIN8",
+      "aliases": [
+        "FIN8",
+        "Syssphinx"
+      ],
+      "source_id": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
+      "modified": "2026-07-31T18:48:28.923Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0061"
+      ]
+    },
+    {
+      "canonical": "FIN13",
+      "aliases": [
+        "FIN13",
+        "Elephant Beetle"
+      ],
+      "source_id": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
+      "modified": "2026-07-31T18:48:29.757Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1016"
+      ]
+    },
+    {
+      "canonical": "APT19",
+      "aliases": [
+        "APT19",
+        "Codoso",
+        "C0d0so0",
+        "Codoso Team",
+        "Sunshop Group",
+        "bronze firestone",
+        "codoso",
+        "g0009",
+        "g0073",
+        "group 13",
+        "pupa",
+        "sunshop group",
+        "temp avengers"
+      ],
+      "source_id": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+      "modified": "2026-07-31T18:48:29.759Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0073"
+      ]
+    },
+    {
+      "canonical": "PittyTiger",
+      "aliases": [
+        "PittyTiger"
+      ],
+      "source_id": "intrusion-set--fe98767f-9df8-42b9-83c9-004b1dec8647",
+      "modified": "2026-07-31T20:48:53.544Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0011"
+      ]
+    },
+    {
+      "canonical": "Nomadic Octopus",
+      "aliases": [
+        "Nomadic Octopus",
+        "DustSquad"
+      ],
+      "source_id": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",
+      "modified": "2026-07-31T18:48:30.218Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G0133"
+      ]
+    },
+    {
+      "canonical": "TeamPCP",
+      "aliases": [
+        "TeamPCP",
+        "PCPCat",
+        "ShellForce",
+        "DeadCatx3",
+        "SHADOW-WATER-058",
+        "UNC6780"
+      ],
+      "source_id": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",
+      "modified": "2026-07-31T18:47:42.686Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1056"
+      ]
+    },
+    {
+      "canonical": "ShinyHunters",
+      "aliases": [
+        "ShinyHunters",
+        "UNC6240",
+        "Bling Libra"
+      ],
+      "source_id": "intrusion-set--5e30362d-935b-4b1c-8bf2-96c7b7b7e299",
+      "modified": "2026-07-31T18:47:57.967Z",
+      "source_urls": [
+        "https://attack.mitre.org/groups/G1057"
+      ]
+    },
+    {
+      "canonical": "mummy spider",
+      "aliases": [
+        "gold crestwood",
+        "ta542",
+        "emotet"
+      ],
+      "source_id": "benchmark:mummy spider",
+      "source_urls": []
+    },
+    {
+      "canonical": "sharp panda",
+      "aliases": [],
+      "source_id": "benchmark:sharp panda",
+      "source_urls": []
+    },
+    {
+      "canonical": "bitter apt",
+      "aliases": [],
+      "source_id": "benchmark:bitter apt",
+      "source_urls": []
+    },
+    {
+      "canonical": "charmingcypress",
+      "aliases": [],
+      "source_id": "benchmark:charmingcypress",
+      "source_urls": []
+    }
+  ],
+  "change_note": "Canonicalize benchmark short form Lazarus to Lazarus Group; Andariel remains a distinct entity. Benchmark subgroup acceptance is a scoring policy, not alias identity.",
+  "identity_review_sources": [
+    "https://attack.mitre.org/groups/G0138/",
+    "https://attack.mitre.org/groups/G0032/"
+  ]
+}

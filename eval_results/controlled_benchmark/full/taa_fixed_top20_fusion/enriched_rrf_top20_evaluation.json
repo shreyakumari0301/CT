@@ -1,0 +1,352 @@
+[
+  {
+    "id": "taa-0",
+    "gold": "SideCopy",
+    "rank": 3,
+    "strict_rank": 4,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-1",
+    "gold": "MUSTANG PANDA",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-2",
+    "gold": "MUSTANG PANDA",
+    "rank": 3,
+    "strict_rank": 3,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-3",
+    "gold": "MUMMY SPIDER",
+    "rank": null,
+    "strict_rank": null,
+    "pool_covered": false
+  },
+  {
+    "id": "taa-4",
+    "gold": "Dark Caracal",
+    "rank": 10,
+    "strict_rank": 10,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-5",
+    "gold": "APT19",
+    "rank": null,
+    "strict_rank": null,
+    "pool_covered": false
+  },
+  {
+    "id": "taa-6",
+    "gold": "APT19",
+    "rank": null,
+    "strict_rank": null,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-7",
+    "gold": "APT-C-36",
+    "rank": 2,
+    "strict_rank": 2,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-8",
+    "gold": "APT-C-36",
+    "rank": 3,
+    "strict_rank": 3,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-9",
+    "gold": "Turla",
+    "rank": null,
+    "strict_rank": null,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-10",
+    "gold": "Turla",
+    "rank": null,
+    "strict_rank": null,
+    "pool_covered": false
+  },
+  {
+    "id": "taa-11",
+    "gold": "APT28",
+    "rank": 8,
+    "strict_rank": 8,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-12",
+    "gold": "APT28",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-13",
+    "gold": "UNC2452",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-14",
+    "gold": "UNC2452",
+    "rank": 4,
+    "strict_rank": 4,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-15",
+    "gold": "CHRYSENE",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-16",
+    "gold": "CHRYSENE",
+    "rank": 12,
+    "strict_rank": 12,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-17",
+    "gold": "APT41",
+    "rank": 7,
+    "strict_rank": 7,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-18",
+    "gold": "lazarus",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-19",
+    "gold": "Kimsuky",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-20",
+    "gold": "Kimsuky",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-21",
+    "gold": "APT36",
+    "rank": null,
+    "strict_rank": null,
+    "pool_covered": false
+  },
+  {
+    "id": "taa-22",
+    "gold": "APT35",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-23",
+    "gold": "MuddyWater",
+    "rank": 3,
+    "strict_rank": 3,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-24",
+    "gold": "MuddyWater",
+    "rank": 12,
+    "strict_rank": 12,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-25",
+    "gold": "CharmingCypress",
+    "rank": 1,
+    "strict_rank": null,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-26",
+    "gold": "Mint Sandstorm",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-27",
+    "gold": "APT31",
+    "rank": null,
+    "strict_rank": null,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-28",
+    "gold": "Gamaredon",
+    "rank": 5,
+    "strict_rank": 5,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-29",
+    "gold": "Gamaredon",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-30",
+    "gold": "Sharp Panda",
+    "rank": null,
+    "strict_rank": null,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-31",
+    "gold": "Bitter APT",
+    "rank": 13,
+    "strict_rank": null,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-32",
+    "gold": "Confucius",
+    "rank": null,
+    "strict_rank": null,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-33",
+    "gold": "Dragonfly",
+    "rank": 12,
+    "strict_rank": 12,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-34",
+    "gold": "Andariel",
+    "rank": 11,
+    "strict_rank": null,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-35",
+    "gold": "COLDRIVER",
+    "rank": 7,
+    "strict_rank": 7,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-36",
+    "gold": "Bahamut",
+    "rank": null,
+    "strict_rank": null,
+    "pool_covered": false
+  },
+  {
+    "id": "taa-37",
+    "gold": "APT37",
+    "rank": 2,
+    "strict_rank": 2,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-38",
+    "gold": "APT33",
+    "rank": 6,
+    "strict_rank": 6,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-39",
+    "gold": "APT29",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-40",
+    "gold": "APT29",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-41",
+    "gold": "APT29",
+    "rank": 2,
+    "strict_rank": 3,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-42",
+    "gold": "Diamond Sleet",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-43",
+    "gold": "Lazarus",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-44",
+    "gold": "Lazarus",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-45",
+    "gold": "Lazarus",
+    "rank": 2,
+    "strict_rank": 3,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-46",
+    "gold": "Lazarus",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-47",
+    "gold": "OilRig",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-48",
+    "gold": "MuddyWater",
+    "rank": 15,
+    "strict_rank": 15,
+    "pool_covered": true
+  },
+  {
+    "id": "taa-49",
+    "gold": "Turla",
+    "rank": 1,
+    "strict_rank": 1,
+    "pool_covered": true
+  }
+]

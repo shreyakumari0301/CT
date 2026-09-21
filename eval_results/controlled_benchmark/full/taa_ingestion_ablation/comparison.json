@@ -1,0 +1,248 @@
+{
+  "frozen_pool_coverage": 0.84,
+  "variants": {
+    "profile_lists": {
+      "changes_vs_control": {
+        "top3": {
+          "gains": [],
+          "losses": []
+        },
+        "top10": {
+          "gains": [],
+          "losses": []
+        },
+        "top20": {
+          "gains": [],
+          "losses": []
+        }
+      },
+      "expanded_pool_coverage": 0.9,
+      "new_covered_items": [
+        "taa-16",
+        "taa-24",
+        "taa-31"
+      ],
+      "mean_expanded_pool": 34.5
+    },
+    "procedures_fixed": {
+      "changes_vs_control": {
+        "top3": {
+          "gains": [
+            "taa-0",
+            "taa-18",
+            "taa-24",
+            "taa-25",
+            "taa-31",
+            "taa-34",
+            "taa-35",
+            "taa-41",
+            "taa-42",
+            "taa-46",
+            "taa-8"
+          ],
+          "losses": [
+            "taa-15",
+            "taa-16",
+            "taa-28"
+          ]
+        },
+        "top10": {
+          "gains": [
+            "taa-0",
+            "taa-12",
+            "taa-34",
+            "taa-46",
+            "taa-8"
+          ],
+          "losses": [
+            "taa-38"
+          ]
+        },
+        "top20": {
+          "gains": [
+            "taa-0",
+            "taa-10",
+            "taa-17",
+            "taa-46"
+          ],
+          "losses": [
+            "taa-38",
+            "taa-48"
+          ]
+        }
+      },
+      "expanded_pool_coverage": 0.92,
+      "new_covered_items": [
+        "taa-10",
+        "taa-16",
+        "taa-24",
+        "taa-31"
+      ],
+      "mean_expanded_pool": 37.06
+    },
+    "procedures_sentences": {
+      "changes_vs_control": {
+        "top3": {
+          "gains": [
+            "taa-18",
+            "taa-23",
+            "taa-24",
+            "taa-25",
+            "taa-31",
+            "taa-34",
+            "taa-35",
+            "taa-42",
+            "taa-46",
+            "taa-8"
+          ],
+          "losses": [
+            "taa-16",
+            "taa-28"
+          ]
+        },
+        "top10": {
+          "gains": [
+            "taa-0",
+            "taa-12",
+            "taa-34",
+            "taa-46",
+            "taa-8"
+          ],
+          "losses": [
+            "taa-14",
+            "taa-2",
+            "taa-38"
+          ]
+        },
+        "top20": {
+          "gains": [
+            "taa-0",
+            "taa-46"
+          ],
+          "losses": [
+            "taa-38",
+            "taa-48"
+          ]
+        }
+      },
+      "expanded_pool_coverage": 0.9,
+      "new_covered_items": [
+        "taa-16",
+        "taa-24",
+        "taa-31"
+      ],
+      "mean_expanded_pool": 36.9
+    },
+    "source_enriched_sentences": {
+      "changes_vs_control": {
+        "top3": {
+          "gains": [
+            "taa-11",
+            "taa-12",
+            "taa-18",
+            "taa-23",
+            "taa-24",
+            "taa-25",
+            "taa-31",
+            "taa-34",
+            "taa-35",
+            "taa-42",
+            "taa-46",
+            "taa-8"
+          ],
+          "losses": [
+            "taa-28",
+            "taa-37",
+            "taa-44"
+          ]
+        },
+        "top10": {
+          "gains": [
+            "taa-0",
+            "taa-12",
+            "taa-17",
+            "taa-34",
+            "taa-46",
+            "taa-8"
+          ],
+          "losses": [
+            "taa-38"
+          ]
+        },
+        "top20": {
+          "gains": [
+            "taa-0",
+            "taa-17",
+            "taa-46"
+          ],
+          "losses": [
+            "taa-38",
+            "taa-48"
+          ]
+        }
+      },
+      "expanded_pool_coverage": 0.9,
+      "new_covered_items": [
+        "taa-16",
+        "taa-24",
+        "taa-31"
+      ],
+      "mean_expanded_pool": 37.7
+    },
+    "normalized_enriched_sentences": {
+      "changes_vs_control": {
+        "top3": {
+          "gains": [
+            "taa-11",
+            "taa-12",
+            "taa-18",
+            "taa-24",
+            "taa-25",
+            "taa-31",
+            "taa-34",
+            "taa-35",
+            "taa-42",
+            "taa-46",
+            "taa-8"
+          ],
+          "losses": [
+            "taa-28",
+            "taa-37",
+            "taa-44"
+          ]
+        },
+        "top10": {
+          "gains": [
+            "taa-0",
+            "taa-12",
+            "taa-17",
+            "taa-34",
+            "taa-46",
+            "taa-8"
+          ],
+          "losses": [
+            "taa-38"
+          ]
+        },
+        "top20": {
+          "gains": [
+            "taa-0",
+            "taa-17",
+            "taa-46"
+          ],
+          "losses": [
+            "taa-38",
+            "taa-48"
+          ]
+        }
+      },
+      "expanded_pool_coverage": 0.9,
+      "new_covered_items": [
+        "taa-16",
+        "taa-24",
+        "taa-31"
+      ],
+      "mean_expanded_pool": 37.62
+    }
+  }
+}

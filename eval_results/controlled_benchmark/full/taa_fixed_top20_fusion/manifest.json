@@ -1,0 +1,41 @@
+{
+  "n": 50,
+  "budget": 20,
+  "rrf_constant": 60,
+  "branch_weights": "all 1",
+  "branch_cutoffs": {
+    "cta": 10,
+    "bm25": 20,
+    "procedure": 20,
+    "enriched": 20
+  },
+  "methods": {
+    "existing_order_top20": [
+      "cta",
+      "bm25"
+    ],
+    "existing_rrf_top20": [
+      "cta",
+      "bm25"
+    ],
+    "procedure_rrf_top20": [
+      "cta",
+      "bm25",
+      "procedure"
+    ],
+    "enriched_rrf_top20": [
+      "cta",
+      "bm25",
+      "enriched"
+    ]
+  },
+  "generation_calls": 0,
+  "training_or_parameter_search": false,
+  "hashes": {
+    "cta": "2ceea4af20d08f26e5577f6ccb121b7dfdda7b67d2aec94ab6e0b80be638a363",
+    "bm25": "7fa3a2d94c4e844f5aeae10c03379be8b4315e26606b3df24f7b83a3ae77adf2",
+    "procedure": "d9ee7ce65e595fea42b9a1c9198b8470e04aa759d988372a93c17d4862bd302b",
+    "enriched": "bf1797f6eb7891d0b3e3fcc9816dfdbe6d37ce377ff15b1a4805b1afa1311aab"
+  },
+  "code_sha256": "a37083d3559d58f366137744aa167d8b09b6d9bed06c69a37be3e8f70996d9f0"
+}
