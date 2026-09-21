@@ -59,6 +59,18 @@ acceptance criterion: R@3 is below the 68% Qwen3 4B baseline. This experiment
 is retained as a fully recorded negative result and should not replace the
 top-3 baseline.
 
+## Experiment 3 — leakage-aware reranker ensemble
+
+**Status: implementation starting.**
+
+| Item | Planned method |
+| --- | --- |
+| Hypothesis | Qwen3 4B, Jina v3.5, and the other saved Qwen variants may correctly rank different cases in the same frozen candidate pool. |
+| Inputs | Existing detailed scores from Qwen3 0.6B, 4B, 8B, and Jina v3.5; no new labels, candidates, or model inference. |
+| Fusions | Per-report score min-max normalization and rank-percentile normalization; four-model convex weight sweep. |
+| Anti-overfitting check | Five-fold out-of-fold selection: weights for each held-out fold are selected using only the other four folds. |
+| Acceptance criterion | Five-fold OOF R@3 exceeds 68%; exploratory full-set metrics are explicitly not treated as unbiased. |
+
 ## Reproducibility
 
 - All GPU runs use Slurm `cscc-gpu-p`, exactly one GPU, and exactly one CPU.
