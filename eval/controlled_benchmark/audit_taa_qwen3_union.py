@@ -1,5 +1,6 @@
 import csv
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -13,7 +14,12 @@ SHARED = json.loads((BASE / "passage_bm25_summary.json").read_text())["rows"]
 PROFILES = json.loads(
     (ROOT / "eval_results/controlled_benchmark/taa20_20260918/actor_retrieval_study_v2/actor_profiles.json").read_text()
 )
-OUT = ROOT / "eval_results/controlled_benchmark/full/taa_qwen3_union_audit"
+MODEL_NAME = os.environ.get("QWEN_RERANKER_MODEL", "Qwen/Qwen3-Reranker-0.6B")
+OUT = ROOT / os.environ.get(
+    "QWEN_RERANKER_OUTPUT",
+    "eval_results/controlled_benchmark/full/taa_qwen3_union_audit",
+)
+BATCH_SIZE = int(os.environ.get("QWEN_RERANKER_BATCH_SIZE", "32"))
 OUT.mkdir(parents=True, exist_ok=True)
 REPORTS = {
     f"taa-{i}": row["Text"]
@@ -30,7 +36,7 @@ def main():
 
     by_name = {profile["canonical_actor"]: profile for profile in PROFILES}
     model = CrossEncoder(
-        "Qwen/Qwen3-Reranker-0.6B",
+        MODEL_NAME,
         max_length=2048,
         device="cuda",
     )
@@ -78,7 +84,7 @@ def main():
         scores = model.predict(
             [(REPORTS[item_id], passage) for passage in passages],
             show_progress_bar=False,
-            batch_size=32,
+            batch_size=BATCH_SIZE,
         )
         ranked = sorted(
             ((float(score), name) for score, name in zip(scores, pool)),
@@ -117,7 +123,7 @@ def main():
     }
     metrics["MRR@10"] = sum(1 / rank if rank and rank <= 10 else 0 for rank in ranks) / len(ranks)
     summary = {
-        "model": "Qwen/Qwen3-Reranker-0.6B",
+        "model": MODEL_NAME,
         "metrics": metrics,
         "n": len(rows),
         "complete": len(rows) == 50,
