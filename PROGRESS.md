@@ -61,7 +61,7 @@ top-3 baseline.
 
 ## Experiment 3 — leakage-aware reranker ensemble
 
-**Status: implementation starting.**
+**Status: submitted as Slurm job `272108`.**
 
 | Item | Planned method |
 | --- | --- |
