@@ -98,7 +98,7 @@ and the result exceeds the predeclared top-3 criterion by two points. Results:
 
 ## Experiment 5 — multi-source ATT&CK ingestion, Qwen3-4B and Jina v3.5
 
-**Status: pending Slurm submission (MS-ATTACK-01).**
+**Status: submitted to Slurm as one-GPU/one-CPU job `273485` (MS-ATTACK-01).**
 
 | Item | Value |
 | --- | --- |
@@ -108,7 +108,7 @@ and the result exceeds the predeclared top-3 criterion by two points. Results:
 | Reranking | Qwen3-Reranker-4B and Jina Reranker v3.5 receive exactly the same pool, deterministic report-only evidence query, and compact source-evidence document. |
 | Excluded sources | CAPEC and Sigma: no local actor-linked inputs found, so neither is inferred or added. |
 | Resources | One A100 GPU, one CPU, one sequential Slurm job; Qwen is released before Jina loads. |
-| Expected artifacts | `eval_results/controlled_benchmark/full/taa_multisource_attack_qwen_jina_audit/{ingestion_manifest,checkpoint,summary}.json`; logs `logs/taa-ms-qwen-jina_<jobid>.{out,err}`. |
+| Artifacts | `eval_results/controlled_benchmark/full/taa_multisource_attack_qwen_jina_audit/{ingestion_manifest,checkpoint,summary}.json`; logs `logs/taa-ms-qwen-jina_273485.{out,err}`. |
 
 ## Reproducibility
 

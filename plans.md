@@ -2,7 +2,7 @@
 
 ## MS-ATTACK-01 — multi-source ATT&CK candidate retrieval
 
-**Status: selected and running.**
+**Status: selected; submitted as Slurm job `273485`.**
 
 Test whether natural, actor-linked MITRE ATT&CK group, campaign, and software
 passages improve the frozen CTA/shared-BM25 candidate pool and top-3 ranking.
