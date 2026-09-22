@@ -77,7 +77,7 @@ def actor_max(scores, passages: list[dict]) -> tuple[list[str], dict[str, float]
     return ranking, best, documents
 
 
-def evidence_query(report: str, passages: list[dict], max_characters: int = 6000) -> tuple[str, list[dict]]:
+def evidence_query(report: str, passages: list[dict], max_characters: int = 4400) -> tuple[str, list[dict]]:
     """Deterministically keep report sentences rich in source-corpus indicators."""
     from utils.taa_actor_retrieval import sentences
 
@@ -132,15 +132,15 @@ def actor_document(actor: str, passage_indices: list[int], combined_scores: list
     for index in selected:
         passage = passages[index]
         source = re.sub(r"\s+", " ", passage["text"])
-        # Preserve source title/evidence, fit all documents beneath the Qwen
-        # cross-encoder budget once paired with the 6k-character query.
-        source = source[:900]
+        # Preserve source title/evidence, fit all documents beneath Qwen's
+        # 2,048-token cross-encoder budget once paired with the compact query.
+        source = source[:650]
         chunks.append(source)
         evidence.append({
             "source_type": passage["source_type"], "source_name": passage["source_name"],
             "source_stix_id": passage["source_stix_id"], "combined_retrieval_score": combined_scores[index],
         })
-    return "\n\n".join(chunks)[:3700], evidence
+    return "\n\n".join(chunks)[:3000], evidence
 
 
 def metrics(rows: list[dict], ranking_key: str) -> dict[str, float]:
