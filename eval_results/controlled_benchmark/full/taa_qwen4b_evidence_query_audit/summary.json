@@ -1,0 +1,17 @@
+{
+  "method": "frozen CTA top-10 + shared BM25 top-20 -> Qwen3 4B with deterministic evidence-focused report query",
+  "query_token_budget": 1100,
+  "model": "Qwen/Qwen3-Reranker-4B",
+  "n": 50,
+  "complete": true,
+  "metrics": {
+    "Recall@1": 0.48,
+    "Recall@3": 0.7,
+    "Recall@5": 0.72,
+    "Recall@10": 0.76,
+    "Recall@20": 0.82,
+    "MRR@10": 0.5865
+  },
+  "mean_selected_sentences": 20.32,
+  "per_case_results": "checkpoint.json contains the selected report evidence, full candidate scores, and gold rank."
+}

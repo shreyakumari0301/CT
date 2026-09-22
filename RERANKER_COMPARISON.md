@@ -13,7 +13,8 @@ run stores its full per-case candidate ordering and model score in its
 | Reranker | Recall@1 | Recall@3 | Recall@5 | Recall@10 | Recall@20 | MRR@10 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Qwen3-Reranker-0.6B | 46% | 58% | 62% | 70% | 80% | 0.533 |
-| Qwen3-Reranker-4B | 48% | **68%** | 70% | 74% | 80% | 0.585 |
+| Qwen3-Reranker-4B (full report) | 48% | 68% | 70% | 74% | 80% | 0.585 |
+| Qwen3-Reranker-4B (evidence-focused query) | 48% | **70%** | 72% | 76% | 82% | 0.587 |
 | Qwen3 4B, CTA + BM25 top-40 | **50%** | 66% | 70% | 76% | **84%** | **0.591** |
 | Targeted multi-query BM25 + Qwen3 4B | **50%** | 66% | 68% | 72% | 80% | 0.586 |
 | Qwen3-Reranker-8B | 44% | 64% | 68% | 74% | 80% | 0.548 |
@@ -22,8 +23,9 @@ run stores its full per-case candidate ordering and model score in its
 
 ## Interpretation
 
-- **Qwen3 4B** is the best top-3 reranker (68% Recall@3), making it the
-  preferred model when the product shows exactly three candidates.
+- **Qwen3 4B with the evidence-focused query** is the best verified top-3
+  configuration (70% Recall@3), making it the current preferred pipeline when
+  the product shows exactly three candidates.
 - Expanding shared BM25 from top-20 to top-40 raises candidate-pool coverage
   from 82% to 90% and improves Qwen3 4B's R@10/R@20/MRR, but lowers R@3 from
   68% to 66%. Use this variant for deeper result lists, not the top-3 product.
@@ -56,6 +58,7 @@ run stores its full per-case candidate ordering and model score in its
 | --- | --- | --- |
 | Qwen3 0.6B | [summary](eval_results/controlled_benchmark/full/taa_qwen3_union_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_qwen3_union_audit/checkpoint.json) |
 | Qwen3 4B | [summary](eval_results/controlled_benchmark/full/taa_qwen3_4b_union_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_qwen3_4b_union_audit/checkpoint.json) |
+| Qwen3 4B, evidence-focused query | [summary](eval_results/controlled_benchmark/full/taa_qwen4b_evidence_query_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_qwen4b_evidence_query_audit/checkpoint.json) |
 | Qwen3 4B, CTA + BM25 top-40 | [summary](eval_results/controlled_benchmark/full/taa_qwen3_4b_bm25_40_union_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_qwen3_4b_bm25_40_union_audit/checkpoint.json) |
 | Targeted multi-query BM25 + Qwen3 4B | [summary](eval_results/controlled_benchmark/full/taa_targeted_bm25_union_qwen4b_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_targeted_bm25_union_qwen4b_audit/checkpoint.json) |
 | Qwen3 8B | [summary](eval_results/controlled_benchmark/full/taa_qwen3_8b_union_audit/summary.json) | [checkpoint](eval_results/controlled_benchmark/full/taa_qwen3_8b_union_audit/checkpoint.json) |

@@ -10,7 +10,8 @@ artifacts.
 | Experiment | Candidate source / reranker | R@3 | R@10 | MRR@10 | Outcome |
 | --- | --- | ---: | ---: | ---: | --- |
 | Qwen3 0.6B | Frozen CTA + shared BM25 union | 58% | 70% | 0.533 | Baseline neural reranker |
-| Qwen3 4B | Frozen CTA + shared BM25 union | **68%** | 74% | 0.585 | Best top-3 result |
+| Qwen3 4B | Frozen CTA + shared BM25 union | 68% | 74% | 0.585 | Previous full-report Qwen baseline |
+| Qwen3 4B, evidence-focused query | Frozen CTA + shared BM25 union | **70%** | 76% | 0.587 | Current verified top-3 result |
 | Qwen3 8B | Frozen CTA + shared BM25 union | 64% | 74% | 0.548 | Worse than 4B |
 | Jina v3.5 | Frozen CTA + shared BM25 union | 62% | **80%** | **0.589** | Best deeper ranking |
 | Contextual profile retrieval + Qwen3 4B | Contextual MiniLM + BM25 union | 42% | 64% | 0.335 | Rejected: no ranking improvement |
@@ -80,7 +81,7 @@ promoted to the system.
 
 ## Experiment 4 — evidence-focused Qwen query
 
-**Status: submitted as one-GPU/one-CPU Slurm job `272119`.**
+**Status: complete as one-GPU/one-CPU Slurm job `272119`.**
 
 | Item | Planned method |
 | --- | --- |
@@ -89,6 +90,25 @@ promoted to the system.
 | Candidate pool | The original frozen CTA top-10 plus shared BM25 top-20 union, unchanged from the 68% Qwen3 4B baseline. |
 | Anti-leakage rule | Uses only the report and frozen profiles; it never reads gold labels or other model rankings. |
 | Acceptance criterion | R@3 exceeds 68% with the same candidate-pool coverage as the baseline. |
+
+**Result:** R@1 48%, R@3 **70%**, R@5 72%, R@10 76%, R@20 82%, MRR@10
+0.5865; mean selected report sentences 20.32. The candidate pool is unchanged,
+and the result exceeds the predeclared top-3 criterion by two points. Results:
+`eval_results/controlled_benchmark/full/taa_qwen4b_evidence_query_audit/`.
+
+## Experiment 5 — multi-source ATT&CK ingestion, Qwen3-4B and Jina v3.5
+
+**Status: pending Slurm submission (MS-ATTACK-01).**
+
+| Item | Value |
+| --- | --- |
+| Question | Can source-linked ATT&CK group, campaign, and software passages improve the retained frozen candidate pool and top-3 ordering? |
+| Ingestion | Normalize STIX/ATT&CK group identifiers and aliases; materialize only group passages, attributed campaign passages, and direct/group-or-attributed-campaign software `uses` passages. |
+| Candidate pool | Frozen CTA top-10 + shared BM25 top-20 + multi-source MiniLM dense top-20 + multi-source BM25 top-20, deduplicated. The actual baseline candidate coverage is measured in the result; it is not assumed from Recall@20. |
+| Reranking | Qwen3-Reranker-4B and Jina Reranker v3.5 receive exactly the same pool, deterministic report-only evidence query, and compact source-evidence document. |
+| Excluded sources | CAPEC and Sigma: no local actor-linked inputs found, so neither is inferred or added. |
+| Resources | One A100 GPU, one CPU, one sequential Slurm job; Qwen is released before Jina loads. |
+| Expected artifacts | `eval_results/controlled_benchmark/full/taa_multisource_attack_qwen_jina_audit/{ingestion_manifest,checkpoint,summary}.json`; logs `logs/taa-ms-qwen-jina_<jobid>.{out,err}`. |
 
 ## Reproducibility
 
