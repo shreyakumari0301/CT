@@ -26,4 +26,17 @@ as an independently tuned external-test result.
   64% rank-normalized and 60% score-normalized five-fold OOF Recall@3; it is
   not promoted.
 
+## MS-ATTACK-01 — multi-source ATT&CK union
+
+**Decision: retain as a retrieval lead, reject as the end-to-end replacement.**
+Slurm job `273485` expanded candidate-pool coverage from 41/50 (82%) to 46/50
+(92%), but changed both the candidate pool and the reranker document. With the
+compact source-evidence document, Qwen3-4B fell to 58% Recall@3 and Jina v3.5
+to 54%, below their established frozen-pool results. This result does not show
+that extra ATT&CK candidates are harmful; it confounds their effect with the
+new document representation. MS-ATTACK-02 isolates that remaining question.
+
+Evidence: `eval_results/controlled_benchmark/full/taa_multisource_attack_qwen_jina_audit/summary.json`,
+its full `checkpoint.json`, and `logs/taa-ms-qwen-jina_273485.{out,err}`.
+
 The detailed completed-model comparison remains in `RERANKER_COMPARISON.md`.

@@ -98,7 +98,7 @@ and the result exceeds the predeclared top-3 criterion by two points. Results:
 
 ## Experiment 5 — multi-source ATT&CK ingestion, Qwen3-4B and Jina v3.5
 
-**Status: submitted to Slurm as one-GPU/one-CPU job `273485` (MS-ATTACK-01).**
+**Status: complete; Slurm job `273485` (MS-ATTACK-01).**
 
 | Item | Value |
 | --- | --- |
@@ -109,6 +109,25 @@ and the result exceeds the predeclared top-3 criterion by two points. Results:
 | Excluded sources | CAPEC and Sigma: no local actor-linked inputs found, so neither is inferred or added. |
 | Resources | One A100 GPU, one CPU, one sequential Slurm job; Qwen is released before Jina loads. |
 | Artifacts | `eval_results/controlled_benchmark/full/taa_multisource_attack_qwen_jina_audit/{ingestion_manifest,checkpoint,summary}.json`; logs `logs/taa-ms-qwen-jina_273485.{out,err}`. |
+
+**Result:** the multi-source union increased gold-blind candidate-pool coverage
+from 41/50 (82%) to 46/50 (92%) and increased its mean size from 26.52 to
+46.72. It did not improve the end-to-end ranking: Qwen3-4B reached R@3 58%
+(R@1 44%, R@10 72%, MRR@10 0.532) and Jina v3.5 reached R@3 54% (R@1 34%,
+R@10 72%, MRR@10 0.448). The compact multi-source evidence document is
+therefore not a replacement for the established Qwen evidence-focused view.
+
+## Experiment 6 — multi-source candidates + established Qwen evidence view
+
+**Status: submitted as one-GPU/one-CPU Slurm job `273648` (MS-ATTACK-02).**
+
+| Item | Value |
+| --- | --- |
+| Plan | MS-ATTACK-02 |
+| Question | Does the 92%-coverage multi-source candidate pool improve Qwen R@3 when the proven evidence-focused query and full actor-profile documents are unchanged? |
+| Controlled change | Candidate pool only; the Qwen model, 1,100-token evidence-query selector, profile documents, 50-report split, and alias scoring protocol remain the established configuration. |
+| Output | `eval_results/controlled_benchmark/full/taa_multisource_evidence_profiles_qwen4b_audit/` |
+| Runtime logs | `logs/taa-ms-evidence-q4b_273648.{out,err}` |
 
 ## Reproducibility
 
