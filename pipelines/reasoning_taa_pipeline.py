@@ -46,7 +46,8 @@ class ReasoningTAAPipeline:
     # -------------------------------------------------------
     # Helper: call OpenAI
     # -------------------------------------------------------
-    def _call_openai(self, prompt: str, model="gpt-4-turbo") -> str:
+    def _call_openai(self, prompt: str, model=None) -> str:
+        model = model or os.getenv("GENERATION_MODEL", "gpt-4-turbo")
         response = self.client.chat.completions.create(
             model=model,
             messages=[{"role": "user", "content": prompt}],
