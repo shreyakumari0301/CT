@@ -17,11 +17,11 @@ PROFILES = json.loads(
 MODEL_NAME = os.environ.get("QWEN_RERANKER_MODEL", "Qwen/Qwen3-Reranker-0.6B")
 OUT = ROOT / os.environ.get(
     "QWEN_RERANKER_OUTPUT",
-    "eval_results/controlled_benchmark/full/taa_qwen3_union_audit",
+    "eval_results/controlled_benchmark/full/taa_qwen3_normalized_cta15_bm2525_union_audit",
 )
 BATCH_SIZE = int(os.environ.get("QWEN_RERANKER_BATCH_SIZE", "32"))
-CTA_TOP_K = int(os.environ.get("QWEN_CTA_TOP_K", "20"))
-BM25_TOP_K = int(os.environ.get("QWEN_BM25_TOP_K", "20"))
+CTA_TOP_K = int(os.environ.get("QWEN_CTA_TOP_K", "15"))
+BM25_TOP_K = int(os.environ.get("QWEN_BM25_TOP_K", "25"))
 OUT.mkdir(parents=True, exist_ok=True)
 REPORTS = {
     f"taa-{i}": row["Text"]
