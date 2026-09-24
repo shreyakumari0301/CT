@@ -39,9 +39,9 @@ def parse_actor(text: str) -> str | None:
     return None
 
 
-def selection_prompt(report: str, normalized_ranking: list[dict], profiles_by_name: dict[str, dict]) -> str:
+def selection_prompt(report: str, normalized_ranking: list[dict], profiles_by_name: dict[str, dict], candidate_k: int) -> str:
     candidates = []
-    for rank, entry in enumerate(normalized_ranking[:20], 1):
+    for rank, entry in enumerate(normalized_ranking[:candidate_k], 1):
         profile = profiles_by_name[entry["actor"]]
         candidates.append(
             f"Candidate {rank}: {entry['actor']}\n"
@@ -74,6 +74,7 @@ def main() -> None:
     parser.add_argument("--n", type=int, default=50)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--no-resume", action="store_true")
+    parser.add_argument("--candidate-k", type=int, default=20)
     args = parser.parse_args()
     load_dotenv(ROOT / ".env", override=False)
     if not os.getenv("OPENAI_API_KEY"):
@@ -101,11 +102,11 @@ def main() -> None:
         bm25_candidates = bm25_row["bm25"][:25]
         pool = list(dict.fromkeys(cta_candidates + bm25_candidates))
         normalized = normalized_actor_ranking(report, pool, cta_candidates, bm25_candidates, PROFILES)
-        frozen_pool = [entry["actor"] for entry in normalized[:20]]
+        frozen_pool = [entry["actor"] for entry in normalized[: args.candidate_k]]
         try:
             response = client.chat.completions.create(
                 model=model,
-                messages=[{"role": "user", "content": selection_prompt(report, normalized, profiles_by_name)}],
+                messages=[{"role": "user", "content": selection_prompt(report, normalized, profiles_by_name, args.candidate_k)}],
                 temperature=0,
                 max_tokens=900,
             )
@@ -139,6 +140,7 @@ def main() -> None:
     summary = {
         "method": "CTA15 + BM2525 normalized seven-channel ranking + OpenAI selection",
         "model": model,
+        "candidate_k": args.candidate_k,
         "n_requested": len(labels),
         "n_completed": len(rows),
         "n_parsed": len(complete),
