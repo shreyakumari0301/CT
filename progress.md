@@ -19,6 +19,25 @@ artifacts.
 The detailed comparison and links to all completed artifacts are in
 [`RERANKER_COMPARISON.md`](RERANKER_COMPARISON.md).
 
+## Experiment 6 — normalized CTA/BM25 retrieval baseline before Qwen3
+
+**Status: complete (offline, no model calls).**
+
+| Item | Value |
+| --- | --- |
+| Candidate pool | Frozen CTA/IDF top-15 + natural-passage BM25 top-25, deduplicated |
+| Pre-rerank ranking | Canonicalized actor matching, IDF-like rarity, per-channel min-max normalization, equal fusion |
+| Manual field weights | None in the normalized variant |
+| R@1 / R@3 | 24/50 (48%) / 32/50 (64%) |
+| R@5 / R@10 | 32/50 (64%) / 36/50 (72%) |
+| R@20 / MRR@10 | 41/50 (82%) / 0.5601 |
+| Artifact | `eval_results/controlled_benchmark/full/taa_frozen_cta_bm25_normalized_cta15_bm2525/summary.json` |
+
+The Qwen3 union audit now defaults to this same CTA-15/BM25-25 candidate
+pool and writes to `taa_qwen3_normalized_cta15_bm2525_union_audit/`. This keeps
+the pre-rerank baseline and the Qwen3 reranker comparison on the same pool;
+Qwen3 changes ordering only and does not generate new candidates.
+
 ## Experiment 1 — expanded BM25 candidate pool
 
 **Status: complete (Slurm job `272076`).**
