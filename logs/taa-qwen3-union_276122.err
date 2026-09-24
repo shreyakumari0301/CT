@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:   9%|▊         | 27/310 [00:00<00:01, 266.34it/s]Loading weights:  24%|██▎       | 73/310 [00:00<00:00, 324.33it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1128.67it/s]
+Default prompt name is set to 'query'. This prompt will be applied to all inference calls, except if a `prompt` or `prompt_name` parameter is provided.
+Traceback (most recent call last):
+  File "/home/ashish.mehta/ss/CT/eval/controlled_benchmark/audit_taa_qwen3_union.py", line 266, in <module>
+    main()
+  File "/home/ashish.mehta/ss/CT/eval/controlled_benchmark/audit_taa_qwen3_union.py", line 262, in main
+    print(json.dumps(metrics, indent=2))
+                     ^^^^^^^
+NameError: name 'metrics' is not defined
