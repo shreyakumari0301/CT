@@ -34,3 +34,40 @@ The comparison is valid only when the Qwen3 run is complete for all 50 items.
 The retrieval baseline measures candidate ordering before Qwen3; the Qwen3
 metrics measure ordering after the cross-encoder. No LLM final attribution
 calls are included.
+
+## Verified Evidence-Focused Qwen4B Audit
+
+The verified evidence-focused Qwen4B run is a separate experiment from the
+normalized CTA-15/BM25-25 baseline above. It uses frozen CTA top-10 plus shared
+BM25 top-20, deduplicated by actor name, and reranks the complete candidate
+pool with `Qwen/Qwen3-Reranker-4B`.
+
+The query is built deterministically from high-specificity report sentences
+under a fixed 1,100-token budget. Evidence signals select the report excerpts
+provided to the reranker; they do not create a normalized pre-rerank actor
+score or equal-weight channel fusion.
+
+| Metric | Result |
+| --- | ---: |
+| Cases | 50/50 |
+| Recall@1 | 24/50 (48%) |
+| Recall@3 | 35/50 (70%) |
+| Recall@5 | 36/50 (72%) |
+| Recall@10 | 38/50 (76%) |
+| Recall@20 | 41/50 (82%) |
+| MRR@10 | 0.5865 |
+
+Source files and artifact:
+
+```text
+eval/controlled_benchmark/audit_taa_qwen4b_evidence_query.py
+scripts/run_taa_qwen4b_evidence_query.sbatch
+eval_results/controlled_benchmark/full/taa_qwen4b_evidence_query_audit/summary.json
+```
+
+The reported Recall and MRR use the benchmark's alias-aware actor matching
+policy (`benchmark_alias_match`), not literal string equality. For example,
+an accepted actor alias is counted as the same actor as the gold label. These
+metrics are ranked reranking metrics over the candidate pool; they are not
+single-label generation accuracy and are not normalized CTA/BM25 retrieval
+metrics.
