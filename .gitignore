@@ -47,6 +47,53 @@ tcar/eval/_*.sh
 
 # Large local data / backups (do not push)
 CTICONNECT data/
-vector_dbs/**/*_backup*/
-vector_dbs/**/*leaky*
+data/
+vector_dbs/
+logs/
 *.pdf
+*.xlsx
+*.pickle
+
+# Local ablation / oracle scripts (kept on disk, not the paper snapshot)
+eval/controlled_benchmark/audit_*.py
+eval/controlled_benchmark/analyze_*.py
+eval/controlled_benchmark/ATA_ORACLE_EXPERIMENTS.md
+eval/controlled_benchmark/ata_constrained_llm.py
+eval/controlled_benchmark/ata_discriminative.py
+eval/controlled_benchmark/generate_taa_cta_hypotheses.py
+eval/controlled_benchmark/replay_entity_ata_recall.py
+eval/controlled_benchmark/run_ata_cta_constrained.py
+eval/controlled_benchmark/run_ata_cta_discriminative.py
+eval/controlled_benchmark/run_ata_discriminative_eval.py
+eval/controlled_benchmark/run_ata_oracle_llm_eval.py
+eval/controlled_benchmark/run_ata_recall_by_system.py
+eval/controlled_benchmark/run_cta_ata_retrieval_experiments.py
+eval/controlled_benchmark/select_arch_top3_llm.py
+eval/controlled_benchmark/select_taa_cta_top10_verified_top3.py
+eval/controlled_benchmark/unified_retriever_for_audit.py
+eval/plot_taa_normalized_e2e.py
+eval/run_taa_e2e_openai.py
+eval/run_taa_normalized_e2e_openai.py
+utils/multisource_attack_ingestion.py
+
+scripts/
+ATA_RESULTS.md
+TAA_*.md
+TAA_top3_llm_selection.xlsx
+RERANKER_COMPARISON.md
+plans.md
+progress.md
+conclusions.md
+app.py
+enhanced_app.py
+enhanced_app_v2.py
+pipelines/test.py
+paper_results/cta_taa_evaluation_architecture.tex
+paper_results/retrieval_vs_llm_tables.tex
+paper_results/statistical_appendix.tex
+paper_results/*.aux
+paper_results/*.log
+paper_results/*.spl
+paper_results/*.out
+paper_results/*.bbl
+paper_results/*.blg
