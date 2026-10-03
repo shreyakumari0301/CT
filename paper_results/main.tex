@@ -2,17 +2,18 @@
 % Elsevier elsarticle template
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[preprint,12pt]{elsarticle}
+\documentclass[5p,times,authoryear]{elsarticle}
 
 % -------------------------------------------------
 % Packages
 % -------------------------------------------------
 \usepackage{graphicx}
 \usepackage{multirow}
-\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{amsmath,amssymb,amsfonts} 
 \usepackage{amsthm}
 \usepackage{mathrsfs}
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
+\definecolor{ctagood}{RGB}{226,242,230}
 \usepackage{textcomp}
 \usepackage{manyfoot}
 \usepackage{booktabs}
@@ -25,12 +26,20 @@
 \usepackage{enumitem}
 \usepackage{tikz}
 \usepackage{pgfplots}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
 
 \usetikzlibrary{arrows.meta,positioning,fit,backgrounds,calc}
 \pgfplotsset{compat=1.18}
 \usepgfplotslibrary{groupplots}
+\usepackage{hyperref}
 
 \raggedbottom
+\setlength{\floatsep}{14pt plus 4pt minus 2pt}
+\setlength{\textfloatsep}{16pt plus 4pt minus 3pt}
+\setlength{\intextsep}{14pt plus 4pt minus 3pt}
+\setlength{\abovecaptionskip}{10pt}
+\setlength{\belowcaptionskip}{8pt}
 
 % -------------------------------------------------
 % Journal
@@ -76,7 +85,15 @@
 % -------------------------------------------------
 
 \begin{abstract}
-Manual analysis of cyber threat intelligence (CTI) must map one analyst request onto heterogeneous artefacts: a multiple-choice letter, a weakness identifier, a severity vector, a set of ATT\&CK techniques, or a named threat actor. Recent large language models have made that mapping easier to attempt in a single interface. Retrieval-augmented generation (RAG) then grounds the model in current NVD, CWE, and ATT\&CK evidence. Existing RAG stacks still share one retriever, prompt, and parser across those contracts, so retrieval that helps one task can distract another. This paper introduces Cognitive-Task-Aware RAG (CTA-RAG): four cognitive modes---memorization, understanding, problem-solving, and reasoning---implemented as six specialists for CTI-MCQ, CTI-RCM, CTI-VSP, CTI-ATE, CTI-TAA, and CTIConnect ATA. We evaluate CTA-RAG on five CTIBench tasks (MCQ, RCM, VSP, ATE, TAA) against Closed Book, Unified RAG, Self-RAG, Graph RAG, Adaptive-RAG, and TAdaRAG, and we use CTIConnect for external RCM validation and for ATA. For instance, we discuss why CTI outputs are typed, how each cognitive pipeline retrieves and parses, and where a shared RAG stack fails. Additionally, we report retrieval ablations for TAA and ATA and a split between schema failure and fluent identifier error. Finally, we set out where specialization helps and where it does not, as a guide for task-aware CTI assistants.
+Large Language Models (LLMs) offer substantial potential for advancing Cyber Threat Intelligence (CTI) analysis but face persistent challenges, including knowledge staleness, factual hallucinations, and limited reasoning when confined to parametric memory. Retrieval-Augmented Generation (RAG) partially mitigates these issues by grounding models in external knowledge; however, most existing RAG systems apply uniform architectures across heterogeneous CTI tasks, overlooking their distinct cognitive requirements. We present Cognitive-Task-Aware RAG (CTA-RAG), a principled framework that explicitly aligns retrieval and generation mechanisms with four fundamental cognitive task categories—memorization, comprehension, problem-solving, and reasoning. CTA-RAG implements dedicated pipelines for each CTI task: (i) semantic retrieval for factual recall, (ii) evidence-based retrieval for weakness identification, (iii) rule-guided generation for severity prediction, and (iv) fused retrieval for ATT\&CK technique extraction and threat actor attribution. An upstream task-aware router selects the appropriate pipeline before retrieval, ensuring that each query follows its task-specific retrieval and output requirements.
+
+EEvaluated on CTIBench and CTIConnect, CTA-RAG improves root-cause mapping accuracy from 68.90\% to 73.40\%, reduces severity prediction MAE from 1.3302 to 1.0990, and increases technique-extraction F1 from 0.4149 to 0.9554. For multiple-choice answering, Adaptive-RAG achieves 75.48\%, marginally exceeding CTA-RAG at 74.84\%. CTA-RAG correctly identifies the threat actor in 27 of 50 reports. On CTIConnect weakness mapping, it answers 149 of 290 items correctly, compared with 126 for the strongest Closed Book baseline, representing a gain of 7.93 percentage points. These results demonstrate the value of task-specific retrieval and generation strategies for structured CTI analysis, while highlighting that performance varies across task categories.
+
+
+
+%We propose Cognitive-Task-Aware RAG (CTA-RAG), which treats the requested artefact as the first decision of the pipeline. A two-stage cascade router reads the request, assigns a cognitive mode (memorisation, understanding, problem-solving, or reasoning), and selects one of six specialists before any document is fetched. Each specialist binds three components to one governed vocabulary: an index built from the matching source, a prompt that asks for that vocabulary, and a typed parser that rejects any string outside that vocabulary. The weakness specialist searches weakness evidence, the severity specialist reads sanitised historical vulnerability descriptions, and the attribution specialists fuse several rankings with published rules whose weights stay fixed before evaluation. The typed parser also separates a rejected string from a legal identifier that names the wrong object, so CTA-RAG measures hallucination directly. Every system in this evaluation uses GPT-4-turbo on the same items, so a score gap reflects the pipeline.
+
+%The main findings are as follows. On CTIBench, CTA-RAG reaches 73.40\% exact CWE match, 4.70 points above a shared RAG pipeline, and lowers severity mean absolute deviation from 1.2638 to 1.0990. Holm-corrected tests support both gains. Technique-extraction F1 rises from 0.4149 with no retrieval to 0.9554. On multiple-choice questions an adaptive-depth pipeline leads at 75.48\%, and CTA-RAG scores 74.84\%. On threat-actor attribution (TAA), CTA-RAG names the correct actor on 27 of 50 reports. The router selects the specialist named by the instruction on 4,550 of 4,560 items. On an external CTIConnect weakness-mapping set, CTA-RAG is correct on 149 of 290 items, and the strongest no-retrieval baseline is correct on 126.
 \end{abstract}
 
 % -------------------------------------------------
@@ -101,83 +118,143 @@ Cyber threat intelligence
 
 \section{Introduction}
 \label{sec:intro}
+The increasing sophistication and frequency of cyber threats have made manual Cyber Threat Intelligence (CTI) analysis increasingly inadequate for modern security
+operations. Analysts in a Security Operations Center (SOC) now process vast and heterogeneous information and decide which adversary tactic matches a described behavior, assign the primary weakness class of a newly disclosed vulnerability, derive a severity vector for patch priority, list the techniques in an incident report, and name a likely threat actor \citeyearpar{tounsi2018survey, siracusano2023action}. 
 
-% Your existing Introduction starts here.
-Consider a typical hour in a security operations centre. An analyst may need to determine which ATT\&CK tactic corresponds to a described adversary behaviour, assign the primary Common Weakness Enumeration (CWE) identifier to a newly disclosed vulnerability, derive its CVSS severity vector for patch prioritisation, extract all relevant ATT\&CK techniques from an incident report, and attribute an intrusion to a likely threat actor. Although these requests arrive through the same analyst workflow, they are fundamentally different computational tasks: factual recall, taxonomic mapping, rule-based scoring, structured extraction, and evidence-driven attribution. Growing scale and complexity of cyber operations make automating such workflows increasingly important. Cyber threat intelligence (CTI) is therefore becoming not only more important but increasingly dependent on systems capable of transforming large volumes of heterogeneous security information into reliable, machine-consumable intelligence.
+%The five requests arrive together. Each request is a different computational task: factual recall, taxonomic mapping, rule-based scoring, structured extraction, or evidence-driven attribution. The growing volume of reports and disclosures makes automating that workflow part of routine defence \citep{siracusano2023action}.
+
+%McMillan et al.\ define cyber threat intelligence (CTI) as evidence-based knowledge of an adversary, of the adversary's motives, and of the adversary's methods, so that a defender can decide and act \citeyearpar{mcmillan2013definition}. The five requests in the previous paragraph are CTI tasks. Each request reads reports, vulnerability records, and adversary catalogues, and each request must return a string that a ticketing or detection system can store. Tounsi et al.\ show that this material calls for systems that produce machine-consumable intelligence \citeyearpar{tounsi2018survey}, and Schlette et al.\ measure the quality of the intelligence a CTI system stores \citep{schlette2021measuring}.
 
 
-Large language models (LLMs) are natural candidates for this role. They can interpret technical security narratives, identify attack patterns, extract structured information, and synthesize evidence across lengthy reports. Recent surveys identify generative AI as a rapidly expanding area of cybersecurity research \citep{ferrag2024generative,xu2024llm4sec}, while operational systems have demonstrated the extraction of structured STIX objects from unstructured threat reports \citep{siracusano2023action}, mapping of narrative descriptions to ATT\&CK tactics \citep{fayyazi2023uses}, and automated coding of CTI variables from cybercrime-forum content \citep{clairoux2024llm}. CTIBench \citep{alam2024ctibench} further consolidated these capabilities into a multi-task benchmark, demonstrating that general-purpose LLMs such as GPT-4 can address diverse CTI tasks without task-specific training. However, the ability to generate an answer does not imply that the answer is sufficiently reliable for operational use. Three limitations are particularly consequential in CTI. First, \emph{parametric knowledge becomes stale}: model knowledge is bounded by training data, whereas resources such as the National Vulnerability Database, CWE, and MITRE ATT\&CK continuously introduce and revise vulnerabilities, weaknesses, techniques, and relationships \citep{nvd2024,mitre2024cwe,mitre2024attack}. Second, \emph{structured security identifiers are vulnerable to hallucination}: an LLM can produce a syntactically valid \texttt{CWE-787}, CVSS vector, or \texttt{T1055} while assigning it to the wrong vulnerability or behaviour \citep{ferrag2024generative,alam2024ctibench}. Such errors are particularly problematic because authoritative-looking identifiers can propagate directly into ticketing, prioritisation, detection, and reporting workflows. Third, \emph{analytical inference remains brittle}: tasks such as distinguishing process injection from broader defence-evasion behaviour or attributing an intrusion from multiple weak signals require evidence composition rather than surface-level semantic matching. These limitations motivate grounding LLM-based CTI systems in external, current, and task-relevant evidence—but, as we show, grounding alone is not sufficient.
+Large Language Models (LLMs) have emerged as powerful tools for automating CTI workflows, demonstrating a notable proficiency in parsing technical documentation, extracting attack patterns, and synthesizing actionable intelligence \citep{ferrag2024generative,xu2024llm4sec, siracusano2023action}. However, their deployment in operational contexts remains limited by three persistent challenges: (\textit{i}) \textbf{knowledge staleness}, stemming from reliance on static parametric memory. The National Vulnerability Database (NVD), the Common Weakness Enumeration (CWE), and MITRE ATT\&CK continue to add and revise entries after training \citep{nvd2024,mitre2024cwe,mitre2024attack};(\textit{ii}) \textbf{factual hallucinations}, which lead to misleading or unsupported conclusions. For example, the model can emit a legal identifier, such as \texttt{CWE-787} or \texttt{T1055}, that names the wrong weakness or behaviour \citep{ferrag2024generative,alam2024ctibench,ji2023survey}; and (\textit{iii}) \textbf{restricted reasoning capacity}, which constrains multi-step analytical inference~\cite{alam2024ctibench}.
 
 
-Retrieval-augmented generation (RAG) grounds generation in documents fetched at inference time \citep{lewis2020rag,karpukhin2020dense,izacard2021fid} and has been applied to CTI knowledge integration, ATT\&CK interpretation, and emerging-vulnerability coverage \citep{mitra2024localintel,fayyazi2024ttp,borah2025adapting}. A shared retrieve--generate stack may be suboptimal for CTI tasks that differ in evidence source and output contract: a letter, a CWE identifier, a complete CVSS vector, or a set of ATT\&CK IDs. Retrieval is also not uniformly helpful. Semantic neighbours from the CWE catalogue can be a child or sibling of the NVD primary class and still be scored wrong under exact match \citep{nvd2024,mitre2024cwe,shi2023distracted}. Adaptive RAG methods vary when, how much, or in what structure evidence is fetched \citep{asai2023selfrag,edge2024graphrag,jeong2024adaptive,zhang2026tadarag}, but they typically leave the prompt and parser shared. CTIBench further evaluates each task under a labelled instruction file \citep{alam2024ctibench}, whereas a deployed assistant must infer the required artefact from an unlabelled request.
+%Large language models (LLMs) are natural candidates for this reading. An LLM can interpret technical security narratives, identify attack patterns, extract structured information, and synthesise evidence across long reports. Ferrag et al.\ and Xu et al.\ survey this use of large language models in cybersecurity \citep{ferrag2024generative,xu2024llm4sec}. Siracusano et al.\ extract Structured Threat Information Expression (STIX) objects from unstructured threat reports \citep{siracusano2023action}, Fayyazi et al.\ map narrative descriptions onto MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT\&CK) tactics \citeyearpar{fayyazi2023uses}, and Clairoux-Trépanier et al.\ code CTI variables from cybercrime-forum text \citep{clairoux2024llm}. Alam et al.\ show in CTIBench that a general-purpose model can attempt the CTI tasks from the prompt alone \citep{alam2024ctibench}. Three limits remain when the answer comes from parametric memory alone.
 
-We propose \textbf{Cognitive-Task-Aware Retrieval-Augmented Generation (CTA-RAG)}: four cognitive modes---memorization, understanding, problem-solving, and reasoning---implemented as six specialists, with reasoning split into ATE, ATA, and TAA. Memorization answers factual MCQ items. Understanding maps a vulnerability to a primary CWE. Problem-solving applies the CVSS scoring rules. Reasoning extracts technique sets (ATE), identifies a single ATT\&CK technique (ATA), or attributes a report to an actor (TAA). We evaluate CTA-RAG on CTIBench MCQ, RCM, VSP, ATE, and TAA against Closed Book, Unified RAG, Self-RAG, Graph RAG, Adaptive-RAG, and TAdaRAG, and we use CTIConnect for external RCM and for ATA.
+%\noindent First, the National Vulnerability Database (NVD), the Common Weakness Enumeration (CWE), and MITRE ATT\&CK continue to add and revise entries after training \citep{nvd2024,mitre2024cwe,mitre2024attack}.
 
-\textbf{RQ1} asks whether complete task specialization---a distinct index, prompt, and parser per cognitive mode---outperforms a shared retrieve--generate pipeline on those CTI contracts.
+%\noindent Second, the model can emit a legal identifier, such as \texttt{CWE-787} or \texttt{T1055}, that names the wrong weakness or behaviour \citep{ferrag2024generative,alam2024ctibench,ji2023survey}.
 
-\textbf{RQ2} asks whether the specialist that matches the required artefact can be selected from the benchmark instruction on the evaluated items, without treating route labels as a substitute for answer quality.
+%\noindent Third, technique extraction and actor attribution depend on several weak signals, and surface similarity is a weak substitute for that composition \citep{alam2024ctibench}.
 
-\textbf{RQ3} asks when retrieval helps or hurts: which items a RAG configuration rescues relative to Closed Book, which it damages, and whether fused candidate recall on TAA and ATA explains the specialist gap.
+%\noindent A wrong identifier is costly in this domain because ticketing, detection content, and patch priority treat the identifier as authoritative \citep{nvd2024,mitre2024attack,first2024cvss,schlette2021measuring}.
+Retrieval-Augmented Generation (RAG) has emerged as a promising paradigm to mitigate these issues by grounding LLMs in dynamic, external knowledge sources \citep{lewis2020rag,karpukhin2020dense}. While RAG significantly enhances factual grounding and interpretability, most existing implementations, such as\citep{mitra2024localintel,fayyazi2024ttp,borah2025adapting}, in cybersecurity employ a uniform architecture—typically comprising a single vector database and a fixed prompt template—across diverse CTI tasks. This one-size-fits-all design neglects the \textit{heterogeneous cognitive demands} inherent in different analytical processes \citep{nvd2024,mitre2024cwe,shi2023distracted}. Human CTI analysts, for example, intuitively adjust their reasoning strategies: recalling factual data for indicator lookups, integrating contextual information for campaign classification, or performing multi-hop reasoning for attribution. Yet, current RAG systems treat these cognitively distinct tasks identically, applying the same retrieval and generation strategy regardless of tasktype.
 
-Section~\ref{sec:results} answers these questions with paired outcomes, TAA and ATA retrieval ablations, and the CTIConnect RCM transfer split.
 
-\noindent\textbf{The key contributions of this work are as follows:}
+%Retrieval-augmented generation (RAG) fetches documents at answer time \citep{lewis2020rag,karpukhin2020dense} and Izacard et al.\ \citeyearpar{izacard2021fid}. Mitra et al., Fayyazi et al., and Borah et al.\ use RAG to supply current text for CTI integration, ATT\&CK interpretation, and coverage of emerging vulnerabilities \citep{mitra2024localintel,fayyazi2024ttp,borah2025adapting}. The open problem is the pipeline in front of the generator: one retriever, one prompt, and one parser still serve every artefact. In CWE terms, a retrieved neighbour can be a child or sibling of the primary class that NVD assigns to the vulnerability, and exact-match scoring counts that sibling as wrong \citep{nvd2024,mitre2024cwe,shi2023distracted}. Self-RAG, GraphRAG, Adaptive-RAG, and TAdaRAG change when, or how deeply, text is fetched \citep{asai2023selfrag,edge2024graphrag,jeong2024adaptive,zhang2026tadarag}. The prompt and the parser stay shared, so a CWE scorer and a technique scorer still receive the same kind of answer. Routers such as FrugalGPT, HybridLLM, and RouteLLM send an easy query to a cheaper model and a hard query to a larger one \citep{chen2023frugalgpt,ding2024hybridllm,ong2024routellm}. That choice changes which model answers. The artefact the parser must return, a CWE identifier, a CVSS vector, or a technique list, stays the artefact of the shared parser. In CTI the first decision is which artefact the request demands.
+
+
+This lack of cognitive differentiation introduces measurable performance bottlenecks. A RAG pipeline optimized for memorization may excel in simple fact retrieval but fail on reasoning-intensive tasks such as technique extraction or adversary correlation. Conversely, architectures tailored for complex inference may impose unnecessary computational overhead on straightforward factual queries. The absence of cognitive-task alignment thus restricts both accuracy and operational efficiency in LLM-based CTI analysis~\citep{ferrag2024generative}.
+
+To bridge this gap, we propose the Cognitive-Task-Aware RAG (CTA-RAG)framework—a principled methodology that systematically aligns retrieval and generation strategies with the cognitive demands of specific CTI activities. The core insight is that CTI analysis encompasses distinct cognitive categories, each requiring specialized retrieval depth, reasoning style, and representational granularity. As summarized in Table~\ref{tab:cti-tasks}, these cognitive tasks include \textit{memorization} for factual recall, \textit{understanding} for semantic and taxonomic interpretation, \textit{problem-solving} for algorithmic reasoning and scoring, and \textit{reasoning} for analytical inference and attribution. CTA-RAG operationalizes this alignment through a router that reads the request and chooses the cognitive task before any document is fetched. The matching specialist then runs, with its own index, its own prompt structures, its own parser, and evaluation metrics to match task-specific cognitive requirements. 
+
+
+%specialized pipelines that dynamically adapt retrieval mechanisms, prompt structures, and evaluation metrics to match task-specific cognitive requirements.
+
+\begin{table}[t]
+\centering
+\caption{Classification of CTI Tasks by Cognitive Demand}
+\label{tab:cti-tasks}
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{p{0.24\columnwidth}
+                p{0.34\columnwidth}
+                p{0.34\columnwidth}}
+\hline
+\textbf{Cognitive Category} &
+\textbf{Definition} &
+\textbf{Example CTI Tasks} \\
+\hline
+
+Memorization &
+Factual recall of structured security information &
+IoC lookup, security control facts, CVE metadata retrieval \\
+
+\hline
+Understanding &
+Semantic comprehension and taxonomic mapping &
+MITRE ATT\&CK alignment, threat actor categorization, CWE taxonomy mapping \\
+
+\hline
+Problem-Solving &
+Algorithmic scoring and classification-based reasoning &
+Vulnerability severity prediction, malware categorization, CVSS vector generation \\
+
+\hline
+Reasoning &
+Multi-hop inference and analytical attribution &
+Campaign attribution, impact assessment, TTP extraction, threat actor identification \\
+
+\hline
+\end{tabular}
+\end{table}
+
+
+
+%A weakness question, root-cause mapping (RCM), uses weakness evidence and must return one CWE identifier. A severity question, vulnerability severity prediction (VSP), uses sanitized vulnerability descriptions and must return a CVSS vector. A multiple-choice question (MCQ) returns one letter. Attack technique extraction (ATE) returns the set of ATT\&CK identifiers a report supports. Technique attribution (ATA) returns one technique identifier. Threat-actor attribution (TAA) returns one actor from a shortlist of three, or abstains. Four cognitive task modes group the six specialists. Reasoning holds ATE, ATA, and TAA, and each reasoning specialist uses a separate store.
+
+
+
+\noindent\textbf{The contributions of this work are as follows:}
 \begin{enumerate}[leftmargin=*,nosep,topsep=2pt]
-\item We introduce \textbf{CTA-RAG}: four cognitive modes realised as six schema-specific specialists that jointly set the corpus, retrieval procedure, prompt, decoder, and parser.
+\item \textbf{CTA-RAG Framework:} We introduce a novel framework that formalizes the relationship between cognitive task profiles and RAG architectural optimization, establishing a principled foundation for task-aware augmentation in CTI workflows.
+\item \textbf{Specialized Pipeline Architectures}. The framework has three components: (i)~a cascade router that identifies the CTI task before retrieval; (ii)~six specialists tailored for memorization (CTI-MCQ), understanding (CTI-RCM), problem-solving (CTI-VSP), and reasoning (CTI-ATE and CTI-TAA); and (iii)~task-specific retrieval, prompting, and output parsing mechanisms that ensure each query follows the requirements of its assigned pipeline.
 
-\item We evaluate CTA-RAG on five CTIBench tasks (MCQ, RCM, VSP, ATE, TAA) against Closed Book, Unified RAG, Self-RAG, Graph RAG, Adaptive-RAG, and TAdaRAG under a matched answer generator, and we use CTIConnect for external RCM and for ATA.
-
-\item We report gold-blind retrieval ablations for TAA (CombSUM actor lists) and ATA (hybrid ATT\&CK fusion), together with paired rescues and damages that show end-to-end gains can coexist with item-level regressions.
-
-\item We separate schema failure from fluent identifier error on external RCM, so a parseable CWE that is wrong is not counted as a format success.
+understanding (CTI-RCM), problem-solving (CTI-VSP), and three reasoning (CTI-ATE, CTI-TAA, CTI-ATA), each with its own corpus, retrieval procedure, prompt, and parser; (iii)~a typed output for each artefact, so a rejected string is counted separately from a legal identifier that names the wrong object.
+\item \textbf{Comprehensive Evaluation:} Through extensive experimentation across two benchmark datasets and compared with many state-of-the-art RAG systems such as Unified RAG, Self-RAG, GraphRAG, Adaptive-RAG, and TAdaRAG \citep{lewis2020rag,asai2023selfrag,edge2024graphrag,jeong2024adaptive,zhang2026tadarag}, plus a no-retrieval baseline, all with GPT-4-turbo as the generator and the official metric for each task.
+\item \textbf{Ablation study of technique attribution}, with candidate recall reported beside the end-to-end decision, and an external check of weakness mapping on CTIConnect \citep{cheng2026cticonnect}, including a hallucination count that separates a rejected string from a legal CWE that names the wrong weakness.
 \end{enumerate}
 
-This paper discusses the typed nature of CTI outputs, the six specialist pipelines, and the comparison against shared and adaptive RAG. Additionally, we discuss TAA and ATA candidate generation and how available RAG proposals behave on each contract. Finally, we provide the retrieval and generation diagnostics that follow from those experiments. Section~\ref{sec:related} reviews vocabularies, CTI RAG, and adaptive retrieval. Section~\ref{sec:method} specifies CTA-RAG. Section~\ref{sec:setup} describes corpora, baselines, and scoring. Section~\ref{sec:results} reports the results.
-
+Section~\ref{sec:related} reviews the state of the art researcch in CTI and RAG systems. Section~\ref{sec:method} explains the proposed framework. Section~\ref{sec:setup} describes the experimental setup. Section~\ref{sec:results} reports the results.
 
 \section{Related Work}\label{sec:related}
 
-The automation of threat intelligence began long before language models, and it began with vocabulary. Before anything could be reasoned about automatically, the community had to agree on what an adversary technique, an indicator, and a campaign actually were, which produced MITRE ATT\&CK as a shared behavioural taxonomy \cite{mitre2024attack} and STIX/TAXII as the exchange substrate \citep{oasis2021stix,oasis2021taxii}. Around these grew knowledge graphs linking vulnerabilities, actors, and techniques into queryable structure \citep{li2022attackg}, alongside a literature concerned with what threat intelligence is for and how its quality should be judged \citep{tounsi2018survey,schlette2021measuring,mcmillan2013definition}. This work matters to our argument for a reason that is easy to overlook: it established that CTI outputs are \emph{typed}. A weakness class, a severity vector, and a technique identifier are not interchangeable strings but members of distinct, externally governed vocabularies with their own validity conditions. Every subsequent system inherits that constraint whether or not it acknowledges it.
+Cyber threat intelligence (CTI) analysis relies on structured representations that govern how security information is classified, expressed, and exchanged. MITRE ATT\&CK provides a behavioural taxonomy for describing adversary tactics and techniques \citep{mitre2024attack}. The OASIS standards define Structured Threat Information Expression (STIX) as a language for representing threat information \citep{oasis2021stix}, and Trusted Automated Exchange of Intelligence Information (TAXII) as the protocol for exchanging STIX data between systems \citep{oasis2021taxii}. Li et al.\ integrate vulnerabilities, threat actors, and techniques into a queryable graph \citep{li2022attackg}. These representations impose distinct requirements on CTI outputs, since weakness classes, severity vectors, and technique identifiers must conform to their respective vocabularies and validity conditions. Consequently, CTI generation requires not only the identification of relevant information but also the production of outputs that satisfy the constraints of the corresponding task.
 
-Language models arrived into this structured world and were immediately useful. They summarise vulnerability disclosures, process reports, identify techniques, and extract structured intelligence from prose \citep{ferrag2024generative,xu2024llm4sec}, with concrete systems converting reports into STIX objects \citep{siracusano2023action}, mapping ambiguous attack descriptions onto ATT\&CK tactics \citep{fayyazi2023uses}, and coding intelligence variables from criminal-forum discussion \citep{clairoux2024llm}. The difficulty surfaced quickly and was the same difficulty everywhere: models fluent in the \emph{form} of a CWE identifier or a CVSS vector are not thereby reliable about its \emph{content}, and their knowledge of which CVEs exist decays continuously after training. Fluency in a governed vocabulary without grounding in it is precisely the recipe for confident error.
+The generation of structured CTI information using language models has been investigated across several security applications \citep{ferrag2024generative,xu2024llm4sec}. Siracusano et al.\ transform threat reports into STIX objects \citep{siracusano2023action}, while Fayyazi et al.\ map ambiguous attack descriptions to ATT\&CK tactics \citeyearpar{fayyazi2023uses}. Clairoux-Trépanier et al.\ employ language models to code intelligence variables from criminal-forum discussions \citep{clairoux2024llm}. Despite these applications, syntactic validity does not necessarily establish factual correctness: a generated CWE identifier or CVSS vector may satisfy the required format while referring to an incorrect weakness or severity assessment. Moreover, the availability of vulnerability knowledge within a model may become outdated following training. Maynez et al.\ and Ji et al.\ distinguish linguistic fluency from factual faithfulness and reliability in generated outputs \citep{maynez2020faithfulness,ji2023survey}. Shuster et al.\ further demonstrate that grounded generation can produce entities that appear well-formed despite being incorrect \citep{shuster2021hallucination}. This distinction is particularly relevant to weakness mapping, where a hallucination denotes a parser-accepted CWE identifier that refers to the wrong weakness, whereas a schema failure denotes an output rejected by the parser. Both are quantified in Section~\ref{sec:hallucination}.
 
-Retrieval-augmented generation was the natural correction, conditioning generation on documents fetched at inference time \citep{lewis2020rag,karpukhin2020dense,izacard2021fid} and thereby connecting the model to live NVD, CWE, and ATT\&CK content. Security applications followed: LocalIntel fuses global threat repositories with organisation-local knowledge \citep{mitra2024localintel}, and retrieval measurably improves ATT\&CK tactic and technique analysis over direct prompting \citep{fayyazi2024ttp}. Closest to the present work, Borah and colleagues address the staleness problem head-on, building a retrieval framework to keep a model current on emerging vulnerabilities and attack patterns, and showing that a hybrid retrieval strategy outperforms baseline dense retrieval on knowledge retention and temporal reasoning \citep{borah2025adapting}. CTIFoundry instead rebuilds the corpus substrate for agentic investigation: a typed ontology over CVE, CWE, CAPEC, and ATT\&CK, provenance-carrying report chunks, and hybrid retrieval exposed as tools \citep{ctifoundry2026}. It is evaluated on CTIConnect, including overall F1 on a public subset of that benchmark, but it does not report a per-task CTIBench comparison of MCQ, RCM, VSP, ATE, and TAA under a shared answer model. These studies report improvements from retrieval-based grounding in CTI analysis. The axis they vary is how evidence is found or how the corpus is exposed; ours is which output contract the pipeline must satisfy. The two compose, but are not the same question.
+Retrieval-augmented generation (RAG) provides access to external knowledge at inference time, enabling language models to incorporate information from sources such as the National Vulnerability Database (NVD), CWE, and ATT\&CK \citep{lewis2020rag,karpukhin2020dense,izacard2021fid}. In CTI, Mitra et al.\ combine global threat repositories with organisation-specific knowledge \citep{mitra2024localintel}, while Fayyazi et al.\ demonstrate the benefits of retrieval for ATT\&CK tactic and technique analysis compared with direct prompting \citep{fayyazi2024ttp}. Borah et al.\ investigate the adaptation of language models to emerging vulnerabilities and attack patterns, reporting improvements of hybrid retrieval over dense retrieval in knowledge retention and temporal reasoning \citep{borah2025adapting}. Cheng et al.\ introduce CTIFoundry, a typed corpus covering CVE, CWE, CAPEC, and ATT\&CK, with provenance-carrying chunks and tool-accessible hybrid retrieval, and evaluate it using CTIConnect \citep{ctifoundry2026}. CTIConnect is also used in this study as an external benchmark for RCM and ATA \citep{cheng2026cticonnect}. However, retrieved content introduces an additional consideration: third-party documents may contain instructions targeting the language model. Greshake et al.\ demonstrate this risk through indirect prompt injection \citep{greshake2023injection}. Source isolation and output validation therefore provide relevant safeguards. The present evaluation uses the published benchmark items as provided, reflecting performance on ordinary threat reports and vulnerability descriptions. Under this evaluation, a parser-accepted CWE identifier that denotes an incorrect weakness remains classified as a hallucination.
 
-Retrieved content can also carry adversarial instructions: indirect prompt injection places malicious instructions in third-party data consumed by an application \citep{greshake2023injection}. This motivates source isolation and output validation in CTI pipelines, but neither property establishes resistance to semantically valid malicious answers. We evaluate benign inputs and do not claim a measured poisoning or injection defence.
+Beyond knowledge augmentation, recent RAG approaches adapt retrieval decisions, knowledge representations, or model allocation. Self-RAG enables a model to determine when retrieval is required and to critique retrieved evidence \citep{asai2023selfrag}; however, retrieval control alone does not distinguish the output requirements of MCQ, RCM, VSP, and ATE. GraphRAG represents corpus information through entity graphs and community summaries to support corpus-level synthesis \citep{edge2024graphrag}, while retaining free-form generation that does not inherently enforce the distinct output requirements of weakness and technique identification. Adaptive-RAG selects retrieval depth according to estimated query complexity \citep{jeong2024adaptive}, leaving the output schema governed by the shared generation interface. TAdaRAG incorporates query intent into the selection of extraction templates and task-oriented knowledge structures \citep{zhang2026tadarag}. In contrast, CTA-RAG specifies the retrieval index, prompt, and parser independently for each specialist. Model-routing approaches, including FrugalGPT, HybridLLM, and RouteLLM, allocate queries across models according to cost or capability \citep{chen2023frugalgpt,ding2024hybridllm,ong2024routellm}. Such approaches determine which model processes a query, whereas CTA-RAG identifies the cognitive mode and corresponding specialist required for the CTI task, leaving model selection available as a separate deployment decision.
 
-Hallucination research separates fluent but unfaithful generation from format failure \citep{maynez2020faithfulness,ji2023survey}. Knowledge-grounded models still invent entities that look well-formed \citep{shuster2021hallucination}. In this paper a CWE or ATT\&CK string that parses and is wrong is counted as a fluent error, not as a schema failure; Section~\ref{sec:hallucination} reports that split on external RCM. We do not annotate unsupported claims in free prose.
+The distinction between retrieval adaptation and task-specific generation is particularly important under benchmark evaluation, where outputs are assessed against explicit format and content constraints. For example, a CWE parser accepts \texttt{CWE-79} but rejects a prose description of cross-site scripting; the CVSS scorer requires eight parseable metrics, while technique F1 is computed over \texttt{T\#\#\#\#} identifiers \citep{alam2024ctibench,mitre2024cwe,first2024cvss,mitre2024attack}. Shi et al.\ show that neighbouring context can distract language models from the requested identifier \citep{shi2023distracted}. Wei et al.\ and Wang et al.\ demonstrate the benefits of chain-of-thought prompting and self-consistency for reasoning \citep{wei2022chain,wang2023selfconsistency}; nevertheless, these methods operate within the task and output specification established by the surrounding pipeline. Alam et al.\ report variation in zero-shot performance across CTIBench tasks, whose evaluation files specify the task before inference \citep{alam2024ctibench}. These observations motivate the separation of cognitive modes and their corresponding output requirements in CTA-RAG. Section~\ref{sec:method} details the framework, in which MCQ, RCM, VSP, ATE, TAA, and ATA are assigned dedicated retrieval indices, prompts, and parsers.
 
-There is also a routing literature, and it is worth distinguishing carefully from ours because the word is
-shared and the referent is not. Model routing selects \emph{which model} answers a query, trading quality against
-cost by sending easy queries to cheap models and hard ones to frontier models \citep{chen2023frugalgpt,
-ding2024hybridllm, ong2024routellm}. That axis is orthogonal to the one we take. A model router asks how much
-capability a query deserves; CTA-RAG's router asks what kind of artefact the query demands. The two compose
-naturally---a deployment could select the pipeline first and the model within it second---and neither substitutes
-for the other, because choosing a larger model does not tell a system to emit an identifier rather than prose.
 
-Broader NLP research then began to question exactly that assumption, though from a particular angle. Self-RAG made retrieval conditional, letting the model judge when external evidence is needed and critique what it receives \citep{asai2023selfrag}. GraphRAG replaced flat passage retrieval with entity graphs and hierarchical community summaries, which pays off on questions requiring global synthesis \citep{edge2024graphrag}. Adaptive-RAG conditioned retrieval depth on estimated query complexity, routing simple questions to cheap paths and hard ones to iterative retrieval \citep{jeong2024adaptive}. TAdaRAG went furthest toward our position, using intent-driven routing to select domain-specific extraction templates and construct task-adapted knowledge structures on the fly \citep{zhang2026tadarag}. Read together, this line of work shows that uniform retrieval is a design choice, not a necessity. The adaptation typically stops near the retrieval boundary: evidence selection, depth, timing, and structure vary; the prompt and parser often do not.
-
-That design is reasonable when the output is free-form text. It may be suboptimal for CTI tasks with different evidence requirements and output contracts. The parser that accepts \texttt{CWE-79} rejects a prose explanation of why cross-site scripting applies; the CVSS scorer requires eight parseable metrics; technique F1 requires \texttt{T\#\#\#\#} tokens \citep{alam2024ctibench,mitre2024cwe,first2024cvss,mitre2024attack}. Adjacent retrieved context can also distract models \citep{shi2023distracted}. Prompting levers such as chain-of-thought remain useful \citep{wei2022chain,wang2023selfconsistency}, but they are applied to a task rather than selected between tasks.
-
-CTIBench reports uneven zero-shot performance across those contracts, and each task file supplies the task identity before inference \citep{alam2024ctibench}. What this literature does not provide is a six-specialist CTI stack that changes the index, prompt, and parser together and is scored against Closed Book, Self-RAG, Graph RAG, Adaptive-RAG, and TAdaRAG on the five CTIBench tasks plus CTIConnect ATA and RCM. Section~\ref{sec:method} specifies that stack.
-
-\section{Cognitive-Task-Aware RAG}\label{sec:method}
+\section{Proposed Framework: Cognitive-Task-Aware RAG}\label{sec:method}
 
 \subsection{Problem formulation}\label{sec:formulation}
 
-Let $q$ denote an incoming analyst request, comprising an instruction span and a content payload. Conventional RAG uses one retriever $R$, one prompt constructor $P$, and one generator $G$ for every task:
+Our proposed framework (as shown in Figure ~\ref{fig:arch})), i.e., CTA-RAG, retains the three stages (i.e., retrieval, prompt construction, and generation) of conventional retrieval-augmented generation but assigns each stage to a selected specialist. Let $q$ denote the analyst request, comprising the instruction and content. Unified RAG uses a single retriever $R$, prompt constructor $P$, and generator $G$ for every request:
 \begin{equation}
 A_{\mathrm{RAG}}(q)=G\bigl(P(q,R(q))\bigr).
 \label{eq:rag}
 \end{equation}
-CTA-RAG keeps the same three stages but indexes them by the specialist $\hat{\tau}$ selected for $q$:
+Here, $R(q)$ denotes the retrieved text, $P$ incorporates it into the prompt, $G$ generates the answer, and $A_{\mathrm{RAG}}(q)$ denotes the resulting response.
+
+In CTA-RAG, the router first identifies the cognitive mode
+$\hat{\tau}=\textsc{Route}(q)$ required to address the query.
+The framework organizes CTI analysis into four cognitive modes, derived and aligned with existing benchmark datasets (as explained in Table 2):
+memorization (CTI-MCQ), understanding (CTI-RCM), problem-solving
+(CTI-VSP), and reasoning (CTI-ATE, CTI-TAA, and CTI-ATA).
+The first three modes each correspond to one specialist, whereas
+reasoning comprises three distinct specialists for technique
+extraction, technique attribution, and threat actor attribution,
+each with its own retrieval store, prompt, and output parser.
+The router selects exactly one specialist before retrieval,
+ensuring that each query follows the requirements of its
+corresponding cognitive mode.
+
 \begin{equation}
 A_{\mathrm{CTA}}(q)=G_{\hat{\tau}}\!\bigl(P_{\hat{\tau}}(q,R_{\hat{\tau}}(q))\bigr),
 \qquad
 \hat{\tau}=\textsc{Route}(q).
 \label{eq:cta}
 \end{equation}
-$R_{\hat{\tau}}$ uses a task-matched index and depth, $P_{\hat{\tau}}$ builds a schema-aware prompt, and $G_{\hat{\tau}}$ decodes into a parser for that contract. The difference from Eq.~\eqref{eq:rag} is not a new operator: it is that $R$, $P$, and $G$ are no longer shared. The label space is
+$R_{\hat{\tau}}$ searches the index of specialist $\hat{\tau}$,
+$P_{\hat{\tau}}$ specifies the task-specific output expected from
+that specialist, and $G_{\hat{\tau}}$ decodes the response using
+that specialist's parser.
 \begin{equation}
 \begin{aligned}
 \hat{\tau} \in \{&
@@ -192,7 +269,8 @@ $R_{\hat{\tau}}$ uses a task-matched index and depth, $P_{\hat{\tau}}$ builds a 
 \end{aligned}
 \label{eq:router-space}
 \end{equation}
-Four cognitive modes are implemented as these six specialists because ATE, ATA, and TAA share a reasoning role but not a store, prompt, or parser. The router emits one discrete label: the scorers accept mutually exclusive artefacts, so a mixture has no valid projection. Figure~\ref{fig:arch} shows the workflow from query to specialist. Table~\ref{tab:pipe-config} records, for each specialist, the source corpus, whether retrieval is dense single-hop or hybrid multi-list, $k$, temperature, the output contract, and why that contract is the cognitive job.
+%Figure~\ref illustrates the path from an analyst request to the selected specialist. Table~\ref summarises each specialist's index, retrieval rule, and designated decision. Section~\ref reports the evaluation set sizes; these sizes are specific to the evaluation and do not constrain the framework's applicability to other set sizes.
+
 \begin{figure*}[t]
 \centering
 \resizebox{\textwidth}{!}{%
@@ -200,7 +278,7 @@ Four cognitive modes are implemented as these six specialists because ATE, ATA, 
     >=Stealth,
     font=\scriptsize,
     box/.style={
-        draw=black!55,
+        line width=0.8pt,
         rounded corners=3pt,
         align=center,
         minimum height=0.82cm
@@ -218,119 +296,155 @@ Four cognitive modes are implemented as these six specialists because ATE, ATA, 
     stage/.style={
         box,
         text width=2.22cm,
-        minimum height=0.72cm,
-        fill=white
+        minimum height=0.72cm
     },
     arr/.style={
-        -{Stealth[length=1.6mm]},
-        thick,
-        draw=black!65
+        -{Stealth[length=1.8mm]},
+        line width=1.15pt
     }
 ]
 
-\node[box, fill=blue!12, text width=3.5cm, font=\scriptsize\bfseries]
+\node[box, fill=blue!45, draw=blue!70!black, text width=3.5cm, font=\scriptsize\bfseries]
 (query) at (-3.6,1.55)
 {Unlabelled analyst query\\instruction + content};
 
-\node[box, fill=orange!18, text width=4.1cm, font=\scriptsize\bfseries]
+\node[box, fill=orange!55, draw=orange!80!black, text width=4.1cm, font=\scriptsize\bfseries]
 (router) at (2.6,1.55)
 {Cascade router\\regex $\rightarrow$ classifier $\rightarrow$ override};
 
-\draw[arr] (query) -- (router);
+\draw[arr, draw=orange!80!black] (query) -- (router);
 
-\node[font=\tiny, text=gray!70] at (2.6,0.95)
+\node[font=\tiny, text=orange!70!black] at (2.6,0.95)
 {select one cognitive mode before retrieval};
 
-\node[mode, fill=green!14, text width=2.35cm] (mem) at (-6.5,0.18) {Memorization};
-\node[mode, fill=cyan!14, text width=2.35cm] (und) at (-3.2,0.18) {Understanding};
-\node[mode, fill=violet!14, text width=2.35cm] (ps) at (0.1,0.18) {Problem-solving};
-\node[mode, fill=purple!12, text width=7.9cm] (reas) at (5.5,0.18)
+\node[mode, fill=green!50, draw=green!70!black, text width=2.35cm] (mem) at (-6.5,0.18) {Memorization};
+\node[mode, fill=cyan!45, draw=cyan!70!black, text width=2.35cm] (und) at (-3.2,0.18) {Understanding};
+\node[mode, fill=violet!45, draw=violet!70!black, text width=2.35cm] (ps) at (0.1,0.18) {Problem-solving};
+\node[mode, fill=purple!35, draw=purple!70!black, text width=7.9cm] (reas) at (5.5,0.18)
 {Reasoning (one mode, three specialists)};
 
-\draw[arr] (router.south) -- ++(0,-0.26) -| (mem.north);
-\draw[arr] (router.south) -- ++(0,-0.26) -| (und.north);
-\draw[arr] (router.south) -- ++(0,-0.26) -| (ps.north);
-\draw[arr] (router.south) -- ++(0,-0.26) -| (reas.north);
+\draw[arr, draw=green!70!black] (router.south) -- ++(0,-0.26) -| (mem.north);
+\draw[arr, draw=cyan!70!black] (router.south) -- ++(0,-0.26) -| (und.north);
+\draw[arr, draw=violet!70!black] (router.south) -- ++(0,-0.26) -| (ps.north);
+\draw[arr, draw=purple!70!black] (router.south) -- ++(0,-0.26) -| (reas.north);
 
-\node[module, fill=green!15] (mcq) at (-6.5,-1.12) {CTI-MCQ};
-\node[module, fill=cyan!15] (rcm) at (-3.2,-1.12) {CTI-RCM};
-\node[module, fill=violet!15] (vsp) at (0.1,-1.12) {CTI-VSP};
-\node[module, fill=purple!15] (ate) at (3.15,-1.12) {CTI-ATE};
-\node[module, fill=orange!12] (ata) at (5.5,-1.12) {CTI-ATA};
-\node[module, fill=magenta!15] (taa) at (7.85,-1.12) {CTI-TAA};
+\node[module, fill=green!55, draw=green!70!black] (mcq) at (-6.5,-1.12) {CTI-MCQ};
+\node[module, fill=cyan!50, draw=cyan!70!black] (rcm) at (-3.2,-1.12) {CTI-RCM};
+\node[module, fill=violet!50, draw=violet!70!black] (vsp) at (0.1,-1.12) {CTI-VSP};
+\node[module, fill=purple!40, draw=purple!70!black] (ate) at (3.15,-1.12) {CTI-ATE};
+\node[module, fill=orange!50, draw=orange!80!black] (ata) at (5.5,-1.12) {CTI-ATA};
+\node[module, fill=magenta!45, draw=magenta!70!black] (taa) at (7.85,-1.12) {CTI-TAA};
 
-\draw[arr] (mem)--(mcq);
-\draw[arr] (und)--(rcm);
-\draw[arr] (ps)--(vsp);
-\draw[arr] (reas.south) -- ++(0,-0.16) -| (ate.north);
-\draw[arr] (reas.south) -- ++(0,-0.16) -| (ata.north);
-\draw[arr] (reas.south) -- ++(0,-0.16) -| (taa.north);
+\draw[arr, draw=green!70!black] (mem)--(mcq);
+\draw[arr, draw=cyan!70!black] (und)--(rcm);
+\draw[arr, draw=violet!70!black] (ps)--(vsp);
+\draw[arr, draw=purple!70!black] (reas.south) -- ++(0,-0.16) -| (ate.north);
+\draw[arr, draw=orange!80!black] (reas.south) -- ++(0,-0.16) -| (ata.north);
+\draw[arr, draw=magenta!70!black] (reas.south) -- ++(0,-0.16) -| (taa.north);
 
-\node[stage, below=0.14cm of mcq] (mcq1) {Web CTI / ATT\&CK\\top-$k{=}5$};
-\node[stage, fill=green!6, below=0.07cm of mcq1] (mcq2) {Letter-only prompt};
-\node[stage, fill=yellow!10, below=0.07cm of mcq2] (mcq3) {A--D accuracy};
-\draw[arr] (mcq)--(mcq1)--(mcq2)--(mcq3);
+\node[stage, fill=green!35, draw=green!60!black, below=0.14cm of mcq] (mcq1) {Web CTI / ATT\&CK\\top-$k{=}5$};
+\node[stage, fill=green!25, draw=green!60!black, below=0.07cm of mcq1] (mcq2) {Letter-only prompt};
+\node[stage, fill=green!45, draw=green!60!black, below=0.07cm of mcq2] (mcq3) {A--D accuracy};
+\draw[arr, draw=green!70!black] (mcq)--(mcq1)--(mcq2)--(mcq3);
 
-\node[stage, below=0.14cm of rcm] (rcm1) {CTI knowledge base\\top-$k{=}3$};
-\node[stage, fill=green!6, below=0.07cm of rcm1] (rcm2) {Taxonomy JSON prompt};
-\node[stage, fill=yellow!10, below=0.07cm of rcm2] (rcm3) {CWE exact match};
-\draw[arr] (rcm)--(rcm1)--(rcm2)--(rcm3);
+\node[stage, fill=cyan!30, draw=cyan!60!black, below=0.14cm of rcm] (rcm1) {CTI knowledge base\\top-$k{=}3$};
+\node[stage, fill=cyan!20, draw=cyan!60!black, below=0.07cm of rcm1] (rcm2) {Taxonomy JSON prompt};
+\node[stage, fill=cyan!40, draw=cyan!60!black, below=0.07cm of rcm2] (rcm3) {CWE exact match};
+\draw[arr, draw=cyan!70!black] (rcm)--(rcm1)--(rcm2)--(rcm3);
 
-\node[stage, below=0.14cm of vsp] (vsp1) {Sanitized CVE\\analogues, $k{=}3$};
-\node[stage, fill=green!6, below=0.07cm of vsp1] (vsp2) {Rule-guided CVSS};
-\node[stage, fill=yellow!10, below=0.07cm of vsp2] (vsp3) {CVSS vector MAD};
-\draw[arr] (vsp)--(vsp1)--(vsp2)--(vsp3);
+\node[stage, fill=violet!30, draw=violet!60!black, below=0.14cm of vsp] (vsp1) {Sanitized CVE\\analogues, $k{=}3$};
+\node[stage, fill=violet!20, draw=violet!60!black, below=0.07cm of vsp1] (vsp2) {Rule-guided CVSS};
+\node[stage, fill=violet!40, draw=violet!60!black, below=0.07cm of vsp2] (vsp3) {CVSS vector MAD};
+\draw[arr, draw=violet!70!black] (vsp)--(vsp1)--(vsp2)--(vsp3);
 
-\node[stage, below=0.14cm of ate] (ate1) {ATT\&CK domain\\top-$k{=}5$};
-\node[stage, fill=green!6, below=0.07cm of ate1] (ate2) {CoT + T-ID list};
-\node[stage, fill=yellow!10, below=0.07cm of ate2] (ate3) {Technique-set F1};
-\draw[arr] (ate)--(ate1)--(ate2)--(ate3);
+\node[stage, fill=purple!28, draw=purple!60!black, below=0.14cm of ate] (ate1) {ATT\&CK domain\\top-$k{=}5$};
+\node[stage, fill=purple!18, draw=purple!60!black, below=0.07cm of ate1] (ate2) {CoT + T-ID list};
+\node[stage, fill=purple!38, draw=purple!60!black, below=0.07cm of ate2] (ate3) {Technique-set F1};
+\draw[arr, draw=purple!70!black] (ate)--(ate1)--(ate2)--(ate3);
 
-\node[stage, below=0.14cm of ata] (ata1) {Hybrid ATT\&CK lists\\RRF $k{=}60$, top-5};
-\node[stage, fill=green!6, below=0.07cm of ata1] (ata2) {Open T-ID, Graph prompt};
-\node[stage, fill=yellow!10, below=0.07cm of ata2] (ata3) {Exact technique ID};
-\draw[arr] (ata)--(ata1)--(ata2)--(ata3);
+\node[stage, fill=orange!35, draw=orange!70!black, below=0.14cm of ata] (ata1) {Hybrid ATT\&CK lists\\RRF $k{=}60$, top-5};
+\node[stage, fill=orange!22, draw=orange!70!black, below=0.07cm of ata1] (ata2) {Open T-ID, Graph prompt};
+\node[stage, fill=orange!45, draw=orange!70!black, below=0.07cm of ata2] (ata3) {Exact technique ID};
+\draw[arr, draw=orange!80!black] (ata)--(ata1)--(ata2)--(ata3);
 
-\node[stage, below=0.14cm of taa] (taa1) {Actor lists + CombSUM\\top-$k{=}3$};
-\node[stage, fill=green!6, below=0.07cm of taa1] (taa2) {Constrained 1--3 pick};
-\node[stage, fill=yellow!10, below=0.07cm of taa2] (taa3) {Actor alias match};
-\draw[arr] (taa)--(taa1)--(taa2)--(taa3);
+\node[stage, fill=magenta!30, draw=magenta!60!black, below=0.14cm of taa] (taa1) {Actor lists + CombSUM\\top-$k{=}3$};
+\node[stage, fill=magenta!18, draw=magenta!60!black, below=0.07cm of taa1] (taa2) {Constrained 1--3 pick};
+\node[stage, fill=magenta!40, draw=magenta!60!black, below=0.07cm of taa2] (taa3) {Actor alias match};
+\draw[arr, draw=magenta!70!black] (taa)--(taa1)--(taa2)--(taa3);
 
 \end{tikzpicture}%
 }
 
-\caption{\textbf{CTA-RAG workflow.}
-The query arrives; a cascade selects one of four cognitive modes before any retrieval.
-Reasoning then splits into ATE, ATA, or TAA.
-Only the selected specialist runs.
-Source corpora, dense versus hybrid retrieval, $k$, temperature, and the output contract are in Table~\ref{tab:pipe-config}.}
+\caption{\textbf{CTA-RAG, our method.}
+The cascade selects one specialist before retrieval.
+Reasoning comprises technique extraction, technique attribution, and actor attribution.
+Each specialist has its own index, prompt, and parser.
+Five neighbours are retrieved for multi-passage answers and three for a single identifier or a shortlist of three names.
+See Section~\ref{sec:pipelines} for retrieval rules.}
 \label{fig:arch}
 
 \end{figure*}
 
+This paper asks whether the evidence a cyber threat intelligence request needs, and the artefact it must return, can be served by one retrieval-augmented generation pipeline, or whether the system must choose the retrieval database, the prompt, and the parser from the request before retrieval begins. To answer this question, we ask three research questions: 
+\begin{itemize}
+\item \noindent\textbf{RQ1.} Across multiple-choice questions (MCQ), root-cause mapping (RCM), vulnerability severity prediction (VSP), attack technique extraction (ATE), and threat-actor attribution (TAA), does a specialist with its own index, prompt, and parser score above a shared RAG pipeline when every system uses GPT-4-turbo and the official metric for that dataset?
+
+\item \noindent\textbf{RQ2.} Can the cascade router select the specialist specified in the instruction file from the request text, and how does routing accuracy compare with answer accuracy on the same items?
+
+\item \noindent\textbf{RQ3.} For MCQ, RCM, VSP, and ATE, which items change from their Closed Book answers after retrieval? For TAA and technique attribution (ATA), how much of the end-to-end score is explained by candidate recall?
+\end{itemize}
+
+%\noindent\textbf{RQ1.} Across multiple-choice questions (MCQ), root-cause mapping (RCM), vulnerability severity prediction (VSP), attack technique extraction (ATE), and threat-actor attribution (TAA), does a specialist with its own index, prompt, and parser score above a shared RAG pipeline when every system uses GPT-4-turbo and the official metric for that dataset?
+
+%\noindent\textbf{RQ2.} Can the cascade router select the specialist specified in the instruction file from the request text, and how does routing accuracy compare with answer accuracy on the same items?
+
+%\noindent\textbf{RQ3.} For MCQ, RCM, VSP, and ATE, which items change from their Closed Book answers after retrieval? For TAA and technique attribution (ATA), how much of the end-to-end score is explained by candidate recall?
+
+
 \subsection{The cascade router}\label{sec:router}
+A main component of our framework is the cascade router. Once a request arrives at the system, the router in CTA-RAG selects one specialist before retrieval. The router reads the instruction and content joined together (as described in Algorithm~\ref{alg:cta}), without access to the gold answer, oracle task label, or benchmark file name and then returns one task label, as specified in Equation~\eqref{eq:router-space}.
 
-When a query arrives, CTA-RAG does not retrieve first. It infers one specialist from the concatenated instruction and content, then that specialist retrieves. The router never sees gold answers, oracle labels, or file names, and it returns a label from Eq.~\eqref{eq:router-space}. The flow is:
+\begin{algorithm}[t]
+\caption{Cascade router. Six pipelines are tested in order. Reasoning is split here into technique extraction, technique attribution, and threat-actor attribution. Retrieval begins in Algorithm~\ref{alg:pipe}.}
+\label{alg:cta}
+\begin{algorithmic}[1]
+\Require request $q$, the instruction joined to the content. The gold answer, the task label, and the file name are withheld.
+\Ensure one specialist $\hat{\tau}$ from Equation~\eqref{eq:router-space}
+\If{$q$ contains a CVSS cue (CVSS, \texttt{AV:N}, \texttt{AV:L})}
+  \State $\hat{\tau} \gets \texttt{problem\_solving}$ \Comment{VSP}
+\ElsIf{$q$ contains an MCQ cue (\texttt{Options:}, A)--D)}
+  \State $\hat{\tau} \gets \texttt{memorization}$ \Comment{MCQ}
+\ElsIf{$q$ asks to extract ATT\&CK techniques or lists \texttt{T\#\#\#\#}}
+  \State $\hat{\tau} \gets \texttt{reasoning\_ate}$ \Comment{ATE}
+\ElsIf{$q$ asks to identify one ATT\&CK technique}
+  \State $\hat{\tau} \gets \texttt{reasoning\_ata}$ \Comment{ATA}
+\ElsIf{$q$ asks for the threat actor}
+  \State $\hat{\tau} \gets \texttt{reasoning\_taa}$ \Comment{TAA}
+\ElsIf{$q$ contains a CWE or root-cause cue}
+  \State $\hat{\tau} \gets \texttt{understanding}$ \Comment{RCM}
+\Else
+  \State $\hat{\tau} \gets \textsc{Classify}(q)$ \Comment{at most ten tokens, from $q$ alone}
+  \If{$q$ shows options A--D}
+    \State $\hat{\tau} \gets \texttt{memorization}$
+  \ElsIf{$\hat{\tau}$ is outside Equation~\eqref{eq:router-space}}
+    \State $\hat{\tau} \gets \texttt{understanding}$
+  \EndIf
+\EndIf
+\State \Return $\hat{\tau}$
+\end{algorithmic}
+\end{algorithm}
+% We designed the probe order for CTA-RAG and fixed it before scoring. Since CVSS strings and multiple-choice options can both contain a parenthesized capital letter, severity probes precede option probes. Technique and actor cues precede the residual weakness probe, which serves as the default when no earlier cue matches. A probe match bypasses the classifier. The router is applicable to requests of any benchmark size; its accuracy in selecting the specialist specified by the CTIBench instructions is evaluated in Section~\ref{sec:benchmark}.
+We designed the cascade to route each request through six specialist pipelines (i.e., \texttt{problem\_solving}, \texttt{memorization}, \texttt{reasoning\_ate}, \texttt{reasoning\_ata}, \texttt{reasoning\_taa}, and 
+\newline
+\texttt{understanding}) in a fixed order, returning the first match. The sequence begins with problem-solving (\texttt{problem\_solving}) for VSP, followed by memorization (\texttt{memorization}) for MCQ. It then checks the three reasoning specialists: technique extraction (\texttt{reasoning\_ate}) for requests seeking a set of ATT\&CK techniques, technique attribution (\texttt{reasoning\_ata}) for a single technique identifier, and threat-actor attribution (\texttt{reasoning\_taa}) for an actor. Extraction is checked before single-technique attribution, and both precede actor attribution, ensuring that requests seeking multiple techniques reach the extraction specialist. Understanding (\texttt{understanding}), which handles root-cause mapping, is checked last. If no probe matches, a short classifier reads the request. An A--D option selects memorization, while a label outside the six pipelines defaults to understanding. Severity probes precede option probes because both CVSS strings and answer choices may contain a parenthesised capital letter. We fixed the probe order before scoring. Section~\ref{sec:benchmark} reports how often the selected specialist matches the CTIBench instruction.
 
-\begin{enumerate}[leftmargin=*,nosep,topsep=2pt]
-\item \textbf{Input.} The analyst request is concatenated as instruction plus payload.
-\item \textbf{Stage 1.} Ordered regular-expression probes run in the priority of Table~\ref{tab:router-heuristics}. The first match short-circuits the cascade and selects that specialist. Severity cues precede generic A--D option probes because CVSS vectors and multiple-choice options can share parenthesised capital letters. Technique and attribution cues precede residual weakness mapping, so the order is
-\[
-\texttt{problem\_solving}\rightarrow\texttt{memorization}\rightarrow\texttt{reasoning\_ate}\rightarrow\texttt{reasoning\_ata}\rightarrow\texttt{reasoning\_taa}\rightarrow\texttt{understanding}.
-\]
-\item \textbf{Stage 2.} If no probe fires, a light classifier emits at most ten tokens with no documents in context.
-\item \textbf{Stage 3.} Conservative overrides fire when a dominant schema cue contradicts the classifier, for example forcing \texttt{memorization} when explicit A--D options are present. Invalid labels default to \texttt{understanding}.
-\item \textbf{Retrieve and generate.} Only the selected specialist in Table~\ref{tab:pipe-config} runs.
-\end{enumerate}
-
-Stage~1 exits without a model call; unresolved queries invoke the classifier. This is an architectural property, not a measured efficiency advantage. Observed routing on the structured CTIBench files is reported in Section~\ref{sec:results}; those files already name the task, so the diagnostic is not a claim about unconstrained analyst traffic.
 
 \begin{table}[t]
 \centering
 \caption{Router heuristic priority. Probes are case-insensitive and evaluated in order; the first match short-circuits the cascade.}
 \label{tab:router-heuristics}
 \small
-\begin{tabular}{@{}clp{0.42\textwidth}@{}}
+\begin{tabular}{@{}clp{0.46\columnwidth}@{}}
 \toprule
 Priority & Pipeline & Representative cues \\
 \midrule
@@ -345,13 +459,51 @@ Priority & Pipeline & Representative cues \\
 \end{table}
 
 
-\subsection{Specialised pipelines}\label{sec:pipelines}
+\subsection{Specialized pipelines}\label{sec:pipelines}
+As shown in Figure 1, CTA-RAG has six specialized pipelines aligned with four cognitive tasks: memorization, understanding, problem-solving, and reasoning. In this paper, we derive these pipelines from the benchmark datasets used in this work, which reflect the most common threat intelligence-related tasks. Table~\ref{tab:pipe-config} provides detailed configurations and settings for these pipelines based on the experiments we conducted using two datasets, as explained in detail in the next section. Algorithm~\ref{alg:pipe} explains the specialist pipeline after routing.  The depth $k$ is part of the contract and was fixed before scoring.
 
-Table~\ref{tab:pipe-config} is the specialist card: dataset, source used to build the index, retrieval family, output, $k$, and the cognitive job. The last column is the analyst decision that forces a different store and parser, not a restatement of the metric. Memorization, understanding, problem-solving, and ATE use dense FAISS \citep{johnson2019billion} over one sentence-transformer encoder \citep{reimers2019sentence}: a single hop of cosine neighbours. Hybrid search and multi-list fusion appear only under ATA (lexical memo plus procedure, definition, and cue lists, then RRF) and TAA (three independently ordered actor lists, then CombSUM). No main CTIBench specialist uses iterative multi-hop retrieval; Adaptive-RAG and Graph RAG implement that pattern on the shared control corpus instead (Section~\ref{sec:baselines}).
+ %is the path from the label returned by Algorithm~\ref{alg:cta} to the parsed artefact. 
+
+
+\begin{algorithm}[t]
+\caption{Specialist pipeline. Retrieval starts here: the label from Algorithm~\ref{alg:cta} selects one retrieval database, and the other databases stay closed.}
+\label{alg:pipe}
+\begin{algorithmic}[1]
+\Require specialist $\hat{\tau}$ from Algorithm~\ref{alg:cta}; request $q$
+\Ensure parsed artefact $A$
+\State $\mathcal{K}_{\hat{\tau}} \gets$ the retrieval database of $\hat{\tau}$ in Table~\ref{tab:pipe-config}
+\If{$\hat{\tau}=\texttt{memorization}$}
+  \State $R \gets$ cosine top-$5$ from $\mathcal{K}_{\hat{\tau}}$ (web CTI and ATT\&CK pages)
+  \State $A \gets$ one letter in $\{A,B,C,D\}$
+\ElsIf{$\hat{\tau}=\texttt{understanding}$}
+  \State $R \gets$ cosine top-$3$ from $\mathcal{K}_{\hat{\tau}}$ (CTI knowledge base; CWE catalogue off)
+  \State $A \gets$ one CWE identifier
+\ElsIf{$\hat{\tau}=\texttt{problem\_solving}$}
+  \State $R \gets$ sanitised cosine top-$3$ from $\mathcal{K}_{\hat{\tau}}$ (CVE analogues)
+  \State $A \gets$ one CVSS vector
+\ElsIf{$\hat{\tau}=\texttt{reasoning\_ate}$}
+  \State $R \gets$ cosine top-$5$ from $\mathcal{K}_{\hat{\tau}}$ (ATT\&CK technique text)
+  \State $A \gets$ a set of technique identifiers
+\ElsIf{$\hat{\tau}=\texttt{reasoning\_ata}$}
+  \State $R \gets$ top-$5$ from $\mathcal{K}_{\hat{\tau}}$ after RRF on the hybrid ATT\&CK store, $k{=}60$
+  \State $A \gets$ one technique identifier
+\Else
+  \State $R \gets$ three names from $\mathcal{K}_{\hat{\tau}}$ after CombSUM on the intrusion-set store
+  \State $A \gets$ one of those three names, or abstain
+\EndIf
+\State \Return $A$
+\end{algorithmic}
+\end{algorithm}
+
+As described in Table~\ref{tab:pipe-config}, Multiple-choice Questions (MCQ) and Technique Extraction (ATE) retrieve five neighbors (i.e., $K{=}5$) because the answer may draw on several passages. Root-Cause Mapping (RCM) and Severity Prediction (VSP) retrieve three neighbors (i.e., $K{=}3$) because the answer is one identifier or one vector. Additional neighbors for these two tasks may introduce sibling weaknesses or near-duplicate vulnerability descriptions, which exact-match and CVSS scoring penalize \citep{shi2023distracted}. Technique attribution (ATA) passes five technique cards to the generator, and threat-actor attribution (TAA) passes three actor names.
+
+MCQ, RCM, VSP, and ATE each use one dense retrieval hop. A sentence transformer encodes the request and stored passages \citep{reimers2019sentence}, and FAISS ranks the embeddings by cosine similarity \citep{johnson2019billion}, following the standard single-hop retrieval setup \citep{karpukhin2020dense}. Each task retrieves evidence from its own corpus in a single search, without further query expansion or rank fusion. ATA and TAA, in contrast, construct multiple ranked lists and fuse them. ATA combines four lists—a lexical memo, procedure-example ranks, technique-definition ranks, and cue-to-identifier anchors—using reciprocal rank fusion (RRF) with the published constant of $60$ \citep{cormack2009rrf}. The generator receives the highest-scoring technique cards. TAA combines three lists—an evidence-query ranking and two hypothesis lists—using CombSUM \citep{fox1994combination} after per-list min--max normalisation of the ranks \citep{lee1997ir}. The generator receives three actor names.
+
+%The peer systems that issue additional queries over a shared corpus are comparison systems, described in Section~\ref{sec:baselines}.
 
 \begin{table*}[!htbp]
 \centering
-\caption{Specialist configurations. Dense single-hop FAISS for MCQ, RCM, VSP, and ATE. Hybrid multi-list fusion for ATA and TAA. Cognitive job is the decision the specialist is built to make.}
+\caption{Specialist configurations for CTA-RAG. Depth follows the contract, as explained above. Sample sizes belong to the evaluation in Section~\ref{sec:setup}.}
 \label{tab:pipe-config}
 \footnotesize
 \setlength{\tabcolsep}{3pt}
@@ -359,102 +511,109 @@ Table~\ref{tab:pipe-config} is the specialist card: dataset, source used to buil
 \toprule
 Task / mode & Dataset & Source index & Retrieval & Contract & $k$ / $T$ & Cognitive job \\
 \midrule
-MCQ / mem. & CTIBench $n{=}2{,}500$ & Web CTI and ATT\&CK pages (\texttt{memorization\_vdb}) & Dense, single hop & A--D letter & $5$ / $0.1$ & Recall a fact under a closed option set \\
-RCM / und. & CTIBench $n{=}1{,}000$; CTIConnect $n{=}290$ ext. & General CTI KB; MITRE CWE catalogue off in the defended run & Dense, single hop & One CWE-ID & $3$ / $0.1$ & Map a CVE narrative to the NVD primary class, not a sibling \\
-VSP / p.s. & CTIBench $n{=}1{,}000$ & Sanitized NVD/CVE descriptions (\texttt{problem\_solving\_vdb}) & Dense, single hop & CVSS:3.1 vector & $3$ / $0.1$ & Apply FIRST's eight-metric algorithm to a new case \\
-ATE / reas. & CTIBench $n{=}60$ & MITRE ATT\&CK technique text & Dense, single hop & T-ID set & $5$ / $0$ & Extract every technique the report supports \\
-ATA / reas. & CTIConnect $n{=}160$ & STIX \texttt{enterprise-attack.json}, memo chunks, procedure and definition lists & Hybrid multi-list, RRF $k{=}60$ & One T-ID (open) & $5$ / $0$ & Name the single behaviour; Graph-matched prompt over $k$ cards \\
-TAA / reas. & CTIBench $n{=}50$ & MITRE intrusion-set profiles & Multi-source CombSUM & Actor name from top-3 & $3$ / $0.1$ & Attribute the report; generator cannot invent a fourth name \\
+MCQ / mem. & CTIBench multiple choice & Web CTI and ATT\&CK pages & Dense, single hop & A--D letter & $5$ / $0.1$ & Recall a fact under a closed option set \\
+RCM / und. & CTIBench and external CTIConnect & General CTI knowledge base; CWE catalogue off in the defended run & Dense, single hop & One CWE identifier & $3$ / $0.1$ & Map a vulnerability narrative to the NVD primary weakness class \\
+VSP / p.s. & CTIBench severity & Sanitized NVD/CVE descriptions & Dense, single hop & CVSS:3.1 vector & $3$ / $0.1$ & Apply the eight-metric CVSS algorithm \citep{first2024cvss} \\
+ATE / reas. & CTIBench technique extraction & MITRE ATT\&CK technique text & Dense, single hop & Technique-identifier set & $5$ / $0$ & Extract every technique the report supports \\
+ATA / reas. & CTIConnect technique identification & STIX definitions, procedures, and memo chunks & Four lists, RRF, constant $60$ & One technique identifier & $5$ / $0$ & Name the single behaviour from the fused cards \\
+TAA / reas. & CTIBench actor attribution & MITRE intrusion-set profiles & Three lists, CombSUM & One of three names, or abstain & $3$ / $0.1$ & Attribute the report from the shortlist \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
-\paragraph{Memorization.}
-Factual recall requires supporting passages and a constrained choice, not multi-step inference. Retrieval is cosine top-$k$ over the multiple-choice corpus and the parser forces a single letter, which suppresses the free-text drift that costs ungrounded models scorable answers:
+\subsubsection{Memorization pipeline for Factual Recall}
+The \textbf{CTI-MCQ} pipeline supports factual recall tasks emphasizing knowledge precision with minimal reasoning overhead. Factual recall needs supporting passages and a closed set of choices.  Therefore, the retrieval is the cosine top-$k$ over the multiple-choice corpus, and the parser accepts only one letter, as explained in Equations \eqref{eq:rmem} and Equation~\eqref{eq:amem}:
 \begin{align}
 R_{\mathrm{Mem}}(q)&=\mathrm{top}\text{-}k_{d\in\mathcal{K}_{\mathrm{MCQ}}}\cos\!\bigl(f(q),f(d)\bigr),\ k{=}5,\label{eq:rmem}\\
 A_{\mathrm{Mem}}(q)&=G_{\mathrm{Mem}}\!\bigl(P_{\mathrm{Mem}}(q,R_{\mathrm{Mem}}(q))\bigr)\in\{A,B,C,D\}.\label{eq:amem}
 \end{align}
+where $q$ is the question, $d$ is a passage in the multiple-choice corpus $\mathcal{K}_{\mathrm{MCQ}}$, $f(\cdot)$ is the sentence embedding, and $k{=}5$ keeps the five nearest passages. 
 
-\paragraph{Understanding.}
-Mapping a vulnerability description to its primary weakness class means aligning described behaviour with a governed taxonomy. The module can fuse a general knowledge-base arm with an optional weakness catalogue,
+%Equation~\eqref{eq:amem} forces the answer $A_{\mathrm{Mem}}(q)$ into one of the four letters.
+
+\subsubsection{Understanding pipeline for for Semantic Comprehension }
+The \textbf{CTA-RCM} pipeline advances semantic comprehension and taxonomic reasoning across CVE instances~\cite{liu2024threatkg}. It aligns a vulnerability description with one weakness class, and it can read a general knowledge base and, optionally, a CWE catalogue. 
+
+
 \begin{align}
 R_{\mathrm{KB}}(d_v)&=\mathrm{top}\text{-}k_{d\in\mathcal{K}_{\mathrm{KB}}}\cos\!\bigl(f(d_v),f(d)\bigr),\label{eq:rkb}\\
 R_{\mathrm{CWE}}(d_v)&=\mathrm{top}\text{-}k_{d\in\mathcal{K}_{\mathrm{CWE}}}\cos\!\bigl(f(d_v),f(d)\bigr),\label{eq:rcwe}\\
 R_{\mathrm{Und}}(d_v)&=R_{\mathrm{KB}}(d_v)\cup R_{\mathrm{CWE}}(d_v),\ k{=}3,\label{eq:rund}\\
 A_{\mathrm{Und}}(d_v)&=G_{\mathrm{Und}}\!\bigl(P_{\mathrm{Und}}(d_v,R_{\mathrm{Und}}(d_v))\bigr)=\widehat{\mathrm{CWE}},\label{eq:aund}
 \end{align}
-but the defended configuration disables the catalogue arm entirely,
+where $d_v$ is the vulnerability description, $\mathcal{K}_{\mathrm{KB}}$ is the general CTI knowledge base, and $\mathcal{K}_{\mathrm{CWE}}$ is the catalogue. $\widehat{\mathrm{CWE}}$ is the predicted identifier. The defended configuration uses the knowledge base, and the catalogue arm stays off:
 \begin{equation}
 R_{\mathrm{Und}}^{\mathrm{def}}(d_v)=R_{\mathrm{KB}}(d_v),
 \label{eq:rund-def}
 \end{equation}
-as a configuration choice. The current controlled runs do not isolate the effect of enabling this arm.
+The prompt is designed to incorporate knowledge-base evidence while excluding sibling classes from the catalogue. Future work will include an ablation study that restores the catalogue arm.
 
-\paragraph{Problem-solving.}
-Severity prediction assigns eight independent base metrics under a published algorithm \citep{first2024cvss}: rule application over technical evidence, not open-ended recall. The module retrieves analogous sanitized descriptions and emits a complete vector,
+\subsubsection{Problem-Solving Pipeline for Algorithmic Reasoning}
+The \textbf{CTA-VSP} pipeline focuses on algorithmic reasoning, where models apply the eight base metrics of the published CVSS algorithm to retrieved technical evidence \citep{first2024cvss}. The module retrieves analogous sanitized descriptions and emits a complete vector, as described in the following equations. 
 \begin{align}
 R_{\mathrm{PS}}(d)&=\mathrm{Sanitize}\Bigl(\mathrm{top}\text{-}k_{c\in\mathcal{K}_{\mathrm{CVSS}}}\cos\!\bigl(f(d),f(c)\bigr)\Bigr),\ k{=}3,\label{eq:rps}\\
 A_{\mathrm{PS}}(d)&=G_{\mathrm{PS}}\!\bigl(P_{\mathrm{PS}}(d,R_{\mathrm{PS}}(d))\bigr)=\widehat{V}.\label{eq:aps}
 \end{align}
-The primary metric retains every attempted item:
-\begin{equation}
-\mathrm{MAD}_{\mathrm{base}}=\frac{1}{n}\sum_{i=1}^{n}e_i,\qquad
- e_i=\begin{cases}|s(\widehat{V}_i)-s(V_i^\ast)|,&\text{valid prediction},\\10,&\text{invalid or unresolved failure},\end{cases}
-\label{eq:mad-base}
-\end{equation}
-where $s(\cdot)$ is the CVSS~v3.1 base score. A common successful-execution subset is a sensitivity analysis only.
+Here $d$ is the new vulnerability text, $c$ is a stored description, $\mathcal{K}_{\mathrm{CVSS}}$ is the sanitized corpus, $\mathrm{Sanitize}$ removes answer-bearing vulnerability fields from the neighbors and $\widehat{V}$ is the predicted vector. The evaluation score keeps every attempted item:
+\begin{align}
+\mathrm{MAD}_{\mathrm{base}}&=\frac{1}{n}\sum_{i=1}^{n}e_i,\label{eq:mad-base}\\
+ e_i&=\begin{cases}|s(\widehat{V}_i)-s(V_i^\ast)|,&\text{valid},\\10,&\text{invalid or failed.}\end{cases}\nonumber
+\end{align}
+$n$ is the number of attempted items in the evaluation, $s(\cdot)$ maps a vector to its CVSS~v3.1 base score, and $V_i^\ast$ is the reference vector. An invalid or failed output receives error $10$. A subset of items on which every system produced a valid vector is a sensitivity check only.
 
-\paragraph{Reasoning: technique extraction.}
-This is the most structurally constrained task in the suite, because the scorer requires parseable identifiers. A single retrieval hop supplies domain context and chain-of-thought precedes a forced comma-separated identifier line \citep{wei2022chain}:
+\subsubsection{Reasoning Pipeline for Analytical Inference: Technique Extraction (ATE)}
+The reasoning tier here handles one of the highest cognitive complexity, that is, \textbf{CTA-ATE}. The scorer requires parseable technique identifiers. One retrieval hop supplies domain context, and chain-of-thought \citep{wei2022chain} precedes a forced identifier line:
 \begin{align}
 R_{\mathrm{ATE}}(d)&=\mathrm{top}\text{-}k_{c\in\mathcal{K}_{\mathrm{domain}}}\cos\!\bigl(f(d),f(c)\bigr),\ k{=}5,\label{eq:rate}\\
 A_{\mathrm{ATE}}(d)&=G_{\mathrm{ATE}}\!\bigl(P_{\mathrm{ATE}}(d,R_{\mathrm{ATE}}(d))\bigr)=\widehat{\mathcal{T}},\label{eq:aate}
 \end{align}
-scored as per-instance multi-label F1,
+where $\mathcal{K}_{\mathrm{domain}}$ is the ATT\&CK technique index, $d$ is the report, and $\widehat{\mathcal{T}}$ is the predicted identifier set. The score is the mean per-report F1,
 \begin{equation}
 \mathrm{F1}_i=\frac{2|\widehat{\mathcal{T}}_i\cap\mathcal{T}_i^\ast|}{|\widehat{\mathcal{T}}_i|+|\mathcal{T}_i^\ast|},
 \qquad
 \overline{\mathrm{F1}}=\frac{1}{n}\sum_{i=1}^{n}\mathrm{F1}_i.
 \label{eq:ate-f1}
 \end{equation}
+$\mathcal{T}_i^\ast$ is the reference set for report $i$, and $n$ is the number of reports in the evaluation.
 
-\paragraph{Reasoning: technique identification (ATA).}
-ATA is the same reasoning mode as ATE, but the contract is a single ATT\&CK identifier rather than an open technique set.
-The retriever builds four gold-blind ranked lists: (i)~identifiers already present in a lexical memo of related CTI chunks, (ii)~procedure-example ranks, (iii)~technique-definition ranks, and (iv)~cue-to-ID anchors.
-Those lists are fused with published Reciprocal Rank Fusion \citep{cormack2009rrf}. An identifier $d$ that appears at rank $r_i(d)$ in list $i$ receives
+\subsubsection{Reasoning Pipeline for Analytical Inference: Technique Identification (ATA)}
+
+Another reasoning-based cognitive task is technique identification. \textbf{CTA-ATA} employs the same reasoning approach as CTA-ATE, but with a different contract: a single ATT\&CK identifier. The retriever constructs four lists without referencing the gold identifier: identifiers already present in a lexical memo of related CTI chunks, procedure-example ranks, technique-definition ranks, and cue-to-identifier anchors. We fuse the four lists with reciprocal rank fusion \citep{cormack2009rrf}. An identifier $d$ at rank $r_i(d)$ in list $i$ receives
 \begin{equation}
 \mathrm{RRF}(d)=\sum_{i}\frac{1}{k+r_i(d)},
-\qquad k{=}60,
+\qquad k{=}60.
 \label{eq:rrf}
 \end{equation}
-with equal source weights and the published smoothing constant $k{=}60$.
-Identifiers absent from a list contribute nothing. The top five fused techniques are formatted as ATT\&CK catalogue cards and passed to the same open \texttt{ata-single-v2} prompt used by Graph RAG: the generator may return any T-ID. An allow-list ablation that forces a pick from those five IDs is reported separately and is not the CTA-RAG ATA number.
+Rank $r_i(d)$ starts at $1$. The constant $k{=}60$ is the published default of Cormack et al., and we fix it before scoring the evaluation items. A list that omits $d$ adds nothing. The five highest-scoring identifiers are formatted as ATT\&CK cards and passed to the generator. In the main evaluation the generator may return any technique identifier. A second evaluation restricts the answer to the five retrieved identifiers.
 
-\paragraph{Reasoning: actor attribution (TAA).}
-TAA likewise keeps generation inside a shortlist. Three independently ordered actor lists are produced without gold labels: a Qwen3-4B evidence-query ranking over intrusion-set passages, five free-form actor hypotheses from the anonymised report, and five catalogue-constrained hypotheses from deterministic evidence excerpts.
-Each source rank is converted to a per-query min--max score in $[0,1]$ \citep{lee1997ir} and summed with equal weight as CombSUM \citep{fox1994combination}:
+\subsubsection{Reasoning Pipeline for Analytical Inference: Actor Attribution (TAA)}
+The \textbf{CTA-TAA} names one actor. In this model, we build three lists without gold labels: an evidence-query ranking over intrusion-set passages, five free-form hypotheses from the anonymized report, and five catalogue-constrained hypotheses from the evidence excerpts. Each rank is rescaled to the unit interval and the rescaled scores are added with equal weight. The rescaling step is min--max normalization \citeyearpar{lee1997ir}, and the addition step is CombSUM \citeyearpar{fox1994combination}. The two papers define the rules, which explains the early dates. Reciprocal rank fusion \citep{cormack2009rrf}, used for technique identifiers, is the later member of the same family: combine several rankings with weights fixed before the evaluation labels are read.
 \begin{align}
 s_i(a)&=1-\frac{r_i(a)-1}{|L_i|-1},\label{eq:taa-norm}\\
 \mathrm{CombSUM}(a)&=\sum_{i}s_i(a),\label{eq:taa-combsum}\\
 R_{\mathrm{TAA}}(d)&=\mathrm{top}\text{-}3_a\,\mathrm{CombSUM}(a),\label{eq:taa3}\\
-A_{\mathrm{TAA}}(d)&=G_{\mathrm{attr}}\bigl(d,R_{\mathrm{TAA}}(d)\bigr)\in\{1,2,3,\mathrm{NO\_MATCH}\}.\label{eq:taa4}
+A_{\mathrm{TAA}}(d)&=G_{\mathrm{attr}}\bigl(d,R_{\mathrm{TAA}}(d)\bigr)\label{eq:taa4}\\
+&\in\{1,2,3,\mathrm{NO\_MATCH}\}.\nonumber
 \end{align}
-Actors missing from a source receive score zero. No source weights are fitted on evaluation labels. The generator sees the report and exactly three named candidates.
+$L_i$ is source list $i$, $r_i(a)$ is the rank of actor $a$ in that list, and $s_i(a)$ is the rescaled rank. An actor missing from a list scores zero. We keep the three source weights equal, and we fix the weights before reading the evaluation labels. The generator sees the report and the three names and returns one of the three shortlisted names, or abstains. Section~\ref{sec:taa-ata-pipeline} states which shortlist the completed generation run used.
 
-\paragraph{Decoding and hallucination scoring.}
-The controlled harness configures \texttt{gpt-4-turbo} with temperature zero, $top\_p=1$, and an 800-token answer budget for the peer controls. Specialist pipelines may invoke additional internal calls. The comparison therefore evaluates complete systems, including their output handling.
-
-Hallucination here is not free-prose faithfulness. After decoding, each task parser either accepts a governed token or rejects the string. An output that does not parse (no letter, no \texttt{CWE-}, no CVSS vector, no \texttt{T\#\#\#\#}) is a \emph{schema failure}. An output that parses and is still wrong is a \emph{fluent error}: a well-formed CWE, CVSS vector, or ATT\&CK ID assigned to the wrong item \citep{maynez2020faithfulness,ji2023survey}. Section~\ref{sec:hallucination} reports that split on the 290 external CTIConnect RCM items. We do not annotate unsupported claims in free prose.
+% \subsubsection{Decoding}
+% Each specialist has its own decoding temperature, listed in Table~\ref{tab:pipe-config}. Temperatures stay at or near zero so that a difference between systems reflects the pipeline. Technique extraction and technique attribution use temperature $0$ because each answer is an identifier string. The comparison systems use GPT-4-turbo at temperature $0$, with $top\_p{=}1$ and an 800-token budget. After decoding, the weakness-mapping parser either rejects the string or accepts a CWE. Section~\ref{sec:hallucination} scores the accepted-but-wrong case as a hallucination.
 
 \section{Experimental Setup}\label{sec:setup}
 
 \subsection{Benchmark and cognitive roles}\label{sec:benchmark}
 
-Five CTIBench tasks use the four cognitive modes in Table~\ref{tab:pipe-config} \citep{alam2024ctibench}. MCQ, RCM, VSP, ATE, and TAA are native CTIBench files. ATA is the CTIConnect technique-identification set ($n{=}160$). External RCM uses the 290 matched CTIConnect items \citep{cheng2026cticonnect}. Metrics follow Table~\ref{tab:pipe-config}: A--D accuracy, exact CWE, CVSS base-score MAD, per-instance technique F1, actor alias match, and exact ATT\&CK ID.
+Following the design of the six specialist pipelines, we evaluate the framework on the corresponding CTI benchmark tasks. The main evaluation uses five CTIBench datasets \citep{alam2024ctibench}: multiple-choice questions (MCQ, $n{=}2{,}500$), root-cause mapping (RCM, $n{=}1{,}000$), vulnerability severity prediction (VSP, $n{=}1{,}000$), attack technique extraction (ATE, $n{=}60$), and threat-actor attribution (TAA, $n{=}50$). We further evaluate technique attribution (ATA, $n{=}160$) on CTIConnect and use its 290 matched items for external root-cause mapping evaluation \citep{cheng2026cticonnect}. Each count corresponds to the full item count of the published file and serves as the denominator for answer accuracy. All systems are evaluated on the same item identifiers within each dataset.
+
+We first examine whether the cascade selects the specialist specified in each instruction. It agrees with the named specialist on 2,498 of 2,500 MCQ items, 992 of 1,000 RCM items, all 1,000 VSP items, all 60 ATE items, all 50 TAA items, and 142 of 160 ATA items, yielding 4,742 agreements across 4,770 instructions (Table~\ref{tab:route-accuracy}). The remaining two MCQ items, eight RCM items, and 18 ATA items are routed to a different specialist. The two MCQ items and eight RCM items remain in their original answer-accuracy denominators, and their answers are scored from the specialist actually selected by the cascade. VSP, ATE, and TAA match the named specialist on every item. The 18 ATA misses are a router-only check: they do not change the ATA answer denominator, which still scores the designated ATA specialist.
+
+We then assess the answers produced by each specialist using the metric defined for its task. MCQ accuracy measures the fraction of items for which the parsed answer letter matches the reference; unparsed responses and responses without a letter count as incorrect. RCM accuracy requires an exact match between the predicted and reference CWE identifiers. For VSP, we report the mean absolute deviation (MAD) of CVSS base scores. When the predicted vector parses, the item error is the absolute difference between the predicted and reference base scores; malformed vectors and failed calls receive an error of 10. ATE is evaluated using the mean report-level F1 between the predicted and reference technique-identifier sets, after mapping sub-techniques to their parent techniques. ATA uses exact-match accuracy on technique identifiers, while TAA uses alias matching on actor names.
+
+For ATA and TAA, we additionally evaluate retrieval performance before generation using Recall@$k$, which measures the fraction of items whose reference technique identifier or actor appears among the top-$k$ retrieved candidates. This allows us to examine candidate retrieval separately from the generator's final prediction. End-to-end accuracy measures whether the generated answer matches the reference, whereas route accuracy measures whether the request reaches the specialist specified in its instruction. These metrics capture different stages of the framework: selecting the intended specialist does not necessarily guarantee a correct answer.
 
 \subsection{Knowledge infrastructure}\label{sec:kb}
-CTA-RAG does not query one shared bag of passages for every task. It loads six local stores built from public CTI sources:
+CTA-RAG loads six local stores built from public CTI sources, one store for each specialist:
 
 \begin{itemize}[leftmargin=*,nosep,topsep=2pt]
 \item \texttt{memorization\_vdb}: web CTI and ATT\&CK-linked pages, dense FAISS, used by MCQ.
@@ -465,34 +624,34 @@ CTA-RAG does not query one shared bag of passages for every task. It loads six l
 \item TAA profiles: MITRE intrusion-set records (canonical name, aliases, malware, tools, campaigns).
 \end{itemize}
 
-The Closed Book, Unified, Self-RAG, Graph RAG, Adaptive-RAG, and TAdaRAG columns retrieve from a shared dense FAISS corpus of the same public CTI collection, with $k$ passages injected into a task prompt. CTA-RAG is the only column that switches the index with the specialist. Query-time sanitization strips answer-bearing CVE metadata from VSP neighbours. The same public sources can still overlap the benchmarks; we do not claim index-level disjointness.
+Query-time sanitisation strips answer-bearing CVE metadata from VSP neighbours. The stores are built from public CTI text, and the benchmarks quote the same public sources. A retrieved passage can therefore repeat wording that also appears in the test item. In that case a retrieval score can look stronger than on text absent from the index. The numbers in this paper include that possibility. Removing benchmark sentences from the index before retrieval is the check that would separate repeated source text from evidence the model still has to use.
 
 \subsection{Controlled baselines}\label{sec:baselines}
-Seven systems share the answer model and the task parser. What changes is retrieval and, for CTA-RAG, the specialist stack.
+We implemented six comparison systems in this study, and we ran CTA-RAG beside the six systems. Every system sees the same items and the same generator, GPT-4-turbo, so a difference in score comes from retrieval, prompting, and parsing. Table~\ref{tab:main} uses the names below.
 
 \begin{itemize}[leftmargin=*,nosep,topsep=2pt]
-\item \textbf{Closed Book.} No retrieved context. The model sees the item and the task prompt only.
-\item \textbf{Unified RAG.} Dense top-$k$ over the shared corpus; one retrieve-then-generate path for every task.
-\item \textbf{Self-RAG.} The model may retrieve, critique the passages, and skip empty or low-value context before answering \citep{asai2023selfrag}.
-\item \textbf{Graph RAG.} Entity-guided multi-query retrieval: named entities from the item spawn extra queries over the same FAISS store, then the concatenated neighbourhood is generated over \citep{edge2024graphrag}. On TAA the saved traces coincide with Unified RAG on almost every report.
-\item \textbf{Adaptive-RAG.} A complexity estimate selects retrieval depth (none, single hop, or iterative) before generation \citep{jeong2024adaptive}.
-\item \textbf{TAdaRAG (Dual-Query).} A second, task-shaped query is issued beside the original item so retrieval is not a single embedding of the raw string \citep{zhang2026tadarag}.
-\item \textbf{CTA-RAG.} The specialist in Table~\ref{tab:pipe-config}: its own index, prompt, and parser.
+\item \textbf{Closed Book.} The model sees the item and the task prompt. We retrieve no passages.
+\item \textbf{Unified RAG.} We follow the original retrieve-then-generate pattern \citep{lewis2020rag}: one dense top-$k$ search over one shared corpus, then one generation call, for every task.
+\item \textbf{Self-Critique RAG.} Following Self-RAG \citep{asai2023selfrag}, the model may retrieve, critique the passages, and skip empty or low-value context before answering.
+\item \textbf{Entity-Guided Multi-Query RAG.} Following GraphRAG \citep{edge2024graphrag}, named entities in the item create extra queries, and we append the entity passages to one shared prompt. We implemented the GraphRAG idea on our index so the comparison uses our corpus and our generator. Entity-Guided RAG keeps one index and one parser for every task. CTA-RAG selects a specialist, searches that specialist's index, and applies that specialist's prompt and parser.
+\item \textbf{Adaptive-RAG.} Following Jeong et al.\ \citep{jeong2024adaptive}, a complexity estimate selects retrieval depth: none, one hop, or iterative retrieval, and then generation.
+\item \textbf{Dual-Query RAG.} Following TAdaRAG \citep{zhang2026tadarag}, a second, task-shaped query is issued beside the original item.
+\item \textbf{CTA-RAG.} The specialist in Table~\ref{tab:pipe-config}, with its own index, prompt, and parser.
 \end{itemize}
 
-All columns are local item-level predictions, rescored with one parser and one TAA alias policy.
+\subsection{What is held fixed}\label{sec:integrity}
+Every system answers the same items with GPT-4-turbo. CTA-RAG uses the specialist index, prompt, and parser in Table~\ref{tab:pipe-config}. Each comparison system uses the retrieval procedure in Section~\ref{sec:baselines} and the prompt we wrote for that task. A difference in Table~\ref{tab:main} is a difference among the pipelines.
 
-\subsection{Evaluation protocol}\label{sec:integrity}
-On CTIBench MCQ, RCM, VSP, and ATE the CTA-RAG column uses the cascade in Section~\ref{sec:router} on the benchmark instruction files. Task scores and route labels are reported separately; route labels are not treated as a deployment claim about unlabelled traffic. Full attempted denominators are 2,500 MCQ, 1,000 RCM, 1,000 VSP, 60 ATE, 50 TAA, and 160 ATA. Invalid categorical outputs count as incorrect; invalid severity vectors and unresolved failures receive an error penalty of 10. Paired tests are in Section~\ref{sec:main-results}. External RCM is the 290 CTIConnect items. External ATA is the 160-item identification set, not a second RCM table.
+Each specialist has its own decoding temperature, listed in Table~\ref{tab:pipe-config}. Temperatures stay at or near zero so that a difference between systems reflects the pipeline. Technique extraction and technique attribution use temperature $0$ because each answer is an identifier string. The comparison systems use GPT-4-turbo at temperature $0$, with $top\_p{=}1$ and an 800-token budget. After decoding, the weakness-mapping parser either rejects the string or accepts a CWE. Section~\ref{sec:hallucination} scores the accepted-but-wrong case as a hallucination.
 
-\subsection{How TAA and ATA run}\label{sec:taa-ata-pipeline}
-Both specialists are gold-blind. No gold actor or gold T-ID is written into a query, list, or prompt.
+For TAA and ATA the metrics in Section~\ref{sec:benchmark} split retrieval from the final answer. Recall@$k$ asks whether the reference actor or technique identifier is in the retrieved list. End-to-end accuracy scores the parsed answer. On ATA, CTA-RAG and Entity-Guided RAG may both return any technique identifier, including one absent from the five cards. A second CTA-RAG run restricts the answer to the five retrieved identifiers. On TAA, every reported system chooses among the three actors in its own shortlist, or abstains. An invalid categorical output counts as incorrect.
 
-TAA. The anonymised report is scored three ways: a Qwen3-4B evidence-query ranking over intrusion-set passages, five report-only actor hypotheses, and five catalogue-constrained hypotheses on evidence excerpts. Those lists are fused with equal-weight rank-normalised CombSUM (Eq.~\eqref{eq:taa-combsum}). The top three names may be reordered by gold-blind lexical overlap (aliases, malware, tools, campaigns). The answer model sees the report and those three names only and must return 1, 2, 3, or \texttt{NO\_MATCH}. Scoring uses \texttt{benchmark\_alias\_match}. Recall@3 is whether gold is in the fused shortlist. Table~\ref{tab:taa-main} reports constrained generation on the Qwen evidence-query shortlist; CombSUM is the retrieval ablation in Table~\ref{tab:taa-retrieval}.
+\subsection{How the auxiliary lists are built}\label{sec:taa-ata-pipeline}
+We keep the reference actor and the reference technique identifier out of the query, the list, and the prompt.
 
-ATA. Four ATT\&CK lists are retrieved from the report: lexical memo IDs, procedure-example ranks (wider $k{=}8$), definition ranks (wider $k{=}8$), and cue anchors. Equal-weight RRF with $k{=}60$ (Eq.~\eqref{eq:rrf}) produces a ranked pool. The top five techniques are formatted as catalogue cards. Generation uses the Graph RAG \texttt{ata-single-v2} prompt: any T-ID is legal. Exact match is $\mathrm{pred}=\mathrm{gold}$; a parent ID is not exact. Table~\ref{tab:ata-retrieval} is retrieval-only; Table~\ref{tab:ata-e2e} is generation. An allow-list run that forces a pick from the five fused IDs is an ablation, not the CTA-RAG ATA score.
+For TAA we fuse the three lists in Section~\ref{sec:pipelines} with equal-weight CombSUM (Eq.~\eqref{eq:taa-combsum}). The generation run asks the model to choose among the three names on each system's evidence-query shortlist.
 
-Peer RAG rows on TAA and ATA use each system's saved evidence under the same parsers: Graph RAG entity multi-query, Unified dense $k$, Self-RAG with possible empty retrieval, Adaptive depth selection, TAdaRAG dual query, then the shared open ATA prompt or the TAA constrained shortlist built from that evidence.
+For ATA we fuse a lexical memo, procedure ranks ($k{=}8$), definition ranks ($k{=}8$), and cue anchors with reciprocal rank fusion, constant $k{=}60$ (Eq.~\eqref{eq:rrf}). The generator may return any technique identifier. A second run accepts only one of the five retrieved identifiers.
 
 
 
@@ -504,28 +663,17 @@ Peer RAG rows on TAA and ATA use each system's saved evidence under the same par
 \section{Results and Analysis}\label{sec:results}
 %%==============================================================================
 
-MCQ and RCM count invalid answers as errors. ATE is mean per-instance F1 after mapping sub-techniques to parents. VSP is CVSS v3.1 base-score MAD, with MAD ${=}10$ for malformed vectors. TAA and ATA follow Section~\ref{sec:taa-ata-pipeline}.
+Section~\ref{sec:intro} states three research questions (RQs). This section answers RQ1, RQ2, and RQ3 in that order. RQ1 covers five CTIBench tasks, multiple-choice questions (MCQ), root-cause mapping (RCM), vulnerability severity prediction (VSP), attack technique extraction (ATE), and threat-actor attribution (TAA), with GPT-4-turbo held fixed. Table~\ref{tab:main} reports the first four tasks, which share one scale. TAA uses actor match on 50 reports, so that part of RQ1 is Section~\ref{sec:taa-results}. RQ2 compares route accuracy with answer accuracy on the six instruction files, including TAA and ATA. RQ3 reports the item-level change from the Closed Book answer, and candidate recall beside the end-to-end score on TAA and technique attribution (ATA).
 
-\subsection{RQ1: Does task specialization improve CTI performance?}
+\subsection{Four CTIBench datasets}
 \label{sec:main-results}
 
-CTA-RAG achieves the highest observed RCM accuracy and ATE F1 and the
-lowest VSP MAD, whereas Adaptive-RAG-adapted obtains the highest MCQ
-accuracy (Table~\ref{tab:main}). Relative to Unified RAG, CTA-RAG improves
-RCM accuracy by 4.70 percentage points and reduces VSP MAD by 0.1648.
-The corresponding differences on MCQ and ATE are smaller, at 0.92
-percentage points and 0.0386 F1, respectively. These results indicate that
-the value of specialization depends on the decision required by each task
-rather than retrieval being uniformly beneficial.
+RQ1 begins with the four-task comparison in Table~\ref{tab:main}, which reports MCQ, RCM, VSP, and ATE for every system. TAA, the fifth task in RQ1, follows in Section~\ref{sec:taa-results}. Bold marks the best number in that column. A green cell marks a column in which that best number belongs to CTA-RAG. The best number is the point estimate. A paired test, in Table~\ref{tab:paired-focus}, asks whether that lead is larger than the item-to-item variation. On ATE the lead sits on 60 reports, so the best number and a corrected significant difference come apart. A larger extraction set is what would test that same lead again.
 
 \begin{table*}[t]
 \centering
 \small
-\caption{Full-attempt CTIBench results. MCQ and RCM are reported as
-accuracy percentages, ATE as mean per-instance F1, and VSP as CVSS
-base-score MAD, where lower is better. Invalid vectors and unresolved API
-failures receive an error of 10 in the primary VSP evaluation for every system. Bold denotes
-the best point estimate and does not imply statistical significance.}
+\caption{Full-attempt CTIBench results. Sample sizes are $n{=}2{,}500$ MCQ, $n{=}1{,}000$ RCM, $n{=}1{,}000$ VSP, and $n{=}60$ ATE. MCQ and RCM are accuracy percentages and ATE is mean F1, all higher-better. VSP is CVSS base-score mean absolute deviation, lower-better. An invalid vector or a failed call scores 10 on VSP. Closed Book is our no-retrieval run. The other names are the retrieval mechanisms we implemented on the same items.}
 \label{tab:main}
 \setlength{\tabcolsep}{5pt}
 \begin{tabular}{@{}lrrrr@{}}
@@ -536,58 +684,61 @@ Closed Book                    & 71.00 & 68.90 & 1.3302 & 0.4149 \\
 Unified RAG                    & 73.92 & 68.70 & 1.2638 & 0.9167 \\
 Self-Critique RAG              & 74.00 & 69.40 & 1.2531 & 0.9178 \\
 Entity-Guided Multi-Query RAG  & 74.16 & 68.80 & 1.3043 & 0.9178 \\
-Adaptive-RAG-adapted           & \textbf{75.48} & 69.50 & 1.2170 & 0.9133 \\
+Adaptive-RAG                   & \textbf{75.48} & 69.50 & 1.2170 & 0.9133 \\
 Dual-Query RAG                 & 74.48 & 69.20 & 1.3297 & 0.9158 \\
-CTA-RAG                        & 74.84 & \textbf{73.40} & \textbf{1.0990} & \textbf{0.9554} \\
+CTA-RAG                        & 74.84 & \cellcolor{ctagood}\textbf{73.40} & \cellcolor{ctagood}\textbf{1.0990} & \cellcolor{ctagood}\textbf{0.9554} \\
 \bottomrule
 \end{tabular}
-\par\smallskip
-\footnotesize
-The task sizes are $n=2{,}500$ for MCQ, $n=1{,}000$ for RCM,
-$n=1{,}000$ for VSP, and $n=60$ for ATE. Closed Book denotes our local
-no-retrieval run; the remaining baseline names describe the mechanisms
-implemented under the controlled protocol.
 \end{table*}
 
-Figure~\ref{fig:current-results} is RQ1: four native metrics on the seven systems in Section~\ref{sec:baselines} (Closed Book, Unified RAG, Self-RAG, Graph RAG, Adaptive-RAG, TAdaRAG, CTA-RAG). TAA is Table~\ref{tab:taa-main}, not a fifth bar panel, because its metric is constrained actor match on $n{=}50$. Figure~\ref{fig:config-heatmap} asks whether the ranking of those seven is the same on every task (it is not).
+Figure~\ref{fig:current-results} shows the same four scores as bars. The tallest MCQ bar is Adaptive-RAG. The tallest RCM and ATE bars, and the lowest VSP bar, are CTA-RAG. Figure~\ref{fig:config-heatmap} puts the seven systems on one grid. The dark cell moves from column to column, so the system to deploy depends on the artefact the analyst asked for. TAA uses actor match on 50 reports and is reported later, on its own scale, in Table~\ref{tab:taa-main}.
 
 \begin{figure*}[t]
 \centering
 \begin{tikzpicture}
+\definecolor{barblue}{RGB}{31,119,180}
+\definecolor{barorange}{RGB}{255,127,14}
 \begin{groupplot}[
-  group style={group size=2 by 2, horizontal sep=1.55cm, vertical sep=1.65cm},
-  width=0.42\textwidth, height=4.4cm,
+  group style={group size=2 by 2, horizontal sep=1.7cm, vertical sep=1.9cm},
+  width=0.42\textwidth, height=5.1cm,
   ybar,
-  /pgf/bar width=7pt,
+  /pgf/bar width=8pt,
   symbolic x coords={CB,Unif,Self,Ent,Ada,Dual,CTA},
   xtick=data,
+  xticklabels={CB,Unif,Self,Ent,AdaRAG,TAdaRAG,CTA},
   x tick label style={rotate=45, anchor=east, font=\tiny},
-  tick label style={font=\scriptsize},
-  title style={font=\small\bfseries},
-  label style={font=\scriptsize},
-  ymajorgrids=true, grid style={gray!18},
-  axis lines*=left,
-  enlarge x limits=0.14
+tick label style={font=\scriptsize},
+title style={font=\small\bfseries},
+label style={font=\scriptsize},
+  ymajorgrids=true, grid style={gray!25},
+axis lines*=left,
+  enlarge x limits=0.16,
+  ymin=0,
+  enlarge y limits={upper,value=0.28},
+  nodes near coords,
+  every node near coord/.append style={
+    font=\tiny, rotate=90, anchor=west, inner sep=0.5pt,
+    /pgf/number format/fixed, /pgf/number format/precision=2
+  }
 ]
-\nextgroupplot[title={MCQ accuracy (\%)}, ylabel={Higher better}, ymin=69.5, ymax=77]
-\addplot[fill=teal!55, draw=teal!75!black] coordinates {(CB,71.00) (Unif,73.92) (Self,74.00) (Ent,74.16) (Ada,75.48) (Dual,74.48) (CTA,74.84)};
-\nextgroupplot[title={RCM accuracy (\%)}, ymin=66, ymax=76]
-\addplot[fill=teal!55, draw=teal!75!black] coordinates {(CB,68.90) (Unif,68.70) (Self,69.40) (Ent,68.80) (Ada,69.50) (Dual,69.20) (CTA,73.40)};
-\nextgroupplot[title={VSP MAD}, ylabel={Lower better}, ymin=1.02, ymax=1.40]
-\addplot[fill=teal!55, draw=teal!75!black] coordinates {(CB,1.3302) (Unif,1.2638) (Self,1.2531) (Ent,1.3043) (Ada,1.2170) (Dual,1.3297) (CTA,1.0990)};
-\nextgroupplot[title={ATE mean F1}, ymin=0.32, ymax=1.05]
-\addplot[fill=teal!55, draw=teal!75!black] coordinates {(CB,0.4149) (Unif,0.9167) (Self,0.9178) (Ent,0.9178) (Ada,0.9133) (Dual,0.9158) (CTA,0.9554)};
+\nextgroupplot[title={MCQ accuracy, higher better}, ylabel={Percent}]
+\addplot[fill=barblue, draw=barblue!60!black] coordinates {(CB,71.00) (Unif,73.92) (Self,74.00) (Ent,74.16) (Ada,75.48) (Dual,74.48) (CTA,74.84)};
+\nextgroupplot[title={RCM accuracy, higher better}, ylabel={Percent}]
+\addplot[fill=barblue, draw=barblue!60!black] coordinates {(CB,68.90) (Unif,68.70) (Self,69.40) (Ent,68.80) (Ada,69.50) (Dual,69.20) (CTA,73.40)};
+\nextgroupplot[title={VSP error, lower better}, ylabel={MAD}, every node near coord/.append style={/pgf/number format/precision=2}]
+\addplot[fill=barorange, draw=barorange!70!black] coordinates {(CB,1.3302) (Unif,1.2638) (Self,1.2531) (Ent,1.3043) (Ada,1.2170) (Dual,1.3297) (CTA,1.0990)};
+\nextgroupplot[title={ATE mean F1, higher better}, ylabel={F1}]
+\addplot[fill=barblue, draw=barblue!60!black] coordinates {(CB,0.4149) (Unif,0.9167) (Self,0.9178) (Ent,0.9178) (Ada,0.9133) (Dual,0.9158) (CTA,0.9554)};
 \end{groupplot}
 \end{tikzpicture}
-\caption{\textbf{Main four-task comparison (RQ1).}
-The seven bars are Closed Book (CB), Unified RAG, Self-RAG, Graph RAG (Ent), Adaptive-RAG (Ada), TAdaRAG (Dual), and CTA-RAG.
-Values are Table~\ref{tab:main}.
-MCQ, RCM, and ATE: higher is better. VSP: lower is better.
-Adaptive-RAG leads MCQ; CTA-RAG leads RCM, VSP, and ATE at the point estimate.
-TAA is Table~\ref{tab:taa-main}.}
+\caption{\textbf{Main four-task comparison.}
+Each panel names its own direction. MCQ, RCM, and ATE are higher-better. VSP is lower-better.
+The bars are Closed Book (CB), Unified RAG, Self-Critique RAG (Self), Entity-Guided RAG (Ent), Adaptive-RAG (AdaRAG), Dual-Query RAG (TAdaRAG), and CTA-RAG.
+Numbers are Table~\ref{tab:main}.
+Adaptive-RAG leads MCQ. CTA-RAG leads RCM, VSP, and ATE on the point estimate.}
 \label{fig:current-results}
 \end{figure*}
-
+    
 \begin{figure*}[t]
 \centering
 \begin{tikzpicture}[font=\scriptsize]
@@ -635,68 +786,11 @@ TAA is Table~\ref{tab:taa-main}.}
 \end{tikzpicture}
 \caption{\textbf{Configuration-by-task heatmap.}
 Each column is min--max scaled independently so darker teal is better \emph{on that task}.
-No configuration is darkest in every column: Adaptive-RAG-adapted is strongest on MCQ; CTA-RAG is strongest on RCM, VSP, and ATE.}
+No configuration is darkest in every column: Adaptive-RAG is strongest on MCQ; CTA-RAG is strongest on RCM, VSP, and ATE.}
 \label{fig:config-heatmap}
 \end{figure*}
 
-Figure~\ref{fig:task-radar} is the same four-task numbers as Table~\ref{tab:main}, drawn as a closed profile so one system that wins one axis and loses another is visible without reading four columns.
-
-\begin{figure}[t]
-\centering
-\begin{tikzpicture}[scale=0.92]
-  \def\R{3.15}
-  \foreach \pct in {20,40,60,80,100} {
-    \pgfmathsetmacro{\rr}{\R*\pct/100}
-    \draw[gray!22] (90:\rr) -- (0:\rr) -- (-90:\rr) -- (180:\rr) -- cycle;
-    \node[font=\tiny, text=gray!55] at (90:\rr+0.18) {\pct};
-  }
-  \draw[gray!50] (90:\R) -- (-90:\R);
-  \draw[gray!50] (0:\R) -- (180:\R);
-  \node[font=\scriptsize\bfseries, anchor=south] at (90:\R+0.42) {MCQ acc.};
-  \node[font=\scriptsize\bfseries, anchor=west] at (0:\R+0.28) {RCM acc.};
-  \node[font=\scriptsize\bfseries, anchor=north] at (-90:\R+0.38) {ATE F1$\times$100};
-  \node[font=\scriptsize\bfseries, anchor=east, align=right] at (180:\R+0.12) {VSP\\$100(1{-}\mathrm{MAD}/10)$};
-  % Closed Book
-  \fill[gray!35, opacity=0.22]
-    (90:0.71*\R) -- (0:0.689*\R) -- (-90:0.4149*\R) -- (180:0.86698*\R) -- cycle;
-  \draw[gray!60!black, thick]
-    (90:0.71*\R) -- (0:0.689*\R) -- (-90:0.4149*\R) -- (180:0.86698*\R) -- cycle;
-  % Unified RAG
-  \fill[orange!50, opacity=0.18]
-    (90:0.7392*\R) -- (0:0.687*\R) -- (-90:0.9167*\R) -- (180:0.87362*\R) -- cycle;
-  \draw[orange!75!black, thick]
-    (90:0.7392*\R) -- (0:0.687*\R) -- (-90:0.9167*\R) -- (180:0.87362*\R) -- cycle;
-  % Adaptive
-  \fill[blue!35, opacity=0.16]
-    (90:0.7548*\R) -- (0:0.695*\R) -- (-90:0.9133*\R) -- (180:0.8783*\R) -- cycle;
-  \draw[blue!70!black, thick]
-    (90:0.7548*\R) -- (0:0.695*\R) -- (-90:0.9133*\R) -- (180:0.8783*\R) -- cycle;
-  % CTA-RAG
-  \fill[teal!50, opacity=0.22]
-    (90:0.7484*\R) -- (0:0.734*\R) -- (-90:0.9554*\R) -- (180:0.8901*\R) -- cycle;
-  \draw[teal!75!black, very thick]
-    (90:0.7484*\R) -- (0:0.734*\R) -- (-90:0.9554*\R) -- (180:0.8901*\R) -- cycle;
-  \node[draw=none, fill=white, inner sep=2pt, font=\tiny, align=left, anchor=north west]
-    at (-3.55,-3.85) {%
-    \textcolor{gray!60!black}{\rule{6pt}{6pt}} Closed Book\\
-    \textcolor{orange!75!black}{\rule{6pt}{6pt}} Unified RAG\\
-    \textcolor{blue!70!black}{\rule{6pt}{6pt}} Adaptive-RAG-adapted\\
-    \textcolor{teal!75!black}{\rule{6pt}{6pt}} CTA-RAG};
-\end{tikzpicture}
-\caption{\textbf{Four-task profile (RQ1).}
-Axes are higher-is-better percents from Table~\ref{tab:main}.
-VSP is $100\times(1-\mathrm{MAD}/10)$ under the paper's MAD${=}10$ ceiling, not a native accuracy.
-Closed Book collapses on ATE; Adaptive-RAG-adapted leads MCQ; CTA-RAG leads RCM and ATE.}
-\label{fig:task-radar}
-\end{figure}
-
-After multiplicity correction, CTA-RAG significantly outperforms Unified
-RAG on RCM ($p_{\mathrm{Holm}}=0.0213$) and VSP
-($p_{\mathrm{Holm}}=0.0483$). The VSP result is close to the 0.05
-threshold and should therefore be interpreted cautiously. The MCQ
-difference is not statistically established. Although CTA-RAG has the
-highest observed ATE F1, its advantage over the retrieval baselines does
-not remain significant after correction.
+Table~\ref{tab:paired-focus} and Figure~\ref{fig:paired-effects} report the paired comparisons behind the four readings.
 
 \begin{table*}[t]
 \centering
@@ -713,11 +807,11 @@ multiplicity-corrected statistical evidence.}
 Task & Comparator & CTA-RAG benefit & 95\% paired CI & Holm $p$ \\
 \midrule
 MCQ & Unified RAG                    & +0.92   & [-0.48, 2.32]   & $1.0000$ \\
-MCQ & Adaptive-RAG-adapted           & -0.64   & [-2.08, 0.76]   & $1.0000$ \\
+MCQ & Adaptive-RAG           & -0.64   & [-2.08, 0.76]   & $1.0000$ \\
 RCM & Unified RAG                    & +4.70   & [2.00, 7.50]    & $0.0213$ \\
-RCM & Adaptive-RAG-adapted           & +3.90   & [1.20, 6.60]    & $0.0730$ \\
+RCM & Adaptive-RAG           & +3.90   & [1.20, 6.60]    & $0.0730$ \\
 VSP & Unified RAG                    & +0.1648 & [0.0552, 0.2717]& $0.0483$ \\
-VSP & Adaptive-RAG-adapted           & +0.1180 & [0.0108, 0.2229]& $0.3237$ \\
+VSP & Adaptive-RAG           & +0.1180 & [0.0108, 0.2229]& $0.3237$ \\
 ATE & Unified RAG                    & +0.0386 & [0.0007, 0.0766]& $0.4527$ \\
 ATE & Self-Critique RAG              & +0.0375 & [-0.0003, 0.0753]& $0.4527$ \\
 ATE & Entity-Guided Multi-Query RAG  & +0.0375 & [-0.0003, 0.0753]& $0.4527$ \\
@@ -727,9 +821,9 @@ ATE & Entity-Guided Multi-Query RAG  & +0.0375 & [-0.0003, 0.0753]& $0.4527$ \\
 \footnotesize
 MCQ and RCM effects are percentage points, VSP effects are reductions in
 MAD, and ATE effects are increases in F1. Holm correction covers all
-24 primary comparisons, including those omitted from this compact table.
+24 primary comparisons, including the comparisons omitted from this compact table.
 \end{table*}
-Figure~\ref{fig:paired-effects} shows the paired effect sizes and their uncertainty on task-specific scales.
+Figure~\ref{fig:paired-effects} shows each paired effect size with its uncertainty on the task-specific scale.
 
 \begin{figure*}[t]
 \centering
@@ -1005,149 +1099,210 @@ teal!80!black
 Points denote paired effect estimates and horizontal intervals show pointwise
 95\% bootstrap confidence intervals. Positive values favor CTA-RAG, and the
 dashed vertical line denotes no difference. Adaptive denotes
-Adaptive-RAG-adapted. Self-Critique RAG and Entity-Guided Multi-Query RAG
+Adaptive-RAG. Self-Critique RAG and Entity-Guided Multi-Query RAG
 have identical ATE estimates and are therefore shown as a single
-\emph{Self / Entity} row. Intervals are not multiplicity-adjusted; statistical
-inference after Holm correction is reported in Table~\ref{tab:paired-focus}.
+\emph{Self / Entity} row. The intervals are pointwise, and Table~\ref{tab:paired-focus}
+reports the Holm-corrected inference.
 }
 
 \label{fig:paired-effects}
 
 \end{figure*}
 
-\paragraph{MCQ: shared retrieval remains competitive.}
-Adaptive-RAG-adapted achieves 75.48\% accuracy, compared with 74.84\% for
-CTA-RAG, corresponding to a difference of 16 questions. Their paired
-comparison does not establish a statistically significant difference after
-correction. Nevertheless, every retrieval-based system performs above the
-71.00\% Closed Book result. This suggests that supplying relevant factual
-evidence captures much of the available MCQ benefit and that specialization
-does not provide a demonstrated advantage over the adaptive configuration
-for this task.
+\paragraph{Multiple-choice questions.}
+On MCQ ($n{=}2{,}500$), Adaptive-RAG reaches 75.48\% and CTA-RAG reaches 74.84\%, a difference of 16 questions. Closed Book is 71.00\%, and every retrieval system sits above that line. The paired interval of CTA-RAG against Adaptive-RAG includes zero after Holm correction (Table~\ref{tab:paired-focus}). On this dataset, passages from the shared corpus already supply the fact the letter asks for, and the specialist pipeline adds no further demonstrated gain.
 
-\paragraph{RCM: exact mapping benefits from task-aligned constraints.}
-CTA-RAG reaches 73.40\% accuracy, compared with 68.70\% for Unified RAG
-and 69.50\% for Adaptive-RAG-adapted, the strongest competing retrieval
-baseline on this task. The RCM specialist combines knowledge-base evidence
-with CWE-specific instructions while avoiding the automatic injection of
-potentially confusing catalogue neighbours. This design reflects the
-the task's requirement to identify one primary weakness rather than return a
-set of related concepts. The improvement over Unified RAG is statistically
-supported, whereas the 3.90-point advantage over Adaptive-RAG-adapted does
-not remain significant after Holm correction
-($p_{\mathrm{Holm}}=0.0730$).
+\paragraph{Root-cause mapping.}
+On RCM ($n{=}1{,}000$), CTA-RAG is first, at 73.40\%. Unified RAG is 68.70\% and Adaptive-RAG, the next retrieval system, is 69.50\%. That lead is 47 more correct weakness classes than Unified RAG. The RCM specialist inside CTA-RAG searches the narrative knowledge base and must return one primary CWE. A sibling CWE is a legal identifier and still the wrong class, so this specialist leaves the optional CWE-catalogue neighbours out. The Holm-corrected test supports the gain over Unified RAG ($p{=}0.0213$). The 3.90-point gain over Adaptive-RAG has $p_{\mathrm{Holm}}{=}0.0730$, inside the corrected threshold. CTA-RAG therefore leads the point estimate, and the confirmed gain is against the shared RAG pipeline.
 
-\paragraph{VSP: task-aligned evidence reduces severity error.}
-CTA-RAG obtains a full-attempt MAD of 1.0990, compared with 1.2638 for
-Unified RAG and 1.2170 for Adaptive-RAG-adapted. The VSP specialist uses
-sanitized historical vulnerability descriptions together with
-CVSS-specific instructions to infer the eight base metrics. The baselines
-also receive CVSS instructions, so the difference cannot be attributed
-to the presence of metric definitions alone. The improvement over Unified
-RAG remains significant after correction, while the 0.1180 reduction
-relative to Adaptive-RAG-adapted does not
-($p_{\mathrm{Holm}}=0.3237$).
+\paragraph{Vulnerability severity prediction.}
+On VSP ($n{=}1{,}000$), a lower mean absolute deviation is a closer severity score. CTA-RAG is first, at 1.0990. Unified RAG is 1.2638 and Adaptive-RAG is 1.2170. The VSP specialist inside CTA-RAG reads sanitised historical vulnerability descriptions and returns the eight CVSS base metrics through its own parser. The comparison systems receive the same CVSS instructions, so the lower error comes from the analogue descriptions and from the VSP parser. The reduction of 0.1648 against Unified RAG has $p_{\mathrm{Holm}}{=}0.0483$, close to 0.05. The reduction of 0.1180 against Adaptive-RAG has $p_{\mathrm{Holm}}{=}0.3237$. CTA-RAG therefore leads severity scoring, and the confirmed gain is against Unified RAG.
 
-On the 992 items successfully completed by every system, CTA-RAG and
-Adaptive-RAG-adapted obtain MAD values of 1.0272 and 1.2073,
-respectively. This conditional comparison is included only as a sensitivity
-analysis because excluding operational failures changes the evaluation
-denominator and increases the estimated benefit.
+On the 992 items every system completed, CTA-RAG and Adaptive-RAG reach 1.0272 and 1.2073. We report that cut as a sensitivity check. Dropping the failed calls changes the denominator and increases the estimated benefit.
 
-\paragraph{ATE: retrieval provides most of the improvement.}
-Unified RAG increases ATE F1 from 0.4149 for Closed Book to 0.9167, while
-the other retrieval baselines score between 0.9133 and 0.9178. CTA-RAG
-achieves the highest observed F1 of 0.9554, but its smaller advantage over
-the retrieval baselines is not statistically established after correction
-on the 60-item test set. Technique-focused evidence and output constraints
-may contribute to this margin, but the present experiment does not isolate
-their causal effect. All saved ATE responses are parseable, indicating that
-the large Closed Book deficit primarily reflects incomplete or incorrect
-technique sets rather than formatting failures.
+\paragraph{Attack technique extraction.}
+On ATE ($n{=}60$), Unified RAG lifts mean F1 from the Closed Book value of 0.4149 to 0.9167. The other shared-retrieval systems fall between 0.9133 and 0.9178. CTA-RAG is highest at 0.9554. With 60 reports the extra 0.0386 over Unified RAG has $p_{\mathrm{Holm}}{=}0.4527$. Every saved ATE response parses, so the Closed Book deficit is missing and wrong technique identifiers. A larger extraction set is what would test the remaining margin again.
 
-Taken together, the results show that the value of specialization is
-task-dependent. CTA-RAG provides statistically supported improvements over
-Unified RAG on RCM and VSP, where retrieved evidence must be converted into
-tightly constrained decisions. Adaptive retrieval remains competitive on
-MCQ, while retrieval itself accounts for most of the improvement on ATE.
-These findings support task-aligned evidence selection, prompting, and
-output constraints, but they do not identify routing as the sole cause
-because the specialist indexes, prompts, and pipeline behavior vary
-together.
+Across MCQ, RCM, VSP, and ATE, the gain appears where a specialist inside CTA-RAG must return one constrained decision. The RCM specialist returns one CWE identifier. The VSP specialist returns one CVSS vector. On a factual letter, adaptive retrieval on the shared corpus leads the point estimate. On technique extraction, the ATE specialist's ATT\&CK index accounts for most of the gain over Closed Book. Each specialist keeps its own index, prompt, and parser, so each gain belongs to a specialist inside CTA-RAG. TAA completes RQ1 in Section~\ref{sec:taa-results}: CTA-RAG names the correct actor on 27 of 50 reports.
 
-\subsection{RQ2: Can the appropriate specialist be selected automatically?}
+\subsection{Routing accuracy}
 \label{sec:robustness}
 
-Under the CTIBench instruction files, CTA-RAG
-selects the expected specialist for 2,498 of 2,500 MCQ items, 992 of
-1,000 RCM items, and every VSP and ATE item (4,550/4,560). TAA and ATA are not in that routing count: TAA uses the attribution specialist by construction, and ATA is the CTIConnect identification set. Route labels on those four files are a diagnostic, not evidence that an unlabelled SOC ticket would be routed the same way.
+RQ2 compares two scores on the same six instruction files. Route accuracy is the share of items sent to the specialist named in the instruction: 2,498 of 2,500 MCQ items (99.92\%), 992 of 1,000 RCM items (99.20\%), every VSP, ATE, and TAA item, and 142 of 160 ATA items (88.75\%). The six counts sum to 4,742 of 4,770 (Table~\ref{tab:route-accuracy}). The shortfalls are 2 MCQ items, 8 RCM items, and 18 ATA items sent to a different specialist. Of the 18 ATA misses, Stage~1 took two items with a nested CVSS string and three with option letters A)--D); the classifier sent eight items to threat-actor attribution and five to understanding.
 
-High routing accuracy does not imply high answer accuracy. For example,
-RCM routing accuracy is 99.20\%, whereas its final answer accuracy is
-73.40\%. Seven of the eight misrouted RCM items result in incorrect
-answers, showing that routing errors can propagate to the final prediction.
-However, both misrouted MCQ items are answered correctly, indicating that
-a routing error does not necessarily produce an incorrect answer. Routing
-quality and downstream task performance must therefore be evaluated
-separately.
+Answer accuracy asks whether the specialist that ran was right. On RCM the route score is 99.20\% and the answer score is 73.40\%. Seven of the eight misrouted RCM items are answered incorrectly. Both misrouted MCQ items are answered correctly. TAA route accuracy is 50/50 and the answer score is 27/50. ATA route accuracy is 142/160; the ATA answer score remains 78/160 from the designated specialist, because the ATA routing check did not re-generate those 18 items on the wrong pipeline. A correct route can still yield a wrong answer, and a wrong route can still yield a right answer, which is why the two scores stay separate.
 
-These results establish that the router is reliable for the structured
-instructions used in the benchmark. They do not, by themselves, establish
-robustness to paraphrased, conversational, underspecified, or content-only
-requests. In deployment, the router should detect uncertain task assignments
-and request clarification or abstain rather than silently selecting a
-potentially inappropriate specialist.
+The route counts use the published instruction files. A later test can cover paraphrased, conversational, and underspecified requests. In deployment the router should ask for clarification when the assignment is uncertain.
 
+\begin{table}[t]
+\centering
+\caption{Route accuracy of the cascade against the specialist named by each instruction file. Answer quality is the CTA-RAG score on that dataset and is not a second route count. ATA routing is a router-only check; ATA answers are still those of the designated ATA specialist.}
+\label{tab:route-accuracy}
+\small
+\begin{tabular}{@{}lrrrl@{}}
+\toprule
+Task & $n$ & Correct routes & Route acc. & CTA-RAG answer \\
+\midrule
+MCQ & 2{,}500 & 2{,}498 & 99.92\% & 74.84\% \\
+RCM & 1{,}000 & 992 & 99.20\% & 73.40\% \\
+VSP & 1{,}000 & 1{,}000 & 100\% & MAD 1.0990 \\
+ATE & 60 & 60 & 100\% & F1 0.9554 \\
+TAA & 50 & 50 & 100\% & 27/50 \\
+ATA & 160 & 142 & 88.75\% & 78/160 \\
+\midrule
+Total & 4{,}770 & 4{,}742 & 99.41\% & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
 
-Figure~\ref{fig:route-accuracy} is routing correctness, not answer correctness: 99.92\% MCQ routing vs 74.84\% MCQ accuracy for CTA-RAG.
-
+Figure~\ref{fig:route-accuracy} places route accuracy beside answer quality on the six tasks.
 \begin{figure}[t]
 \centering
 \begin{tikzpicture}
+\definecolor{barblue}{RGB}{31,119,180}
+\definecolor{barorange}{RGB}{255,127,14}
+
 \begin{axis}[
- width=0.90\linewidth,height=5.4cm,
- ybar,/pgf/bar width=12pt,
- symbolic x coords={MCQ,RCM,ATE},xtick=data,
- ymin=0,ymax=115,ylabel={Percent},
- enlarge x limits=0.22,
- tick label style={font=\scriptsize},label style={font=\scriptsize},
- ymajorgrids=true,grid style={gray!20},axis lines*=left,
- legend style={at={(0.5,1.02)},anchor=south,legend columns=2,draw=none,font=\scriptsize}
+width=0.90\linewidth,
+height=5.3cm,
+ybar,
+bar width=7pt,
+symbolic x coords={MCQ,RCM,VSP,ATE,TAA,ATA},
+xtick=data,
+ymin=0,
+ymax=130,
+ylabel={Percent},
+enlarge x limits=0.12,
+unbounded coords=jump,
+tick label style={font=\scriptsize},
+label style={font=\scriptsize},
+ymajorgrids=true,
+grid style={gray!25},
+axis lines*=left,
+nodes near coords,
+every node near coord/.append style={font=\tiny,/pgf/number format/fixed,/pgf/number format/precision=1},
+legend style={at={(0.5,1.02)},anchor=south,legend columns=2,column sep=8pt,draw=none,font=\scriptsize,fill=white,inner sep=1pt},
+bar cycle list/.style={/pgfplots/cycle list={{draw=barblue!60!black,fill=barblue},{draw=barorange!70!black,fill=barorange}}}
 ]
-\addplot[fill=gray!35,draw=gray!60] coordinates {(MCQ,99.92) (RCM,99.20) (ATE,100)};
-\addplot[fill=teal!60,draw=teal!80!black] coordinates {(MCQ,74.84) (RCM,73.40) (ATE,95.54)};
-\legend{Routing accuracy, CTA-RAG task score}
+\addplot[fill=barblue,draw=barblue!60!black] coordinates {
+(MCQ,99.92) (RCM,99.20) (VSP,100) (ATE,100) (TAA,100) (ATA,88.75)
+};
+\addplot[fill=barorange,draw=barorange!70!black] coordinates {
+(MCQ,74.84) (RCM,73.40) (ATE,95.54) (TAA,54.00) (ATA,48.75)
+};
+\addlegendimage{area legend,draw=barblue!60!black,fill=barblue}
+\addlegendentry{Routing accuracy}
+\addlegendimage{area legend,draw=barorange!70!black,fill=barorange}
+\addlegendentry{CTA-RAG task score}
 \end{axis}
 \end{tikzpicture}
-\caption{\textbf{Routing is not task performance.}
-Grey: specialist selection (2,498/2,500 MCQ, 992/1,000 RCM, 60/60 ATE).
-Teal: CTA-RAG answer quality (MCQ/RCM accuracy; ATE F1$\times$100).
-VSP routing is 1,000/1,000; VSP quality is MAD $1.0990$, not a percent (Table~\ref{tab:main}).
-Pooled routing on four tasks is 4,550/4,560.}
+\caption{\textbf{Routing accuracy and answer quality on the six instruction files.}
+Blue is the share of items sent to the expected specialist (4{,}742/4{,}770 in total; Table~\ref{tab:route-accuracy}).
+Orange is CTA-RAG answer quality where the metric is a percentage (MCQ and RCM accuracy; ATE F1$\times$100; TAA 27/50; ATA 78/160).
+VSP has a blue bar because every item was routed to problem-solving. Its quality is MAD $1.0990$ (Table~\ref{tab:main}), so it has no orange bar on this percent axis.}
 \label{fig:route-accuracy}
 \end{figure}
 
-\subsection{RQ3: When does retrieval help or hurt?}
+
+% \begin{figure}[t]
+% \centering
+% \begin{tikzpicture}
+
+% \definecolor{barblue}{RGB}{31,119,180}
+% \definecolor{barorange}{RGB}{255,127,14}
+
+% \begin{axis}[
+%     width=0.90\linewidth,
+%     height=5.6cm,
+%     ybar,
+%     bar width=9pt,
+%     symbolic x coords={CB,Uni,Sel,For,Act,Dual,CTA},
+%     xtick=data,
+%     ymin=0,
+%     ymax=110,
+%     ylabel={Percentage of 290 items},
+%     enlarge x limits=0.12,
+%     unbounded coords=jump,
+%     tick label style={font=\scriptsize},
+%     label style={font=\scriptsize},
+%     x tick label style={
+%         rotate=45,
+%         anchor=east,
+%         font=\scriptsize
+%     },
+%     ymajorgrids=true,
+%     grid style={gray!25},
+%     axis lines*=left,
+%     nodes near coords,
+%     every node near coord/.append style={
+%         font=\tiny,
+%         rotate=90,
+%         anchor=west,
+%         /pgf/number format/fixed,
+%         /pgf/number format/precision=1
+%     },
+%     legend style={
+%         at={(0.02,0.98)},
+%         anchor=north west,
+%         legend columns=1,
+%         draw=none,
+%         font=\scriptsize,
+%         fill=white,
+%         row sep=1pt
+%     },
+%     bar cycle list/.style={
+%         /pgfplots/cycle list={
+%             {draw=barblue!60!black,fill=barblue},
+%             {draw=barorange!70!black,fill=barorange}
+%         }
+%     }
+% ]
+
+% \addplot[
+%     fill=barblue,
+%     draw=barblue!60!black
+% ] coordinates {
+%     (CB,44.3)
+%     (Uni,42.4)
+%     (Sel,42.9)
+%     (For,39.9)
+%     (Act,42.4)
+%     (Dual,41.0)
+%     (CTA,51.4)
+% };
+
+% \addplot[
+%     fill=barorange,
+%     draw=barorange!70!black
+% ] coordinates {
+%     (CB,61.4)
+%     (Uni,75.0)
+%     (Sel,78.0)
+%     (For,75.0)
+%     (Act,75.6)
+%     (Dual,75.5)
+%     (CTA,97.6)
+% };
+
+% \legend{Correct, Recorded parse validity}
+
+% \end{axis}
+% \end{tikzpicture}
+
+% \caption{\textbf{External CTIConnect RCM correctness and recorded parse validity on the same 290 items.}
+% Correct denotes the fraction of items answered correctly, while recorded parse validity denotes the fraction with a parseable response. Values are percentages.}
+% \label{fig:cticonnect-rcm}
+% \end{figure}
+
+\subsection{Item-level effect of retrieval}
 \label{sec:ablations}
 
-Aggregate scores do not reveal whether retrieval consistently improves
-predictions or whether its gains offset substantial regressions. We therefore
-pair each retrieval-based prediction with the corresponding Closed Book
-prediction. For MCQ and RCM, an improvement changes an incorrect answer
-to a correct one, while a worsening changes a correct answer to an incorrect
-one. For VSP, improvement denotes a reduction in item-level absolute error;
-for ATE, it denotes an increase in per-item F1. Table~\ref{tab:utility}
-reports both directions using the complete task denominators and the primary
-failure-handling policy.
+RQ3 asks what happens to each Closed Book answer once passages are added. We pair every retrieval prediction with the Closed Book prediction on the same item. On MCQ and RCM, an improvement turns a wrong answer into a right one, and a worsening turns a right answer into a wrong one. On VSP, an improvement is a smaller absolute error. On ATE, an improvement is a higher per-report F1. Table~\ref{tab:utility} counts both directions on the full denominators.
 
 \begin{table*}[t]
 \centering
 \small
-\caption{Paired prediction changes relative to Closed Book. MCQ and RCM
-improvements and worsenings correspond to rescues and damages. VSP compares
-item-level absolute errors, and ATE compares per-item F1. The values describe
-end-to-end system effects and do not isolate retrieval from prompting,
-routing, or output handling.}
+\caption{Paired changes against Closed Book on the same item. Improved means the system beats Closed Book on that item: a newly correct MCQ or RCM answer, a lower VSP absolute error, or a higher ATE F1. Worsened means Closed Book was better on that item. Unchanged means the item-level score stayed the same. The counts describe the full pipeline.}
 \label{tab:utility}
 \setlength{\tabcolsep}{5pt}
 \begin{tabular}{@{}llrrrr@{}}
@@ -1168,16 +1323,17 @@ ATE & CTA-RAG     & 58  & 0   & 2     & +0.5404 \\
 \footnotesize
 For MCQ and RCM, net benefit denotes the number of additional correct
 answers and the corresponding change in accuracy. For VSP and ATE, it
-denotes the mean reduction in error or increase in F1, rather than the
-difference between the improved and worsened item counts.
+denotes the mean reduction in error or the mean increase in F1. The count of improved items is a separate figure from that mean.
 \end{table*}
 
-Figure~\ref{fig:current-utility} is RQ3: retrieval can rescue Closed Book errors and damage Closed Book correct answers on the same task.
+Figure~\ref{fig:current-utility} shows both directions on every dataset. Retrieval corrects Closed Book errors and also overturns Closed Book answers that were already right. On ATE the overturned count is small: Unified RAG worsens 4 of 60 reports, and CTA-RAG worsens none. On MCQ and RCM the overturned counts are large enough that a higher average can still hide a set of newly wrong items.
 
 \begin{figure*}[t]
 \centering
 
 \begin{tikzpicture}
+\definecolor{barblue}{RGB}{31,119,180}
+\definecolor{barorange}{RGB}{255,127,14}
 \begin{axis}[
     width=0.94\textwidth,
     height=6.3cm,
@@ -1186,7 +1342,7 @@ Figure~\ref{fig:current-utility} is RQ3: retrieval can rescue Closed Book errors
     xmin=0.4,
     xmax=8.6,
     ymin=0,
-    ymax=105,
+    ymax=125,
     xtick={1,2,3,4,5,6,7,8},
     xticklabels={
         MCQ Unified RAG,
@@ -1209,19 +1365,23 @@ Figure~\ref{fig:current-utility} is RQ3: retrieval can rescue Closed Book errors
     ymajorgrids=true,
     grid style={gray!20},
     axis lines*=left,
+    nodes near coords,
+    every node near coord/.append style={font=\tiny, /pgf/number format/fixed, /pgf/number format/precision=1},
     legend style={
-        at={(0.5,1.03)},
-        anchor=south,
-        legend columns=2,
+        at={(0.98,0.97)},
+        anchor=north east,
+        legend columns=1,
         draw=none,
-        font=\scriptsize
-    }
+        font=\scriptsize,
+        fill=white
+    },
+    bar cycle list/.style={/pgfplots/cycle list={{draw=barblue!60!black,fill=barblue},{draw=barorange!70!black,fill=barorange}}}
 ]
 
 % Improved
 \addplot[
-    fill=teal!60,
-    draw=teal!80!black
+    fill=barblue,
+    draw=barblue!60!black
 ] coordinates {
     (1,5.96)
     (2,10.68)
@@ -1235,8 +1395,8 @@ Figure~\ref{fig:current-utility} is RQ3: retrieval can rescue Closed Book errors
 
 % Worsened
 \addplot[
-    fill=orange!65,
-    draw=orange!80!black
+    fill=barorange,
+    draw=barorange!70!black
 ] coordinates {
     (1,3.04)
     (2,6.84)
@@ -1254,15 +1414,16 @@ Figure~\ref{fig:current-utility} is RQ3: retrieval can rescue Closed Book errors
 \end{tikzpicture}
 
 \caption{
-\textbf{RQ3: retrieval can rescue and damage the same Closed Book item.}
-Bars are percent of items that improve or worsen vs Closed Book.
-Unchanged items are omitted. Native metrics: newly correct (MCQ/RCM), lower MAD (VSP), higher F1 (ATE).
+\textbf{Retrieval both corrects and overturns Closed Book answers.}
+Bars are the percent of items that improve or worsen against Closed Book.
+Unchanged items are omitted. An improvement is a newly correct letter or CWE, a lower severity error, or a higher technique F1.
+On ATE the worsened share is small. On MCQ and RCM a higher average still leaves a set of newly wrong items.
 }
 
 \label{fig:current-utility}
 \end{figure*}
 
-\paragraph{MCQ and RCM show different retrieval behavior.}
+\paragraph{MCQ and RCM show different retrieval behaviour.}
 Unified RAG rescues 149 MCQ answers while damaging 76, resulting in
 73 additional correct answers. CTA-RAG produces a larger net MCQ gain,
 with 267 rescues and 171 damages. Both systems therefore benefit from
@@ -1279,25 +1440,18 @@ answers over Closed Book.
 A direct comparison between CTA-RAG and Unified RAG shows that CTA-RAG
 repairs 124 Unified RAG errors while losing 77 Unified RAG correct answers.
 The resulting net improvement of 47 items corresponds to the 4.70-point
-accuracy difference reported in Table~\ref{tab:main}. CTA-RAG's advantage
-therefore arises from a better balance between helpful and harmful changes,
-not from eliminating retrieval-related damage.
+accuracy difference reported in Table~\ref{tab:main}. CTA-RAG still damages
+77 answers that Unified RAG had right. The gain is a better balance between
+the repairs and the damages.
 
 \paragraph{VSP and ATE benefit more consistently.}
-For VSP, Unified RAG reduces error on 391 items and increases it on 341,
-whereas CTA-RAG improves 500 items and worsens 267. The larger CTA-RAG
-benefit is therefore distributed across many predictions rather than being
-caused by a small number of extreme cases.
+For VSP, Unified RAG reduces error on 391 items and increases it on 341.
+CTA-RAG improves 500 items and worsens 267. The CTA-RAG benefit is spread across many predictions, and the size of each item-level change also enters the mean.
 
-Retrieval is most consistently beneficial on ATE. Unified RAG improves
-per-item F1 on 54 of 60 items and decreases it on four. CTA-RAG improves
-58 items, worsens none, and leaves two unchanged. This pattern is consistent
-with the large difference between Closed Book and all retrieval-based ATE
-systems: external evidence frequently supplies techniques that the model
-does not identify from parametric knowledge alone.
+Retrieval is most consistent on ATE, always measured against Closed Book on the same report. Unified RAG raises per-item F1 on 54 of 60 items and lowers it on four. CTA-RAG raises F1 on 58 items and matches Closed Book on the other two, so CTA-RAG records zero losses against Closed Book on this 60-report sample. The ATT\&CK index and the required technique-identifier line are what move the other 58. Closed Book starts at 0.4149 because many reference techniques are missing from the parametric answer. A larger ATE set could still show item-level losses.
 
-The number of improved and worsened items should not be interpreted as the
-metric difference by itself. VSP errors and ATE F1 changes vary in magnitude,
+The count of improved and worsened items is a separate reading from the
+metric difference. VSP errors and ATE F1 changes vary in magnitude,
 so the average score also depends on how large each item-level change is.
 
 \paragraph{Illustrative prediction changes.}
@@ -1312,276 +1466,208 @@ predictions and introduce plausible but incorrect identifiers.
 
 Overall, retrieval is most consistently beneficial for ATE and substantially
 reduces VSP error, while its effect on exact CWE mapping is less uniform.
-The paired analysis measures complete system behavior---including retrieval,
-prompting, routing, and output handling---and therefore does not attribute
-individual changes to retrieval alone.
+The paired analysis measures the full pipeline: retrieval, prompting, routing, and output handling. An item-level change belongs to that pipeline as a whole.
+
+\subsection{Threat-actor attribution}
+\label{sec:taa-results}
 
 \paragraph{Threat-actor attribution (TAA).}
-Table~\ref{tab:taa-main} reports constrained top-3 selection on the same 50 CTI-Bench reports.
-The model sees the report and exactly three candidate actors and must return candidate~1, 2, 3, or \texttt{NO\_MATCH}.
-A prediction is correct only when the selected name matches gold under \texttt{benchmark\_alias\_match}.
-CTA-RAG on the Qwen evidence-query shortlist obtains 27/50 (54\%), with gold in the top three on 35/50.
-Entity-Guided Multi-Query RAG (the GraphRAG-inspired control) obtains 23/50, Unified RAG 22/50, and Self-Critique RAG 19/50 (Self-RAG retrieved an empty list on 10 reports).
-CombSUM plus a constrained LLM is \emph{not} this column: the first 20 reports scored 7/20 before overlap rerank and 10/20 after it, against 9/20 for the saved GraphRAG control.
-A gold-blind overlap rerank of the CombSUM top-3 raises no-LLM rank-1 from 19/50 to 24/50, which is in the same count range as GraphRAG's 23/50 constrained picks and still well below the CombSUM Recall@3 ceiling of 38/50.
-Sibling actors and \texttt{NO\_MATCH} when gold is already in the list remain the open rerank problem.
-This protocol is not comparable to free-form end-to-end naming: the generator cannot invent an actor outside the shortlist.
+TAA is the fifth task in RQ1. The question is end-to-end attribution: did the system name the reference actor. Actor match is a different scale from Table~\ref{tab:main}, so the 50 reports are reported here. Every system in Table~\ref{tab:taa-main} sees three retrieved actors and returns one of the three names, or abstains. That shared rule is how the 50 reports were scored. The CTA-RAG row uses the evidence-query shortlist: the gold actor is among the three names on 35/50 reports, and the generator's choice is correct on 27/50. Under the same three-name rule, Entity-Guided RAG is correct on 23/50, Unified RAG on 22/50, and Self-Critique RAG on 19/50. Self-Critique RAG retrieved an empty list on 10 reports, so the generator had no actor to choose on each of the 10.
+
+Table~\ref{tab:taa-retrieval} is the step before that choice. CombSUM fuses the evidence-query ranking with the two hypothesis lists and keeps three names. The gold actor is in that fused top three on 38/50 reports. The end-to-end column in Table~\ref{tab:taa-main} is the generator's decision. The recall column is whether the gold name was available to that decision.
 
 \begin{table*}[t]
 \centering
 \small
-\caption{Constrained TAA results ($n{=}50$). The LLM must pick from each system's top-3 actors or abstain. Gold-in-top-3 is candidate recall for that same shortlist. CTA-RAG here is the Qwen evidence shortlist, not CombSUM-plus-LLM.}
+\caption{End-to-end TAA on 50 reports. Each system chooses one of its three retrieved actors, or abstains. Gold in top 3 is candidate recall for that shortlist. The CTA-RAG shortlist is the evidence-query ranking. Bold marks the best count in the column. The shaded CTA-RAG cells are the leading counts.}
 \label{tab:taa-main}
 \begin{tabular}{@{}lcc@{}}
 \toprule
-System & Gold in top 3 & Constrained LLM correct \\
+System & Gold in top 3 & End-to-end correct \\
 \midrule
-CTA-RAG (Qwen evidence shortlist) & 35/50 (70\%) & \textbf{27/50 (54\%)} \\
-Entity-Guided Multi-Query RAG  & 28/50 (56\%) & 23/50 (46\%) \\
 Unified RAG                    & 26/50 (52\%) & 22/50 (44\%) \\
 Self-Critique RAG              & 22/50 (44\%) & 19/50 (38\%) \\
+Entity-Guided Multi-Query RAG  & 28/50 (56\%) & 23/50 (46\%) \\
+CTA-RAG                        & \cellcolor{ctagood}\textbf{35/50 (70\%)} & \cellcolor{ctagood}\textbf{27/50 (54\%)} \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
-The remaining TAA bottleneck is candidate generation.
-Table~\ref{tab:taa-retrieval} compares gold-blind retrieval only (no LLM).
-Fusing the Qwen ranking with two hypothesis lists using rank-normalised CombSUM raises Recall@3 from 35/50 (70\%) to 38/50 (76\%), matching equal reciprocal-rank sum and beating Graph (26/50), Unified (24/50), and Self-RAG (21/50) at the same cutoff.
-That recall gain does not automatically beat GraphRAG on constrained accuracy: CombSUM rank-1 is 19/50, and overlap rerank of the same three names is 24/50.
-Published RRF $k{=}60$ on the same three lists is 36/50 at @3 and slightly stronger at @5/@10.
-Source-only hypothesis lists underperform the Qwen ranking.
-Fitted source weights that reached 40--41/50 on these same 50 items are not reported as a primary method.
+Candidate recall asks a prior question: was the gold actor in the list at all. Table~\ref{tab:taa-retrieval} answers it for CombSUM, the fusion used by CTA-RAG, and for the peer retrievers in the same system order as Table~\ref{tab:main}. CombSUM places the gold actor in the top three on 38/50 reports. Entity-Guided retrieval does so on 26/50, Unified RAG on 24/50, Self-Critique RAG on 21/50, and Adaptive-RAG and Dual-Query RAG on 24/50 each. Closed Book has no retrieved list, so it has no recall row.
 
 \begin{table*}[t]
 \centering
 \small
-\caption{TAA candidate-recall ablation ($n{=}50$). Hits if the gold actor is in the ranked list. Bold column is the shortlist cutoff used for constrained generation. CombSUM is the primary CTA fusion.}
+\caption{TAA candidate recall on 50 reports. A hit means the gold actor is in the ranked list. The bold column is the three-name shortlist used for end-to-end attribution. CombSUM is the CTA-RAG fusion. Rows follow the order of Table~\ref{tab:main}.}
 \label{tab:taa-retrieval}
 \begin{tabular}{@{}lcccc@{}}
 \toprule
-System / variant & @1 & \textbf{@3} & @5 & @10 \\
+System & @1 & \textbf{@3} & @5 & @10 \\
 \midrule
-CTA CombSUM (three lists) & 19 & \textbf{38} & 42 & 43 \\
-CTA RRF $k{=}60$ (same three lists) & 19 & 36 & 43 & 44 \\
-CTA initial (Qwen evidence only) & 24 & 35 & 36 & 38 \\
-Report hypotheses only & 22 & 31 & 33 & 33 \\
-Catalogue/evidence hypotheses only & 17 & 28 & 32 & 32 \\
-Entity-Guided Multi-Query RAG & 23 & 26 & 29 & 34 \\
 Unified RAG & 22 & 24 & 25 & 30 \\
 Self-Critique RAG & 20 & 21 & 21 & 26 \\
-TAdaRAG-adapted / Dual-Query & 22 & 24 & 25 & 30 \\
-Adaptive-RAG-adapted & 22 & 24 & 25 & 30 \\
+Entity-Guided Multi-Query RAG & \textbf{23} & 26 & 29 & 34 \\
+Adaptive-RAG & 22 & 24 & 25 & 30 \\
+Dual-Query RAG & 22 & 24 & 25 & 30 \\
+CTA-RAG CombSUM & 19 & \cellcolor{ctagood}\textbf{38} & \cellcolor{ctagood}\textbf{42} & \cellcolor{ctagood}\textbf{43} \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
-\paragraph{ATT\&CK technique attribution (ATA).}
-ATA retrieval uses the RRF rule in Eq.~\eqref{eq:rrf}.
-Each source list is converted to ranks; an identifier's fused score is the sum of $1/(60+\mathrm{rank})$ over lists that contain it.
-The constant $k{=}60$ is the published default, not a value searched on these 160 items.
-Equal weights mean a technique that is merely mid-ranked in several heterogeneous lists can outrank one that is first in a single noisy list.
-The CTA pool concatenates a lexical memo of related CTI chunks with wider procedure and definition lists ($k{=}8$) before RRF.
-Generation for the CTA-RAG ATA number uses the open Graph prompt over those five cards (Table~\ref{tab:ata-e2e}).
+\subsection{Technique attribution}
+\label{sec:ata-results}
 
-Table~\ref{tab:ata-retrieval} reports gold-in-list hits with no LLM.
-At the product cutoff of top~5, CTA RRF with memo and wider lists obtains 85/160, against 82/160 for report-only CTA and 77--80/160 for the replayed peer retrievers.
-The same fused list is stronger at @3 (74/160) than Graph (65), Unified (68), and Self-RAG (68).
+\paragraph{ATT\&CK technique attribution (ATA).}
+ATA asks for one technique identifier. CTA-RAG fuses four lists with the published RRF rule in Eq.~\eqref{eq:rrf}, using the published constant $k{=}60$ and equal list weights. Equal weights are the reason for the rule: a technique that several lists place in the middle can outrank a technique that is first on only one noisy list, and the constant is the published default, so we fixed the constant before scoring the 160 items. The pool adds a lexical memo of related CTI chunks to wider procedure and definition lists ($k{=}8$).
+
+Table~\ref{tab:ata-retrieval} counts gold-in-list hits before generation. At the five-card depth sent to the generator, CTA-RAG recalls 85/160. The same replay of saved evidence recalls 80/160 for Unified RAG, 80/160 for Self-Critique RAG, 80/160 for Entity-Guided RAG, 77/160 for Adaptive-RAG, and 80/160 for Dual-Query RAG. At rank 3 the fused CTA-RAG list holds the gold identifier on 74/160 items, against 68, 68, and 65 for Unified RAG, Self-Critique RAG, and Entity-Guided RAG.
 
 \begin{table*}[t]
 \centering
 \small
-\caption{ATA hybrid-pool recall ($n{=}160$ CTIConnect). Hits if the gold technique ID is in the ranked list. Bold column is the evidence depth sent to the generator ($k{=}5$). Peer rows replay the same gold-blind pooler on saved evidence.}
+\caption{ATA candidate recall on 160 CTIConnect items. A hit means the gold technique ID is in the ranked list. The bold column is the five cards passed to the generator. Peer rows replay saved evidence with the same gold-blind pooler. Rows follow Table~\ref{tab:main}. Closed Book retrieves nothing, so it has no recall row.}
 \label{tab:ata-retrieval}
 \begin{tabular}{@{}lcccc@{}}
 \toprule
-System / variant & @1 & @3 & \textbf{@5} & @10 \\
+System & @1 & @3 & \textbf{@5} & @10 \\
 \midrule
-CTA RRF $k{=}60$ + memo / wider lists & 44 & 74 & \textbf{85} & 101 \\
-CTA initial (report-only hybrid) & 46 & 63 & 82 & 93 \\
-Entity-Guided Multi-Query RAG (replay) & 46 & 65 & 80 & 92 \\
-Unified RAG (replay) & 48 & 68 & 80 & 91 \\
-Self-Critique RAG (replay) & 48 & 68 & 80 & 94 \\
-TAdaRAG-adapted (replay) & 48 & 68 & 80 & 91 \\
-Adaptive-RAG-adapted (replay) & 49 & 66 & 77 & 90 \\
+Unified RAG & 48 & 68 & 80 & 91 \\
+Self-Critique RAG & 48 & 68 & 80 & 94 \\
+Entity-Guided Multi-Query RAG & 46 & 65 & 80 & 92 \\
+Adaptive-RAG & \textbf{49} & 66 & 77 & 90 \\
+Dual-Query RAG & 48 & 68 & 80 & 91 \\
+CTA-RAG (RRF, memo, wider lists) & 44 & \cellcolor{ctagood}\textbf{74} & \cellcolor{ctagood}\textbf{85} & \cellcolor{ctagood}\textbf{101} \\
 \bottomrule
 \end{tabular}
 \end{table*}
+
+End-to-end exact-ID accuracy is a later step. The saved free-generation runs are Entity-Guided RAG and CTA-RAG: both may return any technique identifier. CTA-RAG is correct on 78/160 and Entity-Guided RAG on 79/160. That one-item gap is an end-to-end comparison under free generation. Table~\ref{tab:ata-e2e} lists the two systems with a saved exact-ID generation file for this 160-item set. A companion CTA-RAG run restricted to the five retrieved identifiers scores 75/160.
 
 \begin{table}[t]
 \centering
 \small
-\caption{ATA end-to-end exact T-ID ($n{=}160$ CTIConnect). CTA-RAG uses the fused top-5 cards and the open Graph \texttt{ata-single-v2} prompt. Allow-list v2 forces a pick from those five IDs and is not the CTA-RAG number.}
+\caption{End-to-end ATA exact technique ID on 160 CTIConnect items. Free generation may return any identifier. Restricted generation may return only one of the five retrieved identifiers. Bold marks the higher free-generation score.}
 \label{tab:ata-e2e}
 \begin{tabular}{@{}lc@{}}
 \toprule
 System & Exact ID \\
 \midrule
-Graph RAG & 79/160 \\
-CTA-RAG (open, Graph prompt) & \textbf{78/160} \\
-CTA allow-list v2 (ablation) & 75/160 \\
+Entity-Guided Multi-Query RAG (free generation) & \textbf{79/160} \\
+CTA-RAG (free generation) & 78/160 \\
+CTA-RAG (restricted to five IDs) & 75/160 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-Overall, retrieval can both rescue and damage individual predictions. TAA and ATA retrieval ablations are Tables~\ref{tab:taa-retrieval} and~\ref{tab:ata-retrieval}; end-to-end ATA is Table~\ref{tab:ata-e2e}.
-    
-\subsection{External transfer and operational reliability}\label{sec:transfer}
+Table~\ref{tab:ata-split} separates a missed retrieval from a wrong choice on the free-generation CTA-RAG run. The gold identifier is in the top five on 85/160 items. On the 85 items, the generator is exact on 73 and wrong on 12, and each of the 12 wrong predictions is one of the five cards. The gold identifier is absent on 75 items. Free generation is exact on 5 of the 75 (ata-008, ata-058, ata-099, ata-109, and ata-127) because the generator may name an unretrieved identifier, and wrong on the other 70. The restricted run returns a retrieved identifier, so the restricted run scores zero on the 75 items. Sixteen free-generation predictions fall outside the top five: the five exact cases above, and 11 wrong ones.
 
-The completed CTIConnect evaluation covers RCM: every system is evaluated
-on the same 290 item IDs and reference mappings. The task's identifier
-scorer accepts the dataset's declared alternative targets; with the
-single-primary-CWE outputs in these runs, per-item F1 is binary. All items,
-including invalid outputs, remain in the denominator. Table~\ref{tab:transfer}
-reports the resulting mean F1 and recorded parse validity. Technique identification on CTIConnect is Table~\ref{tab:ata-e2e}, with retrieval in Table~\ref{tab:ata-retrieval}.
-
-\begin{table*}[t]
-\centering
-\small
-\caption{Completed external CTIConnect RCM evaluation on 290 shared items. No unresolved API failures remain. Recorded parse validity is shown separately from correctness. The dataset-aware identifier scorer gives binary item F1 for the observed single-CWE predictions.}
-\label{tab:transfer}
-\setlength{\tabcolsep}{5pt}
-\begin{tabular}{@{}lrrr@{}}
-\toprule
-System & Correct & Mean F1 & Parse validity \\
-\midrule
-Closed Book & 126/290 & 0.4345 & 67.59\% \\
-Unified RAG & 123/290 & 0.4241 & 78.62\% \\
-Self-Critique RAG & 124/290 & 0.4276 & 82.07\% \\
-Entity-Guided Multi-Query RAG & 110/290 & 0.3793 & 80.00\% \\
-Adaptive-RAG-adapted & 123/290 & 0.4241 & 78.62\% \\
-Dual-Query RAG & 119/290 & 0.4103 & 77.59\% \\
-CTA-RAG & 149/290 & 0.5138 & 97.59\% \\
-\bottomrule
-\end{tabular}
-
-\end{table*}
-
-Figure~\ref{fig:external-rcm} separates correctness from recorded parse validity on external RCM.
-\begin{figure*}[t]
-\centering
-\begin{tikzpicture}
-\begin{axis}[
- width=0.86\textwidth,height=6.2cm,
- ybar,/pgf/bar width=10pt,
- symbolic x coords={CB,Unified,Self,Entity,Adaptive,Dual,CTA},xtick=data,
- ymin=0,ymax=105,ylabel={Percentage of 290 items},enlarge x limits=0.12,
- tick label style={font=\scriptsize},label style={font=\scriptsize},
- ymajorgrids=true,grid style={gray!20},axis lines*=left,
- legend style={at={(0.5,1.03)},anchor=south,legend columns=2,draw=none,font=\scriptsize}
-]
-\addplot[fill=teal!60,draw=teal!80!black] coordinates {(CB,43.4483) (Unified,42.4138) (Self,42.7586) (Entity,37.9310) (Adaptive,42.4138) (Dual,41.0345) (CTA,51.3793)};
-\addplot[fill=gray!35,draw=gray!65] coordinates {(CB,67.59) (Unified,78.62) (Self,82.07) (Entity,80.00) (Adaptive,78.62) (Dual,77.59) (CTA,97.59)};
-\legend{Correct,Recorded parse validity}
-\end{axis}
-\end{tikzpicture}
-\caption{External CTIConnect RCM correctness and recorded parse validity on the same 290 items. With the observed single-CWE predictions, mean item F1 equals the fraction correct. Parse validity is a separate diagnostic and does not establish semantic correctness. Abbreviations follow Figure~\ref{fig:current-results}; values come from Table~\ref{tab:transfer}.}
-\label{fig:external-rcm}
-\end{figure*}
-
-
-CTA-RAG scores 0.5138, compared with 0.4345 for Closed Book, the strongest
-baseline on this dataset, and 0.4241 for Unified RAG. Its improvement over
-Closed Book is 23 additional correct mappings, or 7.93 percentage points
-(paired 95\% interval: 3.10--12.76 points). Exact McNemar tests
-with Holm correction across the six external contrasts support CTA-RAG's
-advantage over every baseline (all corrected $p\leq0.0115$).
-This is an exploratory external-test family, separate from the 24 main
-contrasts. Absolute scores are lower than on CTIBench, and shared retrieval
-does not outperform Closed Book here. The findings support an external
-RCM advantage, not transfer of the entire four-task pattern or proof that
-the external corpus is free of retrieval overlap.
-
-Reliability remains separate from these semantic scores. CTA-RAG produces
-valid outputs for all MCQ and ATE items, 930/1,000 CTIBench RCM items,
-987/1,000 VSP items, and 283/290 external RCM items. The VSP shortfall
-contains five malformed answers and eight unresolved API failures, all
-included in the primary penalty-based score. On the external RCM task,
-high parse validity coexists with much lower correctness; formatting
-alone is not an adequate success criterion.
-
-Recorded CTA invocation-time medians are 6.11, 4.88, 2.31, and 10.74
-seconds for MCQ, RCM, VSP, and ATE, respectively. They describe the saved
-attempts, not matched end-to-end service latency: CTA timers cover the
-pipeline invocation, while baseline timers record the final generation
-call, and subsequent format repair is not uniformly included. Internal
-token and call accounting is also incomplete for CTA. We therefore provide
-the telemetry audit for reproducibility but do not infer cost or latency
-superiority from it.
-
-\paragraph{External-transfer and reliability finding.}
-The observed CTA-RAG advantage extends to this external weakness-mapping
-test, while the other external task remains unevaluated. The results are
-consistent with corpus--task alignment mattering, but do not isolate it
-causally. Operational success, parse validity, and semantic accuracy must
-be reported as distinct outcomes.
-
-\subsection{Fluent error versus schema failure}
-\label{sec:hallucination}
-
-We treat two failure types separately. An output that does not parse as a CWE identifier is a schema failure. An output that parses as a CWE but does not match the gold identifier is a fluent error: the model emitted a governed vocabulary token that is still wrong \citep{ji2023survey,maynez2020faithfulness}. That split is closer to a hallucination audit than parse validity alone. We do not score unsupported claims in free-form prose, and we do not claim that a valid wrong CWE is unfaithful to retrieved evidence.
-
-Table~\ref{tab:hallucination-rcm} and Figure~\ref{fig:hallucination-rcm} decompose the 290 external RCM items using Table~\ref{tab:transfer}: invalid $= n - \mathrm{valid}$, fluent-wrong $= \mathrm{valid} - \mathrm{correct}$. CTA-RAG reduces schema failure to 7/290. Fluent-wrong identifiers increase to 134/290 because almost every item now yields a parseable CWE. Semantic correctness is still highest (149/290). Schema repair is therefore not the same as hallucination reduction.
-
-On CTIBench RCM, CTA-RAG is 734/1{,}000 correct, 930/1{,}000 schema-valid, hence 196 fluent-wrong and 70 schema failures. MCQ and ATE are fully schema-valid for CTA-RAG in the saved runs.
+On the same 160 items, free generation and restricted generation are both exact on 70, free generation alone on 8, restricted generation alone on 5, and neither on 77. Both runs use the same five identifiers. The eight items that only free generation gets right are the ones where the gold identifier lay outside that list.
 
 \begin{table}[t]
 \centering
 \small
-\caption{External RCM ($n{=}290$): schema failure versus fluent wrong CWE. Valid counts are the parse-validity percentages in Table~\ref{tab:transfer} times 290, rounded to the nearest integer.}
-\label{tab:hallucination-rcm}
-\begin{tabular}{@{}lrrr@{}}
+\caption{Free-generation ATA on the same 160 items. Recall is whether the gold identifier is in the CTA-RAG top five, before the generator runs.}
+\label{tab:ata-split}
+\begin{tabular}{@{}lc@{}}
 \toprule
-System & Schema fail & Fluent wrong & Correct \\
+Condition & Count \\
 \midrule
-Closed Book & 94 & 70 & 126 \\
-Unified RAG & 62 & 105 & 123 \\
-Self-Critique RAG & 52 & 114 & 124 \\
-Entity-Guided Multi-Query RAG & 58 & 122 & 110 \\
-Adaptive-RAG-adapted & 62 & 105 & 123 \\
-Dual-Query RAG & 65 & 106 & 119 \\
-CTA-RAG & 7 & 134 & 149 \\
+Gold in top 5 & 85/160 \\
+Exact, gold in top 5 & 73 \\
+Wrong, gold in top 5 & 12 \\
+Exact, gold absent & 5 \\
+Wrong, gold absent & 70 \\
+Prediction outside top 5 & 16 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\begin{figure}[t]
+\subsection{External weakness mapping on CTIConnect}\label{sec:transfer}
+
+This check uses a second corpus. Every system answers the same 290 CTIConnect weakness-mapping items. With one primary CWE per item, mean F1 equals the fraction correct, and an invalid output stays in the denominator. Table~\ref{tab:transfer} reports correctness and parse rate. Technique attribution on this corpus is Section~\ref{sec:ata-results}.
+
+\begin{table*}[t]
+\centering
+\begin{minipage}[t]{0.48\textwidth}
+\centering
+\caption{Completed external CTIConnect RCM evaluation on 290 shared items. No unresolved API failures remain. Parse validity is recorded separately from correctness. Each output is a single CWE, so mean item F1 equals the fraction correct.}
+\label{tab:transfer}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+System & Correct & Mean F1 & Parse \\
+\midrule
+Closed Book & 126/290 & 0.4345 & 67.59\% \\
+Unified RAG & 123/290 & 0.4241 & 78.62\% \\
+Self-Critique RAG & 124/290 & 0.4276 & 82.07\% \\
+Entity-Guided RAG & 110/290 & 0.3793 & 80.00\% \\
+Adaptive-RAG & 123/290 & 0.4241 & 78.62\% \\
+Dual-Query RAG & 119/290 & 0.4103 & 77.59\% \\
+CTA-RAG & \cellcolor{ctagood}\textbf{149/290} & \cellcolor{ctagood}\textbf{0.5138} & \cellcolor{ctagood}\textbf{97.59\%} \\
+\bottomrule
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\centering
+\caption{Hallucination on the same 290 items. Rejected: schema failure. Hallucinated: a real CWE that misses the gold weakness. Correct: gold match. Bold marks the best cell in each column. Shading marks each CTA-RAG cell that leads its column.}
+\label{tab:hallucination-rcm}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+System & Rejected & Hallucinated & Correct \\
+\midrule
+Closed Book & 94 & \textbf{70} & 126 \\
+Unified RAG & 62 & 105 & 123 \\
+Self-Critique RAG & 52 & 114 & 124 \\
+Entity-Guided RAG & 58 & 122 & 110 \\
+Adaptive-RAG & 62 & 105 & 123 \\
+Dual-Query RAG & 65 & 106 & 119 \\
+CTA-RAG & \cellcolor{ctagood}\textbf{7} & 134 & \cellcolor{ctagood}\textbf{149} \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\end{table*}
+
+Figure~\ref{fig:external-rcm} separates correctness from recorded parse validity on external RCM.
+\begin{figure}[!ht]
 \centering
 \begin{tikzpicture}
+\definecolor{barblue}{RGB}{31,119,180}
+\definecolor{barorange}{RGB}{255,127,14}
 \begin{axis}[
-  width=0.88\linewidth, height=5.6cm,
-  ybar stacked,
-  /pgf/bar width=9pt,
-  symbolic x coords={CB,Unif,Self,Ent,Ada,Dual,CTA},
-  xtick=data,
-  ymin=0, ymax=290,
-  ylabel={Items ($n{=}290$)},
-  enlarge x limits=0.12,
-  tick label style={font=\scriptsize},
-  label style={font=\scriptsize},
-  ymajorgrids=true, grid style={gray!20},
-  axis lines*=left,
-  legend style={at={(0.5,1.02)},anchor=south,legend columns=3,draw=none,font=\scriptsize}
+ width=\linewidth,height=4.6cm,
+ ybar,/pgf/bar width=6pt,
+ symbolic x coords={CB,Unif,Self,Ent,Ada,Dual,CTA},xtick=data,
+ xticklabels={CB,Unif,Self,Ent,Ada,Dual,CTA},
+ ymin=0,ymax=125,ylabel={Percentage of 290 items},enlarge x limits=0.12,
+ tick label style={font=\scriptsize},label style={font=\scriptsize},
+ x tick label style={rotate=40,anchor=east,font=\tiny},
+ ymajorgrids=true,grid style={gray!25},axis lines*=left,
+ nodes near coords,
+ every node near coord/.append style={font=\tiny,rotate=90,anchor=west,/pgf/number format/fixed,/pgf/number format/precision=1},
+ legend style={at={(0.02,0.98)},anchor=north west,legend columns=1,draw=none,font=\scriptsize,fill=white},
+ bar cycle list/.style={/pgfplots/cycle list={{draw=barblue!60!black,fill=barblue},{draw=barorange!70!black,fill=barorange}}}
 ]
-\addplot[fill=gray!45, draw=gray!65] coordinates {(CB,94) (Unif,62) (Self,52) (Ent,58) (Ada,62) (Dual,65) (CTA,7)};
-\addplot[fill=orange!65, draw=orange!80!black] coordinates {(CB,70) (Unif,105) (Self,114) (Ent,122) (Ada,105) (Dual,106) (CTA,134)};
-\addplot[fill=teal!60, draw=teal!80!black] coordinates {(CB,126) (Unif,123) (Self,124) (Ent,110) (Ada,123) (Dual,119) (CTA,149)};
-\legend{Schema fail, Fluent wrong CWE, Correct}
+\addplot[fill=barblue, draw=barblue!60!black] coordinates {(CB,43.4483) (Unif,42.4138) (Self,42.7586) (Ent,37.9310) (Ada,42.4138) (Dual,41.0345) (CTA,51.3793)};
+\addplot[fill=barorange, draw=barorange!70!black] coordinates {(CB,67.59) (Unif,78.62) (Self,82.07) (Ent,80.00) (Ada,78.62) (Dual,77.59) (CTA,97.59)};
+\legend{Correct,Recorded parse validity}
 \end{axis}
 \end{tikzpicture}
-\caption{\textbf{Hallucination-style split on external RCM.}
-Grey: unparseable outputs. Orange: parseable but incorrect CWE. Teal: gold match.
-CTA-RAG mostly removes grey, not orange.}
-\label{fig:hallucination-rcm}
+\caption{External CTIConnect RCM correctness and recorded parse validity on the same 290 items. Mean item F1 equals the fraction correct. Parse validity and semantic correctness are separate scores. Abbreviations follow Figure~\ref{fig:current-results}. Values are Table~\ref{tab:transfer}.}
+\label{fig:external-rcm}
 \end{figure}
 
-\paragraph{Reproducibility.}
-We retain item-level predictions, normalized outputs, available run metadata,
-prompt versions, model identifiers, corpus-version labels, prediction-file
-fingerprints, and analysis seeds. Statistics are recomputed from these fixed
-records rather than manually transcribed. Internal CTA metadata are incomplete,
-and corpus-version labels do not constitute content fingerprints. API outputs
-may vary across model revisions; the paired intervals quantify item-sampling
-uncertainty rather than repeated-generation variability.
+
+CTA-RAG is again first on weakness mapping: 149 of 290 items correct, mean F1 0.5138. Closed Book is the strongest peer, at 126 of 290 and 0.4345. Unified RAG is 123 of 290. The paired gain over Closed Book is 23 items, 7.93 points, with a 95\% interval of 3.10--12.76. Holm correction across the six external contrasts supports that gain (all corrected $p\leq 0.0115$). The six external tests are separate from the 24 CTIBench contrasts. Absolute scores sit below the CTIBench RCM numbers. The shared-retrieval systems sit at or below Closed Book on this corpus. The result is an external check of the RCM specialist inside CTA-RAG.
+
+\subsection{Hallucination versus schema failure}
+\label{sec:hallucination}
+
+A hallucination here is a CWE the parser accepts that names the wrong weakness \citep{maynez2020faithfulness,ji2023survey}. A schema failure is a string the parser rejects. Weakness mapping is where that split is measurable: the output is one catalogue identifier, so a legal CWE can look successful and still be wrong. Accuracy, MAD, technique F1, and exact identifier match already score a wrong answer as wrong on the other tasks. Table~\ref{tab:hallucination-rcm} is the hallucination count for the external set.
+
+Of the 290 CTIConnect items, CTA-RAG is correct on 149, hallucinates on 134, and fails to parse on 7 (Table~\ref{tab:hallucination-rcm}). The 97.59\% parse rate is the share that produced a CWE string, which is why it sits above the 149 correct mappings. On CTIBench RCM the same definition gives CTA-RAG 734 correct, 196 hallucinations, and 70 schema failures out of 1,000.
 
 %%==============================================================================
 \section{Operational Implications}\label{sec:impact}
@@ -1594,91 +1680,77 @@ mapping and severity scoring benefit from closer alignment between evidence
 and the required answer. The paired analysis also shows that improvements
 are accompanied by regressions on other items. An analyst-facing deployment
 should therefore evaluate consequential errors, escalation thresholds, and
-review burden rather than equating a higher average score with safer triage.
-These workflow outcomes were not measured in the benchmark.
+review burden. A higher average score is a separate question from safer triage.
+Measuring consequential errors and review burden requires a workflow study beyond the benchmark.
 
 Structured outputs make some failures observable and support rejection,
-retry, or human review before downstream use. They do not establish semantic
-correctness or injection resistance: an incorrect or attacker-influenced
+retry, or human review before downstream use. Semantic correctness and injection resistance stay open: an incorrect or attacker-influenced
 answer can still be a valid CWE or CVSS vector. A practical interface should
 request the intended output explicitly, clarify ambiguous requests, and admit
 abstention outside the specialist inventory. Complete timing and token
-instrumentation is also needed before claiming efficiency benefits. These
-controls complement specialization and can be applied to shared RAG systems
-as well.
+instrumentation is also needed before claiming efficiency benefits. Explicit
+requests, clarification, and abstention complement specialisation, and shared
+RAG systems can adopt the same controls.
 
-\paragraph{Maintenance Cost of Specialization..}
+\paragraph{Maintenance cost of specialisation.}
 CTA-RAG shares model-client utilities, embedding interfaces, vector-store
 components, and evaluation code, but maintains task-specific retrieval
 configurations, prompts, and output handling. Each specialist therefore
 requires separate regression coverage, and source updates must be checked
-against the pipelines that consume them. Adding a task expands this
-configuration and testing surface beyond extending a shared prompt. We did
-not measure developer person-hours and claim no quantified maintenance
-advantage.
+against each consuming pipeline. Adding a task expands this
+configuration and testing surface beyond extending a shared prompt. Developer
+person-hours fall outside our measurements, so the paper makes no quantified
+maintenance claim.
 
 %%==============================================================================
 \section{Limitations}\label{sec:limitations}
 %%==============================================================================
 
-\paragraph{Benchmark coverage and generalization.}
-The main results cover five CTIBench tasks; the external evaluation covers
-CTIConnect RCM and ATA. ATE has 60 items, and its additional specialist gain
-is not established after multiplicity correction. The paired tests quantify
-item-sampling uncertainty for these saved predictions, not model-run
-variability. They assume independently sampled evaluation items; shared
-reports, related CVEs, or other clustering could make item-level intervals
-too narrow. Neither the external result nor template routing accuracy
-establishes generalization to unconstrained analyst traffic.
+\paragraph{Benchmark coverage and generalisation.}
+RQ1 covers five CTIBench tasks. MCQ, RCM, VSP, and ATE share Table~\ref{tab:main}. TAA uses actor match and is reported with that metric. ATA keeps a separate subsection because the CTIConnect items use a single-identifier contract. The external result covers weakness mapping on CTIConnect. ATE has 60 items, and the extra specialist margin on ATE falls inside the Holm-corrected uncertainty. The paired tests quantify item-sampling uncertainty for the saved predictions and treat evaluation items as independent. Shared reports or related CVEs could make the intervals too narrow. Route accuracy is the share of instructions sent to the named specialist (Table~\ref{tab:route-accuracy}). Answer accuracy on the four CTIBench tasks is the score reported in Table~\ref{tab:main}. ATA route misses were not re-generated on the wrong specialist.
 The evaluated datasets, prompts, and routing cues are English, and retrieval
 is evaluated in an English-language setting. Dependence on English schema
-terms and possible changes in embedding behavior limit multilingual claims.
+terms and possible changes in embedding behaviour limit multilingual claims.
 Translated or native-language CTI benchmarks and language-aware routing and
 retrieval are needed to assess that scope.
 
 \paragraph{Baseline fidelity and causal attribution.}
-Self-Critique RAG, Entity-Guided Multi-Query RAG, Adaptive-RAG-adapted, and
-Dual-Query RAG denote the implemented mechanisms, not full reproductions
-of upstream architectures. CTA-RAG differs in prompts, indexes, and pipeline
-behavior, so its paired gains do not isolate specialization or retrieval
-alone. The task-level mechanisms discussed above are interpretations
-supported by the design and diagnostics, not mediation analyses. The
-statistical analysis is retrospective rather than preregistered; all
-24 primary contrasts are tested and jointly corrected to limit selective
-reporting.
-The 50-item TAA set was used for CombSUM candidate-recall ablations and constrained top-3 generation.
-Those retrieval tables are gold-blind but still use the same 50 evaluation reports, so they do not replace a held-out TAA test.
-The ATA table reports fused RRF recall on 160 CTIConnect items at a predeclared top-5 cutoff.
+Self-Critique RAG, Entity-Guided Multi-Query RAG, Adaptive-RAG, and
+Dual-Query RAG denote the mechanisms we implemented from each cited paper,
+and each upstream architecture has further components. CTA-RAG differs in
+prompts, indexes, and pipeline behaviour, so a paired gain combines the
+effect of specialisation with the effect of retrieval. The task-level
+mechanisms discussed above are interpretations that the design and the
+diagnostics support, and a mediation analysis would test each mechanism
+directly. The statistical analysis is retrospective. We test all 24 primary
+contrasts and apply one joint Holm correction to limit selective reporting.
+The 50-item TAA set was used both to design CombSUM and to score its recall, so that recall figure is an in-sample diagnostic. End-to-end TAA scores the generator's choice among three retrieved names. ATA candidate recall is gold-in-list at five cards. Free generation can still name the gold identifier when that list misses it. Restricted generation can return only a retrieved identifier. Entity-Guided RAG at 79/160 and CTA-RAG at 78/160 are aggregate free-generation scores. Item-level pairs between the two runs were outside the audited artefact. Twelve free-generation errors still pick a wrong identifier from a list that already contained the gold identifier.
 The four cognitive modes are an operational decomposition by evidence,
-reasoning, and output requirements, not a uniquely necessary taxonomy.
-The main comparison does not isolate this grouping against alternatives
-based on task identity, knowledge source, output schema, or retrieval
-complexity; it therefore cannot establish that the cognitive grouping is
-uniquely optimal. The controlled shared-corpus comparison uses dense
-retrieval; hybrid BM25--dense retrieval is an orthogonal ablation not
-evaluated in the reported main results.
+reasoning, and output requirements. Other groupings by task identity,
+knowledge source, output schema, or retrieval complexity remain untested, so
+the evidence supports the cognitive grouping as one workable design. The
+controlled shared-corpus comparison uses dense retrieval, and hybrid
+BM25--dense retrieval is a separate ablation for future work.
 
 \paragraph{Operational reliability.}
 Full-attempt VSP scoring uses an explicit maximum-error penalty for eight
-API failures; other service-failure conventions can change the effect size.
-The common-success subset is a sensitivity analysis, not a replacement for
-the primary denominator. Invalid RCM outputs remain a substantial weakness
-of CTA-RAG. Incomplete internal provider, token, and call metadata and
-different timing boundaries prevent a controlled efficiency comparison.
+API failures. Another convention for the eight failures can change the effect size.
+The common-success subset is a sensitivity check. The primary denominator keeps every item. Invalid RCM outputs remain a substantial weakness
+of CTA-RAG. The released logs time different boundaries: CTA-RAG specialist-call medians are 6.11\,s on MCQ, 4.88\,s on RCM, 2.31\,s on VSP, and 10.74\,s on ATE, while the peer logs time the final generation call. Token counts are incomplete, so the medians are an audit of the logs. A latency ranking needs one timer, one repair step, and complete token counts on every system. We recompute the statistics from the saved item-level predictions.
 
 \paragraph{Corpus overlap and security.}
-Query-time sanitization removes selected leakage signals but does not
-establish independence between retrieval corpora and evaluation items,
-including the external dataset. Index-level exclusion and overlap audits
-would provide stronger evidence. No poisoning or prompt-injection attacks
-were evaluated. Task-scoped indexes may limit document exposure when
-properly isolated, but neither compartmentalization nor schema validation
-should be presented as a measured adversarial defense.
-The evaluation also assumes sufficiently reliable indexed sources. The
-pipelines do not implement temporal conflict resolution, source-authority
-weighting, or cross-source contradiction detection. Task scoping cannot
-correct stale or erroneous information within an allowed source, and saved
-retrieval provenance is incomplete. Deployment requires source provenance,
+Query-time sanitisation removes selected leakage signals. Independence
+between the retrieval corpora and the evaluation items, including the
+external dataset, needs index-level exclusion and overlap audits. Poisoning
+and prompt-injection attacks remain outside this evaluation. Isolated
+task-scoped indexes may limit document exposure, and a measured adversarial
+test is required before either compartmentalisation or schema validation
+counts as a defence.
+The evaluation also assumes sufficiently reliable indexed sources. Temporal
+conflict resolution, source-authority weighting, and cross-source
+contradiction detection lie outside the current pipelines. Task scoping
+leaves stale or erroneous information inside an allowed source unchanged,
+and saved retrieval provenance is incomplete. Deployment requires source provenance,
 snapshot versioning, update monitoring, and abstention or human review when
 authoritative sources disagree.
 
@@ -1686,22 +1758,18 @@ authoritative sources disagree.
 \section{Conclusion}\label{sec:conclusion}
 %%==============================================================================
 
-The evaluation shows why task specialization is a useful complement to
-retrieval rather than a universal replacement for it. Shared RAG already
-provides substantial technique-grounding benefits and remains competitive
-on MCQ. CTA-RAG adds statistically supported RCM and VSP gains over Unified
-RAG under the full-attempt protocol, while its additional ATE gain and its
-differences from the strongest adaptive baseline remain uncertain after
-correction. The external RCM evaluation supports the complete configuration
-on that task only. TAA and ATA remain shortlist audits.
+We built CTA-RAG so that a router selects the CTI artefact before retrieval and one specialist then answers, with its own index, prompt, and parser. We compared that pipeline with six retrieval systems on the same items and the same generator, GPT-4-turbo, under one full-attempt protocol and the official metric for each dataset.
 
-RQ1--RQ3 are therefore connected:
-specialization helps selected decision contracts; automatic routing is accurate
-under the tested instructions but untested under wording changes; and
-retrieval can both rescue and damage individual decisions.
+On the five CTIBench tasks in RQ1, CTA-RAG leads root-cause mapping at 73.40\% and vulnerability severity at a mean absolute deviation of 1.0990. Holm-corrected tests support both gains over Unified RAG. Adaptive-RAG leads multiple choice at 75.48\%, and CTA-RAG scores 74.84\%. Every retrieval system lifts technique extraction well above the Closed Book F1 of 0.4149, and CTA-RAG reaches 0.9554. After Holm correction that extra extraction margin sits inside the uncertainty of the 60-report sample. On threat-actor attribution, CTA-RAG names the correct actor on 27 of 50 reports. The router sends 4,742 of 4,770 instructions to the named specialist (Table~\ref{tab:route-accuracy}). That figure is route accuracy. Answer accuracy is a separate score: a correct route can still be a wrong answer, and the answer scores are the ones above.
+
+The practical implication is to choose the pipeline by the artefact. The RCM and VSP specialists inside CTA-RAG move the score when the answer is one CWE identifier or one CVSS vector. Shared or adaptive retrieval is enough for a factual letter. Adding an ATT\&CK index accounts for most of the extraction gain over a no-retrieval answer. Retrieval can also overturn a Closed Book answer that was already right, so a higher average still leaves a set of newly wrong items for review.
+
+Threat-actor attribution on 50 reports and technique attribution on 160 CTIConnect items each use a specialist the dataset already names. We report candidate recall beside the end-to-end decision. On an external set of 290 weakness-mapping items, CTA-RAG is correct on 149, with 7 schema failures and 134 accepted CWEs that name the wrong weakness.
+
+A later study can enlarge the extraction set, test the router on paraphrased requests, and remove benchmark sentences from the index before retrieval. A deployment still needs source provenance, snapshot versioning, and human review when authoritative sources disagree. The evidence in this paper covers the benign benchmark items and the contracts above.
 
 
-\bibliographystyle{elsarticle-num}
+\bibliographystyle{elsarticle-harv}
 \bibliography{references}
 
 \end{document}
